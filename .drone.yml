@@ -1,3 +1,7 @@
+label:
+  - cpus=4
+  - ram=1024
+  - mhz=2000
 pipeline:
   build:
     image: 'alpine:edge'
@@ -10,6 +14,7 @@ pipeline:
         apk --update add bash less man vim git alpine-sdk lua-aports
         adduser -G abuild -s /bin/sh -D builder
         echo '%abuild ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/abuild
+        sed -i.orig -e '/JOBS=/s/=.*$/=4/' /etc/abuild.conf
       - 'mkdir -p /var/cache/distfiles && chmod 0777 /var/cache/distfiles'
       - 'git fetch --no-tags origin +refs/heads/master:'
       - |
