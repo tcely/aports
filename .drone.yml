@@ -1,0 +1,29 @@
+pipeline:
+  build:
+    image: 'alpine:edge'
+    commands:
+      - |
+        echo "$DRONE_PREV_COMMIT_SHA" > /tmp/prev-commit
+        echo "$DRONE_COMMIT_SHA" > /tmp/commit
+        echo "${DRONE_PREV_COMMIT_SHA}..${DRONE_COMMIT_SHA}" > /tmp/range
+      - |
+        apk --update add bash less man vim git alpine-sdk lua-aports
+        adduser -G abuild -s /bin/sh -D builder
+        echo '%abuild ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/abuild
+      - 'mkdir -p /var/cache/distfiles && chmod 0777 /var/cache/distfiles'
+      - 'git fetch --no-tags origin +refs/heads/master:'
+      - |
+        : >> /tmp/.builder && chmod 0644 /tmp/.builder
+        printf >> /tmp/.builder '--' '%s\\n' '#!/bin/sh' '' \
+          'ra_user() {' 'local _user="builder" _dir="$(realpath . | tr -d "'\''")"' '' \
+          'su -l "$_user" sh -c "cd '\''$_dir'\'' && $*"' '}'
+      - |
+        . /tmp/.builder || exit 1
+        chown -R builder:abuild .
+        ra_user abuild-keygen -ain
+        ra_user 'for _r in main community testing non-free unmaintained; do
+          git diff-tree --quiet "${DRONE_PREV_COMMIT_SHA:-FETCH_HEAD}.." -- "$_r" || echo "$_r";
+          done > /tmp/changed-repos'
+        ra_user 'git diff-tree -r --name-only --diff-filter=ACMR "${DRONE_PREV_COMMIT_SHA:-FETCH_HEAD}.." -- "*/APKBUILD" | awk -F / "BEGIN{OFS=FS;} {NF=(NF-1); print;}" > /tmp/changed-aports'
+        ra_user 'for _r in $(cat /tmp/changed-repos); do ap builddirs -d "$(realpath .)/$_r" $(awk -v "repo=$_r" -F / '\''repo == $1 {print $2;}'\'' /tmp/changed-aports) > "/tmp/sorted-aports-$_r"; for _p in $(cat "/tmp/sorted-aports-$_r"); do (cd "$_p" && abuild -r && checkapk); done; done'
+      - 'find /tmp -type f -exec echo {} ";" -exec cat {} ";" -exec echo ";"'
