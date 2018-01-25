@@ -5,6 +5,7 @@ label:
 pipeline:
   build:
     image: 'alpine:edge'
+    pull: true
     commands:
       - |
         echo "$DRONE_PREV_COMMIT_SHA" > /tmp/prev-commit
