@@ -1,7 +1,7 @@
-label:
-  - cpus=2
-  - ram=1024
-  - mhz=4000
+labels:
+  cpus: 2
+  ram: 1024
+  mhz: 4000
 pipeline:
   build:
     image: 'alpine:edge'
