@@ -31,7 +31,7 @@ pipeline:
           git diff-tree --quiet "${DRONE_PREV_COMMIT_SHA:-FETCH_HEAD}.." -- "$_r" || echo "$_r";
           done > /tmp/changed-repos'
         ra_user 'git diff-tree -r --name-only --diff-filter=ACMR "${DRONE_PREV_COMMIT_SHA:-FETCH_HEAD}.." -- "*/APKBUILD" | awk -F / "BEGIN{OFS=FS;} {NF=(NF-1); print;}" > /tmp/changed-aports'
-        ra_user 'for _r in $(cat /tmp/changed-repos); do \
+        ra_user 'for _r in $(tac /tmp/changed-repos); do \
             ap builddirs -d "$(realpath .)/$_r" > "/tmp/sorted-aports-$_r" \
               $(awk -v "repo=$_r" -F / '\''repo == $1 {print $2;}'\'' /tmp/changed-aports); \
             for _p in $(cat "/tmp/sorted-aports-$_r"); do \
