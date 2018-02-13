@@ -16,7 +16,7 @@ pipeline:
         printf > /etc/apk/repositories '--' 'http://dl-cdn.alpinelinux.org/alpine/edge/%s\n' \
           main community testing non-free unmaintained
         apk --update add bash less man vim git alpine-sdk lua-aports
-        sed -i.orig -e '/JOBS=/s/=.*$/=4/' /etc/abuild.conf
+        sed -i.orig -e '/JOBS=/s/=.*$/=2/' /etc/abuild.conf
         adduser -G abuild -s /bin/sh -D builder
         echo '%abuild ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/abuild
         chown builder /etc/apk/repositories
