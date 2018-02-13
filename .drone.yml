@@ -13,6 +13,8 @@ pipeline:
         echo "${DRONE_PREV_COMMIT_SHA}..${DRONE_COMMIT_SHA}" > /tmp/range
       - |
         mkdir -p /var/cache/distfiles && chmod 0777 /var/cache/distfiles
+        printf > /etc/apk/repositories '--' 'http://dl-cdn.alpinelinux.org/alpine/edge/%s\n' \
+          main community testing non-free unmaintained
         apk --update add bash less man vim git alpine-sdk lua-aports
         sed -i.orig -e '/JOBS=/s/=.*$/=4/' /etc/abuild.conf
         adduser -G abuild -s /bin/sh -D builder
