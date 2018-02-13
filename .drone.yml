@@ -42,4 +42,4 @@ pipeline:
               (cd "$_p" && abuild -r && checkapk); \
             done; \
           done'
-      - 'find /tmp -type f -exec echo {} ";" -exec cat {} ";" -exec echo ";"'
+      - 'find /tmp -maxdepth 1 -type f -exec echo {} ";" -exec cat {} ";" -exec echo ";"'
