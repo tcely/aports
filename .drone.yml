@@ -19,6 +19,7 @@ pipeline:
         sed -i.orig -e '/JOBS=/s/=.*$/=4/' /etc/abuild.conf
         adduser -G abuild -s /bin/sh -D builder
         echo '%abuild ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/abuild
+        chown builder /etc/apk/repositories
       - 'git fetch --no-tags origin +refs/heads/master:'
       - |
         : >> /tmp/.builder && chmod 0644 /tmp/.builder
@@ -34,6 +35,7 @@ pipeline:
           done > /tmp/changed-repos'
         ra_user 'git diff-tree -r --name-only --diff-filter=ACMR "${DRONE_PREV_COMMIT_SHA:-FETCH_HEAD}.." -- "*/APKBUILD" | awk -F / "BEGIN{OFS=FS;} {NF=(NF-1); print;}" > /tmp/changed-aports'
         ra_user 'for _r in $(tac /tmp/changed-repos); do \
+            printf >> /etc/apk/repositories -- "/home/builder/packages/%s\n" "$_r"; \
             ap builddirs -d "$(realpath .)/$_r" > "/tmp/sorted-aports-$_r" \
               $(awk -v "repo=$_r" -F / '\''repo == $1 {print $2;}'\'' /tmp/changed-aports); \
             for _p in $(cat "/tmp/sorted-aports-$_r"); do \
