@@ -3,6 +3,7 @@ pkgname=boost
 pkgver=1.66.0
 _pkgver="${pkgver//./_}"
 pkgrel=0
+_build=1
 pkgdesc="Free peer-reviewed portable C++ source libraries"
 url="http://www.boost.org/"
 arch="all"
