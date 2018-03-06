@@ -11,9 +11,16 @@ depends="python3"
 depends_dev=""
 makedepends="$depends_dev python3-dev python2 bison asciidoc libressl-dev linux-headers"
 subpackages="$pkgname-doc"
-source="https://ftp.ntpsec.org/pub/releases/$pkgname-$pkgver.tar.gz"
+source="https://ftp.ntpsec.org/pub/releases/$pkgname-$pkgver.tar.gz
+        https://raw.githubusercontent.com/redlab-i/pps-tools/v1.0.2/timepps.h"
 builddir="$srcdir/$pkgname-$pkgver"
 install=""
+
+prepare() {
+	install -D -m644 "$srcdir/timepps.h" "$builddir/sys/timepps.h"
+
+	default_prepare
+}
 
 build() {
 	cd "$builddir"
@@ -36,6 +43,8 @@ package() {
 	./waf install --destdir="$pkgdir"
 }
 
-sha256sums="7727e67679812200c52a4c8114bb140f217a4303ec52326c449c15cc470c1700  ntpsec-1.0.0.tar.gz"
-sha512sums="9fb06310508b30d2ae2d66212d7d87b00e8eea294cebc27eb70435d764bd639fcec234b66e78deafb700476c88e47afe2d1b463563008c32efbb0644dd611f43  ntpsec-1.0.0.tar.gz"
+sha256sums="7727e67679812200c52a4c8114bb140f217a4303ec52326c449c15cc470c1700  ntpsec-1.0.0.tar.gz
+a7340847b64c53b31b06ff9b043b358b1bec30cdf37cdfabe819f7b722485903  timepps.h"
+sha512sums="9fb06310508b30d2ae2d66212d7d87b00e8eea294cebc27eb70435d764bd639fcec234b66e78deafb700476c88e47afe2d1b463563008c32efbb0644dd611f43  ntpsec-1.0.0.tar.gz
+1ccc98693658e679a6d8fc63156efa47d59f9c4b66f7584b4ab85bfaccf26c393463529220b9bac580def8ee3de5adf84aa43c37d66d8815d26f907564a94c57  timepps.h"
 _fingerprint='DA3F DF77 4CC7 0FA6 4729  EC45 05D9 B371 477C 7528'
