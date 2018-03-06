@@ -25,7 +25,7 @@ prepare() {
 
 build() {
 	cd "$builddir"
-	./waf configure \
+	CFLAGS="$CFLAGS -I." ./waf configure \
 		--prefix=/usr \
 		--python=/usr/bin/python3 \
 		--enable-mssntp \
