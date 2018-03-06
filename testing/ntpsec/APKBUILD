@@ -26,6 +26,11 @@ build() {
 	./waf build --verbose
 }
 
+check() {
+	cd "$builddir"
+	./waf check --verbose
+}
+
 package() {
 	cd "$builddir"
 	./waf install --destdir="$pkgdir"
