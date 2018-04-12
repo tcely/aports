@@ -8,7 +8,7 @@ pipeline:
     image: 'i386/alpine:edge'
     pull: true
     when:
-      platform: 'linux/amd64'
+      platform: 'linux/i386'
     commands:
       - |
         echo "$DRONE_PREV_COMMIT_SHA" > /tmp/prev-commit
