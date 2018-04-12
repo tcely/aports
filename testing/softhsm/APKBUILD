@@ -34,7 +34,7 @@ build() {
 check() {
         cd "$builddir"
 
-        make check || { find . -name test-suite.log -print -exec cat -v '{}' ';'; return 1; }
+        make check || { find . -name test-suite.log -print -exec cat -v '{}' ';'; sleep 600; return 1; }
 }
 
 package() {
