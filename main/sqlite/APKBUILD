@@ -67,11 +67,14 @@ build() {
 }
 
 _time_test() {
-	echo 1>&2 "BEGIN $1"
+	local test="$1"
+	shift
+
+	echo 1>&2 "BEGIN $test"
 	date 1>&2
-	make "$@"
+	make "$test" "$@"
 	date 1>&2
-	echo 1>&2 "END $1"
+	echo 1>&2 "END $test"
 }
 
 check() {
