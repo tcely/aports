@@ -50,3 +50,4 @@ matrix:
     - platform: 'linux/i386'
       image: 'i386/alpine:edge'
 platform: ${platform}
+branches: drone/*
