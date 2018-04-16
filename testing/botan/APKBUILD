@@ -24,6 +24,7 @@ build() {
 	./configure.py \
 		--prefix=/usr \
 		--mandir=/usr/share/man \
+		--cpu="$CARCH" \
 		--with-boost \
 		--with-bzip2 \
 		--with-lzma \
