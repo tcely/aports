@@ -135,7 +135,8 @@ package() {
 	_set_options
 
 	install -Dm755 "$_bjam" \
-		"$pkgdir"/usr/bin/bjam
+		"$pkgdir"/usr/bin/b2
+	ln -s b2 "$pkgdir"/usr/bin/bjam # old name for b2 binary
 
 	install -Dm755 dist/bin/bcp "$pkgdir"/usr/bin/bcp
 
