@@ -40,22 +40,44 @@ for _lib in $_libs; do
 	subpackages="$subpackages $pkgname-$_lib:_boostlib"
 done
 
+_set_options() {
+	[ -n "$PY2_VERSION" ] || PY2_VERSION="$(_pyversion python2)"
+	[ -n "$PY3_VERSION" ] || PY3_VERSION="$(_pyversion python3)"
+
+	local _options_python="${PY2_VERSION:+$PY2_VERSION,}${PY3_VERSION}"
+	[ -z "$_options_python" ] || _options_python="python=$_options_python"
+
+	_options="
+		--user-config=\"$builddir/user-config.jam\"
+		--prefix=\"$pkgdir/usr\"
+		release
+		$_options_python
+		toolset=gcc
+		debug-symbols=off
+		threading=single,multi
+		runtime-link=shared
+		link=shared,static
+		cflags=-fno-strict-aliasing
+		--layout=tagged
+		-q
+		-j${JOBS:-2}
+		${_options_s390}
+		"
+}
+
 prepare() {
 	default_prepare
 
 	cd "$builddir"
-
-	PY2_VERSION="$(_pyversion python2)"
-	PY3_VERSION="$(_pyversion python3)"
-	abiflags=$(python3-config --abiflags)
-
+	_set_options
+	local abiflags="$(python3-config --abiflags)"
 
 	# create user-config.jam
 	cat > user-config.jam <<-__EOF__
 
 	using gcc : : $CC : <cxxflags>"${CXXFLAGS}" <linkflags>"${LDFLAGS}" ;
-	using python : ${PY2_VERSION} : /usr/bin/python2 : /usr/include/python${PY2_VERSION} : : : : ;
-	using python : ${PY3_VERSION} : /usr/bin/python3 : /usr/include/python${PY3_VERSION}m : : : : $abiflags ;
+	using python : ${PY2_VERSION:+$PY2_VERSION }: /usr/bin/python2 : ${PY2_VERSION:+/usr/include/python${PY2_VERSION} }: : : : ;
+	using python : ${PY3_VERSION:+$PY3_VERSION }: /usr/bin/python3 : ${PY3_VERSION:+/usr/include/python${PY3_VERSION}${abiflags} }: : : : ${abiflags:+$abiflags };
 
 	__EOF__
 }
@@ -71,23 +93,6 @@ _bjam="${builddir}/$_enginedir/bin.linux${_boostarch}/bjam"
 [ "$_boostarch" = "s390" ] && _bjam="${builddir}/$_enginedir/bin.linux390/bjam" && \
 	_options_s390="--without-context --without-coroutine"
 
-_options="--user-config=\"$builddir/user-config.jam\"
-	--prefix=\"$pkgdir/usr\"
-	release
-	debug-symbols=off
-	threading=single,multi
-	runtime-link=shared
-	link=shared,static
-	cflags=-fno-strict-aliasing
-	-sPYTHON_ROOT=/usr
-	-sPYTHON_VERSION=$PY2_VERSION
-	-sTOOLS=gcc
-	--layout=tagged
-	-q
-	-j${JOBS:-2}
-	${_options_s390}
-	"
-
 build() {
 	export BOOST_ROOT="$builddir"
 
@@ -101,6 +106,7 @@ build() {
 
 	msg "Building boost"
 	cd "$builddir"
+	_set_options
 	"$_bjam" $_options
 }
 
@@ -113,6 +119,7 @@ check() {
 package() {
 	export BOOST_ROOT="$builddir"
 	cd "$builddir"
+	_set_options
 
 	install -Dm755 "$_bjam" \
 		"$pkgdir"/usr/bin/bjam
