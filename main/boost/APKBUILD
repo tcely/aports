@@ -41,7 +41,7 @@ for _lib in $_libs; do
 done
 
 prepare() {
-	default_prepare || return 1
+	default_prepare
 
 	cd "$builddir"
 
@@ -93,11 +93,11 @@ build() {
 
 	msg "Building bjam"
 	cd "$builddir"/$_enginedir
-	CC= ./build.sh cc || return 1
+	CC= ./build.sh cc
 
 	msg "Building bcp"
 	cd "$builddir"/tools/bcp
-	"$_bjam" -j${JOBS:-2} || return 1
+	"$_bjam" -j${JOBS:-2}
 
 	msg "Building boost"
 	cd "$builddir"
@@ -109,17 +109,17 @@ package() {
 	cd "$builddir"
 
 	install -Dm755 $_bjam \
-		"$pkgdir"/usr/bin/bjam || return 1
+		"$pkgdir"/usr/bin/bjam
 
-	install -Dm755 dist/bin/bcp "$pkgdir"/usr/bin/bcp || return 1
+	install -Dm755 dist/bin/bcp "$pkgdir"/usr/bin/bcp
 
 	install -Dm644 LICENSE_1_0.txt \
-		"$pkgdir"/usr/share/licenses/$pkgname/LICENSE_1_0.txt || return 1
+		"$pkgdir"/usr/share/licenses/$pkgname/LICENSE_1_0.txt
 
 	"$pkgdir"/usr/bin/bjam $_options \
 		--includedir="$pkgdir"/usr/include \
 		--libdir="$pkgdir"/usr/lib \
-		install || return 1
+		install
 }
 
 _boostlib() {
