@@ -107,7 +107,7 @@ build() {
 check() {
 	cd "$builddir"/tools/build/test
 
-	python2 test_all.py
+	PATH="${_bjam%/*}:${PATH}" python2 test_all.py --default-bjam
 }
 
 package() {
