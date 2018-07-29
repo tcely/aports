@@ -17,7 +17,28 @@ source="https://dl.bintray.com/boostorg/release/$pkgver/source/${pkgname}_$_pkgv
 	"
 builddir="$srcdir/${pkgname}_${_pkgver}"
 
-_libs="date_time
+case "$CARCH" in
+	armhf|aarch64) _boostarch=arm ;;
+	ppc64*) _boostarch=ppc ;;
+	s390x)
+		_boostarch=s390
+		_l_suffix=390
+		_options_carch="--without-context --without-coroutine"
+		;;
+	*) _boostarch=$CARCH ;;
+esac
+_enginedir="tools/build/src/engine"
+_bjam="${builddir}/${_enginedir}/bin.linux${_l_suffix:-$_boostarch}/bjam"
+
+_libs="
+	atomic
+	chrono
+	container
+	context
+	contract
+	coroutine
+	date_time
+	fiber
 	filesystem
 	graph
 	iostreams
@@ -37,6 +58,9 @@ _libs="date_time
 	wserialization
 	"
 for _lib in $_libs; do
+	for _option in $_options_carch; do
+		case "$_option" in --without-${_lib}) continue ;; esac
+	done
 	subpackages="$subpackages $pkgname-$_lib:_boostlib"
 done
 
@@ -61,7 +85,7 @@ _set_options() {
 		--layout=tagged
 		-q
 		-j${JOBS:-2}
-		${_options_s390}
+		$_options_carch
 		"
 }
 
@@ -81,17 +105,6 @@ prepare() {
 
 	__EOF__
 }
-
-case "$CARCH" in
-	armhf|aarch64) _boostarch=arm ;;
-	ppc64*) _boostarch=ppc ;;
-	s390x) _boostarch=s390 ;;
-	*) _boostarch=$CARCH ;;
-esac
-_enginedir=tools/build/src/engine
-_bjam="${builddir}/$_enginedir/bin.linux${_boostarch}/bjam"
-[ "$_boostarch" = "s390" ] && _bjam="${builddir}/$_enginedir/bin.linux390/bjam" && \
-	_options_s390="--without-context --without-coroutine"
 
 build() {
 	export BOOST_ROOT="$builddir"
