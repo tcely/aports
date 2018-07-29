@@ -104,6 +104,12 @@ build() {
 	"$_bjam" $_options
 }
 
+check() {
+	cd "$builddir"/tools/build/test
+
+	python2 test_all.py
+}
+
 package() {
 	export BOOST_ROOT="$builddir"
 	cd "$builddir"
