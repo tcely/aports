@@ -164,7 +164,7 @@ _boostlib() {
 	esac
 
 	mkdir -p "$subpkgdir"/usr/lib
-	mv "$pkgdir"/usr/lib/libboost_$name* "$subpkgdir"/usr/lib/
+	mv "$pkgdir"/usr/lib/libboost_$name*.so.[0-9]* "$subpkgdir"/usr/lib/
 }
 
 _pyversion() {
