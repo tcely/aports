@@ -7,8 +7,9 @@ pkgdesc="Free peer-reviewed portable C++ source libraries"
 url="http://www.boost.org/"
 arch="all"
 license="custom"
-depends=""
-depends_dev="linux-headers"
+depends="$pkgname-libs"
+depends_libs="$pkgname-static-libs"
+depends_dev="$depends_libs linux-headers"
 makedepends="$depends_dev python2-dev>=2.6 python3-dev flex bison bzip2-dev zlib-dev"
 subpackages="$pkgname-static-libs:_staticlibs $pkgname-dev $pkgname-doc"
 source="https://dl.bintray.com/boostorg/release/$pkgver/source/${pkgname}_$_pkgver.tar.bz2
@@ -63,6 +64,7 @@ for _lib in $_libs; do
 	done
 	subpackages="$subpackages $pkgname-$_lib:_boostlib"
 done
+subpackages="$subpackages $pkgname-libs"
 
 _set_options() {
 	[ -n "$PY2_VERSION" ] || PY2_VERSION="$(_pyversion python2)"
@@ -165,6 +167,21 @@ _boostlib() {
 
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/libboost_$name*.so.[0-9]* "$subpkgdir"/usr/lib/
+}
+
+libs() {
+	default_libs
+
+	pkgdesc="Boost runtime libraries"
+	depends="$depends_libs"
+	local _pkg; for _pkg in $origsubpackages; do
+		case "$_pkg" in
+			*:_boostlib) depends="$depends ${_pkg%%:*}" ;;
+		esac
+	done
+
+	mkdir -p "$subpkgdir"
+	rmdir "$pkgdir"/usr/lib >/dev/null 2>&1 || :
 }
 
 _pyversion() {
