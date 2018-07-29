@@ -10,7 +10,7 @@ license="custom"
 depends=""
 depends_dev="linux-headers"
 makedepends="$depends_dev python2-dev>=2.6 python3-dev flex bison bzip2-dev zlib-dev"
-subpackages="$pkgname-dev $pkgname-doc"
+subpackages="$pkgname-static-libs:_staticlibs $pkgname-dev $pkgname-doc"
 source="https://dl.bintray.com/boostorg/release/$pkgver/source/${pkgname}_$_pkgver.tar.bz2
 	boost-1.57.0-python-abi_letters.patch
 	boost-1.57.0-python-libpython_dep.patch
@@ -147,6 +147,13 @@ package() {
 		--includedir="$pkgdir"/usr/include \
 		--libdir="$pkgdir"/usr/lib \
 		install
+}
+
+_staticlibs() {
+	pkgdesc="Boost static libraries"
+
+	mkdir -p "$subpkgdir"/usr/lib
+	mv "$pkgdir"/usr/lib/lib*.a "$subpkgdir"/usr/lib/
 }
 
 _boostlib() {
