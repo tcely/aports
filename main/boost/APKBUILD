@@ -108,7 +108,7 @@ package() {
 	export BOOST_ROOT="$builddir"
 	cd "$builddir"
 
-	install -Dm755 $_bjam \
+	install -Dm755 "$_bjam" \
 		"$pkgdir"/usr/bin/bjam
 
 	install -Dm755 dist/bin/bcp "$pkgdir"/usr/bin/bcp
