@@ -3,14 +3,14 @@ pkgname=boost
 pkgver=1.67.0
 _pkgver="${pkgver//./_}"
 pkgrel=0
-_drone_build=9
+_drone_build=10
 pkgdesc="Free peer-reviewed portable C++ source libraries"
 url="http://www.boost.org/"
 arch="all"
 license="custom"
 depends="$pkgname-libs"
 depends_libs=""
-depends_dev="cmd:b2 $pkgname-static-libs linux-headers"
+depends_dev="cmd:bjam $pkgname-static-libs linux-headers"
 makedepends="$depends_dev python2-dev>=2.6 python3-dev flex bison bzip2-dev zlib-dev"
 subpackages="$pkgname-static-libs:_staticlibs $pkgname-dev $pkgname-doc"
 source="https://dl.bintray.com/boostorg/release/$pkgver/source/${pkgname}_$_pkgver.tar.bz2
