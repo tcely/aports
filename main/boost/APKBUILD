@@ -28,7 +28,7 @@ case "$CARCH" in
 	*) _boostarch=$CARCH ;;
 esac
 _enginedir="tools/build/src/engine"
-_bjam="${builddir}/${_enginedir}/bin.linux${_l_suffix:-$_boostarch}/bjam"
+_bjam="${builddir}/${_enginedir}/bin.linux${_l_suffix:-$_boostarch}/b2"
 
 _libs="
 	atomic
