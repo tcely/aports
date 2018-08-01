@@ -1,10 +1,10 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=boost
 pkgver=1.67.0
-#_beta=1; pkgver=1.68.0
+_beta=1; pkgver=1.68.0
 _pkgver="${pkgver//./_}"
 pkgrel=0
-_drone_build=24
+_drone_build=25
 pkgdesc="Free peer-reviewed portable C++ source libraries"
 url="http://www.boost.org/"
 arch="all"
@@ -12,7 +12,7 @@ license="custom"
 depends="$pkgname-libs"
 depends_libs=""
 depends_static_libs=""
-depends_dev="$pkgname $pkgname-static-libs linux-headers"
+depends_dev="$pkgname $pkgname-static-libs=$pkgver-r$pkgrel linux-headers"
 makedepends="$depends_dev python2-dev>=2.6 python3-dev flex bison bzip2-dev zlib-dev"
 subpackages="$pkgname-static-libs:_staticlibs $pkgname-dev $pkgname-doc"
 _release_dir=${_beta:+beta}
@@ -51,7 +51,7 @@ _libs="
 	prg_exec_monitor
 	program_options
 	python3
-	python
+	python2
 	random
 	regex
 	serialization
