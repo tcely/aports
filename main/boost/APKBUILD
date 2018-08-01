@@ -1,17 +1,18 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=boost
 pkgver=1.67.0
-_beta=1; pkgver=1.68.0
+#_beta=1; pkgver=1.68.0
 _pkgver="${pkgver//./_}"
 pkgrel=0
-_drone_build=25
+_drone_build=26
 pkgdesc="Free peer-reviewed portable C++ source libraries"
 url="http://www.boost.org/"
 arch="all"
 license="custom"
 depends="$pkgname-libs"
+depends__boostlib=""
+depends__staticlibs=""
 depends_libs=""
-depends_static_libs=""
 depends_dev="$pkgname $pkgname-static-libs=$pkgver-r$pkgrel linux-headers"
 makedepends="$depends_dev python2-dev>=2.6 python3-dev flex bison bzip2-dev zlib-dev"
 subpackages="$pkgname-static-libs:_staticlibs $pkgname-dev $pkgname-doc"
@@ -157,7 +158,7 @@ package() {
 
 _staticlibs() {
 	pkgdesc="Boost static libraries"
-	depends="$depends_static_libs"
+	depends="$depends__staticlibs"
 
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/lib*.a "$subpkgdir"/usr/lib/
@@ -166,10 +167,7 @@ _staticlibs() {
 _boostlib() {
 	local name="${subpkgname#$pkgname-}"
 	pkgdesc="Boost $name library"
-	depends=""
-	case "$name" in
-	    python*) depends="$depends $name" ;;
-	esac
+	depends="$depends__boostlib"
 
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/libboost_$name*.so.[0-9]* "$subpkgdir"/usr/lib/
