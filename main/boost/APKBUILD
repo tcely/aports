@@ -1,21 +1,21 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=boost
 pkgver=1.67.0
-_beta=1; pkgver=1.68.0
+#_beta=1; pkgver=1.68.0
 _pkgver="${pkgver//./_}"
 pkgrel=0
-_drone_build=27
+_drone_build=28
 pkgdesc="Free peer-reviewed portable C++ source libraries"
 url="http://www.boost.org/"
 arch="all"
 license="custom"
 depends="$pkgname-libs"
 depends__boostlib=""
-depends__staticlibs=""
+depends__static_libs=""
 depends_libs=""
 depends_dev="$pkgname $pkgname-static-libs=$pkgver-r$pkgrel linux-headers"
 makedepends="$depends_dev python2-dev>=2.6 python3-dev flex bison bzip2-dev zlib-dev"
-subpackages="$pkgname-static-libs:_staticlibs $pkgname-dev $pkgname-doc"
+subpackages="$pkgname-static-libs:_static_libs $pkgname-dev $pkgname-doc"
 _release_dir=${_beta:+beta}
 source="https://dl.bintray.com/boostorg/${_release_dir:-release}/$pkgver${_beta:+.beta$_beta}/source/${pkgname}_${_pkgver}${_beta:+_b$_beta}.tar.bz2
 	boost-1.57.0-python-abi_letters.patch
@@ -48,6 +48,9 @@ _libs="
 	filesystem
 	graph
 	iostreams
+	locale
+	log_setup
+	log
 	math
 	prg_exec_monitor
 	program_options
@@ -57,8 +60,12 @@ _libs="
 	regex
 	serialization
 	signals
+	stacktrace_basic
+	stacktrace_noop
 	system
 	thread
+	timer
+	type_erasure
 	unit_test_framework
 	wave
 	wserialization
@@ -156,9 +163,9 @@ package() {
 		install
 }
 
-_staticlibs() {
+_static_libs() {
 	pkgdesc="Boost static libraries"
-	depends="$depends__staticlibs"
+	depends="$depends__static_libs"
 
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/lib*.a "$subpkgdir"/usr/lib/
@@ -166,7 +173,7 @@ _staticlibs() {
 
 _boostlib() {
 	local name="${subpkgname#$pkgname-}"
-	pkgdesc="Boost $name library"
+	pkgdesc="Boost $name shared library"
 	depends="$depends__boostlib"
 
 	mkdir -p "$subpkgdir"/usr/lib
@@ -176,7 +183,7 @@ _boostlib() {
 libs() {
 	default_libs
 
-	pkgdesc="Boost runtime libraries"
+	pkgdesc="Boost shared libraries"
 	depends="$depends_libs"
 	local _pkg; for _pkg in $origsubpackages; do
 		case "$_pkg" in
