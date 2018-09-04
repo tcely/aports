@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 pkgname=awall
-pkgver=1.5.1
+pkgver=1.6.4
 pkgrel=0
 pkgdesc="Alpine Wall"
 url="https://git.alpinelinux.org/cgit/awall/"
@@ -11,9 +11,10 @@ license="GPL-2.0"
 replaces="awall-nat"
 depends="bind-tools ip6tables ipset iptables lua$_luaver lua$_luaver-alt-getopt lua$_luaver-cjson
          lua$_luaver-pc lua$_luaver-posix lua$_luaver-stringy xtables-addons"
-subpackages=$pkgname-masquerade
+subpackages="$pkgname-masquerade $pkgname-policies"
 triggers="$pkgname.trigger=/usr/share/awall"
 source="http://dev.alpinelinux.org/archive/awall/awall-$pkgver.tar.xz
+	setup-firewall
 	"
 
 builddir=$srcdir/awall-$pkgver
@@ -35,7 +36,6 @@ package() {
 
 masquerade() {
 	depends=awall
-	cd "$builddir"
 	for file in lua/$_luaver/awall/modules/masquerade.lua awall/mandatory/masquerade.json; do
 		local path=usr/share/$file
 		install -d "$subpkgdir/$(dirname $path)"
@@ -43,4 +43,13 @@ masquerade() {
 	done
 }
 
-sha512sums="562c113ff7f6e9615a66723e3fb097daf5c875dbc65b176405e9ba40e9d2321db0f4c095889ae6c015b297a6100218b2713f849ca305f4db4837ae7153a47a64  awall-1.5.1.tar.xz"
+policies() {
+	depends=awall
+	local dir=usr/share/awall/optional
+	install -d "$subpkgdir"/$dir
+	mv "$pkgdir"/$dir/*.json "$subpkgdir"/$dir
+	install -D "$srcdir"/setup-firewall "$subpkgdir"/usr/sbin/setup-firewall
+}
+
+sha512sums="51f6339d7f27bdbefb78daa69dcd4bcc3d87f80fd5e1691d6a1d8c9931196f253e986ed16a48cbf34a3f5ccb897fdadedff29f78e1f61691563b3de703c10021  awall-1.6.4.tar.xz
+32f421b97b0d5d8cda4aa66c5f02319ffef12368d2c4903dbe9f6f3feb48959f6624706083c89cc2cd0ce2878c1c3962b4b7f906713623fe66181d071db37f61  setup-firewall"

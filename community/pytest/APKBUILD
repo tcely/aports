@@ -1,14 +1,17 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
 pkgname=pytest
-pkgver=3.5.0
-pkgrel=1
+pkgver=3.6.4
+pkgrel=0
 pkgdesc="A python test library"
 url="http://pytest.org"
 arch="noarch"
 license="MIT"
 depends="py3-$pkgname"
-makedepends="python2-dev py-setuptools python3-dev"
+_py_depends="py-atomicwrites py-py py-six py-attrs py-more-itertools py-pluggy"
+_py2_depends="${_py_depends//py-/py2-} py2-setuptools py2-funcsigs"
+_py3_depends="${_py_depends//py-/py3-}"
+makedepends="python2-dev py-setuptools python3-dev $_py2_depends $_py3_depends"
 subpackages="py3-$pkgname:_py3 py2-$pkgname:_py2"
 source="https://files.pythonhosted.org/packages/source/${pkgname:0:1}/$pkgname/$pkgname-$pkgver.tar.gz"
 builddir="$srcdir/$pkgname-$pkgver"
@@ -35,12 +38,12 @@ package() {
 
 _py2() {
 	replaces="$pkgname"
-	depends="py2-py py2-six py2-attrs py2-setuptools py2-more-itertools py2-pluggy py2-funcsigs"
+	depends="$_py2_depends"
 	_py python2
 }
 
 _py3() {
-	depends="py3-py py3-six py3-attrs py3-more-itertools py3-pluggy"
+	depends="$_py3_depends"
 	_py python3
 }
 
@@ -60,4 +63,4 @@ _py() {
 	done
 }
 
-sha512sums="031997650592a5c5697981c517082a8de0f585b63e9fcba57903163c0e87ab6a4206f93038ecc130530422547bfc0e03f765c8f260e52e51f2f9e0cb26ceeaa8  pytest-3.5.0.tar.gz"
+sha512sums="7e5134d42e73e1712bb2c5cb600f7c0c320fddcbd0841b3738689880074a37f709eedd05f876591e9ff8bf36917fb8976e6783ff418585bc6930365e29bdee17  pytest-3.6.4.tar.gz"

@@ -1,18 +1,17 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Daniel Sabogal <dsabogalcc@gmail.com>
 pkgname=libinput
-pkgver=1.10.4
+pkgver=1.11.2
 pkgrel=0
 pkgdesc="Library for handling input devices"
-url="http://www.freedesktop.org/wiki/Software/libinput"
+url="https://www.freedesktop.org/wiki/Software/libinput"
 arch="all"
 license="MIT"
 makedepends="eudev-dev libevdev-dev meson mtdev-dev"
 subpackages="$pkgname-dev $pkgname-doc $pkgname-libs"
 options="!check"
-source="http://freedesktop.org/software/$pkgname/$pkgname-$pkgver.tar.xz"
-
-builddir="$srcdir/$pkgname-$pkgver"
+source="https://freedesktop.org/software/$pkgname/$pkgname-$pkgver.tar.xz"
+builddir="$srcdir"/$pkgname-$pkgver
 
 build() {
 	cd "$builddir"
@@ -29,4 +28,4 @@ package() {
 	DESTDIR="$pkgdir" ninja -C builddir/ install
 }
 
-sha512sums="b6f24f135e2396d53c0576a3b3887cd3736f2209fc448c6419cd1f1d7ee6aedff8e067f4b780f50ada5a4418d5bc47a4010cb328f366ee7fd1a2dba1ffc96c38  libinput-1.10.4.tar.xz"
+sha512sums="cb6ada877fc3c09f634f3db39d5507e66d4b86c3d632bb8f7498c7b01fdf8372b2053a79b641293900b7fcc0aa4e920f7c830d9c7b2d9ff3cd61c58eb7c20b65  libinput-1.11.2.tar.xz"

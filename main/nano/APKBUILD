@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=nano
-pkgver=2.9.5
+pkgver=2.9.8
 pkgrel=0
 pkgdesc="Enhanced clone of the Pico text editor"
 url="https://www.nano-editor.org"
@@ -53,4 +53,4 @@ syntax() {
 		"$subpkgdir"/usr/share/$pkgname/
 }
 
-sha512sums="24e8b5124bd08c67e34603bf2c5ba972cb8e92e8f13750b460ae824ba26d65a6d7b13dabff083caa40cc9d46436b8757cdf0411f2fbb58be3a175826090704f5  nano-2.9.5.tar.xz"
+sha512sums="9a8230bb1312be4e7f44c5fb42c32d773dd4e488d41980c5aee1de0f9b5642b938a940649f3b5bfb848625c0c258ea15333cad861b5a368e3746f1f396df452b  nano-2.9.8.tar.xz"
