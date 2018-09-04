@@ -53,7 +53,7 @@ build() {
 
 check() {
 	cd "$builddir"
-	sed -i -e 's,contrib/test_net$(EXEEXT),,' tests/Makefile
+	#sed -i -e 's,contrib/test_net$(EXEEXT),,' tests/Makefile
 	make check
 }
 
