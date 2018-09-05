@@ -3,6 +3,7 @@
 # Contributor: Francesco Zanini <francesco@zanini.me>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
+# Drone Build: 03
 pkgname=knot
 pkgver=2.7.1
 pkgrel=0
