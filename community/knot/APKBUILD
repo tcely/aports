@@ -54,10 +54,6 @@ build() {
 check() {
 	cd "$builddir"
 
-	# 2.7.1 - test_net is broken
-	# contrib/test_net........................FAILED 3, 5, 9, 11-12, 14-18, 21-23, 33, 35-48, 50-62, 68, 74-83, 85 (killed by signal 6)
-	sed -i -e 's,contrib/test_net$(EXEEXT),,' tests/Makefile
-
 	make check
 }
 
