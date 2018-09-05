@@ -13,7 +13,7 @@
 pkgname=nodejs-current
 # The current stable version, i.e. non-LTS.
 pkgver=9.11.1
-pkgrel=1
+pkgrel=4
 pkgdesc="JavaScript runtime built on V8 engine - current stable version"
 url="https://nodejs.org/"
 arch="all"
@@ -21,7 +21,7 @@ license="MIT"
 depends="ca-certificates"
 depends_dev="libuv"
 # gold is needed for mksnapshot
-makedepends="$depends_dev python2 openssl-dev zlib-dev libuv-dev linux-headers
+makedepends="$depends_dev python2 openssl1.0-dev zlib-dev libuv-dev linux-headers
 	paxmark binutils-gold http-parser-dev ca-certificates c-ares-dev"
 subpackages="$pkgname-dev $pkgname-doc"
 provides="nodejs"

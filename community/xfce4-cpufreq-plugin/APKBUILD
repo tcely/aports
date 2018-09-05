@@ -1,0 +1,32 @@
+# Maintainer: Natanael Copa <ncopa@alpinelinux.org>
+pkgname=xfce4-cpufreq-plugin
+pkgver=1.2.0
+pkgrel=0
+pkgdesc="CPU frequency plugin for the Xfce4 panel"
+url="http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin"
+arch="all"
+license="GPL-2.0"
+makedepends="xfce4-panel-dev libxfce4ui-dev"
+subpackages="$pkgname-lang"
+source="http://archive.xfce.org/src/panel-plugins/xfce4-cpufreq-plugin/${pkgver%.*}/xfce4-cpufreq-plugin-${pkgver}.tar.bz2"
+
+builddir="$srcdir/$pkgname-$pkgver"
+
+build() {
+	cd "$builddir"
+	./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/xfce4 \
+		--localstatedir=/var \
+		--disable-static
+	make
+}
+
+package() {
+	cd "$builddir"
+	make DESTDIR="$pkgdir" install
+}
+sha512sums="594124808fffaed514719a50e05e75612f5c1b7a802df5bb7caf65814c2c7412b9575ce916c8cd0da1360987d198c61ab078efd4a462e756248012999e597072  xfce4-cpufreq-plugin-1.2.0.tar.bz2"

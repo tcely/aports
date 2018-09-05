@@ -17,7 +17,7 @@ command="/usr/bin/lxc-start"
 pidfile="/var/run/lxc/$CONTAINER.pid"
 
 depend() {
-	need localmount sysfs
+	need localmount sysfs cgroups
 	after firewall net
 }
 
@@ -38,7 +38,7 @@ lxc_get_configfile() {
 }
 
 lxc_get_var() {
-	awk 'BEGIN { FS="[ \t]*=[ \t]*" } $1 == "'$1'" { print $2; exit }' ${CONFIGFILE}
+	awk 'BEGIN { FS="[ \t]*=[ \t]*" } $1 == "'$1'" { print $2; exit }' ${CONFIGFILE} | cut -d: -f2
 }
 
 checkconfig() {

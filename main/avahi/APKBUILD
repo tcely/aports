@@ -1,28 +1,25 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=avahi
-pkgver=0.6.32
-pkgrel=4
+pkgver=0.7
+pkgrel=1
 pkgdesc="A multicast/unicast DNS-SD framework"
-url="http://www.avahi.org/"
+url="https://www.avahi.org/"
 arch="all"
 license="LGPL-2.0-or-later"
-depends=""
+pkgusers="avahi"
+pkggroups="avahi"
 depends_dev="gdbm-dev"
-makedepends="py-dbus-dev intltool gobject-introspection-dev expat-dev
+makedepends="py-dbus-dev intltool py-gobject3-dev gobject-introspection-dev expat-dev
 	libdaemon-dev glib-dev dbus-dev libcap-dev gdbm-dev py-gdbm
 	gettext-dev autoconf automake libtool"
 install="$pkgname.pre-install"
-pkgusers="avahi"
-pkggroups="avahi"
 subpackages="$pkgname-dev $pkgname-doc $pkgname-tools $pkgname-glib
 	$pkgname-libs $pkgname-compat-howl:howl
 	$pkgname-compat-libdns_sd:lidns_sd $pkgname-lang
-	py-avahi:py"
-source="https://github.com/lathiat/avahi/releases/download/v$pkgver/avahi-$pkgver.tar.gz
-	openrc-run.patch
-	"
+	py2-avahi:_py2:noarch"
+source="https://github.com/lathiat/avahi/releases/download/v$pkgver/avahi-$pkgver.tar.gz"
+builddir="$srcdir/$pkgname-$pkgver"
 
-builddir="$srcdir"/$pkgname-$pkgver
 prepare() {
 	default_prepare
 	autoreconf -vif
@@ -30,6 +27,7 @@ prepare() {
 
 build() {
 	cd "$builddir"
+
 	# we dont build autoipd since dhcpcd does same job
 	./configure \
 		--build=$CBUILD \
@@ -50,29 +48,35 @@ build() {
 		--enable-compat-libdns_sd \
 		--enable-compat-howl \
 		--enable-python \
-		--with-distro="gentoo" \
-		--with-systemdsystemunitdir=/lib/systemd/system \
-		|| return 1
+		--with-distro="gentoo"
 	make
+}
+
+check() {
+	cd "$builddir"
+	make check
 }
 
 package() {
 	cd "$builddir"
-	make DESTDIR="$pkgdir" install || return 1
-	install -d -o avahi -g avahi "$pkgdir"/var/run/avahi-daemon
-	ln -s avahi-compat-howl.pc  "$pkgdir"/usr/lib/pkgconfig/howl.pc
-	ln -s avahi-compat-libdns_sd.pc \
-		"$pkgdir"/usr/lib/pkgconfig/libdns_sd.pc
-	ln -s avahi-compat-libdns_sd/dns_sd.h "$pkgdir"/usr/include/
-	rm -r "$pkgdir"/usr/bin/avahi-bookmarks || return 1
-}
 
-dev() {
-	default_dev
+	make DESTDIR="$pkgdir" install
+
+	install -d -o avahi -g avahi "$pkgdir"/var/run/avahi-daemon
+
+	ln -s avahi-compat-howl.pc "$pkgdir"/usr/lib/pkgconfig/howl.pc
+	ln -s avahi-compat-libdns_sd.pc "$pkgdir"/usr/lib/pkgconfig/libdns_sd.pc
+	ln -s avahi-compat-libdns_sd/dns_sd.h "$pkgdir"/usr/include/
+
+	rm -r "$pkgdir"/usr/bin/avahi-bookmarks
+
+	# This file is provided by avahi-ui.
+	rm "$pkgdir"/usr/share/applications/avahi-discover.desktop
 }
 
 tools() {
 	pkgdesc="Command line tools for mDNS browsing and publishing"
+
 	mkdir -p "$subpkgdir"/usr/bin
 	cd "$pkgdir"/usr/bin
 	mv avahi-browse* avahi-publish* avahi-resolve* avahi-set* \
@@ -81,6 +85,7 @@ tools() {
 
 glib() {
 	pkgdesc="Glib libraries and GObject wrapper for avahi"
+
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/libavahi-glib.so.* \
 		"$pkgdir"/usr/lib/libavahi-gobject.so.* \
@@ -89,6 +94,7 @@ glib() {
 
 libs() {
 	pkgdesc="Libraries for avahi run-time use"
+
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/libavahi-common.so.* \
 		"$pkgdir"/usr/lib/libavahi-client.so.* \
@@ -98,6 +104,7 @@ libs() {
 
 howl() {
 	pkgdesc="Libraries for howl compatibility"
+
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/libhowl.so.* \
 		"$subpkgdir"/usr/lib/
@@ -105,17 +112,20 @@ howl() {
 
 lidns_sd() {
 	pkgdesc="Libraries for Apple Bonjour mDNSResponder compatibility"
+
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/libdns_sd.so.* \
 		"$subpkgdir"/usr/lib/
 }
 
-py() {
-	pkgdesc="python bindings for avahi"
+_py2() {
+	pkgdesc="Python 2 bindings for avahi"
+	depends="$pkgname=$pkgver-r$pkgrel python2"
+	provides="py-avahi=$pkgver-r$pkgrel"  # for backward compatibility
+	replaces="py-avahi"  # for backward compatibility
+
 	mkdir -p "$subpkgdir"/usr/lib
-	mv "$pkgdir"/usr/lib/py* "$subpkgdir"/usr/lib/
+	mv "$pkgdir"/usr/lib/python2.* "$subpkgdir"/usr/lib/
 }
 
-
-sha512sums="6f8d0a64292439cbb989c531a4ba2f25a53ee9cf7ad9df04dedf73149489a92612f3b5955e10aa4b1c76496c34b90ad75590e8aa49468249508267c1c8b899ee  avahi-0.6.32.tar.gz
-2754d11bf027676f30de6322eb9251ae83df5ef8f7b354793263224d432514a49e021d8f819f5525eeaeead04b544e15bfd2183ac8bc9f97e871d246e2b6a108  openrc-run.patch"
+sha512sums="bae5a1e9204aca90b90e7fd223d19e809e3514d03ba5fa2da1e55bf1d72d3d3b98567f357900c36393613dc17dc98e15ff3ebf0f226f2f6b9766e592452a6ce7  avahi-0.7.tar.gz"

@@ -1,18 +1,23 @@
 # Contributor: Curt Tilmes <Curt.Tilmes@nasa.gov>
 # Maintainer: Curt Tilmes <Curt.Tilmes@nasa.gov>
 pkgname=liquibase
-pkgver=3.5.3
+pkgver=3.6.2
 pkgrel=0
 pkgdesc="Source Control for your Database"
 url="http://www.liquibase.org/"
-arch="all"
+arch="noarch"
 license="Apache-2.0"
 depends="openjdk8-jre bash"
 makedepends=""
 install=""
 subpackages="$pkgname-doc"
-source="https://github.com/liquibase/liquibase/releases/download/liquibase-parent-3.5.3/liquibase-3.5.3-bin.tar.gz"
+source="https://github.com/liquibase/liquibase/releases/download/liquibase-parent-${pkgver}/liquibase-${pkgver}-bin.tar.gz"
 builddir="$srcdir"
+
+build() {
+	cd "$builddir"
+	mv sdk/lib-sdk/slf4j-api-1.7.25.jar lib
+}
 
 check() {
 	cd "$builddir"
@@ -36,5 +41,4 @@ doc() {
 		cp -r $file "$subpkgdir"/usr/share/doc/"$pkgname"
 	done
 }
-
-sha512sums="c2da11f7b9f16a2047a0604ae7829dccfe9a486a69ab793a8f562663e5b3bb91a287439d9e91b3c17f0c98928174954b15e18637b5982d3eebd2b2af8948fcdb  liquibase-3.5.3-bin.tar.gz"
+sha512sums="66404f18a2790ff8341ad5ccc493b9ee49e4d382c4ec4b2ebc7b74db35a2c332b4b0e7f62fd848ad75b0bfff1f74a82a8143e723048cd4e26632af2f7f2e5eb0  liquibase-3.6.2-bin.tar.gz"
