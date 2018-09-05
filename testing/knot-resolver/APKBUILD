@@ -1,6 +1,6 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-# DroneCI Build #01
+# DroneCI Build #02
 pkgname=knot-resolver
 pkgver=3.0.0
 pkgrel=0

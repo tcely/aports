@@ -3,7 +3,7 @@
 # Contributor: Francesco Zanini <francesco@zanini.me>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-# DroneCI Build #01
+# DroneCI Build #02
 pkgname=knot
 pkgver=2.7.2
 pkgrel=0
