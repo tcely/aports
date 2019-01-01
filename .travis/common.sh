@@ -15,7 +15,7 @@ alpine_run() {
 	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS > "${ALPINE_ROOT}/.alpine_run_env"
 	while IFS= read VAR; do
 		[ -z "$VAR" ] || declare -p "$VAR"
-	done < <(env | grep ^TRAVIS_ | cut -d = -f 1) >> "${ALPINE_ROOT}/.alpine_run_env"
+	done >> "${ALPINE_ROOT}/.alpine_run_env" < <(env | grep ^TRAVIS_ | cut -d = -f 1)
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
 		sh -c ". /.alpine_run_env; cd $CLONE_DIR; $cmd"
