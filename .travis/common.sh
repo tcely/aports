@@ -24,7 +24,7 @@ command -v declare >/dev/null 2>&1 || declare() {
 }
 
 declare_to_export() {
-	awk '"-x" == $2 {$2="export"; $1=""; print;}'
+	awk '"declare" == $1 && "-x" == $2 {$2="export"; $1=""; print; next;} "declare" != $1 {print;}'
 }
 
 # Runs commands inside the Alpine chroot.
@@ -39,14 +39,12 @@ alpine_run() {
 
 	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS \
 		| declare_to_export > "${ALPINE_ROOT}/.alpine_run_env"
-	env | grep ^TRAVIS_ | grep -v ^TRAVIS_CMD= | cut -d = -f 1 | while IFS= read -r VAR; do
+	env | grep ^TRAVIS_ | cut -d = -f 1 | while IFS= read -r VAR; do
 		[ -n "$VAR" ] || continue
 		declare -p "$VAR" | declare_to_export
 	done >> "${ALPINE_ROOT}/.alpine_run_env"
-	
+
 	cat -vn "${ALPINE_ROOT}/.alpine_run_env"
-	
-	declare -p TRAVIS_CMD
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
 		sh -c "set -x; . /.alpine_run_env; set +x; cd $CLONE_DIR; $cmd"
