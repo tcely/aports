@@ -3,7 +3,7 @@ sudo: required
 language: minimal
 install:
   - sudo .travis/install-alpine
-  - source .travis/common.sh && setup_alpine_run_env "$USER"
+  - (source .travis/common.sh && setup_alpine_run_env "$USER")
   - sudo .travis/setup-alpine
 script: |
   source .travis/common.sh
