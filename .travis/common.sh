@@ -36,7 +36,7 @@ alpine_run() {
 	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l "$user" \
-		sh -c "set -x ; . /.alpine_run_env ; cd \"\$CLONE_DIR\" ; set +x ; $cmd"
+		sh -c ". /.alpine_run_env ; cd \"\$CLONE_DIR\" ; $cmd"
 }
 
 die() {
