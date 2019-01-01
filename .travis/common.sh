@@ -16,13 +16,10 @@ setup_alpine_run_env() {
 
 	$_sudo install -c -o "$user" -m 0644 /dev/null "${ALPINE_ROOT}/.alpine_run_env"
 
-	export ALPINE_ROOT CLONE_DIR MIRROR_URI
-	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS | \
-		declare_to_export > "${ALPINE_ROOT}/.alpine_run_env"
-	env | grep ^TRAVIS_ | cut -d = -f 1 | while IFS= read -r VAR; do
+	env | grep '^TRAVIS[=_]' | cut -d = -f 1 | while IFS= read -r VAR; do
 		[ -n "$VAR" ] || continue
 		declare -p "$VAR" | declare_to_export
-	done >> "${ALPINE_ROOT}/.alpine_run_env"
+	done > "${ALPINE_ROOT}/.alpine_run_env"
 }
 
 # Runs commands inside the Alpine chroot.
@@ -33,8 +30,12 @@ alpine_run() {
 	local _sudo=
 	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
 
-	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
-		sh -c "set -x ; . /.alpine_run_env ; cd \"$CLONE_DIR\" ; set +x ; $cmd"
+	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i \
+		ALPINE_ROOT="$ALPINE_ROOT" \
+		CLONE_DIR="$CLONE_DIR" \
+		MIRROR_URI="$MIRROR_URI" \
+		su -l "$user" \
+		sh -c "set -x ; . /.alpine_run_env ; cd \"\$CLONE_DIR\" ; set +x ; $cmd"
 }
 
 die() {
