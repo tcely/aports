@@ -1,32 +1,28 @@
 # vim: set ts=4:
 
-export ALPINE_ROOT
-export CLONE_DIR
-export MIRROR_URI
-
 readonly ALPINE_ROOT='/mnt/alpine'
 readonly CLONE_DIR="${CLONE_DIR:-$(pwd)}"
 readonly MIRROR_URI='http://dl-cdn.alpinelinux.org/alpine/edge'
 
-# provide an approximation of declare for busybox /bin/sh
-command -v declare >/dev/null 2>&1 || declare() {
-	local _evars=$(env | cut -d = -f 1 | tr '\n' ' ')
-	local var; for var
-	do
-		local _found=false
-		case " $_evars " in
-			(*" $var "*) _found=true ;;
-		esac
-		"$_found" || continue
-		local _value
-		eval _value="\$$var"
-		_value="${_value//\'/\'\\\'\'}"
-		printf -- 'declare -x '"$var"'=\x27%s\x27\n' "$_value"
-	done
-}
-
 declare_to_export() {
 	awk '"declare" == $1 && "-x" == $2 {$2="export"; $1=""; print; next;} "declare" != $1 {print;}'
+}
+
+setup_alpine_run_env() {
+	local user="${1:-root}"
+
+	local _sudo=
+	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
+
+	$_sudo install -c -o "$user" -m 0644 /dev/null "${ALPINE_ROOT}/.alpine_run_env"
+	
+	declare -x ALPINE_ROOT CLONE_DIR MIRROR_URI
+	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS | \
+		declare_to_export > "${ALPINE_ROOT}/.alpine_run_env"
+	env | grep ^TRAVIS_ | cut -d = -f 1 | while IFS= read -r VAR; do
+		[ -n "$VAR" ] || continue
+		declare -p "$VAR" | declare_to_export
+	done >> "${ALPINE_ROOT}/.alpine_run_env"
 }
 
 # Runs commands inside the Alpine chroot.
@@ -36,17 +32,6 @@ alpine_run() {
 
 	local _sudo=
 	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
-
-	$_sudo install -c -o "$(id -un)" -m 0644 /dev/null "${ALPINE_ROOT}/.alpine_run_env"
-
-	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS \
-		| declare_to_export > "${ALPINE_ROOT}/.alpine_run_env"
-	env | grep ^TRAVIS_ | cut -d = -f 1 | while IFS= read -r VAR; do
-		[ -n "$VAR" ] || continue
-		declare -p "$VAR" | declare_to_export
-	done >> "${ALPINE_ROOT}/.alpine_run_env"
-
-	cat -vn "${ALPINE_ROOT}/.alpine_run_env"
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
 		sh -c "ls -l /.alpine_run_env; set -x ; . /.alpine_run_env ; cd \"$CLONE_DIR\" ; set +x ; $cmd"
