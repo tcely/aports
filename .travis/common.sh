@@ -17,8 +17,8 @@ command -v declare >/dev/null 2>&1 || declare() {
 
 		"$_found" || continue
 		local _value
-		eval _value="\$${var}"
-		_value="${_value//\'/'\\''}"
+		eval _value="\$$var"
+		_value="${_value//\'/\'\\\'\'}"
 		printf -- 'declare -x '"$var"'=\x27%s\x27\n' "$_value"
 	done
 }
@@ -38,8 +38,8 @@ alpine_run() {
 	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS \
 		| declare_to_export > "${ALPINE_ROOT}/.alpine_run_env"
 	env | grep ^TRAVIS_ | cut -d = -f 1 | while IFS= read -r VAR; do
-		[ -z "$VAR" ] || continue
-		declare -p "$VAR" | declare_to_export 
+		[ -n "$VAR" ] || continue
+		declare -p "$VAR" | declare_to_export
 	done >> "${ALPINE_ROOT}/.alpine_run_env"
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
