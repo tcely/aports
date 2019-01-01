@@ -1,5 +1,9 @@
 # vim: set ts=4:
 
+export ALPINE_ROOT
+export CLONE_DIR
+export MIRROR_URI
+
 readonly ALPINE_ROOT='/mnt/alpine'
 readonly CLONE_DIR="${CLONE_DIR:-$(pwd)}"
 readonly MIRROR_URI='http://dl-cdn.alpinelinux.org/alpine/edge'
@@ -15,8 +19,7 @@ setup_alpine_run_env() {
 	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
 
 	$_sudo install -c -o "$user" -m 0644 /dev/null "${ALPINE_ROOT}/.alpine_run_env"
-	
-	declare -x ALPINE_ROOT CLONE_DIR MIRROR_URI
+
 	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS | \
 		declare_to_export > "${ALPINE_ROOT}/.alpine_run_env"
 	env | grep ^TRAVIS_ | cut -d = -f 1 | while IFS= read -r VAR; do
