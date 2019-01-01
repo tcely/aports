@@ -11,6 +11,9 @@ alpine_run() {
 
 	local _sudo=
 	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
+	
+	echo 'alpine_run set output:'; set;
+	echo 'alpine_run env output:'; env;
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
 		sh -c "cd $CLONE_DIR; $cmd"
