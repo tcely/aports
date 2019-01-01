@@ -36,7 +36,7 @@ alpine_run() {
 	$_sudo install -c -o "$(id -un)" -m 0644 /dev/null "${ALPINE_ROOT}/.alpine_run_env"
 
 	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS \
-		| declare_to_export > "${ALPINE_ROOT}/.alpine_run_env"
+		| tee /dev/stderr | declare_to_export > "${ALPINE_ROOT}/.alpine_run_env"
 	env | grep ^TRAVIS_ | cut -d = -f 1 | while IFS= read -r VAR; do
 		[ -n "$VAR" ] || continue
 		declare -p "$VAR" | declare_to_export
