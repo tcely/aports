@@ -56,16 +56,10 @@ cd "$CLONE_DIR"
 #   - may be empty when pushing single commit,
 #   - uses triple-dot range instead of double-dot that we need,
 #   - contains SHA of old (unreachable) commit when rebasing.
-
-echo 'env output:'; env; echo;
-echo 'set output:'; set; echo;
-
 commit_range="$(echo "${TRAVIS_COMMIT_RANGE:-}" | sed -E 's/\.{3}/../')"
-echo "commit_range: {${commit_range}}"
 if ! git rev-parse "$commit_range" >/dev/null 2>&1; then
 	commit_range="$(git rev-parse HEAD^1)..HEAD"
 fi
-echo "commit_range: {${commit_range}}"
 
 failed_pkgs=''
 successful_pkgs=''
