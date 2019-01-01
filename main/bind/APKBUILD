@@ -8,7 +8,7 @@ _ver=${pkgver%_p*}
 _p=${pkgver#*_p}
 _major=${pkgver%%.*}
 [ "$_p" != "$pkgver" ] && _ver="${_ver}-P$_p"
-pkgrel=0
+pkgrel=1
 pkgdesc="The ISC DNS server"
 url="http://www.isc.org"
 arch="all"
@@ -22,6 +22,8 @@ pkggroups="named"
 makedepends="
 	bash
 	bsd-compat-headers
+	curl
+	gnupg
 	json-c-dev
 	krb5-dev
 	libcap-dev
@@ -31,10 +33,12 @@ makedepends="
 	openssl-dev
 	perl
 	"
-install="$pkgname.pre-install"
-subpackages="$pkgname-doc $pkgname-dev $pkgname-libs $pkgname-openrc $pkgname-tools"
+install="$pkgname.pre-install $pkgname-root-hints.pre-install $pkgname-root-keys.pre-install"
+subpackages="$pkgname-doc $pkgname-dev $pkgname-libs $pkgname-openrc $pkgname-tools $pkgname-root-hints:root_hints:noarch $pkgname-root-keys:root_keys:noarch"
+depends="$pkgname-root-hints $pkgname-root-keys"
 source="
 	https://ftp.isc.org/isc/${pkgname}${_major}/$_ver/$pkgname-$_ver.tar.gz
+	verisign-grs-nstld-key.asc
 	bind.so_bsdcompat.patch
 	named.initd
 	named.confd
@@ -42,8 +46,10 @@ source="
 	named.conf.recursive
 	127.zone
 	localhost.zone
-	named.ca
 	"
+# verisign-grs-nstld-key.asc retrieved manually from:
+# https://sks-keyservers.net/pks/lookup?op=get&search=0xF0CB1A326BDF3F3EFA3A01FA937BB869E3A238C5
+#
 builddir="$srcdir/$pkgname-$_ver"
 
 # secfixes:
@@ -67,6 +73,13 @@ builddir="$srcdir/$pkgname-$_ver"
 prepare() {
 	default_prepare
 	cd "$builddir"
+
+	# Fetch and verify named.root
+	gpg --import < "$srcdir/verisign-grs-nstld-key.asc"
+	rm -rf named.root named.root.sig
+	curl -RLO 'https://www.internic.net/domain/named.root{.sig,}'
+	gpg --verify named.root.sig named.root && mv named.root "$srcdir/named.root"
+	rm -rf named.root named.root.sig
 
 	### http://bugs.gentoo.org/show_bug.cgi?id=227333
 	export CFLAGS="$CFLAGS -D_GNU_SOURCE"
@@ -132,20 +145,67 @@ package() {
 		"$pkgdir"/etc/bind/named.conf.authoritative
 	install -Dm644 "$srcdir"/named.conf.recursive \
 		"$pkgdir"/etc/bind/named.conf.recursive
-	install -Dm644 "$srcdir"/named.ca \
-		"$pkgdir"/var/bind/named.ca
 	install -Dm644 "$srcdir"/127.zone \
 		"$pkgdir"/var/bind/pri/127.zone
 	install -Dm644 "$srcdir"/localhost.zone \
 		"$pkgdir"/var/bind/pri/localhost.zone
+}
 
-	cd "$pkgdir"/var/bind
-	ln -s named.ca root.cache
+libs() {
+	depends="$depends_libs"
+
+	default_libs
+}
+
+openrc() {
+	depends="$depends_openrc"
+
+	default_openrc
+}
+
+root_hints() {
+	pkgdesc="ISC BIND Root Hints"
+	depends=""
+
+	install -Dm644 "$srcdir"/named.root \
+		"$subpkgdir"/usr/share/bind/named.root
+
+	mkdir -p "$subpkgdir/etc"
+	install -d -m0750 -g named -o root "$subpkgdir"/etc/bind
+	ln -s ../../usr/share/bind/named.root "$subpkgdir/etc/bind/"
+
+	mkdir -p "$subpkgdir/var"
+	install -d -m0770 -g named -o root "$subpkgdir"/var/bind
+	ln -s ../../usr/share/bind/named.root "$subpkgdir/var/bind/"
+
+	cd "$subpkgdir/var/bind"
+	ln -s named.root db.cache
+	ln -s named.root named.cache
+
+	# compatibility links from earlier versions
+	ln -s named.root named.ca
+	ln -s named.root root.cache
+}
+
+root_keys() {
+	pkgdesc="ISC BIND Root Keys"
+	depends=""
+
+	mkdir -p "$subpkgdir/usr/share/bind"
+	mv "$pkgdir/etc/bind/bind.keys" "$subpkgdir/usr/share/bind/"
+
+	# convenience links
+	mkdir -p "$subpkgdir/etc"
+	install -d -m0750 -g named -o root "$subpkgdir"/etc/bind
+	ln -s ../../usr/share/bind/bind.keys "$subpkgdir/etc/bind/"
+
+	mkdir -p "$subpkgdir/var"
+	install -d -m0770 -g named -o root "$subpkgdir"/var/bind
+	ln -s ../../usr/share/bind/bind.keys "$subpkgdir/var/bind/"
 }
 
 tools() {
 	pkgdesc="The ISC DNS tools"
-	install=""
 	depends=""
 
 	mkdir -p "$subpkgdir"/usr/bin
@@ -160,11 +220,11 @@ tools() {
 }
 
 sha512sums="ffb9a1fbf2ae06f5af51754ef3809ebd7239184359eda11c6f09a9959e362a3fbc78bad81538bfdb2aea64c4d9718f5e4fc06e726f465b888d1099bac6020922  bind-9.12.3.tar.gz
+3ecf5d66e506526ad98ea0b371202f0763b987322bd4407b40fcd95415202bddb18fd06c82eb397566b393e214dc88cb17ec94f3908328e8a55f5f68cc730993  verisign-grs-nstld-key.asc
 7167dccdb2833643dfdb92994373d2cc087e52ba23b51bd68bd322ff9aca6744f01fa9d8a4b9cd8c4ce471755a85c03ec956ec0d8a1d4fae02124ddbed6841f6  bind.so_bsdcompat.patch
 196c0a3b43cf89e8e3547d7fb63a93ff9a3306505658dfd9aa78e6861be6b226580b424dd3dd44b955b2d9f682b1dc62c457f3ac29ce86200ef070140608c015  named.initd
 127bdcc0b5079961f0951344bc3fad547450c81aee2149eac8c41a8c0c973ea0ffe3f956684c6fcb735a29c43d2ff48c153b6a71a0f15757819a72c492488ddf  named.confd
 d2f61d02d7829af51faf14fbe2bafe8bc90087e6b6697c6275a269ebbddcaa14a234fff5c41da793e945e8ff1de3de0858a40334e0d24289eab98df4bb721ac5  named.conf.authoritative
-3aba9763cfaf0880a89fd01202f41406b465547296ce91373eb999ea7719040bc1ac4e47b0de025a8060f693d3d88774a20d09a43fa7ac6aa43989b58b5ee8fe  named.conf.recursive
+c78d97089125a1dcdac7587156803305adee3522c300e2e5c42d209423c0cae39ef088a0c327393360e4f4c9c1197b752b3a462c5083e31059628a9bdd30f513  named.conf.recursive
 eed9886717539399518e011ae5eae6335aed4fae019e1def088c5be26bdc896c99c07adf84ee61babafa31d31ff3b028263d1c88d2eee17ecf4c95a9d77d524c  127.zone
-340e86472a2c2746fe585c0aa5f079d3a9b46e828c1f53d48026533a169b7f77ded7d0a13d291d6962607bb9481456e6fa69df1834603e7555332615fb998f0b  localhost.zone
-badb85a67199b1ff28cdd3529c6d7c70b2757a71f52fd5e0aecb6dab80fa1838af863cd5d451be078cad3ef35f0c256aaac1831671cec119c5a689503e98a192  named.ca"
+340e86472a2c2746fe585c0aa5f079d3a9b46e828c1f53d48026533a169b7f77ded7d0a13d291d6962607bb9481456e6fa69df1834603e7555332615fb998f0b  localhost.zone"

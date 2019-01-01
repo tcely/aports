@@ -86,7 +86,7 @@ options {
 
 zone "." IN {
 	type hint;
-	file "named.ca";
+	file "root.cache";
 };
 
 zone "localhost" IN {
