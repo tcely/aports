@@ -10,11 +10,9 @@ command -v declare >/dev/null 2>&1 || declare() {
 	local var; for var
 	do
 		local _found=false
-
 		case " $_evars " in
 			(*" $var "*) _found=true ;;
 		esac
-
 		"$_found" || continue
 		local _value
 		eval _value="\$$var"
@@ -44,10 +42,8 @@ alpine_run() {
 		declare -p "$VAR" | declare_to_export
 	done >> "${ALPINE_ROOT}/.alpine_run_env"
 
-	cat -vn "${ALPINE_ROOT}/.alpine_run_env"
-
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
-		sh -c "set -x; . /.alpine_run_env; set +x; cd $CLONE_DIR; $cmd"
+		sh -c ". /.alpine_run_env && cd \"\$CLONE_DIR\" && $cmd"
 }
 
 die() {
