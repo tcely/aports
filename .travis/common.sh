@@ -5,7 +5,9 @@ readonly CLONE_DIR="${CLONE_DIR:-$(pwd)}"
 readonly MIRROR_URI='http://dl-cdn.alpinelinux.org/alpine/edge'
 
 declare_to_export() {
-	awk '"declare" == $1 && "-x" == $2 {$2="export"; $1=""; print; next;} "declare" != $1 {print;}'
+	local _flag="${1:-x}"
+
+	awk '"declare" == $1 && "-'"$_flag"'" == $2 {$2="export"; $1=""; print; next;} "declare" != $1 {print;}'
 }
 
 setup_alpine_run_env() {
@@ -20,6 +22,8 @@ setup_alpine_run_env() {
 		[ -n "$VAR" ] || continue
 		declare -p "$VAR" | declare_to_export
 	done > "${ALPINE_ROOT}/.alpine_run_env"
+
+	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI
 }
 
 # Runs commands inside the Alpine chroot.
@@ -31,9 +35,6 @@ alpine_run() {
 	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i \
-		ALPINE_ROOT="$ALPINE_ROOT" \
-		CLONE_DIR="$CLONE_DIR" \
-		MIRROR_URI="$MIRROR_URI" \
 		su -l "$user" \
 		sh -c "set -x ; . /.alpine_run_env ; cd \"\$CLONE_DIR\" ; set +x ; $cmd"
 }
