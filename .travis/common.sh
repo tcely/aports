@@ -34,7 +34,7 @@ alpine_run() {
 
 	local _sudo=
 	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
-	
+
 	$_sudo install -c -o "$(id -un)" -m 0644 /dev/null "${ALPINE_ROOT}/.alpine_run_env"
 
 	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS \
@@ -43,6 +43,8 @@ alpine_run() {
 		[ -n "$VAR" ] || continue
 		declare -p "$VAR" | declare_to_export
 	done >> "${ALPINE_ROOT}/.alpine_run_env"
+	
+	cat -vn "${ALPINE_ROOT}/.alpine_run_env"
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
 		sh -c ". /.alpine_run_env; cd $CLONE_DIR; $cmd"
