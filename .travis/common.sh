@@ -47,7 +47,7 @@ alpine_run() {
 	cat -vn "${ALPINE_ROOT}/.alpine_run_env"
 
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
-		sh -c ". /.alpine_run_env; cd $CLONE_DIR; $cmd"
+		sh -c "set -x; . /.alpine_run_env; set +x; cd $CLONE_DIR; $cmd"
 }
 
 die() {
