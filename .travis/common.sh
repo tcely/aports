@@ -11,7 +11,7 @@ alpine_run() {
 
 	local _sudo=
 	[ "$(id -u)" -eq 0 ] || _sudo='sudo'
-	
+
 	declare -p ALPINE_ROOT CLONE_DIR MIRROR_URI TRAVIS > "${ALPINE_ROOT}/.alpine_run_env"
 	env | grep ^TRAVIS_ | cut -d = -f 1 | while IFS= read -r VAR; do
 		[ -z "$VAR" ] || declare -p "$VAR"
