@@ -31,9 +31,9 @@ pipeline:
         chown -R builder:abuild .
         ra_user abuild-keygen -ain
         ra_user 'for _r in main community testing non-free unmaintained; do
-          git diff-tree --quiet "${DRONE_PREV_COMMIT_SHA:-FETCH_HEAD}.." -- "$_r" || echo "$_r";
+          git diff-tree --quiet "${DRONE_PREV_COMMIT_SHA:-$(git merge-base FETCH_HEAD HEAD)}.." -- "$_r" || echo "$_r";
           done > /tmp/changed-repos'
-        ra_user 'git diff-tree -r --name-only --diff-filter=ACMR "${DRONE_PREV_COMMIT_SHA:-FETCH_HEAD}.." -- "*/APKBUILD" | awk -F / "BEGIN{OFS=FS;} {NF=(NF-1); print;}" > /tmp/changed-aports'
+        ra_user 'git diff-tree -r --name-only --diff-filter=ACMR "${DRONE_PREV_COMMIT_SHA:-$(git merge-base FETCH_HEAD HEAD)}.." -- "*/APKBUILD" | awk -F / "BEGIN{OFS=FS;} {NF=(NF-1); print;}" > /tmp/changed-aports'
         ra_user 'for _r in $(tac /tmp/changed-repos); do \
             printf >> /etc/apk/repositories -- "/home/builder/packages/%s\n" "$_r"; \
             ap builddirs -d "$(realpath .)/$_r" > "/tmp/sorted-aports-$_r" \
