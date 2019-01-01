@@ -1,12 +1,12 @@
 # vim: set ts=4:
 
-readonly ALPINE_ROOT='/mnt/alpine'
-readonly CLONE_DIR="${CLONE_DIR:-$(pwd)}"
-readonly MIRROR_URI='http://dl-cdn.alpinelinux.org/alpine/edge'
-
 export ALPINE_ROOT
 export CLONE_DIR
 export MIRROR_URI
+
+readonly ALPINE_ROOT='/mnt/alpine'
+readonly CLONE_DIR="${CLONE_DIR:-$(pwd)}"
+readonly MIRROR_URI='http://dl-cdn.alpinelinux.org/alpine/edge'
 
 # provide an approximation of declare for busybox /bin/sh
 command -v declare >/dev/null 2>&1 || declare() {
@@ -46,8 +46,10 @@ alpine_run() {
 		declare -p "$VAR" | declare_to_export
 	done >> "${ALPINE_ROOT}/.alpine_run_env"
 
+	cat -vn "${ALPINE_ROOT}/.alpine_run_env"
+
 	$_sudo chroot "$ALPINE_ROOT" /usr/bin/env -i su -l $user \
-		sh -c "set -x ; . /.alpine_run_env ; cd \"$CLONE_DIR\" ; set +x ; $cmd"
+		sh -c "ls -l /.alpine_run_env; set -x ; . /.alpine_run_env ; cd \"$CLONE_DIR\" ; set +x ; $cmd"
 }
 
 die() {
