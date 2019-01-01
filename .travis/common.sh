@@ -9,7 +9,7 @@ export CLONE_DIR
 export MIRROR_URI
 
 # provide an approximation of declare for busybox /bin/sh
-command -v declare >/dev/null 2>&1 ; declare2() {
+command -v declare >/dev/null 2>&1 || declare() {
 	local _evars=$(env | cut -d = -f 1 | tr '\n' ' ')
 	local var; for var
 	do
