@@ -10,13 +10,14 @@ arch="all"
 license="BSD-3-Clause"
 depends="dnshints-root dnssec-root"
 depends_dev="expat-dev"
+depends_migrate="/bin/sh apk-tools dnshints-root openrc"
 makedepends="$depends_dev libevent-dev openssl-dev python2-dev swig linux-headers"
 install="$pkgname.pre-install"
 options="!check"
 pkgusers="unbound"
 pkggroups="unbound"
-subpackages="$pkgname-dev $pkgname-doc $pkgname-libs $pkgname-dbg py-unbound:py
-	$pkgname-migrate::noarch"
+subpackages="$pkgname-dev $pkgname-doc $pkgname-libs $pkgname-dbg
+	$pkgname-openrc py-unbound:py $pkgname-migrate::noarch"
 source="https://unbound.net/downloads/$pkgname-$pkgver.tar.gz
 	conf.patch
 	migrate-dnscache-to-unbound
@@ -76,13 +77,21 @@ package() {
 
 libs() {
 	pkgdesc="unbound shared libraries"
+	depends="$depends_libs"
 
 	mkdir -p "$subpkgdir"/usr/lib
 	mv "$pkgdir"/usr/lib/lib*.so.* "$subpkgdir"/usr/lib/
 }
 
+openrc() {
+	depends="$depends_openrc"
+
+	default_openrc
+}
+
 py() {
 	pkgdesc="Python bindings to libunbound"
+	depends="$depends_py"
 
 	mkdir -p "$subpkgdir"/usr/lib/
 	mv "$pkgdir"/usr/lib/python* "$subpkgdir"/usr/lib/
@@ -90,6 +99,7 @@ py() {
 
 migrate() {
 	pkgdesc="Simple tool to migrate from dnscache to unbound"
+	depends="$depends_migrate"
 
 	install -m755 -D "$srcdir"/migrate-dnscache-to-unbound \
 		"$subpkgdir"/usr/bin/migrate-dnscache-to-unbound
