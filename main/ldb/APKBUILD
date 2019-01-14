@@ -10,7 +10,6 @@ makedepends="libtirpc-dev tevent-dev py2-tevent tdb-dev py2-tdb talloc-dev
 	python2-dev python3-dev popt-dev cmocka-dev lmdb-dev"
 subpackages="$pkgname-dev py2-$pkgname:_py2 py3-$pkgname:_py3 $pkgname-tools"
 source="https://www.samba.org/ftp/pub/ldb/$pkgname-$pkgver.tar.gz
-	disable-python-tests.patch
 	"
 builddir="$srcdir/$pkgname-$pkgver"
 
@@ -68,5 +67,4 @@ tools() {
 	mv "$pkgdir"/usr/lib/ldb/libldb-cmdline.* "$subpkgdir"/usr/lib/ldb/
 }
 
-sha512sums="081dbc23e810213fb60fdb07c7f3bf1ec8849d10483c5cdabb8add2568d4f80d03bd74d7be3fcf9bb853eaf25aa6bbb2d69cda3f55dda0270978b051da315cb2  ldb-1.4.3.tar.gz
-2d8570932dca6291790710e3eeee245ff38508563d8def7fb45c16114feaade41cc6f7ebc47fa49ee2235eda3ac2f8bec6e469b94d8a4734fa89a11344b75157  disable-python-tests.patch"
+sha512sums="081dbc23e810213fb60fdb07c7f3bf1ec8849d10483c5cdabb8add2568d4f80d03bd74d7be3fcf9bb853eaf25aa6bbb2d69cda3f55dda0270978b051da315cb2  ldb-1.4.3.tar.gz"
