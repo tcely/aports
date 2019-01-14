@@ -2,7 +2,7 @@ Do not run python tests, they take eternity to finish.
 
 --- a/wscript
 +++ b/wscript
-@@ -370,21 +370,13 @@
+@@ -546,14 +546,6 @@
      ret = samba_utils.RUN_COMMAND(cmd)
      print("testsuite returned %d" % ret)
  
@@ -15,8 +15,9 @@ Do not run python tests, they take eternity to finish.
 -    print("Python testsuite returned %d" % pyret)
 -
      cmocka_ret = 0
-     for test_exe in ['ldb_tdb_mod_op_test',
-                      'ldb_msg_test']:
+     test_exes = ['test_ldb_qsort',
+                  'ldb_msg_test',
+@@ -573,7 +565,7 @@
              cmd = os.path.join(Utils.g_module.blddir, test_exe)
              cmocka_ret = cmocka_ret or samba_utils.RUN_COMMAND(cmd)
  
