@@ -137,8 +137,14 @@ build() {
 		--enable-cups \
 		--without-gettext \
 		--bundled-libraries=NONE,ntdb,roken,wind,hx509,asn1,heimbase,hcrypto,krb5,gssapi,heimntlm,hdb,kdc,cmocka \
-		--disable-rpath-install
+		--disable-rpath-install \
+		--enable-selftest
 	make
+}
+
+check() {
+	cd "$builddir"
+	make test
 }
 
 package() {
