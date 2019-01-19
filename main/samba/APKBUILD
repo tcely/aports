@@ -136,9 +136,9 @@ build() {
 		--with-shared-modules=$_idmap_modules,$_pdb_modules,$_auth_modules \
 		--enable-cups \
 		--without-gettext \
-		--bundled-libraries=NONE,ntdb,roken,wind,hx509,asn1,heimbase,hcrypto,krb5,gssapi,heimntlm,hdb,kdc,cmocka \
 		--disable-rpath-install \
 		--enable-selftest
+	
 	make
 }
 
