@@ -1,0 +1,205 @@
+diff --git a/pdns/dnsdist-cache.cc b/pdns/dnsdist-cache.cc
+index 8c6f86f7cd..a359ea8a2a 100644
+--- a/pdns/dnsdist-cache.cc
++++ b/pdns/dnsdist-cache.cc
+@@ -292,12 +292,13 @@ bool DNSDistPacketCache::get(const DNSQuestion& dq, uint16_t consumed, uint16_t
+ /* Remove expired entries, until the cache has at most
+    upTo entries in it.
+ */
+-void DNSDistPacketCache::purgeExpired(size_t upTo)
++size_t DNSDistPacketCache::purgeExpired(size_t upTo)
+ {
++  size_t removed = 0;
+   uint64_t size = getSize();
+ 
+   if (size == 0 || upTo >= size) {
+-    return;
++    return removed;
+   }
+ 
+   size_t toRemove = size - upTo;
+@@ -317,6 +318,7 @@ void DNSDistPacketCache::purgeExpired(size_t upTo)
+         it = map.erase(it);
+         --toRemove;
+         d_shards[shardIndex].d_entriesCount--;
++        ++removed;
+       } else {
+         ++it;
+       }
+@@ -325,20 +327,22 @@ void DNSDistPacketCache::purgeExpired(size_t upTo)
+     scannedMaps++;
+   }
+   while (toRemove > 0 && scannedMaps < d_shardCount);
++
++  return removed;
+ }
+ 
+ /* Remove all entries, keeping only upTo
+    entries in the cache */
+-void DNSDistPacketCache::expunge(size_t upTo)
++size_t DNSDistPacketCache::expunge(size_t upTo)
+ {
++  size_t removed = 0;
+   const uint64_t size = getSize();
+ 
+   if (upTo >= size) {
+-    return;
++    return removed;
+   }
+ 
+   size_t toRemove = size - upTo;
+-  size_t removed = 0;
+ 
+   for (uint32_t shardIndex = 0; shardIndex < d_shardCount; shardIndex++) {
+     WriteLock w(&d_shards.at(shardIndex).d_lock);
+@@ -358,10 +362,14 @@ void DNSDistPacketCache::expunge(size_t upTo)
+       d_shards[shardIndex].d_entriesCount = 0;
+     }
+   }
++
++  return removed;
+ }
+ 
+-void DNSDistPacketCache::expungeByName(const DNSName& name, uint16_t qtype, bool suffixMatch)
++size_t DNSDistPacketCache::expungeByName(const DNSName& name, uint16_t qtype, bool suffixMatch)
+ {
++  size_t removed = 0;
++
+   for (uint32_t shardIndex = 0; shardIndex < d_shardCount; shardIndex++) {
+     WriteLock w(&d_shards.at(shardIndex).d_lock);
+     auto& map = d_shards[shardIndex].d_map;
+@@ -372,11 +380,14 @@ void DNSDistPacketCache::expungeByName(const DNSName& name, uint16_t qtype, bool
+       if ((value.qname == name || (suffixMatch && value.qname.isPartOf(name))) && (qtype == QType::ANY || qtype == value.qtype)) {
+         it = map.erase(it);
+         d_shards[shardIndex].d_entriesCount--;
++        ++removed;
+       } else {
+         ++it;
+       }
+     }
+   }
++
++  return removed;
+ }
+ 
+ bool DNSDistPacketCache::isFull()
+diff --git a/pdns/dnsdist-cache.hh b/pdns/dnsdist-cache.hh
+index 830a01609a..887f03d32b 100644
+--- a/pdns/dnsdist-cache.hh
++++ b/pdns/dnsdist-cache.hh
+@@ -37,9 +37,9 @@ public:
+ 
+   void insert(uint32_t key, const boost::optional<Netmask>& subnet, uint16_t queryFlags, bool dnssecOK, const DNSName& qname, uint16_t qtype, uint16_t qclass, const char* response, uint16_t responseLen, bool tcp, uint8_t rcode, boost::optional<uint32_t> tempFailureTTL);
+   bool get(const DNSQuestion& dq, uint16_t consumed, uint16_t queryId, char* response, uint16_t* responseLen, uint32_t* keyOut, boost::optional<Netmask>& subnetOut, bool dnssecOK, uint32_t allowExpired=0, bool skipAging=false);
+-  void purgeExpired(size_t upTo=0);
+-  void expunge(size_t upTo=0);
+-  void expungeByName(const DNSName& name, uint16_t qtype=QType::ANY, bool suffixMatch=false);
++  size_t purgeExpired(size_t upTo=0);
++  size_t expunge(size_t upTo=0);
++  size_t expungeByName(const DNSName& name, uint16_t qtype=QType::ANY, bool suffixMatch=false);
+   bool isFull();
+   string toString();
+   uint64_t getSize();
+diff --git a/pdns/dnsdistdist/test-dnsdistrules_cc.cc b/pdns/dnsdistdist/test-dnsdistrules_cc.cc
+index a402864068..cd2a22158d 100644
+--- a/pdns/dnsdistdist/test-dnsdistrules_cc.cc
++++ b/pdns/dnsdistdist/test-dnsdistrules_cc.cc
+@@ -45,12 +45,16 @@ BOOST_AUTO_TEST_CASE(test_MaxQPSIPRule) {
+   BOOST_CHECK_EQUAL(rule.matches(&dq), true);
+   BOOST_CHECK_EQUAL(rule.getEntriesCount(), 1);
+ 
++  /* remove all entries that have not been updated since 'now' + 1,
++     so all of them */
+   expiredTime.tv_sec += 1;
+   rule.cleanup(expiredTime);
+ 
+   /* we should have been cleaned up */
+   BOOST_CHECK_EQUAL(rule.getEntriesCount(), 0);
+ 
++  struct timespec beginInsertionTime;
++  gettime(&beginInsertionTime);
+   /* we should not be blocked anymore */
+   BOOST_CHECK_EQUAL(rule.matches(&dq), false);
+   /* and we be back */
+@@ -58,21 +62,21 @@ BOOST_AUTO_TEST_CASE(test_MaxQPSIPRule) {
+ 
+ 
+   /* Let's insert a lot of different sources now */
+-  struct timespec insertionTime;
+-  gettime(&insertionTime);
+   for (size_t idxByte3 = 0; idxByte3 < 256; idxByte3++) {
+     for (size_t idxByte4 = 0; idxByte4 < 256; idxByte4++) {
+       rem = ComboAddress("10.0." + std::to_string(idxByte3) + "." + std::to_string(idxByte4));
+       BOOST_CHECK_EQUAL(rule.matches(&dq), false);
+     }
+   }
++  struct timespec endInsertionTime;
++  gettime(&endInsertionTime);
+ 
+   /* don't forget the existing entry */
+   size_t total = 1 + 256 * 256;
+   BOOST_CHECK_EQUAL(rule.getEntriesCount(), total);
+ 
+   /* make sure all entries are still valid */
+-  struct timespec notExpiredTime = insertionTime;
++  struct timespec notExpiredTime = beginInsertionTime;
+   notExpiredTime.tv_sec -= 1;
+ 
+   size_t scanned = 0;
+@@ -83,7 +87,7 @@ BOOST_AUTO_TEST_CASE(test_MaxQPSIPRule) {
+   BOOST_CHECK_EQUAL(rule.getEntriesCount(), total);
+ 
+   /* make sure all entries are _not_ valid anymore */
+-  expiredTime = insertionTime;
++  expiredTime = endInsertionTime;
+   expiredTime.tv_sec += 1;
+ 
+   removed = rule.cleanup(expiredTime, &scanned);
+diff --git a/pdns/test-dnsdistpacketcache_cc.cc b/pdns/test-dnsdistpacketcache_cc.cc
+index 5b1fbc0f34..38d35dfdf3 100644
+--- a/pdns/test-dnsdistpacketcache_cc.cc
++++ b/pdns/test-dnsdistpacketcache_cc.cc
+@@ -40,7 +40,7 @@ BOOST_AUTO_TEST_CASE(test_PacketCacheSimple) {
+       pwR.getHeader()->ra = 1;
+       pwR.getHeader()->qr = 1;
+       pwR.getHeader()->id = pwQ.getHeader()->id;
+-      pwR.startRecord(a, QType::A, 100, QClass::IN, DNSResourceRecord::ANSWER);
++      pwR.startRecord(a, QType::A, 7200, QClass::IN, DNSResourceRecord::ANSWER);
+       pwR.xfr32BitInt(0x01020304);
+       pwR.commit();
+       uint16_t responseLen = response.size();
+@@ -86,13 +86,13 @@ BOOST_AUTO_TEST_CASE(test_PacketCacheSimple) {
+       DNSQuestion dq(&a, QType::A, QClass::IN, 0, &remote, &remote, (struct dnsheader*) query.data(), query.size(), query.size(), false, &queryTime);
+       bool found = PC.get(dq, a.wirelength(), 0, responseBuf, &responseBufSize, &key, subnet, dnssecOK);
+       if (found == true) {
+-        PC.expungeByName(a);
+-        deleted++;
++        auto removed = PC.expungeByName(a);
++        BOOST_CHECK_EQUAL(removed, 1);
++        deleted += removed;
+       }
+     }
+     BOOST_CHECK_EQUAL(PC.getSize(), counter - skipped - deleted);
+ 
+-
+     size_t matches=0;
+     vector<DNSResourceRecord> entry;
+     size_t expected=counter-skipped-deleted;
+@@ -111,10 +111,15 @@ BOOST_AUTO_TEST_CASE(test_PacketCacheSimple) {
+         matches++;
+       }
+     }
+-    BOOST_CHECK_EQUAL(matches, expected);
+ 
+-    PC.expungeByName(DNSName(" hello"), QType::ANY, true);
++    /* in the unlikely event that the test took so long that the entries did expire.. */
++    auto expired = PC.purgeExpired();
++    BOOST_CHECK_EQUAL(matches + expired, expected);
++
++    auto remaining = PC.getSize();
++    auto removed = PC.expungeByName(DNSName(" hello"), QType::ANY, true);
+     BOOST_CHECK_EQUAL(PC.getSize(), 0);
++    BOOST_CHECK_EQUAL(removed, remaining);
+   }
+   catch(PDNSException& e) {
+     cerr<<"Had error: "<<e.reason<<endl;
