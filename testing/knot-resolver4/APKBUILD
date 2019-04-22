@@ -80,6 +80,13 @@ dnstap() {
 	mv "$pkgdir"/$moddir/dnstap.so "$subpkgdir"/$moddir/
 }
 
+gpg_signature_extensions=asc
+gpgfingerprints="
+	B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA
+	BE26 EBB9 CBE0 59B3 910C  A35B CE8D D6A1 A50A 21E4
+	good:4A8B A48C 2AED 933B D495  C509 A1FB A5F7 EF8C 4869
+	"
+
 sha256sums="37161d931e64535ce38c33b9635f06a43cd1541945bf2c79a55e37f230de1631  knot-resolver-4.0.0.tar.xz
 23a9fff29fae658e669553a385cf5563311a3451bb8f77889a8d8501e8c98c5a  knot-resolver4.logrotate
 bb3e4c1f666c3e1d995aad8fa0af98960298d91b0222fc7f423692493ffbb3a5  knot-resolver4.confd
