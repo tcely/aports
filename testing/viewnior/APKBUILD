@@ -1,8 +1,8 @@
 # Contributor: August Klein <amatcoder@gmail.com>
 # Maintainer: August Klein <amatcoder@gmail.com>
-pkgname=viewnior
+pkgname="viewnior"
 _pkgname=Viewnior
-pkgver=1.7
+pkgver="1.7"
 pkgrel=0
 pkgdesc="A fast and simple image viewer"
 url="http://siyanpanayotov.com/project/viewnior"

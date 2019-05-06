@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Contributor: tcely <dnshints-root+aports@tcely.33mail.com>
 # Maintainer: tcely <dnshints-root+aports@tcely.33mail.com>
-pkgname=dns-root-hints
-pkgver=2019031302
+pkgname="dns-root-hints"
+pkgver="2019031302"
 pkgrel=1
 pkgdesc="The DNS root hint(s)"
 url="https://www.internic.net/domain"

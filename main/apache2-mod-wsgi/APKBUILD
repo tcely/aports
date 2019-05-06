@@ -1,8 +1,8 @@
 # Contributor: Matt Smith <mcs@darkregion.net>
 # Maintainer: Matt Smith <mcs@darkregion.net>
-pkgname=apache2-mod-wsgi
+pkgname="apache2-mod-wsgi"
 _realname=mod_wsgi
-pkgver=4.6.5
+pkgver="4.6.5"
 pkgrel=0
 pkgdesc="Python WSGI Module for Apache2"
 url="https://github.com/GrahamDumpleton/mod_wsgi"

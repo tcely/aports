@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gexiv2
-pkgver=0.10.8
+pkgname="gexiv2"
+pkgver="0.10.8"
 pkgrel=0
 pkgdesc="a GObject-based wrapper around the  Exiv2 library"
 url="https://wiki.gnome.org/Projects/gexiv2"

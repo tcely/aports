@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=sipcalc
-pkgver=1.1.6
+pkgname="sipcalc"
+pkgver="1.1.6"
 pkgrel=0
 pkgdesc="Advanced console based ip subnet calculator"
 url="http://www.routemeister.net/projects/sipcalc/"

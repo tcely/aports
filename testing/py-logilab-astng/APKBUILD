@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-logilab-astng
+pkgname="py-logilab-astng"
 _pkgname=logilab-astng
-pkgver=0.24.3
+pkgver="0.24.3"
 pkgrel=1
 pkgdesc="Rebuild a new abstract syntax tree from Python's ast"
 url="http://pypi.python.org/pypi/logilab-astng"

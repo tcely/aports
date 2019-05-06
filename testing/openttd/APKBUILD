@@ -1,7 +1,7 @@
 # Contributor: Adrian Siekierka <kontakt@asie.pl>
 # Maintainer: Adrian Siekierka <kontakt@asie.pl>
-pkgname=openttd
-pkgver=1.8.0
+pkgname="openttd"
+pkgver="1.8.0"
 pkgrel=1
 pkgdesc="Open source version of the Transport Tycoon Deluxe simulator"
 url="http://openttd.org"

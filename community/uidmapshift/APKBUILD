@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=uidmapshift
-pkgver=0.1.0
+pkgname="uidmapshift"
+pkgver="0.1.0"
 pkgrel=0
 pkgdesc="Shift UIDs/GIDs of directory entries recursively by some offset"
 url="https://github.com/jirutka/uidmapshift"

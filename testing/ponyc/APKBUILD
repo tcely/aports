@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ponyc
-pkgver=0.21.3
+pkgname="ponyc"
+pkgver="0.21.3"
 pkgrel=2
 pkgdesc="An open-source, actor-model, capabilities-secure, high performance programming language"
 url="https://www.ponylang.org"

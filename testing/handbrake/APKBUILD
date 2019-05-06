@@ -1,7 +1,7 @@
 # Maintainer: Nathan Angelacos <nangel@alpinelinux.org>
-pkgname=handbrake
+pkgname="handbrake"
 _pkgname=HandBrake
-pkgver=1.2.2
+pkgver="1.2.2"
 pkgrel=0
 pkgdesc="Handbrake video transcoder"
 url="https://handbrake.fr"

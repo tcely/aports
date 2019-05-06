@@ -1,7 +1,7 @@
 # Contributor: Ben Pye <ben@curlybracket.co.uk>
 # Maintainer: Ben Pye <ben@curlybracket.co.uk>
-pkgname=libunwind
-pkgver=1.2.1
+pkgname="libunwind"
+pkgver="1.2.1"
 _pkgver=${pkgver/_/-}
 pkgrel=3
 pkgdesc="Portable and efficient C programming interface (API) to determine the call-chain of a program"

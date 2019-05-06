@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-alabaster
+pkgname="py-alabaster"
 _pkgname=alabaster
-pkgver=0.7.12
+pkgver="0.7.12"
 pkgrel=1
 pkgdesc="Modified Kr Sphinx doc theme"
 url="https://github.com/bitprophet/alabaster"

@@ -1,7 +1,7 @@
 # Contributor: Aaron Hurt <ahurtd@ena.com>
 # Maintainer: Aaron Hurt <ahurt@ena.com>
-pkgname=dumb-init
-pkgver=1.2.2
+pkgname="dumb-init"
+pkgver="1.2.2"
 pkgrel=1
 pkgdesc="A minimal init system for Linux containers"
 url="https://github.com/Yelp/dumb-init"

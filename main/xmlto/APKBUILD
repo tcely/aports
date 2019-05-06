@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xmlto
-pkgver=0.0.28
+pkgname="xmlto"
+pkgver="0.0.28"
 pkgrel=2
 pkgdesc="Convert xml to many other formats"
 url="https://pagure.io/xmlto/"

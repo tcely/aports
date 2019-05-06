@@ -1,7 +1,7 @@
 # Contributor: Simon Frankenberger <simon-alpine@fraho.eu>
 # Maintainer: Simon Frankenberger <simon-alpine@fraho.eu>
-pkgname=multibootusb
-pkgver=9.2.0
+pkgname="multibootusb"
+pkgver="9.2.0"
 pkgrel=1
 pkgdesc="Create multi boot live Linux on a USB disk"
 url="http://multibootusb.org/"

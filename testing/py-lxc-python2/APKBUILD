@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 _pkgname=lxc-python2
-pkgname=py-${_pkgname}
-pkgver=0.1
+pkgname="py-${_pkgname}"
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Python2 bindings for LXC"
 url="https://pypi.python.org/pypi/lxc-python2"

@@ -28,7 +28,7 @@ _abi_releases="${_abiver}-${_flavor} ${_abiver}-virtgrsec"
 _kernelver="$_kver-r$_kpkgrel"
 
 pkgname="$_realname-$_flavor"
-pkgver=$_kver
+pkgver="$_kver"
 pkgrel=$(($_kpkgrel + $_mypkgrel))
 
 pkgdesc="The Open Virtual Machine Tools are the open source implementation of VMware Tools."

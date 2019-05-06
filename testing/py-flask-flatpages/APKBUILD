@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-flatpages
+pkgname="py-flask-flatpages"
 _pkgname=Flask-FlatPages
-pkgver=0.5
+pkgver="0.5"
 pkgrel=0
 pkgdesc="Flask static pages extension"
 url="https://pypi.python.org/pypi/Flask-FlatPages"

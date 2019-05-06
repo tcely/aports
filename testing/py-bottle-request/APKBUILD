@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-bottle-request
+pkgname="py-bottle-request"
 _pkgname=bottle-request
-pkgver=0.2.0
+pkgver="0.2.0"
 pkgrel=0
 pkgdesc="Bottle 'stateless' request object plugin"
 url="http://github.com/turtlebender/bottle-request/"

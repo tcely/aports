@@ -1,7 +1,7 @@
 # Maintainer: Alex Raschi <raschi.alex@gmail.com>
-pkgname=b2sum
+pkgname="b2sum"
 _pkgname=BLAKE2
-pkgver=20180711
+pkgver="20180711"
 _commit=320c325437539ae91091ce62efec1913cd8093c2
 pkgrel=0
 pkgdesc="BLAKE2 command line utility with multiple algorithms"

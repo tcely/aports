@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx-theme-guzzle
+pkgname="py-sphinx-theme-guzzle"
 _pkgname=guzzle_sphinx_theme
-pkgver=0.2.1
+pkgver="0.2.1"
 pkgrel=0
 pkgdesc="The Guzzle Sphinx theme"
 url="https://github.com/guzzle/guzzle_sphinx_theme"

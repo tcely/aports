@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-rex
-pkgver=2.9.0
+pkgname="lua-rex"
+pkgver="2.9.0"
 pkgrel=0
 pkgdesc="Lua bindings to regular expression library pcre and posix"
 url="http://lrexlib.luaforge.net/"

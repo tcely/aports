@@ -1,8 +1,8 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 
 _flavor=vanilla
-pkgname=linux-${_flavor}
-pkgver=4.19.40
+pkgname="linux-${_flavor}"
+pkgver="4.19.40"
 case $pkgver in
 	*.*.*)	_kernver=${pkgver%.*};;
 	*.*) _kernver=$pkgver;;

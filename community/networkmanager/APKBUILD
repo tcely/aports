@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=networkmanager
-pkgver=1.18.1
+pkgname="networkmanager"
+pkgver="1.18.1"
 pkgrel=1
 pkgdesc="Network Management daemon"
 url="https://wiki.gnome.org/Projects/NetworkManager"

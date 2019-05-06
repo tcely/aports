@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=hiredis
-pkgver=0.14.0
+pkgname="hiredis"
+pkgver="0.14.0"
 pkgrel=0
 pkgdesc="Minimalistic C client library for Redis"
 url="https://github.com/redis/hiredis"

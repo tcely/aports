@@ -1,7 +1,7 @@
 # Contributor: Shiva Velmurugan <shiv@shiv.me>
 # Maintainer: Shiva Velmurugan <shiv@shiv.me>
-pkgname=lcov
-pkgver=1.13
+pkgname="lcov"
+pkgver="1.13"
 pkgrel=0
 pkgdesc="LCOV is an extension to GCOV. It provides a graphical frontend for converage information"
 url="https://github.com/linux-test-project/lcov"

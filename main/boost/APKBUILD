@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=boost
-pkgver=1.69.0
+pkgname="boost"
+pkgver="1.69.0"
 _pkgver="${pkgver//./_}"
 pkgrel=4
 pkgdesc="Free peer-reviewed portable C++ source libraries"

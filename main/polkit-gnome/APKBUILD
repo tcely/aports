@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=polkit-gnome
-pkgver=0.105
+pkgname="polkit-gnome"
+pkgver="0.105"
 pkgrel=1
 pkgdesc="PolicyKit integration for the GNOME desktop"
 url="http://www.freedesktop.org/wiki/Software/PolicyKit"

@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=keybinder3
+pkgname="keybinder3"
 _pkgname=keybinder-3.0
-pkgver=0.3.2
+pkgver="0.3.2"
 pkgrel=1
 pkgdesc="Library for registering global key bindings, for gtk-based applications. GTK3 version"
 url="https://github.com/engla/keybinder"

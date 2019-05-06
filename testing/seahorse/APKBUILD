@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=seahorse
-pkgver=3.32.1
+pkgname="seahorse"
+pkgver="3.32.1"
 pkgrel=0
 pkgdesc="GNOME application for managing PGP keys."
 url="https://projects.gnome.org/seahorse/"

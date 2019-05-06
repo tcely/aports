@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-cheeseshop
+pkgname="py-sphinxcontrib-cheeseshop"
 _pkgname=sphinxcontrib-cheeseshop
-pkgver=0.2
+pkgver="0.2"
 pkgrel=0
 pkgdesc="Sphinx cheeseshop extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-cheeseshop"

@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-test-without-module
+pkgname="perl-test-without-module"
 _pkgreal="Test-Without-Module"
-pkgver=0.20
+pkgver="0.20"
 pkgrel=0
 pkgdesc="Test::Without::Module perl module"
 url="http://search.cpan.org"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=zendframework
-pkgver=2.4.13
+pkgname="zendframework"
+pkgver="2.4.13"
 pkgrel=0
 pkgdesc="PHP web application framework"
 url="https://framework.zend.com/"

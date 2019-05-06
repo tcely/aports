@@ -1,8 +1,8 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-hgtools
+pkgname="py-hgtools"
 _pkgname=hgtools
-pkgver=6.5.2
+pkgver="6.5.2"
 pkgrel=0
 pkgdesc="Classes and setuptools plugin for Mercurial and Git repositories"
 url="https://pypi.python.org/pypi/hgtools"

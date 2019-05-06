@@ -1,6 +1,6 @@
 # Maintainer: Michael Koloberdin <koloberdin@gmail.com>
-pkgname=optipng
-pkgver=0.7.7
+pkgname="optipng"
+pkgver="0.7.7"
 pkgrel=0
 pkgdesc="Compresses PNG files to a smaller size, without losing any information."
 url="http://optipng.sourceforge.net/"

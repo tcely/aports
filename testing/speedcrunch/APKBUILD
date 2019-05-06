@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=speedcrunch
-pkgver=0.12
+pkgname="speedcrunch"
+pkgver="0.12"
 pkgrel=0
 pkgdesc="SpeedCrunch is a high-precision scientific calculator."
 url="http://www.speedcrunch.org/"

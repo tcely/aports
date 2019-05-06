@@ -1,7 +1,7 @@
 # Contributor: Nathan Caldwell <saintdev@gmail.com>
 # Maintainer: Nathan Caldwell <saintdev@gmail.com>
-pkgname=snapraid
-pkgver=11.3
+pkgname="snapraid"
+pkgver="11.3"
 pkgrel=0
 pkgdesc="A backup program for disk arrays"
 url="http://www.snapraid.it"

@@ -1,8 +1,8 @@
 # Contributor:
 # Maintainer: Paul Morgan <jumanjiman@gmail.com>
-pkgname=editorconfig
+pkgname="editorconfig"
 _pkgname=$pkgname-core-c
-pkgver=0.12.2
+pkgver="0.12.2"
 pkgrel=0
 pkgdesc="EditorConfig core library written in C (for use by plugins supporting EditorConfig parsing)"
 url="https://github.com/editorconfig/editorconfig-core-c"

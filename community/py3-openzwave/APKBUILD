@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
 _name=python-openzwave
-pkgname=py3-openzwave
-pkgver=0.4.19
+pkgname="py3-openzwave"
+pkgver="0.4.19"
 pkgrel=2
 pkgdesc="Python wrapper for openzwave"
 url="http://www.openzwave.com/"

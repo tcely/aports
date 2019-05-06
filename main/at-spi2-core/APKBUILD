@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=at-spi2-core
-pkgver=2.28.0
+pkgname="at-spi2-core"
+pkgver="2.28.0"
 pkgrel=1
 pkgdesc="Protocol definitions and daemon for D-Bus at-spi"
 url="http://www.linuxfoundation.org/en/AT-SPI_on_D-Bus"

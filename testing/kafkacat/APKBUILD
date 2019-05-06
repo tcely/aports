@@ -1,7 +1,7 @@
 # Contributor: Andrey Pustovetov <andrey.pustovetov@gmail.com>
 # Maintainer: Andrey Pustovetov <andrey.pustovetov@gmail.com>
-pkgname=kafkacat
-pkgver=1.4.0
+pkgname="kafkacat"
+pkgver="1.4.0"
 pkgrel=0
 pkgdesc="Generic command-line non-JVM Apache Kafka producer and consumer"
 url="https://github.com/edenhill/kafkacat"

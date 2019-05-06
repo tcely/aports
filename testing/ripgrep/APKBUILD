@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=ripgrep
-pkgver=0.10.0
+pkgname="ripgrep"
+pkgver="0.10.0"
 pkgrel=0
 pkgdesc="ripgrep combines the usability of The Silver Searcher with the raw speed of grep"
 url="https://github.com/BurntSushi/ripgrep"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=krb5
-pkgver=1.17
+pkgname="krb5"
+pkgver="1.17"
 pkgrel=0
 
 case $pkgver in

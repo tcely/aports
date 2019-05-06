@@ -1,8 +1,8 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=spark
+pkgname="spark"
 _pkgname=Spark
-pkgver=2.8.3
+pkgver="2.8.3"
 pkgrel=0
 pkgdesc="Cross-platform IM client optimized for businesses and organizations."
 url="https://www.igniterealtime.org/projects/spark/"

@@ -1,8 +1,8 @@
 # Maintainer: Keith Maxwell <keith.maxwell@gmail.com>
 # Contributor: Keith Maxwell <keith.maxwell@gmail.com>
-pkgname=py3-ruamel.std.pathlib
+pkgname="py3-ruamel.std.pathlib"
 _pyname=ruamel.std.pathlib
-pkgver=0.6.3
+pkgver="0.6.3"
 pkgrel=1
 pkgdesc="improvements over the standard pathlib module and pathlib2 package"
 url=https://bitbucket.org/ruamel/std.pathlib

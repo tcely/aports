@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: prspkt <prspkt@protonmail.com>
-pkgname=websocket++
-pkgver=0.8.1
+pkgname="websocket++"
+pkgver="0.8.1"
 pkgrel=0
 pkgdesc="C++/Boost Asio based websocket client/server library"
 url="https://github.com/zaphoyd/websocketpp"

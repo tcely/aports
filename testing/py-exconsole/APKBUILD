@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-exconsole
+pkgname="py-exconsole"
 _pkgname=python-exconsole
-pkgver=0.1.5
+pkgver="0.1.5"
 pkgrel=0
 pkgdesc="Emergency/postmortem Python console"
 url="https://github.com/Eugeny/exconsole"

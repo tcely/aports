@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=kimchi
-pkgver=2.5.0
+pkgname="kimchi"
+pkgver="2.5.0"
 pkgrel=2
 pkgdesc="An HTML5 management interface for KVM"
 url="https://github.com/kimchi-project/kimchi"

@@ -1,7 +1,7 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=irqbalance
-pkgver=1.5.0
+pkgname="irqbalance"
+pkgver="1.5.0"
 pkgrel=2
 pkgdesc="Daemon that distributes interrupts over the processors"
 url="https://github.com/Irqbalance/irqbalance"

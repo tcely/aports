@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=cmocka
-pkgver=1.1.5
+pkgname="cmocka"
+pkgver="1.1.5"
 pkgrel=0
 pkgdesc="An elegant unit testing framework for C with support for mock objects"
 url="https://cmocka.org/"

@@ -1,6 +1,6 @@
 # Maintainer: Adam Jensen <acjensen@gmail.com>
-pkgname=bcc
-pkgver=0.8.0
+pkgname="bcc"
+pkgver="0.8.0"
 pkgrel=0
 pkgdesc="A toolkit for creating efficient kernel tracing and manipulation programs"
 url="https://github.com/iovisor/bcc/"

@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-fcgi-procmanager
+pkgname="perl-fcgi-procmanager"
 _pkgreal=FCGI-ProcManager
-pkgver=0.28
+pkgver="0.28"
 pkgrel=0
 pkgdesc="Functions for managing FastCGI applications"
 url="http://search.cpan.org/dist/FCGI-ProcManager/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-ioflo
+pkgname="py3-ioflo"
 _pkgname=ioflo
-pkgver=1.7.5
+pkgver="1.7.5"
 pkgrel=0
 pkgdesc="Automated Reasoning Engine and Flow Based Programming Framework"
 url="https://github.com/ioflo/ioflo"

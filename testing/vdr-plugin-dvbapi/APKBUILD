@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=vdr-plugin-dvbapi
-pkgver=2.1.0
+pkgname="vdr-plugin-dvbapi"
+pkgver="2.1.0"
 pkgrel=0
 pkgdesc="VDR dvbapi plugin for use with OSCam"
 url="https://github.com/manio/vdr-plugin-dvbapi"

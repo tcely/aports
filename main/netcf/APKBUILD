@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=netcf
-pkgver=0.2.8
+pkgname="netcf"
+pkgver="0.2.8"
 pkgrel=6
 pkgdesc="Cross-platform network configuration library"
 arch="all"

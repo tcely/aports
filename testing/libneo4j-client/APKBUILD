@@ -1,7 +1,7 @@
 # Contributor: Chris Leishman <chris@leishman.org>
 # Maintainer: Chris Leishman <chris@leishman.org>
-pkgname=libneo4j-client
-pkgver=2.2.0
+pkgname="libneo4j-client"
+pkgver="2.2.0"
 pkgrel=2
 pkgdesc="Client library for the Neo4j graph database"
 url="https://github.com/cleishm/libneo4j-client"

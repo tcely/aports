@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=java-sigar
+pkgname="java-sigar"
 _pkgname=sigar
-pkgver=1.6.4
+pkgver="1.6.4"
 pkgrel=0
 pkgdesc="System Information Gatherer And Reporter"
 url="https://github.com/hyperic/sigar/"

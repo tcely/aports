@@ -2,8 +2,8 @@
 # Contributor: Jeff Bilyk <jbilyk at gmail>
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=zabbix
-pkgver=4.2.1
+pkgname="zabbix"
+pkgver="4.2.1"
 pkgrel=0
 pkgdesc="Enterprise-class open source distributed monitoring"
 url="http://www.zabbix.com"

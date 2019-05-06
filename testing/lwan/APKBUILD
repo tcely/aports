@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lwan
-pkgver=0.1
+pkgname="lwan"
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Experimental, scalable, high performance HTTP server"
 url="https://lwan.ws"

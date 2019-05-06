@@ -1,8 +1,8 @@
 # Contributor: Daniel Sabogal <dsabogalcc@gmail.com>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=msgpack-c
+pkgname="msgpack-c"
 _pkgname=msgpack-c-cpp
-pkgver=2.0.0
+pkgver="2.0.0"
 pkgrel=1
 pkgdesc="An efficient object serialization library"
 url="https://msgpack.org"

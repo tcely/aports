@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-alpine-conf
-pkgver=0.9.0
+pkgname="acf-alpine-conf"
+pkgver="0.9.0"
 pkgrel=4
 pkgdesc="A web-based system administration interface for alpine-conf"
 url="https://git.alpinelinux.org/cgit/acf/acf-alpine-conf"

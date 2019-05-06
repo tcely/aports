@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libshout
-pkgver=2.4.2
+pkgname="libshout"
+pkgver="2.4.2"
 pkgrel=0
 pkgdesc="Library for accessing a shoutcast/icecast server"
 url="http://www.icecast.org/"

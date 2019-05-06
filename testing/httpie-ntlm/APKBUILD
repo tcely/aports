@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=httpie-ntlm
-pkgver=1.0.2
+pkgname="httpie-ntlm"
+pkgver="1.0.2"
 pkgrel=0
 pkgdesc="NTLM plugin for HTTPie"
 url="https://github.com/jkbr/httpie-ntlm"

@@ -1,7 +1,7 @@
 # Contributor: Boris Faure <boris@fau.re>
 # Maintainer: Boris Faure <boris@fau.re>
-pkgname=efl
-pkgver=1.21.1
+pkgname="efl"
+pkgver="1.21.1"
 pkgrel=0
 pkgdesc="Enlightenment Foundation Libraries"
 url="https://www.enlightenment.org"

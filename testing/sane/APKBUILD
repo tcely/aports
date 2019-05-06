@@ -1,9 +1,9 @@
 # Contributor: Fabio Riga <rifabio@dpersonam.me>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=sane
+pkgname="sane"
 _pkgname=sane-backends
-pkgver=1.0.27
+pkgver="1.0.27"
 pkgrel=2
 pkgdesc="Scanner Access Now Easy - universal scanner interface"
 url="http://www.sane-project.org/"

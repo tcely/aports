@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-setuptools-git
+pkgname="py3-setuptools-git"
 _pkgname=setuptools-git
-pkgver=1.2
+pkgver="1.2"
 pkgrel=1
 pkgdesc="Setuptools plugin for Git"
 url="https://github.com/wichert/setuptools-git"

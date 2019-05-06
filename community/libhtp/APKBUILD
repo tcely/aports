@@ -1,7 +1,7 @@
 # Contributor: Steve McMaster <code@mcmaster.io>
 # Maintainer: Steve McMaster <code@mcmaster.io>
-pkgname=libhtp
-pkgver=0.5.30
+pkgname="libhtp"
+pkgver="0.5.30"
 pkgrel=0
 pkgdesc="HTTP normalizer and parser library"
 url="https://github.com/OISF/libhtp"

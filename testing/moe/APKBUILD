@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=moe
-pkgver=1.10
+pkgname="moe"
+pkgver="1.10"
 pkgrel=0
 pkgdesc="A powerful and user-friendly text editor"
 url="https://www.gnu.org/software/moe/moe.html"

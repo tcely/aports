@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=alpine-git-mirror-syncd
+pkgname="alpine-git-mirror-syncd"
 _shortname=git-mirror-syncd
-pkgver=0.3.0
+pkgver="0.3.0"
 pkgrel=0
 pkgdesc="Lua script that listens on MQTT and synchronizes Git mirrors when notified about changes"
 url="https://github.com/jirutka/alpine-git-mirror-syncd"

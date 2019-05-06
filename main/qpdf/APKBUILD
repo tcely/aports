@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=qpdf
-pkgver=8.3.0
+pkgname="qpdf"
+pkgver="8.3.0"
 pkgrel=0
 pkgdesc="Command-line tools and library for transforming PDF files"
 url="http://qpdf.sourceforge.net"

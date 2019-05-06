@@ -1,8 +1,8 @@
 # Contributor: Mark Riedesel <mark@klowner.com>
 # Maintainer: Mark Riedesel <mark@klowner.com>
-pkgname=opensubdiv
+pkgname="opensubdiv"
 _pkgname=OpenSubdiv
-pkgver=3.0.5
+pkgver="3.0.5"
 _pkgver=${pkgver//./_}
 pkgrel=3
 pkgdesc="An Open-Source subdivision surface library"

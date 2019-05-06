@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ospd-ancor
-pkgver=1.0.0
+pkgname="ospd-ancor"
+pkgver="1.0.0"
 pkgrel=3
 _pkgid=2005
 pkgdesc="OSP server implementation to allow OpenVAS to get scan results from an Ancor server"

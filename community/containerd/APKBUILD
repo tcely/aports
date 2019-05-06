@@ -1,11 +1,11 @@
 # Contributor: Jake Buchholz <tomalok@gmail.com>
 # Maintainer: Jake Buchholz <tomalok@gmail.com>
 
-pkgname=containerd
+pkgname="containerd"
 
 # NOTE: containerd's Makefile tries to get REVISION from git, but we're building from a tarball.
 _commit=894b81a4b802e4eb2a91d1ce216b8817763c29fb
-pkgver=1.2.6
+pkgver="1.2.6"
 pkgrel=0
 pkgdesc="An open and reliable container runtime"
 url="https://containerd.io"

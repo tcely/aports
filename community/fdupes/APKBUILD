@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: A. Wilcox <awilfox@adelielinux.org>
-pkgname=fdupes
-pkgver=1.6.1
+pkgname="fdupes"
+pkgver="1.6.1"
 pkgrel=1
 pkgdesc="identifying or deleting duplicate files residing within specified directories"
 url="https://github.com/adrianlopezroche/fdupes"

@@ -1,7 +1,7 @@
 # Contributor: wener <wenermail@gmail.com>
 # Maintainer: wener <wenermail@gmail.com>
-pkgname=grpc-java
-pkgver=1.19.0
+pkgname="grpc-java"
+pkgver="1.19.0"
 pkgrel=0
 pkgdesc="The Java gRPC implementation. HTTP/2 based RPC"
 url="https://github.com/grpc/grpc-java"

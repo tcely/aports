@@ -1,7 +1,7 @@
 # Contributor: Bjoern Schilberg <bjoern@intevation.de>
 # Maintainer: Bjoern Schilberg <bjoern@intevation.de>
-pkgname=mapserver
-pkgver=7.2.1
+pkgname="mapserver"
+pkgver="7.2.1"
 pkgrel=0
 pkgdesc="MapServer is CGI-based platform for publishing spatial data and interactive mapping applications to the web."
 url="http://mapserver.org/"

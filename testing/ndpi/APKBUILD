@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=ndpi
+pkgname="ndpi"
 _pkgreal=nDPI
-pkgver=2.2
+pkgver="2.2"
 pkgrel=1
 pkgdesc="Open Source Deep Packet Inspection Software Toolkit"
 url="https://github.com/ntop/nDPI"

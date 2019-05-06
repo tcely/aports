@@ -1,8 +1,8 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
 _luaversions="5.1 5.2"
-pkgname=acf-lib
-pkgver=0.10.1
+pkgname="acf-lib"
+pkgver="0.10.1"
 pkgrel=0
 pkgdesc="Lua libraries for ACF"
 url="https://git.alpinelinux.org/cgit/acf/acf-lib"

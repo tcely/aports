@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=mate-utils
-pkgver=1.22.0
+pkgname="mate-utils"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="Utilities for the MATE Desktop"
 url="https://github.com/mate-desktop/mate-utils"

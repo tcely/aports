@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-gversion
+pkgname="lua-gversion"
 _rockname=gversion
 _pkgname=gversion.lua
-pkgver=0.2.0
+pkgver="0.2.0"
 pkgrel=2
 pkgdesc="Lua library for Gentoo-style versioning format"
 url="https://github.com/jirutka/gversion.lua"

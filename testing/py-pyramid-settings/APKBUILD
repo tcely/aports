@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pyramid-settings
+pkgname="py-pyramid-settings"
 _pkgname=pyramid_settings
-pkgver=0.1.2
+pkgver="0.1.2"
 pkgrel=0
 pkgdesc="A pyramid plugin that provides a settings module"
 url="http://github.com/niktto/pyramid_settings/"

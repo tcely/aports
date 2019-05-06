@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ospd-acunetix
-pkgver=1.0b1
+pkgname="ospd-acunetix"
+pkgver="1.0b1"
 pkgrel=3
 _pkgid=2181
 pkgdesc="OSP server implementation to allow OpenVAS to remotel control nmap port scanner"

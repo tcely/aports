@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ykpers
-pkgver=1.19.0
+pkgname="ykpers"
+pkgver="1.19.0"
 pkgrel=0
 pkgdesc="YubiKey Personalization library and tool"
 url="https://developers.yubico.com/yubikey-personalization/"

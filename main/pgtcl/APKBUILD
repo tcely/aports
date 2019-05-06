@@ -1,8 +1,8 @@
 # Contributor: G.J.R. Timmer <gjr.timmer@gmail.com>
 # Maintainer: G.J.R. Timmer <gjr.timmer@gmail.com>
-pkgname=pgtcl
+pkgname="pgtcl"
 _pkgname=Pgtcl
-pkgver=2.1.0
+pkgver="2.1.0"
 pkgrel=0
 pkgdesc="Tcl client side interface to PostgreSQL (libpgtcl)"
 url="https://flightaware.github.io/Pgtcl/"

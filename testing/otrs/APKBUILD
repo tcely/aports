@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=otrs
-pkgver=5.0.23
+pkgname="otrs"
+pkgver="5.0.23"
 pkgrel=0
 pkgdesc="Flexible Open Source Service Management Software"
 url="http://www.otrs.org/"

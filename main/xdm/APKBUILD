@@ -1,7 +1,7 @@
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=xdm
-pkgver=1.1.11
+pkgname="xdm"
+pkgver="1.1.11"
 pkgrel=5
 pkgdesc="X Display Manager"
 url="http://xorg.freedesktop.org/"

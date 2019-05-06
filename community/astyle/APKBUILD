@@ -1,6 +1,6 @@
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=astyle
-pkgver=3.1
+pkgname="astyle"
+pkgver="3.1"
 pkgrel=1
 pkgdesc="An automatic code formatter"
 url="http://sourceforge.net/projects/astyle"

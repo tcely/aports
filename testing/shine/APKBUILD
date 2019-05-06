@@ -1,7 +1,7 @@
 # Contributor: Maartje Eyskens <maartje@eyskens.me>
 # Maintainer: Maartje Eyskens <maartje@eyskens.me>
-pkgname=shine
-pkgver=3.1.1
+pkgname="shine"
+pkgver="3.1.1"
 pkgrel=0
 pkgdesc="Shine: fast fixed-point mp3 encoding"
 url="https://github.com/toots/shine"

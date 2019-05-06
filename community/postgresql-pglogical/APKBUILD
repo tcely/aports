@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Contributor: Eugene Pirogov <iamexile@gmail.com>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=postgresql-pglogical
+pkgname="postgresql-pglogical"
 _pkgname=pglogical
-pkgver=2.2.1
+pkgver="2.2.1"
 pkgrel=0
 pkgdesc="Logical Replication extension for PostgreSQL"
 url="https://2ndquadrant.com/en/resources/pglogical/"

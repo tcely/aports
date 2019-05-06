@@ -1,8 +1,8 @@
 # Contributor: tang0th <tang0th@gmx.com>
 # Contributor: fchavant <francois@lightcurve.io>
 # Maintainer:
-pkgname=confd
-pkgver=0.16.0
+pkgname="confd"
+pkgver="0.16.0"
 pkgrel=0
 pkgdesc="Manage local application configuration files using templates and data from etcd or consul"
 url="http://confd.io"

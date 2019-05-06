@@ -1,7 +1,7 @@
 # Contributor: Zsolt M <zsolt@meszarovics.me>
 # Maintainer:
-pkgname=mhddfs
-pkgver=0.1.39
+pkgname="mhddfs"
+pkgver="0.1.39"
 pkgrel=0
 pkgdesc="A fuse-based file system for unifying several mount points into one."
 url="http://mhddfs.uvw.ru"

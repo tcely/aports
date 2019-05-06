@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Daniel Treadwell <daniel@djt.id.au>
-pkgname=rethinkdb
-pkgver=2.3.6
+pkgname="rethinkdb"
+pkgver="2.3.6"
 pkgrel=9
 pkgdesc="Distributed powerful and scalable NoSQL database"
 url="https://www.rethinkdb.com"

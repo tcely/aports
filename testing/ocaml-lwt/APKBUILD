@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-lwt
+pkgname="ocaml-lwt"
 _pkgname=lwt
-pkgver=4.1.0
+pkgver="4.1.0"
 pkgrel=0
 pkgdesc="OCaml promises and concurrent I/O"
 url="https://github.com/ocsigen/lwt"

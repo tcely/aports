@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Francesco Colista <francesco.colista@gmail.com>
-pkgname=cgiirc
-pkgver=0.5.12
+pkgname="cgiirc"
+pkgver="0.5.12"
 pkgrel=0
 pkgdesc="A perl/CGI program to use IRC from a web browser"
 url="http://cgiirc.org/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pyramid-controllers
+pkgname="py-pyramid-controllers"
 _pkgname=pyramid_controllers
-pkgver=0.3.22
+pkgver="0.3.22"
 pkgrel=0
 pkgdesc="A pyramid plugin that provides de-centralized hierarchical object dispatch"
 url="http://github.com/cadithealth/pyramid_controllers"

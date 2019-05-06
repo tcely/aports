@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=btrbk
-pkgver=0.28.0
+pkgname="btrbk"
+pkgver="0.28.0"
 pkgrel=0
 pkgdesc="Backup tool for btrfs subvolumes with atomic snapshots & incremental transfers"
 url="https://digint.ch/btrbk"

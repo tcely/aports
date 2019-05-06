@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=strace
-pkgver=4.26
+pkgname="strace"
+pkgver="4.26"
 pkgrel=0
 pkgdesc="Diagnostic, debugging and instructional userspace tracer"
 url="https://strace.io"

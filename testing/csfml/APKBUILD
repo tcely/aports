@@ -1,6 +1,6 @@
 # Maintainer: Daniel Sabogal <dsabogalcc@gmail.com>
-pkgname=csfml
-pkgver=2.4
+pkgname="csfml"
+pkgver="2.4"
 pkgrel=0
 pkgdesc="C bindings for SFML"
 url="https://www.sfml-dev.org/"

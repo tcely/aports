@@ -1,8 +1,8 @@
 # Contributor: Bart Ribbers <bribbers@disroot.org>
 # Maintainer:
-pkgname=qt5-qtspeech
+pkgname="qt5-qtspeech"
 _pkgname="${pkgname/qt5-/}-everywhere-src"
-pkgver=5.12.1
+pkgver="5.12.1"
 pkgrel=0
 pkgdesc="Qt module to make text to speech and speech recognition easy"
 url="https://qt.io"

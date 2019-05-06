@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xmlrpc-c
-pkgver=1.51.03
+pkgname="xmlrpc-c"
+pkgver="1.51.03"
 pkgrel=0
 pkgdesc="This library provides a modular implementation of XML-RPC for C and C++"
 url="http://xmlrpc-c.sourceforge.net/"

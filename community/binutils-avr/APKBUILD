@@ -1,7 +1,7 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=binutils-avr
-pkgver=2.32
+pkgname="binutils-avr"
+pkgver="2.32"
 pkgrel=0
 pkgdesc="Tools necessary to build programs for AVR targets"
 url="https://www.gnu.org/software/binutils/"

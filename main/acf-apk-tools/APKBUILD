@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-apk-tools
-pkgver=0.11.0
+pkgname="acf-apk-tools"
+pkgver="0.11.0"
 pkgrel=1
 pkgdesc="ACF module for apk"
 url="https://git.alpinelinux.org/cgit/acf/acf-apk-tools"

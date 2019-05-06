@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-io-stringy
+pkgname="perl-io-stringy"
 _realname=IO-stringy
-pkgver=2.111
+pkgver="2.111"
 pkgrel=1
 pkgdesc="A Perl module for I/O on in-core objects like strings and arrays"
 url="http://search.cpan.org/~dskoll/IO-stringy/"

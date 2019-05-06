@@ -4,8 +4,8 @@
 # let it be a subpackage of either because that could create a cyclic
 # buildtime dependency.
 #
-pkgname=krb5-conf
-pkgver=1.0
+pkgname="krb5-conf"
+pkgver="1.0"
 pkgrel=1
 pkgdesc="Shared krb5.conf for both MIT krb5 and heimdal"
 url="http://web.mit.edu/kerberos/www/ http://h5l.org"

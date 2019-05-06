@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=open-iscsi
-pkgver=2.0.874
+pkgname="open-iscsi"
+pkgver="2.0.874"
 pkgrel=2
 pkgdesc="High performance, transport independent, multi-platform iSCSI initiator"
 url="https://www.open-iscsi.com"

@@ -1,8 +1,8 @@
 # Contributor: Nirosan <pnirosan@gmail.com>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=R
-pkgver=3.6.0
+pkgname="R"
+pkgver="3.6.0"
 pkgrel=1
 pkgdesc="Language and environment for statistical computing"
 url="https://www.r-project.org"

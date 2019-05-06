@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: 
-pkgname=ladspa
-pkgver=1.13
+pkgname="ladspa"
+pkgver="1.13"
 pkgrel=2
 pkgdesc="Linux Audio Developer's Simple Plug-in API, examples and tools"
 url="http://www.ladspa.org/"

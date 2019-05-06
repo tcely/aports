@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=go-conf
+pkgname="go-conf"
 _pkgname=goconf
 _vendor=dlintw
-pkgver=0_git20170102
+pkgver="0_git20170102"
 pkgrel=2
 pkgdesc="goconf package - fork from https://code.google.com/p/goconf/"
 url="https://github.com/$_vendor/$_pkgname"

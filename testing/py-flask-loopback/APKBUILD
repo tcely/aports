@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-loopback
+pkgname="py-flask-loopback"
 _pkgname=Flask-Loopback
-pkgver=1.2.3
+pkgver="1.2.3"
 pkgrel=0
 pkgdesc="A library to create requests without network connection"
 url="http://pypi.python.org/pypi/Flask-Loopback"

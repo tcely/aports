@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
-pkgname=aspell
-pkgver=0.60.6.1
+pkgname="aspell"
+pkgver="0.60.6.1"
 pkgrel=13
 pkgdesc="A spell checker designed to eventually replace Ispell"
 url="http://aspell.net/"

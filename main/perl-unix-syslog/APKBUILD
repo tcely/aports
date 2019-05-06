@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-unix-syslog
+pkgname="perl-unix-syslog"
 _realname=Unix-Syslog
-pkgver=1.1
+pkgver="1.1"
 pkgrel=11
 pkgdesc="Perl interface to the UNIX syslog(3) calls"
 url="http://search.cpan.org/~mharnisch/Unix-Syslog/"

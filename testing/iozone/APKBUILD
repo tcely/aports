@@ -1,7 +1,7 @@
 # Contributor: Oleg Titov <oleg.titov@gmail.com>
 # Maintainer: Oleg Titov <oleg.titov@gmail.com>
-pkgname=iozone
-pkgver=3.487
+pkgname="iozone"
+pkgver="3.487"
 _pkgver=${pkgver//./_}
 pkgrel=0
 pkgdesc="IOzone filesystem benchmark."

@@ -1,6 +1,6 @@
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=xmessage
-pkgver=1.0.5
+pkgname="xmessage"
+pkgver="1.0.5"
 pkgrel=0
 pkgdesc="Display a message or query in a window"
 url="https://xorg.freedesktop.org/"

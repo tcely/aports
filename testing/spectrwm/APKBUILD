@@ -1,8 +1,8 @@
 # Contributor: Sascha Paunovic <azarus@posteo.net>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=spectrwm
+pkgname="spectrwm"
 _pkgname=SPECTRWM_
-pkgver=3.1.0
+pkgver="3.1.0"
 _pkgver=3_1_0
 pkgrel=0
 pkgdesc="dynamic, configurable tiling window manager for X11"

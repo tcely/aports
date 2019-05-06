@@ -1,8 +1,8 @@
 # Contributor: tcely <tcely@users.noreply.github.com>
 # Maintainer: tcely <botan+aports@tcely.33mail.com>
-pkgname=botan
+pkgname="botan"
 _pkgname=Botan
-pkgver=2.9.0
+pkgver="2.9.0"
 pkgrel=1
 pkgdesc="Crypto and TLS for C++11"
 url="https://botan.randombit.net/"

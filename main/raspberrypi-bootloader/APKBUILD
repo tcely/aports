@@ -1,7 +1,7 @@
 # Contributor: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=raspberrypi-bootloader
-pkgver=1.20190215
+pkgname="raspberrypi-bootloader"
+pkgver="1.20190215"
 pkgrel=0
 pkgdesc="Bootloader files for the Raspberry Pi"
 url=https://github.com/raspberrypi/firmware

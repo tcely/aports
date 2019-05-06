@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=py-bluez
+pkgname="py-bluez"
 _pkgname=pybluez
-pkgver=0.22
+pkgver="0.22"
 pkgrel=2
 pkgdesc="Python API for the BlueZ bluetooth stack"
 url="http://karulis.github.io/pybluez/"

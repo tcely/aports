@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-math-round
-pkgver=0.07
+pkgname="perl-math-round"
+pkgver="0.07"
 pkgrel=0
 pkgdesc="Math::Round perl module"
 url="http://search.cpan.org/dist/Math-Round/"

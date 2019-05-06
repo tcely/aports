@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-par-packer
-pkgver=1.048
+pkgname="perl-par-packer"
+pkgver="1.048"
 _realname=PAR-Packer-$pkgver
 pkgrel=0
 pkgdesc="App::Packer::Backend interface, for generating stand-alone executables, perl scripts and PAR files"

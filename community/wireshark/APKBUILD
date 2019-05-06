@@ -2,8 +2,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Jeremy Thomerson <jeremy@thomersonfamily.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=wireshark
-pkgver=2.6.8
+pkgname="wireshark"
+pkgver="2.6.8"
 pkgrel=0
 pkgdesc="A network protocol analyzer - GTK version"
 url="https://www.wireshark.org"

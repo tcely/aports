@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce4-appfinder
-pkgver=4.13.1
+pkgname="xfce4-appfinder"
+pkgver="4.13.1"
 pkgrel=0
 pkgdesc="Xfce application finder"
 url="https://xfce.org/"

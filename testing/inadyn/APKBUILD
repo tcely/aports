@@ -1,7 +1,7 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer: TBK <alpine@jjtc.eu>
-pkgname=inadyn
-pkgver=2.5
+pkgname="inadyn"
+pkgver="2.5"
 pkgrel=0
 pkgdesc="Dynamic DNS client with TLS support"
 url="http://troglobit.com/projects/inadyn"

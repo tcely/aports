@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ragel
-pkgver=6.10
+pkgname="ragel"
+pkgver="6.10"
 pkgrel=0
 pkgdesc="Finite state machine compiler"
 url="http://www.complang.org/ragel/"

@@ -1,8 +1,8 @@
 # Contributor: Andy Postnikov <apostnikov@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
-pkgname=php7-pecl-ssh2
+pkgname="php7-pecl-ssh2"
 _pkgreal=ssh2
-pkgver=1.1.2
+pkgver="1.1.2"
 pkgrel=4
 pkgdesc="PHP extension provide bindings for the libssh2 library - PECL"
 url="https://pecl.php.net/package/ssh2"

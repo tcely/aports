@@ -1,7 +1,7 @@
 # Contributor: Fabio Napoleoni <f.napoleoni@gmail.com>
 # Maintainer:
-pkgname=pamtester
-pkgver=0.1.2
+pkgname="pamtester"
+pkgver="0.1.2"
 pkgrel=0
 pkgdesc="Command line tool to test PAM configuration"
 url="http://pamtester.sourceforge.net/"

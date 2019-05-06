@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=enlightenment
-pkgver=0.17.0
+pkgname="enlightenment"
+pkgver="0.17.0"
 pkgrel=0
 pkgdesc="Enlightenment DR17 Window Manager and Desktop Shell"
 url="http://www.enlightenment.org/"

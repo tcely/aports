@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=py-distorm3
-pkgver=3.3.4
+pkgname="py-distorm3"
+pkgver="3.3.4"
 pkgrel=1
 pkgdesc="The goal of diStorm3 is to decode x86/AMD64 binary streams and return a structure that describes each instruction"
 url="https://pypi.python.org/pypi/distorm3"

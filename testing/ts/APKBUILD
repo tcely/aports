@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=ts
-pkgver=1.0
+pkgname="ts"
+pkgver="1.0"
 pkgrel=0
 pkgdesc="Unix batch system where the tasks spooled run one after the other"
 url="http://vicerveza.homeunix.net/~viric/soft/ts/"

@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer: Magicloud <magiclouds@gmail.com>
-pkgname=minikube
-pkgver=0.35.0
+pkgname="minikube"
+pkgver="0.35.0"
 pkgrel=0
 pkgdesc="Minikube is a tool that makes it easy to run Kubernetes locally"
 url="https://github.com/kubernetes/minikube"

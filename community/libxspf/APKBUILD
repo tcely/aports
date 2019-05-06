@@ -1,7 +1,7 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=libxspf
-pkgver=1.2.0
+pkgname="libxspf"
+pkgver="1.2.0"
 pkgrel=0
 pkgdesc="Brings XSPF playlist reading and writing support to C++ application"
 url="http://libspiff.sourceforge.net"

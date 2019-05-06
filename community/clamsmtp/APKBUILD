@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=clamsmtp
-pkgver=1.10
+pkgname="clamsmtp"
+pkgver="1.10"
 pkgrel=17
 pkgdesc="An SMTP Virus Filter"
 url="http://thewalter.net/stef/software/clamsmtp/"

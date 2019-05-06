@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua-penlight
+pkgname="lua-penlight"
 _rockname=penlight
-pkgver=1.5.4
+pkgver="1.5.4"
 pkgrel=2
 pkgdesc="Lua libraries for extended operations on tables, lists and strings"
 url="http://stevedonovan.github.io/Penlight"

@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-mail-clamav
+pkgname="perl-mail-clamav"
 _pkgname=Mail-ClamAV
-pkgver=0.30
+pkgver="0.30"
 pkgrel=0
 pkgdesc="Perl extension for the clamav virus scanner"
 url="http://search.cpan.org/~converter/Mail-ClamAV-0.29/"

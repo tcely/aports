@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=engrampa
-pkgver=1.22.0
+pkgname="engrampa"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="An archive manager for the MATE"
 url="https://github.com/mate-desktop/engrampa"

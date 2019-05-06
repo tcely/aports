@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-github3
+pkgname="py-github3"
 _pkgname=github3.py
-pkgver=0.9.1
+pkgver="0.9.1"
 pkgrel=0
 pkgdesc="Python wrapper for the GitHub API"
 url="https://github3py.readthedocs.org/"

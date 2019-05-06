@@ -13,8 +13,8 @@
 #     - CVE-2017-14495
 #     - CVE-2017-14496
 #
-pkgname=dnsmasq
-pkgver=2.80
+pkgname="dnsmasq"
+pkgver="2.80"
 pkgrel=3
 pkgdesc="A lightweight DNS, DHCP, RA, TFTP and PXE server"
 url="http://www.thekelleys.org.uk/dnsmasq/"

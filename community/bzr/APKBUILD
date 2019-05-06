@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=bzr
-pkgver=2.7.0
+pkgname="bzr"
+pkgver="2.7.0"
 pkgrel=1
 pkgdesc="A scalable distributed SCM tool"
 url="http://bazaar.canonical.com/"

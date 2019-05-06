@@ -1,7 +1,7 @@
 # Contributor: Marian <marian.buschsieweke@ovgu.de>
 # Maintainer: Marian <marian.buschsieweke@ovgu.de>
-pkgname=wpa_actiond
-pkgver=1.4
+pkgname="wpa_actiond"
+pkgver="1.4"
 pkgrel=2
 pkgdesc="Daemon that connects to wpa_supplicant and handles connect and disconnect events"
 url="https://git.archlinux.org/wpa_actiond.git/"

@@ -1,7 +1,7 @@
 # Maintainer:
-pkgname=nawk
+pkgname="nawk"
 gitrev=33ead6d2393268365253732a3ac566e3d3362b00
-pkgver=20190311
+pkgver="20190311"
 pkgrel=0
 pkgdesc="The one, true implementation of AWK"
 url="https://www.cs.princeton.edu/~bwk/btl.mirror/"

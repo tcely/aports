@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer:
-pkgname=uvncrepeater
-pkgver=014
+pkgname="uvncrepeater"
+pkgver="014"
 pkgrel=7
 pkgdesc="VNC repeater based on ultravnc repeater"
 url="http://koti.mbnet.fi/jtko/"

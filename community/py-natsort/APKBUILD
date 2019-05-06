@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-natsort
+pkgname="py-natsort"
 _pkgname=natsort
-pkgver=5.5.0
+pkgver="5.5.0"
 pkgrel=1
 pkgdesc="A module for natural sorting"
 url="https://github.com/SethMMorton/natsort"

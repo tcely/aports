@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=patchutils
-pkgver=0.3.4
+pkgname="patchutils"
+pkgver="0.3.4"
 pkgrel=1
 pkgdesc="A collection of programs for manipulating patch files"
 url="http://cyberelk.net/tim/patchutils/"

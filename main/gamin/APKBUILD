@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gamin
-pkgver=0.1.10
+pkgname="gamin"
+pkgver="0.1.10"
 pkgrel=10
 pkgdesc="Gamin is a file and directory monitoring system defined to be a subset of the FAM (File Alteration Monitor) system."
 url="http://www.gnome.org/~veillard/gamin"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=geocode-glib
-pkgver=3.26.0
+pkgname="geocode-glib"
+pkgver="3.26.0"
 pkgrel=0
 pkgdesc="Geocoding helper library"
 url="https://www.gnome.org/"

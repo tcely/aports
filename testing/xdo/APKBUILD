@@ -1,6 +1,6 @@
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=xdo
-pkgver=0.5.7
+pkgname="xdo"
+pkgver="0.5.7"
 pkgrel=0
 pkgdesc="Small X utility to perform elementary actions on windows"
 url="https://github.com/baskerville/xdo"

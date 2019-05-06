@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=mumble
-pkgver=1.2.19
+pkgname="mumble"
+pkgver="1.2.19"
 pkgrel=9
 pkgdesc="Low-latency, high quality voice chat software"
 url="https://wiki.mumble.info"

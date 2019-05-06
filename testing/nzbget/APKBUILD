@@ -1,7 +1,7 @@
 # Contributor: August Klein <amatcoder@gmail.com>
 # Maintainer: August Klein <amatcoder@gmail.com>
-pkgname=nzbget
-pkgver=19.1
+pkgname="nzbget"
+pkgver="19.1"
 pkgrel=3
 pkgdesc="Usenet downloader"
 url="http://nzbget.net"

@@ -3,8 +3,8 @@
 # This package must be synchronized with python2. It is splitted to avoid
 # a cyclic dependency: python -> tk -> libx11 -> libxcb -> xcb-proto -> python
 
-pkgname=python2-tkinter
-pkgver=2.7.15
+pkgname="python2-tkinter"
+pkgver="2.7.15"
 _verbase=${pkgver%.*}
 pkgrel=3
 pkgdesc="A graphical user interface for the Python"

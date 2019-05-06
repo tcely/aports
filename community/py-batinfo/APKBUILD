@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-batinfo
+pkgname="py-batinfo"
 _pkgname=batinfo
-pkgver=0.4.2
+pkgver="0.4.2"
 pkgrel=2
 pkgdesc="A simple Python lib to retreive battery information"
 url="https://github.com/nicolargo/batinfo"

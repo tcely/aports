@@ -1,7 +1,7 @@
 # Contributor: Ramanathan Sivagurunathan <ramzthecoder@gmail.com>
 # Maintainer: Ramanathan Sivagurunathan <ramzthecoder@gmail.com>
-pkgname=filebeat
-pkgver=6.4.2
+pkgname="filebeat"
+pkgver="6.4.2"
 pkgrel=0
 pkgdesc="Lightweight Shipper for Logs"
 pkgusers="root"

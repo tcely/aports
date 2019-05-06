@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=tinyxml
-pkgver=2.6.2
+pkgname="tinyxml"
+pkgver="2.6.2"
 _realver=2_6_2
 pkgrel=1
 pkgdesc="A simple, small, C++ XML parser"

@@ -1,8 +1,8 @@
 # Contributor: August Klein <amatcoder@gmail.com>
 # Maintainer: August Klein <amatcoder@gmail.com>
-pkgname=py-xdg
+pkgname="py-xdg"
 _pkgname=pyxdg
-pkgver=0.25
+pkgver="0.25"
 pkgrel=1
 pkgdesc="A python library to access freedesktop.org standards"
 url="https://freedesktop.org/wiki/Software/pyxdg"

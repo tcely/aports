@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=td-agent-bit
+pkgname="td-agent-bit"
 _pkgname=fluent-bit
-pkgver=0.10.1
+pkgver="0.10.1"
 pkgrel=2
 pkgdesc="Fast and Lightweight Log/Data Forwarder [fluent-bit]"
 url="http://fluentbit.io"

@@ -1,7 +1,7 @@
 # Contributor: lemon <lemon@bitmessage.ch>
 # Maintainer: lemon <lemon@bitmessage.ch>
-pkgname=ii
-pkgver=1.8
+pkgname="ii"
+pkgver="1.8"
 pkgrel=2
 pkgdesc="Minimalist FIFO and filesystem-based IRC client"
 url="https://tools.suckless.org/ii"

@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=asterisk-chan-dongle
-pkgver=1.1.20160925
+pkgname="asterisk-chan-dongle"
+pkgver="1.1.20160925"
 _commitid=e3bce3c1d43cec1e4f8e548b4d3880e289747b24
 pkgrel=1
 pkgdesc="GSM modem dongle channel driver"

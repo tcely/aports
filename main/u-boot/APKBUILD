@@ -2,8 +2,8 @@
 # Contributor: 
 # Contributor: Timo Teras <timo.teras@iki.fi>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=u-boot
-pkgver=2019.01
+pkgname="u-boot"
+pkgver="2019.01"
 pkgrel=0
 pkgdesc="u-boot bootloader common files"
 url="http://www.denx.de/wiki/U-Boot/"

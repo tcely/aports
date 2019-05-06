@@ -1,7 +1,7 @@
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 # Maintainer: A. Wilcox <awilfox@adelielinux.org>
-pkgname=uptimed
-pkgver=0.4.1
+pkgname="uptimed"
+pkgver="0.4.1"
 pkgrel=0
 pkgdesc='System uptime record daemon'
 arch="all"

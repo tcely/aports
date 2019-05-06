@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=potrace
-pkgver=1.15
+pkgname="potrace"
+pkgver="1.15"
 pkgrel=1
 pkgdesc="Utility for tracing a bitmaps"
 url="http://potrace.sourceforge.net/"

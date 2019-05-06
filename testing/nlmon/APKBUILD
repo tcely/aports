@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=nlmon
-pkgver=0.3_git20160406
+pkgname="nlmon"
+pkgver="0.3_git20160406"
 pkgrel=0
 verbase=0.3
 pkgdesc="A lightweight udevadm monitor replacement"

@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=font-bakoma
-pkgver=1
+pkgname="font-bakoma"
+pkgver="1"
 pkgrel=0
 pkgdesc="Computer Modern fonts"
 url="https://ctan.org/tex-archive/fonts/cm/ps-type1/bakoma"

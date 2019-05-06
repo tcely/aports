@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=shellinabox
+pkgname="shellinabox"
 _daemonname=${pkgname}d
-pkgver=2.20
+pkgver="2.20"
 pkgrel=0
 pkgdesc="Implementation of a web server that can export arbitrary command line tools to a web based terminal emulator"
 url="https://github.com/shellinabox/shellinabox"

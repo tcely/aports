@@ -1,8 +1,8 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=tiff
-pkgver=4.0.10
+pkgname="tiff"
+pkgver="4.0.10"
 pkgrel=0
 pkgdesc="Provides support for the Tag Image File Format or TIFF"
 url="http://www.libtiff.org"

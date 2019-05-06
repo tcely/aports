@@ -1,7 +1,7 @@
 # Maintainer:
-pkgname=py2-backports.ssl_match_hostname
+pkgname="py2-backports.ssl_match_hostname"
 _pkgname=backports.ssl_match_hostname
-pkgver=3.5.0.1
+pkgver="3.5.0.1"
 pkgrel=1
 pkgdesc="The ssl.match_hostname() function from Python 3.4"
 url="https://bitbucket.org/brandon/backports.ssl_match_hostname"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=fcgi
-pkgver=2.4.0
+pkgname="fcgi"
+pkgver="2.4.0"
 pkgrel=8
 pkgdesc="FAST CGI(fcgi) is a language independent, high performant extension to CGI"
 url="http://www.fastcgi.com"

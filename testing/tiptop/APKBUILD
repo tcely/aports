@@ -1,6 +1,6 @@
 # Maintainer: Mitch Tishmack <mitch.tishmack@gmail.com>
-pkgname=tiptop
-pkgver=2.3
+pkgname="tiptop"
+pkgver="2.3"
 pkgrel=0
 pkgdesc="Tiptop: Hardware Performance Counters for the Masses"
 url="http://tiptop.gforge.inria.fr"

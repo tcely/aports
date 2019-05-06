@@ -8,8 +8,8 @@
 #   2.4.44-r5:
 #   - CVE-2017-9287
 #
-pkgname=openldap
-pkgver=2.4.47
+pkgname="openldap"
+pkgver="2.4.47"
 pkgrel=2
 pkgdesc="LDAP Server"
 url="http://www.openldap.org/"

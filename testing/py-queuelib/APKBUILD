@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-queuelib
+pkgname="py-queuelib"
 _pkgname=queuelib
-pkgver=1.4.2
+pkgver="1.4.2"
 pkgrel=4
 pkgdesc="A collection of persistent (disk-based) queues"
 url="https://github.com/scrapy/queuelib"

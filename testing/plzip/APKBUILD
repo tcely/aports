@@ -1,7 +1,7 @@
 # Contributor: Klemens Nanni <kl3@posteo.org>
 # Maintainer: Klemens Nanni <kl3@posteo.org>
-pkgname=plzip
-pkgver=1.7
+pkgname="plzip"
+pkgver="1.7"
 pkgrel=0
 pkgdesc="Massively parallel lossless data compressor"
 url="http://www.nongnu.org/lzip/plzip.html"

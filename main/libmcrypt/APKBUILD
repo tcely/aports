@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=libmcrypt
-pkgver=2.5.8
+pkgname="libmcrypt"
+pkgver="2.5.8"
 pkgrel=7
 pkgdesc="A library which provides a uniform interface to several symmetric encryption algorithms"
 url="http://mcrypt.sourceforge.net/"

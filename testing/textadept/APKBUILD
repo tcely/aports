@@ -1,6 +1,6 @@
 # Maintainer: Bradley Saulteaux <~@bradso.to>
-pkgname=textadept
-pkgver=10.3
+pkgname="textadept"
+pkgver="10.3"
 _pkgver=e7c3dfab62a7
 _scintver=8b888bf05fe3
 _gtdver=988719013a6a

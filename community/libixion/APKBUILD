@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libixion
-pkgver=0.14.1
+pkgname="libixion"
+pkgver="0.14.1"
 pkgrel=1
 pkgdesc="a general purpose formula parser & interpreter"
 url="https://gitlab.com/ixion/ixion"

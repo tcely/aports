@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=py-bandwidth-sdk
-pkgver=1.10
+pkgname="py-bandwidth-sdk"
+pkgver="1.10"
 pkgrel=2
 pkgdesc="python helpers for using bandwidth.com API"
 url="https://pypi.python.org/pypi/bandwidth-sdk/"

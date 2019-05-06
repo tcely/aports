@@ -1,7 +1,7 @@
 # Contributor: Daniel Santana <daniel@santana.tech>
 # Maintainer: Daniel Santana <daniel@santana.tech>
-pkgname=e2tools
-pkgver=0.0.16
+pkgname="e2tools"
+pkgver="0.0.16"
 pkgrel=0
 pkgdesc="Utilities for manipulating files in an ext2/ext3 filesystem"
 url="http://home.earthlink.net/~k_sheff/sw/e2tools/"

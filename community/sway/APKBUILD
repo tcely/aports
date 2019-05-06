@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=sway
-pkgver=1.0
+pkgname="sway"
+pkgver="1.0"
 _pkgver=1.0
 pkgrel=0
 pkgdesc="i3 compatible window manager for Wayland"

@@ -1,7 +1,7 @@
 # Contributor: Róbert Nagy <vrnagy@gmail.com>
 # Maintainer: Róbert Nagy <vrnagy@gmail.com>
-pkgname=p8-platform
-pkgver=2.1.0.1
+pkgname="p8-platform"
+pkgver="2.1.0.1"
 pkgrel=1
 pkgdesc="Platform support library used by libCEC and binary add-ons for Kodi"
 url="https://github.com/Pulse-Eight/platform"

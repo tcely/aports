@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=cpufrequtils
-pkgver=008
+pkgname="cpufrequtils"
+pkgver="008"
 pkgrel=4
 pkgdesc="Userspace tools for the kernel cpufreq subsystem"
 url="https://www.kernel.org/pub/linux/utils/kernel/cpufreq/cpufrequtils.html"

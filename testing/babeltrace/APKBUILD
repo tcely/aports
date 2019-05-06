@@ -1,7 +1,7 @@
 # Contributor: Michael Jeanson <mjeanson@efficios.com>
 # Maintainer: Michael Jeanson <mjeanson@efficios.com>
-pkgname=babeltrace
-pkgver=1.5.6
+pkgname="babeltrace"
+pkgver="1.5.6"
 pkgrel=0
 pkgdesc="Trace converter and read/write library"
 url="https://www.efficios.com/babeltrace"

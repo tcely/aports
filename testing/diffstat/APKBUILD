@@ -1,7 +1,7 @@
 # Contributor: Leszek Cimała <ernierasta@zori.cz>
 # Maintainer:
-pkgname=diffstat
-pkgver=1.62
+pkgname="diffstat"
+pkgver="1.62"
 pkgrel=0
 pkgdesc="diffstat reads the output of diff and displays a histogram of the insertions, deletions, and modifications per-file."
 url="https://invisible-island.net/diffstat"

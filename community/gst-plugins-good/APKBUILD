@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gst-plugins-good
-pkgver=1.14.4
+pkgname="gst-plugins-good"
+pkgver="1.14.4"
 pkgrel=2
 pkgdesc="GStreamer Multimedia Framework Good Plugins"
 url="https://gstreamer.freedesktop.org"

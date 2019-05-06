@@ -1,8 +1,8 @@
 # Contributor: Thomas Boerger <thomas@webhippie.de>
 # Maintainer: Thomas Boerger <thomas@webhippie.de>
-pkgname=py-sqlparse
+pkgname="py-sqlparse"
 _pkgname=sqlparse
-pkgver=0.2.4
+pkgver="0.2.4"
 pkgrel=1
 pkgdesc="A non-validating SQL parser module for Python"
 url="https://sqlparse.readthedocs.io"

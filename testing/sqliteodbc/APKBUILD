@@ -1,7 +1,7 @@
 # Contributor: Robert Boisvert <rdboisvert@gmail.com>
 # Maintainer: Robert Boisvert <rdboisvert@gmail.com>
-pkgname=sqliteodbc
-pkgver=0.9995
+pkgname="sqliteodbc"
+pkgver="0.9995"
 pkgrel=0
 pkgdesc="SQLite ODBC driver"
 url="http://www.ch-werner.de/sqliteodbc"

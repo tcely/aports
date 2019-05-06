@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=procmail
-pkgver=3.22
+pkgname="procmail"
+pkgver="3.22"
 pkgrel=4
 pkgdesc="Highly configurable auto mail processing"
 url="http://www.procmail.org"

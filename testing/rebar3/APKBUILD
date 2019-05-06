@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=rebar3
-pkgver=3.5.0
+pkgname="rebar3"
+pkgver="3.5.0"
 pkgrel=0
 pkgdesc="erlang build tool that makes it easy to compile and test erlang applications and releases"
 url="http://www.rebar3.org/"

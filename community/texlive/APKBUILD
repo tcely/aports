@@ -1,7 +1,7 @@
 # Contributor: Isaac Dunham <ibid.ag@gmail.com>
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=texlive
-pkgver=20190410
+pkgname="texlive"
+pkgver="20190410"
 pkgrel=1
 pkgdesc="Comprehensive TeX document production system"
 url="http://tug.org/texlive/"

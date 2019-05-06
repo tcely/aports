@@ -1,7 +1,7 @@
 # Contributor: Isaac Dunham <ibid.ag@gmail.com>
 # Maintainer: Isaac Dunham <ibid.ag@gmail.com>
-pkgname=brlaser
-pkgver=3
+pkgname="brlaser"
+pkgver="3"
 pkgrel=0
 pkgdesc="Driver for Brother printers like the DCP 7030 and DCP 7065"
 url="https://github.com/pdewacht/brlaser"

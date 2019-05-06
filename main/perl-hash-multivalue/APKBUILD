@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-hash-multivalue
-pkgver=0.16
+pkgname="perl-hash-multivalue"
+pkgver="0.16"
 pkgrel=0
 pkgdesc="Hash::MultiValue perl module"
 url="http://search.cpan.org/dist/Hash-MultiValue/"

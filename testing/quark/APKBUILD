@@ -1,7 +1,7 @@
 # Contributor: Sascha Paunovic <azarus@posteo.net>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=quark
-pkgver=20180617
+pkgname="quark"
+pkgver="20180617"
 _commit=ba38b0969f542e6e7d3f01ba500189a81ca32355 # there are no releases
 pkgrel=0
 pkgdesc="quark web server"

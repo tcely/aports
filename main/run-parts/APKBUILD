@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=run-parts
+pkgname="run-parts"
 _pkgname=debianutils
-pkgver=4.8.6.1
+pkgver="4.8.6.1"
 pkgrel=0
 pkgdesc="run-parts from the debianutils package"
 url="https://packages.qa.debian.org/d/debianutils.html"

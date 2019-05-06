@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: 
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=firefox-esr
-pkgver=60.6.2
+pkgname="firefox-esr"
+pkgver="60.6.2"
 pkgrel=0
 pkgdesc="Firefox web browser - Extended Support Release"
 url="https://www.mozilla.org/en-US/firefox/organizations/"

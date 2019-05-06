@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=targetcli
-pkgver=2.1_p49
+pkgname="targetcli"
+pkgver="2.1_p49"
 _ver=${pkgver/_rc/rc}
 _ver=${_ver/_p/.fb}
 pkgrel=0

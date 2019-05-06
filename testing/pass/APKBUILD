@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=pass
-pkgver=1.7.3
+pkgname="pass"
+pkgver="1.7.3"
 pkgrel=0
 pkgdesc="Stores, retrieves, generates, and synchronizes passwords securely"
 url="https://www.passwordstore.org"

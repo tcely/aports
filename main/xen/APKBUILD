@@ -1,8 +1,8 @@
 # Contributor: 
 # Contributor: Roger Pau Monne <roger.pau@entel.upc.edu>
 # Maintainer: 
-pkgname=xen
-pkgver=4.12.0
+pkgname="xen"
+pkgver="4.12.0"
 pkgrel=0
 pkgdesc="Xen hypervisor"
 url="https://www.xenproject.org/"

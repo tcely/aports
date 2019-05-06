@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-getopt-argvfile
-pkgver=1.11
+pkgname="perl-getopt-argvfile"
+pkgver="1.11"
 _realname=Getopt-ArgvFile-$pkgver
 pkgrel=1
 pkgdesc="Interpolates script options from files into @ARGV or another array"

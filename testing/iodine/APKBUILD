@@ -1,7 +1,7 @@
 # Contributor: Guy Taylor <thebigguy.co.uk@gmail.com>
 # Maintainer:
-pkgname=iodine
-pkgver=0.7.0
+pkgname="iodine"
+pkgver="0.7.0"
 pkgrel=1
 pkgdesc="IP over DNS tunnel"
 url="http://code.kryo.se/iodine/"

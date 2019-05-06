@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=icingaweb2
-pkgver=2.6.3
+pkgname="icingaweb2"
+pkgver="2.6.3"
 pkgrel=0
 pkgdesc="Web Interface for Icinga2"
 url="http://www.icinga.org"

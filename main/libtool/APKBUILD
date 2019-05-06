@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libtool
-pkgver=2.4.6
+pkgname="libtool"
+pkgver="2.4.6"
 pkgrel=6
 pkgdesc="A generic library support script"
 arch="all"

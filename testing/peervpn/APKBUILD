@@ -1,7 +1,7 @@
 # Contributor: Markus Juenemann <markus@juenemann.net>
 # Maintainer: Markus Juenemann <markus@juenemann.net>
-pkgname=peervpn
-pkgver=0.044
+pkgname="peervpn"
+pkgver="0.044"
 pkgrel=3
 pkgdesc="PeerVPN builds virtual ethernet networks between multiple computers"
 url="https://peervpn.net"

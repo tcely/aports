@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=dconf
-pkgver=0.32.0
+pkgname="dconf"
+pkgver="0.32.0"
 pkgrel=0
 pkgdesc="A low-level configuration system."
 url="https://wiki.gnome.org/Projects/dconf"

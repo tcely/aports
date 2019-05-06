@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=pigz
-pkgver=2.4
+pkgname="pigz"
+pkgver="2.4"
 pkgrel=0
 pkgdesc="Parallel implementation of gzip"
 url="http://zlib.net/pigz/"

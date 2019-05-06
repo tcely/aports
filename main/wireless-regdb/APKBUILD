@@ -1,7 +1,7 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=wireless-regdb
-pkgver=2018.05.31
+pkgname="wireless-regdb"
+pkgver="2018.05.31"
 pkgrel=1
 pkgdesc="Central Regulatory Domain Database"
 url="https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb"

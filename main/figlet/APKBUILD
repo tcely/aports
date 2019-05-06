@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Francesco Colista <francesco.colista@gmail.com>
-pkgname=figlet
-pkgver=2.2.5
+pkgname="figlet"
+pkgver="2.2.5"
 pkgrel=0
 pkgdesc="A program for making large letters out of ordinary text"
 url="http://www.figlet.org/"

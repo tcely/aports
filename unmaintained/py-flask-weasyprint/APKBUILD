@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-flask-weasyprint
-pkgver=0.4
+pkgname="py-flask-weasyprint"
+pkgver="0.4"
 pkgrel=1
 pkgdesc="flask binding to py-weasyprint"
 url="https://pythonhosted.org/flask-weasyprint"

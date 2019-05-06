@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=galculator
-pkgver=2.1.4
+pkgname="galculator"
+pkgver="2.1.4"
 pkgrel=0
 pkgdesc="GTK+ based scientific calculator"
 url="http://galculator.mnim.org/"

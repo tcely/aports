@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-restaction
+pkgname="py-flask-restaction"
 _pkgname=flask-restaction
-pkgver=0.20.1
+pkgver="0.20.1"
 pkgrel=0
 pkgdesc="Flask RESTful API extension"
 url="https://pypi.python.org/pypi/flask-restaction"

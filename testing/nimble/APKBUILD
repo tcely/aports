@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=nimble
-pkgver=0.8.10
+pkgname="nimble"
+pkgver="0.8.10"
 pkgrel=0
 pkgdesc="Package manager for the Nim programming language"
 url="https://github.com/nim-lang/nimble"

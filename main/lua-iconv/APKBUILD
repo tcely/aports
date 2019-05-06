@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-iconv
-pkgver=7
+pkgname="lua-iconv"
+pkgver="7"
 pkgrel=1
 pkgdesc="Lua binding to the POSIX 'iconv' library"
 url="http://ittner.github.io/lua-iconv/"

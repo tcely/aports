@@ -1,7 +1,7 @@
 # Contributor: Raphael Cohn <raphael.cohn@stormmq.com>
 # Maintainer: Raphael Cohn <raphael.cohn@stormmq.com>
-pkgname=hitch
-pkgver=1.4.8
+pkgname="hitch"
+pkgver="1.4.8"
 pkgrel=0
 pkgdesc="hitch is a TLS / SSL endpoint like stunnel"
 url="https://hitch-tls.org/"

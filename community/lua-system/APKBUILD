@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-system
+pkgname="lua-system"
 _pkgname=luasystem
-pkgver=0.2.1
+pkgver="0.2.1"
 pkgrel=1
 pkgdesc="Platform independent system calls for Lua"
 url="https://github.com/o-lim/luasystem/"

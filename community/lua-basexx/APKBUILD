@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-basexx
+pkgname="lua-basexx"
 _pkgname=basexx
-pkgver=0.4.1
+pkgver="0.4.1"
 pkgrel=0
 pkgdesc="A Lua library for base2, base16, base32, base64, base85 decoding and encoding of data strings"
 url="https://github.com/aiq/basexx/"

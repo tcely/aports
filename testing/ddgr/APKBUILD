@@ -1,7 +1,7 @@
 # Contributor: dai9ah <dai9ah@protonmail.com>
 # Maintainer: dai9ah <dai9ah@protonmail.com>
-pkgname=ddgr
-pkgver=1.6
+pkgname="ddgr"
+pkgver="1.6"
 pkgrel=0
 pkgdesc="DuckDuckGo from the terminal"
 url="https://github.com/jarun/ddgr"

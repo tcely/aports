@@ -1,8 +1,8 @@
 # Contributor: Philipp Andronov <filipp.andronov@gmail.com>
 # Maintainer: Matt Smith <mcs@darkregion.net>
 
-pkgname=libexecinfo
-pkgver=1.1
+pkgname="libexecinfo"
+pkgver="1.1"
 pkgrel=0
 pkgdesc="A quick-n-dirty BSD licensed clone of the GNU libc backtrace facility."
 url="https://www.freshports.org/devel/libexecinfo"

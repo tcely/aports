@@ -1,6 +1,6 @@
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libvirt-glib
-pkgver=2.0.0
+pkgname="libvirt-glib"
+pkgver="2.0.0"
 pkgrel=0
 pkgdesc="libvirt glib integration for events"
 url="http://libvirt.org/"

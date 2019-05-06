@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=msttcorefonts-installer
-pkgver=3.6
+pkgname="msttcorefonts-installer"
+pkgver="3.6"
 pkgrel=2
 pkgdesc="Installer for Microsoft TrueType core fonts"
 url="https://packages.debian.org/sid/ttf-mscorefonts-installer"

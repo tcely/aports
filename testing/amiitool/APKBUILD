@@ -1,7 +1,7 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer: TBK <alpine@jjtc.eu>
-pkgname=amiitool
-pkgver=2
+pkgname="amiitool"
+pkgver="2"
 _pkgver=r2
 pkgrel=0
 pkgdesc="Reverse-engineered amiibo cryptography"

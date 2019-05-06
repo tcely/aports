@@ -1,7 +1,7 @@
 # Contributor: James Bowes <jbowes@repl.ca>
 # Maintainer:
-pkgname=rocksdb
-pkgver=5.15.10
+pkgname="rocksdb"
+pkgver="5.15.10"
 pkgrel=4
 pkgdesc="A persistent key-value store for fast storage environments"
 url="https://rocksdb.org"

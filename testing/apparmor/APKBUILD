@@ -1,7 +1,7 @@
 # Contributor: Allan Garret <allan.garret@gmail.com>
 # Maintainer: Allan Garret <allan.garret@gmail.com>
-pkgname=apparmor
-pkgver=2.13.2
+pkgname="apparmor"
+pkgver="2.13.2"
 pkgrel=1
 pkgdesc="Linux application security framework - mandatory access control for programs"
 url="https://gitlab.com/apparmor/apparmor/wikis/home"

@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=bridge
-pkgver=1.5
+pkgname="bridge"
+pkgver="1.5"
 pkgrel=3
 pkgdesc="Scripts for configuring network bridge interfaces"
 url="http://wiki.alpinelinux.org/wiki/Bridge"

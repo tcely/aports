@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libva-intel-driver
-pkgver=2.2.0
+pkgname="libva-intel-driver"
+pkgver="2.2.0"
 pkgrel=0
 pkgdesc="VA-API implementation for Intel GMA chipsets and Intel HD Graphics"
 url="https://freedesktop.org/wiki/Software/vaapi"

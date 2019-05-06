@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-labltk
+pkgname="ocaml-labltk"
 _pkgname=labltk
-pkgver=8.06.5
+pkgver="8.06.5"
 _pkgkey=1764	# it changes with version update
 pkgrel=0
 _ocamlver=4.07.1

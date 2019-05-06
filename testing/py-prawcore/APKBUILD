@@ -1,7 +1,7 @@
 # Contributor: Kevin Daudt <kdaudt@alpinelinux.org>
 # Maintainer: Kevin Daudt <kdaudt@alpinelinux.org>
-pkgname=py-prawcore
-pkgver=1.0.1
+pkgname="py-prawcore"
+pkgver="1.0.1"
 pkgrel=1
 pkgdesc="a low-level communication layer for PRAW 4+"
 url="https://github.com/praw-dev/prawcore"

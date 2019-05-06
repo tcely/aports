@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=monkeysphere
-pkgver=0.41
+pkgname="monkeysphere"
+pkgver="0.41"
 pkgrel=2
 pkgdesc="openpgp web of trust certification tools for SSH and TLS servers"
 url="http://web.monkeysphere.info/"

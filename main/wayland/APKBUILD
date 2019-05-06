@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=wayland
-pkgver=1.17.0
+pkgname="wayland"
+pkgver="1.17.0"
 pkgrel=0
 pkgdesc="A computer display server protocol"
 url="http://wayland.freedesktop.org"

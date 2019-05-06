@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-lgi
-pkgver=0.9.2
+pkgname="lua-lgi"
+pkgver="0.9.2"
 pkgrel=0
 pkgdesc="Dynamic Lua binding to GObject libraries using GObject-Introspection"
 url="https://github.com/pavouk/lgi"

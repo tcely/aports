@@ -9,8 +9,8 @@
 #   - CVE-2018-11235
 #   2.14.1:
 #   - CVE-2017-1000117
-pkgname=git
-pkgver=2.21.0
+pkgname="git"
+pkgver="2.21.0"
 pkgrel=1
 pkgdesc="Distributed version control system"
 url="https://www.git-scm.com"

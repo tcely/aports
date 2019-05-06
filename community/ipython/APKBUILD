@@ -1,7 +1,7 @@
 # Contributor: Kevin Daudt <kdaudt@alpinelinux.org>
 # Maintainer: Kevin Daudt <kdaudt@alpinelinux.org>
-pkgname=ipython
-pkgver=7.5.0
+pkgname="ipython"
+pkgver="7.5.0"
 pkgrel=0
 pkgdesc="A rich toolkit to help you make the most of using Python interactively"
 url="https://ipython.org/"

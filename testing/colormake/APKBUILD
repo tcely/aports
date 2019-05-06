@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Henrik Riomar <henrik.riomar@gmail.com>
-pkgname=colormake
-pkgver=0.9.20170221
+pkgname="colormake"
+pkgver="0.9.20170221"
 pkgrel=0
 _sha=93dd19b5143b124208caab5e9b6d57b5e6ec02cb
 pkgdesc="A simple wrapper around make to colorize the output"

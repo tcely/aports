@@ -1,8 +1,8 @@
 # Contributor: Mika Havela <mika.havela@gmail.com>
 # Maintainer: Mika Havela <mika.havela@gmail.com>
-pkgname=perl-carp-clan
+pkgname="perl-carp-clan"
 _realname=Carp-Clan
-pkgver=6.06
+pkgver="6.06"
 pkgrel=1
 pkgdesc="Perl - Report errors from perspective of caller of a 'clan' of modules"
 url="http://search.cpan.org/~stbey/$_realname-$pkgver/"

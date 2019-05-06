@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=secure-delete
+pkgname="secure-delete"
 _pkgname=secure_delete
-pkgver=3.1
+pkgver="3.1"
 pkgrel=0
 pkgdesc="Secure file, disk, swap, memory erasure utilities"
 url="https://www.thc.org/"

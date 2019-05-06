@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=tinyxml2
-pkgver=7.0.1
+pkgname="tinyxml2"
+pkgver="7.0.1"
 pkgrel=0
 pkgdesc="Simple, small and efficient C++ XML parser"
 url="http://www.grinninglizard.com/tinyxml2"

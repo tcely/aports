@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=tinc-pre
+pkgname="tinc-pre"
 _realver="1.1pre17"
-pkgver=${_realver/pre/.}
+pkgver="${_realver/pre/.}"
 pkgrel=1
 pkgdesc="Virtual Private Network (VPN) daemon (pre-release)"
 url="http://tinc-vpn.org/"

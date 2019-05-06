@@ -2,8 +2,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Mika Havela <mika.havela@gmail.com>
 # Maintainer: Mika Havela <mika.havela@gmail.com>
-pkgname=motion
-pkgver=4.2.2
+pkgname="motion"
+pkgver="4.2.2"
 pkgrel=0
 pkgdesc="Detect if a significant part of the picture has changed (e.g. from a webcam)."
 url="https://motion-project.github.io"

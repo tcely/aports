@@ -1,6 +1,6 @@
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=stm32flash
-pkgver=0.5
+pkgname="stm32flash"
+pkgver="0.5"
 pkgrel=1
 pkgdesc="Flash STM32 ARM SoCs using built-in ST serial bootloader over UART or I2C"
 url="https://sourceforge.net/p/stm32flash/wiki/Home/"

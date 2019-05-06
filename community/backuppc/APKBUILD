@@ -1,7 +1,7 @@
 # Contributor:
 pkgname="backuppc"
 _realname="BackupPC"
-pkgver=3.3.2
+pkgver="3.3.2"
 pkgrel=0
 pkgdesc="High-performance, enterprise-grade backup system"
 url="http://backuppc.sourceforge.net/"

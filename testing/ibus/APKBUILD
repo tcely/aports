@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=ibus
-pkgver=1.5.20
+pkgname="ibus"
+pkgver="1.5.20"
 pkgrel=1
 pkgdesc="Next Generation Input Bus for Linux"
 url="https://github.com/ibus/ibus/wiki"

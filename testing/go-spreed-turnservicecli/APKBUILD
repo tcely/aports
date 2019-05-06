@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=go-spreed-turnservicecli
+pkgname="go-spreed-turnservicecli"
 _pkgname=spreed-turnservicecli
 _vendor="strukturag"
-pkgver=0.1.0
+pkgver="0.1.0"
 pkgrel=2
 pkgdesc="TURN service client implementation for Go"
 url="https://github.com/$_vendor/$_pkgname"

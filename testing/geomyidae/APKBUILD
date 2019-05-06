@@ -1,7 +1,7 @@
 # Contributor: Sascha Paunovic <azarus@posteo.net>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=geomyidae
-pkgver=0.32.2
+pkgname="geomyidae"
+pkgver="0.32.2"
 pkgrel=0
 pkgdesc="Simple gopherd"
 url="gopher://bitreich.org/1/scm/geomyidae"

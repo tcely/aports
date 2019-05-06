@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=mitmproxy
-pkgver=0.18.2
+pkgname="mitmproxy"
+pkgver="0.18.2"
 pkgrel=1
 pkgdesc="An interactive SSL-capable intercepting HTTP proxy"
 url="https://www.mitmproxy.org/"

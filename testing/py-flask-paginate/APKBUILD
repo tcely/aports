@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-paginate
+pkgname="py-flask-paginate"
 _pkgname=Flask-paginate
-pkgver=0.4.5
+pkgver="0.4.5"
 pkgrel=0
 pkgdesc="Simple paginate support for Flask"
 url="https://pypi.python.org/pypi/Flask-paginate"

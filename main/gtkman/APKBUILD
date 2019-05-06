@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gtkman
-pkgver=1.0.1
+pkgname="gtkman"
+pkgver="1.0.1"
 pkgrel=0
 pkgdesc="GTK+2 manual page viewer"
 url="http://www.salixos.org/wiki/index.php/GTKMan"

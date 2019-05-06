@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=py-gtk
-pkgver=2.24.0
+pkgname="py-gtk"
+pkgver="2.24.0"
 pkgrel=15
 pkgdesc="Python bindings for the GTK widget set"
 url="http://www.pygtk.org/"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer:
-pkgname=dstat
-pkgver=0.7.3
+pkgname="dstat"
+pkgver="0.7.3"
 pkgrel=0
 pkgdesc="A versatile resource statistics tool"
 url="http://dag.wieers.com/home-made/dstat/"

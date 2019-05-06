@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=gingerbase
-pkgver=2.3.0
+pkgname="gingerbase"
+pkgver="2.3.0"
 pkgrel=1
 pkgdesc="Gingerbase: basic host management for WoK"
 url="https://kimchi-project.github.io/gingerbase/"

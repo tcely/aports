@@ -1,7 +1,7 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer: Francesco Colista <francesco.colista@gmail.com>
-pkgname=py-mysqldb
-pkgver=1.2.5
+pkgname="py-mysqldb"
+pkgver="1.2.5"
 pkgrel=1
 pkgdesc="MySQL database connector for Python (legacy version)"
 url="https://github.com/farcepest/MySQLdb1"

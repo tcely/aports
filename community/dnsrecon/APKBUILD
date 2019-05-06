@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=dnsrecon
-pkgver=0.9.1
+pkgname="dnsrecon"
+pkgver="0.9.1"
 pkgrel=0
 pkgdesc="DNS Enumeration Script"
 url="https://github.com/darkoperator/dnsrecon"

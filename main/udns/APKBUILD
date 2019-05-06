@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=udns
-pkgver=0.4
+pkgname="udns"
+pkgver="0.4"
 pkgrel=0
 pkgdesc="DNS Resolver Library"
 url="http://www.corpit.ru/mjt/udns.html"

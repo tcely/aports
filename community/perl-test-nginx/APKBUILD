@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=perl-test-nginx
+pkgname="perl-test-nginx"
 _pkgreal=Test-Nginx
-pkgver=0.26
+pkgver="0.26"
 pkgrel=0
 pkgdesc="Data-driven test scaffold for Nginx C module and Nginx/OpenResty-based libraries and applications"
 url="https://github.com/openresty/test-nginx"

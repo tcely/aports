@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ksymoops
-pkgver=2.4.11
+pkgname="ksymoops"
+pkgver="2.4.11"
 pkgrel=7
 pkgdesc="A Linux kernel Oops file troubleshooting tool"
 url="https://kernel.org/pub/linux/utils/kernel/ksymoops/v2.4"

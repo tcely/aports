@@ -1,7 +1,7 @@
 # Contributor: Laurent Arnoud <laurent@spkdev.net>
 # Maintainer: Laurent Arnoud <laurent@spkdev.net>
-pkgname=git-crypt
-pkgver=0.6.0
+pkgname="git-crypt"
+pkgver="0.6.0"
 pkgrel=0
 pkgdesc="Transparent file encryption in git"
 url="https://www.agwa.name/projects/git-crypt"

@@ -1,7 +1,7 @@
 # Contributor: Shiz <hi@shiz.me>
 # Maintainer: Shiz <hi@shiz.me>
-pkgname=yodl
-pkgver=4.02.00
+pkgname="yodl"
+pkgver="4.02.00"
 pkgrel=0
 pkgdesc="Pre-document language and tools to process it"
 url="https://fbb-git.github.io/yodl/"

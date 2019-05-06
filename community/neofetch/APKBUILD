@@ -1,7 +1,7 @@
 # Contributor: Dawid Dziurla <dawidd0811@gmail.com>
 # Maintainer: Dawid Dziurla <dawidd0811@gmail.com>
-pkgname=neofetch
-pkgver=6.0.0
+pkgname="neofetch"
+pkgver="6.0.0"
 pkgrel=0
 pkgdesc="A CLI system information tool written in Bash that supports displaying images"
 url="https://github.com/dylanaraps/neofetch"

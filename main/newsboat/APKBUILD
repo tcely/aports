@@ -1,6 +1,6 @@
 # Maintainer: Mike Crute <mike@crute.us>
-pkgname=newsboat
-pkgver=2.13
+pkgname="newsboat"
+pkgver="2.13"
 pkgrel=0
 pkgdesc="RSS/Atom feed reader for text terminals"
 url="https://newsboat.org"

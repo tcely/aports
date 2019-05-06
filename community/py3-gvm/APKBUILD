@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py3-gvm
+pkgname="py3-gvm"
 _pkgname=${pkgname/py3/python}
-pkgver=1.0.0_beta2
+pkgver="1.0.0_beta2"
 pkgrel=2
 pkgdesc="Greenbone Vulnerability Management Python Library "
 url="https://github.com/greenbone/python-gvm"

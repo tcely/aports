@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-rawfiles
+pkgname="py-sphinxcontrib-rawfiles"
 _pkgname=sphinxcontrib-rawfiles
-pkgver=0.1.1
+pkgver="0.1.1"
 pkgrel=0
 pkgdesc="Sphinx rawfiles extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-rawfiles"

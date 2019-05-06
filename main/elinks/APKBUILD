@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=elinks
-pkgver=0.13
+pkgname="elinks"
+pkgver="0.13"
 _ver=${pkgver/_/}
 pkgrel=6
 pkgdesc="a text mode web browser"

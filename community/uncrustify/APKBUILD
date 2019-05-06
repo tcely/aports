@@ -1,6 +1,6 @@
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=uncrustify
-pkgver=0.68.1
+pkgname="uncrustify"
+pkgver="0.68.1"
 pkgrel=0
 pkgdesc="A source code beautifier"
 url="https://github.com/uncrustify/uncrustify"

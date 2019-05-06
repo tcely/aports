@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=glade
-pkgver=3.22.1
+pkgname="glade"
+pkgver="3.22.1"
 pkgrel=0
 pkgdesc="User Interface Designer for GTK+ and GNOME"
 url="https://glade.gnome.org/"

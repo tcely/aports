@@ -1,6 +1,6 @@
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=hunspell-en
-pkgver=2018.04.16
+pkgname="hunspell-en"
+pkgver="2018.04.16"
 pkgrel=0
 pkgdesc="English hunspell dictionaries"
 url="http://wordlist.aspell.net/dicts/"

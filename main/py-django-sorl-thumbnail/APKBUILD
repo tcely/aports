@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=py-django-sorl-thumbnail
-pkgver=12.4.1
+pkgname="py-django-sorl-thumbnail"
+pkgver="12.4.1"
 pkgrel=0
 pkgdesc="Thumbnails for Django"
 url=https://github.com/mariocesar/sorl-thumbnail

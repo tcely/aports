@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-class-returnvalue
-pkgver=0.55
+pkgname="perl-class-returnvalue"
+pkgver="0.55"
 pkgrel=1
 pkgdesc="Class::ReturnValue perl module"
 url="http://search.cpan.org/dist/Class-ReturnValue/"

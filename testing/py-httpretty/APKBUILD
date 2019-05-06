@@ -1,8 +1,8 @@
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
-pkgname=py-httpretty
+pkgname="py-httpretty"
 _pkgname=HTTPretty
-pkgver=0.8.14
+pkgver="0.8.14"
 pkgrel=0
 pkgdesc="HTTP client mocking tool for Python"
 url="https://github.com/gabrielfalcao/HTTPretty"

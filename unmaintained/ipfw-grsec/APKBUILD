@@ -21,8 +21,8 @@ fi
 _kernelver=$_kver-r$_kpkgrel
 _abi_release=${_kver}-${_kpkgrel}-${_flavor}
 
-pkgname=$_name
-pkgver=$_kver
+pkgname="$_name"
+pkgver="$_kver"
 pkgrel=$(($_kpkgrel + $_mypkgrel))
 pkgdesc="BSD ipfw firewall and dummynet suite (linux-grsec modules)"
 url="http://info.iet.unipi.it/~luigi/dummynet/"

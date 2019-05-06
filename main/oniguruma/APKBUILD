@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=oniguruma
-pkgver=6.9.1
+pkgname="oniguruma"
+pkgver="6.9.1"
 pkgrel=0
 pkgdesc="a regular expressions library"
 url="https://github.com/kkos/oniguruma"

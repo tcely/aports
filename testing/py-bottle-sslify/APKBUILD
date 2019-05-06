@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-bottle-sslify
+pkgname="py-bottle-sslify"
 _pkgname=Bottle-SSLify
-pkgver=0.0.1
+pkgver="0.0.1"
 pkgrel=0
 pkgdesc="Bottle SSL plugin"
 url="https://github.com/ali01/bottle-sslify"

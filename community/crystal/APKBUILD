@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Contributor: Milan P. Stanić <mps@arvanta.net>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=crystal
-pkgver=0.28.0
+pkgname="crystal"
+pkgver="0.28.0"
 pkgrel=0
 _bootver=0.27.2
 _llvmver=5

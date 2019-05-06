@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-copas
+pkgname="lua-copas"
 _pkgname=copas
-pkgver=2.0.2
+pkgver="2.0.2"
 _pkgver=${pkgver//./_}
 pkgrel=2
 pkgdesc="Coroutine Oriented Portable Asynchronous Services for Lua"

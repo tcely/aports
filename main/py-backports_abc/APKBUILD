@@ -1,7 +1,7 @@
 # Maintainer:
-pkgname=py-backports_abc
+pkgname="py-backports_abc"
 _pkgname=backports_abc
-pkgver=0.5
+pkgver="0.5"
 pkgrel=1
 pkgdesc="A backport of recent additions to the collections.abc Python module"
 url="https://github.com/cython/backports_abc"

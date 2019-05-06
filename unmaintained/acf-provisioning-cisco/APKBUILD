@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-provisioning-cisco
-pkgver=0.1.0
+pkgname="acf-provisioning-cisco"
+pkgver="0.1.0"
 pkgrel=0
 pkgdesc="Files for provisioning Cisco Small Business Voice Gateways and ATAs"
 url="http://www.cisco.com/c/en/us/support/unified-communications/small-business-voice-gateways-ata/tsd-products-support-series-home.html"

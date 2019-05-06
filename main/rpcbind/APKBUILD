@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=rpcbind
-pkgver=1.2.5
+pkgname="rpcbind"
+pkgver="1.2.5"
 pkgrel=0
 pkgdesc="portmap replacement which supports RPC over various protocols"
 url="http://rpcbind.sourceforge.net"

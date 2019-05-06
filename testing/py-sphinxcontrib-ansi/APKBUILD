@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-ansi
+pkgname="py-sphinxcontrib-ansi"
 _pkgname=sphinxcontrib-ansi
-pkgver=0.6
+pkgver="0.6"
 pkgrel=0
 pkgdesc="Sphinx ansi extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-ansi"

@@ -1,9 +1,9 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=py-pygfm
+pkgname="py-pygfm"
 _pkgname=py-gfm
-pkgver=0.1.4
+pkgver="0.1.4"
 pkgrel=0
 pkgdesc="Github-Flavored Markdown for Python-Markdown"
 url="https://github.com/zopieux/py-gfm"

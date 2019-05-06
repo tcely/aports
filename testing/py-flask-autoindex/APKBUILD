@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-autoindex
+pkgname="py-flask-autoindex"
 _pkgname=Flask-AutoIndex
-pkgver=0.5
+pkgver="0.5"
 pkgrel=0
 pkgdesc="Flask autoindex"
 url="https://pypi.python.org/pypi/Flask-AutoIndex"

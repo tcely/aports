@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=dropbear
-pkgver=2019.78
+pkgname="dropbear"
+pkgver="2019.78"
 pkgrel=0
 pkgdesc="small SSH 2 client/server designed for small memory environments"
 url="http://matt.ucc.asn.au/dropbear/dropbear.html"

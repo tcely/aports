@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-params-validationcompiler
+pkgname="perl-params-validationcompiler"
 _pkgreal=Params-ValidationCompiler
-pkgver=0.27
+pkgver="0.27"
 pkgrel=0
 pkgdesc="Params::ValidationCompiler perl module"
 url="https://metacpan.org/release/Params-ValidationCompiler"

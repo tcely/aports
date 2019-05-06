@@ -1,6 +1,6 @@
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=sfic
-pkgver=0.1.7
+pkgname="sfic"
+pkgver="0.1.7"
 pkgrel=6
 pkgdesc="Small and Simple File Integrity Checker"
 url="http://sfic.sourceforge.net/"

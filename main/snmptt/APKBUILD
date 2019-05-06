@@ -1,7 +1,7 @@
 # Contributor: Jeff Bilyk <jbilyk at gmail>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=snmptt
-pkgver=1.4
+pkgname="snmptt"
+pkgver="1.4"
 pkgrel=0
 pkgdesc="Translates traps received from snmptrapd into easy to understand messages"
 url="http://www.snmptt.org"

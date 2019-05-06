@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-pywebkitgtk
+pkgname="py-pywebkitgtk"
 _pkgname=pywebkitgtk
-pkgver=1.1.8
+pkgver="1.1.8"
 pkgrel=0
 pkgdesc="Python bindings for the WebKit GTK+ port"
 url="https://code.google.com/archive/p/pywebkitgtk/"

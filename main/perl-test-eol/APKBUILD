@@ -1,8 +1,8 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=perl-test-eol
+pkgname="perl-test-eol"
 _pkgreal=Test-EOL
-pkgver=2.00
+pkgver="2.00"
 pkgrel=0
 pkgdesc="Check the correct line endings in your project"
 url="http://search.cpan.org/dist/Test-EOL/"

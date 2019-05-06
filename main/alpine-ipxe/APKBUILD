@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=alpine-ipxe
-pkgver=1.0_git20180825
+pkgname="alpine-ipxe"
+pkgver="1.0_git20180825"
 _sha=133f4c47baef6002b2ccb4904a035cda2303c6e5
 pkgrel=1
 pkgdesc="iPXE build for Alpine Linux netboot"

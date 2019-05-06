@@ -1,8 +1,8 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=fs-uae
+pkgname="fs-uae"
 # Remember to upgrade fs-uae-launcher to same version of fs-uae
-pkgver=2.8.4
+pkgver="2.8.4"
 pkgrel=2
 pkgdesc="Amiga emulator."
 url="https://fs-uae.net/"

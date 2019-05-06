@@ -1,6 +1,6 @@
 # Contributor: Konstantin Khokhlov <khohlovsky@gmail.com>
-pkgname=wicd
-pkgver=1.7.2.4
+pkgname="wicd"
+pkgver="1.7.2.4"
 pkgrel=0
 pkgdesc="Wicd is an open source wired and wireless network manager for Linux"
 url="http://wicd.sourceforge.net/"

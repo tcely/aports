@@ -1,7 +1,7 @@
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=abook
-pkgver=0.6.1
+pkgname="abook"
+pkgver="0.6.1"
 _ver=${pkgver/_pre/pre}
 pkgrel=4
 pkgdesc="Text-based addressbook designed for use with Mutt"

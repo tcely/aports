@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-htsql
+pkgname="py-sphinxcontrib-htsql"
 _pkgname=sphinxcontrib-htsql
-pkgver=0.1.2
+pkgver="0.1.2"
 pkgrel=0
 pkgdesc="Sphinx htsql extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-htsql"

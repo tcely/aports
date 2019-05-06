@@ -1,6 +1,6 @@
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=advancemame
-pkgver=3.9
+pkgname="advancemame"
+pkgver="3.9"
 pkgrel=0
 pkgdesc="A port of the MAME emulator for Arcade Monitors and TVs but also for LCDs and PC monitors"
 url="http://www.advancemame.it"

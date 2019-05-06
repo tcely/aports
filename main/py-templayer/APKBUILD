@@ -1,8 +1,8 @@
 # Contributor: Matt Smith <mcs@darkregion.net>
 # Maintainer: Matt Smith <mcs@darkregion.net>
-pkgname=py-templayer
+pkgname="py-templayer"
 _pkgname=templayer
-pkgver=1.5.1
+pkgver="1.5.1"
 pkgrel=3
 pkgdesc="Templayer is a layered template library for Python and Django"
 url="http://excess.org/templayer/"

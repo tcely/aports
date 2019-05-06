@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=fbida
-pkgver=2.13
+pkgname="fbida"
+pkgver="2.13"
 pkgrel=0
 pkgdesc="Few applications to display and elementary edit images"
 url="http://www.kraxel.org/blog/linux/$pkgname/"

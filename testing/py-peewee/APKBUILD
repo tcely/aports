@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-peewee
+pkgname="py-peewee"
 _pkgname=peewee
-pkgver=3.2.4
+pkgver="3.2.4"
 pkgrel=1
 pkgdesc="A small, expressive Object-relational mapping"
 url="https://github.com/coleifer/peewee"

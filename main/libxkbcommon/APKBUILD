@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=libxkbcommon
-pkgver=0.8.2
+pkgname="libxkbcommon"
+pkgver="0.8.2"
 pkgrel=0
 pkgdesc="a keyboard handling library"
 url="https://www.xkbcommon.org/"

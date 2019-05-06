@@ -1,8 +1,8 @@
 # Contributor: Michal Sidor <public+git@meekchopp.es>
 # Maintainer:
-pkgname=font-fira-code
+pkgname="font-fira-code"
 _pkgname=firacode
-pkgver=1.206
+pkgver="1.206"
 pkgrel=0
 pkgdesc="Monospaced font with programming ligatures"
 url="https://github.com/tonsky/FiraCode"

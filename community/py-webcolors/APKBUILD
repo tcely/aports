@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-webcolors
+pkgname="py-webcolors"
 _pkgname=webcolors
-pkgver=1.8.1
+pkgver="1.8.1"
 pkgrel=1
 pkgdesc="A library for working with color names and color value formats"
 url="https://github.com/ubernostrum/webcolors"

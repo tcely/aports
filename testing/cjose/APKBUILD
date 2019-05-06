@@ -1,7 +1,7 @@
 # Contributor: Johan Bergström <bugs@bergstroem.nu>
 # Maintainer: Johan Bergström <bugs@bergstroem.nu>
-pkgname=cjose
-pkgver=0.6.1
+pkgname="cjose"
+pkgver="0.6.1"
 pkgrel=0
 pkgdesc="A C library implementing the Javascript Object Signing and Encryption"
 url="https://github.com/cisco/cjose"

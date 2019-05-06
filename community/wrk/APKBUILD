@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=wrk
-pkgver=4.0.2
+pkgname="wrk"
+pkgver="4.0.2"
 pkgrel=0
 pkgdesc="wrk is a modern HTTP benchmarking tool"
 url="https://github.com/wg/wrk"

@@ -1,7 +1,7 @@
 # Contributor: Oleg Titov <oleg.titov@gmail.com>
 # Maintainer: Oleg Titov <oleg.titov@gmail.com>
-pkgname=libzim
-pkgver=4.0.7
+pkgname="libzim"
+pkgver="4.0.7"
 pkgrel=2
 pkgdesc="Reference implementation of the ZIM file format"
 url="https://openzim.org/"

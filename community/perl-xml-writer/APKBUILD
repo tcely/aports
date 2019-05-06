@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-xml-writer
+pkgname="perl-xml-writer"
 _realname=XML-Writer
-pkgver=0.625
+pkgver="0.625"
 pkgrel=2
 pkgdesc="Perl extension for writing XML documents"
 url="http://search.cpan.org/~josephw/XML-Writer-0.625/"

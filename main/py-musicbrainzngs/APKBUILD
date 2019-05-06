@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=py-musicbrainzngs
+pkgname="py-musicbrainzngs"
 _pkgname=${pkgname#py-}
-pkgver=0.6
+pkgver="0.6"
 pkgrel=3
 pkgdesc="Bindings for the MusicBrainz NGS service"
 url="https://github.com/alastair/python-musicbrainzngs"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=iputils
-pkgver=20180629
+pkgname="iputils"
+pkgver="20180629"
 pkgrel=1
 pkgdesc="IP Configuration Utilities (and Ping)"
 url="https://github.com/iputils/iputils/"

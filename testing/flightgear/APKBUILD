@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=flightgear
-pkgver=2018.3.2
+pkgname="flightgear"
+pkgver="2018.3.2"
 pkgrel=0
 pkgdesc="Sophisticated flight simulator"
 url="http://flightgear.org"

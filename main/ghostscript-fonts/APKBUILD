@@ -1,8 +1,8 @@
 # Contributor: Cameron Banta <cbanta@gmail.com>
 # Maintainer: Cameron Banta <cbanta@gmail.com>
-pkgname=ghostscript-fonts
+pkgname="ghostscript-fonts"
 _pkgname=ghostscript-fonts-std
-pkgver=8.11
+pkgver="8.11"
 pkgrel=1
 pkgdesc="Fonts and font metrics distributed with Ghostscript"
 url="http://gs-fonts.sourceforge.net/"

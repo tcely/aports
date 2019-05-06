@@ -1,7 +1,7 @@
 # Contributor: Diego Queiroz <diego.queiroz@gmail.com>
 # Maintainer: Diego Queiroz <diego.queiroz@gmail.com>
-pkgname=zbar
-pkgver=0.10
+pkgname="zbar"
+pkgver="0.10"
 pkgrel=3
 pkgdesc="Port of ZBAR BAR CODE READER"
 url="http://zbar.sourceforge.net/"

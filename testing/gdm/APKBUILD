@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=gdm
-pkgver=3.24.2
+pkgname="gdm"
+pkgver="3.24.2"
 pkgrel=4
 pkgdesc="GNOME display manager"
 url="https://wiki.gnome.org/Projects/GDM"

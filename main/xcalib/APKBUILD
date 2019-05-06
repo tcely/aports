@@ -1,7 +1,7 @@
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=xcalib
-pkgver=0.8
+pkgname="xcalib"
+pkgver="0.8"
 pkgrel=0
 pkgdesc="A tiny monitor calibration loader for X.org"
 url="http://xcalib.sourceforge.net/"

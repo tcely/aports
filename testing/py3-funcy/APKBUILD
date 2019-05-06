@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=py3-funcy
+pkgname="py3-funcy"
 _pkgname=funcy
-pkgver=1.10.3
+pkgver="1.10.3"
 pkgrel=1
 pkgdesc="A fancy and practical functional tools"
 url="https://github.com/Suor/funcy"

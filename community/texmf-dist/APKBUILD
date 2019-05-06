@@ -1,6 +1,6 @@
 # Contributor: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=texmf-dist
+pkgname="texmf-dist"
 _core=2018.50036
 _bibtexextra=2018.50004
 _fontsextra=2018.50019
@@ -19,7 +19,7 @@ _pictures=2018.50020
 _pstricks=2018.49908
 _publishers=2018.50030
 _science=2018.50013
-pkgver=${_core}
+pkgver="${_core}"
 pkgrel=0
 pkgdesc="TeX Live texmf core distribution"
 url="http://tug.org/texlive/"

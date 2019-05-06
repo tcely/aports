@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=freerdp
+pkgname="freerdp"
 _pkgname=FreeRDP
-pkgver=2.0.0_rc4
+pkgver="2.0.0_rc4"
 _pkgver=${pkgver/_/-}
 pkgrel=0
 pkgdesc="FreeRDP client"

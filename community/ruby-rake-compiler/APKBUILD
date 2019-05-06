@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-rake-compiler
+pkgname="ruby-rake-compiler"
 _gemname=${pkgname#ruby-}
-pkgver=1.0.7
+pkgver="1.0.7"
 pkgrel=0
 pkgdesc="Provide a standard and simplified way to build and package Ruby extensions"
 url="https://github.com/rake-compiler/rake-compiler"

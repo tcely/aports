@@ -1,7 +1,7 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer: TBK <alpine@jjtc.eu>
-pkgname=commons-daemon
-pkgver=1.1.0
+pkgname="commons-daemon"
+pkgver="1.1.0"
 pkgrel=0
 pkgdesc="Tools to allow Java programs to run as UNIX daemons."
 url="https://commons.apache.org/daemon/"

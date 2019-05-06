@@ -1,9 +1,9 @@
 # Contributor: Sam Dodrill <shadowh511@gmail.com>
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer: Sam Dodrill <shadowh511@gmail.com>
-pkgname=py-virtualenv
+pkgname="py-virtualenv"
 _pkgname=virtualenv
-pkgver=16.0.0
+pkgver="16.0.0"
 pkgrel=1
 pkgdesc="Virtual Python Environment builder"
 url="https://www.virtualenv.org/en/latest/"

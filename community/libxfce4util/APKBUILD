@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libxfce4util
-pkgver=4.13.2
+pkgname="libxfce4util"
+pkgver="4.13.2"
 pkgrel=3
 pkgdesc="Basic utility non-GUI functions for Xfce"
 url="https://xfce.org/"

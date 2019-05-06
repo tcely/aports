@@ -1,7 +1,7 @@
 # Contributor: Katie Holly <holly@fuslvz.ws>
 # Maintainer: Katie Holly <holly@fuslvz.ws>
-pkgname=obfs4proxy
-pkgver=0.0.7
+pkgname="obfs4proxy"
+pkgver="0.0.7"
 pkgrel=0
 pkgdesc="pluggable transport proxy for Tor, implementing obfs4"
 url="https://gitweb.torproject.org/pluggable-transports/obfs4.git/"

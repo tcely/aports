@@ -1,7 +1,7 @@
 # Contributor: Sascha Paunovic <azarus@posteo.net>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=pqiv
-pkgver=2.10.4
+pkgname="pqiv"
+pkgver="2.10.4"
 pkgrel=0
 pkgdesc="powerful image viewer with minimal UI"
 url="http://www.pberndt.com/Programme/Linux/pqiv/index.html"

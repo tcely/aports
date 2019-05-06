@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=whois
-pkgver=5.4.2
+pkgname="whois"
+pkgver="5.4.2"
 pkgrel=0
 pkgdesc="Intelligent WHOIS client by Marco d'Itri"
 url="https://github.com/rfc1036/whois"

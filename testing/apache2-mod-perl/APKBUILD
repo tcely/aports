@@ -1,9 +1,9 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Matt Smith <mcs@darkregion.net>
 # Maintainer: Matt Smith <mcs@darkregion.net>
-pkgname=apache2-mod-perl
+pkgname="apache2-mod-perl"
 _pkgreal=mod_perl
-pkgver=2.0.10
+pkgver="2.0.10"
 pkgrel=3
 pkgdesc="Perl Module for Apache2"
 url="https://perl.apache.org/"

@@ -1,8 +1,8 @@
 # Contributor: Danilo Falcão <danilo@falcao.org>
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Maintainer:
-pkgname=ufw
-pkgver=0.36
+pkgname="ufw"
+pkgver="0.36"
 pkgrel=1
 pkgdesc="Uncomplicated CLI tool managing a netfilter firewall"
 url="https://launchpad.net/ufw"

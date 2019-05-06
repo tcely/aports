@@ -1,7 +1,7 @@
 # Contributor: dai9ah <dai9ah@protonmail.com>
 # Maintainer: dai9ah <dai9ah@protonmail.com>
-pkgname=xsel
-pkgver=1.2.0
+pkgname="xsel"
+pkgver="1.2.0"
 pkgrel=0
 pkgdesc="Command-line program for manipulating the X selection"
 url="http://www.vergenet.net/~conrad/software/xsel"

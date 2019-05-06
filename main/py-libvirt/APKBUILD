@@ -1,7 +1,7 @@
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-libvirt
+pkgname="py-libvirt"
 _pkgname=libvirt-python
-pkgver=5.3.0
+pkgver="5.3.0"
 pkgrel=0
 pkgdesc="The libvirt virtualization API python binding"
 url="http://libvirt.org"

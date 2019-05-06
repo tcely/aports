@@ -1,7 +1,7 @@
 # Contributor: Isaac Dunham <ibid.ag@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=harminv
-pkgver=1.4.1
+pkgname="harminv"
+pkgver="1.4.1"
 pkgrel=3
 pkgdesc="Free program to solve the problem of harmonic inversion"
 url="https://github.com/stevengj/harminv"

@@ -2,9 +2,9 @@
 # Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-try-tiny
+pkgname="perl-try-tiny"
 _pkgreal=Try-Tiny
-pkgver=0.30
+pkgver="0.30"
 pkgrel=1
 pkgdesc="minimal try/catch with proper preservation of $@"
 url="https://search.cpan.org/dist/Try-Tiny/"

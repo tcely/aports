@@ -1,8 +1,8 @@
 # Contributor: Myautsai PAN <myautsai@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 
-pkgname=openconnect
-pkgver=8.02
+pkgname="openconnect"
+pkgver="8.02"
 pkgrel=0
 pkgdesc="Open client for Cisco AnyConnect VPN"
 url="http://www.infradead.org/openconnect/"

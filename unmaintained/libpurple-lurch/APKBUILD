@@ -1,7 +1,7 @@
 # Contributor: Marian <marian.buschsieweke@ovgu.de>
 # Maintainer: Marian <marian.buschsieweke@ovgu.de>
-pkgname=libpurple-lurch
-pkgver=0.6.7
+pkgname="libpurple-lurch"
+pkgver="0.6.7"
 pkgrel=0
 pkgdesc="OMEMO (double ratchet encryption) support for libpurple"
 url="https://github.com/gkdr/lurch"

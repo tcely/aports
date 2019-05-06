@@ -1,8 +1,8 @@
 # Contributor: David Huffman <storedbox@outlook.com>
 # Maintainer: David Huffman <storedbox@outlook.com>
 
-pkgname=libtbb
-pkgver=4.4.4
+pkgname="libtbb"
+pkgver="4.4.4"
 _pkgverstr=tbb44_20160413oss
 pkgrel=0
 pkgdesc="Intel® TBB, a widely used C++ template library for task parallelism"

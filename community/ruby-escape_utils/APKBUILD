@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # TODO: Fix to not compile .so lib twice (in build and test).
-pkgname=ruby-escape_utils
+pkgname="ruby-escape_utils"
 _gemname=${pkgname#ruby-}
-pkgver=1.2.1
+pkgver="1.2.1"
 pkgrel=1
 pkgdesc="Faster string escaping routines for your Ruby apps"
 url="https://github.com/brianmario/escape_utils"

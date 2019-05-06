@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=faad2
-pkgver=2.7
+pkgname="faad2"
+pkgver="2.7"
 pkgrel=8
 pkgdesc="ISO AAC audio decoder"
 url="http://www.audiocoding.com/"

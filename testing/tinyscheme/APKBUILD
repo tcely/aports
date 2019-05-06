@@ -1,6 +1,6 @@
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=tinyscheme
-pkgver=1.41
+pkgname="tinyscheme"
+pkgver="1.41"
 pkgrel=0
 pkgdesc="A lightweight Scheme interpreter implementing a large subset of R5RS"
 url="http://tinyscheme.sourceforge.net/home.html"

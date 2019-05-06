@@ -1,6 +1,6 @@
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=wiringpi
-pkgver=2.46
+pkgname="wiringpi"
+pkgver="2.46"
 _commitid=8d188fa
 pkgrel=2
 pkgdesc="command line interface for Raspberry Pi gpio"

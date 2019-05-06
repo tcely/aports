@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=ciwiki
-pkgver=2.0.5
+pkgname="ciwiki"
+pkgver="2.0.5"
 pkgrel=1
 pkgdesc="A personal lightweight wiki written in C"
 url="http://ciwiki.sourceforge.net/"

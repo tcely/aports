@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libpng
-pkgver=1.6.37
+pkgname="libpng"
+pkgver="1.6.37"
 pkgrel=1
 pkgdesc="Portable Network Graphics library"
 url="http://www.libpng.org"

@@ -1,7 +1,7 @@
 # Contributor: Simon Frankenberger <simon-alpine@fraho.eu>
 # Maintainer: Simon Frankenberger <simon-alpine@fraho.eu>
-pkgname=postfwd
-pkgver=2.01
+pkgname="postfwd"
+pkgver="2.01"
 pkgrel=0
 pkgdesc="Combines complex postfix restrictions in a ruleset similar to those of the most firewalls"
 url="https://postfwd.org/"

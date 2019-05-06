@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=qextserialport
-pkgver=1.2_rc1
+pkgname="qextserialport"
+pkgver="1.2_rc1"
 _pkgver=1.2rc
 pkgrel=1
 pkgdesc="Interface to serial ports for Qt application"

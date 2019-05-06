@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pygtail
+pkgname="py-pygtail"
 _pkgname=pygtail
-pkgver=0.2.2
+pkgver="0.2.2"
 pkgrel=0
 pkgdesc="Reads log file lines that have not been read"
 url="http://github.com/bgreenlee/pygtail"

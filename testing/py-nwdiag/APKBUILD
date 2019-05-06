@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-nwdiag
+pkgname="py-nwdiag"
 _pkgname=nwdiag
-pkgver=1.0.4
+pkgver="1.0.4"
 pkgrel=3
 pkgdesc="A Python tool  to generate network-diagram image"
 url="https://pypi.python.org/pypi/nwdiag"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=beanstalkd
-pkgver=1.10
+pkgname="beanstalkd"
+pkgver="1.10"
 pkgrel=0
 pkgdesc="Beanstalk is a simple, fast work queue"
 url="http://kr.github.io/beanstalkd/"

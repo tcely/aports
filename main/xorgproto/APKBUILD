@@ -1,7 +1,7 @@
 # Contributor: prspkt <prspkt@protonmail.com>
 # Maintainer: prspkt <prspkt@protonmail.com>
-pkgname=xorgproto
-pkgver=2018.4
+pkgname="xorgproto"
+pkgver="2018.4"
 pkgrel=0
 pkgdesc="Combined X.Org X11 protocol headers"
 url="https://xorg.freedesktop.org"

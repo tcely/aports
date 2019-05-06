@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-loadkit
+pkgname="lua-loadkit"
 _pkgname=loadkit
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="Allows to load arbitrary files within the Lua package path"
 url="https://github.com/leafo/loadkit"

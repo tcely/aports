@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gradm
-pkgver=3.1.201607172312
+pkgname="gradm"
+pkgver="3.1.201607172312"
 _ver=${pkgver/.20/-20}
 pkgrel=0
 pkgdesc="administrative utility for grsecurity kernels"

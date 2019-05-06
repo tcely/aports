@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-test-utf8
+pkgname="perl-test-utf8"
 _realname=Test-utf8
-pkgver=1.01
+pkgver="1.01"
 pkgrel=0
 pkgdesc="A collection of tests useful for dealing with utf8 strings"
 url="https://github.com/2shortplanks/Test-utf8"

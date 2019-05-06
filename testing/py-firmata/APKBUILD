@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-firmata
+pkgname="py-firmata"
 _pkgname=pyFirmata
-pkgver=1.0.3
+pkgver="1.0.3"
 pkgrel=1
 pkgdesc="Python interface for the Firmata procotol"
 url="https://github.com/tino/pyFirmata"

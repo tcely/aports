@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-qt
+pkgname="py-qt"
 _pkgname=PyQt
-pkgver=4.11.4
+pkgver="4.11.4"
 pkgrel=1
 pkgdesc="A set of Python bindings for the Qt toolkit"
 url="http://riverbankcomputing.co.uk/software/pyqt/intro"

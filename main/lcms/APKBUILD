@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lcms
-pkgver=1.19
+pkgname="lcms"
+pkgver="1.19"
 pkgrel=8
 pkgdesc="Lightweight color management development library/engine"
 url="http://www.littlecms.com"

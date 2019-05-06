@@ -1,7 +1,7 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=bacula
-pkgver=9.4.3
+pkgname="bacula"
+pkgver="9.4.3"
 pkgrel=0
 pkgdesc="Enterprise ready, network based backup program"
 url="http://www.bacula.org"

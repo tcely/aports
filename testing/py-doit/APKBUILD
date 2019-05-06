@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-doit
+pkgname="py-doit"
 _pkgname=doit
-pkgver=0.29.0
+pkgver="0.29.0"
 pkgrel=3
 pkgdesc="A Python Automation Tool"
 url="http://pydoit.org/"

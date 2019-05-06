@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libmwaw
-pkgver=0.3.14
+pkgname="libmwaw"
+pkgver="0.3.14"
 pkgrel=0
 pkgdesc="Import filter and tools for old Mac documents"
 url="https://sourceforge.net/projects/libmwaw/"

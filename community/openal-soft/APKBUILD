@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=openal-soft
-pkgver=1.19.1
+pkgname="openal-soft"
+pkgver="1.19.1"
 pkgrel=0
 pkgdesc="software implementation of OpenAL API"
 url="https://kcat.strangesoft.net/openal.html"

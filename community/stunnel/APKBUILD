@@ -2,8 +2,8 @@
 # Contributor: Dean Takemori <deant@hawaii.rr.com>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=stunnel
-pkgver=5.48
+pkgname="stunnel"
+pkgver="5.48"
 pkgrel=0
 pkgdesc="SSL encryption wrapper between network client and server"
 url="https://www.stunnel.org"

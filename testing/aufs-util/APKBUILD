@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinleinux.org>
-pkgname=aufs-util
-pkgver=20161219
+pkgname="aufs-util"
+pkgver="20161219"
 pkgrel=0
 pkgdesc="Utilities for aufs"
 url="http://aufs.sourceforge.net/"

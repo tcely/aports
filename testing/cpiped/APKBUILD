@@ -1,6 +1,6 @@
 # Maintainer: Marvin Steadfast <marvin@xsteadfastx.org>
-pkgname=cpiped
-pkgver=0.1.0
+pkgname="cpiped"
+pkgver="0.1.0"
 pkgrel=0
 pkgdesc="Captures an audio stream and outputs it to a pipe"
 url="https://github.com/b-fitzpatrick/cpiped"

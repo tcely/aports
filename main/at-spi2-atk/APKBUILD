@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=at-spi2-atk
-pkgver=2.26.2
+pkgname="at-spi2-atk"
+pkgver="2.26.2"
 pkgrel=1
 pkgdesc="A GTK+ module that bridges ATK to D-Bus at-spi"
 url="https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/"

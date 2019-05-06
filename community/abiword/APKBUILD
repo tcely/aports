@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=abiword
-pkgver=3.0.2
+pkgname="abiword"
+pkgver="3.0.2"
 pkgrel=4
 pkgdesc="A fully-featured word processor"
 url="http://www.abisource.com"

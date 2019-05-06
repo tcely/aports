@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-net-server
+pkgname="perl-net-server"
 _realname=Net-Server
-pkgver=2.009
+pkgver="2.009"
 pkgrel=1
 pkgdesc="Extensible, general Perl server engine"
 url="http://search.cpan.org/dist/Net-Server/"

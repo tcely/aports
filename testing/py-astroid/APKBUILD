@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-astroid
+pkgname="py-astroid"
 _pkgname=astroid
-pkgver=1.6.0
+pkgver="1.6.0"
 pkgrel=1
 pkgdesc="A new abstract syntax tree from Python's ast"
 url="http://www.astroid.org/"

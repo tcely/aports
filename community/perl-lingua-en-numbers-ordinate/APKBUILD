@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-lingua-en-numbers-ordinate
-pkgver=1.04
+pkgname="perl-lingua-en-numbers-ordinate"
+pkgver="1.04"
 pkgrel=1
 pkgdesc="Go from cardinal (53) to ordinal (53rd)"
 url="http://search.cpan.org/dist/Lingua-EN-Numbers-Ordinate"

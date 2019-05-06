@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=dbus-glib
-pkgver=0.110
+pkgname="dbus-glib"
+pkgver="0.110"
 pkgrel=0
 pkgdesc="GLib bindings for DBUS"
 url="http://www.freedesktop.org/wiki/Software/DBusBindings"

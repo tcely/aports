@@ -1,8 +1,8 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=chicken
-pkgver=5.0.0
+pkgname="chicken"
+pkgver="5.0.0"
 pkgrel=0
 pkgdesc="R5RS and R7RS compatible scheme compiler and interpreter"
 url="https://call-cc.org/"

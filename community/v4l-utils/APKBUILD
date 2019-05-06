@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=v4l-utils
-pkgver=1.16.6
+pkgname="v4l-utils"
+pkgver="1.16.6"
 pkgrel=0
 pkgdesc="Userspace tools and conversion library for Video 4 Linux"
 url="http://freshmeat.net/projects/libv4l"

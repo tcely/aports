@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=cogl
-pkgver=1.22.2
+pkgname="cogl"
+pkgver="1.22.2"
 pkgrel=0
 pkgdesc="An object oriented GL/GLES Abstraction/Utility Layer"
 url="http://www.clutter-project.org/"

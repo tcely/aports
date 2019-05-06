@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=pluma
-pkgver=1.22.0
+pkgname="pluma"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="A small and lightweight UTF-8 text editor for the MATE"
 url="https://github.com/mate-desktop/pluma"

@@ -1,7 +1,7 @@
 # Contributor: Mikhail Ivko <ivko.mv@gmail.com>
 # Maintainer:
-pkgname=physfs
-pkgver=3.0.1
+pkgname="physfs"
+pkgver="3.0.1"
 pkgrel=0
 pkgdesc="Library providing access to various archives, for use in video games"
 url="https://icculus.org/physfs/"

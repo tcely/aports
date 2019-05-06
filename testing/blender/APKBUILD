@@ -1,7 +1,7 @@
 # Contributor: Mark Riedesel <mark@klowner.com>
 # Maintainer: Mark Riedesel <mark@klowner.com>
-pkgname=blender
-pkgver=2.79b
+pkgname="blender"
+pkgver="2.79b"
 _pkgver=${pkgver/[a-z]}
 pkgrel=5
 pkgdesc="3D Creation/Animation/Publishing System"

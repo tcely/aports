@@ -1,7 +1,7 @@
 # Contributor: Kevin Daudt <ops@ikke.info>
 # Maintainer: Kevin Daudt <ops@ikke.info>
-pkgname=colord-gtk
-pkgver=0.1.26
+pkgname="colord-gtk"
+pkgver="0.1.26"
 pkgrel=2
 pkgdesc="GTK support library for colord"
 url="https://www.freedesktop.org/software/colord/"

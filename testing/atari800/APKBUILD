@@ -1,6 +1,6 @@
 # Contributor: Paul Bredbury <brebs@sent.com>
-pkgname=atari800
-pkgver=4.0.0
+pkgname="atari800"
+pkgver="4.0.0"
 pkgrel=0
 pkgdesc="Atari 8-bit computer emulator"
 url="https://atari800.github.io/"

@@ -4,8 +4,8 @@
 # TODO: Separate packages into subpackages?
 # TODO: Install even packages from the full tarball?
 # TODO: Figure out how to run tests.
-pkgname=racket
-pkgver=6.12
+pkgname="racket"
+pkgver="6.12"
 pkgrel=3
 pkgdesc="A general purpose programming language in the Lisp-Scheme family"
 url="https://racket-lang.org/"

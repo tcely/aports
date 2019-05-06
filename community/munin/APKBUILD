@@ -1,8 +1,8 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=munin
-pkgver=2.0.39
+pkgname="munin"
+pkgver="2.0.39"
 pkgrel=0
 pkgdesc="A distributed monitoring/graphing tool"
 url="http://munin-monitoring.org/"

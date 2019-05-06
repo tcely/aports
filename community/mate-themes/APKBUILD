@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=mate-themes
-pkgver=3.22.18
+pkgname="mate-themes"
+pkgver="3.22.18"
 pkgrel=0
 pkgdesc="MATE themes"
 url="https://github.com/mate-desktop/mate-themes"

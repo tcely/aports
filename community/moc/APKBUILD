@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=moc
-pkgver=2.5.2
+pkgname="moc"
+pkgver="2.5.2"
 pkgrel=1
 pkgdesc="MOC is a console audio player"
 url="http://moc.daper.net/"

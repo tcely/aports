@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=xml2rfc
-pkgver=2.8.2
+pkgname="xml2rfc"
+pkgver="2.8.2"
 pkgrel=1
 pkgdesc="A tool for converting XML documents into internet drafts and RFCs"
 url="https://tools.ietf.org/"

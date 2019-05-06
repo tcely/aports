@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-distro
+pkgname="py-distro"
 _pkgname=distro
-pkgver=1.4.0
+pkgver="1.4.0"
 pkgrel=1
 pkgdesc="A Linux OS platform information API"
 url="https://github.com/nir0s/distro"

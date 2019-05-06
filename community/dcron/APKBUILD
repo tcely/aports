@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=dcron
-pkgver=4.5
+pkgname="dcron"
+pkgver="4.5"
 pkgrel=4
 pkgdesc="dillon's lightweight cron daemon"
 url="https://github.com/dubiousjim/dcron"

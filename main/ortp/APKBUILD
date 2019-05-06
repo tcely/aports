@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ortp
-pkgver=1.0.2
+pkgname="ortp"
+pkgver="1.0.2"
 _pkgver=${pkgver}-0
 pkgrel=0
 pkgdesc="oRTP is a library implemeting Real-time Transport Protocol (RFC3550), licensed under LGPL"

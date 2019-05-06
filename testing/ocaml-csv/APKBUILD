@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # TODO: Build csv-lwt (?).
-pkgname=ocaml-csv
+pkgname="ocaml-csv"
 _pkgname=csv
-pkgver=2.1
+pkgver="2.1"
 pkgrel=0
 pkgdesc="OCaml library for reading and writing CSV files"
 url="https://github.com/Chris00/ocaml-csv"

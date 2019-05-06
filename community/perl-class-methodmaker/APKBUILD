@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-class-methodmaker
-pkgver=2.24
+pkgname="perl-class-methodmaker"
+pkgver="2.24"
 pkgrel=2
 pkgdesc="Create generic class methods"
 url="http://search.cpan.org/dist/Class-MethodMaker"

@@ -1,9 +1,9 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Contributor: Kevin Daudt <kdaudt@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=copyq
+pkgname="copyq"
 _pkgname=CopyQ
-pkgver=3.8.0
+pkgver="3.8.0"
 pkgrel=0
 pkgdesc="Clipboard manager with searchable and editable history"
 url="https://github.com/hluk/CopyQ"

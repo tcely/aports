@@ -1,7 +1,7 @@
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-authen-sasl
+pkgname="perl-authen-sasl"
 _realname=Authen-SASL
-pkgver=2.16
+pkgver="2.16"
 pkgrel=1
 pkgdesc="SASL Authentication framework for perl"
 url="http://search.cpan.org/dist/Authen-SASL/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=wpa_gui
-pkgver=2.6
+pkgname="wpa_gui"
+pkgver="2.6"
 pkgrel=0
 pkgdesc="Grafical User Interface for wpa_supplicant"
 url="https://w1.fi/wpa_supplicant/"

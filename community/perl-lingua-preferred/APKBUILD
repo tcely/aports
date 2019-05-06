@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-lingua-preferred
-pkgver=0.2.4
+pkgname="perl-lingua-preferred"
+pkgver="0.2.4"
 pkgrel=1
 pkgdesc="Pick a language based on user's preferences"
 url="http://search.cpan.org/dist/Lingua-Preferred"

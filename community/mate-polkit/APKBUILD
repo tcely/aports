@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=mate-polkit
-pkgver=1.22.0
+pkgname="mate-polkit"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="MATE Authentication Agent for PolicyKit"
 url="https://github.com/mate-desktop/mate-polkit"

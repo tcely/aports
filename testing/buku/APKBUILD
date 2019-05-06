@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=buku
-pkgver=4.2
+pkgname="buku"
+pkgver="4.2"
 pkgrel=0
 pkgdesc="Cmdline bookmark management utility"
 options="!check" # Requires unpackaged vcrpy

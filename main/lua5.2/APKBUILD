@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua5.2
-pkgver=5.2.4
+pkgname="lua5.2"
+pkgver="5.2.4"
 _luaver=${pkgname#lua}
 pkgrel=7
 pkgdesc="Powerful light-weight programming language"

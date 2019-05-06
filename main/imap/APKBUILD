@@ -3,8 +3,8 @@
 # at this point its only php who wants this for imap support
 # if more packages needs the c-client lib we might want to
 # build it shared
-pkgname=imap
-pkgver=2007f
+pkgname="imap"
+pkgver="2007f"
 pkgrel=9
 pkgdesc="An IMAP/POP server"
 url="http://www.washington.edu/imap"

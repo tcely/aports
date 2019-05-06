@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-cache
+pkgname="py-flask-cache"
 _pkgname=Flask-Cache
-pkgver=0.12
+pkgver="0.12"
 pkgrel=0
 pkgdesc="Flask cache support"
 url="https://pypi.python.org/pypi/Flask-Cache"

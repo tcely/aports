@@ -1,8 +1,8 @@
 # Contributor: Matt Dainty <matt+alpine@bodgit-n-scarper.com>
 # Maintainer: TBK <alpine@jjtc.eu>
-pkgname=py-jsonpointer
+pkgname="py-jsonpointer"
 _pkgname=${pkgname#py-}
-pkgver=2.0
+pkgver="2.0"
 pkgrel=1
 pkgdesc="Identify specific nodes in a JSON document (RFC 6901)"
 url="https://github.com/stefankoegl/python-json-pointer"

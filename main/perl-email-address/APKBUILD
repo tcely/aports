@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-email-address
-pkgver=1.909
+pkgname="perl-email-address"
+pkgver="1.909"
 pkgrel=0
 pkgdesc="RFC 2822 Address Parsing and Creation"
 url="http://search.cpan.org/dist/Email-Address"

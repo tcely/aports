@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=mate-common
-pkgver=1.22.0
+pkgname="mate-common"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="Common scripts and macros"
 url="http://mate-desktop.org/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ttf-liberation
-pkgver=2.00.1
+pkgname="ttf-liberation"
+pkgver="2.00.1"
 # Note: 2.00.0 onward releases does not includes Liberation Sans Narrow font due to licensing problems.
 # we use narrowver to grab older release which does include narrow fonts
 _narrowver=1.07.4

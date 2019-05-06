@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libmatroska
-pkgver=1.5.0
+pkgname="libmatroska"
+pkgver="1.5.0"
 pkgrel=0
 pkgdesc="Extensible multimedia container format based on EBML"
 url="https://www.matroska.org"

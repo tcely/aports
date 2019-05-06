@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=gmime
-pkgver=3.2.3
+pkgname="gmime"
+pkgver="3.2.3"
 pkgrel=0
 pkgdesc="glib mime library"
 url="http://spruce.sourceforge.net/gmime/"

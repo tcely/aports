@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=snappy
-pkgver=1.1.7
+pkgname="snappy"
+pkgver="1.1.7"
 pkgrel=1
 pkgdesc="Fast compression and decompression library"
 url="https://google.github.io/snappy/"

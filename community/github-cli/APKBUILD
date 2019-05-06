@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=github-cli
-pkgver=1.0.0
+pkgname="github-cli"
+pkgver="1.0.0"
 pkgrel=3
 pkgdesc="GitHub issue tracker client"
 url="http://packages.python.org/github-cli/"

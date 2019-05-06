@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=wkhtmltopdf
-pkgver=0.12.5
+pkgname="wkhtmltopdf"
+pkgver="0.12.5"
 pkgrel=0
 pkgdesc="Simple shell utility to convert html to pdf"
 url="http://wkhtmltopdf.org/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=perl-net-netmask
+pkgname="perl-net-netmask"
 _realname=Net-Netmask
-pkgver=1.9022
+pkgver="1.9022"
 pkgrel=1
 pkgdesc="Perl extension to parse, manipulate, and lookup IP network blocks"
 url="http://search.cpan.org/~muir/Net-Netmask-1.9016/"

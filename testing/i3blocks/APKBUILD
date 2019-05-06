@@ -1,7 +1,7 @@
 # Contributor: Marvin Steadfast <marvin@xsteadfastx.org>
 # Maintainer: Marvin Steadfast <marvin@xsteadfastx.org>
-pkgname=i3blocks
-pkgver=1.4
+pkgname="i3blocks"
+pkgver="1.4"
 pkgrel=0
 pkgdesc="A minimalist scheduler for your status line scripts"
 url="https://github.com/vivien/i3blocks"

@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-xlsxwriter
+pkgname="py-xlsxwriter"
 _pkgname=XlsxWriter
-pkgver=1.1.8
+pkgver="1.1.8"
 pkgrel=1
 pkgdesc="A Python module for creating Excel XLSX files"
 url="https://github.com/jmcnamara/XlsxWriter"

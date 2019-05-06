@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=automake
-pkgver=1.16.1
+pkgname="automake"
+pkgver="1.16.1"
 pkgrel=0
 pkgdesc="A GNU tool for automatically creating Makefiles"
 url="https://www.gnu.org/software/automake"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx-theme-caktus
+pkgname="py-sphinx-theme-caktus"
 _pkgname=caktus-sphinx-theme
-pkgver=0.1.0
+pkgver="0.1.0"
 pkgrel=0
 pkgdesc="The Caktus Sphinx theme"
 url="https://github.com/caktus/caktus-sphinx-theme/"

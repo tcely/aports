@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=mdds
-pkgver=1.4.3
+pkgname="mdds"
+pkgver="1.4.3"
 pkgrel=0
 pkgdesc="Multi-dimensional data index algorithm"
 url="https://gitlab.com/mdds/mdds"

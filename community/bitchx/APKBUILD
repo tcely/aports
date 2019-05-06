@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=bitchx
-pkgver=1.2.1
+pkgname="bitchx"
+pkgver="1.2.1"
 pkgrel=9
 pkgdesc="An IRC client"
 url="http://www.bitchx.org/"

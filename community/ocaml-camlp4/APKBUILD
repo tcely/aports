@@ -1,10 +1,10 @@
 # Contributor: Jon Ong <jonongjs@rottenmage.com>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Anil Madhavapeddy <anil@recoil.org>
-pkgname=ocaml-camlp4
+pkgname="ocaml-camlp4"
 _pkgname=camlp4
 # NOTE: camlp4 version must match ocaml version!
-pkgver=4.07.1
+pkgver="4.07.1"
 _pkgver="${pkgver%.*}+${pkgver##*.}"
 _ocamlver=${pkgver%.*}
 pkgrel=1

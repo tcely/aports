@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=openzwave
-pkgver=1.4.164
+pkgname="openzwave"
+pkgver="1.4.164"
 pkgrel=4
 pkgdesc="a C++ and DotNet library to control Z-Wave Networks via a Z-Wave Controller."
 url="http://www.openzwave.net/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce4-clipman-plugin
-pkgver=1.4.3
+pkgname="xfce4-clipman-plugin"
+pkgver="1.4.3"
 pkgrel=0
 pkgdesc="Clipboard manager plugin for the Xfce panel"
 url="http://goodies.xfce.org/projects/panel-plugins/xfce4-clipman-plugin"

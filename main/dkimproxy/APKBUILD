@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=dkimproxy
-pkgver=1.4.1
+pkgname="dkimproxy"
+pkgver="1.4.1"
 pkgrel=5
 pkgdesc="SMTP-proxy that signs and/or verifies emails, using the Mail::DKIM module"
 url="http://dkimproxy.sourceforge.net/"

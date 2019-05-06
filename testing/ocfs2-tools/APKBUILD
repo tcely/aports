@@ -3,8 +3,8 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 #
 # TODO: Fix init script (remove bashisms)
-pkgname=ocfs2-tools
-pkgver=1.8.5
+pkgname="ocfs2-tools"
+pkgver="1.8.5"
 pkgrel=1
 pkgdesc="Oracle Cluster File System 2 Core Tools"
 url="https://oss.oracle.com/projects/ocfs2-tools"

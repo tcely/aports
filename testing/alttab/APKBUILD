@@ -1,7 +1,7 @@
 # Contributor: Alexander Kulak <sa-dev@rainbow.by>
 # Maintainer: Alexander Kulak <sa-dev@rainbow.by>
-pkgname=alttab
-pkgver=1.1.0.57
+pkgname="alttab"
+pkgver="1.1.0.57"
 pkgrel=0
 pkgdesc="X11 window switcher designed for minimalistic window managers or standalone X11 session"
 url="https://github.com/sagb/alttab"

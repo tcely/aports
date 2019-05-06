@@ -1,8 +1,8 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=py-django-appconf
+pkgname="py-django-appconf"
 _pkgname=django-appconf
-pkgver=1.0.3
+pkgver="1.0.3"
 pkgrel=0
 pkgdesc="Packaged application configuation helper for Django"
 url="http://django-appconf.readthedocs.org/"

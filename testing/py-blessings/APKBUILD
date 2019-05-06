@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-blessings
+pkgname="py-blessings"
 _pkgname=blessings
-pkgver=1.7
+pkgver="1.7"
 pkgrel=2
 pkgdesc="Wrapper around terminal coloring, styling and positioning"
 url="https://github.com/erikrose/blessings"

@@ -1,7 +1,7 @@
 # Contributor: Jesse Young <jlyo@jlyo.org>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=ucspi-tcp6
-pkgver=1.05
+pkgname="ucspi-tcp6"
+pkgver="1.05"
 pkgrel=0
 pkgdesc="IPv6 enabled ucspi-tcp superserver"
 url="http://www.fehcom.de/ipnet/ucspi-tcp6.html"

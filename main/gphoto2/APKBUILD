@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gphoto2
-pkgver=2.5.15
+pkgname="gphoto2"
+pkgver="2.5.15"
 pkgrel=0
 pkgdesc="Commandline utilities for accessing cameras"
 url="http://www.gphoto.org/"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=libid3tag
-pkgver=0.15.1b
+pkgname="libid3tag"
+pkgver="0.15.1b"
 pkgrel=7
 pkgdesc="MAD ID3 tagger for MP3 audio files"
 url="http://www.underbit.com/products/mad/"

@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer:
-pkgname=leveldb
-pkgver=1.21
+pkgname="leveldb"
+pkgver="1.21"
 pkgrel=0
 pkgdesc="A fast and lightweight key/value database library by Google"
 url="https://github.com/google/leveldb"

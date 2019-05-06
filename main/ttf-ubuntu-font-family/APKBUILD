@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=ttf-ubuntu-font-family
-pkgver=0.83
+pkgname="ttf-ubuntu-font-family"
+pkgver="0.83"
 pkgrel=0
 pkgdesc="Ubuntu font family"
 url="http://font.ubuntu.com/"

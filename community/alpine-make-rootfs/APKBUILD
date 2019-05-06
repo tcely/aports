@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=alpine-make-rootfs
-pkgver=0.3.0
+pkgname="alpine-make-rootfs"
+pkgver="0.3.0"
 pkgrel=0
 pkgdesc="Make customized Alpine Linux rootfs (base image) for containers"
 url="https://github.com/alpinelinux/alpine-make-rootfs"

@@ -1,7 +1,7 @@
 # Contributor: Pedro Filipe <xpecex@outlook.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=netperf
-pkgver=2.7.0
+pkgname="netperf"
+pkgver="2.7.0"
 pkgrel=0
 pkgdesc="TCP/UDP/sockets/etc performance benchmark"
 url="http://www.netperf.org/netperf/"

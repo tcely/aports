@@ -1,9 +1,9 @@
 # Contributor: Andy Postnikov <apostnikov@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
 
-pkgname=php7-xhprof
+pkgname="php7-xhprof"
 _pkgreal=xhprof
-pkgver=2.0.5
+pkgver="2.0.5"
 pkgrel=0
 pkgdesc="A Hierarchical Profiler for PHP"
 url="https://github.com/longxinH/xhprof"

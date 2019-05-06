@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx-theme-readable
+pkgname="py-sphinx-theme-readable"
 _pkgname=sphinx-readable-theme
-pkgver=1.3.0
+pkgver="1.3.0"
 pkgrel=0
 pkgdesc="The Readable Sphinx theme"
 url="https://github.com/ignacysokolowski/sphinx-readable-theme"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=subtitleeditor
-pkgver=0.54.0
+pkgname="subtitleeditor"
+pkgver="0.54.0"
 pkgrel=0
 pkgdesc="GTK+3 tool to create and edit subtitles."
 url="http://home.gna.org/subtitleeditor/"

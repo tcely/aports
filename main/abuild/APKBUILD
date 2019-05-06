@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=abuild
-pkgver=3.4.0_rc4
+pkgname="abuild"
+pkgver="3.4.0_rc4"
 _ver=${pkgver%_git*}
 pkgrel=0
 pkgdesc="Script to build Alpine Packages"

@@ -2,8 +2,8 @@
 # Contributor: Shiz <hi@shiz.me>
 # Contributor: Jeizsm <jeizsm@gmail.com>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=rust
-pkgver=1.31.1
+pkgname="rust"
+pkgver="1.31.1"
 # TODO: bump to 6 as soon as we add llvm6
 _llvmver=5
 _bootver=1.30.0

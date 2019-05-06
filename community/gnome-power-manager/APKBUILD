@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=gnome-power-manager
-pkgver=3.30.0
+pkgname="gnome-power-manager"
+pkgver="3.30.0"
 pkgrel=0
 pkgdesc="GNOME power manager"
 url="http://www.gnome.org"

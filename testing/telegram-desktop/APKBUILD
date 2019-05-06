@@ -1,6 +1,6 @@
 # Maintainer: Alex Raschi <raschi.alex@gmail.com>
-pkgname=telegram-desktop
-pkgver=1.5.8
+pkgname="telegram-desktop"
+pkgver="1.5.8"
 _pkgurl="https://github.com/telegramdesktop/tdesktop.git"
 # https://github.com/telegramdesktop/tdesktop/blob/v$pkgver/docs/building-cmake.md
 _gypver=702ac58e477214c635d9b541932e75a95d349352

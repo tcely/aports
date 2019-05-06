@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-compress-raw-zlib
+pkgname="perl-compress-raw-zlib"
 _realname=Compress-Raw-Zlib
-pkgver=2.086
+pkgver="2.086"
 pkgrel=0
 pkgdesc="Perl low-level interface to zlib compression library"
 url="http://search.cpan.org/dist/Compress-Raw-Zlib/"

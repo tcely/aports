@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce-polkit
-pkgver=0.3
+pkgname="xfce-polkit"
+pkgver="0.3"
 pkgrel=0
 pkgdesc="A simple PolicyKit authentication agent for XFCE"
 url="https://github.com/ncopa/xfce-polkit"

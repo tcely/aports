@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua-uuid
-pkgver=2012.05
+pkgname="lua-uuid"
+pkgver="2012.05"
 pkgrel=1
 pkgdesc="Lua library generating universally unique identifiers based on libuuid"
 url="http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/#luuid"

@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libwpd
-pkgver=0.10.3
+pkgname="libwpd"
+pkgver="0.10.3"
 pkgrel=0
 pkgdesc="Import filter and tools for WordPerfect Documents"
 url="https://sourceforge.net/p/libwpd/"

@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=lsscsi
-pkgver=0.30
+pkgname="lsscsi"
+pkgver="0.30"
 pkgrel=0
 pkgdesc="Lists information about SCSI devices"
 url="http://sg.danny.cz/scsi/lsscsi.html"

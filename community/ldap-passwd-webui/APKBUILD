@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ldap-passwd-webui
-pkgver=2.0.0
+pkgname="ldap-passwd-webui"
+pkgver="2.0.0"
 pkgrel=0
 pkgdesc="Very simple web interface for changing password stored in LDAP or Active Directory (Samba 4 AD)"
 url="https://github.com/jirutka/ldap-passwd-webui"

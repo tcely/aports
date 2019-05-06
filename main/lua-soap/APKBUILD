@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=lua-soap
-pkgver=3.0
+pkgname="lua-soap"
+pkgver="3.0"
 _pkgver=${pkgver/./_}
 pkgrel=0
 pkgdesc="Lua library to ease the use of SOAP"

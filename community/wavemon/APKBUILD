@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=wavemon
-pkgver=0.8.2
+pkgname="wavemon"
+pkgver="0.8.2"
 pkgrel=0
 pkgdesc="Ncurses-based monitoring application for wireless network devices"
 url="https://github.com/uoaerg/wavemon"

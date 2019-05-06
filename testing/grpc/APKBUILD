@@ -1,7 +1,7 @@
 # Contributor: wener <wenermail@gmail.com>
 # Maintainer: wener <wenermail@gmail.com>
-pkgname=grpc
-pkgver=1.19.1
+pkgname="grpc"
+pkgver="1.19.1"
 pkgrel=0
 pkgdesc="The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) "
 url="https://grpc.io/"

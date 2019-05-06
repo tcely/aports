@@ -1,8 +1,8 @@
 # Contributor: Dan Theisen <djt@hxx.in>
 # Contributor: Milan P. Stanić <mps@arvanta.net>
 # Maintainer: Dan Theisen <djt@hxx.in>
-pkgname=tcsh
-pkgver=6.20.00
+pkgname="tcsh"
+pkgver="6.20.00"
 pkgrel=3
 pkgdesc="extended C-shell"
 url="https://github.com/tcsh-org/tcsh"

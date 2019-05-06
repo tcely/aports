@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=fftw
-pkgver=3.3.8
+pkgname="fftw"
+pkgver="3.3.8"
 pkgrel=0
 pkgdesc="Discrete Fourier transform (DFT) library"
 url="http://www.fftw.org"

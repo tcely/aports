@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=py-img2pdf
-pkgver=0.3.3
+pkgname="py-img2pdf"
+pkgver="0.3.3"
 pkgrel=1
 pkgdesc="Convert images to PDF via direct JPEG inclusion"
 url="https://gitlab.mister-muffin.de/josch/img2pdf"

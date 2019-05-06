@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _pyname=PyDispatcher
-pkgname=py3-pydispatcher
-pkgver=2.0.5
+pkgname="py3-pydispatcher"
+pkgver="2.0.5"
 pkgrel=4
 pkgdesc="Loosely-coupled message passing between Python objects (signal senders and receivers)"
 url="https://sourceforge.net/projects/python-pydispatcher/"

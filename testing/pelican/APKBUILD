@@ -1,8 +1,8 @@
 # Contributor: Danilo Falcão <danilo@falcao.org>
 # Maintainer: Danilo Falcão <danilo@falcao.org>
-pkgname=pelican
+pkgname="pelican"
 _pkgname=pelican
-pkgver=3.7.1
+pkgver="3.7.1"
 pkgrel=1
 pkgdesc="A tool to generate a static blog from reStructuredText or Markdown input files."
 url="https://pypi.python.org/pypi/pelican/"

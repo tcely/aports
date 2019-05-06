@@ -1,8 +1,8 @@
 # Contributor: Matt Smith <mcs@darkregion.net>
 # Maintainer: Matt Smith <mcs@darkregion.net>
-pkgname=py-roman
+pkgname="py-roman"
 _pkgname=roman
-pkgver=2.0.0
+pkgver="2.0.0"
 pkgrel=4
 pkgdesc="Integer to Roman numerals converter"
 url="https://pypi.python.org/pypi/roman"

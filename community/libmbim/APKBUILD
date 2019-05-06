@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=libmbim
-pkgver=1.18.2
+pkgname="libmbim"
+pkgver="1.18.2"
 pkgrel=0
 pkgdesc="MBIM modem protocol helper library"
 url="https://www.freedesktop.org/wiki/Software/libmbim/"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=lxqt-build-tools
-pkgver=0.4.0
+pkgname="lxqt-build-tools"
+pkgver="0.4.0"
 pkgrel=1
 pkgdesc="Various packaging tools and scripts for LXQt applications"
 url="https://lxqt.org/"

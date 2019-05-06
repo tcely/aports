@@ -1,7 +1,7 @@
 # Contributor: Matt Smith <mcs@darkregion.net>
 # Maintainer:  Matt Smith <mcs@darkregion.net>
-pkgname=pdnsd
-pkgver=1.2.9a
+pkgname="pdnsd"
+pkgver="1.2.9a"
 _realver=$pkgver-par
 pkgrel=5
 pkgdesc="A proxy DNS server with permanent caching"

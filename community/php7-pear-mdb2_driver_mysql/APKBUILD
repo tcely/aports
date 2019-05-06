@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 _php=php7
-pkgname=${_php}-pear-mdb2_driver_mysql
+pkgname="${_php}-pear-mdb2_driver_mysql"
 _realname=MDB2_Driver_mysql
-pkgver=1.5.0b4
+pkgver="1.5.0b4"
 pkgrel=0
 pkgdesc="mysql MDB2 driver"
 url="http://pear.php.net/package/$_realname/"

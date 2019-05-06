@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=fribidi
-pkgver=1.0.5
+pkgname="fribidi"
+pkgver="1.0.5"
 pkgrel=0
 pkgdesc="Free Implementation of the Unicode Bidirectional Algorithm"
 url="https://github.com/fribidi/fribidi"

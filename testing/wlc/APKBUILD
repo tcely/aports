@@ -1,6 +1,6 @@
 # Maintainer:
-pkgname=wlc
-pkgver=0.0.11
+pkgname="wlc"
+pkgver="0.0.11"
 pkgrel=0
 pkgdesc="Wayland Compositor Library"
 url="https://github.com/Cloudef/wlc"

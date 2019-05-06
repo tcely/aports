@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=incron
-pkgver=0.5.10
+pkgname="incron"
+pkgver="0.5.10"
 pkgrel=0
 pkgdesc="Inotify cron system"
 url="http://inotify.aiken.cz"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sparsehash
-pkgver=2.0.3
+pkgname="sparsehash"
+pkgver="2.0.3"
 pkgrel=0
 pkgdesc="Library that contains several hash-map implementations"
 url="https://github.com/sparsehash/sparsehash"

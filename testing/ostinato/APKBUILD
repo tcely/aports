@@ -1,7 +1,7 @@
 # Maintainer: Corentin Henry <corentinhenry@gmail.com>
 # Contributor: Corentin Henry <corentinhenry@gmail.com>
-pkgname=ostinato
-pkgver=0.9
+pkgname="ostinato"
+pkgver="0.9"
 pkgrel=1
 pkgdesc="Packet/Traffic Generator and Analyzer"
 url="https://www.ostinato.org"

@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=shiboken
-pkgver=1.2.4
+pkgname="shiboken"
+pkgver="1.2.4"
 pkgrel=0
 pkgdesc="CPython bindings generator for C++ libraries"
 url="http://www.pyside.org"

@@ -1,9 +1,9 @@
 # Contributor: 
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: 
-pkgname=py-pyphen
+pkgname="py-pyphen"
 _pkgname=Pyphen
-pkgver=0.9.5
+pkgver="0.9.5"
 pkgrel=1
 pkgdesc="python-based dictionary hyphenator library"
 url="http://www.pyphen.org/"

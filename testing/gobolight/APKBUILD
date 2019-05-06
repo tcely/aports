@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=gobolight
+pkgname="gobolight"
 _pkgname=GoboLight
-pkgver=0.1
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Ultra-minimal backlight tool"
 url="https://github.com/gobolinux/GoboLight"

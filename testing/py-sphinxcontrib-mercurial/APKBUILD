@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-mercurial
+pkgname="py-sphinxcontrib-mercurial"
 _pkgname=sphinxcontrib-mercurial
-pkgver=0.2
+pkgver="0.2"
 pkgrel=0
 pkgdesc="Sphinx mercurial extension"
 url="http://bitbucket.org/cointoss1973/sphinxcontrib-mercurial"

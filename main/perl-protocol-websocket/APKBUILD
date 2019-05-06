@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=perl-protocol-websocket
+pkgname="perl-protocol-websocket"
 _pkgreal=Protocol-WebSocket
-pkgver=0.20
+pkgver="0.20"
 pkgrel=0
 pkgdesc="WebSocket protocol"
 url="http://search.cpan.org/dist/Protocol-WebSocket/"

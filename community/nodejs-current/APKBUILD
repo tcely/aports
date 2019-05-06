@@ -18,9 +18,9 @@
 #     - CVE-2017-15896
 #     - CVE-2017-15897
 #
-pkgname=nodejs-current
+pkgname="nodejs-current"
 # The current stable version, i.e. non-LTS.
-pkgver=11.14.0
+pkgver="11.14.0"
 pkgrel=0
 pkgdesc="JavaScript runtime built on V8 engine - current stable version"
 url="https://nodejs.org/"

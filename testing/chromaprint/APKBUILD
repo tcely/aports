@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=chromaprint
-pkgver=1.4.3
+pkgname="chromaprint"
+pkgver="1.4.3"
 pkgrel=1
 pkgdesc="C library for generating audio fingerprints used by AcoustID"
 url="https://acoustid.org/chromaprint"

@@ -1,7 +1,7 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=wordgrinder
-pkgver=0.7.2
+pkgname="wordgrinder"
+pkgver="0.7.2"
 pkgrel=0
 pkgdesc="A simple Unicode-aware word processor that runs on the console"
 url="https://cowlark.com/wordgrinder/"

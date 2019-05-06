@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx-theme-bootstrap
+pkgname="py-sphinx-theme-bootstrap"
 _pkgname=sphinx-bootstrap-theme
-pkgver=0.4.7
+pkgver="0.4.7"
 pkgrel=0
 pkgdesc="The Bootstrap Sphinx theme"
 url="http://ryan-roemer.github.com/sphinx-bootstrap-theme"

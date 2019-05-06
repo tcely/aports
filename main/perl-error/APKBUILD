@@ -1,7 +1,7 @@
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-error
+pkgname="perl-error"
 _realname=Error
-pkgver=0.17027
+pkgver="0.17027"
 pkgrel=0
 pkgdesc="Perl module error/exception handling in an OO-ish way"
 url="http://search.cpan.org/dist/Error/"

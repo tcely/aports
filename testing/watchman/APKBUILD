@@ -1,6 +1,6 @@
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=watchman
-pkgver=4.9.0
+pkgname="watchman"
+pkgver="4.9.0"
 pkgrel=2
 pkgdesc="A file watching service"
 url="https://facebook.github.io/watchman/"

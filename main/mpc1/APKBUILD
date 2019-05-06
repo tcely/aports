@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mpc1
-pkgver=1.0.3
+pkgname="mpc1"
+pkgver="1.0.3"
 pkgrel=1
 pkgdesc="Multiprecision C library"
 url="http://www.multiprecision.org/"

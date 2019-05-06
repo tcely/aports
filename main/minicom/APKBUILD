@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=minicom
-pkgver=2.7.1
+pkgname="minicom"
+pkgver="2.7.1"
 pkgrel=0
 pkgdesc="menu driven communications program for terminals"
 url="https://alioth.debian.org/projects/minicom"

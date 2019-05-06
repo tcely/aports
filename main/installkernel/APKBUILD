@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=installkernel
-pkgver=3.5
+pkgname="installkernel"
+pkgver="3.5"
 pkgrel=0
 pkgdesc="Alpine Linux Kernel install script"
 url="https://git.alpinelinux.org/cgit/aports/tree/main/installkernel"

@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua-feedparser
+pkgname="lua-feedparser"
 _rockname=feedparser
-pkgver=0.71
+pkgver="0.71"
 pkgrel=1
 pkgdesc="A decent RSS and Atom XML feed parser"
 url="https://github.com/slact/lua-feedparser"

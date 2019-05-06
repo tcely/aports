@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=gnome-terminal
-pkgver=3.26.0
+pkgname="gnome-terminal"
+pkgver="3.26.0"
 pkgrel=1
 pkgdesc="GNOME terminal client"
 url="https://wiki.gnome.org/Apps/Terminal"

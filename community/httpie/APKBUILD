@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
 # Contributor: Daniel Isaksen <d@duniel.no>
-pkgname=httpie
-pkgver=1.0.2
+pkgname="httpie"
+pkgver="1.0.2"
 pkgrel=1
 pkgdesc="A CLI, cURL-like tool"
 url="https://httpie.org/"

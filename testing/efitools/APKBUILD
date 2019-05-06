@@ -2,8 +2,8 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
 
-pkgname=efitools
-pkgver=1.8.1
+pkgname="efitools"
+pkgver="1.8.1"
 pkgrel=0
 pkgdesc="EFI tools"
 url="https://git.kernel.org/pub/scm/linux/kernel/git/jejb/efitools.git"

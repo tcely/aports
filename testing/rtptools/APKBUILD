@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=rtptools
-pkgver=1.22
+pkgname="rtptools"
+pkgver="1.22"
 pkgrel=0
 pkgdesc="RTP Tools"
 url="http://www.cs.columbia.edu/irt/software/rtptools/"

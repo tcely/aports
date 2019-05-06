@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=devicemaster-linux
-pkgver=7.15
+pkgname="devicemaster-linux"
+pkgver="7.15"
 pkgrel=0
 pkgdesc="Userspace tools for NS-Link Device Drivers"
 url="http://www.comtrol.com/resources/product-resources-white-papers/ns-link-device-drivers"

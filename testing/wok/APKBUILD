@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=wok
-pkgver=2.5.0
+pkgname="wok"
+pkgver="2.5.0"
 pkgrel=2
 pkgdesc="Webserver of Kimchi - a cherrypy framework for multi-purpose plug-ins"
 url="https://kimchi-project.github.io/wok/"

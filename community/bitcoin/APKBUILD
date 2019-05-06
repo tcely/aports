@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=bitcoin
-pkgver=0.17.1
+pkgname="bitcoin"
+pkgver="0.17.1"
 _ver=${pkgver/_/}
 pkgrel=1
 pkgdesc="Decentralized P2P electronic cash system"

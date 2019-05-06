@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gtk-xfce-engine
-pkgver=3.2.0
+pkgname="gtk-xfce-engine"
+pkgver="3.2.0"
 pkgrel=2
 pkgdesc="Xfce theme engine"
 url="https://xfce.org/"

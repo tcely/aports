@@ -1,8 +1,8 @@
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 
-pkgname=eventlog
-pkgver=0.2.12
+pkgname="eventlog"
+pkgver="0.2.12"
 pkgrel=4
 pkgdesc="API to format and send structured log messages"
 arch="all"

@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=py-django-contact-form
-pkgver=1.6
+pkgname="py-django-contact-form"
+pkgver="1.6"
 pkgrel=0
 pkgdesc="Generic contact-form application for Django"
 url=https://bitbucket.org/ubernostrum/django-contact-form/

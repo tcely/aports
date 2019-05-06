@@ -1,7 +1,7 @@
 # Contributor: Oleg Titov <oleg.titov@gmail.com>
 # Maintainer: Oleg Titov <oleg.titov@gmail.com>
-pkgname=gx
-pkgver=0.14.2
+pkgname="gx"
+pkgver="0.14.2"
 pkgrel=0
 pkgdesc="Packaging tool build around the distributed, content addressed filesystem IPFS"
 url="https://github.com/whyrusleeping/gx"

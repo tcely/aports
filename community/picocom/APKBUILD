@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=picocom
-pkgver=3.1
+pkgname="picocom"
+pkgver="3.1"
 pkgrel=0
 pkgdesc="Minimal dumb-terminal emulation program"
 url="https://github.com/npat-efault/picocom"

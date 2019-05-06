@@ -1,8 +1,8 @@
 # Contributor: Breno Leitao <breno.leitao@gmail.com>
 # Maintainer: Breno Leitao <breno.leitao@gmail.com>
-pkgname=perl-specio
+pkgname="perl-specio"
 _pkgname=Specio
-pkgver=0.36
+pkgver="0.36"
 pkgrel=2
 pkgdesc="Type constraints and coercions for Perl"
 url="https://github.com/houseabsolute/Specio"

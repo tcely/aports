@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-sqltable
+pkgname="py-sphinxcontrib-sqltable"
 _pkgname=sphinxcontrib-sqltable
-pkgver=1.0
+pkgver="1.0"
 pkgrel=0
 pkgdesc="Sphinx sqltable extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-sqltable"

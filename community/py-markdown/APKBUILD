@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-markdown
+pkgname="py-markdown"
 _pkgname=Markdown
-pkgver=3.0.1
+pkgver="3.0.1"
 pkgrel=1
 pkgdesc="A Python implementation of Markdown"
 url="http://pythonhosted.org/Markdown/"

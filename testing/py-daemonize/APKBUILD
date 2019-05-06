@@ -1,7 +1,7 @@
 # Maintainer: Luca Weiss <luca@z3ntu.xyz>
-pkgname=py-daemonize
+pkgname="py-daemonize"
 _pkgname=daemonize
-pkgver=2.4.7
+pkgver="2.4.7"
 pkgrel=2
 pkgdesc="Library to enable your code run as a daemon process on Unix-like systems."
 url="https://github.com/thesharp/daemonize"

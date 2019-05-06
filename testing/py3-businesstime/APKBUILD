@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-businesstime
+pkgname="py3-businesstime"
 _pkgname=businesstime
-pkgver=0.3.0
+pkgver="0.3.0"
 pkgrel=2
 pkgdesc="Python utility for calculating business time between two datetimes"
 url="https://github.com/seatgeek/businesstime"

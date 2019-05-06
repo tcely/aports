@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=awall
-pkgver=1.6.10
+pkgname="awall"
+pkgver="1.6.10"
 pkgrel=0
 pkgdesc="Alpine Wall"
 url="https://git.alpinelinux.org/cgit/awall/"

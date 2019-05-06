@@ -1,8 +1,8 @@
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer: Dmitry Romanenko <dmitry@romanenko.in>
-pkgname=py-certifi
+pkgname="py-certifi"
 _pkgname=certifi
-pkgver=2019.3.9
+pkgver="2019.3.9"
 pkgrel=0
 pkgdesc="Python package for providing Mozilla's CA Bundle"
 url="https://pypi.python.org/pypi/certifi"

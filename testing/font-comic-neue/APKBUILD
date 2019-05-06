@@ -1,8 +1,8 @@
 # Contributor: Orson Teodoro <orsonteodoro@hotmail.com>
 # Maintainer: Orson Teodoro <orsonteodoro@hotmail.com>
-pkgname=font-comic-neue
+pkgname="font-comic-neue"
 _pkgname=comicneue
-pkgver=2.4
+pkgver="2.4"
 pkgrel=0
 pkgdesc="Comic Neue is a font that fixes the shortcomings of Comic Sans"
 url="http://comicneue.com/"

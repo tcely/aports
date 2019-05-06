@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ospd-nmap
-pkgver=1.0b1
+pkgname="ospd-nmap"
+pkgver="1.0b1"
 pkgrel=4
 _pkgid=2218
 pkgdesc="OSP server implementation to allow OpenVAS to remotel control nmap port scanner"

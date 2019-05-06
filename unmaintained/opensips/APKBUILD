@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=opensips
-pkgver=1.6.3
+pkgname="opensips"
+pkgver="1.6.3"
 pkgrel=3
 pkgdesc="Flexible and customizable sip routing engine"
 url="http://www.opensips.org/"

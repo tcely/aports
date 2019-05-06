@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=imgbrd-grabber
-pkgver=7.1.0
+pkgname="imgbrd-grabber"
+pkgver="7.1.0"
 pkgrel=0
 pkgdesc="Powerful imageboard/booru downloader"
 options="!check" # Tests requires graphics

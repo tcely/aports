@@ -1,8 +1,8 @@
 # Contributor: alpine-mips-patches <info@mobile-stream.com>
 # Maintainer: alpine-mips-patches <info@mobile-stream.com>
-pkgname=ocaml-camlp5
+pkgname="ocaml-camlp5"
 _pkgname=camlp5
-pkgver=7.07
+pkgver="7.07"
 _pkgver="rel707"
 pkgrel=0
 pkgdesc="Preprocessor-pretty-printer of OCaml"

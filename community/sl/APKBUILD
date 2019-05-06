@@ -1,7 +1,7 @@
 # Contributor: Andrew Hills <ahills@ednos.net>
 # Maintainer: Andrew Hills <ahills@ednos.net>
-pkgname=sl
-pkgver=5.02
+pkgname="sl"
+pkgver="5.02"
 pkgrel=0
 pkgdesc="Cure your bad habit of mistyping"
 url="https://github.com/mtoyoda/sl"

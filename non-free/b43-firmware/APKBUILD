@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=b43-firmware
-pkgver=4.150.10.5
+pkgname="b43-firmware"
+pkgver="4.150.10.5"
 pkgrel=1
 pkgdesc="Firmware for b43 driver"
 url="http://linuxwireless.org/en/users/Drivers/b43#firmware_installation"

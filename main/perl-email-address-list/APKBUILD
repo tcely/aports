@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-email-address-list
-pkgver=0.06
+pkgname="perl-email-address-list"
+pkgver="0.06"
 pkgrel=0
 pkgdesc="RFC close address list parsing"
 url="http://search.cpan.org/dist/Email-Address-List/"

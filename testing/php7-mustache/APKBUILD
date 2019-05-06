@@ -1,7 +1,7 @@
 # Maintainer: Renoir Boulanger <hello@renoirboulanger.com>
 pkgname="php7-mustache"
 _phpext="mustache"
-pkgver=0.8.1
+pkgver="0.8.1"
 pkgrel=0
 pkgdesc="PHP 7 PECL extension: C++ implementation of Mustache"
 giturl="https://github.com/jbboehr/php-mustache.git"

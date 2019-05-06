@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=sc
-pkgver=7.16
+pkgname="sc"
+pkgver="7.16"
 pkgrel=5
 pkgdesc="Speadsheet Calculator"
 url="https://github.com/dkastner/sc"

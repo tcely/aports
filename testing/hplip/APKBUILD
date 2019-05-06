@@ -2,8 +2,8 @@
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
-pkgname=hplip
-pkgver=3.19.1
+pkgname="hplip"
+pkgver="3.19.1"
 pkgrel=1
 pkgdesc="Drivers for HP printers and scanners"
 arch="x86 x86_64" # missing sane on several arches

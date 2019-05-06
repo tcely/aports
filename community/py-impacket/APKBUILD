@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-impacket
+pkgname="py-impacket"
 _pkgname=impacket
-pkgver=0.9.15
+pkgver="0.9.15"
 pkgrel=1
 pkgdesc="A collection of Python classes providing access to network packets"
 url="http://code.google.com/p/impacket/"

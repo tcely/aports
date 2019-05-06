@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-dbix-dbschema
-pkgver=0.45
+pkgname="perl-dbix-dbschema"
+pkgver="0.45"
 pkgrel=0
 pkgdesc="DBIx::DBSchema perl module"
 url="http://search.cpan.org/dist/DBIx-DBSchema/"

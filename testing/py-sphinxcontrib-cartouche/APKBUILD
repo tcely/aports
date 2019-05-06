@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-cartouche
+pkgname="py-sphinxcontrib-cartouche"
 _pkgname=cartouche
-pkgver=1.1
+pkgver="1.1"
 pkgrel=1
 pkgdesc="Sphinx cartouche extension"
 url="https://code.google.com/p/cartouche/"

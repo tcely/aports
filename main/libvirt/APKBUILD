@@ -1,6 +1,6 @@
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libvirt
-pkgver=5.3.0
+pkgname="libvirt"
+pkgver="5.3.0"
 _ver="${pkgver/_rc/-rc}"
 pkgrel=0
 pkgdesc="A virtualization API for several hypervisor and container systems"

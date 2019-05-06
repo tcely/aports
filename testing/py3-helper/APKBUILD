@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-helper
+pkgname="py3-helper"
 _pkgname=helper
-pkgver=2.4.2
+pkgver="2.4.2"
 pkgrel=1
 pkgdesc="A Python library for quickly writing configurable applications and daemons"
 url="https://helper.readthedocs.org/"

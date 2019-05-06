@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-stdlib
-pkgver=41.2.1
+pkgname="lua-stdlib"
+pkgver="41.2.1"
 pkgrel=0
 pkgdesc="Lua library of modules for common programming tasks"
 url="https://github.com/lua-stdlib/lua-stdlib"

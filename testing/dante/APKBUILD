@@ -1,6 +1,6 @@
 # Contributor: Paul Kilar <pkilar@gmail.com>
 # Maintainer: Paul Kilar <pkilar@gmail.com>
-pkgname=dante
+pkgname="dante"
 pkgver="1.4.2"
 pkgrel=3
 pkgdesc="Dante is SOCKS server and a SOCKS client"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=vlmcsd
-pkgver=1112
+pkgname="vlmcsd"
+pkgver="1112"
 pkgrel=0
 pkgdesc="KMS Emulator in C"
 url="http://forums.mydigitallife.info/threads/50234"

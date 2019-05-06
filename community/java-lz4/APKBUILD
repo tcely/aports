@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=java-lz4
+pkgname="java-lz4"
 _pkgname=lz4-java
-pkgver=1.3.0
+pkgver="1.3.0"
 pkgrel=2
 pkgdesc="LZ4 compression for Java"
 url="https://github.com/jpountz/lz4-java"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=phabricator
-pkgver=0_git20180717
+pkgname="phabricator"
+pkgver="0_git20180717"
 pkgrel=0
 pkgdesc="Open software engineering platform and fun adventure game"
 url="http://phacility.com/phabricator/"

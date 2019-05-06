@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=py-parsedatetime
+pkgname="py-parsedatetime"
 _pkgname=parsedatetime
-pkgver=2.4
+pkgver="2.4"
 pkgrel=4
 pkgdesc="Parse human-readable date/time strings"
 url="https://github.com/bear/parsedatetime"

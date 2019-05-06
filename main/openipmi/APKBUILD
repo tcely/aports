@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=openipmi
-pkgver=2.0.25
+pkgname="openipmi"
+pkgver="2.0.25"
 pkgrel=1
 pkgdesc="IPMI (Intelligent Platform Management Interface) library and tools"
 url="https://sourceforge.net/projects/openipmi/"

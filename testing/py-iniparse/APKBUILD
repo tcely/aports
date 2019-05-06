@@ -1,9 +1,9 @@
 # Maintainer:
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 
-pkgname=py-iniparse
+pkgname="py-iniparse"
 _pkgname=iniparse
-pkgver=0.4
+pkgver="0.4"
 pkgrel=1
 pkgdesc='INI parser library for Python'
 url='https://code.google.com/p/iniparse/'

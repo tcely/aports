@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=valgrind
-pkgver=3.14.0
+pkgname="valgrind"
+pkgver="3.14.0"
 pkgrel=0
 pkgdesc="A tool to help find memory-management problems in programs"
 url="http://valgrind.org/"

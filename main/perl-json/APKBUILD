@@ -1,7 +1,7 @@
 # Maintainer: Kiyoshi Aman <kiyoshi.aman@gmail.com>
-pkgname=perl-json
+pkgname="perl-json"
 _pkgreal=JSON
-pkgver=2.97000
+pkgver="2.97000"
 pkgrel=0
 pkgdesc="Perl module implementing a JSON encoder/decoder"
 url="http://search.cpan.org/dist/JSON/"

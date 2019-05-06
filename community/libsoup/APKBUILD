@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libsoup
-pkgver=2.64.1
+pkgname="libsoup"
+pkgver="2.64.1"
 pkgrel=0
 pkgdesc="Gnome HTTP Library"
 url="http://live.gnome.org/LibSoup"

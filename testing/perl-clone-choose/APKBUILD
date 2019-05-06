@@ -1,8 +1,8 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=perl-clone-choose
+pkgname="perl-clone-choose"
 _pkgreal=Clone-Choose
-pkgver=0.010
+pkgver="0.010"
 pkgrel=0
 pkgdesc="Choose appropriate clone utility"
 url="http://search.cpan.org/dist/Clone-Choose/"

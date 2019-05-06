@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=nagios
-pkgver=3.5.1
+pkgname="nagios"
+pkgver="3.5.1"
 pkgrel=4
 pkgdesc="Popular monitoring tool"
 url="https://www.nagios.org/"

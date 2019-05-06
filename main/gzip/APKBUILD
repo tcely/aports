@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gzip
-pkgver=1.10
+pkgname="gzip"
+pkgver="1.10"
 pkgrel=0
 pkgdesc="A popular data compression program"
 subpackages="$pkgname-doc"

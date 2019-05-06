@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=moka-icon-theme
-pkgver=5.3.6
+pkgname="moka-icon-theme"
+pkgver="5.3.6"
 pkgrel=0
 pkgdesc="Moka Icon Theme"
 url="http://snwh.org/moka"

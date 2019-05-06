@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-ossl
+pkgname="lua-ossl"
 _pkgname=luaossl
-pkgver=20180708
+pkgver="20180708"
 _ver=${pkgver%_git*}
 pkgrel=2
 pkgdesc="A comprehensive OpenSSL Lua module"

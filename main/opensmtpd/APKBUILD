@@ -2,8 +2,8 @@
 # Contributor: Jonathan Curran <jonathan@curran.in>
 # Contributor: Shiz <hi@shiz.me>
 # Maintainer: Jonathan Curran <jonathan@curran.in>
-pkgname=opensmtpd
-pkgver=6.0.3p1
+pkgname="opensmtpd"
+pkgver="6.0.3p1"
 pkgrel=3
 pkgdesc="secure, reliable, lean, and easy-to configure SMTP server"
 url="http://www.opensmtpd.org"

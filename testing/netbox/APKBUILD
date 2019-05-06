@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=netbox
-pkgver=2.5.3
+pkgname="netbox"
+pkgver="2.5.3"
 pkgrel=2
 pkgdesc="IP address management and data center infrastructure management tool"
 url="https://netbox.io"

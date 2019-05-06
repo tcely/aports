@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=flow
-pkgver=0.78.0
+pkgname="flow"
+pkgver="0.78.0"
 pkgrel=0
 pkgdesc="A static typechecker for JavaScript"
 url="https://flow.org"

@@ -1,7 +1,7 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=pcre
-pkgver=8.43
+pkgname="pcre"
+pkgver="8.43"
 pkgrel=0
 pkgdesc="Perl-compatible regular expression library"
 url="http://pcre.sourceforge.net"

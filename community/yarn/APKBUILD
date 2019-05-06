@@ -1,7 +1,7 @@
 # Contributor: Ed Robinson <ed@reevoo.com>
 # Maintainer: Ed Robinson <ed@reevoo.com>
-pkgname=yarn
-pkgver=1.15.2
+pkgname="yarn"
+pkgver="1.15.2"
 pkgrel=0
 pkgdesc="Fast, reliable, and secure dependency management for Node.js"
 url="https://yarnpkg.com/"

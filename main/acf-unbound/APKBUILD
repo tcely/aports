@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-unbound
-pkgver=0.1.0
+pkgname="acf-unbound"
+pkgver="0.1.0"
 pkgrel=2
 pkgdesc="A web-based system administration interface for unbound"
 url="http://git.alpinelinux.org/cgit/acf/$pkgname"

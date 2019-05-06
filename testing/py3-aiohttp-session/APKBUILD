@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-aiohttp-session
+pkgname="py3-aiohttp-session"
 _pkgname=aiohttp_session
-pkgver=2.2.0
+pkgver="2.2.0"
 pkgrel=2
 pkgdesc="Sessions support for aiohttp"
 url="https://aiohttp-session.readthedocs.io/"

@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=glib
-pkgver=2.58.1
+pkgname="glib"
+pkgver="2.58.1"
 pkgrel=3
 pkgdesc="Common C routines used by Gtk+ and other libs"
 url="https://developer.gnome.org/glib/"

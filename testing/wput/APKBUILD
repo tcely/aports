@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=wput
-pkgver=0.6.2
+pkgname="wput"
+pkgver="0.6.2"
 pkgrel=3
 pkgdesc="A command line tool to upload files to FTP site"
 url="http://wput.sourceforge.net/"

@@ -1,7 +1,7 @@
 # Maintainer:  Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mdocml
+pkgname="mdocml"
 _pkgname=mandoc
-pkgver=1.14.3
+pkgver="1.14.3"
 pkgrel=3
 pkgdesc="mdoc/man compiler"
 url="http://mdocml.bsd.lv/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-slide
+pkgname="py-sphinxcontrib-slide"
 _pkgname=sphinxcontrib-slide
-pkgver=0.3.0
+pkgver="0.3.0"
 pkgrel=0
 pkgdesc="Sphinx FindAnything extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-slide"

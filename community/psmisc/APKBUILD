@@ -1,6 +1,6 @@
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=psmisc
-pkgver=23.2
+pkgname="psmisc"
+pkgver="23.2"
 pkgrel=1
 pkgdesc="A set of some small useful utilities that use the proc filesystem"
 url="http://psmisc.sourceforge.net/"

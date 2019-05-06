@@ -3,9 +3,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer:
 _pkgname=llvm
-pkgver=5.0.2
+pkgver="5.0.2"
 _majorver=${pkgver%%.*}
-pkgname=$_pkgname$_majorver
+pkgname="$_pkgname$_majorver"
 pkgrel=0
 pkgdesc="Low Level Virtual Machine compiler system, version $_majorver"
 arch="all"

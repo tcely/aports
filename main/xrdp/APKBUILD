@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=xrdp
-pkgver=0.9.9
+pkgname="xrdp"
+pkgver="0.9.9"
 pkgrel=0
 pkgdesc="An open source RDP server"
 url="http://www.xrdp.org/"

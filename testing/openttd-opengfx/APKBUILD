@@ -1,7 +1,7 @@
 # Contributor: Adrian Siekierka <kontakt@asie.pl>
 # Maintainer: Adrian Siekierka <kontakt@asie.pl>
-pkgname=openttd-opengfx
-pkgver=0.5.2
+pkgname="openttd-opengfx"
+pkgver="0.5.2"
 pkgrel=0
 pkgdesc="Free graphics set for OpenTTD"
 url="http://openttd.org/"

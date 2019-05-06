@@ -1,7 +1,7 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 _gemname=bundler
-pkgname=ruby-$_gemname
-pkgver=2.0.1
+pkgname="ruby-$_gemname"
+pkgver="2.0.1"
 pkgrel=0
 pkgdesc="Manage an application's gem dependencies"
 url="https://bundler.io/"

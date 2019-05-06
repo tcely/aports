@@ -1,8 +1,8 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=lftp
-pkgver=4.8.4
+pkgname="lftp"
+pkgver="4.8.4"
 pkgrel=2
 pkgdesc="Sophisticated ftp/http client"
 url="https://lftp.tech"

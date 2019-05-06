@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pillow
+pkgname="py-pillow"
 _pkgname=Pillow
-pkgver=6.0.0
+pkgver="6.0.0"
 pkgrel=1
 pkgdesc="Python Imaging Library"
 url="https://python-pillow.org"

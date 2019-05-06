@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=unzip
-pkgver=6.0
+pkgname="unzip"
+pkgver="6.0"
 _pkgver=${pkgver//./}
 pkgrel=4
 pkgdesc="Extract PKZIP-compatible .zip files"

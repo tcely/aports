@@ -1,9 +1,9 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
 
-pkgname=lua-turbo
+pkgname="lua-turbo"
 _jitver=2.1.0_beta3
-pkgver=2.1.2
+pkgver="2.1.2"
 pkgrel=2
 pkgdesc="a framework built for LuaJIT 2 and Linux"
 url="http://www.turbolua.org/"

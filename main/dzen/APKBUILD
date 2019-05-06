@@ -1,7 +1,7 @@
 # Maintainer: Cág <ca6c@bitmessage.ch>
-pkgname=dzen
+pkgname="dzen"
 _pkgver=488ab66
-pkgver=0.9.5
+pkgver="0.9.5"
 pkgrel=3
 pkgdesc="A general purpose messaging, notification and menuing program for X11"
 url="https://github.com/robm/dzen"

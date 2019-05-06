@@ -1,6 +1,6 @@
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=aspell-uk
-pkgver=1.4.0
+pkgname="aspell-uk"
+pkgver="1.4.0"
 pkgrel=1
 _lang=${pkgname##*-}
 _name=${pkgname%%-*}6-$_lang-$pkgver-0

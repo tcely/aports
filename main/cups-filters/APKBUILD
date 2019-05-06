@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=cups-filters
-pkgver=1.21.6
+pkgname="cups-filters"
+pkgver="1.21.6"
 pkgrel=1
 pkgdesc="OpenPrinting CUPS filters and backends"
 url="https://wiki.linuxfoundation.org/openprinting/cups-filters"

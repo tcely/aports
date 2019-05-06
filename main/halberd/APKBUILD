@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=halberd
-pkgver=0.2.4
+pkgname="halberd"
+pkgver="0.2.4"
 pkgrel=1
 pkgdesc="Tool to discover HTTP load balancers"
 url="http://halberd.superadditive.com"

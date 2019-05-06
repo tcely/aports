@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=py-ipaddr
+pkgname="py-ipaddr"
 _pkgname=ipaddr
-pkgver=2.2.0
+pkgver="2.2.0"
 pkgrel=3
 pkgdesc="Python IP address manipulation library"
 url="http://code.google.com/p/ipaddr-py"

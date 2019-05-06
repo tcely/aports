@@ -1,7 +1,7 @@
 # Contributor: Antoine Tenart <antoine.tenart@ack.tf>
 # Maintainer: Antoine Tenart <antoine.tenart@ack.tf>
-pkgname=arp-scan
-pkgver=1.9.5
+pkgname="arp-scan"
+pkgver="1.9.5"
 pkgrel=0
 pkgdesc="Address Resolution Protocol (ARP) packet scanner"
 url="https://github.com/royhills/arp-scan"

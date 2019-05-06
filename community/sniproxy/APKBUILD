@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=sniproxy
-pkgver=0.6.0
+pkgname="sniproxy"
+pkgver="0.6.0"
 pkgrel=0
 pkgdesc="Proxies incoming HTTP and TLS connections based on the hostname
 	contained in the initial request of the TCP session."

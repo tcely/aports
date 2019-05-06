@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer:
-pkgname=vigra
-pkgver=1.11.1
+pkgname="vigra"
+pkgver="1.11.1"
 pkgrel=0
 pkgdesc="An image processing and analysis library"
 url="http://ukoethe.github.io/vigra/"

@@ -1,7 +1,7 @@
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=arch-install-scripts
-pkgver=21
+pkgname="arch-install-scripts"
+pkgver="21"
 pkgrel=0
 pkgdesc="Scripts to aid in installing Arch Linux"
 arch=noarch

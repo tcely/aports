@@ -1,9 +1,9 @@
 # Contributor: Michael Zuo <muh.muhten@gmail.com>
 # Maintainer: Michael Zuo <muh.muhten@gmail.com>
-pkgname=lua-fun
+pkgname="lua-fun"
 _rockname=fun
 _pkgname=luafun
-pkgver=0.1.3
+pkgver="0.1.3"
 pkgrel=9
 pkgdesc="Functional programming library"
 url="https://rtsisyk.github.io/luafun/"

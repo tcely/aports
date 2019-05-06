@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=py-ldap3
+pkgname="py-ldap3"
 _pkgname=ldap3
-pkgver=2.6
+pkgver="2.6"
 pkgrel=0
 pkgdesc="A strictly RFC 4510 conforming LDAP V3 pure Python client"
 url="https://github.com/cannatag/ldap3"

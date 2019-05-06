@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=open-lldp
+pkgname="open-lldp"
 _realname=lldpad
-pkgver=0.9.46
+pkgver="0.9.46"
 pkgrel=3
 pkgdesc="Open Source implementation of the IEEE standard 802.1AB Link Layer Discovery Protocol (LLDP)"
 url="http://www.open-lldp.org"

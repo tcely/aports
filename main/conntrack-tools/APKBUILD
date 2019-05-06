@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=conntrack-tools
-pkgver=1.4.4
+pkgname="conntrack-tools"
+pkgver="1.4.4"
 pkgrel=0
 pkgdesc="Connection tracking userspace tools"
 url="http://conntrack-tools.netfilter.org"

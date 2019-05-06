@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=pcsc-tools
-pkgver=1.5.2
+pkgname="pcsc-tools"
+pkgver="1.5.2"
 pkgrel=0
 pkgdesc="tools to test a PC/SC driver, card or reader or send commands"
 url="http://ludovic.rousseau.free.fr/softwares/pcsc-tools/"

@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=filezilla
-pkgver=3.41.2
+pkgname="filezilla"
+pkgver="3.41.2"
 pkgrel=0
 pkgdesc="FTP Client"
 url="https://filezilla-project.org"

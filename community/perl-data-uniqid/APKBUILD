@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-data-uniqid
-pkgver=0.12
+pkgname="perl-data-uniqid"
+pkgver="0.12"
 _realname=Data-Uniqid
 pkgrel=1
 pkgdesc="Perl extension for simple generation of unique id's"

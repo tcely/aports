@@ -1,7 +1,7 @@
 # Contributor: <xmingske@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gsoap
-pkgver=2.8.82
+pkgname="gsoap"
+pkgver="2.8.82"
 pkgrel=0
 arch="all"
 pkgdesc="Cross-platform C and C++ SDK for SOAP/XML Web services"

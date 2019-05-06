@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=libmatekbd
-pkgver=1.22.0
+pkgname="libmatekbd"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="MATE keyboard library"
 url="https://github.com/mate-desktop/libmatekbd"

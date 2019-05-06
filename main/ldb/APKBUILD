@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ldb
-pkgver=1.5.4
+pkgname="ldb"
+pkgver="1.5.4"
 pkgrel=0
 pkgdesc="A schema-less, ldap like, API and database"
 url="https://ldb.samba.org/"

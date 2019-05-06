@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-admin
+pkgname="py-flask-admin"
 _pkgname=Flask-Admin
-pkgver=1.0.6
+pkgver="1.0.6"
 pkgrel=0
 pkgdesc="Flask admin interface"
 url="https://pypi.python.org/pypi/Flask-Admin"

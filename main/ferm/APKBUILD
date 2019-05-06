@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=ferm
-pkgver=2.4.1
+pkgname="ferm"
+pkgver="2.4.1"
 pkgrel=2
 pkgdesc="firewall configuration tool"
 url="http://ferm.foo-projects.org/"

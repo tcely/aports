@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=alpine-desktop
-pkgver=2.6
+pkgname="alpine-desktop"
+pkgver="2.6"
 pkgrel=0
 pkgdesc="Meta package for Alpine Desktop"
 url="http://alpinelinux.org"

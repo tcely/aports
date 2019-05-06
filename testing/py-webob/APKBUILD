@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-webob
+pkgname="py-webob"
 _pkgname=WebOb
-pkgver=1.2.3
+pkgver="1.2.3"
 pkgrel=0
 pkgdesc="A Python WSGI request and response objects"
 url="http://webob.org/"

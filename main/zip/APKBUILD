@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=zip
-pkgver=3.0
+pkgname="zip"
+pkgver="3.0"
 _pkgver=${pkgver%.*}${pkgver##*.}
 pkgrel=7
 pkgdesc="Creates PKZIP-compatible .zip files"

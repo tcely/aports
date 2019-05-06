@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-gnuplot
+pkgname="py-gnuplot"
 _pkgname=gnuplot-py
-pkgver=1.8
+pkgver="1.8"
 pkgrel=1
 pkgdesc="A Python interface to the gnuplot plotting program."
 url="http://gnuplot-py.sourceforge.net"

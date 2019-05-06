@@ -1,8 +1,8 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=go-gdm
+pkgname="go-gdm"
 _pkgname=gdm
-pkgver=1.4
+pkgver="1.4"
 pkgrel=0
 pkgdesc="Minimalist dependency manager for Go written in Go."
 url="https://github.com/sparrc/gdm"

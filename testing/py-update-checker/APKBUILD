@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-update-checker
+pkgname="py-update-checker"
 _pkgname=update_checker
-pkgver=0.16
+pkgver="0.16"
 pkgrel=1
 pkgdesc="A python module that will check for package updates"
 url="https://github.com/bboe/update_checker"

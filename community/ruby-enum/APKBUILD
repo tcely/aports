@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-enum
+pkgname="ruby-enum"
 _gemname=$pkgname
-pkgver=0.7.2
+pkgver="0.7.2"
 pkgrel=1
 pkgdesc="A handy way to define enums in Ruby"
 url="https://github.com/dblock/ruby-enum"

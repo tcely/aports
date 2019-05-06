@@ -1,7 +1,7 @@
 # Contributor: Timo Teras <timo.teras@iki.fi>
 # Maintainer: Timo Teras <timo.teras@iki.fi>
-pkgname=fastjar
-pkgver=0.98
+pkgname="fastjar"
+pkgver="0.98"
 pkgrel=3
 pkgdesc="A fast implementation of Java Archiver"
 url="http://savannah.nongnu.org/projects/fastjar"

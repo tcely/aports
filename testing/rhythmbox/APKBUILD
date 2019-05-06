@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=rhythmbox
-pkgver=3.4.2
+pkgname="rhythmbox"
+pkgver="3.4.2"
 pkgrel=2
 pkgdesc="GNOME audio player"
 url="https://wiki.gnome.org/Apps/Rhythmbox"

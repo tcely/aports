@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=mmh
-pkgver=0.3
+pkgname="mmh"
+pkgver="0.3"
 pkgrel=1
 pkgdesc="MUA for users who like the unix philosophy"
 url="http://marmaro.de/prog/mmh/"

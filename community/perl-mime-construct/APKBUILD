@@ -1,8 +1,8 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-mime-construct
+pkgname="perl-mime-construct"
 _pkgreal=mime-construct
-pkgver=1.11
+pkgver="1.11"
 pkgrel=4
 pkgdesc="Construct and optionally mail MIME messages"
 url="http://search.cpan.org/~rosch/mime-construct/mime-construct"

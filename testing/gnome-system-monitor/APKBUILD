@@ -1,6 +1,6 @@
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=gnome-system-monitor
-pkgver=3.32.1
+pkgname="gnome-system-monitor"
+pkgver="3.32.1"
 pkgrel=0
 pkgdesc="GNOME system monitor"
 url="https://www.gnome.org/"

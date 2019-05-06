@@ -1,7 +1,7 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=lrzip
-pkgver=0.631
+pkgname="lrzip"
+pkgver="0.631"
 pkgrel=0
 pkgdesc="A compression utility that excels at compressing large files"
 url="https://github.com/ckolivas/lrzip"

@@ -1,7 +1,7 @@
 # Contributor: Fernando Casas Schossow <casasfernando@outlook.com>
 # Maintainer: Fernando Casas Schossow <casasfernando@outlook.com>
-pkgname=ocaml-calendar
-pkgver=2.03.2
+pkgname="ocaml-calendar"
+pkgver="2.03.2"
 pkgrel=1
 pkgdesc="Objective Caml library for managing dates and times"
 url="http://calendar.forge.ocamlcore.org/"

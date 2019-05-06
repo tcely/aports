@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=tclap
-pkgver=1.2.2
+pkgname="tclap"
+pkgver="1.2.2"
 pkgrel=0
 pkgdesc="Templatized C++ Command Line Parser"
 url="http://tclap.sourceforge.net"

@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinlinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-alt-getopt
-pkgver=0.7
+pkgname="lua-alt-getopt"
+pkgver="0.7"
 pkgrel=8
 pkgdesc="Lua module for processing options similar to getopt_long(3)"
 url="https://github.com/LuaDist/alt-getopt"

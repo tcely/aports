@@ -1,9 +1,9 @@
 # Contributor Eric Molitor <eric@molitor.org>
 # Contributor Travis Tilley <ttilley@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=clang
+pkgname="clang"
 # Note: Update together with llvm.
-pkgver=7.0.1
+pkgver="7.0.1"
 pkgrel=1
 _llvmver=${pkgver%%.*}
 pkgdesc="A C language family front-end for LLVM"

@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-optparse
+pkgname="lua-optparse"
 _pkgname=optparse
-pkgver=1.4
+pkgver="1.4"
 pkgrel=0
 pkgdesc="Parse and process command-line options"
 url="https://github.com/gvvaughan/optparse"

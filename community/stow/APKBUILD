@@ -1,7 +1,7 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=stow
-pkgver=2.2.2
+pkgname="stow"
+pkgver="2.2.2"
 pkgrel=0
 pkgdesc="Manage installation of multiple softwares in the same directory tree"
 url="https://www.gnu.org/software/stow/"

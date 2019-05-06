@@ -1,6 +1,6 @@
 # Maintainer: Olliver Schinagl <oliver@schinagl.nl>
-pkgname=mtd-utils
-pkgver=2.1.0
+pkgname="mtd-utils"
+pkgver="2.1.0"
 pkgrel=0
 pkgdesc="Utilities for handling MTD devices, and for dealing with FTL, NFTL JFFS2, etc."
 url="http://www.linux-mtd.infradead.org/"

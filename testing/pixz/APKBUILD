@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=pixz
-pkgver=1.0.6
+pkgname="pixz"
+pkgver="1.0.6"
 pkgrel=0
 pkgdesc="Parallel, indexed xz compressor"
 url="https://github.com/vasi/pixz"

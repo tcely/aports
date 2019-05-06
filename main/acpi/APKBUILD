@@ -1,6 +1,6 @@
 # Maintainer: Cág <ca6c@bitmessage.ch>
-pkgname=acpi
-pkgver=1.7
+pkgname="acpi"
+pkgver="1.7"
 pkgrel=2
 pkgdesc="ACPI client for battery, power, and thermal readings"
 url="https://sourceforge.net/projects/acpiclient/files/acpiclient/"

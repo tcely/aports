@@ -1,6 +1,6 @@
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=hunspell-pt
-pkgver=20170814
+pkgname="hunspell-pt"
+pkgver="20170814"
 pkgrel=0
 pkgdesc="Portuguese hunspell dictionaries"
 url="http://natura.di.uminho.pt/download/sources/Dictionaries/hunspell/"

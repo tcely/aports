@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua5.1
+pkgname="lua5.1"
 _pkgname=lua
-pkgver=5.1.5
+pkgver="5.1.5"
 _luaver=${pkgname#lua}
 pkgrel=7
 pkgdesc="A powerful light-weight programming language designed for extending applications."

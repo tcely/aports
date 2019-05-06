@@ -1,10 +1,10 @@
 # Contributor: Drew DeVault <sir@cmpwn.com>
 # Contributor: Orson Teodoro <orsonteodoro@hotmail.com>
 # Maintainer: Orson Teodoro <orsonteodoro@hotmail.com>
-pkgname=py-pypeg2
+pkgname="py-pypeg2"
 _pkgname=pypeg2
 __pkgname=pypeg
-pkgver=2.15.2
+pkgver="2.15.2"
 pkgrel=3
 pkgdesc="An intrinsic PEG Parser-Interpreter for Python"
 url="https://fdik.org/pyPEG2/"

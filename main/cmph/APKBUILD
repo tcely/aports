@@ -1,6 +1,6 @@
 # Maintainer:  Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=cmph
-pkgver=2.0
+pkgname="cmph"
+pkgver="2.0"
 pkgrel=1
 pkgdesc="A minimal hash C library - utility application"
 url="http://cmph.sourceforge.net/"

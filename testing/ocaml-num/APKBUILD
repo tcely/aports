@@ -1,8 +1,8 @@
 # Contributor: alpine-mips-patches <info@mobile-stream.com>
 # Maintainer: alpine-mips-patches <info@mobile-stream.com>
-pkgname=ocaml-num
+pkgname="ocaml-num"
 _pkgname=num
-pkgver=1.1
+pkgver="1.1"
 pkgrel=0
 pkgdesc="Arbitray-precision rational arithmetic for OCaml"
 url="https://github.com/ocaml/num"

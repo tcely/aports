@@ -1,6 +1,6 @@
 # Maintainer: Christian Kampka <christian@kampka.net>
-pkgname=dockerize
-pkgver=0.6.1
+pkgname="dockerize"
+pkgver="0.6.1"
 pkgrel=3
 pkgdesc="Utility to simplify running applications in docker containers."
 url="https://github.com/jwilder/dockerize"

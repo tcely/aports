@@ -1,7 +1,7 @@
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
-pkgname=aws-cli
-pkgver=1.16.85
+pkgname="aws-cli"
+pkgver="1.16.85"
 pkgrel=1
 _python="python3"
 _libname=${pkgname/-/}

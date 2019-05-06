@@ -1,7 +1,7 @@
 # Contributor: Kyle Parisi <kyleparisi@gmail.com>
 # Maintainer: Kyle Parisi <kyleparisi@gmail.com>
-pkgname=zerotier-one
-pkgver=1.2.12
+pkgname="zerotier-one"
+pkgver="1.2.12"
 pkgrel=1
 pkgdesc="ZeroTier One allows systems to join and participate in ZeroTier virtual networks."
 url="https://www.zerotier.com/"

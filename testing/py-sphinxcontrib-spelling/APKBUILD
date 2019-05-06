@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-spelling
+pkgname="py-sphinxcontrib-spelling"
 _pkgname=sphinxcontrib-spelling
-pkgver=4.2.0
+pkgver="4.2.0"
 pkgrel=1
 pkgdesc="Sphinx spelling extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-spelling"

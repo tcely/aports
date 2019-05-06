@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce4-xkb-plugin
-pkgver=0.8.1
+pkgname="xfce4-xkb-plugin"
+pkgver="0.8.1"
 _maj=${pkgver%%.*}
 _min=${pkgver#${_maj}.}
 _min=${_min%%.*}

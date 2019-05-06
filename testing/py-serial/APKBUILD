@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-serial
+pkgname="py-serial"
 _pkgname=pyserial
-pkgver=3.4
+pkgver="3.4"
 pkgrel=1
 pkgdesc="Python Serial Port Extension"
 url="http://pyserial.sourceforge.net/"

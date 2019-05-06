@@ -1,7 +1,7 @@
 # Contributor: Joe Holden <jwh@zorins.us>
 # Maintainer: Joe Holden <jwh@zorins.us>
-pkgname=traefik
-pkgver=1.7.9
+pkgname="traefik"
+pkgver="1.7.9"
 pkgrel=0
 pkgdesc="The Cloud Native Edge Router"
 url="https://traefik.io"

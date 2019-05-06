@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=reason
-pkgver=3.0.4
+pkgname="reason"
+pkgver="3.0.4"
 pkgrel=2
 pkgdesc="Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems"
 url="https://reasonml.github.io/"

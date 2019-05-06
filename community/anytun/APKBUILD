@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=anytun
-pkgver=0.3.7
+pkgname="anytun"
+pkgver="0.3.7"
 pkgrel=1
 pkgdesc="Secure anycast tunneling protocol implementation for flexible and fault-tolerant VPNs"
 url="http://www.anytun.org"

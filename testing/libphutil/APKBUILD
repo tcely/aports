@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=libphutil
-pkgver=0_git20180717
+pkgname="libphutil"
+pkgver="0_git20180717"
 pkgrel=0
 pkgdesc="A collection of PHP utility classes"
 url="http://www.phabricator.com/docs/libphutil/"

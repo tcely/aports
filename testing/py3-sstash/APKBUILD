@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-sstash
+pkgname="py3-sstash"
 _pkgname=sstash
-pkgver=0.17
+pkgver="0.17"
 pkgrel=1
 pkgdesc="A python based on-disk secure stash"
 url="https://github.com/realcr/sstash"

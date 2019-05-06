@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=fping
-pkgver=4.1
+pkgname="fping"
+pkgver="4.1"
 pkgrel=0
 pkgdesc="A utility to ping multiple hosts at once"
 url="http://fping.org/"

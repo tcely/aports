@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=virtualbricks
-pkgver=1.0.1
+pkgname="virtualbricks"
+pkgver="1.0.1"
 pkgrel=3
 pkgdesc="A GTK frontend for VDE and QEMU/KVM"
 url="https://launchpad.net/virtualbrick"

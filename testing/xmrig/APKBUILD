@@ -1,8 +1,8 @@
 # Contributor: Oleg Titov <oleg.titov@gmail.com>
 # Maintainer: Oleg Titov <oleg.titov@gmail.com>
 
-pkgname=xmrig
-pkgver=2.14.1
+pkgname="xmrig"
+pkgver="2.14.1"
 pkgrel=0
 pkgdesc="XMRig is a high performance Monero (XMR) miner"
 url="https://github.com/xmrig/xmrig"

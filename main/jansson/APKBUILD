@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=jansson
-pkgver=2.12
+pkgname="jansson"
+pkgver="2.12"
 pkgrel=0
 pkgdesc="lightweight JSON library"
 url="http://www.digip.org/jansson/"

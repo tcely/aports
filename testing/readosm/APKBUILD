@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Bjoern Schilberg <bjoern@intevation.de>
-pkgname=readosm
-pkgver=1.1.0
+pkgname="readosm"
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="Library to extract valid data from an Open Street Map input file."
 url="https://www.gaia-gis.it/fossil/readosm/index"

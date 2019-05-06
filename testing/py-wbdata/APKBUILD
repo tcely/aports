@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-wbdata
+pkgname="py-wbdata"
 _pkgname=wbdata
-pkgver=0.2.7
+pkgver="0.2.7"
 pkgrel=0
 pkgdesc="A library to access World Bank data"
 url="https://github.com/oliversherouse/wbdata"

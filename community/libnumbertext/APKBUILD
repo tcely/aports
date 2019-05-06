@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libnumbertext
-pkgver=1.0.3
+pkgname="libnumbertext"
+pkgver="1.0.3"
 pkgrel=0
 pkgdesc="Number to number name and money text conversion library"
 url="https://github.com/Numbertext/libnumbertext"

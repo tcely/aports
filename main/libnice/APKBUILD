@@ -1,8 +1,8 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libnice
-pkgver=0.1.15
+pkgname="libnice"
+pkgver="0.1.15"
 pkgrel=0
 pkgdesc="GLib ICE implementation"
 options="!check" # Testsuite fails

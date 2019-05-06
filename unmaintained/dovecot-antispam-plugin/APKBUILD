@@ -1,7 +1,7 @@
 # Contributor: Kozak Ivan <kozak-iv@yandex.ru>
 # Maintainer: Kozak Ivan <kozak-iv@yandex.ru>
-pkgname=dovecot-antispam-plugin
-pkgver=51
+pkgname="dovecot-antispam-plugin"
+pkgver="51"
 pkgrel=2
 pkgdesc="Integrates DSPAM into dovecot IMAP server. Mercurial Version for dovecot >= 2.1"
 url="http://hg.dovecot.org/dovecot-antispam-plugin/"

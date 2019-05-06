@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-pefile
+pkgname="py-pefile"
 _pkgname=pefile
-pkgver=2019.4.18
+pkgver="2019.4.18"
 pkgrel=0
 pkgdesc="Python PE parsing module"
 url="https://github.com/erocarrera/pefile"

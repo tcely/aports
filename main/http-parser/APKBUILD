@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=http-parser
-pkgver=2.9.2
+pkgname="http-parser"
+pkgver="2.9.2"
 pkgrel=0
 pkgdesc="HTTP request/response parser for C"
 url="https://github.com/nodejs/http-parser"

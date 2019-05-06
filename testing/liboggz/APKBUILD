@@ -1,7 +1,7 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=liboggz
-pkgver=1.1.1
+pkgname="liboggz"
+pkgver="1.1.1"
 pkgrel=0
 pkgdesc="Provides a simple programming interface for reading and writing Ogg files and streams"
 url="https://www.xiph.org/oggz/"

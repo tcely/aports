@@ -1,7 +1,7 @@
 # Contributor: Markus Juenemann <markus@juenemann.net>
 # Maintainer: Markus Juenemann <markus@juenemann.net>
-pkgname=mapnik
-pkgver=3.0.22
+pkgname="mapnik"
+pkgver="3.0.22"
 pkgrel=1
 pkgdesc="An open source toolkit for developing mapping applications"
 url="http://mapnik.org/"

@@ -1,7 +1,7 @@
 # Contributor: Tiago Ilieve <tiago.myhro@gmail.com>
 # Maintainer: Tiago Ilieve <tiago.myhro@gmail.com>
-pkgname=gron
-pkgver=0.6.0
+pkgname="gron"
+pkgver="0.6.0"
 pkgrel=0
 pkgdesc="Make JSON greppable"
 url="https://github.com/tomnomnom/gron"

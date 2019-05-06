@@ -1,7 +1,7 @@
 # Contributor: Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=py2-fasteners
-pkgver=0.14.1
+pkgname="py2-fasteners"
+pkgver="0.14.1"
 pkgrel=0
 pkgdesc="A python package that provides useful locks"
 url="https://github.com/harlowja/fasteners/"

@@ -1,8 +1,8 @@
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pyflakes
+pkgname="py-pyflakes"
 _pkgname=${pkgname#py-}
-pkgver=2.1.1
+pkgver="2.1.1"
 pkgrel=4
 pkgdesc="A passive checker of Python programs"
 url="https://github.com/pyflakes/pyflakes"

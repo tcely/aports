@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=websockify
-pkgver=0.8.0
+pkgname="websockify"
+pkgver="0.8.0"
 pkgrel=2
 pkgdesc="WebSockets support for any application/server"
 url="https://github.com/kanaka/websockify"

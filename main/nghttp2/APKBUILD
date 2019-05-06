@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=nghttp2
-pkgver=1.38.0
+pkgname="nghttp2"
+pkgver="1.38.0"
 pkgrel=0
 pkgdesc="Experimental HTTP/2 client, server and proxy"
 url="https://nghttp2.org"

@@ -1,8 +1,8 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Carlo Landmeter <clandmeter at gmail>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mdadm
-pkgver=4.1
+pkgname="mdadm"
+pkgver="4.1"
 pkgrel=0
 pkgdesc="a tool for managing Linux Software RAID arrays"
 url="http://neil.brown.name/blog/mdadm"

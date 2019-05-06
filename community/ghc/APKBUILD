@@ -1,6 +1,6 @@
 # Maintainer: Mitch Tishmack <mitch.tishmack@gmail.com>
-pkgname=ghc
-pkgver=8.4.3
+pkgname="ghc"
+pkgver="8.4.3"
 pkgrel=0
 # Normal non rc candidate
 _urlprefix="$pkgver"

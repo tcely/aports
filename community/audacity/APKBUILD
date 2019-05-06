@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=audacity
-pkgver=2.1.1
+pkgname="audacity"
+pkgver="2.1.1"
 pkgrel=1
 pkgdesc="Multitrack audio editor"
 url="http://audacity.sourceforge.net"

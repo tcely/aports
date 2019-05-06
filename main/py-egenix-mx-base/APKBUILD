@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-egenix-mx-base
+pkgname="py-egenix-mx-base"
 _pkgname=egenix-mx-base
-pkgver=3.2.9
+pkgver="3.2.9"
 pkgrel=0
 pkgdesc="eGenix.com mx Base collection of Python extensions"
 url="https://www.egenix.com/products/python/mxBase/"

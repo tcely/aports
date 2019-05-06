@@ -1,9 +1,9 @@
 # Contributor: Andy Postnikov <apostnikov@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
-pkgname=php7-tideways_xhprof
+pkgname="php7-tideways_xhprof"
 _pkgext=tideways_xhprof
 _pkgreal=php-xhprof-extension
-pkgver=5.0_beta3
+pkgver="5.0_beta3"
 _pkgver=${pkgver/_/-}
 pkgrel=2
 pkgdesc="Modern XHProf compatible Profiler for PHP 7"

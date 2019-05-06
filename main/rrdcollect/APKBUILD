@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=rrdcollect
-pkgver=0.2.10
+pkgname="rrdcollect"
+pkgver="0.2.10"
 pkgrel=1
 pkgdesc="Read system statistical data and feed it to RRDtool"
 url="http://rrdcollect.sourceforge.net/"

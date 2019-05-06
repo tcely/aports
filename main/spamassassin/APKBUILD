@@ -1,8 +1,8 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=spamassassin
+pkgname="spamassassin"
 _pkgreal=Mail-SpamAssassin
-pkgver=3.4.2
+pkgver="3.4.2"
 pkgrel=1
 pkgdesc="The Powerful #1 Open-Source Spam Filter"
 url="http://search.cpan.org/dist/Mail-SpamAssassin/"

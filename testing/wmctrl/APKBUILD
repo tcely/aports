@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=wmctrl
-pkgver=1.07
+pkgname="wmctrl"
+pkgver="1.07"
 pkgrel=0
 pkgdesc="wmctrl is a UNIX/Linux command line tool to interact with an EWMH/NetWM compatible X Window Manager"
 url="https://sites.google.com/site/tstyblo/wmctrl"

@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Mark Riedesel <mark+alpine@klowner.com>
-pkgname=openexr
-pkgver=2.2.1
+pkgname="openexr"
+pkgver="2.2.1"
 pkgrel=0
 pkgdesc="A high dynamic-range image file format library"
 url="http://www.openexr.com/"

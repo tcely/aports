@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=certbot
-pkgver=0.34.0
+pkgname="certbot"
+pkgver="0.34.0"
 pkgrel=0
 pkgdesc="An ACME client that can update Apache/Nginx configurations"
 url="https://github.com/certbot/certbot"

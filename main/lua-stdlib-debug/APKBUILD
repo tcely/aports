@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-stdlib-debug
+pkgname="lua-stdlib-debug"
 _rockname=std._debug
-pkgver=1.0.1
+pkgver="1.0.1"
 pkgrel=0
 pkgdesc="Manage an overall debug state, and associated hint substates"
 url="https://lua-stdlib.github.io/_debug/"

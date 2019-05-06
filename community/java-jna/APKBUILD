@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=java-jna
+pkgname="java-jna"
 _pkgname=${pkgname#java-}
-pkgver=4.5.2
+pkgver="4.5.2"
 pkgrel=1
 pkgdesc="JNA provides Java programs easy access to native shared libraries."
 url="https://github.com/java-native-access/jna"

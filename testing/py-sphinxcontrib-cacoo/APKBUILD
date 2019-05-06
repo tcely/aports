@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-cacoo
+pkgname="py-sphinxcontrib-cacoo"
 _pkgname=sphinxcontrib-cacoo
-pkgver=0.1.0
+pkgver="0.1.0"
 pkgrel=0
 pkgdesc="Sphinx cacoo extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-cacoo"

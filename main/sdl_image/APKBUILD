@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sdl_image
-pkgver=1.2.12
+pkgname="sdl_image"
+pkgver="1.2.12"
 pkgrel=4
 pkgdesc="A simple library to load images of various formats as SDL surfaces"
 url="http://www.libsdl.org/projects/SDL_image/"

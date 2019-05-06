@@ -1,8 +1,8 @@
 # Contributor: Orson Teodoro <orsonteodoro@hotmail.com>
 # Maintainer: Orson Teodoro <orsonteodoro@hotmail.com>
 
-pkgname=oh-my-zsh
-pkgver=0_git20180122
+pkgname="oh-my-zsh"
+pkgver="0_git20180122"
 pkgrel=0
 pkgdesc="A delightful community-driven framework for managing your zsh \
 configuration that includes plugins and themes."

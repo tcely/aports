@@ -1,6 +1,6 @@
 # Maintainer: Jeff Bilyk <jbilyk@alpinelinux.org>
-pkgname=putty
-pkgver=0.71
+pkgname="putty"
+pkgver="0.71"
 pkgrel=1
 pkgdesc="SSH and telnet client"
 url="https://www.chiark.greenend.org.uk/~sgtatham/putty/"

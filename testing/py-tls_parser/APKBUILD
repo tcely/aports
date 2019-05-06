@@ -1,8 +1,8 @@
 # Contributor: Simon Frankenberger <simon-alpine@fraho.eu>
 # Maintainer: Simon Frankenberger <simon-alpine@fraho.eu>
-pkgname=py-tls_parser
+pkgname="py-tls_parser"
 _pkgname=tls_parser
-pkgver=1.2.1
+pkgver="1.2.1"
 pkgrel=1
 pkgdesc="Python library to parse TLS records."
 url="https://pypi.org/project/tls-parser/"

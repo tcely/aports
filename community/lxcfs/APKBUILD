@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=lxcfs
-pkgver=3.0.3
+pkgname="lxcfs"
+pkgver="3.0.3"
 pkgrel=0
 pkgdesc="FUSE filesystem for LXC"
 url="https://linuxcontainers.org/lxcfs"

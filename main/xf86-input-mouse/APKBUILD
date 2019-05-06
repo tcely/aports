@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xf86-input-mouse
-pkgver=1.9.3
+pkgname="xf86-input-mouse"
+pkgver="1.9.3"
 pkgrel=1
 pkgdesc="X.org mouse input driver"
 url="https://www.x.org"

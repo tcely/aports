@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=git-review
-pkgver=1.28.0
+pkgname="git-review"
+pkgver="1.28.0"
 pkgrel=1
 pkgdesc="A git command for submitting branches to Gerrit"
 url="https://github.com/openstack-infra/git-review"

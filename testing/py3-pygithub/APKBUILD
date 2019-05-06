@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=py3-pygithub
+pkgname="py3-pygithub"
 _pkgname=PyGithub
-pkgver=1.40
+pkgver="1.40"
 pkgrel=1
 pkgdesc="Typed interactions with the GitHub API v3"
 url="https://github.com/PyGithub/PyGithub"

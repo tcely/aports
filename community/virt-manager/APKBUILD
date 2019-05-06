@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=virt-manager
-pkgver=2.1.0
+pkgname="virt-manager"
+pkgver="2.1.0"
 pkgrel=1
 pkgdesc="GUI for managing virtual machines"
 url="https://virt-manager.org/"

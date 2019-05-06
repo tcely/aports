@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=eatmemory
-pkgver=0.1.6
+pkgname="eatmemory"
+pkgver="0.1.6"
 pkgrel=1
 pkgdesc="Simple C program to allocate memory from the command line"
 url="https://github.com/julman99/eatmemory"

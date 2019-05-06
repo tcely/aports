@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libfprint
-pkgver=0.7.0
+pkgname="libfprint"
+pkgver="0.7.0"
 pkgrel=1
 pkgdesc="fingerprint reader and identification library"
 url="http://www.freedesktop.org/wiki/Software/fprint/libfprint"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=dvdauthor
-pkgver=0.7.2
+pkgname="dvdauthor"
+pkgver="0.7.2"
 pkgrel=2
 pkgdesc="DVD authoring tools"
 url="http://dvdauthor.sourceforge.net"

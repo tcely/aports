@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perdition
-pkgver=2.2
+pkgname="perdition"
+pkgver="2.2"
 pkgrel=0
 pkgdesc="A Mail retrieval proxy"
 url="http://horms.net/projects/perdition/"

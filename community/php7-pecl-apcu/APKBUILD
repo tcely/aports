@@ -1,9 +1,9 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=php7-pecl-apcu
+pkgname="php7-pecl-apcu"
 _pkgreal=apcu
 # release 5 is php7+
-pkgver=5.1.17
+pkgver="5.1.17"
 pkgrel=0
 pkgdesc="PHP extension APC User Cache - PECL"
 url="https://pecl.php.net/package/apcu"

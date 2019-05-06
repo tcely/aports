@@ -1,7 +1,7 @@
 # Maintainer:
-pkgname=py-hiredis
+pkgname="py-hiredis"
 _pkgname=${pkgname#py-}
-pkgver=0.1.4
+pkgver="0.1.4"
 pkgrel=2
 pkgdesc="Python extension that wraps hiredis"
 url="https://github.com/redis/hiredis-py"

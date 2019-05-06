@@ -1,7 +1,7 @@
 # Contributor: Ashton Spencer <aspec.451@gmail.com>
 # Maintainer: Jeff Bilyk <jbilyk@gmail.com>
-pkgname=sqsh
-pkgver=2.5.16.1
+pkgname="sqsh"
+pkgver="2.5.16.1"
 case $pkgver in
 *.*.*.*) _v=${pkgver%.*.*};;
 *.*.*) _v=${pkgver%.*};;

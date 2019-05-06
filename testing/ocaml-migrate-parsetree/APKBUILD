@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-migrate-parsetree
-pkgver=1.0.11
+pkgname="ocaml-migrate-parsetree"
+pkgver="1.0.11"
 pkgrel=0
 pkgdesc="Convert OCaml parsetrees between different major versions"
 url="https://github.com/ocaml-ppx/ocaml-migrate-parsetree"

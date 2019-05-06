@@ -1,7 +1,7 @@
 # Contributor: Fernando Casas Schossow <casasfernando@outlook.com>
 # Maintainer: Fernando Casas Schossow <casasfernando@outlook.com>
-pkgname=php7-libvirt-php
-pkgver=0.5.4
+pkgname="php7-libvirt-php"
+pkgver="0.5.4"
 pkgrel=0
 pkgdesc="PHP language bindings for Libvirt API. For more details see: http://www.libvirt.org/php/"
 url="https://libvirt.org/php/"

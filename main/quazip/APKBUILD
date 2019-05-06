@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=quazip
-pkgver=0.7.3
+pkgname="quazip"
+pkgver="0.7.3"
 pkgrel=0
 pkgdesc="C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package"
 url="https://sourceforge.net/projects/quazip/"

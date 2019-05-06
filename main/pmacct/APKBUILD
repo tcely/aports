@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=pmacct
-pkgver=1.7.0
+pkgname="pmacct"
+pkgver="1.7.0"
 pkgrel=0
 pkgdesc="Measure, account, classify, aggregate and export IPv4 and IPv6 traffic"
 url="http://www.pmacct.net/"

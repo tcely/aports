@@ -1,8 +1,8 @@
 # Contributor: Andy Postnikov <apostnikov@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
-pkgname=php7-pecl-varnish
+pkgname="php7-pecl-varnish"
 _pkgreal=varnish
-pkgver=1.2.4
+pkgver="1.2.4"
 pkgrel=2
 pkgdesc="PHP7 extension: makes it possible to interact with a running varnish instance through TCP socket or shared memory."
 url="https://pecl.php.net/package/varnish"

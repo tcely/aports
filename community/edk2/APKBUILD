@@ -1,8 +1,8 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 
-pkgname=edk2
-pkgver=0.0.20170624
+pkgname="edk2"
+pkgver="0.0.20170624"
 _commitid=vUDK2017
 pkgrel=0
 pkgdesc="EFI Development Kit II"

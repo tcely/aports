@@ -1,7 +1,7 @@
 # Contributor: stef <l0ls0fo2i@ctrlc.hu>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=zstd
-pkgver=1.4.0
+pkgname="zstd"
+pkgver="1.4.0"
 pkgrel=0
 pkgdesc="Zstandard - Fast real-time compression algorithm"
 url="http://www.zstd.net"

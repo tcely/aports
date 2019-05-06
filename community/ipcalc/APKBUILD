@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ipcalc
-pkgver=0.41
+pkgname="ipcalc"
+pkgver="0.41"
 pkgrel=0
 pkgdesc="Network IP calculator"
 url="http://jodies.de/ipcalc"

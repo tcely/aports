@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=freetds
-pkgver=1.1.1
+pkgname="freetds"
+pkgver="1.1.1"
 pkgrel=1
 pkgdesc="Tabular Datastream Library"
 url="http://www.freetds.org"

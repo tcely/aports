@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=cfengine
-pkgver=3.12.1
+pkgname="cfengine"
+pkgver="3.12.1"
 pkgrel=0
 pkgdesc="A systems administration tool for networks"
 url="http://www.cfengine.com/"

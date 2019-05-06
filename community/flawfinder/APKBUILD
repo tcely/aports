@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=flawfinder
-pkgver=2.0.7
+pkgname="flawfinder"
+pkgver="2.0.7"
 pkgrel=1
 pkgdesc="Examines C/C++ source code for security flaws"
 url="http://www.dwheeler.com/flawfinder/"

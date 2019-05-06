@@ -1,8 +1,8 @@
 # Contributor: Dmitry Romanenko <dmitry@romanenko.in>
 # Maintainer: Dmitry Romanenko <dmitry@romanenko.in>
-pkgname=py-filelock
+pkgname="py-filelock"
 _pkgname=filelock
-pkgver=3.0.10
+pkgver="3.0.10"
 pkgrel=1
 pkgdesc="A platform independent file lock for Python"
 url="https://github.com/benediktschmitt/py-filelock"

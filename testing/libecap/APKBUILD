@@ -1,7 +1,7 @@
 # Contributor: Roger Newman <roger.newman@riseup.net>
 # Maintainer: Roger Newman <roger.newman@riseup.net>
-pkgname=libecap
-pkgver=1.0.0
+pkgname="libecap"
+pkgver="1.0.0"
 pkgrel=0
 pkgdesc="API for implementing ICAP content analysis and adaptation"
 url="http://www.e-cap.org/"

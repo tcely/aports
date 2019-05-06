@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=testdisk
-pkgver=7.0
+pkgname="testdisk"
+pkgver="7.0"
 pkgrel=4
 pkgdesc="A data recovery suite"
 url="http://www.cgsecurity.org/wiki/TestDisk"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-apitree
+pkgname="py-apitree"
 _pkgname=apitree
-pkgver=0.3.3
+pkgver="0.3.3"
 pkgrel=0
 pkgdesc="A Python web service API backend"
 url="https://github.com/jmatthias/apitree"

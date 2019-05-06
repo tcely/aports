@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libgweather
-pkgver=3.28.2
+pkgname="libgweather"
+pkgver="3.28.2"
 pkgrel=0
 pkgdesc="GNOME weather library"
 url="https://www.gnome.org/"

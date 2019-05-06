@@ -12,7 +12,7 @@
 #     - CVE-2017-0901
 #     - CVE-2017-0902
 #
-pkgname=ruby2.2
+pkgname="ruby2.2"
 _pkgname=ruby
 _majorver=${pkgname#ruby}
 pkgver="$_majorver.8"

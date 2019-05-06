@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-ediarpc
-pkgver=0.3
+pkgname="py-ediarpc"
+pkgver="0.3"
 pkgrel=0
 pkgdesc="Python RPC library"
 url="https://bitbucket.org/tortoiselabs/ediarpc"

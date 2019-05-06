@@ -1,6 +1,6 @@
 # Maintainer: Tycho Andersen <tycho@docker.com>
-pkgname=refpolicy
-pkgver=20170204
+pkgname="refpolicy"
+pkgver="20170204"
 pkgrel=0
 pkgdesc="SELinux policy reference"
 url="https://github.com/TresysTechnology/refpolicy/wiki"

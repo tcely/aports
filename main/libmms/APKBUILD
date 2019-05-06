@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libmms
-pkgver=0.6.4
+pkgname="libmms"
+pkgver="0.6.4"
 pkgrel=0
 pkgdesc="MMS stream protocol library"
 url="https://sourceforge.net/projects/libmms/"

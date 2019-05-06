@@ -1,6 +1,6 @@
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=polkit-elogind
-pkgver=0.115
+pkgname="polkit-elogind"
+pkgver="0.115"
 pkgrel=0
 pkgdesc="Application development toolkit for controlling system-wide privileges (elogind variant)"
 url="https://www.freedesktop.org/wiki/Software/polkit/"

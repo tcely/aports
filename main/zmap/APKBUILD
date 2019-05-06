@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: 
 # Maintainer: 
-pkgname=zmap
-pkgver=2.1.1
+pkgname="zmap"
+pkgver="2.1.1"
 pkgrel=3
 pkgdesc="A high performance internet scanner"
 url="https://www.zmap.io/"

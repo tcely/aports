@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-html2data
+pkgname="py-html2data"
 _pkgname=html2data
-pkgver=0.4.3
+pkgver="0.4.3"
 pkgrel=0
 pkgdesc="A Python transformer for HTML file or URL to structured data"
 url="https://github.com/dperezrada/html2data"

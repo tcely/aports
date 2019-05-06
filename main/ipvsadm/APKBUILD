@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ipvsadm
-pkgver=1.29
+pkgname="ipvsadm"
+pkgver="1.29"
 pkgrel=0
 pkgdesc="The IP Virtual Server administration utility"
 url="http://www.linuxvirtualserver.org/software/ipvs.html"

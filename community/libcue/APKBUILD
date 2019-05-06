@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=libcue
-pkgver=2.2.1
+pkgname="libcue"
+pkgver="2.2.1"
 pkgrel=0
 pkgdesc="Library for parsing CUE sheet files"
 url="https://github.com/lipnitsk/libcue"

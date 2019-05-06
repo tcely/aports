@@ -1,7 +1,7 @@
 # Contributor: Shannon Noe <snoe925@gmail.com>
 # Maintainer: Shannon Noe <snoe925@gmail.com>
-pkgname=tclx
-pkgver=8.4.1
+pkgname="tclx"
+pkgver="8.4.1"
 pkgrel=1
 pkgdesc="TclX extension to Tcl"
 url="http://tclx.sourceforge.net/"

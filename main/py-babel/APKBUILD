@@ -1,8 +1,8 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=py-babel
+pkgname="py-babel"
 _pkgname=Babel
-pkgver=2.6.0
+pkgver="2.6.0"
 pkgrel=1
 pkgdesc="Python i18n tool"
 url="http://babel.pocoo.org/"

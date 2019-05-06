@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libgtop
-pkgver=2.38.0
+pkgname="libgtop"
+pkgver="2.38.0"
 pkgrel=0
 pkgdesc="GNOME top library"
 url="https://www.gnome.org/"

@@ -1,7 +1,7 @@
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
-pkgname=py-jmespath
-pkgver=0.9.3
+pkgname="py-jmespath"
+pkgver="0.9.3"
 pkgrel=1
 _pkgreal=${pkgname#py-}
 pkgdesc="JMESPath is a query language for JSON"

@@ -1,8 +1,8 @@
 # Contributor: Jake Buchholz <tomalok@gmail.com>
 # Maintainer: Jake Buchholz <tomalok@gmail.com>
 
-pkgname=docker
-pkgver=18.09.5
+pkgname="docker"
+pkgver="18.09.5"
 _gitcommit=e8ff056dbcfadaeca12a5f508b0cec281126c01d	# https://github.com/docker/docker-ce/commits/v$pkgver
 _ver=${pkgver/_/-}-ce
 pkgrel=1

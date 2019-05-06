@@ -1,7 +1,7 @@
 # Contributor: Ian Bashford <ianbashford@gmail.com>
 # Maintainer: Ian Bashford <ianbashford@gmail.com>
-pkgname=dnscrypt-proxy
-pkgver=2.0.22
+pkgname="dnscrypt-proxy"
+pkgver="2.0.22"
 pkgrel=0
 pkgdesc="A tool for securing communications between a client and a DNS resolver"
 url="https://dnscrypt.info"

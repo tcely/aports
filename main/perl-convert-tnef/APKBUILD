@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-convert-tnef
+pkgname="perl-convert-tnef"
 _realname=Convert-TNEF
-pkgver=0.18
+pkgver="0.18"
 pkgrel=1
 pkgdesc="Perl module to read TNEF files"
 url="http://search.cpan.org/~dougw/Convert-TNEF-0.17/"

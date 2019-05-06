@@ -1,9 +1,9 @@
 # Contributor: Andy Postnikov <apostnikov@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
 
-pkgname=php7-uploadprogress
+pkgname="php7-uploadprogress"
 _pkgreal=uploadprogress
-pkgver=2.0.0
+pkgver="2.0.0"
 pkgrel=0
 pkgdesc="An extension to track progress of a file upload for PHP"
 url="https://github.com/php/pecl-php-uploadprogress"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-ujson
+pkgname="py-ujson"
 _pkgname=ujson
-pkgver=1.35
+pkgver="1.35"
 pkgrel=3
 pkgdesc="A fast Python JSON encoder and decoder"
 url="http://github.com/esnme/ultrajson"

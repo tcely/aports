@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-ansicolors
+pkgname="py3-ansicolors"
 _pkgname=ansicolors
-pkgver=1.1.8
+pkgver="1.1.8"
 pkgrel=1
 pkgdesc="ANSI colors for Python"
 url="https://github.com/jonathaneunice/colors"

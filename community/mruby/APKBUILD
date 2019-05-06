@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=mruby
-pkgver=1.4.1
+pkgname="mruby"
+pkgver="1.4.1"
 pkgrel=0
 pkgdesc="Lightweight Ruby"
 url="http://mruby.org"

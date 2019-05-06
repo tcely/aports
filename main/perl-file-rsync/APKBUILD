@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-file-rsync
+pkgname="perl-file-rsync"
 _realname=File-RsyncP
-pkgver=0.74
+pkgver="0.74"
 pkgrel=1
 pkgdesc="Perl rsync client"
 url="http://search.cpan.org/~cbarratt/File-RsyncP-0.68/"

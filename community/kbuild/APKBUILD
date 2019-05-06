@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=kbuild
-pkgver=0.1.9998.3149
+pkgname="kbuild"
+pkgver="0.1.9998.3149"
 _ver=${pkgver/_/-}
 pkgrel=0
 pkgdesc="A makefile framework for writing simple makefiles for complex tasks"

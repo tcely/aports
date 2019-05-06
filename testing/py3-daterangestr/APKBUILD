@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-daterangestr
+pkgname="py3-daterangestr"
 _pkgname=daterangestr
-pkgver=0.0.3
+pkgver="0.0.3"
 pkgrel=0
 pkgdesc="Utility to convert strings to start and end datetime tuples"
 url="https://github.com/marians/py-daterangestr"

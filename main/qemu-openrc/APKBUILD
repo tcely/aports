@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=qemu-openrc
-pkgver=0.7.0
+pkgname="qemu-openrc"
+pkgver="0.7.0"
 pkgrel=0
 pkgdesc="OpenRC init scripts for QEMU/KVM"
 url="https://github.com/jirutka/qemu-openrc"

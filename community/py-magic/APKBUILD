@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=py-magic
+pkgname="py-magic"
 _pkgname=${pkgname/py/python}
-pkgver=0.4.15
+pkgver="0.4.15"
 pkgrel=1
 pkgdesc="A python wrapper for libmagic"
 url="https://pypi.python.org/pypi/python-magic/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-phpdomain
+pkgname="py-sphinxcontrib-phpdomain"
 _pkgname=sphinxcontrib-phpdomain
-pkgver=0.1.4
+pkgver="0.1.4"
 pkgrel=0
 pkgdesc="Sphinx phpdomain extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-phpdomain"

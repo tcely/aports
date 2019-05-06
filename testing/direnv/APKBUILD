@@ -1,6 +1,6 @@
 # Maintainer:
-pkgname=direnv
-pkgver=2.15.2
+pkgname="direnv"
+pkgver="2.15.2"
 pkgrel=0
 pkgdesc="Environment variable switcher for the shell"
 url="http://direnv.net"

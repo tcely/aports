@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=miniupnpc
-pkgver=2.1.20190408
+pkgname="miniupnpc"
+pkgver="2.1.20190408"
 pkgrel=0
 pkgdesc="Library and tool to control NAT in UPnP-enabled routers"
 url="http://miniupnp.free.fr"

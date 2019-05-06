@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ncurses5
-pkgver=5.9
+pkgname="ncurses5"
+pkgver="5.9"
 pkgrel=1
 pkgdesc="Console display library - ncurses5 compat"
 url="https://www.gnu.org/software/ncurses/"

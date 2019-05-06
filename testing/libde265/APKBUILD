@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=libde265
-pkgver=1.0.3
+pkgname="libde265"
+pkgver="1.0.3"
 pkgrel=0
 pkgdesc="Open h.265 video codec implementation"
 url="https://github.com/strukturag/libde265"

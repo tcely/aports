@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=icingaweb2-module-director
+pkgname="icingaweb2-module-director"
 _module=${pkgname/*-/}
-pkgver=1.6.2
+pkgver="1.6.2"
 pkgrel=0
 pkgdesc="Configuration frontend for Icinga 2, integrated automation"
 url="http://www.icinga.org"

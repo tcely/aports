@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py3-async-timeout-gns3
+pkgname="py3-async-timeout-gns3"
 _pkgname=async-timeout
-pkgver=2.0.1
+pkgver="2.0.1"
 pkgrel=1
 pkgdesc="Timeout context manager for asyncio programs - GNS3 compatible version"
 url="https://pypi.python.org/pypi/async_timeout"

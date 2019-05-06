@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: 
 # Maintainer: 
-pkgname=deadbeef
-pkgver=1.8.0
+pkgname="deadbeef"
+pkgver="1.8.0"
 pkgrel=1
 pkgdesc="fairly capable playlist-oriented audio player"
 url="http://deadbeef.sourceforge.net/"

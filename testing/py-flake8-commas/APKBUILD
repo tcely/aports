@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flake8-commas
+pkgname="py-flake8-commas"
 _pkgname=flake8-commas
-pkgver=0.1.6
+pkgver="0.1.6"
 pkgrel=2
 pkgdesc="Extension for flake8 to enforce trailing commas"
 url="https://github.com/trevorcreech/flake8-commas"

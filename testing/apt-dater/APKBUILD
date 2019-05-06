@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Henrik Riomar <henrik.riomar@gmail.com>
-pkgname=apt-dater
-pkgver=0.9.0
+pkgname="apt-dater"
+pkgver="0.9.0"
 pkgrel=0
 pkgdesc="terminal-based remote package update manager"
 url="https://github.com/DE-IBH/apt-dater"

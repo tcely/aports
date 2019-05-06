@@ -1,8 +1,8 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=py-defusedxml
+pkgname="py-defusedxml"
 _pkgname=defusedxml
-pkgver=0.5.0
+pkgver="0.5.0"
 pkgrel=1
 pkgdesc="XML bomb protection for Python stdlib modules"
 url="https://github.com/tiran/defusedxml"

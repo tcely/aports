@@ -1,8 +1,8 @@
 # Contributor: Pierre-Gildas MILLON <pgmillon@gmail.com>
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=py-pygit2
+pkgname="py-pygit2"
 _pkgname=pygit2
-pkgver=0.28.1
+pkgver="0.28.1"
 pkgrel=0
 pkgdesc="Python bindings for libgit2"
 url="https://github.com/libgit2/pygit2"

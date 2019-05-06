@@ -1,6 +1,6 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=kibana
-pkgver=6.4.1
+pkgname="kibana"
+pkgver="6.4.1"
 pkgrel=0
 pkgdesc="Visualize Elasticsearch data and navigate the Elastic Stack"
 url="https://www.elastic.co/products/kibana"

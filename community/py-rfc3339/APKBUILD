@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=py-rfc3339
+pkgname="py-rfc3339"
 _pkgname=pyRFC3339
-pkgver=1.1
+pkgver="1.1"
 pkgrel=1
 pkgdesc="Generate and parse RFC 3339 timestamps"
 url="https://pypi.python.org/pypi/pyRFC3339"

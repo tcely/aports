@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=openxcap
-pkgver=2.2.0
+pkgname="openxcap"
+pkgver="2.2.0"
 pkgrel=1
 pkgdesc="Open source fully featured XCAP server"
 url="http://openxcap.org"

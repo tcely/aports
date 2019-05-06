@@ -1,9 +1,9 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Contributor: Eivind Uggedal <eivind@uggedal.com>
 # Maintainer: 
-pkgname=py-wtforms
+pkgname="py-wtforms"
 _pkgname=WTForms
-pkgver=2.1
+pkgver="2.1"
 pkgrel=1
 pkgdesc="A flexible forms validation and rendering Python library"
 url="http://wtforms.simplecodes.com/"

@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=frotz
-pkgver=2.44
+pkgname="frotz"
+pkgver="2.44"
 pkgrel=0
 pkgdesc="A Portable Z-Machine Interpreter"
 url="http://frotz.sourceforge.net/"

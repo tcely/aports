@@ -1,7 +1,7 @@
 # Contributor: Isaac Dunham <ibid.ag@gmail.com>
 # Maintainer:
-pkgname=meep
-pkgver=1.3
+pkgname="meep"
+pkgver="1.3"
 pkgrel=5
 pkgdesc="free finite-difference time-domain (FDTD) simulation software package developed at MIT to model electromagnetic systems"
 url="http://ab-initio.mit.edu/wiki/index.php/Meep"

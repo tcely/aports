@@ -1,7 +1,7 @@
 # Contributor: Sascha Paunovic <azarus@posteo.net>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=poppler-data
-pkgver=0.4.9
+pkgname="poppler-data"
+pkgver="0.4.9"
 pkgrel=0
 pkgdesc="encoding data for the poppler PDF rendering library"
 url="https://poppler.freedesktop.org/"

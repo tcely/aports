@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=vala
-pkgver=0.44.3
+pkgname="vala"
+pkgver="0.44.3"
 pkgrel=0
 pkgdesc="Compiler for the GObject type system"
 url="http://live.gnome.org/Vala"

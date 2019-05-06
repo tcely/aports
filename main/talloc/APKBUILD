@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=talloc
-pkgver=2.2.0
+pkgname="talloc"
+pkgver="2.2.0"
 pkgrel=0
 pkgdesc="Memory pool management library"
 url="https://talloc.samba.org"

@@ -1,7 +1,7 @@
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
-pkgname=php7-spx
+pkgname="php7-spx"
 _pkgreal=php-spx
-pkgver=0.4.3
+pkgver="0.4.3"
 pkgrel=0
 pkgdesc="A simple & straight-to-the-point PHP profiling extension with its built-in web UI"
 url="https://github.com/NoiseByNorthwest/php-spx"

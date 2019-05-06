@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=py-pgen
-pkgver=2.7.16
+pkgname="py-pgen"
+pkgver="2.7.16"
 _verbase=${pkgver%.*}
 pkgrel=0
 pkgdesc="Python Parser Generator"

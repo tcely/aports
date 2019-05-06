@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=openwsman
-pkgver=2.6.9
+pkgname="openwsman"
+pkgver="2.6.9"
 pkgrel=0
 pkgdesc="Opensource Implementation of WS-Management"
 url="https://openwsman.github.io"

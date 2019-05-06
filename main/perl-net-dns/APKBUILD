@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-net-dns
+pkgname="perl-net-dns"
 _pkgname=Net-DNS
-pkgver=1.20
+pkgver="1.20"
 pkgrel=0
 pkgdesc="Perl interface to the DNS resolver"
 url="http://www.net-dns.org/"

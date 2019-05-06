@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=caja-extensions
-pkgver=1.22.0
+pkgname="caja-extensions"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="Set of extensions for Caja file manager"
 url="https://github.com/mate-desktop/caja-extensions"

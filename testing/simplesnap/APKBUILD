@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer:
-pkgname=simplesnap
-pkgver=1.0.4
+pkgname="simplesnap"
+pkgver="1.0.4"
 pkgrel=1
 pkgdesc="Simple and powerful network transmission of ZFS snapshots"
 url="https://github.com/jgoerzen/simplesnap"

@@ -1,8 +1,8 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer: TBK <alpine@jjtc.eu>
-pkgname=php7-brotli
+pkgname="php7-brotli"
 _pkgreal=brotli
-pkgver=0.6.2
+pkgver="0.6.2"
 pkgrel=0
 pkgdesc="Brotli Extension for PHP" 
 url="https://github.com/kjdev/php-ext-brotli"

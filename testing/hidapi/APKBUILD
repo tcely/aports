@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=hidapi
-pkgver=0.8.0_rc1
+pkgname="hidapi"
+pkgver="0.8.0_rc1"
 _relver="$(echo "$pkgver" | sed s/_/-/)"
 pkgrel=1
 pkgdesc="Simple library for communicating with USB and Bluetooth HID devices"

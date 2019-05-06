@@ -1,7 +1,7 @@
 # Contributor: Bradley J Chambers <brad.chambers@gmail.com>
 # Maintainer: Bradley J Chambers <brad.chambers@gmail.com>
-pkgname=laszip
-pkgver=3.2.2
+pkgname="laszip"
+pkgver="3.2.2"
 pkgrel=0
 pkgdesc="LASzip point cloud compression library"
 url="https://github.com/laszip/laszip"

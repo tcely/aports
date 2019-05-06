@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=polyml
-pkgver=5.8
+pkgname="polyml"
+pkgver="5.8"
 pkgrel=0
 pkgdesc="ML97 compatible Standard ML implementation"
 url="https://www.polyml.org/"

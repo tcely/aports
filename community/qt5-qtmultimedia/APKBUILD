@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=qt5-qtmultimedia
+pkgname="qt5-qtmultimedia"
 _pkgname=${pkgname/qt5-//}-everywhere-src
-pkgver=5.12.1
+pkgver="5.12.1"
 _ver=${pkgver/_p/-}
 _ver=${_ver/_/-}
 _ver=${_ver/beta0/beta}

@@ -1,7 +1,7 @@
 # Maintainer: Yves Schumann <yves@eisfair.org>
 
-pkgname=quassel
-pkgver=0.13.1
+pkgname="quassel"
+pkgver="0.13.1"
 pkgrel=2
 url="https://www.quassel-irc.org/"
 pkgdesc="Distributed IRC client - metapackage"

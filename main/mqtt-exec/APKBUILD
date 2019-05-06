@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mqtt-exec
-pkgver=0.4
+pkgname="mqtt-exec"
+pkgver="0.4"
 pkgrel=4
 pkgdesc="simple MQTT client that executes a command on messages"
 url="https://github.com/ncopa/mqtt-exec"

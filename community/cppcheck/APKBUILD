@@ -1,7 +1,7 @@
 # Contributor: August Klein <amatcoder@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=cppcheck
-pkgver=1.87
+pkgname="cppcheck"
+pkgver="1.87"
 pkgrel=0
 pkgdesc="Static analysis tool for C/C++ code"
 url="http://cppcheck.sourceforge.net"

@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=tarsnap
-pkgver=1.0.39
+pkgname="tarsnap"
+pkgver="1.0.39"
 pkgrel=4
 pkgdesc="Online backups for the truly paranoid"
 url="https://www.tarsnap.com/"

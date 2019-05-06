@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=openssh
-pkgver=8.0_p1
+pkgname="openssh"
+pkgver="8.0_p1"
 _myver=${pkgver%_*}${pkgver#*_}
 pkgrel=0
 pkgdesc="Port of OpenBSD's free SSH release"

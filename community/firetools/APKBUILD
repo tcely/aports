@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=firetools
-pkgver=0.9.52
+pkgname="firetools"
+pkgver="0.9.52"
 pkgrel=0
 pkgdesc="Firejail sandbox launcher integrated with the system tray"
 url="https://l3net.wordpress.com/projects/firejail/#firetools"

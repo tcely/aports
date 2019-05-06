@@ -1,7 +1,7 @@
 # Contributor: Łukasz Jendrysik
 # Maintainer: prspkt <prspkt@protonmail.com>
-pkgname=herbstluftwm
-pkgver=0.7.1
+pkgname="herbstluftwm"
+pkgver="0.7.1"
 pkgrel=0
 pkgdesc="Manual tiling window manager"
 url="https://herbstluftwm.org"

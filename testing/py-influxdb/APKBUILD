@@ -1,8 +1,8 @@
 # Contributor: Olivier Mauras <olivier@mauras.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-influxdb
+pkgname="py-influxdb"
 _pkgname=influxdb-python
-pkgver=5.2.0
+pkgver="5.2.0"
 pkgrel=1
 pkgdesc="Python bindings for InfluxDB"
 url="https://github.com/influxdata/influxdb-python"

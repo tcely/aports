@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-arprequest
+pkgname="py-arprequest"
 _pkgname=arprequest
-pkgver=0.3
+pkgver="0.3"
 pkgrel=0
 pkgdesc="A python class which sends an ARP Request"
 url="https://pypi.python.org/pypi/arprequest"

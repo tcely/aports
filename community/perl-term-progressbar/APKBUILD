@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-term-progressbar
-pkgver=2.22
+pkgname="perl-term-progressbar"
+pkgver="2.22"
 pkgrel=0
 pkgdesc="Perl/CPAN Module Term::ProgressBar : Progress bar in just ASCII  using Term"
 url="http://search.cpan.org/dist/Term-ProgressBar"

@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=liblognorm
-pkgver=2.0.6
+pkgname="liblognorm"
+pkgver="2.0.6"
 pkgrel=1
 pkgdesc="A fast log-normalization library"
 url="http://www.liblognorm.com"

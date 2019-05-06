@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=dpkg
-pkgver=1.19.6
+pkgname="dpkg"
+pkgver="1.19.6"
 pkgrel=0
 pkgdesc="The Debian Package Manager"
 url="https://packages.debian.org/dpkg"

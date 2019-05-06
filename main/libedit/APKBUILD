@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=libedit
-pkgver=20190324.3.1
+pkgname="libedit"
+pkgver="20190324.3.1"
 _ver=${pkgver/./-}
 pkgrel=0
 pkgdesc="BSD line editing library"

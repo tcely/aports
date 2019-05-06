@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=spice-gtk
-pkgver=0.35
+pkgname="spice-gtk"
+pkgver="0.35"
 pkgrel=1
 pkgdesc="A GTK+ widget for SPICE clients"
 url="http://spice-space.org/page/Spice-Gtk"

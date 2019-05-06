@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=stalonetray
-pkgver=0.8.3
+pkgname="stalonetray"
+pkgver="0.8.3"
 pkgrel=0
 pkgdesc="Stalonetray is a stand-alone freedesktop.org and KDE system tray"
 url="http://stalonetray.sourceforge.net/"

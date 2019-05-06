@@ -1,7 +1,7 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=crda
-pkgver=4.14
+pkgname="crda"
+pkgver="4.14"
 pkgrel=0
 pkgdesc="Linux Central Regulatory Domain Agent"
 url="https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA"

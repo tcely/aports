@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libuser
-pkgver=0.62
+pkgname="libuser"
+pkgver="0.62"
 pkgrel=1
 pkgdesc="A standardized interface for manipulating and administering user and group accounts"
 url="https://pagure.io/libuser"

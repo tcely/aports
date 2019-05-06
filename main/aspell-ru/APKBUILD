@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=aspell-ru
-pkgver=0.99f7
+pkgname="aspell-ru"
+pkgver="0.99f7"
 pkgrel=0
 _lang=${pkgname##*-}
 _name=${pkgname%%-*}6-$_lang-$pkgver-1

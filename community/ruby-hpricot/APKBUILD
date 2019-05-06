@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # Note: This project is dead, but it's needed for some packages.
-pkgname=ruby-hpricot
+pkgname="ruby-hpricot"
 _gemname=hpricot
-pkgver=0.8.6
+pkgver="0.8.6"
 pkgrel=1
 pkgdesc="A swift, liberal HTML parser with a fantastic library (legacy)"
 url="https://github.com/hpricot/hpricot"

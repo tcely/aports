@@ -1,7 +1,7 @@
 # Contributor: wener <wenermail@gmail.com>
 # Maintainer: wener <wenermail@gmail.com>
-pkgname=gflags
-pkgver=2.2.2
+pkgname="gflags"
+pkgver="2.2.2"
 pkgrel=0
 pkgdesc="The gflags package contains a C++ library that implements commandline flags processing."
 url="https://gflags.github.io/gflags/"

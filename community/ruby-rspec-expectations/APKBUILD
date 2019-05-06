@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-rspec-expectations
+pkgname="ruby-rspec-expectations"
 _gemname=${pkgname#ruby-}
-pkgver=3.8.3
+pkgver="3.8.3"
 pkgrel=0
 pkgdesc="Provides a readable API to express expected outcomes of a code example in RSpec"
 url="https://relishapp.com/rspec/rspec-expectations/"

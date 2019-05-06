@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx-theme-epfl
+pkgname="py-sphinx-theme-epfl"
 _pkgname=epfl-sphinx-theme
-pkgver=1.1.1
+pkgver="1.1.1"
 pkgrel=0
 pkgdesc="The EPFL Sphinx theme"
 url="http://kis-doc.epfl.ch/sphinx/"

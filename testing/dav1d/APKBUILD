@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=dav1d
-pkgver=0.3.0
+pkgname="dav1d"
+pkgver="0.3.0"
 pkgrel=0
 pkgdesc="small and fast AV1 Decoder"
 url="https://code.videolan.org/videolan/dav1d"

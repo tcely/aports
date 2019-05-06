@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=gtkmm3
-pkgver=3.24.1
+pkgname="gtkmm3"
+pkgver="3.24.1"
 pkgrel=0
 pkgdesc="C++ wrappers for GTK+"
 url="http://gtkmm.sourceforge.net/"

@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=umurmur
-pkgver=0.2.17
+pkgname="umurmur"
+pkgver="0.2.17"
 pkgrel=3
 pkgdesc="Minimalistic Mumble server primarily targeted to run on routers"
 url="http://umurmur.net/"

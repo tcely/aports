@@ -1,7 +1,7 @@
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-date-calc
+pkgname="perl-date-calc"
 _realname=Date-Calc
-pkgver=6.4
+pkgver="6.4"
 pkgrel=1
 pkgdesc="Perl module for Gregorian calendar date calculations"
 url="http://search.cpan.org/dist/Date-Calc/"

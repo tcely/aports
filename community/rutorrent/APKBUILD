@@ -1,8 +1,8 @@
 # Contributor: Francesco Colis_ta <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=rutorrent
+pkgname="rutorrent"
 _pkgname=ruTorrent
-pkgver=3.8
+pkgver="3.8"
 pkgrel=1
 pkgdesc="Yet another web front-end for rTorrent"
 url="https://github.com/Novik/ruTorrent"

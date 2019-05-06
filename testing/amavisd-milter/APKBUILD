@@ -1,7 +1,7 @@
 # Contributor: Elias Werberich <elias@werberich.de>
 # Maintainer:
-pkgname=amavisd-milter
-pkgver=1.6.1
+pkgname="amavisd-milter"
+pkgver="1.6.1"
 pkgrel=1
 pkgdesc="sendmail milter for amavisd-new using the AM.PDP protocol"
 url="http://amavisd-milter.sourceforge.net/"

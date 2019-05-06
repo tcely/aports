@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=iproute2
-pkgver=4.20.0
+pkgname="iproute2"
+pkgver="4.20.0"
 pkgrel=1
 pkgdesc="IP Routing Utilities"
 url="https://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2"

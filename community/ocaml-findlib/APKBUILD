@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-findlib
+pkgname="ocaml-findlib"
 _pkgname=findlib
-pkgver=1.8.0
+pkgver="1.8.0"
 pkgrel=1
 pkgdesc="OCaml package manager"
 url="http://projects.camlcity.org/projects/findlib.html"

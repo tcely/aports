@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=rrdtool
-pkgver=1.7.0
+pkgname="rrdtool"
+pkgver="1.7.0"
 pkgrel=0
 pkgdesc="Data logging and graphing application"
 url="http://www.rrdtool.org"

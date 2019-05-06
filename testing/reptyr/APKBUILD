@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=reptyr
-pkgver=0.7.0
+pkgname="reptyr"
+pkgver="0.7.0"
 pkgrel=0
 pkgdesc="Reparent a running program to a new terminal"
 url="https://github.com/nelhage/reptyr"

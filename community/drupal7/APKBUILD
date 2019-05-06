@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
-pkgname=drupal7
-pkgver=7.66
+pkgname="drupal7"
+pkgver="7.66"
 pkgrel=0
 pkgdesc="An open source content management platform"
 url="https://www.drupal.org/"

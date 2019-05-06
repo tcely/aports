@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-websockets
+pkgname="py3-websockets"
 _pkgname=websockets
-pkgver=7.0
+pkgver="7.0"
 pkgrel=0
 pkgdesc="An implementation of the WebSocket Protocol (RFC 6455)"
 url="https://websockets.readthedocs.io"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=libantlr3c
-pkgver=3.4
+pkgname="libantlr3c"
+pkgver="3.4"
 pkgrel=0
 pkgdesc="C runtime for the ANTLR parsing library"
 url="http://www.antlr.org/"

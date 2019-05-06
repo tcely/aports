@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-ffi
+pkgname="ruby-ffi"
 _gemname=ffi
-pkgver=1.10.0
+pkgver="1.10.0"
 pkgrel=0
 pkgdesc="Ruby FFI library"
 url="https://github.com/ffi/ffi"

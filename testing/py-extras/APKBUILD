@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-extras
+pkgname="py-extras"
 _pkgname=extras
-pkgver=1.0.0
+pkgver="1.0.0"
 pkgrel=1
 pkgdesc="Useful extra bits for Python - things that shold be in the standard library"
 url="https://pypi.python.org/pypi/extras/"

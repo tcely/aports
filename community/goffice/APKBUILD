@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=goffice
-pkgver=0.10.43
+pkgname="goffice"
+pkgver="0.10.43"
 pkgrel=0
 _maj=${pkgver%%.*}
 _min=${pkgver#${_maj}.}

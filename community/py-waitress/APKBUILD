@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-waitress
+pkgname="py-waitress"
 _pkgname=waitress
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=2
 pkgdesc="A Python WSGI server"
 url="https://github.com/Pylons/waitress"

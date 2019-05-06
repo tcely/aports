@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=logwatch
-pkgver=7.4.3
+pkgname="logwatch"
+pkgver="7.4.3"
 pkgrel=0
 pkgdesc="A customizable, pluggable log-monitoring system"
 url="http://www.logwatch.org"

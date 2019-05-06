@@ -1,7 +1,7 @@
 # Contributor: Klemens Nanni <kl3@posteo.org>
 # Maintainer: Klemens Nanni <kl3@posteo.org>
-pkgname=lzlib
-pkgver=1.10
+pkgname="lzlib"
+pkgver="1.10"
 pkgrel=0
 pkgdesc="Library for the lzip compression file format"
 url="http://www.nongnu.org/lzip/lzlib.html"

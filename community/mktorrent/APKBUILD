@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer:  Francesco Colista <fcolista@alpinelinux.org>
-pkgname=mktorrent
-pkgver=1.1
+pkgname="mktorrent"
+pkgver="1.1"
 pkgrel=2
 pkgdesc="A handy tool for creating .torrent files"
 url="https://github.com/Rudde/mktorrent"

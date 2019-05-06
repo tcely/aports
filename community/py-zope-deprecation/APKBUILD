@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-zope-deprecation
+pkgname="py-zope-deprecation"
 _pkgname=zope.deprecation
-pkgver=4.4.0
+pkgver="4.4.0"
 pkgrel=1
 pkgdesc="Zope Deprecation Infrastructure"
 url="https://pypi.python.org/pypi/zope.deprecation"

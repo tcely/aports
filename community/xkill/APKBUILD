@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=xkill
-pkgver=1.0.5
+pkgname="xkill"
+pkgver="1.0.5"
 pkgrel=0
 pkgdesc="Kill tool for the X Window System"
 url="http://www.x.org"

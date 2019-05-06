@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-static
+pkgname="py-flask-static"
 _pkgname=Flask-Static
-pkgver=0.1
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Flask static page extension"
 url="https://pypi.python.org/pypi/Flask-Static"

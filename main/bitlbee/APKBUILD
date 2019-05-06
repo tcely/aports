@@ -1,7 +1,7 @@
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer: Kiyoshi Aman <kiyoshi.aman@gmail.com>
-pkgname=bitlbee
-pkgver=3.5.1
+pkgname="bitlbee"
+pkgver="3.5.1"
 pkgrel=6
 pkgdesc="An IRC to other chat networks gateway"
 url="https://www.bitlbee.org/"

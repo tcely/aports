@@ -1,7 +1,7 @@
 # Contributor: Adrian Siekierka <kontakt@asie.pl>
 # Maintainer: Adrian Siekierka <kontakt@asie.pl>
-pkgname=openttd-opensfx
-pkgver=0.2.3
+pkgname="openttd-opensfx"
+pkgver="0.2.3"
 pkgrel=0
 pkgdesc="Free sound effect set for OpenTTD"
 url="http://openttd.org/"

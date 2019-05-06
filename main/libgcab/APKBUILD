@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libgcab
-pkgver=0.7
+pkgname="libgcab"
+pkgver="0.7"
 pkgrel=2
 pkgdesc="A GObject library to create cabinet files"
 url=" https://wiki.gnome.org/msitools"

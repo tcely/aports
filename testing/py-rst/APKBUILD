@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-rst
+pkgname="py-rst"
 _pkgname=rst
-pkgver=0.1
+pkgver="0.1"
 pkgrel=1
 pkgdesc="A Python module to create reStructuredText documents"
 url="https://rst.readthedocs.org/"

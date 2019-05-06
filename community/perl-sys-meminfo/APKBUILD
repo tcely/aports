@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-sys-meminfo
+pkgname="perl-sys-meminfo"
 _pkg_real=Sys-MemInfo
-pkgver=0.99
+pkgver="0.99"
 pkgrel=0
 pkgdesc="Query the total free and used physical memory"
 url="http://search.cpan.org/~scresto/Sys-MemInfo"

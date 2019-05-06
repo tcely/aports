@@ -2,8 +2,8 @@
 # Contributor: Andrew Hills <ahills@ednos.net>
 # Contributor: Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=girara
-pkgver=0.3.2
+pkgname="girara"
+pkgver="0.3.2"
 pkgrel=0
 pkgdesc="girara - gtk user interface that focuses on simplicity and minimalism"
 url="https://git.pwmt.org/pwmt/girara"

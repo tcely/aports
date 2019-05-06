@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libmspack
-pkgver=0.8_alpha
+pkgname="libmspack"
+pkgver="0.8_alpha"
 _ver=${pkgver/_/}
 pkgrel=0
 pkgdesc="Library for Microsoft CAB compression formats"

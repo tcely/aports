@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer:
-pkgname=sylpheed-imap-notify
-pkgver=1.1.0
+pkgname="sylpheed-imap-notify"
+pkgver="1.1.0"
 pkgrel=0
 pkgdesc="An IMAP NOTIFY and IDLE plugin for the Sylpheed mail client."
 url="https://github.com/clehner/sylpheed-imap-notify"

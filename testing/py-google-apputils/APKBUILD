@@ -1,8 +1,8 @@
 # Contributor: Corentin Henry <corentinhenry@gmail.com>
 # Maintainer: Corentin Henry <corentinhenry@gmail.com>
-pkgname=py-google-apputils
+pkgname="py-google-apputils"
 _pkgname=${pkgname#py-}
-pkgver=0.4.2
+pkgver="0.4.2"
 pkgrel=1
 pkgdesc="Google Application Utilities for Python"
 url="https://github.com/google/google-apputils"

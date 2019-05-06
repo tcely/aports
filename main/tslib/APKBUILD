@@ -1,7 +1,7 @@
 # Contributor: Clayton Craft <clayton@craftyguy.net>
 # Maintainer: Clayton Craft <clayton@craftyguy.net>
-pkgname=tslib
-pkgver=1.18
+pkgname="tslib"
+pkgver="1.18"
 pkgrel=0
 pkgdesc="Touchscreen Access Library"
 arch="all"

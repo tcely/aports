@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-bootstrap
+pkgname="py-flask-bootstrap"
 _pkgname=Flask-Bootstrap
-pkgver=3.3.5.7
+pkgver="3.3.5.7"
 pkgrel=0
 pkgdesc="Flask bootstrap extension"
 url="https://pypi.python.org/pypi/Flask-Bootstrap"

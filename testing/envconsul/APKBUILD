@@ -1,7 +1,7 @@
 # Contributor: Gennady Feldman <gena01@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=envconsul
-pkgver=0.7.3
+pkgname="envconsul"
+pkgver="0.7.3"
 pkgrel=0
 pkgdesc="Read and set environmental variables for processes from Consul."
 url="https://www.consul.io/"

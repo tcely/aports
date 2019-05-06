@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=phonon-backend-gstreamer
-pkgver=4.9.0
+pkgname="phonon-backend-gstreamer"
+pkgver="4.9.0"
 pkgrel=1
 pkgdesc="phonon gstreamer backend for Qt4"
 url="https://phonon.kde.org/"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=nomp
-pkgver=0.1
+pkgname="nomp"
+pkgver="0.1"
 pkgrel=6
 pkgdesc="Ncurses OpenVAS Manager Protocol"
 url="https://gitlab.com/git-rep/nomp"

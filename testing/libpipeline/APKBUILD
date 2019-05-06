@@ -1,7 +1,7 @@
 # Contributor: A. Wilcox <awilfox@adelielinux.org>
 # Maintainer: A. Wilcox <awilfox@adelielinux.org>
-pkgname=libpipeline
-pkgver=1.5.0
+pkgname="libpipeline"
+pkgver="1.5.0"
 pkgrel=0
 pkgdesc="C pipeline manipulation library"
 url="http://libpipeline.nongnu.org/"

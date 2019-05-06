@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=usbutils
-pkgver=010
+pkgname="usbutils"
+pkgver="010"
 pkgrel=0
 pkgdesc="USB Device Utilities"
 url="http://linux-usb.sourceforge.net/"

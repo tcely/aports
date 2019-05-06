@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-mystrom
+pkgname="py-mystrom"
 _pkgname=python-mystrom
-pkgver=0.3.8
+pkgver="0.3.8"
 pkgrel=1
 pkgdesc="Python API for controlling myStrom switches/plugs"
 url="https://github.com/fabaff/python-mystrom"

@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-mechanize
+pkgname="py-mechanize"
 _pkgname=mechanize
-pkgver=0.2.5
+pkgver="0.2.5"
 pkgrel=1
 pkgdesc="Stateful programmatic web browsing in Python"
 url="http://wwwsearch.sourceforge.net/mechanize/"

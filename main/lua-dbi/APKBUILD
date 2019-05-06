@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=lua-dbi
+pkgname="lua-dbi"
 _pkgname=luadbi
-pkgver=0.6
+pkgver="0.6"
 pkgrel=3
 pkgdesc="A database interface library for Lua"
 url="https://github.com/mwild1/luadbi"

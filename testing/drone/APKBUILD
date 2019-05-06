@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=drone
-pkgver=0.9_git20190226
+pkgname="drone"
+pkgver="0.9_git20190226"
 pkgrel=0
 _sha=07f7fdd9830c32222db2e880a13d5fbb6ecee1a7
 pkgdesc="Container-Native, Continuous Delivery Platform"

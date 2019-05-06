@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 # filezilla needs to be rebuilt when libfilezilla version changes, ABI is not stable
-pkgname=libfilezilla
-pkgver=0.15.1
+pkgname="libfilezilla"
+pkgver="0.15.1"
 pkgrel=0
 pkgdesc="C++ library, offering some basic functionality to build high-performing, platform-independent programs"
 url="https://filezilla-project.org"

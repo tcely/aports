@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Tuan Hoang <tmhoang@linux.ibm.com>
-pkgname=s390-tools
-pkgver=2.8.0
+pkgname="s390-tools"
+pkgver="2.8.0"
 pkgrel=1
 pkgdesc="Tools for use with the s390 Linux kernel and device drivers"
 url="https://github.com/ibm-s390-tools/s390-tools"

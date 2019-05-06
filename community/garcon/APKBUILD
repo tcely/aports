@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=garcon
-pkgver=0.6.2
+pkgname="garcon"
+pkgver="0.6.2"
 pkgrel=0
 pkgdesc="a freedesktop.org compliant menu implementation based on GLib and GIO"
 url="https://xfce.org/"

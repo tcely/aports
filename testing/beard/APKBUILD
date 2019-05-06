@@ -1,7 +1,7 @@
 # Contributor: Andrew Hills <ahills@ednos.net>
 # Maintainer: Andrew Hills <ahills@ednos.net>
-pkgname=beard
-pkgver=0.3
+pkgname="beard"
+pkgver="0.3"
 pkgrel=0
 pkgdesc="Simple hibernation daemon"
 url="https://github.com/ahills/beard"

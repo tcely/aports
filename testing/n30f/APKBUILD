@@ -1,7 +1,7 @@
 # Contributor: Camille Scholtz <onodera@openmailbox.org>
 # Maintainer: Camille Scholtz <onodera@openmailbox.org>
-pkgname=n30f
-pkgver=2.0
+pkgname="n30f"
+pkgver="2.0"
 pkgrel=1
 pkgdesc="A quick hack to display a png in a borderless and transparent non-wm-managed window"
 url="https://github.com/sdhand/n30f"

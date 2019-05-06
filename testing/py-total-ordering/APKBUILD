@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-total-ordering
+pkgname="py-total-ordering"
 _pkgname=flake8-isort
-pkgver=2.0.1
+pkgver="2.0.1"
 pkgrel=0
 pkgdesc="functools.total_ordering backport for Python 2.6"
 url="https://github.com/kvesteri/total-ordering"

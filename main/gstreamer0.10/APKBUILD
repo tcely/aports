@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gstreamer0.10
-pkgver=0.10.36
+pkgname="gstreamer0.10"
+pkgver="0.10.36"
 pkgrel=3
 pkgdesc="GStreamer Multimedia Framework"
 url="https://gstreamer.freedesktop.org/"

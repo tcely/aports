@@ -1,6 +1,6 @@
 # Maintainer: Isaac Dunham <ibid.ag@gmail.com>
-pkgname=tk
-pkgver=8.6.9
+pkgname="tk"
+pkgver="8.6.9"
 pkgrel=0
 pkgdesc="GUI toolkit for the Tcl scripting language"
 url="http://tcl.sourceforge.net/"

@@ -1,8 +1,8 @@
 # Contributor: Mika Havela <mika.havela@gmail.com>
 # Maintainer: Mika Havela <mika.havela@gmail.com>
-pkgname=perl-sub-uplevel
+pkgname="perl-sub-uplevel"
 _realname=Sub-Uplevel
-pkgver=0.2800
+pkgver="0.2800"
 pkgrel=0
 pkgdesc="Perl - Apparently run a function in a higher stack frame"
 url="http://search.cpan.org/~dagolden/$_realname-$pkgver/"

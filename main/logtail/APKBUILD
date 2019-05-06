@@ -9,8 +9,8 @@
 # This is the sourceforge re-re-implementation in C, and the
 # offical package project name is 'logtail-v3'
 # At the risk of being technically incorrect we call this package logtail
-pkgname=logtail
-pkgver=3.21
+pkgname="logtail"
+pkgver="3.21"
 pkgrel=0
 pkgdesc="Print new lines in log file since the last run (sf.net $pkgname-v3 ver)"
 url="http://logtail-v3.sourceforge.net/"

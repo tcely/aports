@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=atril
-pkgver=1.22.0
+pkgname="atril"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="A document viewer for MATE"
 url="https://github.com/mate-desktop/atril"

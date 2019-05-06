@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=tcpreplay
-pkgver=4.3.2
+pkgname="tcpreplay"
+pkgver="4.3.2"
 pkgrel=0
 pkgdesc="Replay captured network traffic"
 url="http://tcpreplay.synfin.net/trac/"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=py-mopidy-spotify
-pkgver=1.2.0
+pkgname="py-mopidy-spotify"
+pkgver="1.2.0"
 pkgrel=0
 pkgdesc="Mopidy extension for playing music from Spotify"
 url="https://github.com/mopidy/mopidy-spotify"

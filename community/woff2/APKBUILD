@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=woff2
-pkgver=1.0.2
+pkgname="woff2"
+pkgver="1.0.2"
 pkgrel=0
 pkgdesc="Web Open Font Format 2 reference implementation"
 options="!check" # No testsuite

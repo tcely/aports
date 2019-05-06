@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # FIXME: run tests!
-pkgname=ocaml-topkg
+pkgname="ocaml-topkg"
 _pkgname=topkg
-pkgver=0.9.1
+pkgver="0.9.1"
 pkgrel=1
 pkgdesc="The transitory OCaml software packager"
 url="http://erratique.ch/software/topkg"

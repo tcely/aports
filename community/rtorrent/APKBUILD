@@ -3,8 +3,8 @@
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 
-pkgname=rtorrent
-pkgver=0.9.7
+pkgname="rtorrent"
+pkgver="0.9.7"
 pkgrel=2
 pkgdesc="Ncurses BitTorrent client based on libTorrent"
 url="https://rakshasa.github.io/rtorrent/"

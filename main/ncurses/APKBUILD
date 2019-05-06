@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ncurses
-pkgver=6.1_p20190420
+pkgname="ncurses"
+pkgver="6.1_p20190420"
 _ver=${pkgver/_p/-}
 pkgrel=0
 pkgdesc="Console display library"

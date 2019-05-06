@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=mt-st
-pkgver=1.1
+pkgname="mt-st"
+pkgver="1.1"
 pkgrel=4
 pkgdesc="Linux SCSI tape driver aware magnetic tape control"
 url="http://www.ibiblio.org/pub/linux/system/backup/"

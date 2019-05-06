@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-specio
+pkgname="perl-specio"
 _pkgreal="Specio"
-pkgver=0.42
+pkgver="0.42"
 pkgrel=0
 pkgdesc="Specio perl module"
 url="http://search.cpan.org/dist/Specio/"

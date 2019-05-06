@@ -1,7 +1,7 @@
 # Contributor: Shiz <hi@shiz.me>
 # Maintainer: Shiz <hi@shiz.me>
-pkgname=mailutils
-pkgver=3.4
+pkgname="mailutils"
+pkgver="3.4"
 pkgrel=1
 pkgdesc="GNU swiss army knife of electronic mail handling"
 url="https://mailutils.org/"

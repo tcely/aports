@@ -2,8 +2,8 @@
 # Contributor: Mateusz Mikuła <matti@marinelayer.io>
 # Contributor: Tiago Ilieve <tiago.myhro@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=kubernetes
-pkgver=1.14.1
+pkgname="kubernetes"
+pkgver="1.14.1"
 pkgrel=0
 pkgdesc="Container Cluster Manager for Docker"
 url="https://kubernetes.io/"

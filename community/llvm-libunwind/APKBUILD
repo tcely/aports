@@ -1,9 +1,9 @@
 # Contributor: Eric Molitor <eric@molitor.org>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=llvm-libunwind
+pkgname="llvm-libunwind"
 # Note: Update together with llvm.
-pkgver=7.0.1
+pkgver="7.0.1"
 _pkgname=libunwind
 _llvmver=${pkgver%%.*}
 pkgrel=0

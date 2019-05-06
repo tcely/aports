@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=pangox-compat
-pkgver=0.0.2
+pkgname="pangox-compat"
+pkgver="0.0.2"
 pkgrel=0
 pkgdesc="Compatibility lib for pangox"
 url="http://pango.org"

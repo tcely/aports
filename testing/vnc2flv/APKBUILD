@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer:
-pkgname=vnc2flv
-pkgver=20100207
+pkgname="vnc2flv"
+pkgver="20100207"
 pkgrel=0
 pkgdesc="Screen recording tool that captures a VNC session and saves as FLV"
 url="http://pypi.python.org/pypi/vnc2flv/"

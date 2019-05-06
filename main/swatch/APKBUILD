@@ -1,8 +1,8 @@
 # Contributor: Mika Havela <mika.havela@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=swatch
+pkgname="swatch"
 _realname=swatchdog
-pkgver=3.2.4
+pkgver="3.2.4"
 pkgrel=4
 pkgdesc="Logfile monitoring tool"
 url="https://sourceforge.net/projects/swatch/"

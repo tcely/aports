@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=tinyproxy
-pkgver=1.10.0
+pkgname="tinyproxy"
+pkgver="1.10.0"
 pkgrel=2
 pkgdesc="Lightweight HTTP proxy"
 pkgusers="tinyproxy"

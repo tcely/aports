@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 _php=php7
-pkgname=${_php}-pear-auth_sasl
+pkgname="${_php}-pear-auth_sasl"
 _realname=Auth_SASL
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=0
 pkgdesc="Abstraction of various SASL mechanism responses"
 url="http://pear.php.net/package/Auth_SASL"

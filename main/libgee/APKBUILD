@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libgee
-pkgver=0.20.1
+pkgname="libgee"
+pkgver="0.20.1"
 _rest=${pkgver#*.*.}
 _xy=${pkgver%.$_rest}
 pkgrel=0

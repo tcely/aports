@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Henrik Riomar <henrik.riomar@gmail.com>
-pkgname=zfs-auto-snapshot
-pkgver=1.2.4
+pkgname="zfs-auto-snapshot"
+pkgver="1.2.4"
 pkgrel=1
 pkgdesc="ZFS Automatic Snapshot Service for Linux"
 url="https://github.com/zfsonlinux/zfs-auto-snapshot"

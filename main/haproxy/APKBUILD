@@ -1,7 +1,7 @@
 # Contributor: Jeff Bilyk <jbilyk@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=haproxy
-pkgver=1.9.7
+pkgname="haproxy"
+pkgver="1.9.7"
 _pkgmajorver=${pkgver%.*}
 pkgrel=0
 pkgdesc="A TCP/HTTP reverse proxy for high availability environments"

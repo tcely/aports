@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-htmlcolor
+pkgname="py-htmlcolor"
 _pkgname=htmlcolor
-pkgver=0.1
+pkgver="0.1"
 pkgrel=0
 pkgdesc="A Python parser for HTML and CSS color values"
 url="http://github.com/ext/pyhtmlcolor"

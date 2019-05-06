@@ -1,7 +1,7 @@
 # Contributor: V.Krishn <vkrishn4@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=avfs
-pkgver=1.0.6
+pkgname="avfs"
+pkgver="1.0.6"
 pkgrel=0
 pkgdesc="A Virtual File System for looking into archives"
 url="http://avf.sourceforge.net/"

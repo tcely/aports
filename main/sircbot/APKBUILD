@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=sircbot
-pkgver=0.4
+pkgname="sircbot"
+pkgver="0.4"
 pkgrel=2
 pkgdesc="Minimalistic IRC bot"
 url="https://git.alpinelinux.org/cgit/sircbot/"

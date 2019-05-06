@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=py-mopidy-moped
-pkgver=0.4.4
+pkgname="py-mopidy-moped"
+pkgver="0.4.4"
 pkgrel=0
 pkgdesc="Responsive Web client for Mopidy"
 url="https://github.com/martijnboland/moped"

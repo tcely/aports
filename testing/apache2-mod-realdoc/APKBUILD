@@ -1,7 +1,7 @@
 # Contributor: Keith <keithy@consultant.com>
 # Maintainer: Keith <keithy@consultant.com>
-pkgname=apache2-mod-realdoc
-pkgver=1
+pkgname="apache2-mod-realdoc"
+pkgver="1"
 pkgrel=1
 pkgdesc="Ensures realpath DocumentRoot for the whole request."
 url="https://github.com/etsy/mod_realdoc"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-auth
+pkgname="py-flask-auth"
 _pkgname=Flask-Auth
-pkgver=0.85
+pkgver="0.85"
 pkgrel=0
 pkgdesc="Flask auth"
 url="https://pypi.python.org/pypi/Flask-Auth"

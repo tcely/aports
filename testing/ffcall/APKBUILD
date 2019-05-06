@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=ffcall
-pkgver=2.1
+pkgname="ffcall"
+pkgver="2.1"
 pkgrel=1
 pkgdesc="C library for implementing foreign function calls in embedded interpreters"
 url="https://www.gnu.org/software/libffcall"

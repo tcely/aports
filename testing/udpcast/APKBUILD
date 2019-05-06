@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer: Jay Christopherson <jaychris@gmail.com>
-pkgname=udpcast
-pkgver=20120424
+pkgname="udpcast"
+pkgver="20120424"
 pkgrel=0
 pkgdesc="Port of UDPcast file transfer tool"
 url="https://www.udpcast.linux.lu/index.html"

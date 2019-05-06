@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-mitten
+pkgname="py-flask-mitten"
 _pkgname=Flask-Mitten
-pkgver=0.2.1
+pkgver="0.2.1"
 pkgrel=0
 pkgdesc="Flask security functions"
 url="https://pypi.python.org/pypi/Flask-Mitten"

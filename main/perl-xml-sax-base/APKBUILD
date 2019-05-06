@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=perl-xml-sax-base
-pkgver=1.09
+pkgname="perl-xml-sax-base"
+pkgver="1.09"
 pkgrel=0
 pkgdesc="Base class SAX Drivers and Filters"
 url="http://search.cpan.org/dist/XML-SAX-Base"

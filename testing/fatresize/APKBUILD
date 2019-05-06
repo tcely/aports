@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=fatresize
-pkgver=1.0.2
+pkgname="fatresize"
+pkgver="1.0.2"
 pkgrel=0
 pkgdesc="The FAT16/FAT32 non-destructive resizer."
 url="https://sourceforge.net/projects/fatresize/"

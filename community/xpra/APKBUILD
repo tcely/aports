@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=xpra
-pkgver=2.4.2
+pkgname="xpra"
+pkgver="2.4.2"
 pkgrel=3
 pkgdesc="Xpra is 'screen for X' & allows you to run X programs, usually on a remote host over SSH or encrypted tcp"
 url="https://xpra.org"

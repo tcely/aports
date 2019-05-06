@@ -1,7 +1,7 @@
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer:
-pkgname=supervisor
-pkgver=3.3.5
+pkgname="supervisor"
+pkgver="3.3.5"
 pkgrel=0
 pkgdesc="A system for controlling process state under UNIX"
 url="http://supervisord.org"

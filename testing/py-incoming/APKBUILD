@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-incoming
+pkgname="py-incoming"
 _pkgname=incoming
-pkgver=0.2.6
+pkgver="0.2.6"
 pkgrel=0
 pkgdesc="A Python JSON validation framework"
 url="https://github.com/vaidik/incoming"

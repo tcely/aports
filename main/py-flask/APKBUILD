@@ -1,8 +1,8 @@
 # Contributor: 
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=py-flask
+pkgname="py-flask"
 _pkgname=Flask
-pkgver=1.0.2
+pkgver="1.0.2"
 pkgrel=2
 pkgdesc="A web development microframework"
 url="http://flask.pocoo.org/"

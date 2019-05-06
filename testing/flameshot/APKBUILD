@@ -1,5 +1,5 @@
-pkgname=flameshot
-pkgver=0.6.0
+pkgname="flameshot"
+pkgver="0.6.0"
 pkgrel=0
 pkgdesc="Featureful screenshot app"
 url="https://github.com/lupoDharkael/flameshot"

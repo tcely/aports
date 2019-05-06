@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=pdfgrep
-pkgver=2.1.2
+pkgname="pdfgrep"
+pkgver="2.1.2"
 pkgrel=1
 pkgdesc="Commandline utility to search text in PDF files"
 url="https://pdfgrep.org/"

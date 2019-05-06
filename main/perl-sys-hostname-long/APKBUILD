@@ -1,8 +1,8 @@
 # Contributor:  Jeff Bilyk <jbilyk@gmail.com>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-sys-hostname-long
+pkgname="perl-sys-hostname-long"
 _realname=Sys-Hostname-Long
-pkgver=1.5
+pkgver="1.5"
 pkgrel=0
 pkgdesc="Perl Module to get full hostname"
 url="http://search.cpan.org/~scott/"

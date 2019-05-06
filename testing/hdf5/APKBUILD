@@ -9,8 +9,8 @@
 # Additionally, the 'high-level' bindings are incompatible with threadsafe
 # builds, due to inadequate locking.
 
-pkgname=hdf5
-pkgver=1.10.4
+pkgname="hdf5"
+pkgver="1.10.4"
 pkgrel=0
 pkgdesc="HDF5 is a data model, library, and file format for storing and managing data"
 url="http://www.hdfgroup.org/HDF5/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-fuse
+pkgname="py-fuse"
 _pkgname=fuse-python
-pkgver=0.2.1
+pkgver="0.2.1"
 pkgrel=1
 pkgdesc="Python bindings for FUSE - filesystem in userspace"
 url="https://github.com/libfuse/python-fuse/"

@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-dicttoxml
+pkgname="py-dicttoxml"
 _pkgname=dicttoxml
-pkgver=1.7.4
+pkgver="1.7.4"
 pkgrel=2
 pkgdesc="Converts a Python dictionary or other native data type into a valid XML string"
 url="https://github.com/quandyfactory/dicttoxml"

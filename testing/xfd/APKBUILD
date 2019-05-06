@@ -1,7 +1,7 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=xfd
-pkgver=1.1.2
+pkgname="xfd"
+pkgver="1.1.2"
 pkgrel=0
 pkgdesc="Xorg font display application."
 url="https://xorg.freedesktop.org/"

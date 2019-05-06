@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=rlog
-pkgver=1.4
+pkgname="rlog"
+pkgver="1.4"
 pkgrel=4
 pkgdesc="A flexible message logging facility for C++ programs and libraries."
 url="http://www.arg0.net/rlog"

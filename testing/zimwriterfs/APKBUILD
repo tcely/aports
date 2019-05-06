@@ -1,7 +1,7 @@
 # Contributor: Oleg Titov <oleg.titov@gmail.com>
 # Maintainer: Oleg Titov <oleg.titov@gmail.com>
-pkgname=zimwriterfs
-pkgver=1.3.1
+pkgname="zimwriterfs"
+pkgver="1.3.1"
 pkgrel=0
 pkgdesc="Console tool to create ZIM files"
 url="https://openzim.org/"

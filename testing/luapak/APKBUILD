@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=luapak
-pkgver=0.1.0_beta5
+pkgname="luapak"
+pkgver="0.1.0_beta5"
 _pkgver=${pkgver/_/.}
 pkgrel=0
 pkgdesc="Easily build a standalone executable for any Lua program"

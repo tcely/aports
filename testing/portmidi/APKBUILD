@@ -1,7 +1,7 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=portmidi
-pkgver=217
+pkgname="portmidi"
+pkgver="217"
 pkgrel=0
 pkgdesc="PortMidi is a platform independent library for MIDI input/output."
 url="http://portmedia.sourceforge.net/"

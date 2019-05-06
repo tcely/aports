@@ -1,7 +1,7 @@
 # Contributor: <xmingske@gmail.com>
 # Maintainer: Jeff Bilyk <jbilyk@alpinelinux.org>
-pkgname=irrlicht
-pkgver=1.8.4
+pkgname="irrlicht"
+pkgver="1.8.4"
 pkgrel=2
 pkgdesc="High performance realtime 3D engine written in C++"
 url="http://irrlicht.sourceforge.net"

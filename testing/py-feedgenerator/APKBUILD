@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-feedgenerator
+pkgname="py-feedgenerator"
 _pkgname=feedgenerator
-pkgver=1.9
+pkgver="1.9"
 pkgrel=2
 pkgdesc="A Python feed generator"
 url="https://github.com/getpelican/feedgenerator"

@@ -1,6 +1,6 @@
 # Maintainer: Mitch Tishmack <mitch.tishmack@gmail.com>
-pkgname=ucl
-pkgver=1.03
+pkgname="ucl"
+pkgver="1.03"
 pkgrel=1
 pkgdesc="Portable lossless data compression library written in ANSI C"
 url="http://www.oberhumer.com/opensource/ucl/"

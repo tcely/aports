@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-re
-pkgver=1.7.3
+pkgname="ocaml-re"
+pkgver="1.7.3"
 pkgrel=0
 pkgdesc="Pure OCaml regular expressions, with support for Perl and POSIX-style strings"
 url="https://github.com/ocaml/ocaml-re"

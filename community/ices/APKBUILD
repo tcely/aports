@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ices
-pkgver=2.0.2
+pkgname="ices"
+pkgver="2.0.2"
 pkgrel=2
 pkgdesc="Source client for broadcasting in MP3 format to an icecast2 server"
 url="http://icecast.org/ices.php"

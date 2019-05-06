@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-libacl
+pkgname="py-libacl"
 _pkgname=pylibacl
-pkgver=0.5.3
+pkgver="0.5.3"
 pkgrel=0
 pkgdesc="A python module for manipulating ACLs"
 url="http://pylibacl.k1024.org/"

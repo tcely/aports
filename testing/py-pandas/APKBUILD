@@ -1,8 +1,8 @@
 # Contributor: Carlos Giraldo <cgiraldo@gradiant.org>
 # Maintainer: Carlos Giraldo <cgiraldo@gradiant.org>
-pkgname=py-pandas
+pkgname="py-pandas"
 _pkgname=pandas
-pkgver=0.24.1
+pkgver="0.24.1"
 pkgrel=0
 pkgdesc="Powerful data structures for data analysis, time series, and statistics"
 url="http://pandas.pydata.org/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ilbc
-pkgver=0.0.1
+pkgname="ilbc"
+pkgver="0.0.1"
 pkgrel=0
 pkgdesc="Internet Low Bitrate Codec - FreeSwitch"
 url="https://freeswitch.org/stash/projects/SD/repos/libilbc/browse"

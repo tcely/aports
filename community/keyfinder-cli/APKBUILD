@@ -1,7 +1,7 @@
 # Contributor: Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=keyfinder-cli
-pkgver=1.0.1
+pkgname="keyfinder-cli"
+pkgver="1.0.1"
 pkgrel=2
 pkgdesc="Musical key detection for digital audio (command line)"
 url="https://github.com/EvanPurkhiser/keyfinder-cli"

@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=fish
-pkgver=3.0.2
+pkgname="fish"
+pkgver="3.0.2"
 pkgrel=2
 pkgdesc="Modern interactive commandline shell"
 url="http://www.fishshell.com"

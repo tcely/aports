@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=compat-pvgrub
-pkgver=1
+pkgname="compat-pvgrub"
+pkgver="1"
 pkgrel=0
 pkgdesc="compatibility support for PV-GRUB 1.x"
 url="https://www.alpinelinux.org/"

@@ -1,6 +1,6 @@
 # Contributor: Isaac Dunham <ibid.ag@gmail.com>
 # Maintainer:  Isaac Dunham <ibid.ag@gmail.com>
-pkgname=xpdf
+pkgname="xpdf"
 pkgver="3.04"
 pkgrel=4
 pkgdesc="The classic X11 PDF viewer"

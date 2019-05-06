@@ -1,6 +1,6 @@
 # Maintainer: Jeff Bilyk <jbilyk@gmail.com>
-pkgname=sendpage
-pkgver=1.0.3
+pkgname="sendpage"
+pkgver="1.0.3"
 _pkgver=1.000003
 pkgrel=5
 pkgdesc="SNPP server, client, queueing engine, modem control and TAP system"

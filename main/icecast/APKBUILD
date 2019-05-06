@@ -5,8 +5,8 @@
 #   2.4.4-r0:
 #     - CVE-2018-18820
 
-pkgname=icecast
-pkgver=2.4.4
+pkgname="icecast"
+pkgver="2.4.4"
 pkgrel=1
 pkgdesc="Open source media server"
 url="http://www.icecast.org"

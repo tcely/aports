@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libcdio-paranoia
-pkgver=2.0.0
+pkgname="libcdio-paranoia"
+pkgver="2.0.0"
 _pkgver="10.2+${pkgver/_p/+}"
 pkgrel=0
 pkgdesc="CD paranoia on top of libcdio"

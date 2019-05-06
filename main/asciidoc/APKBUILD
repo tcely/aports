@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=asciidoc
-pkgver=8.6.10
+pkgname="asciidoc"
+pkgver="8.6.10"
 pkgrel=0
 pkgdesc="Text based documentation"
 url="http://asciidoc.org/"

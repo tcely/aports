@@ -1,9 +1,9 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Corey Oliver <coreyjonoliver@gmail.com>
 # Maintainer: Corey Oliver <coreyjonoliver@gmail.com>
-pkgname=argon2
+pkgname="argon2"
 _pkgname=phc-winner-argon2
-pkgver=20171227
+pkgver="20171227"
 pkgrel=1
 pkgdesc="The password hash Argon2, winner of PHC"
 url="https://github.com/P-H-C/phc-winner-argon2"

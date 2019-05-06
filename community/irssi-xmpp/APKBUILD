@@ -1,7 +1,7 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=irssi-xmpp
-pkgver=0.54
+pkgname="irssi-xmpp"
+pkgver="0.54"
 pkgrel=0
 pkgdesc="An irssi plugin to connect to the Jabber network"
 url="https://cybione.org/~irssi-xmpp/"

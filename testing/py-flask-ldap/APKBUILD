@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-ldap
+pkgname="py-flask-ldap"
 _pkgname=Flask-LDAP
-pkgver=0.1.4
+pkgver="0.1.4"
 pkgrel=0
 pkgdesc="Flask LDAP extension"
 url="https://pypi.python.org/pypi/Flask-LDAP"

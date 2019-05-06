@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=steghide
-pkgver=0.5.1
+pkgname="steghide"
+pkgver="0.5.1"
 pkgrel=1
 pkgdesc="Steganography program that is able to hide data in various kinds of image- and audio-files"
 url="http://steghide.sourceforge.net/index.php"

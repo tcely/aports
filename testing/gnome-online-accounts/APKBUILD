@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=gnome-online-accounts
-pkgver=3.26.0
+pkgname="gnome-online-accounts"
+pkgver="3.26.0"
 pkgrel=1
 pkgdesc="client for GNOME web services"
 url="https://www.gnome.org/"

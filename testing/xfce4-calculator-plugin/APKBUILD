@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce4-calculator-plugin
-pkgver=0.7.0
+pkgname="xfce4-calculator-plugin"
+pkgver="0.7.0"
 pkgrel=0
 pkgdesc="Calculator plugin for the Xfce4 panel"
 url="https://goodies.xfce.org/projects/panel-plugins/xfce4-calculator-plugin"

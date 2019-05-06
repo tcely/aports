@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-zope-configuration
+pkgname="py-zope-configuration"
 _pkgname=zope.configuration
-pkgver=4.0.2
+pkgver="4.0.2"
 pkgrel=0
 pkgdesc="Zope Configuration Markup Language"
 url="http://pypi.python.org/pypi/zope.configuration"

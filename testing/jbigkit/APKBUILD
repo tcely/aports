@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=jbigkit
-pkgver=2.1
+pkgname="jbigkit"
+pkgver="2.1"
 pkgrel=0
 pkgdesc="Data compression library/utilities for bi-level high-resolution images"
 url="http://www.cl.cam.ac.uk/~mgk25/jbigkit/"

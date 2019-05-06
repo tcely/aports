@@ -1,7 +1,7 @@
 # Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=smem
-pkgver=1.4
+pkgname="smem"
+pkgver="1.4"
 pkgrel=1
 pkgdesc="memory reporting tool"
 url="http://www.selenic.com/smem/"

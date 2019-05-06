@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=libnih
-pkgver=1.0.3
+pkgname="libnih"
+pkgver="1.0.3"
 pkgrel=5
 pkgdesc="glib-like library for embedded use"
 url="https://launchpad.net/libnih"

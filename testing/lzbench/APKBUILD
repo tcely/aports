@@ -1,7 +1,7 @@
 # Contributor: Oleg Titov <oleg.titov@gmail.com>
 # Maintainer: Oleg Titov <oleg.titov@gmail.com>
-pkgname=lzbench
-pkgver=1.7.3
+pkgname="lzbench"
+pkgver="1.7.3"
 pkgrel=0
 pkgdesc="lzbench is an in-memory benchmark of open-source LZ77/LZSS/LZMA compressors"
 url="https://github.com/inikep/lzbench"

@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=py-atomicwrites
+pkgname="py-atomicwrites"
 _pkgname=python-atomicwrites
-pkgver=1.1.5
+pkgver="1.1.5"
 pkgrel=1
 pkgdesc="Powerful Python library for atomic file writes"
 url="https://github.com/untitaker/python-atomicwrites"

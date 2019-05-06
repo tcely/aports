@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-textstyle
+pkgname="py-sphinxcontrib-textstyle"
 _pkgname=sphinxcontrib-textstyle
-pkgver=0.2.0
+pkgver="0.2.0"
 pkgrel=0
 pkgdesc="Sphinx textstyle extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-textstyle"

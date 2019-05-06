@@ -1,6 +1,6 @@
 # Maintainer: Alex Raschi <raschi.alex@gmail.com>
-pkgname=neatvi
-pkgver=06
+pkgname="neatvi"
+pkgver="06"
 pkgrel=0
 pkgdesc="vi/ex editor with support for bidirectional UTF-8 text, syntax highlight and infinite undo/redo"
 url="https://github.com/aligrudi/neatvi"

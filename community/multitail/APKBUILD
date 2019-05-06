@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=multitail
-pkgver=6.4.2
+pkgname="multitail"
+pkgver="6.4.2"
 pkgrel=1
 pkgdesc="MultiTail lets you view one or multiple files like the original tail program"
 arch="all"

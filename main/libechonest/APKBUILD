@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=libechonest
-pkgver=2.3.1
+pkgname="libechonest"
+pkgver="2.3.1"
 pkgrel=0
 pkgdesc="C++ library for interfacing with Echo Nest"
 url="https://projects.kde.org/projects/playground/libs/libechonest"

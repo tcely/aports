@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-argh
+pkgname="py-argh"
 _pkgname=argh
-pkgver=0.26.2
+pkgver="0.26.2"
 pkgrel=3
 pkgdesc="A Python argparse wrapper"
 url="https://github.com/neithere/argh"

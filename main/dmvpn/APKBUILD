@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=dmvpn
-pkgver=1.0.2
+pkgname="dmvpn"
+pkgver="1.0.2"
 pkgrel=0
 pkgdesc="Dynamic Multipoint VPN"
 url="https://git.alpinelinux.org/cgit/dmvpn-tools/"

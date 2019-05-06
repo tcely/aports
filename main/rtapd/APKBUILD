@@ -1,8 +1,8 @@
 # Contributor: Jeff Bilyk <jbilyk@alpinelinux.org>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=rtapd
+pkgname="rtapd"
 _altpkgname="rtnppd"
-pkgver=1.7
+pkgver="1.7"
 pkgrel=6
 pkgdesc="daemon for routing packets to rtnppd"
 url="https://sourceforge.net/projects/rtnppd/"

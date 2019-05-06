@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer:
-pkgname=freeswitch-sounds-pt-BR-karina-8000
-pkgver=1.0.51
+pkgname="freeswitch-sounds-pt-BR-karina-8000"
+pkgver="1.0.51"
 pkgrel=1
 pkgdesc="Sounds for freeswitch Brazilian Portuguese"
 url="http://files.freeswitch.org/"

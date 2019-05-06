@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=opensc
+pkgname="opensc"
 _realname=OpenSC
-pkgver=0.19.0
+pkgver="0.19.0"
 pkgrel=2
 pkgdesc="Open source smart card tools and middleware"
 url="https://github.com/OpenSC/OpenSC"

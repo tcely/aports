@@ -1,8 +1,8 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gcc6
-pkgver=6.4.0
+pkgname="gcc6"
+pkgver="6.4.0"
 _ver=${pkgver%%.*}
-pkgname="$pkgname"
+pkgname=""$pkgname""
 pkgrel=9
 pkgdesc="The GNU Compiler Collection"
 url="http://gcc.gnu.org"

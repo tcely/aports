@@ -1,9 +1,9 @@
 # Contributor: Daniel Sabogal <dsabogalcc@gmail.com>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-mpack
+pkgname="lua-mpack"
 _rockname=mpack
 _pkgname=libmpack-lua
-pkgver=1.0.7
+pkgver="1.0.7"
 pkgrel=0
 pkgdesc="Libmpack bindings for Lua"
 url="https://github.com/libmpack/libmpack-lua"

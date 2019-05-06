@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-busted
+pkgname="lua-busted"
 _pkgname=busted
-pkgver=2.0_rc13
+pkgver="2.0_rc13"
 _pkgver=${pkgver/_/.}-0
 pkgrel=0
 pkgdesc="Elegant Lua unit testing"

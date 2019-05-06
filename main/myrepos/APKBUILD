@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=myrepos
-pkgver=1.20180726
+pkgname="myrepos"
+pkgver="1.20180726"
 pkgrel=0
 pkgdesc="A multiple repository management tool"
 url="https://git.joeyh.name/git/myrepos.git"

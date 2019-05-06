@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=iptstate
-pkgver=2.2.6
+pkgname="iptstate"
+pkgver="2.2.6"
 pkgrel=1
 pkgdesc="Top-like interface to netfilter connection-tracking table"
 url="https://www.phildev.net/iptstate/"

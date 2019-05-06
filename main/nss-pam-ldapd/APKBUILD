@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=nss-pam-ldapd
-pkgver=0.9.8
+pkgname="nss-pam-ldapd"
+pkgver="0.9.8"
 pkgrel=0
 pkgdesc="An nsswitch module which uses directory servers"
 url="https://arthurdejong.org/nss-pam-ldapd/"

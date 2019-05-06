@@ -1,7 +1,7 @@
 # Contributor: Matt Dainty <matt+alpine@bodgit-n-scarper.com>
 # Maintainer: 
-pkgname=cloud-init
-pkgver=18.5
+pkgname="cloud-init"
+pkgver="18.5"
 pkgrel=1
 pkgdesc="Cloud instance init scripts"
 url="https://cloud-init.io"

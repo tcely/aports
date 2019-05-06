@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=py-core-api
+pkgname="py-core-api"
 _pkgname=python-client
-pkgver=2.3.3
+pkgver="2.3.3"
 pkgrel=4
 pkgdesc="Python client library for Core API"
 url="https://github.com/core-api/python-client"

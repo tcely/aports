@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libisoburn
-pkgver=1.4.8
+pkgname="libisoburn"
+pkgver="1.4.8"
 pkgrel=0
 pkgdesc="Library to enable creation and expansion of ISO-9660 filesystems"
 url="http://libburnia-project.org/"

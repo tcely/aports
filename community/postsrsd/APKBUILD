@@ -1,7 +1,7 @@
 # Contributor: Kevin Daudt <kdaudt@alpinelinux.org>
 # Maintainer: Kevin Daudt <kdaudt@alpinelinux.org>
-pkgname=postsrsd
-pkgver=1.6
+pkgname="postsrsd"
+pkgver="1.6"
 pkgrel=1
 pkgdesc="Postfix Sender Rewriting Scheme daemon"
 url="https://github.com/roehling/postsrsd"

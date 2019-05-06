@@ -3,9 +3,9 @@
 # this aport only includes glib/gtk support in order to break the
 # circular make dependency: gtk <- cups <- poppler <- gtk
 
-pkgname=poppler-qt5
+pkgname="poppler-qt5"
 _pkgname=poppler
-pkgver=0.71.0
+pkgver="0.71.0"
 pkgrel=0
 pkgdesc="PDF rendering library based on xpdf 3.0"
 url="https://poppler.freedesktop.org/"

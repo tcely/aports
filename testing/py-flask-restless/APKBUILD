@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-restless
+pkgname="py-flask-restless"
 _pkgname=Flask-Restless
-pkgver=0.12.0
+pkgver="0.12.0"
 pkgrel=0
 pkgdesc="Flask ReSTful API generation extension"
 url="https://pypi.python.org/pypi/Flask-Restless"

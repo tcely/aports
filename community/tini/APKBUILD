@@ -1,6 +1,6 @@
 # Maintainer: Danilo Bürger <danilo@feastr.de>
-pkgname=tini
-pkgver=0.18.0
+pkgname="tini"
+pkgver="0.18.0"
 pkgrel=0
 pkgdesc="A tiny but valid init for containers"
 url="https://github.com/krallin/tini"

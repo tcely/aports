@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=expat
-pkgver=2.2.6
+pkgname="expat"
+pkgver="2.2.6"
 pkgrel=0
 pkgdesc="An XML Parser library written in C"
 url="http://www.libexpat.org/"

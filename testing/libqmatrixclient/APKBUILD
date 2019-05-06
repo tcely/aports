@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=libqmatrixclient
-pkgver=0.5.1.2
+pkgname="libqmatrixclient"
+pkgver="0.5.1.2"
 pkgrel=0
 pkgdesc="Qt5 library for cross-platform clients for Matrix"
 options="!check" # No testsuite

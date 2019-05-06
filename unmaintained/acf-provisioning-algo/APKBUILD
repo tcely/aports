@@ -1,7 +1,7 @@
 # Contributor: Seung Soo Mun <hamletmun@gmail.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-provisioning-algo
-pkgver=2.4
+pkgname="acf-provisioning-algo"
+pkgver="2.4"
 pkgrel=1
 pkgdesc="Files for provisioning Algo Products"
 url="http://www.algosolutions.com/products/overview.html"

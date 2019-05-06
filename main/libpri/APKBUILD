@@ -1,7 +1,7 @@
 # Contributor: Timo Teras <timo.teras@iki.fi>
 # Maintainer: Timo Teras <timo.teras@iki.fi>
-pkgname=libpri
-pkgver=1.6.0
+pkgname="libpri"
+pkgver="1.6.0"
 _pkgver=$pkgver
 pkgrel=0
 pkgdesc="Primary Rate ISDN (PRI) library"

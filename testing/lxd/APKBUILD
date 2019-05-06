@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=lxd
-pkgver=3.12
+pkgname="lxd"
+pkgver="3.12"
 pkgrel=0
 pkgdesc="a container hypervisor and a new user experience for LXC"
 url="https://linuxcontainers.org/lxd/"

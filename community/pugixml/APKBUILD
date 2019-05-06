@@ -1,7 +1,7 @@
 # Contributor: Kevin Daudt <ops@ikke.info>
 # Maintainer: Kevin Daudt <ops@ikke.info>
-pkgname=pugixml
-pkgver=1.9
+pkgname="pugixml"
+pkgver="1.9"
 pkgrel=0
 pkgdesc="Light-weight, simple and fast XML parser for C++ with XPath support"
 url="http://pugixml.org"

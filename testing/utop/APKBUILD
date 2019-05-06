@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=utop
-pkgver=2.1.0
+pkgname="utop"
+pkgver="2.1.0"
 pkgrel=2
 pkgdesc="Universal toplevel for OCaml"
 url="https://github.com/diml/utop"

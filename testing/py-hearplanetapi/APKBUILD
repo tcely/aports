@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-hearplanetapi
+pkgname="py-hearplanetapi"
 _pkgname=HearPlanetAPI
-pkgver=0.1.1
+pkgver="0.1.1"
 pkgrel=0
 pkgdesc="Python API wrapper for Hear Planet"
 url="http://pypi.python.org/pypi/HearPlanetAPI/"

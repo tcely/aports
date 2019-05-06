@@ -1,8 +1,8 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-passlib
+pkgname="py-passlib"
 _pkgname=passlib
-pkgver=1.7.1
+pkgver="1.7.1"
 pkgrel=2
 pkgdesc="A python hashing library for over 30 schemes"
 url="https://pypi.python.org/pypi/passlib"

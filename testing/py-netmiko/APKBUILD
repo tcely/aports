@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-netmiko
+pkgname="py-netmiko"
 _pkgname=${pkgname/py-/}
-pkgver=2.3.3
+pkgver="2.3.3"
 pkgrel=1
 pkgdesc="Multi-vendor library to simplify Paramiko SSH connections to network devices"
 url="https://github.com/ktbyers/netmiko"

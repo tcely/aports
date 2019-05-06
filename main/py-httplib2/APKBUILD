@@ -1,8 +1,8 @@
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-httplib2
+pkgname="py-httplib2"
 _pkgname=httplib2
-pkgver=0.12.1
+pkgver="0.12.1"
 pkgrel=1
 pkgdesc="Python HTTP client library"
 url="https://github.com/httplib2/httplib2"

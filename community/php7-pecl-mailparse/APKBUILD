@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-mailparse
+pkgname="php7-pecl-mailparse"
 _pkgreal=mailparse
-pkgver=3.0.3
+pkgver="3.0.3"
 pkgrel=0
 pkgdesc="PHP extension for parsing and working with email messages - PECL"
 url="https://pecl.php.net/package/mailparse"

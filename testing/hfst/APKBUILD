@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Frankie Robertson <frankie@robertson.name>
 # Maintainer:
-pkgname=hfst
-pkgver=3.9.1
+pkgname="hfst"
+pkgver="3.9.1"
 pkgrel=0
 pkgdesc="Helsinki Finite-State Transducer Technology toolkit"
 url="http://www.ling.helsinki.fi/kieliteknologia/tutkimus/$pkgname/"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ofono
-pkgver=1.29
+pkgname="ofono"
+pkgver="1.29"
 pkgrel=0
 pkgdesc="Infrastructure for building mobile telephony (GSM/UMTS) applications"
 url="https://01.org/ofono"

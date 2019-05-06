@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=apk-tools
-pkgver=2.10.3
+pkgname="apk-tools"
+pkgver="2.10.3"
 pkgrel=1
 pkgdesc="Alpine Package Keeper - package manager for alpine"
 subpackages="$pkgname-static"

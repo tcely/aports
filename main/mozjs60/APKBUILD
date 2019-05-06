@@ -1,6 +1,6 @@
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=mozjs60
-pkgver=60.6.1
+pkgname="mozjs60"
+pkgver="60.6.1"
 _majver=${pkgver%%.*}
 pkgrel=1
 pkgdesc="standalone mozilla javascript engine"

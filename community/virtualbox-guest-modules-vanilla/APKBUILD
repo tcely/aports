@@ -15,8 +15,8 @@ _kpkgver="$_kver-r$_krel"
 _kabi=$_kver-$_krel-$_flavor
 _kabi_virt=$_kver-$_krel-virt
 
-pkgname=$_name-$_flavor
-pkgver=$_kver
+pkgname="$_name-$_flavor"
+pkgver="$_kver"
 pkgrel=$(($_krel + $_rel))
 
 pkgdesc="VirtualBox Additions guest kernel modules for $_flavor"

@@ -1,6 +1,6 @@
 # Maintainer: Jeff Bilyk <jbilyk@gmail.com>
-pkgname=nrpe
-pkgver=3.2.1
+pkgname="nrpe"
+pkgver="3.2.1"
 pkgrel=1
 pkgusers="nagios"
 pkggroups="nagios"

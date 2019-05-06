@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=flatpak
-pkgver=1.2.3
+pkgname="flatpak"
+pkgver="1.2.3"
 pkgrel=0
 pkgdesc="Application deployment framework for desktop apps"
 url="http://flatpak.org"

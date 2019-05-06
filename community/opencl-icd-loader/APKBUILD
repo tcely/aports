@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=opencl-icd-loader
+pkgname="opencl-icd-loader"
 _pkgreal=ocl-icd
-pkgver=2.2.12
+pkgver="2.2.12"
 pkgrel=2
 pkgdesc="Generic OpenCL ICD Loader"
 url="https://github.com/OCL-dev/ocl-icd"

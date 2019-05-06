@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=podofo
-pkgver=0.9.6
+pkgname="podofo"
+pkgver="0.9.6"
 pkgrel=1
 pkgdesc="A C++ library to work with the PDF file format"
 url="http://podofo.sourceforge.net"

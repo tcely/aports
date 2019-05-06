@@ -1,7 +1,7 @@
 # Maintainer:
-pkgname=py-ttystatus
+pkgname="py-ttystatus"
 _pkgname=${pkgname#py-}
-pkgver=0.23
+pkgver="0.23"
 pkgrel=1
 pkgdesc="Terminal progress bar and status output for command line"
 url="http://liw.fi/ttystatus/"

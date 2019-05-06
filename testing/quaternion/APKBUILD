@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=quaternion
-pkgver=0.0.9.4a
+pkgname="quaternion"
+pkgver="0.0.9.4a"
 pkgrel=0
 pkgdesc="Qt5-based IM client for Matrix"
 options="!check" # No testsuite

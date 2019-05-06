@@ -1,8 +1,8 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=dhcpcd
-pkgver=7.2.0
+pkgname="dhcpcd"
+pkgver="7.2.0"
 pkgrel=0
 pkgdesc="RFC2131 compliant DHCP client"
 url="https://roy.marples.name/projects/dhcpcd"

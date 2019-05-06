@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=ranger
-pkgver=1.9.2
+pkgname="ranger"
+pkgver="1.9.2"
 pkgrel=0
 pkgdesc="VIM-inspired filemanager for the console"
 url="https://ranger.github.io/"

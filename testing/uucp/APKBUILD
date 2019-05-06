@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Mathew Meins <mathewm@sdf.lonestar.org>
 # Maintainer: Mathew Meins <mathewm@sdf.lonestar.org>
-pkgname=uucp
-pkgver=1.07
+pkgname="uucp"
+pkgver="1.07"
 pkgrel=3
 pkgdesc="Taylor UUCP is a free implementation of UUCP"
 url="https://airs.com/ian/uucp.html"

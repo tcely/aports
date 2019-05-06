@@ -1,10 +1,10 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-compat53
+pkgname="lua-compat53"
 _rockname=compat53
 _pkgname=lua-compat-5.3
-pkgver=0.3
+pkgver="0.3"
 pkgrel=1
 pkgdesc="Compatibility module providing Lua-5.3-style APIs for Lua"
 url="https://github.com/keplerproject/lua-compat-5.3"

@@ -1,6 +1,6 @@
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=aspell-de
-pkgver=20030222
+pkgname="aspell-de"
+pkgver="20030222"
 pkgrel=1
 _lang=${pkgname##*-}
 _name=${pkgname%%-*}6-$_lang-$pkgver-1

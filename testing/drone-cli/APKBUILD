@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=drone-cli
-pkgver=1.0.6
+pkgname="drone-cli"
+pkgver="1.0.6"
 pkgrel=0
 pkgdesc="Drone CLI" 
 url="https://github.com/drone/drone-cli"

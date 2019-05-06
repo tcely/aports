@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=numix-icon-theme
-pkgver=0_git20161019
+pkgname="numix-icon-theme"
+pkgver="0_git20161019"
 pkgrel=0
 pkgdesc="Official icon theme from the Numix project"
 url="http://numixproject.org/"

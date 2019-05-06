@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Francesco Colista <francesco.colista@gmail.com>
-pkgname=perl-mime-lite
+pkgname="perl-mime-lite"
 _pkgreal=MIME-Lite
-pkgver=3.030
+pkgver="3.030"
 pkgrel=1
 pkgdesc="low-calorie MIME generator"
 url="http://search.cpan.org/dist/MIME-Lite/"

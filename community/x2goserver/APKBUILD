@@ -1,8 +1,8 @@
 # Contributor: Jeff Bilyk <jbilyk@gmail.com>
 # Contributor: Jean-Charles de Longueville <jch@hellea.eu>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=x2goserver
-pkgver=4.1.0.3
+pkgname="x2goserver"
+pkgver="4.1.0.3"
 pkgrel=0
 pkgdesc=" X2Go enables you to access a graphical desktop of a computer over a low bandwidth (or high bandwidth) connection."
 url="http://x2go.org"

@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=tinyssh
-pkgver=20190101
+pkgname="tinyssh"
+pkgver="20190101"
 pkgrel=0
 pkgdesc="Small SSH server using NaCl / TweetNaCl (no dependency on OpenSSL)"
 url="https://tinyssh.org/"

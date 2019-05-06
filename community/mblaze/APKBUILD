@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=mblaze
-pkgver=0.5.1
+pkgname="mblaze"
+pkgver="0.5.1"
 pkgrel=0
 pkgdesc="Unix utilities to deal with Maildir"
 url="https://github.com/chneukirchen/mblaze"

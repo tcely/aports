@@ -1,8 +1,8 @@
 # Contributor: Jeremy Thomerson <jeremy@thomersonfamily.com>
 # Maintainer: Jeremy Thomerson <jeremy@thomersonfamily.com>
-pkgname=rdiff-backup
+pkgname="rdiff-backup"
 # Note: Do not update to 1.3.3, it's development/unstable version! #6458
-pkgver=1.2.8
+pkgver="1.2.8"
 pkgrel=2
 pkgdesc="A backup utility that maintains extra reverse diffs so that files can be restored from previous backups"
 url="https://www.gnu.org/savannah-checkouts/non-gnu/rdiff-backup/"

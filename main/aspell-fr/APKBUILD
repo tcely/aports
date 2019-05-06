@@ -1,6 +1,6 @@
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=aspell-fr
-pkgver=0.50_p3
+pkgname="aspell-fr"
+pkgver="0.50_p3"
 _ver=${pkgver/_p/-}
 pkgrel=1
 pkgdesc="French dictionary for aspell"

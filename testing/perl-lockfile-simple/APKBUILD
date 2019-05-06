@@ -1,8 +1,8 @@
 # Contributor: TBK <tbk@jjtc.eu>
-pkgname=perl-lockfile-simple
+pkgname="perl-lockfile-simple"
 _pkgreal=LockFile-Simple
 __pkgreal=lockfile-simple
-pkgver=0.208
+pkgver="0.208"
 pkgrel=0
 pkgdesc="Simple file locking scheme"
 url="http://search.cpan.org/dist/LockFile-Simple/"

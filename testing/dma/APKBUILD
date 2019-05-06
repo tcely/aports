@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=dma
-pkgver=0.11
+pkgname="dma"
+pkgver="0.11"
 pkgrel=8
 pkgdesc="A small Mail Transport Agent from DragonFly BSD"
 url="https://github.com/corecode/dma"

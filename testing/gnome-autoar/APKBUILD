@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=gnome-autoar
-pkgver=0.2.3
+pkgname="gnome-autoar"
+pkgver="0.2.3"
 pkgrel=0
 pkgdesc="GNOME archive extraction library"
 url="https://www.gnome.org/"

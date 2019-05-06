@@ -1,7 +1,7 @@
 # Contributor: TBK <tbk@jjtc.eu>
-pkgname=perl-number-misc
+pkgname="perl-number-misc"
 _pkgreal=Number-Misc
-pkgver=1.2
+pkgver="1.2"
 pkgrel=0
 pkgdesc="Handy utilities for numbers"
 url="http://search.cpan.org/dist/Number-Misc/"

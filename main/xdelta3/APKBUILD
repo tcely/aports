@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xdelta3
-pkgver=3.0.11
+pkgname="xdelta3"
+pkgver="3.0.11"
 pkgrel=0
 pkgdesc="A diff utility which works with binary files"
 url="http://xdelta.org/"

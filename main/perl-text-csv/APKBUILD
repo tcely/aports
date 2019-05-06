@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-text-csv
+pkgname="perl-text-csv"
 _pkgname=Text-CSV
-pkgver=1.97
+pkgver="1.97"
 pkgrel=0
 pkgdesc="Manipulate comma-separated value strings"
 url="http://search.cpan.org/dist/Text-CSV/"

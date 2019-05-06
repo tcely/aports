@@ -1,7 +1,7 @@
 # Contributor: Rasmus Thomsen <oss@cogitri.dev>
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=telepathy-glib
-pkgver=0.24.1
+pkgname="telepathy-glib"
+pkgver="0.24.1"
 pkgrel=0
 pkgdesc="Library for GLib-based Telepathy components"
 url="https://telepathy.freedesktop.org"

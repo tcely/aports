@@ -1,9 +1,9 @@
 # Contributor: Andy Postnikov <apostnikov@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
 
-pkgname=php7-pecl-pcov
+pkgname="php7-pecl-pcov"
 _pkgreal=pcov
-pkgver=1.0.2
+pkgver="1.0.2"
 pkgrel=0
 pkgdesc="Code coverage driver for PHP"
 url="https://pecl.php.net/package/pcov"

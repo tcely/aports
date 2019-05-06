@@ -1,7 +1,7 @@
 # Contributor: Chris Leishman <chris@leishman.org>
 # Maintainer: Chris Leishman <chris@leishman.org>
-pkgname=libcypher-parser
-pkgver=0.6.0
+pkgname="libcypher-parser"
+pkgver="0.6.0"
 pkgrel=0
 pkgdesc="Parsing library for the Cypher query language"
 url="https://github.com/cleishm/libcypher-parser"

@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=partimage
-pkgver=0.6.9
+pkgname="partimage"
+pkgver="0.6.9"
 pkgrel=6
 pkgdesc="Saves partitions having a supported filesystem to an image file"
 url="http://www.partimage.org"

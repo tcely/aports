@@ -1,7 +1,7 @@
 # Contributor: Cág <ca6c@bitmessage.ch>
 # Maintainer: Cág <ca6c@bitmessage.ch>
-pkgname=cwm
-pkgver=6.3
+pkgname="cwm"
+pkgver="6.3"
 pkgrel=0
 pkgdesc="A lightweight and efficient window manager for X11"
 url="https://github.com/chneukirchen/cwm"

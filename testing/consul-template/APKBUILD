@@ -1,7 +1,7 @@
 # Contributor: Gennady Feldman <gena01@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=consul-template
-pkgver=0.20.0
+pkgname="consul-template"
+pkgver="0.20.0"
 pkgrel=0
 pkgdesc="Generic template rendering and notifications with Consul"
 url="https://www.consul.io/"

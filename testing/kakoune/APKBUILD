@@ -1,7 +1,7 @@
 # Maintainer: Jakub Skrzypnik <j.skrzypnik@openmailbox.org>
 _commit="baf3d82b3412b9aa0b98febf114baf7f16439994"
-pkgname=kakoune
-pkgver=0_git20171229
+pkgname="kakoune"
+pkgver="0_git20171229"
 pkgrel=0
 pkgdesc="Code editor heavily inspired by Vim, but with less keystrokes"
 url="http://kakoune.org"

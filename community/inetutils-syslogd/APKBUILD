@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=inetutils-syslogd
+pkgname="inetutils-syslogd"
 _pkgname=inetutils
-pkgver=1.9.4
+pkgver="1.9.4"
 pkgrel=2
 pkgdesc="A small syslogd for logging to multiple files"
 url="https://www.gnu.org/software/inetutils/"

@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-menhir
+pkgname="ocaml-menhir"
 _pkgname=menhir
 # NOTE: Check supported version in Reason before upgrading!
-pkgver=20171013
+pkgver="20171013"
 pkgrel=4
 pkgdesc="LR(1) parser generator for OCaml"
 url="http://gallium.inria.fr/~fpottier/menhir/"

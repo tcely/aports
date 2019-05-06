@@ -1,7 +1,7 @@
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
 _luaversions="5.2 5.3"
-pkgname=lua-cqueues-pushy
-pkgver=0.20180530
+pkgname="lua-cqueues-pushy"
+pkgver="0.20180530"
 _commitid=5c4dc58a83490e18e977d880ca7cdee5ec5e70e5
 pkgrel=0
 pkgdesc="Framework for logic control (based on cqueues)"

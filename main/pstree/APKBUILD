@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=pstree
-pkgver=2.39
+pkgname="pstree"
+pkgver="2.39"
 pkgrel=0
 pkgdesc="A small tool to list processes as a tree"
 url="http://www.thp.uni-duisburg.de/pstree/"

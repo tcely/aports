@@ -1,7 +1,7 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gtk-vnc
-pkgver=0.7.1
+pkgname="gtk-vnc"
+pkgver="0.7.1"
 pkgrel=1
 pkgdesc="A VNC viewer widget for GTK"
 url="https://wiki.gnome.org/Projects/gtk-vnc"

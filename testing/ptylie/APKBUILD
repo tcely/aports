@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ptylie
-pkgver=0.2
+pkgname="ptylie"
+pkgver="0.2"
 pkgrel=0
 pkgdesc="Record a terminal session with automatic keyboard entry"
 url="https://github.com/p-gen/ptylie"

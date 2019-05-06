@@ -1,7 +1,7 @@
 # Contributor: <xmingske@gmail.com>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=minetest
-pkgver=5.0.1
+pkgname="minetest"
+pkgver="5.0.1"
 pkgrel=0
 pkgdesc="An infinite-world block sandbox game and a game engine"
 url="https://minetest.net/"

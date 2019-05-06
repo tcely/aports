@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-setuptools-flakes
+pkgname="py-setuptools-flakes"
 _pkgname=setuptools-flakes
-pkgver=0.1
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Setuptools plugin for pyflakes"
 url="https://github.com/johnnoone/setuptools-pyflakes.git"

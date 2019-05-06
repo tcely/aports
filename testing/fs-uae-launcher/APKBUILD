@@ -1,6 +1,6 @@
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=fs-uae-launcher
-pkgver=2.8.4
+pkgname="fs-uae-launcher"
+pkgver="2.8.4"
 pkgrel=0
 pkgdesc="FS-UAE emulator launcher."
 url="https://fs-uae.net/launcher"

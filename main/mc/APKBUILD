@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mc
-pkgver=4.8.22
+pkgname="mc"
+pkgver="4.8.22"
 pkgrel=0
 pkgdesc="Filemanager/shell that emulates Norton Commander"
 url="https://www.midnight-commander.org"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=slang
-pkgver=2.3.2
+pkgname="slang"
+pkgver="2.3.2"
 pkgrel=0
 pkgdesc="Powerful interpreted language"
 url="http://www.jedsoft.org/slang"

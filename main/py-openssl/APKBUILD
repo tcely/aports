@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=py-openssl
+pkgname="py-openssl"
 _pkgname=pyOpenSSL
-pkgver=19.0.0
+pkgver="19.0.0"
 pkgrel=0
 pkgdesc="Python wrapper module around the OpenSSL library"
 url="https://github.com/pyca/pyopenssl"

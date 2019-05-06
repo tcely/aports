@@ -1,7 +1,7 @@
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=xautolock
-pkgver=2.2
+pkgname="xautolock"
+pkgver="2.2"
 pkgrel=4
 pkgdesc="An automatic X screen-locker/screen-saver"
 url="ftp://ibiblio.org/pub/Linux/X11/screensavers/"

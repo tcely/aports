@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sigar
-pkgver=1.6.4
+pkgname="sigar"
+pkgver="1.6.4"
 pkgrel=0
 pkgdesc="System Information Gatherer And Reporter"
 url="http://sigar.hyperic.com/"

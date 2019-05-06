@@ -1,7 +1,7 @@
 # Contributor: Ian Bashford <ianbashford@gmail.com>
 # Maintainer: Ian Bashford <ianbashford@gmail.com>
-pkgname=xe-guest-utilities
-pkgver=7.11.0
+pkgname="xe-guest-utilities"
+pkgver="7.11.0"
 pkgrel=0
 pkgdesc="XenServer guest tools"
 url="https://github.com/xenserver/xe-guest-utilities"

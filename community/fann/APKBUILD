@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=fann
-pkgver=2.2.0
+pkgname="fann"
+pkgver="2.2.0"
 pkgrel=0
 pkgdesc="Fast Artificial Neural Network Library"
 url="http://leenissen.dk/fann/"

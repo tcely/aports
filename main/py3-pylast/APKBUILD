@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-pylast
-pkgver=3.0.0
+pkgname="py3-pylast"
+pkgver="3.0.0"
 pkgrel=1
 pkgdesc="A Python interface to the last.fm API"
 url="https://github.com/pylast/pylast"

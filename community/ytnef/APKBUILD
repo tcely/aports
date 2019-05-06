@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ytnef
-pkgver=1.9.3
+pkgname="ytnef"
+pkgver="1.9.3"
 pkgrel=0
 pkgdesc="TNEF Stream Reader - for winmail.dat files"
 url="https://github.com/Yeraze/ytnef"

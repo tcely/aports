@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=stlink
-pkgver=1.5.1
+pkgname="stlink"
+pkgver="1.5.1"
 pkgrel=0
 pkgdesc="STM32 discovery line linux programmer"
 url="https://github.com/texane/stlink"

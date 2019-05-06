@@ -1,7 +1,7 @@
 # Contributor: Marvin Steadfast <marvin@xsteadfastx.org>
 # Maintainer: Marvin Steadfast <marvin@xsteadfastx.org>
-pkgname=bitlbee-facebook
-pkgver=1.1.2
+pkgname="bitlbee-facebook"
+pkgver="1.1.2"
 pkgrel=1
 pkgdesc="Facebook protocol plugin for BitlBee"
 url="https://github.com/jgeboski/bitlbee-facebook"

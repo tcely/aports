@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=spreed-webrtc
-pkgver=0.29.7
+pkgname="spreed-webrtc"
+pkgver="0.29.7"
 pkgrel=1
 pkgdesc="WebRTC audio/video call and conferencing server"
 url="http://spreed.me"

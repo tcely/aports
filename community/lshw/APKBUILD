@@ -1,6 +1,6 @@
 # Contributor: Paul Kilar <pkilar@gmail.com>
 # Maintainer: Paul Kilar <pkilar@gmail.com>
-pkgname=lshw
+pkgname="lshw"
 pkgver='02.18'
 pkgrel=0
 pkgdesc="Hardware Lister"

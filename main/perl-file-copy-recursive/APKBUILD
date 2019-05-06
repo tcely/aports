@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-file-copy-recursive
-pkgver=0.44
+pkgname="perl-file-copy-recursive"
+pkgver="0.44"
 _realname=File-Copy-Recursive-$pkgver
 pkgrel=0
 pkgdesc="Perl extension for recursively copying files and directories"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=net-snmp
-pkgver=5.8
+pkgname="net-snmp"
+pkgver="5.8"
 pkgrel=0
 pkgdesc="Simple Network Management Protocol"
 url="http://www.net-snmp.org/"

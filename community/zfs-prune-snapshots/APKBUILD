@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Henrik Riomar <henrik.riomar@gmail.com>
-pkgname=zfs-prune-snapshots
-pkgver=1.0.1
+pkgname="zfs-prune-snapshots"
+pkgver="1.0.1"
 pkgrel=0
 pkgdesc="Remove snapshots from one or more zpools that match given criteria"
 url="https://github.com/bahamas10/zfs-prune-snapshots"

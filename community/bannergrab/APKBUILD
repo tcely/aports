@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=bannergrab
-pkgver=3.5
+pkgname="bannergrab"
+pkgver="3.5"
 pkgrel=6
 pkgdesc="A banner grabbing tool"
 url="https://sourceforge.net/projects/bannergrab"

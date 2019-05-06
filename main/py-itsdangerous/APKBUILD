@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer:
-pkgname=py-itsdangerous
+pkgname="py-itsdangerous"
 _pkgname=itsdangerous
-pkgver=0.24
+pkgver="0.24"
 pkgrel=4
 pkgdesc="A Python helper to pass trusted data to untrusted environments"
 url="https://github.com/mitsuhiko/itsdangerous"

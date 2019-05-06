@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinepinux.org>
-pkgname=micro-tetris
-pkgver=1.2.1
+pkgname="micro-tetris"
+pkgver="1.2.1"
 pkgrel=0
 pkgdesc="Micro Tetris, based on 1989 IOCCC Obfuscated Tetris"
 url="https://github.com/troglobit/tetris"

@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=diffutils
-pkgver=3.7
+pkgname="diffutils"
+pkgver="3.7"
 pkgrel=0
 pkgdesc="Show differences among files"
 subpackages="$pkgname-doc"

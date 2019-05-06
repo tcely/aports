@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-stdlib-normalize
+pkgname="lua-stdlib-normalize"
 _rockname=std.normalize
-pkgver=2.0.2
+pkgver="2.0.2"
 pkgrel=0
 pkgdesc="Normalized Lua functions"
 url="https://lua-stdlib.github.io/normalize/"

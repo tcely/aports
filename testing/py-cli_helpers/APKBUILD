@@ -1,8 +1,8 @@
 # Contributor: Thomas Boerger <thomas@webhippie.de>
 # Maintainer: Thomas Boerger <thomas@webhippie.de>
-pkgname=py-cli_helpers
+pkgname="py-cli_helpers"
 _pkgname=cli_helpers
-pkgver=1.0.2
+pkgver="1.0.2"
 pkgrel=2
 pkgdesc="A helper library for command-line interfaces"
 url="https://pypi.python.org/pypi/cli-helpers"

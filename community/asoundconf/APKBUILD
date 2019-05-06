@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=asoundconf
-pkgver=1.2
+pkgname="asoundconf"
+pkgver="1.2"
 pkgrel=0
 pkgdesc="Get and set configuration parameters in ~/.asoundrc.asoundconf"
 url="https://bitbucket.org/stativ/asoundconf"

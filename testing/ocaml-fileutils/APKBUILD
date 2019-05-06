@@ -1,7 +1,7 @@
 # Contributor: Fernando Casas Schossow <casasfernando@outlook.com>
 # Maintainer: Fernando Casas Schossow <casasfernando@outlook.com>
-pkgname=ocaml-fileutils
-pkgver=0.4.4
+pkgname="ocaml-fileutils"
+pkgver="0.4.4"
 pkgrel=0
 pkgdesc="OCaml library for common file and filename operations"
 url="https://github.com/gildor478/ocaml-fileutils"

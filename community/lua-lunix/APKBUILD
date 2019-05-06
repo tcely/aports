@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-lunix
+pkgname="lua-lunix"
 _pkgname=lunix
-pkgver=20150923
+pkgver="20150923"
 pkgrel=1
 pkgdesc="Comprehensive Unix API Module for Lua"
 url="https://github.com/wahern/lunix"

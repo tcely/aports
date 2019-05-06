@@ -1,7 +1,7 @@
 # Contributor: Olliver Schinagl <oliver@schinagl.nl>
 # Maintainer: Olliver Schinagl <oliver@schinagl.nl>
-pkgname=stress-ng
-pkgver=0.09.57
+pkgname="stress-ng"
+pkgver="0.09.57"
 pkgrel=0
 pkgdesc="stress-ng will stress test a computer system in various selectable ways."
 url="https://kernel.ubuntu.com/~cking/stress-ng/"

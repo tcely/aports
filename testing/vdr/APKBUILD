@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=vdr
-pkgver=2.4.0
+pkgname="vdr"
+pkgver="2.4.0"
 pkgrel=0
 pkgdesc="Video Disk Recorder"
 url="http://www.tvdr.de/"

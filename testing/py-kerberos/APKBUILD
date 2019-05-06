@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-kerberos
+pkgname="py-kerberos"
 _pkgname=kerberos
-pkgver=1.2.5
+pkgver="1.2.5"
 pkgrel=1
 pkgdesc="A Python Kerberos high-level interface"
 url="https://pypi.python.org/pypi/kerberos"

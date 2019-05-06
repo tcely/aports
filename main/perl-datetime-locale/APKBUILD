@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-datetime-locale
-pkgver=1.23
+pkgname="perl-datetime-locale"
+pkgver="1.23"
 pkgrel=0
 pkgdesc="DateTime::Locale perl module"
 url="http://search.cpan.org/dist/DateTime-Locale"

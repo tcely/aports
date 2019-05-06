@@ -1,7 +1,7 @@
 # Contributor: Isaac Dunham <ibid.ag@gmail.com>
 # Maintainer:
-pkgname=libctl
-pkgver=3.2.2
+pkgname="libctl"
+pkgver="3.2.2"
 pkgrel=2
 pkgdesc="Guile-based library implementing flexible control files for scientific simulations"
 url="http://ab-initio.mit.edu/wiki/index.php/Libctl"

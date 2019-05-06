@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-jsoncall
+pkgname="py-sphinxcontrib-jsoncall"
 _pkgname=sphinxcontrib-jsoncall
-pkgver=0.1
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Sphinx jsoncall extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-jsoncall"

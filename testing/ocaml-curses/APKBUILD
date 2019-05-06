@@ -1,7 +1,7 @@
 # Contributor: Fernando Casas Schossow <casasfernando@outlook.com>
 # Maintainer: Fernando Casas Schossow <casasfernando@outlook.com>
-pkgname=ocaml-curses
-pkgver=1.0.4
+pkgname="ocaml-curses"
+pkgver="1.0.4"
 pkgrel=1
 pkgdesc="OCaml bindings for ncurses"
 url="https://www.nongnu.org/ocaml-tmk/"

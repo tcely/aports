@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=gavl
-pkgver=1.4.0
+pkgname="gavl"
+pkgver="1.4.0"
 pkgrel=1
 pkgdesc="Low level library, upon which multimedia APIs can be built"
 url="http://gmerlin.sourceforge.net/"

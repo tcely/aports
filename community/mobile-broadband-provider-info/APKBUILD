@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mobile-broadband-provider-info
-pkgver=20170310
+pkgname="mobile-broadband-provider-info"
+pkgver="20170310"
 pkgrel=1
 pkgdesc="Mobile broadband settings for various service providers"
 url="https://git.gnome.org/browse/mobile-broadband-provider-info/"

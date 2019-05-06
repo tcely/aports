@@ -1,8 +1,8 @@
 # Contributor: Mari Hahn <mari.hahn@wwu.de>
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=tint2
-pkgver=16.6.1
+pkgname="tint2"
+pkgver="16.6.1"
 pkgrel=0
 pkgdesc="tint2 is a simple unintrusive panel/taskbar"
 url="https://gitlab.com/o9000/tint2"

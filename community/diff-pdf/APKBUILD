@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # TODO: Try to build it without GUI.
-pkgname=diff-pdf
-pkgver=0.2_git20170816
+pkgname="diff-pdf"
+pkgver="0.2_git20170816"
 _gitrev=48416f3ed9085db77cce22f836ef4456bbaacccc
 pkgrel=1
 pkgdesc="A simple tool for visually comparing two PDF files"

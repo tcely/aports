@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gnomad2
-pkgver=2.9.6
+pkgname="gnomad2"
+pkgver="2.9.6"
 pkgrel=4
 pkgdesc="A GNOME 2.0 client for the Creative Jukeboxes and Dell DJs"
 url="http://gnomad2.sourceforge.net"

@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=cdw
-pkgver=0.8.1
+pkgname="cdw"
+pkgver="0.8.1"
 pkgrel=0
 pkgdesc="cdw is a front-end for cd recoding tools"
 url="http://cdw.sf.net"

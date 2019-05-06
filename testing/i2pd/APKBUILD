@@ -1,7 +1,7 @@
 # Contributor: l-n-s <supervillain@riseup.net>
 # Maintainer: l-n-s <supervillain@riseup.net>
-pkgname=i2pd
-pkgver=2.24.0
+pkgname="i2pd"
+pkgver="2.24.0"
 pkgrel=1
 pkgdesc="I2P Router written in C++"
 url="https://github.com/PurpleI2P/i2pd"

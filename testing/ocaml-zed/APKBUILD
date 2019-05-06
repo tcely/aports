@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-zed
+pkgname="ocaml-zed"
 _pkgname=zed
-pkgver=1.6
+pkgver="1.6"
 pkgrel=2
 pkgdesc="Abstract engine for text edition in OCaml"
 url="https://github.com/diml/zed"

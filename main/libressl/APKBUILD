@@ -9,8 +9,8 @@
 #   2.5.3-r1:
 #     - CVE-2017-8301
 #
-pkgname=libressl
-pkgver=2.7.5
+pkgname="libressl"
+pkgver="2.7.5"
 _namever=${pkgname}${pkgver%.*}
 pkgrel=0
 pkgdesc="Version of the TLS/crypto stack forked from OpenSSL"

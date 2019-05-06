@@ -1,7 +1,7 @@
 # Contributor: Rasmus Thomsen <oss@cogitri.dev>
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=mellowplayer
-pkgver=3.5.3
+pkgname="mellowplayer"
+pkgver="3.5.3"
 pkgrel=0
 pkgdesc="QT based cloud music integration for your desktop"
 url="https://colinduquesnoy.gitlab.io/MellowPlayer/"

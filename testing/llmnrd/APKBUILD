@@ -1,7 +1,7 @@
 # Contributor: Nathan Caldwell <saintdev@gmail.com>
 # Maintainer: Nathan Caldwell <saintdev@gmail.com>
-pkgname=llmnrd
-pkgver=0.5
+pkgname="llmnrd"
+pkgver="0.5"
 pkgrel=0
 pkgdesc="Link-Local Multicast Resolution (LLMNR) Daemon for Linux"
 url="https://github.com/tklauser/llmnrd"

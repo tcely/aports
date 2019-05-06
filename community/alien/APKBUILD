@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=alien
-pkgver=8.95
+pkgname="alien"
+pkgver="8.95"
 pkgrel=0
 pkgdesc="Alien is a program that converts between the rpm, dpkg, stampede slp, and slackware tgz file formats"
 url="http://joeyh.name/code/alien"

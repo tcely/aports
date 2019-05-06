@@ -2,9 +2,9 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=perl-yaml-libyaml
+pkgname="perl-yaml-libyaml"
 _pkgreal=YAML-LibYAML
-pkgver=0.72
+pkgver="0.72"
 pkgrel=0
 pkgdesc="Perl YAML Serialization using XS and libyaml"
 url="http://search.cpan.org/dist/YAML-LibYAML/"

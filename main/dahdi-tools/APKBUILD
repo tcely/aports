@@ -1,7 +1,7 @@
 # Contributor: Timo Teras <timo.teras@iki.fi>
 # Maintainer: Timo Teras <timo.teras@iki.fi>
-pkgname=dahdi-tools
-pkgver=2.11.1
+pkgname="dahdi-tools"
+pkgver="2.11.1"
 pkgrel=0
 pkgdesc="Digium Asterisk Hardware Device Interface management utilities"
 url="http://www.asterisk.org"

@@ -1,7 +1,7 @@
 # Contributor: Steeve Chailloux <steeve@chaahk.com>
 # Maintainer: Steeve Chailloux <steeve@chaahk.com>
-pkgname=autocutsel
-pkgver=0.10.0
+pkgname="autocutsel"
+pkgver="0.10.0"
 pkgrel=0
 pkgdesc="automated xcutsel"
 url="http://www.nongnu.org/autocutsel/"

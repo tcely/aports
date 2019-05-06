@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Johannes Findeisen <you@hanez.org>
 
-pkgname=ucspi-tcp
-pkgver=0.88
+pkgname="ucspi-tcp"
+pkgver="0.88"
 pkgrel=1
 pkgdesc="Easy-to-use command-line tools for building TCP client-server applications."
 url="https://cr.yp.to/ucspi-tcp.html"

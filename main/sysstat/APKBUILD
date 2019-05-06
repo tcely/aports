@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sysstat
-pkgver=11.6.0
+pkgname="sysstat"
+pkgver="11.6.0"
 pkgrel=0
 pkgdesc="iA Performance monitoring tools"
 url="http://pagesperso-orange.fr/sebastien.godard/"

@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua-xml
+pkgname="lua-xml"
 _pkgname=luaxml
-pkgver=130610
+pkgver="130610"
 _pkgver=$pkgver-1
 pkgrel=5
 pkgdesc="A minimal set of functions for the processing of XML data in Lua"

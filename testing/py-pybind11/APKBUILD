@@ -1,7 +1,7 @@
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=py-pybind11
+pkgname="py-pybind11"
 _pkgname=pybind11
-pkgver=2.2.4
+pkgver="2.2.4"
 pkgrel=1
 pkgdesc="Seamless operability between C++11 and Python"
 url="https://github.com/pybind/pybind11"

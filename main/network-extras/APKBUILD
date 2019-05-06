@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=network-extras
-pkgver=1.2
+pkgname="network-extras"
+pkgver="1.2"
 pkgrel=0
 pkgdesc="Meta package to pull in ppp, vlan, bonding, bridge and wifi support"
 url="http://alpinelinux.org"

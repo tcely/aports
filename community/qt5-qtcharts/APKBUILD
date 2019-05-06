@@ -1,8 +1,8 @@
 # Contributor: Simon Frankenberger <simon-alpine@fraho.eu>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=qt5-qtcharts
+pkgname="qt5-qtcharts"
 _pkgname=${pkgname/qt5-//}-everywhere-src
-pkgver=5.12.1
+pkgver="5.12.1"
 _ver=${pkgver/_/-}
 _ver=${_ver/beta0/beta}
 _ver=${_ver/rc0/rc}

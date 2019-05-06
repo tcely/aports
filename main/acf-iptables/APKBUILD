@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-iptables
-pkgver=0.7.1
+pkgname="acf-iptables"
+pkgver="0.7.1"
 pkgrel=2
 pkgdesc="A web-based system administration interface for iptables"
 url="https://git.alpinelinux.org/cgit/acf/acf-iptables"

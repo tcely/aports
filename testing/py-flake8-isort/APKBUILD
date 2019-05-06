@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flake8-isort
+pkgname="py-flake8-isort"
 _pkgname=flake8-isort
-pkgver=2.0.1
+pkgver="2.0.1"
 pkgrel=2
 pkgdesc="Extension for flake8 which integrates isort"
 url="https://github.com/gforcada/flake8-isort"

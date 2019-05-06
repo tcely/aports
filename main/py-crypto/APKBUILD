@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=py-crypto
+pkgname="py-crypto"
 _pkgname=pycrypto
-pkgver=2.6.1
+pkgver="2.6.1"
 pkgrel=3
 pkgdesc="A Python collection of cryptographic algorithms and protocols"
 url="https://www.dlitz.net/software/pycrypto/"

@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=qutebrowser
-pkgver=1.5.2
+pkgname="qutebrowser"
+pkgver="1.5.2"
 pkgrel=1
 pkgdesc="A keyboard-driven, vim-like browser based on PyQT5"
 url="https://qutebrowser.org/"

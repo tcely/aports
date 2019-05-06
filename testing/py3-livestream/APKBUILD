@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py3-livestream
+pkgname="py3-livestream"
 _pkgname=PyLivestream
-pkgver=1.5.1
+pkgver="1.5.1"
 pkgrel=1
 pkgdesc="Simple cross-platform FFmpeg-based live streaming to YouTube, Periscope, Facebook Live and more"
 url="https://github.com/scivision/PyLivestream"

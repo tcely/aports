@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=go-mux
+pkgname="go-mux"
 _pkgname=mux
 _vendor=gorilla
-pkgver=1.6.2
+pkgver="1.6.2"
 pkgrel=0
 pkgdesc="A powerful URL router and dispatcher for golang"
 url="http://www.gorillatoolkit.org"

@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=txt2man
-pkgver=1.6.0
+pkgname="txt2man"
+pkgver="1.6.0"
 pkgrel=0
 pkgdesc="Convert flat ASCII text to man page format"
 url="https://github.com/mvertes/txt2man"

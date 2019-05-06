@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=net-tools
-pkgver=1.60_git20140218
+pkgname="net-tools"
+pkgver="1.60_git20140218"
 _ver=${pkgver%_git*}
 pkgrel=2
 pkgdesc="Linux networking base tools"

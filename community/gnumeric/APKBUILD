@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gnumeric
-pkgver=1.12.43
+pkgname="gnumeric"
+pkgver="1.12.43"
 pkgrel=0
 pkgdesc="GNOME Spreadsheet Program"
 url="http://www.gnome.org/projects/gnumeric"

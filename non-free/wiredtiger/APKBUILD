@@ -1,9 +1,9 @@
 # Maintainer: Philipp Andronov <filipp.andronov@gmail.com>
 # Contributor: Marc Vertes <mvertes@free.fr>
 
-pkgname=wiredtiger
+pkgname="wiredtiger"
 mongodb_version=3.6.3
-pkgver=3.0.0.$mongodb_version
+pkgver="3.0.0.$mongodb_version"
 pkgrel=1
 pkgdesc="High performance, scalable, production quality, NoSQL, Open Source extensible platform for data management"
 url="http://www.wiredtiger.com"

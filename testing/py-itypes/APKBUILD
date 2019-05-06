@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=py-itypes
+pkgname="py-itypes"
 _pkgreal=${pkgname#*-}
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=2
 pkgdesc="Basic immutable container types for Python"
 url="https://github.com/tomchristie/itypes"

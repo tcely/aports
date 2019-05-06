@@ -1,6 +1,6 @@
 # Contributor: Mikolaj Chwalisz <chwalisz@tkn.tu-berlin.de>
 # Maintainer: Mikolaj Chwalisz <chwalisz@tkn.tu-berlin.de>
-pkgname=libsmi
+pkgname="libsmi"
 pkgver="0.5.0"
 pkgrel=0
 pkgdesc="Library to access SMI management information"

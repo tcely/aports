@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=cracklib-words
-pkgver=20080507
+pkgname="cracklib-words"
+pkgver="20080507"
 pkgrel=2
 pkgdesc="Large list of words for crack/craclib"
 url="https://sourceforge.net/projects/cracklib"

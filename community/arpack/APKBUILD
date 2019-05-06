@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=arpack
+pkgname="arpack"
 _pkgname=$pkgname-ng
-pkgver=3.6.3
+pkgver="3.6.3"
 pkgrel=0
 pkgdesc="Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems"
 url="https://github.com/opencollab/arpack-ng"

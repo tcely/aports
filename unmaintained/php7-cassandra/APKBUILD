@@ -1,8 +1,8 @@
 # Contributor: Gennady Feldman <gena01@gmail.com>
 # Maintainer: Gennady Feldman <gena01@gmail.com>
-pkgname=php7-cassandra
+pkgname="php7-cassandra"
 _pkgreal=cassandra
-pkgver=1.3.2
+pkgver="1.3.2"
 pkgrel=0
 pkgdesc="PHP7 extension: cassandra"
 url="http://pecl.php.net/package/$_pkgreal"

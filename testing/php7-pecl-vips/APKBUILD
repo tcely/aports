@@ -1,8 +1,8 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer: TBK <alpine@jjtc.eu>
-pkgname=php7-pecl-vips
+pkgname="php7-pecl-vips"
 _pkgname=vips
-pkgver=1.0.9
+pkgver="1.0.9"
 pkgrel=1
 pkgdesc="PHP extension for interfacing with vips - PECL"
 url="https://pecl.php.net/package/vips"

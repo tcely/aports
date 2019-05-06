@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=paper-gtk-theme
-pkgver=2.1.0
+pkgname="paper-gtk-theme"
+pkgver="2.1.0"
 pkgrel=0
 pkgdesc="Paper Theme Suite"
 url="https://snwh.org/paper"

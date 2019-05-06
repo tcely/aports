@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-fifo
+pkgname="lua-fifo"
 _rockname=fifo
 _pkgname=fifo.lua
-pkgver=0.2
+pkgver="0.2"
 pkgrel=1
 pkgdesc="FIFO library for Lua"
 url="https://github.com/daurnimator/fifo.lua"

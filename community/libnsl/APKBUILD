@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=libnsl
-pkgver=1.2.0
+pkgname="libnsl"
+pkgver="1.2.0"
 pkgrel=0
 pkgdesc="Public client interface for NIS(YP) and NIS+ in a IPv6 ready version"
 url="https://github.com/thkukuk/libnsl"

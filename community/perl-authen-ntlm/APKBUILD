@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-authen-ntlm
-pkgver=1.09
+pkgname="perl-authen-ntlm"
+pkgver="1.09"
 _realname=NTLM-$pkgver
 pkgrel=1
 pkgdesc="NTLM authentication for Mail::IMAPClient"

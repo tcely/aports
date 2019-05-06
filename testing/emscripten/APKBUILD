@@ -3,9 +3,9 @@
 
 # Note: This software is total mess and it seems to be nearly impossible to
 #   create a clean distribution package.
-pkgname=emscripten
+pkgname="emscripten"
 # Keep with sync with pkg emscrypten-fastcomp!
-pkgver=1.37.9
+pkgver="1.37.9"
 pkgrel=3
 pkgdesc="An LLVM-to-JavaScript Compiler"
 url="https://kripken.github.io/emscripten-site/"

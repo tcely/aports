@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=musl
-pkgver=1.1.22
+pkgname="musl"
+pkgver="1.1.22"
 pkgrel=0
 pkgdesc="the musl c library (libc) implementation"
 url="http://www.musl-libc.org/"

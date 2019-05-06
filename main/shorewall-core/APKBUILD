@@ -1,7 +1,7 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=shorewall-core
-pkgver=5.2.2
+pkgname="shorewall-core"
+pkgver="5.2.2"
 
 _ver=$pkgver
 case $pkgver in

@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-lub
+pkgname="lua-lub"
 _pkgname=lub
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="Lubyk base module for Lua"
 url="http://doc.lubyk.org/lub.html"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=pound
-pkgver=2.8
+pkgname="pound"
+pkgver="2.8"
 pkgrel=0
 pkgdesc="A reverse proxy, load balancer, and SSL wrapper"
 url="http://www.apsis.ch/pound/index_html"

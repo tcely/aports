@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=lzip
-pkgver=1.21
+pkgname="lzip"
+pkgver="1.21"
 pkgrel=0
 pkgdesc="Lzip is a lossless data compressor"
 url="http://www.nongnu.org/lzip/lzip.html"

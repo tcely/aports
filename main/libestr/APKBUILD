@@ -1,7 +1,7 @@
 # Contributor: Uros
 # Maintainer: Cameron Banta <cbanta@gmail.com>
-pkgname=libestr
-pkgver=0.1.10
+pkgname="libestr"
+pkgver="0.1.10"
 pkgrel=0
 pkgdesc="essentials for string handling (and a bit more)"
 url="http://libestr.adiscon.com"

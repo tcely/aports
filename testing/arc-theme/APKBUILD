@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=arc-theme
-pkgver=20190330
+pkgname="arc-theme"
+pkgver="20190330"
 pkgrel=0
 pkgdesc="A flat theme with transparent elements"
 url="https://github.com/NicoHood/arc-theme"

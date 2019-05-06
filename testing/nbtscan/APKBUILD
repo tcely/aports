@@ -1,6 +1,6 @@
 # Maintainer: François Chavant <alpine@mail.chavant.info>
-pkgname=nbtscan
-pkgver=1.5.1
+pkgname="nbtscan"
+pkgver="1.5.1"
 pkgrel=1
 pkgdesc="NETBIOS nameserver scanner"
 url="http://www.inetcat.net/software/nbtscan.html"

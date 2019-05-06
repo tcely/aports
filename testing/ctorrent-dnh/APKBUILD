@@ -1,7 +1,7 @@
 # Contributor: Denis Ryabyy <vv1r0x@gmail.com>
 # Maintainer: Denis Ryabyy <vv1r0x@gmail.com>
-pkgname=ctorrent-dnh
-pkgver=3.3.2
+pkgname="ctorrent-dnh"
+pkgver="3.3.2"
 pkgrel=0
 pkgdesc="Enhanced CTorrent is a BitTorrent client for unix-like environments"
 url="http://www.rahul.net/dholmes/ctorrent/"

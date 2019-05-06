@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Timo Teras <timo.teras@iki.fi>
 # Maintainer: Timo Teras <timo.teras@iki.fi>
-pkgname=asterisk
-pkgver=16.3.0
+pkgname="asterisk"
+pkgver="16.3.0"
 pkgrel=0
 pkgdesc="Asterisk: A Module Open Source PBX System"
 pkgusers="asterisk"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-testbuild
+pkgname="py-sphinxcontrib-testbuild"
 _pkgname=sphinxcontrib-testbuild
-pkgver=0.1.3
+pkgver="0.1.3"
 pkgrel=0
 pkgdesc="Sphinx testbuild extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-testbuild"

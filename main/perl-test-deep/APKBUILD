@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-test-deep
-pkgver=1.128
+pkgname="perl-test-deep"
+pkgver="1.128"
 pkgrel=0
 pkgdesc="Test::Deep perl module"
 url="http://search.cpan.org/dist/Test-Deep/"

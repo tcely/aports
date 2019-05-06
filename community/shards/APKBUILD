@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=shards
-pkgver=0.8.1
+pkgname="shards"
+pkgver="0.8.1"
 pkgrel=0
 _minitestver=0.4.1
 pkgdesc="Dependency manager for the Crystal language"

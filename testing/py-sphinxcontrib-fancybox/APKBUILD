@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-fancybox
+pkgname="py-sphinxcontrib-fancybox"
 _pkgname=sphinxcontrib-fancybox
-pkgver=0.3.2
+pkgver="0.3.2"
 pkgrel=0
 pkgdesc="Sphinx fancybox extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-fancybox"

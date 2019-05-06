@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=biblatex
-pkgver=3.12
+pkgname="biblatex"
+pkgver="3.12"
 pkgrel=0
 pkgdesc="Sophisticated Bibliographies in LaTeX"
 url="https://www.ctan.org/pkg/biblatex"

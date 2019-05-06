@@ -1,7 +1,7 @@
 # Contributor: Rasmus Thomsen <oss@cogitri.dev>
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=vinagre
-pkgver=3.22.0
+pkgname="vinagre"
+pkgver="3.22.0"
 pkgrel=0
 pkgdesc="VNC client for the GNOME desktop"
 url="https://wiki.gnome.org/Apps/Vinagre"

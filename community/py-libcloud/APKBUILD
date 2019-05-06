@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-libcloud
+pkgname="py-libcloud"
 _pkgname=${pkgname/py-/}
-pkgver=2.4.0
+pkgver="2.4.0"
 pkgrel=1
 pkgdesc="Python library for interacting with many of the popular cloud service providers using a unified API."
 url="http://libcloud.apache.org/"

@@ -1,7 +1,7 @@
 # Maintainer: Daniel Isaksen <d@duniel.no>
 
-pkgname=yara
-pkgver=3.7.0
+pkgname="yara"
+pkgver="3.7.0"
 pkgrel=3
 pkgdesc="The pattern matching swiss knife for malware researchers"
 url="https://virustotal.github.io/yara/"

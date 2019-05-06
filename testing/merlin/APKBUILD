@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=merlin
-pkgver=3.0.5
+pkgname="merlin"
+pkgver="3.0.5"
 pkgrel=0
 pkgdesc="Context sensitive completion for OCaml"
 url="https://ocaml.github.io/merlin/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=glade3
-pkgver=3.8.5
+pkgname="glade3"
+pkgver="3.8.5"
 pkgrel=5
 pkgdesc="A RAD tool for rapid development of GTK+ user interfaces"
 url="https://glade.gnome.org/"

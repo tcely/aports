@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=shellcat
-pkgver=1.1.1
+pkgname="shellcat"
+pkgver="1.1.1"
 pkgrel=0
 pkgdesc="Templating system with shell syntax"
 url="https://github.com/jwilk/shellcat"

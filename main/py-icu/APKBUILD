@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=py-icu
+pkgname="py-icu"
 _pkgname=PyICU
-pkgver=2.3.1
+pkgver="2.3.1"
 pkgrel=0
 pkgdesc="Python binding for ICU"
 url="https://pypi.org/project/PyICU/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=shared-mime-info
-pkgver=1.12
+pkgname="shared-mime-info"
+pkgver="1.12"
 pkgrel=0
 pkgdesc="Freedesktop.org Shared MIME Info"
 url="http://freedesktop.org/Software/shared-mime-info"

@@ -1,8 +1,8 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-evdev
+pkgname="lua-evdev"
 _rockname=evdev
-pkgver=2.2.1
+pkgver="2.2.1"
 pkgrel=1
 pkgdesc="Lua module for reading input events"
 url="https://github.com/Tangent128/lua-evdev"

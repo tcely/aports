@@ -1,13 +1,13 @@
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=libmilter
+pkgname="libmilter"
 _pkgname=sendmail
 # This library is part of sendmail, but it does not share the version number with it.
 # In order to find the right libmilter version number, check SMFI_VERSION definition
 # that can be found in ${S}/include/libmilter/mfapi.h (see also SM_LM_VRS_* defines).
 # For example, version 1.0.1 has a SMFI_VERSION of 0x01000001.
-pkgver=1.0.2
+pkgver="1.0.2"
 _pkgver=8.15.2
 pkgrel=6
 pkgdesc="Sendmail Mail Filter API (Milter)"

@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=lua-resty-hmac
-pkgver=0.02.20180101
+pkgname="lua-resty-hmac"
+pkgver="0.02.20180101"
 _commitid=989f601acbe74dee71c1a48f3e140a427f2d03ae
 pkgrel=0
 pkgdesc="HMAC functions for OpenResty"

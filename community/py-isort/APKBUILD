@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-isort
+pkgname="py-isort"
 _pkgname=isort
-pkgver=4.3.17
+pkgver="4.3.17"
 pkgrel=1
 pkgdesc="A Python utility / library to sort Python imports"
 url="https://github.com/timothycrosley/isort"

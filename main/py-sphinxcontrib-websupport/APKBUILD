@@ -1,7 +1,7 @@
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=py-sphinxcontrib-websupport
+pkgname="py-sphinxcontrib-websupport"
 _pkgname=sphinxcontrib-websupport
-pkgver=1.0.1
+pkgver="1.0.1"
 pkgrel=4
 pkgdesc="Sphinx API for Web Apps"
 url="https://pypi.python.org/pypi/sphinxcontrib-websupport"

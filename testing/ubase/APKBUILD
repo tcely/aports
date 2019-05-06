@@ -1,8 +1,8 @@
 # Contributor: Ivan Tham <pickfire@riseup.net>
 # Maintainer: Drew DeVault <sir@cmpwn.com>
 _commit=3c88778c6c85d97fb63c41c05304519e0484b07c
-pkgname=ubase
-pkgver=20190312
+pkgname="ubase"
+pkgver="20190312"
 pkgrel=0
 pkgdesc="Suckless collection of unportable base"
 url="https://core.suckless.org/ubase"

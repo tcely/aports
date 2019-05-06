@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=calcurse
-pkgver=4.4.0
+pkgname="calcurse"
+pkgver="4.4.0"
 pkgrel=0
 pkgdesc="A text-based personal organizer"
 url="https://calcurse.org/"

@@ -2,8 +2,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: 
-pkgname=pulseaudio
-pkgver=12.2
+pkgname="pulseaudio"
+pkgver="12.2"
 pkgrel=1
 pkgdesc="A featureful, general-purpose sound server"
 url="http://www.freedesktop.org/wiki/Software/PulseAudio"

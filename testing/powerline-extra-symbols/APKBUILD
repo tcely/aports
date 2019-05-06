@@ -1,8 +1,8 @@
 # Contributor: Orson Teodoro <orsonteodoro@hotmail.com>
 # Maintainer: Orson Teodoro <orsonteodoro@hotmail.com>
 
-pkgname=powerline-extra-symbols
-pkgver=0_git20171017
+pkgname="powerline-extra-symbols"
+pkgver="0_git20171017"
 pkgrel=0
 pkgdesc="Extra glyphs for your powerline separators"
 url="https://github.com/ryanoasis/powerline-extra-symbols"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Francesco Colista <francesco.colista@gmail.com>
-pkgname=atheme-iris
-pkgver=0_git20160428
+pkgname="atheme-iris"
+pkgver="0_git20160428"
 pkgrel=2
 pkgdesc="AJAX IRC client. It is a drop-in replacement for qwebirc."
 url="http://www.atheme.net/iris.html"

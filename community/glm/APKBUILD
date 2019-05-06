@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=glm
-pkgver=0.9.9.3
+pkgname="glm"
+pkgver="0.9.9.3"
 pkgrel=2
 pkgdesc="C++ mathematics library for graphics programming"
 url="http://glm.g-truc.net/"

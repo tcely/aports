@@ -1,7 +1,7 @@
 # Contributor: Rasmus Thomsen <oss@cogitri.dev>
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=tracker
-pkgver=2.2.2
+pkgname="tracker"
+pkgver="2.2.2"
 pkgrel=1
 pkgdesc="Personal search tool and storage system"
 url="https://wiki.gnome.org/Projects/Tracker"

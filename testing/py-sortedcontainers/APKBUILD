@@ -1,8 +1,8 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=py-sortedcontainers
+pkgname="py-sortedcontainers"
 _pkgname=sortedcontainers
-pkgver=2.1.0
+pkgver="2.1.0"
 pkgrel=1
 pkgdesc="Python library for sorting collections and containers"
 url="http://www.grantjenks.com/docs/sortedcontainers"

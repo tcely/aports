@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=makekit
-pkgver=0.2
+pkgname="makekit"
+pkgver="0.2"
 pkgrel=0
 pkgdesc="modular build system for POSIX environments"
 url="http://mkbuild.sourceforge.net/"

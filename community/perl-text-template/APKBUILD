@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-text-template
-pkgver=1.51
+pkgname="perl-text-template"
+pkgver="1.51"
 pkgrel=0
 pkgdesc="Text::Template perl module"
 url="http://search.cpan.org/dist/Text-Template"

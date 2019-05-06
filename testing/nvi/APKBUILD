@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=nvi
-pkgver=1.81.6
+pkgname="nvi"
+pkgver="1.81.6"
 pkgrel=1
 pkgdesc="Re-implementation of the vi editor"
 url="http://www.bostic.com/vi"

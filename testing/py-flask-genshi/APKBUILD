@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-genshi
+pkgname="py-flask-genshi"
 _pkgname=Flask-Genshi
-pkgver=0.5.1
+pkgver="0.5.1"
 pkgrel=0
 pkgdesc="Flask genshi templating extension"
 url="https://pypi.python.org/pypi/Flask-Genshi"

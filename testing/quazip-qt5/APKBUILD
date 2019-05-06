@@ -1,7 +1,7 @@
 # Maintainer: Alex Raschi <raschi.alex@gmail.com>
-pkgname=quazip-qt5
+pkgname="quazip-qt5"
 _pkgname=quazip
-pkgver=0.7.6
+pkgver="0.7.6"
 pkgrel=0
 pkgdesc="C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package"
 url="https://github.com/stachenov/$_pkgname"

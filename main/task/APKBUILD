@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=task
-pkgver=2.5.1
+pkgname="task"
+pkgver="2.5.1"
 pkgrel=0
 pkgdesc="A command-line to do list manager"
 url="http://taskwarrior.org"

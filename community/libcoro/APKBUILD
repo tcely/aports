@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=libcoro
-pkgver=6.513
+pkgname="libcoro"
+pkgver="6.513"
 pkgrel=0
 pkgdesc="Coroutines (cooperative multitasking) in a portable fashion implemented in C"
 url="http://software.schmorp.de/pkg/libcoro.html"

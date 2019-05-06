@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py3-aiohttp-gns3
+pkgname="py3-aiohttp-gns3"
 _pkgname=aiohttp
-pkgver=2.3.10
+pkgver="2.3.10"
 pkgrel=3
 pkgdesc="HTTP client/server for asyncio - GNS3 compatible version"
 url="https://pypi.python.org/pypi/aiohttp"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=lua-turboredis
-pkgver=0.1
+pkgname="lua-turboredis"
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Redis library for Turbo"
 url="http://enotodden.github.io/turboredis/"

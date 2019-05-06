@@ -1,7 +1,7 @@
 # Contributor: Simon Frankenberger <simon-alpine@fraho.eu>
 # Maintainer: Simon Frankenberger <simon-alpine@fraho.eu>
-pkgname=openjdk9
-pkgver=9.0.4_p12
+pkgname="openjdk9"
+pkgver="9.0.4_p12"
 _pkgver=${pkgver/_p/+}
 pkgrel=1
 pkgdesc="Oracle OpenJDK 9"

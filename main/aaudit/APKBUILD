@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=aaudit
-pkgver=0.7.2
+pkgname="aaudit"
+pkgver="0.7.2"
 pkgrel=1
 pkgdesc="Alpine Auditor"
 url="http://alpinelinux.org"

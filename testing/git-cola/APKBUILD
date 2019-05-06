@@ -1,7 +1,7 @@
 # Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
 # Maintainer: Kiyoshi Aman <kiyoshi.aman@gmail.com>
-pkgname=git-cola
-pkgver=3.1
+pkgname="git-cola"
+pkgver="3.1"
 pkgrel=0
 pkgdesc="A GUI application for git built on Python & Qt5"
 url="https://git-cola.github.io"

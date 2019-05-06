@@ -1,7 +1,7 @@
 # Maintainer: He Yangxuan <yangxuan8282@gmail.com>
 
-pkgname=linux-amlogic
-pkgver=4.19.8
+pkgname="linux-amlogic"
+pkgver="4.19.8"
 case $pkgver in
 *.*.*)	_kernver=${pkgver%.*};;
 *.*)	_kernver=${pkgver};;

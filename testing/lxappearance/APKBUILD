@@ -1,8 +1,8 @@
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 # Maintainer:
 
-pkgname=lxappearance
-pkgver=0.6.3
+pkgname="lxappearance"
+pkgver="0.6.3"
 pkgrel=1
 pkgdesc='Feature-rich GTK+ theme switcher'
 arch='all'

@@ -1,7 +1,7 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=sc-im
-pkgver=0.7.0
+pkgname="sc-im"
+pkgver="0.7.0"
 pkgrel=0
 pkgdesc="SC-IM is a spreadsheet program that is based on SC"
 url="https://github.com/andmarti1424/sc-im"

@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=luufs
-pkgver=05012015
+pkgname="luufs"
+pkgver="05012015"
 pkgrel=0
 pkgdesc="Lazy man's, user-mode union file system"
 url="http://rlsd.dimakrasner.com/"

@@ -1,7 +1,7 @@
 # Contributor: Drew DeVault <sir@cmpwn.com>
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=samurai
-pkgver=0.6
+pkgname="samurai"
+pkgver="0.6"
 pkgrel=1
 pkgdesc="ninja-compatible build tool written in C"
 url="https://github.com/michaelforney/samurai"

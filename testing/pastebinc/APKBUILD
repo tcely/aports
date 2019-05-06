@@ -1,7 +1,7 @@
 # Contributor: Jeremy Thomerson <jeremy@thomersonfamily.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=pastebinc
-pkgver=0.9.1
+pkgname="pastebinc"
+pkgver="0.9.1"
 pkgrel=1
 pkgdesc="utility to pipe data into a paste on pastebin.com or a similar site"
 url="https://github.com/jthomerson/pastebinc"

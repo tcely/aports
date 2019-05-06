@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=font-overpass
-pkgver=3.0.3
+pkgname="font-overpass"
+pkgver="3.0.3"
 pkgrel=0
 pkgdesc="Overpass open source web font family"
 url="http://overpassfont.org/"

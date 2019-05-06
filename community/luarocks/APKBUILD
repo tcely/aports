@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=luarocks
-pkgver=2.4.4
+pkgname="luarocks"
+pkgver="2.4.4"
 pkgrel=0
 pkgdesc="Deployment and management system for Lua modules"
 url="http://www.luarocks.org/"

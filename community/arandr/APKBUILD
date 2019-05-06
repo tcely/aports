@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=arandr
-pkgver=0.1.9
+pkgname="arandr"
+pkgver="0.1.9"
 pkgrel=2
 pkgdesc="ARandR provides a simple visual front end for XRandR"
 url="http://christian.amsuess.com/tools/arandr/"

@@ -1,7 +1,7 @@
 # Contributor: k0r10n <k0r10n.dev@gmail.com>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=ecryptfs-utils
-pkgver=111
+pkgname="ecryptfs-utils"
+pkgver="111"
 pkgrel=5
 pkgdesc="Enterprise-class stacked cryptographic filesystem for Linux"
 url="http://ecryptfs.org/"

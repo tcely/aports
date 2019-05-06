@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-appliancekit-ng
-pkgver=0.6.2
+pkgname="py-appliancekit-ng"
+pkgver="0.6.2"
 pkgrel=0
 pkgdesc="abstract appliance image builder"
 url="http://bitbucket.org/tortoiselabs/appliancekit-ng"

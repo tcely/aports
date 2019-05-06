@@ -1,6 +1,6 @@
 # Maintainer: Cameron Banta <cbanta@gmail.com>
-pkgname=pgcluster
-pkgver=1.9.00001
+pkgname="pgcluster"
+pkgver="1.9.00001"
 _myver=1.9.0rc5
 pkgrel=0
 pkgdesc="PostgreSQL with multi-master cluster/replication patch"

@@ -1,8 +1,8 @@
 # Contributor: Pedro Filipe <xpecex@outlook.com>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Jeff Bilyk <jbilyk@gmail.com>
-pkgname=cacti
-pkgver=1.2.3
+pkgname="cacti"
+pkgver="1.2.3"
 pkgrel=0
 pkgdesc="The complete rrdtool-based graphing solution"
 url="https://www.cacti.net"

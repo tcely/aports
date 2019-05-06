@@ -1,6 +1,6 @@
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=raspberrypi
-pkgver=0.20190416
+pkgname="raspberrypi"
+pkgver="0.20190416"
 _commitid=ff2bd4552145e8dc190276d8fbdbadc7e8e0da78
 pkgrel=0
 pkgdesc="Raspberry Pi support tools"

@@ -4,8 +4,8 @@
 # Contributor: Daniel Isaksen <d@duniel.no>
 # Contributor: Fabian Zoske <fabian@zoske.it>
 # Maintainer:  Matt Smith <mcs@darkregion.net>
-pkgname=pdns
-pkgver=4.1.8
+pkgname="pdns"
+pkgver="4.1.8"
 pkgrel=0
 pkgdesc="PowerDNS Authoritative Server"
 url="https://www.powerdns.com/"

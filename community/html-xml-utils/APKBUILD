@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=html-xml-utils
-pkgver=7.7
+pkgname="html-xml-utils"
+pkgver="7.7"
 pkgrel=1
 pkgdesc="A number of simple utilities for manipulating HTML and XML files."
 url="https://www.w3.org/Tools/HTML-XML-utils/"

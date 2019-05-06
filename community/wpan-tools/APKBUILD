@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=wpan-tools
-pkgver=0.8
+pkgname="wpan-tools"
+pkgver="0.8"
 pkgrel=0
 pkgdesc="Configure and test 802.15.4 devices"
 url="http://wpan.cakelab.org/"

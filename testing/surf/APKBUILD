@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Orson Teodoro <orsonteodoro@hotmail.com>
 # Maintainer: Orson Teodoro <orsonteodoro@hotmail.com>
-pkgname=surf
-pkgver=2.0
+pkgname="surf"
+pkgver="2.0"
 pkgrel=0
 pkgdesc="surf is a simple web browser based on WebKit2/GTK+."
 url="https://surf.suckless.org/"

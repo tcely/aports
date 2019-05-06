@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Contributor: Shiz <hi@shiz.me>
 # Maintainer: Shiz <hi@shiz.me>
-pkgname=julia
-pkgver=0.6.2
+pkgname="julia"
+pkgver="0.6.2"
 # Keep in sync with deps/libuv.version.
 _libuv_ver=d8ab1c6a33e77bf155facb54215dd8798e13825d
 _llvm_ver=3.9

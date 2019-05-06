@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=jruby
-pkgver=9.2.0.0
+pkgname="jruby"
+pkgver="9.2.0.0"
 pkgrel=0
 pkgdesc="An implementation of Ruby on the JVM"
 url="http://jruby.org"

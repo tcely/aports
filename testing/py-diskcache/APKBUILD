@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-diskcache
-pkgver=2.8.3
+pkgname="py-diskcache"
+pkgver="2.8.3"
 pkgrel=1
 pkgdesc="disk caching implementation"
 url="http://pypi.python.org/pypi/diskcache/"

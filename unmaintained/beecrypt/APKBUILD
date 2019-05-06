@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=beecrypt
-pkgver=4.2.1
+pkgname="beecrypt"
+pkgver="4.2.1"
 pkgrel=2
 pkgdesc="A general-purpose cryptography library"
 url="http://sourceforge.net/projects/beecrypt"

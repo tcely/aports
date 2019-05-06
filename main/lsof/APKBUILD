@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lsof
-pkgver=4.91
+pkgname="lsof"
+pkgver="4.91"
 pkgrel=0
 pkgdesc="LiSt Open Files"
 url="https://people.freebsd.org/~abe"

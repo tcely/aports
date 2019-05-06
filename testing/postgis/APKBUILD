@@ -1,7 +1,7 @@
 # Contributor: Bjoern Schilberg <bjoern@intevation.de>
 # Maintainer: Bjoern Schilberg <bjoern@intevation.de>
-pkgname=postgis
-pkgver=2.5.1
+pkgname="postgis"
+pkgver="2.5.1"
 pkgrel=0
 pkgdesc="PostGIS is a spatial database extender for PostgreSQL object-relational database."
 url="https://postgis.net/"

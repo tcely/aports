@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-lcurses
+pkgname="lua-lcurses"
 _rockname=${pkgname#lua-}
-pkgver=9.0.0
+pkgver="9.0.0"
 pkgrel=0
 pkgdesc="Lua bindings for Curses"
 url="https://lcurses.github.io/lcurses"

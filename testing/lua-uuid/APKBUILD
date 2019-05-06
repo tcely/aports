@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=lua-uuid
+pkgname="lua-uuid"
 _realname=uuid
-pkgver=0.2.0
+pkgver="0.2.0"
 pkgrel=1
 pkgdesc="A pure Lua uuid generator (modified from a Rackspace module)"
 url="https://tieske.github.io/uuid/"

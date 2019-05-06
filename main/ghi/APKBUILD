@@ -1,6 +1,6 @@
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=ghi
-pkgver=1.2.0
+pkgname="ghi"
+pkgver="1.2.0"
 pkgrel=3
 pkgdesc="GitHub Issues on the command line"
 url="https://github.com/stephencelis/ghi"

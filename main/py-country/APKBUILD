@@ -1,8 +1,8 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-country
+pkgname="py-country"
 _pkgname=pycountry
-pkgver=18.12.8
+pkgver="18.12.8"
 pkgrel=1
 pkgdesc="ISO country, subdivision, language, currency and script definitions and their translations"
 url="https://pypi.python.org/pypi/pycountry"

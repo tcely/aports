@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=libasyncns
-pkgver=0.8
+pkgname="libasyncns"
+pkgver="0.8"
 pkgrel=1
 pkgdesc="Asynchronous Name Service Library"
 url="http://0pointer.de/lennart/projects/libasyncns/"

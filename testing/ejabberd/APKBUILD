@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: John Regan <john@jrjrtech.com>
-pkgname=ejabberd
-pkgver=17.09
+pkgname="ejabberd"
+pkgver="17.09"
 pkgrel=3
 pkgdesc="An erlang jabber server"
 url="https://www.ejabberd.im/"

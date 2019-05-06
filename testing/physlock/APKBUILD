@@ -1,7 +1,7 @@
 # Contributor: Max Rees <maxcrees@me.com>
 # Maintainer:  Max Rees <maxcrees@me.com>
-pkgname=physlock
-pkgver=0.5
+pkgname="physlock"
+pkgver="0.5"
 pkgrel=0
 pkgdesc="Lightweight linux console locking tool"
 url="https://github.com/muennich/physlock"

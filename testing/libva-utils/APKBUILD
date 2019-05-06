@@ -1,7 +1,7 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=libva-utils
-pkgver=2.2.0
+pkgname="libva-utils"
+pkgver="2.2.0"
 pkgrel=0
 pkgdesc="Intel VA-API Media Applications and Scripts for libva"
 url="https://github.com/01org/libva-utils"

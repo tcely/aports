@@ -1,6 +1,6 @@
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=linux-pam
-pkgver=1.3.0
+pkgname="linux-pam"
+pkgver="1.3.0"
 pkgrel=1
 pkgdesc="pluggable authentication modules for linux"
 url="http://www.kernel.org/pub/linux/libs/pam"

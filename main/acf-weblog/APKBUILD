@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-weblog
-pkgver=0.11.1
+pkgname="acf-weblog"
+pkgver="0.11.1"
 pkgrel=1
 pkgdesc="ACF for web proxy (squid and dansguardian) logfiles"
 url="https://git.alpinelinux.org/cgit/acf/acf-weblog"

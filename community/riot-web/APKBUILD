@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=riot-web
-pkgver=0.14.1
+pkgname="riot-web"
+pkgver="0.14.1"
 pkgrel=0
 pkgdesc="A glossy Matrix collaboration client for the web"
 url="http://riot.im/"

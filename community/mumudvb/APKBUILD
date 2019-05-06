@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=mumudvb
+pkgname="mumudvb"
 _pkgname=MuMuDVB
-pkgver=2.1.0
+pkgver="2.1.0"
 pkgrel=1
 pkgdesc="A DVB IPTV streaming software"
 url="https://mumudvb.net/"

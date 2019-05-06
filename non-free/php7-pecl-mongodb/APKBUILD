@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-mongodb
+pkgname="php7-pecl-mongodb"
 _pkgreal=mongodb
-pkgver=1.5.3
+pkgver="1.5.3"
 _pkgver=${pkgver/_rc/RC}
 pkgrel=3
 pkgdesc="PHP7 MongoDB driver"

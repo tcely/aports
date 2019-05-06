@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=cadaver
-pkgver=0.23.3
+pkgname="cadaver"
+pkgver="0.23.3"
 pkgrel=4
 pkgdesc="Cadaver is a command line webDAV client for Linux"
 url="http://webdav.org/cadaver/"

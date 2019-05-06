@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer:
-pkgname=xa
-pkgver=2.3.9
+pkgname="xa"
+pkgver="2.3.9"
 pkgrel=1
 pkgdesc="cross-assembler and utility suite for 65xx/65816 processors"
 url="https://www.floodgap.com/retrotech/xa"

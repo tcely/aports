@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-pymongo
+pkgname="py-flask-pymongo"
 _pkgname=Flask-PyMongo
-pkgver=0.3.0
+pkgver="0.3.0"
 pkgrel=0
 pkgdesc="Flask PyMongo extension"
 url="https://pypi.python.org/pypi/Flask-PyMongo"

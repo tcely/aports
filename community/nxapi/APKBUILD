@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=nxapi
+pkgname="nxapi"
 _pkgname=naxsi
-pkgver=0.55.3
+pkgver="0.55.3"
 _ver=${pkgver/_/}
 pkgrel=0
 pkgdesc="nginx/naxsi log parser, whitelist and report generator."

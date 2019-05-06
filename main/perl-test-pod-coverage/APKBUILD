@@ -1,8 +1,8 @@
 # Contributor: Mika Havela <mika.havela@gmail.com>
 # Maintainer: Mika Havela <mika.havela@gmail.com>
-pkgname=perl-test-pod-coverage
+pkgname="perl-test-pod-coverage"
 _realname=Test-Pod-Coverage
-pkgver=1.10
+pkgver="1.10"
 pkgrel=0
 pkgdesc="Perl - Check for pod coverage in your distribution."
 url="http://search.cpan.org/dist/Test-Pod-Coverage/"

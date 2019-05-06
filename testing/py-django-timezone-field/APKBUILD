@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=py-django-timezone-field
-pkgver=3.0
+pkgname="py-django-timezone-field"
+pkgver="3.0"
 pkgrel=1
 pkgdesc="A Django app providing database and form fields for pytz timezone objects"
 url="https://pypi.python.org/pypi/django-timezone-field"

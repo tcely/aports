@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-geventwebsocket
-pkgver=0.3.6
+pkgname="py-geventwebsocket"
+pkgver="0.3.6"
 pkgrel=0
 pkgdesc="gevent websockets library"
 url="https://pypi.python.org/pypi/gevent-websocket/"

@@ -1,7 +1,7 @@
 # Contributor: Cameron Banta <cbanta@gmail.com>
 # Maintainer: Cameron Banta <cbanta@gmail.com>
-pkgname=hylafax
-pkgver=6.0.7
+pkgname="hylafax"
+pkgver="6.0.7"
 pkgrel=0
 pkgdesc="Sends and receives faxes"
 url="http://www.hylafax.org/"

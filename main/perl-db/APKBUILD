@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-db
+pkgname="perl-db"
 _realname=BerkeleyDB
-pkgver=0.61
+pkgver="0.61"
 pkgrel=0
 pkgdesc="Perl extension for Berkeley DB version 2, 3 or 4"
 url="http://search.cpan.org/dist/BerkeleyDB/"

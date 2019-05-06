@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=mongo-c-driver
-pkgver=1.13.0
+pkgname="mongo-c-driver"
+pkgver="1.13.0"
 pkgrel=0
 pkgdesc="Client library written in C for MongoDB"
 url="https://github.com/mongodb/mongo-c-driver"

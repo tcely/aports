@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=poco
-pkgver=1.7.7
+pkgname="poco"
+pkgver="1.7.7"
 pkgrel=0
 pkgdesc="C++ class libraries for building network- and internet-based applications"
 url="https://pocoproject.org/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-allfiles
+pkgname="py3-allfiles"
 _pkgname=allfiles
-pkgver=1.0
+pkgver="1.0"
 pkgrel=0
 pkgdesc="Iterator for matching files in directory trees"
 url="https://pypi.python.org/pypi/allfiles"

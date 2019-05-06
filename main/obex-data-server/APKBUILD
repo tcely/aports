@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=obex-data-server
-pkgver=0.4.6
+pkgname="obex-data-server"
+pkgver="0.4.6"
 pkgrel=4
 pkgdesc="D-Bus service for Obex access"
 url="http://wiki.muiline.com/obex-data-server"

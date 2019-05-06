@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xhost
-pkgver=1.0.8
+pkgname="xhost"
+pkgver="1.0.8"
 pkgrel=0
 pkgdesc="Controls host and/or user access to a running X server"
 url="http://xorg.freedesktop.org/"

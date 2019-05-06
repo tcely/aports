@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=mate-screensaver
-pkgver=1.22.1
+pkgname="mate-screensaver"
+pkgver="1.22.1"
 pkgrel=0
 pkgdesc="A screen saver and locker for MATE"
 url="https://github.com/mate-desktop/mate-screensaver"

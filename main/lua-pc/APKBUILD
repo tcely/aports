@@ -2,9 +2,9 @@
 
 _luaversions="5.1 5.2 5.3"
 
-pkgname=lua-pc
+pkgname="lua-pc"
 _name=lpc
-pkgver=1.0.0
+pkgver="1.0.0"
 pkgrel=9
 pkgdesc="Lua Process Call"
 url="https://github.com/LuaDist/lpc"

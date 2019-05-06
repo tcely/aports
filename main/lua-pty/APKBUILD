@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua-pty
+pkgname="lua-pty"
 _pkgname=lpty
-pkgver=1.2.1
+pkgver="1.2.1"
 _rockver=1
 pkgrel=1
 pkgdesc="Lua module to control other programs via PTYs."

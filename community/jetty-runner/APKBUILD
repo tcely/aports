@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=jetty-runner
-pkgver=9.4.12.20180830
+pkgname="jetty-runner"
+pkgver="9.4.12.20180830"
 _pkgver="${pkgver%.*}.v${pkgver##*.}"
 pkgrel=1
 pkgdesc="Fast and easy way to run Java web application from the command line."

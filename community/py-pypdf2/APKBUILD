@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-pypdf2
+pkgname="py-pypdf2"
 _pkgname=PyPDF2
-pkgver=1.26.0
+pkgver="1.26.0"
 pkgrel=3
 pkgdesc="A Pure-Python library built as a PDF toolkit."
 url=" http://mstamy2.github.com/PyPDF2"

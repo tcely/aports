@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=cgmanager
-pkgver=0.42
+pkgname="cgmanager"
+pkgver="0.42"
 pkgrel=0
 pkgdesc="nother daemon for managing control groups"
 url="https://linuxcontainers.org/cgmanager/"

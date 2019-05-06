@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-xlwt
+pkgname="py3-xlwt"
 _pkgname=xlwt
-pkgver=1.3.0
+pkgver="1.3.0"
 pkgrel=1
 pkgdesc="A library to create spreadsheet files"
 url="https://pypi.org/project/xlwt"

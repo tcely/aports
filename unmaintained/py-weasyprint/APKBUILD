@@ -1,8 +1,8 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-weasyprint
+pkgname="py-weasyprint"
 _pkgname=WeasyPrint
-pkgver=0.42.3
+pkgver="0.42.3"
 pkgrel=0
 pkgdesc="cairo-based HTML renderer for python"
 url="http://weasyprint.org"

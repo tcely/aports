@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer:
-pkgname=py-flask-script
+pkgname="py-flask-script"
 _pkgname=Flask-Script
-pkgver=2.0.6
+pkgver="2.0.6"
 pkgrel=0
 pkgdesc="Flask scripting support"
 url="https://pypi.python.org/pypi/Flask-Script"

@@ -1,8 +1,8 @@
 # Contributor: prspkt <prspkt@protonmail.com>
 # Maintainer: prspkt <prspkt@protonmail.com>
-pkgname=py3-port-for
+pkgname="py3-port-for"
 _pkgname=port-for
-pkgver=0.4
+pkgver="0.4"
 pkgrel=0
 pkgdesc="Utility and library that helps with local TCP ports management"
 url="https://github.com/kmike/port-for"

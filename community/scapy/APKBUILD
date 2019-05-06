@@ -1,7 +1,7 @@
 # Contributor: Paul Kilar <pkilar@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=scapy
-pkgver=2.4.2
+pkgname="scapy"
+pkgver="2.4.2"
 pkgrel=0
 pkgdesc="Powerful interactive packet manipulation"
 url="http://www.secdev.org/projects/scapy/"

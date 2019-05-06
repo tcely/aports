@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=setup-box
-pkgver=1.0.1
+pkgname="setup-box"
+pkgver="1.0.1"
 pkgrel=0
 pkgdesc="A tool to setup a variety of Alpine Linux Environments"
 url="https://git.alpinelinux.org/cgit/alacerda/setup-box/"

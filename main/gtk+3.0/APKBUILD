@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gtk+3.0
-pkgver=3.24.8
+pkgname="gtk+3.0"
+pkgver="3.24.8"
 pkgrel=0
 pkgdesc="The GTK+ Toolkit (v3)"
 url="https://www.gtk.org/"

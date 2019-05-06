@@ -5,8 +5,8 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Contributor: Marcel Haazen <marcel@haazen.xyz>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mariadb
-pkgver=10.3.13
+pkgname="mariadb"
+pkgver="10.3.13"
 pkgrel=3
 pkgdesc="A fast SQL database server"
 url="https://www.mariadb.org"

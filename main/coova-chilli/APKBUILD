@@ -1,7 +1,7 @@
 # Contributor: grharry
 # Maintainer:
-pkgname=coova-chilli
-pkgver=1.4
+pkgname="coova-chilli"
+pkgver="1.4"
 pkgrel=2
 pkgdesc="CoovaChilli is an open source access controller for wireless LAN"
 url="http://www.coova.org/"

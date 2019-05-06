@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=ocrmypdf
-pkgver=8.2.3
+pkgname="ocrmypdf"
+pkgver="8.2.3"
 pkgrel=0
 pkgdesc="Add OCR text layer to scanned PDF files"
 url="https://github.com/jbarlow83/OCRmyPDF"

@@ -1,7 +1,7 @@
 # Contributor: TBK <alpin@jjtc.eu>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=protobuf-c
-pkgver=1.3.0
+pkgname="protobuf-c"
+pkgver="1.3.0"
 pkgrel=6
 pkgdesc="C bindings for Google's Protocol Buffers"
 url="https://github.com/protobuf-c/protobuf-c/wiki"

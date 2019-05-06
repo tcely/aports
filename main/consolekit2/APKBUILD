@@ -1,8 +1,8 @@
 # Contributor: Bart Ribbers <bribbers@disroot.org>
 # Maintainer: Bart Ribbers <bribbers@disroot.org>
 pkgbase=ConsoleKit2
-pkgname=consolekit2
-pkgver=1.2.1
+pkgname="consolekit2"
+pkgver="1.2.1"
 pkgrel=1
 pkgdesc="A framework for defining and tracking users, login sessions, and seats"
 provides="consolekit=$pkgver"

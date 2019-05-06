@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=bluez-firmware
-pkgver=1.2
+pkgname="bluez-firmware"
+pkgver="1.2"
 pkgrel=0
 pkgdesc="Firmware for Broadcom BCM203x Blutonium devices"
 url="http://www.bluez.org/"

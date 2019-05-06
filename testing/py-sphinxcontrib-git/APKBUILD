@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-git
+pkgname="py-sphinxcontrib-git"
 _pkgname=sphinx-git
-pkgver=8
+pkgver="8"
 pkgrel=0
 pkgdesc="Sphinx git changelog extension"
 url="https://github.com/OddBloke/sphinx-git"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-astral
+pkgname="py-astral"
 _pkgname=astral
-pkgver=1.10.1
+pkgver="1.10.1"
 pkgrel=1
 pkgdesc="Calculations for the position of the sun and moon"
 url="https://pypi.python.org/pypi/astral/"

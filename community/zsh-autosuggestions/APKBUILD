@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=zsh-autosuggestions
-pkgver=0.5.2
+pkgname="zsh-autosuggestions"
+pkgver="0.5.2"
 pkgrel=0
 pkgdesc="Fish-like autosuggestions for Zsh"
 url="https://github.com/zsh-users/zsh-autosuggestions"

@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer:
-pkgname=boost-coroutine
-pkgver=0.0.1
+pkgname="boost-coroutine"
+pkgver="0.0.1"
 pkgrel=4
 pkgdesc="coroutine library for boost"
 url="http://www.crystalclearsoftware.com/soc/coroutine/"

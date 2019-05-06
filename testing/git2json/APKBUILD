@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=git2json
-pkgver=0.2.3
+pkgname="git2json"
+pkgver="0.2.3"
 pkgrel=0
 pkgdesc="Convert git logs to JSON for easier analysis"
 url="https://github.com/tarmstrong/git2json"

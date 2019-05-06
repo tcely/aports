@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=py3-pyrsistent
-pkgver=0.15.1
+pkgname="py3-pyrsistent"
+pkgver="0.15.1"
 pkgrel=0
 pkgdesc="Persistent/Functional/Immutable data structures"
 options="net" # Needs to fetch pytest-runner

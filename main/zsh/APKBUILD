@@ -7,8 +7,8 @@
 #     - CVE-2018-1083
 #     - CVE-2018-1071
 #
-pkgname=zsh
-pkgver=5.6.2
+pkgname="zsh"
+pkgver="5.6.2"
 pkgrel=0
 pkgdesc="Very advanced and programmable command interpreter (shell)"
 url="http://www.zsh.org"

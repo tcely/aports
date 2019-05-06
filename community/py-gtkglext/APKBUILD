@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-gtkglext
+pkgname="py-gtkglext"
 _pkgname=pygtkglext
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=0
 pkgdesc="GtkGLExt is an OpenGL extension to GTK+. Python bindings"
 url="https://projects.gnome.org/gtkglext/download.html#pygtkglext"

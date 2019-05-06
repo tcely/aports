@@ -1,7 +1,7 @@
 # Contributor: Nick Black <dankamongmen@gmail.com>
 # This is a headers-only implementaiton; there are no libraries.
-pkgname=nlohmann-json-dev
-pkgver=3.6.1
+pkgname="nlohmann-json-dev"
+pkgver="3.6.1"
 pkgrel=0
 pkgdesc="JSON for Modern C++"
 url="https://github.com/nlohmann/json"

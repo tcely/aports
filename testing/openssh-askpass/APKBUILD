@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=openssh-askpass
-pkgver=7.6_p1
+pkgname="openssh-askpass"
+pkgver="7.6_p1"
 _myver=${pkgver%_*}${pkgver#*_}
 pkgrel=0
 pkgdesc="A passphrase dialog for OpenSSH and GTK"

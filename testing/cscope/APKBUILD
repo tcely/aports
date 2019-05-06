@@ -1,7 +1,7 @@
 # Contributor: Cliff Free <nucular.limozeen@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=cscope
-pkgver=15.9
+pkgname="cscope"
+pkgver="15.9"
 pkgrel=0
 pkgdesc="Cscope is a developer's tool for browsing source code."
 url="http://cscope.sourceforge.net/"

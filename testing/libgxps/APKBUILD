@@ -1,6 +1,6 @@
 # Contributor: Paul Bredbury <brebs@sent.com>
-pkgname=libgxps
-pkgver=0.3.1
+pkgname="libgxps"
+pkgver="0.3.1"
 pkgrel=0
 pkgdesc="XPS documents library & conversion utilities"
 url="https://wiki.gnome.org/action/show/Projects/libgxps"

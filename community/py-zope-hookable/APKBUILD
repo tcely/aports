@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=py-zope-hookable
+pkgname="py-zope-hookable"
 _pkgname=zope.hookable
-pkgver=4.2.0
+pkgver="4.2.0"
 pkgrel=1
 pkgdesc="Represents the core of the Zope hookable Architecture"
 url="https://github.com/zopefoundation/$_pkgname"

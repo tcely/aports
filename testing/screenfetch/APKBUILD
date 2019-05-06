@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=screenfetch
+pkgname="screenfetch"
 _pkgname=screenFetch
-pkgver=3.8.0
+pkgver="3.8.0"
 pkgrel=0
 pkgdesc="Fetches system/theme information in terminal for Linux desktop screenshots"
 url="https://github.com/KittyKatt/screenFetch"

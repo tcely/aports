@@ -1,8 +1,8 @@
 # Contributor: Pedro Filipe <xpecex@outlook.com>
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=opencpn
-pkgver=4.8.4
+pkgname="opencpn"
+pkgver="4.8.4"
 pkgrel=0
 pkgdesc="OpenCPN is a cross platform electronic navigation system"
 url="http://opencpn.org"

@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ttyd
-pkgver=1.4.2
+pkgname="ttyd"
+pkgver="1.4.2"
 pkgrel=1
 pkgdesc="Share your terminal over the web"
 url="https://tsl0922.github.io/ttyd"

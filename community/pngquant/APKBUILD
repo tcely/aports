@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=pngquant
-pkgver=2.12.2
+pkgname="pngquant"
+pkgver="2.12.2"
 pkgrel=0
 pkgdesc="Lossy PNG compressor"
 url="https://pngquant.org"

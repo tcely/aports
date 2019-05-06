@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-fcgi
+pkgname="perl-fcgi"
 _realname=FCGI
-pkgver=0.78
+pkgver="0.78"
 pkgrel=2
 pkgdesc="Perl Fast CGI module"
 url="http://search.cpan.org/~flora/FCGI"

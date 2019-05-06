@@ -1,7 +1,7 @@
 # Contributor: Anil Madhavapeddy <anil@recoil.org>
 # Maintainer: Anil Madhavapeddy <anil@recoil.org>
-pkgname=gringo
-pkgver=4.5.4
+pkgname="gringo"
+pkgver="4.5.4"
 pkgrel=1
 pkgdesc="Grounder to translate user-provided logic programs"
 url="https://potassco.org/"

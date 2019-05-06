@@ -1,6 +1,6 @@
 # Maintainer: Michael Koloberdin <koloberdin@gmail.com>
-pkgname=pdftk
-pkgver=2.02
+pkgname="pdftk"
+pkgver="2.02"
 pkgrel=1
 pkgdesc="Pdftk is a simple tool for doing everyday things with PDF documents"
 url="http://www.pdfhacks.com/pdftk"

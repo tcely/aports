@@ -1,6 +1,6 @@
 # Maintainer: Thomas Boerger <thomas@webhippie.de>
-pkgname=sassc
-pkgver=3.5.0
+pkgname="sassc"
+pkgver="3.5.0"
 pkgrel=0
 pkgdesc="Libsass command line driver"
 url="https://github.com/sass/sassc"

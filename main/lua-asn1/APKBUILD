@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=lua-asn1
-pkgver=2.2.0
+pkgname="lua-asn1"
+pkgver="2.2.0"
 pkgrel=0
 pkgdesc="ASN.1 framework for Lua"
 url=https://github.com/kunkku/lua-asn1

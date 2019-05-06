@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=dos2unix
-pkgver=7.4.0
+pkgname="dos2unix"
+pkgver="7.4.0"
 pkgrel=0
 pkgdesc="Text file format converters"
 url="http://waterlan.home.xs4all.nl/dos2unix.html"

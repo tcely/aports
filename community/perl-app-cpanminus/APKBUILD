@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=perl-app-cpanminus
+pkgname="perl-app-cpanminus"
 _pkgname=App-cpanminus
-pkgver=1.7044
+pkgver="1.7044"
 pkgrel=0
 pkgdesc="Get, unpack, build and install modules from CPAN"
 url="http://search.cpan.org/dist/App-cpanminus/"

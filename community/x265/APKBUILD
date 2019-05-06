@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=x265
-pkgver=3.0
+pkgname="x265"
+pkgver="3.0"
 pkgrel=0
 pkgdesc="Open Source H265/HEVC video encoder"
 url="http://x265.org"

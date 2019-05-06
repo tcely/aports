@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-programoutput
+pkgname="py-sphinxcontrib-programoutput"
 _pkgname=sphinxcontrib-programoutput
-pkgver=0.10
+pkgver="0.10"
 pkgrel=0
 pkgdesc="Sphinx programoutput extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-programoutput"

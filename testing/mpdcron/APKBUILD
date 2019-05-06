@@ -1,7 +1,7 @@
 # Contributor: dai9ah <dai9ah@protonmail.com>
 # Maintainer: dai9ah <dai9ah@protonmail.com>
-pkgname=mpdcron
-pkgver=0.3
+pkgname="mpdcron"
+pkgver="0.3"
 pkgrel=0
 pkgdesc="Cron-like daemon for mpd"
 url="https://github.com/alip/mpdcron"

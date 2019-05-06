@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-lambda-term
+pkgname="ocaml-lambda-term"
 _pkgname=lambda-term
-pkgver=1.13
+pkgver="1.13"
 pkgrel=0
 pkgdesc="Terminal manipulation library for OCaml"
 url="https://github.com/diml/lambda-term"

@@ -1,9 +1,9 @@
 # Contributor Travis Tilley <ttilley@gmail.com>
 _pkgname=clang
 # Note: Update together with llvm.
-pkgver=6.0.1
+pkgver="6.0.1"
 _majorver=${pkgver%%.*}
-pkgname=$_pkgname$_majorver
+pkgname="$_pkgname$_majorver"
 pkgrel=0
 _llvmver=${pkgver%%.*}
 pkgdesc="A C language family front-end for LLVM"

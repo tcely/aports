@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-ipaddress
+pkgname="py-ipaddress"
 _pkgname=ipaddress
-pkgver=1.0.22
+pkgver="1.0.22"
 pkgrel=1
 pkgdesc="IPv4/IPv6 manipulation library"
 url="https://github.com/phihag/ipaddress"

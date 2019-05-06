@@ -1,7 +1,7 @@
 # Contributor: David Huffman <storedbox@outlook.com>
 # Maintainer: David Huffman <storedbox@outlook.com>
-pkgname=libdwarf
-pkgver=20180527
+pkgname="libdwarf"
+pkgver="20180527"
 pkgrel=0
 pkgdesc="Parsing library for DWARF2 and later debugging file format"
 url="http://www.prevanders.net/dwarf.html"

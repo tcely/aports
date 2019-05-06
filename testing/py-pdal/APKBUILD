@@ -1,7 +1,7 @@
 # Contributor: Bradley J Chambers <brad.chambers@gmail.com>
 # Maintainer: Bradley J Chambers <brad.chambers@gmail.com>
-pkgname=py-pdal
-pkgver=2.0.0
+pkgname="py-pdal"
+pkgver="2.0.0"
 pkgrel=1
 pkgdesc="PDAL Python bindings"
 url="https://github.com/pdal/python"

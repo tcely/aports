@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=openpgm
-pkgver=5.2.122
+pkgname="openpgm"
+pkgver="5.2.122"
 pkgrel=1
 pkgdesc="An implementation of the PGM reliable multicast protocol"
 url="https://code.google.com/archive/p/openpgm/"

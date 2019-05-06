@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=jemalloc
-pkgver=5.1.0
+pkgname="jemalloc"
+pkgver="5.1.0"
 pkgrel=0
 pkgdesc="A general purpose malloc(3) implementation"
 url="http://jemalloc.net/"

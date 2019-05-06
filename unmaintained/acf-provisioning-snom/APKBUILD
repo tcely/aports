@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-provisioning-snom
-pkgver=8.4.32
+pkgname="acf-provisioning-snom"
+pkgver="8.4.32"
 pkgrel=1
 pkgdesc="Files for provisioning Snom IP phones"
 url="http://snom.com/"

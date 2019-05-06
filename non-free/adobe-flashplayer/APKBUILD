@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=adobe-flashplayer
-pkgver=31.0.0.108
+pkgname="adobe-flashplayer"
+pkgver="31.0.0.108"
 pkgrel=0
 pkgdesc="Adobe Flash player"
 url="https://get.adobe.com/flashplayer/otherversions"

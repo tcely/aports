@@ -1,7 +1,7 @@
 # Contributor: tcely <tcely@users.noreply.github.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=jdupes
-pkgver=1.11.1
+pkgname="jdupes"
+pkgver="1.11.1"
 pkgrel=0
 pkgdesc="identifying and taking actions upon duplicate files"
 url="https://github.com/jbruchon/jdupes"

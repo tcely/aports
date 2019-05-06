@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=py-django-crispy-forms
-pkgver=1.7.0
+pkgname="py-django-crispy-forms"
+pkgver="1.7.0"
 pkgrel=2
 pkgdesc="Dry Django forms"
 url="https://github.com/django-crispy-forms"

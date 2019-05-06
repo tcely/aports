@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=cpio
-pkgver=2.12
+pkgname="cpio"
+pkgver="2.12"
 pkgrel=3
 pkgdesc="A tool to copy files into or out of a cpio or tar archive"
 url="https://www.gnu.org/software/cpio"

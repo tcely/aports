@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-yapsy
+pkgname="py-yapsy"
 _pkgname=Yapsy
-pkgver=1.11.223
+pkgver="1.11.223"
 pkgrel=2
 pkgdesc="DIY Python plugin management toolkit"
 url="https://yapsy.sourceforge.net"

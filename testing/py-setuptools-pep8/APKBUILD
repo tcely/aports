@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-setuptools-pep8
+pkgname="py-setuptools-pep8"
 _pkgname=setuptools-pep8
-pkgver=0.9.0
+pkgver="0.9.0"
 pkgrel=0
 pkgdesc="Setuptools plugin for pep8"
 url="https://github.com/CraigJPerry/setuptools-pep8"

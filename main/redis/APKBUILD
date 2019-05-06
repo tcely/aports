@@ -1,7 +1,7 @@
 # Contributor: V.Krishn <vkrishn4@gmail.com>
 # Maintainer: TBK <alpine@jjtc.eu>
-pkgname=redis
-pkgver=5.0.4
+pkgname="redis"
+pkgver="5.0.4"
 pkgrel=0
 pkgdesc="Advanced key-value store"
 url="https://redis.io/"

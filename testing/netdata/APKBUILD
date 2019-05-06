@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=netdata
-pkgver=1.12.2
+pkgname="netdata"
+pkgver="1.12.2"
 pkgrel=0
 pkgdesc="Real-time performance monitoring"
 url="https://github.com/netdata/netdata"

@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=glib-networking
-pkgver=2.56.1
+pkgname="glib-networking"
+pkgver="2.56.1"
 _maj=${pkgver%%.*}
 _min=${pkgver#${_maj}.}
 _min=${_min%%.*}

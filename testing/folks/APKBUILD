@@ -1,7 +1,7 @@
 # Contributor: Rasmus Thomsen <oss@cogitri.dev>
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=folks
-pkgver=0.12.1
+pkgname="folks"
+pkgver="0.12.1"
 pkgrel=0
 pkgdesc="GObject Library to aggregate people into metacontacts"
 url="https://wiki.gnome.org/Projects/Folks"

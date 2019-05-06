@@ -1,7 +1,7 @@
 # Contributor: Olivier Mauras <olivier@mauras.ch>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=borgbackup
-pkgver=1.1.7
+pkgname="borgbackup"
+pkgver="1.1.7"
 pkgrel=3
 pkgdesc="Deduplicating backup program"
 url="https://borgbackup.readthedocs.io/"

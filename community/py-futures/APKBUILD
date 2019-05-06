@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-futures
+pkgname="py-futures"
 _pkgname=futures
-pkgver=3.2.0
+pkgver="3.2.0"
 pkgrel=0
 pkgdesc="Backport of the concurrent.futures package from Python 3.2"
 url="http://code.google.com/p/pythonfutures/"

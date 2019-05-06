@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=libqmi
-pkgver=1.22.2
+pkgname="libqmi"
+pkgver="1.22.2"
 pkgrel=0
 pkgdesc="QMI modem protocol helper library"
 url="https://www.freedesktop.org/wiki/Software/libqmi"

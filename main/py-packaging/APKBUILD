@@ -1,7 +1,7 @@
 # Maintainer: Breno Leitao <breno.leitao@gmail.com>
-pkgname=py-packaging
+pkgname="py-packaging"
 _pkgname=packaging
-pkgver=17.1
+pkgver="17.1"
 pkgrel=1
 pkgdesc="Core utilities for Python packages"
 url="https://pypi.python.org/pypi/packaging"

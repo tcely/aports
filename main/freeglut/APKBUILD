@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=freeglut
-pkgver=3.0.0
+pkgname="freeglut"
+pkgver="3.0.0"
 pkgrel=0
 pkgdesc="free reimplementation of OpenGL Utility Toolkit (GLUT) library"
 url="http://freeglut.sourceforge.net/"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=chromium
-pkgver=73.0.3683.103
+pkgname="chromium"
+pkgver="73.0.3683.103"
 pkgrel=0
 pkgdesc="chromium web browser"
 url="http://www.chromium.org/"

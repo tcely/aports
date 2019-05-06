@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ttf-dejavu
-pkgver=2.37
+pkgname="ttf-dejavu"
+pkgver="2.37"
 pkgrel=1
 pkgdesc="Font family based on the Bitstream Vera Fonts with a wider range of characters"
 url="https://dejavu-fonts.github.io/"

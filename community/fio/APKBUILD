@@ -1,7 +1,7 @@
 # Contributor: wener <wenermail@gmail.com>
 # Maintainer: wener <wenermail@gmail.com>
-pkgname=fio
-pkgver=3.13
+pkgname="fio"
+pkgver="3.13"
 pkgrel=1
 pkgdesc="Flexible I/O Tester"
 url="https://github.com/axboe/fio"

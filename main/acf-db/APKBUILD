@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-db
-pkgver=0.2.1
+pkgname="acf-db"
+pkgver="0.2.1"
 pkgrel=2
 pkgdesc="A web-based system administration interface for databases"
 url="https://git.alpinelinux.org/cgit/acf/acf-db"

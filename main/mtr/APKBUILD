@@ -1,7 +1,7 @@
 # Contributor: John Keith Hohm <john@hohm.net>
 # Maintainer:
-pkgname=mtr
-pkgver=0.92
+pkgname="mtr"
+pkgver="0.92"
 pkgrel=0
 pkgdesc="Full screen ncurses traceroute tool"
 url="http://www.bitwizard.nl/mtr/"

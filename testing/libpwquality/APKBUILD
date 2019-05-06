@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=libpwquality
-pkgver=1.4.0
+pkgname="libpwquality"
+pkgver="1.4.0"
 pkgrel=0
 pkgdesc="password quality library"
 url="http://github.com/libpwquality/libpwquality"

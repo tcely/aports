@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-aiohttp-cors
+pkgname="py3-aiohttp-cors"
 _pkgname=aiohttp_cors
-pkgver=0.7.0
+pkgver="0.7.0"
 pkgrel=1
 pkgdesc="CORS support for aiohttp"
 url="https://github.com/aio-libs/aiohttp-cors"

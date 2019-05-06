@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=hping3
-pkgver=20051105
+pkgname="hping3"
+pkgver="20051105"
 pkgrel=4
 pkgdesc="A ping-like TCP/IP packet assembler/analyzer"
 url="http://www.hping.org"

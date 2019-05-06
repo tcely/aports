@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libmnl
-pkgver=1.0.4
+pkgname="libmnl"
+pkgver="1.0.4"
 pkgrel=0
 pkgdesc="Library for minimalistic netlink"
 url="http://www.netfilter.org/projects/libmnl/"

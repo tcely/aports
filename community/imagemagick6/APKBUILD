@@ -1,9 +1,9 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=imagemagick6
+pkgname="imagemagick6"
 _pkgname=ImageMagick
-pkgver=6.9.10.44
+pkgver="6.9.10.44"
 _pkgver=${pkgver%.*}-${pkgver##*.}
 _abiver=${pkgname#imagemagick}
 pkgrel=0

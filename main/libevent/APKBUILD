@@ -1,7 +1,7 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libevent
-pkgver=2.1.8
+pkgname="libevent"
+pkgver="2.1.8"
 _pkgver=$pkgver-stable
 pkgrel=6
 pkgdesc="An event notification library"

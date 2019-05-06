@@ -1,7 +1,7 @@
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=pssh
-pkgver=2.3.1
+pkgname="pssh"
+pkgver="2.3.1"
 pkgrel=1
 pkgdesc="PSSH provides parallel versions of OpenSSH and related tools: pssh, pscp, prsync, pnuke, and pslurp"
 url="https://code.google.com/p/parallel-ssh/"

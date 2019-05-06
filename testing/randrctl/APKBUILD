@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=randrctl
-pkgver=1.8.0
+pkgname="randrctl"
+pkgver="1.8.0"
 pkgrel=1
 pkgdesc="Profile based screen manager for X"
 url="https://github.com/edio/randrctl"

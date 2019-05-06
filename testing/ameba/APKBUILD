@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ameba
-pkgver=0.8.0
+pkgname="ameba"
+pkgver="0.8.0"
 pkgrel=0
 pkgdesc="A static code analysis tool for Crystal"
 url="https://veelenga.github.io/ameba/"

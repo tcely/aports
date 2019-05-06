@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-service_identity
+pkgname="py-service_identity"
 _pkgname=service_identity
-pkgver=18.1.0
+pkgver="18.1.0"
 pkgrel=1
 pkgdesc="Service identity verification for Python"
 url="https://service-identity.readthedocs.org/"

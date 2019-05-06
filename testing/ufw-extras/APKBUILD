@@ -1,7 +1,7 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer:
-pkgname=ufw-extras
-pkgver=0.5
+pkgname="ufw-extras"
+pkgver="0.5"
 pkgrel=0
 pkgdesc="Extra configuration files for uncomplicated firewall (ufw)."
 url="https://github.com/xyproto/ufw-extras"

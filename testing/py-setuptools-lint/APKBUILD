@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-setuptools-lint
+pkgname="py-setuptools-lint"
 _pkgname=setuptools-lint
-pkgver=0.3
+pkgver="0.3"
 pkgrel=0
 pkgdesc="Setuptools plugin for Git"
 url="https://github.com/johnnoone/setuptools-pylint"

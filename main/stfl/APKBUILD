@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=stfl
-pkgver=0.24
+pkgname="stfl"
+pkgver="0.24"
 pkgrel=2
 pkgdesc="The Structured Terminal Forms Language/Library"
 url="http://www.clifford.at/stfl/"

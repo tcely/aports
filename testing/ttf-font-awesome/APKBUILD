@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ttf-font-awesome
+pkgname="ttf-font-awesome"
 _pkgname=Font-Awesome
-pkgver=5.8.1
+pkgver="5.8.1"
 pkgrel=0
 pkgdesc="Iconic font designed for Bootstrap TTF file only"
 url="https://fortawesome.github.io/Font-Awesome/"

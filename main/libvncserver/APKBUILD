@@ -1,8 +1,8 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: A. Wilcox <awilfox@adelielinux.org>
-pkgname=libvncserver
-pkgver=0.9.11
+pkgname="libvncserver"
+pkgver="0.9.11"
 pkgrel=2
 pkgdesc="Library to make writing a vnc server easy"
 url="http://libvncserver.sourceforge.net/"

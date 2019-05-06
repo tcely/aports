@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=mcpp
-pkgver=2.7.2
+pkgname="mcpp"
+pkgver="2.7.2"
 pkgrel=1
 pkgdesc="A portable C preprocessor"
 url="http://mcpp.sourceforge.net"

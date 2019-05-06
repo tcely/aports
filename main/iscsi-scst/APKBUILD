@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=iscsi-scst
-pkgver=2.2.1
+pkgname="iscsi-scst"
+pkgver="2.2.1"
 pkgrel=2
 pkgdesc="ISCSI target for SCST - userspace tools"
 url="http://scst.sourceforge.net/"

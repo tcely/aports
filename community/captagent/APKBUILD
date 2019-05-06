@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=captagent
-pkgver=6.3.0
+pkgname="captagent"
+pkgver="6.3.0"
 pkgrel=6
 pkgdesc="HEP Capture Agent for HOMER"
 url="https://github.com/sipcapture/captagent"

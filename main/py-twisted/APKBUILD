@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=py-twisted
+pkgname="py-twisted"
 _pkgname=Twisted
-pkgver=17.1.0
+pkgver="17.1.0"
 pkgrel=1
 pkgdesc="Asynchronous networking framework written in Python."
 url="http://twistedmatrix.com/"

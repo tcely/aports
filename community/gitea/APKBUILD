@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=gitea
-pkgver=1.8.0
+pkgname="gitea"
+pkgver="1.8.0"
 pkgrel=0
 pkgdesc="A self-hosted Git service written in Go"
 url="https://gitea.io"

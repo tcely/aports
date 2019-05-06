@@ -1,9 +1,9 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-anyjson
+pkgname="py-anyjson"
 _pkgname=anyjson
-pkgver=0.3.3
+pkgver="0.3.3"
 pkgrel=3
 pkgdesc="Wraps the best available JSON implementation available in a common interface"
 url="https://bitbucket.org/runeh/anyjson/"

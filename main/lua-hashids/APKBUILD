@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=lua-hashids
-pkgver=1.0.6
+pkgname="lua-hashids"
+pkgver="1.0.6"
 pkgrel=1
 pkgdesc="A Lua implementation of hashids"
 url="https://github.com/leihog/hashids.lua"

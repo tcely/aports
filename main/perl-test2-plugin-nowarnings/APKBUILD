@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-test2-plugin-nowarnings
+pkgname="perl-test2-plugin-nowarnings"
 _pkgreal="Test2-Plugin-NoWarnings"
-pkgver=0.06
+pkgver="0.06"
 pkgrel=0
 pkgdesc="Test2::Plugin::NoWarnings perl module"
 url="http://search.cpan.org/dist/Test2-Plugin-NoWarnings"

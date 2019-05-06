@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=darkhttpd
-pkgver=1.12
+pkgname="darkhttpd"
+pkgver="1.12"
 pkgrel=2
 pkgdesc="A simple, single-threaded, static content webserver"
 url="https://unix4lyfe.org/darkhttpd/"

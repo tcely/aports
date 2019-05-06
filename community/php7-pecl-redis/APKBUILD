@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-redis
+pkgname="php7-pecl-redis"
 _pkgreal=redis
-pkgver=4.3.0
+pkgver="4.3.0"
 pkgrel=1
 pkgdesc="PHP extension for interfacing with Redis - PECL"
 url="https://pecl.php.net/package/redis"

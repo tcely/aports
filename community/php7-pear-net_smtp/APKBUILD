@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 _php=php7
-pkgname=${_php}-pear-net_smtp
+pkgname="${_php}-pear-net_smtp"
 _pkgreal=Net_SMTP
-pkgver=1.8.1
+pkgver="1.8.1"
 pkgrel=0
 pkgdesc="An implementation of the SMTP protocol"
 url="http://pear.php.net/package/Net_SMTP"

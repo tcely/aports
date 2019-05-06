@@ -1,7 +1,7 @@
 # Contributor: Ed Robinson <ed@reevoo.com>
 # Maintainer: Ed Robinson <ed@reevoo.com>
-pkgname=fontforge
-pkgver=20170731
+pkgname="fontforge"
+pkgver="20170731"
 pkgrel=0
 pkgdesc="FontForge is a free (libre) font editor for Windows, Mac OS X and GNU+Linux."
 url="https://github.com/fontforge/fontforge"

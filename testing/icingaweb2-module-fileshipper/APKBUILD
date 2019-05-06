@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=icingaweb2-module-fileshipper
+pkgname="icingaweb2-module-fileshipper"
 _module=${pkgname/*-/}
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=0
 pkgdesc="Provide CSV, JSON, XML and YAML files as an Import Source for the Icinga Director"
 url="https://www.icinga.org/"

@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=weston
-pkgver=6.0.0
+pkgname="weston"
+pkgver="6.0.0"
 pkgrel=0
 _libname=lib$pkgname
 _libdir=$_libname-${pkgver%%.*}

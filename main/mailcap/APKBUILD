@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mailcap
-pkgver=2.1.48
+pkgname="mailcap"
+pkgver="2.1.48"
 pkgrel=0
 pkgdesc="Helper application and MIME type associations for file types"
 url="http://git.fedorahosted.org/git/mailcap.git"

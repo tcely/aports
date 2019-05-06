@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=snownews
-pkgver=1.5.12
+pkgname="snownews"
+pkgver="1.5.12"
 pkgrel=8
 pkgdesc="Snownews is a text mode RSS/RDF newsreader"
 url="https://kiza.eu/software/snownews/"

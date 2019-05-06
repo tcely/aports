@@ -1,8 +1,8 @@
 # Contributor: Andre Bierwolf <a.b.bierwolf@gmail.com>
 # Maintainer: Andre Bierwolf <a.b.bierwolf@gmail.com>
-pkgname=novnc
+pkgname="novnc"
 _pkgname=noVNC
-pkgver=1.0.0
+pkgver="1.0.0"
 pkgrel=1
 pkgdesc="VNC client using HTML5 (WebSockets, Canvas) with encryption (wss://) support"
 url="https://kanaka.github.io/noVNC/"

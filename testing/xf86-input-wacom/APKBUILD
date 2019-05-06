@@ -1,7 +1,7 @@
 # Contributor: Ivan Tham <pickfire@riseup.net>
 # Maintainer: Ivan Tham <pickfire@riseup.net>
-pkgname=xf86-input-wacom
-pkgver=0.36.1
+pkgname="xf86-input-wacom"
+pkgver="0.36.1"
 pkgrel=1
 pkgdesc="X.org Wacom tablet input driver"
 url="https://github.com/linuxwacom/xf86-input-wacom"

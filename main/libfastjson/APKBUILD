@@ -1,7 +1,7 @@
 # Contributor: Ashley Sommer <ashleysommer@gmail.com>
 # Maintainer: Ashley Sommer <ashleysommer@gmail.com>
-pkgname=libfastjson
-pkgver=0.99.8
+pkgname="libfastjson"
+pkgver="0.99.8"
 pkgrel=1
 pkgdesc="A fork of the json-c library for rsyslog, optimized for liblognorm processing."
 url="http://www.rsyslog.com/"

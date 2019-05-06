@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-discount
-pkgver=1.2.10.1
+pkgname="lua-discount"
+pkgver="1.2.10.1"
 pkgrel=4
 pkgdesc="Markdown implementation in C for Lua"
 url="http://asbradbury.org/projects/lua-discount"

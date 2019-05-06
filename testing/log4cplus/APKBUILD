@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer:
-pkgname=log4cplus
-pkgver=2.0.4
+pkgname="log4cplus"
+pkgver="2.0.4"
 pkgrel=0
 _ver=${pkgver%%_rc*}
 _rc=${pkgver##*_rc}

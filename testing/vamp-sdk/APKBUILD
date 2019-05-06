@@ -1,7 +1,7 @@
 # Contributor: Alexander Edland <alpine@ocv.me>
 # Maintainer: Alexander Edland <alpine@ocv.me>
-pkgname=vamp-sdk
-pkgver=2.7.1
+pkgname="vamp-sdk"
+pkgver="2.7.1"
 pkgrel=0
 pkgdesc="Framework for audio analysis and feature extraction"
 url="https://code.soundsoftware.ac.uk/projects/vamp-plugin-sdk"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Corey Oliver <corey.jon.oliver@gmail.com>
-pkgname=libzen
-pkgver=0.4.37
+pkgname="libzen"
+pkgver="0.4.37"
 pkgrel=4
 pkgdesc="A shared library for libmediainfo and mediainfo"
 url="https://github.com/MediaArea/ZenLib"

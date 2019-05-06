@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-bottle-hotqueue
+pkgname="py-bottle-hotqueue"
 _pkgname=bottle-hotqueue
-pkgver=0.2.5
+pkgver="0.2.5"
 pkgrel=0
 pkgdesc="Bottle HotQueue plugin"
 url="https://github.com/waawal/bottle_hotqueue"

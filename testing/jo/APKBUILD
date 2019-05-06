@@ -1,7 +1,7 @@
 # Contributor: Orion <systmkor@gmail.com>
 # Maintainer: Orion <systmkor@gmail.com>
-pkgname=jo
-pkgver=1.1
+pkgname="jo"
+pkgver="1.1"
 pkgrel=0
 pkgdesc="JSON output from a shell"
 url="https://github.com/jpmens/jo/"

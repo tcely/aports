@@ -1,6 +1,6 @@
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=acsccid
-pkgver=1.1.6
+pkgname="acsccid"
+pkgver="1.1.6"
 pkgrel=0
 pkgdesc="PCSC driver for ACS CCID smart card reader"
 url="https://github.com/acshk/acsccid"

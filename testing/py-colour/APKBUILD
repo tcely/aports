@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-colour
+pkgname="py-colour"
 _pkgname=colour
-pkgver=0.1.2
+pkgver="0.1.2"
 pkgrel=2
 pkgdesc="Converter and manipulator various color representation (HSL, RVB, web, X11, etc.)"
 url="https://github.com/vaab/colour"

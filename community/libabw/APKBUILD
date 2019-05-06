@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer:
-pkgname=libabw
-pkgver=0.1.2
+pkgname="libabw"
+pkgver="0.1.2"
 pkgrel=0
 pkgdesc="Import filter and tools for AbiWord documents"
 url="https://wiki.documentfoundation.org/DLP/Libraries/libabw"

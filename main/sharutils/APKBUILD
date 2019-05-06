@@ -1,7 +1,7 @@
 # Contributor: A. Wilcox <awilfox@adelielinux.org>
 # Maintainer: A. Wilcox <awilfox@adelielinux.org>
-pkgname=sharutils
-pkgver=4.15.2
+pkgname="sharutils"
+pkgver="4.15.2"
 pkgrel=0
 pkgdesc="Utilities for manipulating shell archives"
 url="https://www.gnu.org/software/sharutils/"

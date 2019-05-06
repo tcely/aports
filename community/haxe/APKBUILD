@@ -1,7 +1,7 @@
 # Contributor: Jon Ong <jonongjs@rottenmage.com>
 # Maintainer: Andy Li <andy@onthewings.net>
-pkgname=haxe
-pkgver=3.4.7
+pkgname="haxe"
+pkgver="3.4.7"
 _versuffix=
 pkgrel=1
 pkgdesc="Cross-platform toolkit and programming language"

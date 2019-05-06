@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-github
+pkgname="py-sphinxcontrib-github"
 _pkgname=sphinxcontrib-github
-pkgver=0.1.3
+pkgver="0.1.3"
 pkgrel=0
 pkgdesc="Sphinx Github directive extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-github"

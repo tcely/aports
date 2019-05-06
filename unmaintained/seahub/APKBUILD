@@ -1,7 +1,7 @@
 # Contributor: <xmingske@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=seahub
-pkgver=4.0.1
+pkgname="seahub"
+pkgver="4.0.1"
 pkgrel=1
 pkgdesc="web frontend for Seafile"
 url="https://github.com/haiwen/seahub/"

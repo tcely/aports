@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gtk+2.0
-pkgver=2.24.32
+pkgname="gtk+2.0"
+pkgver="2.24.32"
 pkgrel=1
 subpkg=gtk-update-icon-cache
 pkgdesc="The GTK+ Toolkit (v2)"

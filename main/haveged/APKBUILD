@@ -1,8 +1,8 @@
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Contributor: Danilo Godec <danilo.godec@agenda.si>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=haveged
-pkgver=1.9.4
+pkgname="haveged"
+pkgver="1.9.4"
 pkgrel=4
 pkgdesc="Entropy harvesting daemon using CPU timings"
 url="http://www.issihosts.com/haveged/"

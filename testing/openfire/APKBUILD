@@ -1,7 +1,7 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=openfire
-pkgver=4.2.3
+pkgname="openfire"
+pkgver="4.2.3"
 pkgrel=0
 pkgdesc="Openfire is a cross-platform real-time collaboration server based on the XMPP (Jabber) protocol."
 url="https://www.igniterealtime.org/projects/openfire/"

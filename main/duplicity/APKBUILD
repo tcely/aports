@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Matt Smith <mcs@darkregion.net>
 # Maintainer:  Matt Smith <mcs@darkregion.net>
-pkgname=duplicity
-pkgver=0.7.19
+pkgname="duplicity"
+pkgver="0.7.19"
 pkgrel=0
 pkgdesc="Encrypted bandwidth-efficient backup using the rsync algorithm"
 url="http://duplicity.nongnu.org/"

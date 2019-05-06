@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=drawterm
-pkgver=20170119
+pkgname="drawterm"
+pkgver="20170119"
 pkgrel=2
 pkgdesc="Connect to Plan 9 CPU servers from other operating systems"
 url="http://drawterm.9front.org/"

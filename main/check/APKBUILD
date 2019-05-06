@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=check
-pkgver=0.12.0
+pkgname="check"
+pkgver="0.12.0"
 pkgrel=1
 pkgdesc="A unit test framework for C"
 url="https://libcheck.github.io/check/"

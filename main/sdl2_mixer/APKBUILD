@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=sdl2_mixer
-pkgver=2.0.4
+pkgname="sdl2_mixer"
+pkgver="2.0.4"
 pkgrel=0
 _pkgname=SDL2_mixer
 pkgdesc="A simple multi-channel audio mixer"

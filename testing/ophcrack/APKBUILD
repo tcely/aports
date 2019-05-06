@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=ophcrack
-pkgver=3.7.0
+pkgname="ophcrack"
+pkgver="3.7.0"
 pkgrel=3
 pkgdesc="Windows password cracker based on rainbow tables"
 url="http://ophcrack.sourceforge.net/"

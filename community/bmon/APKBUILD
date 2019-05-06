@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=bmon
-pkgver=4.0
+pkgname="bmon"
+pkgver="4.0"
 pkgrel=1
 pkgdesc="bandwidth monitor and rate estimator"
 url="https://github.com/tgraf/bmon"

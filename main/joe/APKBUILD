@@ -1,7 +1,7 @@
 # Contributor: Danilo Godec <danilo.godec@agenda.si>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=joe
-pkgver=4.6
+pkgname="joe"
+pkgver="4.6"
 pkgrel=0
 pkgdesc="Full featured terminal-based screen editor"
 url="http://joe-editor.sourceforge.net/"

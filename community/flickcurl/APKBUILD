@@ -1,7 +1,7 @@
 # Contributor: Kevin Daudt <ops@ikke.info>
 # Maintainer: Kevin Daudt <ops@ikke.info>
-pkgname=flickcurl
-pkgver=1.26
+pkgname="flickcurl"
+pkgver="1.26"
 pkgrel=1
 pkgdesc="C library for the Flickr API"
 url="http://librdf.org/flickcurl/"

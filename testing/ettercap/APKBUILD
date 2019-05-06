@@ -1,7 +1,7 @@
 # Contributor: Karim Kanso <kaz.kanso@gmail.com>
 # Maintainer: Karim Kanso <kaz.kanso@gmail.com>
-pkgname=ettercap
-pkgver=0.8.2_git20190428
+pkgname="ettercap"
+pkgver="0.8.2_git20190428"
 _gitrev=5fb604823c6063676ebdf7cac66b7807acb4f7ed
 pkgrel=0
 pkgdesc="Multipurpose sniffer/interceptor/logger for switched LAN"

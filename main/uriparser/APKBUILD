@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=uriparser
-pkgver=0.9.3
+pkgname="uriparser"
+pkgver="0.9.3"
 pkgrel=0
 pkgdesc="A strictly RFC 3986 compliant URI parsing and handling library"
 url="https://uriparser.github.io/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mxml
-pkgver=2.12
+pkgname="mxml"
+pkgver="2.12"
 pkgrel=0
 pkgdesc="Small XML library that you can use to read and write XML files"
 url="https://www.msweet.org/mxml/"

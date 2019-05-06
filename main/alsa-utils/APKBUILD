@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=alsa-utils
-pkgver=1.1.8
+pkgname="alsa-utils"
+pkgver="1.1.8"
 pkgrel=0
 pkgdesc="Advanced Linux Sound Architecture (ALSA) utilities"
 url="http://www.alsa-project.org"

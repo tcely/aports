@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-snmp
+pkgname="py-snmp"
 _pkgname=pysnmp
-pkgver=4.4.5
+pkgver="4.4.5"
 pkgrel=1
 pkgdesc="A Python SNMP v1/v2c/v3 engine"
 url="http://pysnmp.sf.net/"

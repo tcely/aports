@@ -1,7 +1,7 @@
 # Contributor: Jeremy Thomerson <jeremy@thomersonfamily.com>
 # Maintainer: Jeremy Thomerson <jeremy@thomersonfamily.com>
-pkgname=librsync
-pkgver=2.0.2
+pkgname="librsync"
+pkgver="2.0.2"
 pkgrel=1
 pkgdesc="librsync implements the rolling-checksum algorithm of rsync"
 url="https://github.com/librsync/librsync"

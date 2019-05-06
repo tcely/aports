@@ -1,7 +1,7 @@
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
-pkgname=spacefm
-pkgver=1.0.6
+pkgname="spacefm"
+pkgver="1.0.6"
 pkgrel=0
 pkgdesc="Multi-panel tabbed file manager (GTK2 version)"
 arch=all

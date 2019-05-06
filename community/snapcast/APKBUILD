@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Bart Ribbers <bribbers@disroot.org>
-pkgname=snapcast
-pkgver=0.15.0
+pkgname="snapcast"
+pkgver="0.15.0"
 pkgrel=4
 pkgdesc="Synchronous multi-room audio player"
 url="https://github.com/badaix/snapcast"

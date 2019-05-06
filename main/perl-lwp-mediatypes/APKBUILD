@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-lwp-mediatypes
+pkgname="perl-lwp-mediatypes"
 _pkgname=LWP-MediaTypes
-pkgver=6.04
+pkgver="6.04"
 pkgrel=0
 pkgdesc="Perl module - guess media type for a file or a URL"
 url="http://search.cpan.org/~gaas"

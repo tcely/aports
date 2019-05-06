@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter at gmail>
 # Maintainer: Carlo Landmeter <clandmeter at gmail>
-pkgname=3dm2
-pkgver=9.5.1.1
+pkgname="3dm2"
+pkgver="9.5.1.1"
 pkgrel=1
 pkgdesc="3ware's RAID Management software tool"
 url="http://www.3ware.com"

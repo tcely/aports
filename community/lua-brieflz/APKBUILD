@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-brieflz
+pkgname="lua-brieflz"
 _pkgname=brieflz.lua
-pkgver=0.2.0
+pkgver="0.2.0"
 pkgrel=0
 pkgdesc="Lua binding for BriefLZ compression library"
 url="https://github.com/jirutka/brieflz.lua"

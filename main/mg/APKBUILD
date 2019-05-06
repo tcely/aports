@@ -1,7 +1,7 @@
 # Contributor: Lee Hinman <hinman@gmail.com>
 # Maintainer: Cág <ca6c@bitmessage.ch>
-pkgname=mg
-pkgver=20180824
+pkgname="mg"
+pkgver="20180824"
 pkgrel=0
 pkgdesc="microscopic EMACS style editor"
 url="https://github.com/hboetes/mg"

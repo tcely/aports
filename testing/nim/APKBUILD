@@ -2,8 +2,8 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 #
 # WARNING: There may be breakages!
-pkgname=nim
-pkgver=0.17.2
+pkgname="nim"
+pkgver="0.17.2"
 pkgrel=2
 pkgdesc="A systems and applications programming language"
 url="https://nim-lang.org/"

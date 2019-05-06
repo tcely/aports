@@ -4,8 +4,8 @@
 # Contributor: Ashley Sommer <ashleysommer@gmail.com>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Cameron Banta <cbanta@gmail.com>
-pkgname=rsyslog
-pkgver=8.40.0
+pkgname="rsyslog"
+pkgver="8.40.0"
 pkgrel=3
 pkgdesc="Enhanced multi-threaded syslogd with database support and more."
 url="https://www.rsyslog.com/"

@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=yelp-xsl
-pkgver=3.32.1
+pkgname="yelp-xsl"
+pkgver="3.32.1"
 pkgrel=0
 pkgdesc="XSL stylesheets for the yelp help browser"
 url="https://wiki.gnome.org/Apps/Yelp"

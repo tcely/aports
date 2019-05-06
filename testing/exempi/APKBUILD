@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=exempi
-pkgver=2.5.0
+pkgname="exempi"
+pkgver="2.5.0"
 pkgrel=0
 pkgdesc="A library to parse XMP metadata"
 url="https://libopenraw.freedesktop.org/wiki/Exempi/"

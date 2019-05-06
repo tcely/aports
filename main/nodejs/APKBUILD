@@ -32,10 +32,10 @@
 #   6.11.1-r0:
 #     - CVE-2017-1000381
 #
-pkgname=nodejs
+pkgname="nodejs"
 # Note: Update only to even-numbered versions (e.g. 6.y.z, 8.y.z)!
 # Odd-numbered versions are supported only for 9 months by upstream.
-pkgver=10.15.3
+pkgver="10.15.3"
 pkgrel=0
 pkgdesc="JavaScript runtime built on V8 engine - LTS version"
 url="https://nodejs.org/"

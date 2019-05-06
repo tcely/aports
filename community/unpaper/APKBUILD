@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=unpaper
-pkgver=6.1
+pkgname="unpaper"
+pkgver="6.1"
 pkgrel=1
 pkgdesc="post-processing tool for scanned sheets of paper"
 url="https://github.com/Flameeyes/unpaper"

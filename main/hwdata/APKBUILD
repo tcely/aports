@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=hwdata
-pkgver=0.318
+pkgname="hwdata"
+pkgver="0.318"
 pkgrel=0
 pkgdesc="Hardware identification and configuration data"
 url="https://github.com/vcrhonek/hwdata"

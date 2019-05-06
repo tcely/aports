@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=opennhrp
-pkgver=0.14.1
+pkgname="opennhrp"
+pkgver="0.14.1"
 pkgrel=6
 pkgdesc="NBMA Next Hop Resolution Protocol daemon"
 url="https://sourceforge.net/projects/opennhrp"

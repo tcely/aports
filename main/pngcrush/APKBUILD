@@ -1,7 +1,7 @@
 # Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=pngcrush
-pkgver=1.8.13
+pkgname="pngcrush"
+pkgver="1.8.13"
 pkgrel=0
 pkgdesc="PNG recompression utility"
 url="http://pmt.sourceforge.net/pngcrush/"

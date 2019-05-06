@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=esh
-pkgver=0.1.1
+pkgname="esh"
+pkgver="0.1.1"
 pkgrel=0
 pkgdesc="Simple template system based on shell"
 url="https://github.com/jirutka/esh"

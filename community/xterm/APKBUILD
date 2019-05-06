@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=xterm
-pkgver=344
+pkgname="xterm"
+pkgver="344"
 pkgrel=0
 pkgdesc="X Terminal Emulator"
 url="http://invisible-island.net/xterm"

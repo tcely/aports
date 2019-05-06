@@ -7,7 +7,7 @@ _targets="
 	msp430-elf
 	"
 pkgname="$_pkgbase-cross-embedded"
-pkgver=2.32
+pkgver="2.32"
 pkgrel=0
 pkgdesc="Tools necessary to build programs for embedded targets"
 url="http://www.gnu.org/software/${_pkgbase}/"

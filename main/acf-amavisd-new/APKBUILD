@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-amavisd-new
-pkgver=0.4.0
+pkgname="acf-amavisd-new"
+pkgver="0.4.0"
 pkgrel=2
 pkgdesc="ACF module for amavis"
 url="https://git.alpinelinux.org/cgit/acf/acf-amavisd-new"

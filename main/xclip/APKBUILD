@@ -1,7 +1,7 @@
 # Contributor: Orion <systmkor@gmail.com>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=xclip
-pkgver=0.13
+pkgname="xclip"
+pkgver="0.13"
 pkgrel=0
 pkgdesc="Command line interface to the X11 clipboard"
 url="https://github.com/astrand/xclip"

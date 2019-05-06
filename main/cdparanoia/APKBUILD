@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=cdparanoia
-pkgver=10.2
+pkgname="cdparanoia"
+pkgver="10.2"
 pkgrel=7
 pkgdesc="An audio CD extraction application"
 url="http://www.xiph.org/paranoia"

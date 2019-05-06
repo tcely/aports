@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-async-timeout
+pkgname="py3-async-timeout"
 _pkgname=async-timeout
-pkgver=3.0.1
+pkgver="3.0.1"
 pkgrel=1
 pkgdesc="Timeout context manager for asyncio programs"
 url="https://pypi.python.org/pypi/async_timeout"

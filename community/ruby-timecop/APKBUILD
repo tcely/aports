@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-timecop
+pkgname="ruby-timecop"
 _gemname=${pkgname#ruby-}
-pkgver=0.9.1
+pkgver="0.9.1"
 pkgrel=1
 pkgdesc="A gem providing 'time travel' and 'time freezing' capabilities"
 url="https://github.com/travisjeffery/timecop"

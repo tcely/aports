@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=libpeas
-pkgver=1.22.0
+pkgname="libpeas"
+pkgver="1.22.0"
 pkgrel=1
 pkgdesc="GObject-based plugin system"
 url="https://wiki.gnome.org/Projects/Libpeas"

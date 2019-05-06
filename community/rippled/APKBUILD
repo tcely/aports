@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=rippled
-pkgver=1.2.4
+pkgname="rippled"
+pkgver="1.2.4"
 pkgrel=0
 pkgdesc="Blockchain daemon implementing the Ripple Consensus Ledger"
 url="https://ripple.com/"

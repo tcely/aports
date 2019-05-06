@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer:
-pkgname=e2fsimage
-pkgver=0.2.3
+pkgname="e2fsimage"
+pkgver="0.2.3"
 pkgrel=0
 pkgdesc="create and populate an ext2/3/4 filesystem image as non-root user"
 url="https://github.com/Ledest/e2fsimage"

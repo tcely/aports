@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=gnome-session
-pkgver=3.26.0
+pkgname="gnome-session"
+pkgver="3.26.0"
 pkgrel=1
 pkgdesc="GNOME session manager"
 url="https://www.gnome.org/"

@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=bcache-tools
-pkgver=1.0.8
+pkgname="bcache-tools"
+pkgver="1.0.8"
 pkgrel=1
 pkgdesc="tools for managing bcache"
 url="https://bcache.evilpiepirate.org/"

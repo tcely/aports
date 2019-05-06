@@ -2,8 +2,8 @@
 
 # this package is to resolve the circular dependency libva -> mesa -> libva
 
-pkgname=libva-glx
-pkgver=2.2.0
+pkgname="libva-glx"
+pkgver="2.2.0"
 pkgrel=0
 pkgdesc="Video Acceleration (VA) API for Linux with MESA support"
 url="https://freedesktop.org/wiki/Software/vaapi"

@@ -1,7 +1,7 @@
 # Contributor: Oleg Titov <oleg.titov@gmail.com>
 # Maintainer: Oleg Titov <oleg.titov@gmail.com>
-pkgname=zerofree
-pkgver=1.1.1
+pkgname="zerofree"
+pkgver="1.1.1"
 pkgrel=0
 pkgdesc="Zero free blocks from ext2, ext3 and ext4 file-systems"
 url="https://frippery.org/uml/"

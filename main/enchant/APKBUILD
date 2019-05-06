@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=enchant
-pkgver=1.6.0
+pkgname="enchant"
+pkgver="1.6.0"
 pkgrel=13
 pkgdesc="A wrapper library for generic spell checking"
 url="http://www.abisource.com/enchant/"

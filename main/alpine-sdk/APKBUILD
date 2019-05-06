@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=alpine-sdk
-pkgver=1.0
+pkgname="alpine-sdk"
+pkgver="1.0"
 pkgrel=0
 url=http://dev.alpinelinux.org/cgit
 pkgdesc="Alpine Software Development Kit meta package"

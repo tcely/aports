@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-pygments
+pkgname="ruby-pygments"
 _gemname=pygments.rb
-pkgver=1.2.1
+pkgver="1.2.1"
 pkgrel=1
 pkgdesc="Pygments syntax highlighting in Ruby"
 url="https://github.com/tmm1/pygments.rb"

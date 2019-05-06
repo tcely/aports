@@ -1,7 +1,7 @@
 # Contributor: Hasse Hagen Johansen <hasse-docker@hagenjohansen.dk>
 # Maintainer: Hasse Hagen Johansen <hasse-docker@hagenjohansen.dk>
-pkgname=libhdhomerun
-pkgver=20161117
+pkgname="libhdhomerun"
+pkgver="20161117"
 pkgrel=1
 pkgdesc="Library for Silicon Dust HD HomeRun"
 url="http://www.silicondust.com/support/downloads/linux/"

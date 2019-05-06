@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libxslt
-pkgver=1.1.33
+pkgname="libxslt"
+pkgver="1.1.33"
 pkgrel=1
 pkgdesc="XML stylesheet transformation library"
 url="http://xmlsoft.org/XSLT/"

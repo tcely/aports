@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-dromozoa-utf8
+pkgname="lua-dromozoa-utf8"
 _pkgname=dromozoa-utf8
-pkgver=1.12
+pkgver="1.12"
 pkgrel=0
 pkgdesc="Lua 5.3 compatible pure-Lua UTF-8 implementation"
 url="https://github.com/dromozoa/dromozoa-utf8/"

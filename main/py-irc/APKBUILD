@@ -1,8 +1,8 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-irc
+pkgname="py-irc"
 _pkgname=irc
-pkgver=8.5.1
+pkgver="8.5.1"
 pkgrel=0
 pkgdesc="A python irc client library"
 url="http://python-irclib.sourceforge.net/"

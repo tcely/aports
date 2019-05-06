@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=apk-cron
-pkgver=1.0
+pkgname="apk-cron"
+pkgver="1.0"
 pkgrel=2
 pkgdesc="Periodic software updates"
 url=https://git.alpinelinux.org/cgit/aports/tree/main/apk-cron

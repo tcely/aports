@@ -1,6 +1,6 @@
 # Maintainer: Timo Teras <timo.teras@iki.fi>
-pkgname=openssl
-pkgver=1.1.1b
+pkgname="openssl"
+pkgver="1.1.1b"
 _abiver=${pkgver%.*}
 pkgrel=1
 pkgdesc="Toolkit for Transport Layer Security (TLS)"

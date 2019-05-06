@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-solr
+pkgname="php7-pecl-solr"
 _pkgreal=solr
-pkgver=2.4.0
+pkgver="2.4.0"
 _pkgver=${pkgver}
 pkgrel=5
 pkgdesc="Apache SOLR extension for PHP"

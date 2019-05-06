@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=minizip
-pkgver=1.2.11
+pkgname="minizip"
+pkgver="1.2.11"
 pkgrel=0
 pkgdesc="a library for manipulation with files from .zip archives"
 arch="all"

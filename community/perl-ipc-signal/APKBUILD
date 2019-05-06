@@ -1,8 +1,8 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-ipc-signal
+pkgname="perl-ipc-signal"
 _pkgreal=IPC-Signal
-pkgver=1.00
+pkgver="1.00"
 pkgrel=2
 pkgdesc="Perl module provides utility functions dealing with signals"
 url="http://search.cpan.org/dist/IPC-Signal/"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=font-noto
-pkgver=0_git20170920
+pkgname="font-noto"
+pkgver="0_git20170920"
 _sha=5a89b487c648c34c2b6d1b9ebb73bb3fab1df4b2
 pkgrel=0
 pkgdesc="Google's font family that aims to support all the world's languages"

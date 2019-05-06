@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx-theme-cloud
+pkgname="py-sphinx-theme-cloud"
 _pkgname=cloud_sptheme
-pkgver=1.5
+pkgver="1.5"
 pkgrel=0
 pkgdesc="The Cloud Sphinx theme"
 url="https://bitbucket.org/ecollins/cloud_sptheme"

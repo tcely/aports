@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Francesco Colista <francesco.colista@gmail.com>
-pkgname=statserial
-pkgver=1.1
+pkgname="statserial"
+pkgver="1.1"
 pkgrel=4
 pkgdesc="Display serial port modem status lines"
 url="http://sunsite.unc.edu/pub/Linux/system/Serial"

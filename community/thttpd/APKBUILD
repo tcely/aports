@@ -1,7 +1,7 @@
 # Contributor: z3bra <willy at mailoo dot org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=thttpd
-pkgver=2.29
+pkgname="thttpd"
+pkgver="2.29"
 pkgrel=1
 pkgdesc="Simple, small, portable, fast, and secure HTTP server"
 url="http://www.acme.com/software/thttpd"

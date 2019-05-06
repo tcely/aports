@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 pkgname="libaio"
-pkgver=0.3.111
+pkgver="0.3.111"
 pkgrel=0
 pkgdesc="Asynchronous input/output library"
 url="http://lse.sourceforge.net/io/aio.html"

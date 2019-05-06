@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=xfce4-mailwatch-plugin
-pkgver=1.2.0
+pkgname="xfce4-mailwatch-plugin"
+pkgver="1.2.0"
 pkgrel=1
 pkgdesc="a multi-protocol, multi-mailbox mail watcher"
 url="https://goodies.xfce.org/projects/panel-plugins/xfce4-mailwatch-plugin"

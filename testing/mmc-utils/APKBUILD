@@ -1,6 +1,6 @@
 # Contributor: Olliver Schinagl <oliver@schinagl.nl>
 # Maintainer: Olliver Schinagl <oliver@schinagl.nl>
-pkgname=mmc-utils
+pkgname="mmc-utils"
 pkgver="4.3.0_git20181024"
 pkgrel=1
 pkgdesc="Configure MMC storage devices from userspace."

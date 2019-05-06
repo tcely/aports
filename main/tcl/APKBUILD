@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=tcl
-pkgver=8.6.9
+pkgname="tcl"
+pkgver="8.6.9"
 pkgrel=0
 pkgdesc="The Tcl scripting language"
 url="http://tcl.sourceforge.net/"

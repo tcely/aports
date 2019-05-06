@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=cabextract
-pkgver=1.9.1
+pkgname="cabextract"
+pkgver="1.9.1"
 pkgrel=0
 pkgdesc="Tool for extracting Microsoft cabinet files"
 url="https://www.cabextract.org.uk/"

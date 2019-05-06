@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-actdiag
+pkgname="py-sphinxcontrib-actdiag"
 _pkgname=sphinxcontrib-actdiag
-pkgver=0.8.5
+pkgver="0.8.5"
 pkgrel=2
 pkgdesc="Sphinx "actdiag" extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-actdiag"

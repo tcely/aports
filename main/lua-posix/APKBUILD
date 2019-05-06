@@ -2,9 +2,9 @@
 
 _luaversions="5.1 5.2 5.3"
 
-pkgname=lua-posix
+pkgname="lua-posix"
 _name=luaposix
-pkgver=33.4.0
+pkgver="33.4.0"
 pkgrel=1
 pkgdesc="POSIX library for Lua $_luaver"
 url="https://github.com/luaposix/luaposix"

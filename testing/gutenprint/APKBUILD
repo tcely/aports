@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer:
-pkgname=gutenprint
-pkgver=5.2.11
+pkgname="gutenprint"
+pkgver="5.2.11"
 pkgrel=0
 pkgdesc="Printer Drivers Package"
 url="http://gimp-print.sourceforge.net/"

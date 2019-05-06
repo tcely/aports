@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=libgdata
-pkgver=0.17.9
+pkgname="libgdata"
+pkgver="0.17.9"
 pkgrel=1
 pkgdesc="access library for gdata"
 url="http://live.gnome.org/libgdata"

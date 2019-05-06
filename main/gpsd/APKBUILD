@@ -1,7 +1,7 @@
 # Contributor: Nathan Angelacos <nangel@alpinelinux.org>
 # Maintainer: Nathan Angelacos <nangel@alpinelinux.org>
-pkgname=gpsd
-pkgver=3.18.1
+pkgname="gpsd"
+pkgver="3.18.1"
 pkgrel=2
 pkgdesc="A GPS daemon"
 arch=all

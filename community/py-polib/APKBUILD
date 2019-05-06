@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-polib
+pkgname="py-polib"
 _pkgname=polib
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="A library to manipulate gettext files"
 url="http://polib.readthedocs.org/en/latest/index.html"

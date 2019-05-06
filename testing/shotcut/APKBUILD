@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=shotcut
-pkgver=18.03
+pkgname="shotcut"
+pkgver="18.03"
 pkgrel=0
 pkgdesc="Cross-platform video editor"
 url="https://www.shotcut.org"

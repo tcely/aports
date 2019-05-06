@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libnl
-pkgver=1.1.4
+pkgname="libnl"
+pkgver="1.1.4"
 pkgrel=0
 pkgdesc="Library for applications dealing with netlink sockets"
 url="https://www.infradead.org/~tgr/libnl/"

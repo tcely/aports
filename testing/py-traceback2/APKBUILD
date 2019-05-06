@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=py-traceback2
+pkgname="py-traceback2"
 _pkgname=${pkgname#py-*}
-pkgver=1.4.0
+pkgver="1.4.0"
 pkgrel=1
 pkgdesc="Backport of the Python3 stdlib traceback module"
 url="https://github.com/testing-cabal/traceback2"

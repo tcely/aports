@@ -1,7 +1,7 @@
 # Contributor: Timo Teras <timo.teras@iki.fi>
 # Maintainer: Timo Teras <timo.teras@iki.fi>
-pkgname=policyd-spf-fs
-pkgver=23
+pkgname="policyd-spf-fs"
+pkgver="23"
 pkgrel=3
 pkgdesc="Policy daemon for checking SPF records in postfix"
 url="http://www.freestone.net/software/policyd-spf-fs/"

@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-db_file
+pkgname="perl-db_file"
 _pkgname=DB_File
-pkgver=1.851
+pkgver="1.851"
 pkgrel=0
 pkgdesc="Perl5 access to Berkeley DB"
 url="http://search.cpan.org/~pmqs/DB_File-1.820/"

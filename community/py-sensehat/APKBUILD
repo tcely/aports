@@ -1,8 +1,8 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=py-sensehat
+pkgname="py-sensehat"
 _pkgname=python-sense-hat
-pkgver=2.2.0
+pkgver="2.2.0"
 pkgrel=1
 pkgdesc="Python module to control the Raspberry Pi Sense HAT"
 url="https://www.raspberrypi.org/products/sense-hat/"

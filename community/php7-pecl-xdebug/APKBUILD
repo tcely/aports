@@ -2,9 +2,9 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
-pkgname=php7-pecl-xdebug
+pkgname="php7-pecl-xdebug"
 _pkgname=xdebug
-pkgver=2.7.1
+pkgver="2.7.1"
 pkgrel=0
 pkgdesc="PHP extension that provides functions for function traces and profiling - PECL"
 url="https://pecl.php.net/package/xdebug"

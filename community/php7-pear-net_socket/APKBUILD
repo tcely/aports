@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 _php=php7
-pkgname=${_php}-pear-net_socket
+pkgname="${_php}-pear-net_socket"
 _pkgreal=Net_Socket
-pkgver=1.2.2
+pkgver="1.2.2"
 pkgrel=0
 pkgdesc="Network Socket Interface"
 url="http://pear.php.net/package/$_pkgreal"

@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com> 
-pkgname=totem-pl-parser
-pkgver=3.26.3
+pkgname="totem-pl-parser"
+pkgver="3.26.3"
 pkgrel=0
 pkgdesc="GNOME playlist parser library"
 url="https://www.gnome.org/"

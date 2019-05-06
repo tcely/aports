@@ -1,8 +1,8 @@
 # Contributor: Keith Maxwell <keith.maxwell@gmail.com>
 # Maintainer: Keith Maxwell <keith.maxwell@gmail.com>
-pkgname=py3-google-auth
+pkgname="py3-google-auth"
 _pyname=google-auth
-pkgver=1.6.3
+pkgver="1.6.3"
 pkgrel=1
 pkgdesc="Google authentication library for Python."
 url="https://google-auth.readthedocs.io/en/latest/"

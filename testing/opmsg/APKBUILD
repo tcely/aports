@@ -1,7 +1,7 @@
 # Contributor: stef <l0ls0fo2i@ctrlc.hu>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=opmsg
-pkgver=1.78
+pkgname="opmsg"
+pkgver="1.78"
 pkgrel=2
 pkgdesc="opmsg gpg-like encryption system"
 url="https://github.com/stealth/opmsg"

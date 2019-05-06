@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce4-notifyd
-pkgver=0.4.4
+pkgname="xfce4-notifyd"
+pkgver="0.4.4"
 pkgrel=0
 pkgdesc="Notification daemon for the xfce desktop"
 url="https://docs.xfce.org/apps/notifyd/"

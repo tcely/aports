@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-ws4py
+pkgname="py-ws4py"
 _pkgname=ws4py
-pkgver=0.5.1
+pkgver="0.5.1"
 pkgrel=1
 pkgdesc="WebSocket client and server library for Python 2 and 3 as well as PyPy"
 url="https://github.com/Lawouach/WebSocket-for-Python"

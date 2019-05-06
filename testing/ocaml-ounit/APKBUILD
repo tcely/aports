@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-ounit
+pkgname="ocaml-ounit"
 _pkgname=ounit
-pkgver=2.0.8
+pkgver="2.0.8"
 pkgrel=0
 pkgdesc="A unit test framework for OCaml"
 url="http://ounit.forge.ocamlcore.org/"

@@ -1,7 +1,7 @@
 # Contributor: Rasmus Thomsen <oss@cogitri.dev>
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=telepathy-logger
-pkgver=0.8.2
+pkgname="telepathy-logger"
+pkgver="0.8.2"
 pkgrel=0
 pkgdesc="Telepathy framework logging daemon"
 url="https://telepathy.freedesktop.org/wiki/Logger"

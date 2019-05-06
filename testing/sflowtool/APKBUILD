@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=sflowtool
-pkgver=3.41
+pkgname="sflowtool"
+pkgver="3.41"
 pkgrel=0
 pkgdesc="Print binary sFlow feed to ASCII, or forward it to other collectors"
 url="https://github.com/sflow/sflowtool"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=zsnes
-pkgver=1.51
+pkgname="zsnes"
+pkgver="1.51"
 pkgrel=10
 pkgdesc="Super Nintendo emulator"
 url="http://www.zsnes.com/"

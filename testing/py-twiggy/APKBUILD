@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-twiggy
+pkgname="py-twiggy"
 _pkgname=Twiggy
-pkgver=0.4.7
+pkgver="0.4.7"
 pkgrel=0
 pkgdesc="A Pythonic logger"
 url="http://twiggy.wearpants.org"

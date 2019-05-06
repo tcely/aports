@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=eggdrop
-pkgver=1.6.21
+pkgname="eggdrop"
+pkgver="1.6.21"
 pkgrel=2
 pkgdesc="World's most popular Open Source IRC bot"
 url="http://www.eggheads.org/"

@@ -1,8 +1,8 @@
 # Contributor: Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=py3-pyo
+pkgname="py3-pyo"
 _pkgname=pyo
-pkgver=0.8.7
+pkgver="0.8.7"
 pkgrel=1
 pkgdesc="dedicated Python module for digital signal processing"
 url="http://ajaxsoundstudio.com/software/pyo/"

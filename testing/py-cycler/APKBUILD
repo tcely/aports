@@ -1,8 +1,8 @@
 # Contributor: Isaac Dunham <ibid.ag@gmail.com>
 # Maintainer: Isaac Dunham <ibid.ag@gmail.com>
-pkgname=py-cycler
+pkgname="py-cycler"
 _pkgname=cycler
-pkgver=0.10.0
+pkgver="0.10.0"
 pkgrel=4
 pkgdesc="Composable style cycles in Python"
 url="https://matplotlib.org/cycler/"

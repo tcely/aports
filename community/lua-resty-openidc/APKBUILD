@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=lua-resty-openidc
-pkgver=1.7.1
+pkgname="lua-resty-openidc"
+pkgver="1.7.1"
 pkgrel=0
 pkgdesc="OpenID Connect library for the nginx lua module"
 url="https://github.com/zmartzone/$pkgname"

@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=imv
-pkgver=3.0.0
+pkgname="imv"
+pkgver="3.0.0"
 pkgrel=2
 pkgdesc="Image viewer for X11/Wayland"
 url="https://github.com/eXeC64/imv"

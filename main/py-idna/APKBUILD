@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-idna
+pkgname="py-idna"
 _pkgname=idna
-pkgver=2.8
+pkgver="2.8"
 pkgrel=1
 pkgdesc="IDNA 2008 and UTS #46 for Python"
 url="https://github.com/kjd/idna"

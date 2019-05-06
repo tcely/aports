@@ -1,7 +1,7 @@
 # Contributor: Benoit Masson <yahoo@perenite.com>
 # Maintainer: Benoit Masson <yahoo@perenite.com>
-pkgname=pam_sqlite3
-pkgver=1.0.2
+pkgname="pam_sqlite3"
+pkgver="1.0.2"
 pkgrel=0
 pkgdesc="pam_sqlite3"
 url="https://github.com/HormyAJP/pam_sqlite3"

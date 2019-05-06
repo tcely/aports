@@ -1,7 +1,7 @@
 # Contributor: August Klein <amatcoder@gmail.com>
 # Maintainer: August Klein <amatcoder@gmail.com>
-pkgname=mednafen
-pkgver=0.9.38.7
+pkgname="mednafen"
+pkgver="0.9.38.7"
 pkgrel=0
 pkgdesc="A command-line multi-system emulator"
 url="http://mednafen.sourceforge.net"

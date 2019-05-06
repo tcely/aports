@@ -1,7 +1,7 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=snes9x
-pkgver=1.58
+pkgname="snes9x"
+pkgver="1.58"
 pkgrel=0
 pkgdesc="Super NES Emulator"
 url="http://www.snes9x.com"

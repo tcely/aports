@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=atf
-pkgver=0.21
+pkgname="atf"
+pkgver="0.21"
 pkgrel=1
 pkgdesc="libraries to write tests in C, C++ and shell"
 url="https://github.com/jmmv/atf"

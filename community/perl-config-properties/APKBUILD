@@ -1,8 +1,8 @@
 # Contributor: Andreas Schipplock <andreas@schipplock.de>
 # Maintainer: Andreas Schipplock <andreas@schipplock.de>
-pkgname=perl-config-properties
+pkgname="perl-config-properties"
 _pkgreal=Config-Properties
-pkgver=1.80
+pkgver="1.80"
 pkgrel=0
 pkgdesc="Read and write property files"
 url="http://search.cpan.org/dist/Config-Properties/"

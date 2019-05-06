@@ -1,7 +1,7 @@
 # Contributor: Olivier Mauras <olivier@mauras.ch>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=consul
-pkgver=1.4.4
+pkgname="consul"
+pkgver="1.4.4"
 pkgrel=0
 pkgdesc="Tool for service discovery, monitoring and configuration"
 url="https://www.consul.io"

@@ -1,7 +1,7 @@
 # Contributor: Pedro Filipe <xpecex@outlook.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=mosquitto
-pkgver=1.6.2
+pkgname="mosquitto"
+pkgver="1.6.2"
 pkgrel=0
 pkgdesc="An Open Source MQTT v3.1 Broker"
 url="https://mosquitto.org/"

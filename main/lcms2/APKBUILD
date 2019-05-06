@@ -1,7 +1,7 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lcms2
-pkgver=2.9
+pkgname="lcms2"
+pkgver="2.9"
 pkgrel=1
 pkgdesc="Color Management Engine"
 url="http://www.littlecms.com"

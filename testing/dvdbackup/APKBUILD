@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=dvdbackup
-pkgver=0.4.2
+pkgname="dvdbackup"
+pkgver="0.4.2"
 pkgrel=0
 pkgdesc="Tool to rip video DVDs from the command line"
 url="http://dvdbackup.sourceforge.net/"

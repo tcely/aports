@@ -1,7 +1,7 @@
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=gajim-plugin-omemo
+pkgname="gajim-plugin-omemo"
 _pkgname="${pkgname#gajim-plugin-}"
-pkgver=2.6.2
+pkgver="2.6.2"
 pkgrel=1
 pkgdesc="Gajim plugin for Multi-End Message and Object Encryption (OMEMO)"
 url="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin"

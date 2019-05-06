@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _luaversions="5.1 5.2 5.3"
-pkgname=lua-mqtt-publish
-pkgver=0.3
+pkgname="lua-mqtt-publish"
+pkgver="0.3"
 pkgrel=0
 pkgdesc="Lua module for simple MQTT connect, publish and disconnect"
 url="https://github.com/ncopa/lua-mqtt-publish"

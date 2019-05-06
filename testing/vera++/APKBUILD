@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=vera++
-pkgver=1.3.0
+pkgname="vera++"
+pkgver="1.3.0"
 pkgrel=3
 pkgdesc="A tool for verification, analysis and transformation of C++ source code"
 url="https://bitbucket.org/verateam/vera/"

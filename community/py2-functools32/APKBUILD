@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py2-functools32
+pkgname="py2-functools32"
 _pkgname=functools32
-pkgver=3.2.3
+pkgver="3.2.3"
 _pkgver=${pkgver}-2
 pkgrel=2
 pkgdesc="Backport of the functools module from Python 3.2.3 for use on 2.7 and PyPy."

@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=icedtea-web
-pkgver=1.6.2
+pkgname="icedtea-web"
+pkgver="1.6.2"
 pkgrel=0
 pkgdesc="web integration packages for icedtea"
 url="http://icedtea.classpath.org/wiki/IcedTea-Web"

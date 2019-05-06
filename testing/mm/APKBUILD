@@ -1,8 +1,8 @@
 # Contributor: 
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=mm
-pkgver=1.4.2
+pkgname="mm"
+pkgver="1.4.2"
 pkgrel=1
 pkgdesc="A shared memory abstraction library"
 url="http://www.ossp.org/pkg/lib/mm/"

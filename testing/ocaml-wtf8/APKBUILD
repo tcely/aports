@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-wtf8
+pkgname="ocaml-wtf8"
 _pkgname=wtf8
-pkgver=1.0.1
+pkgver="1.0.1"
 pkgrel=0
 pkgdesc="An ocaml library that implements a WTF-8 encoder and decoder"
 url="https://github.com/flowtype/ocaml-wtf8"

@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=openlibm
-pkgver=0.6.0
+pkgname="openlibm"
+pkgver="0.6.0"
 pkgrel=0
 pkgdesc="High quality system independent, portable, open source libm implementation"
 url="http://www.openlibm.org"

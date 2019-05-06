@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libcdr
-pkgver=0.1.5
+pkgname="libcdr"
+pkgver="0.1.5"
 pkgrel=1
 pkgdesc="Import filter and tools for Corel DRAW files"
 url="https://wiki.documentfoundation.org/DLP/Libraries/libcdr"

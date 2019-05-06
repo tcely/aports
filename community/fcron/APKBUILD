@@ -1,6 +1,6 @@
 # Maintainer: Diaz Devera Victor <vitronic2@gmail.com>
-pkgname=fcron
-pkgver=3.2.1
+pkgname="fcron"
+pkgver="3.2.1"
 pkgrel=1
 pkgdesc="periodical command scheduler for systems not always up"
 url="http://fcron.free.fr/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flake8-class
+pkgname="py-flake8-class"
 _pkgname=flake8-class
-pkgver=0.0.6
+pkgver="0.0.6"
 pkgrel=2
 pkgdesc="Extension for flake8 lint of class declations"
 url="https://github.com/hellysmile/flake8-class"

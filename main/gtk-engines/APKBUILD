@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer:
-pkgname=gtk-engines
-pkgver=2.21.0
+pkgname="gtk-engines"
+pkgver="2.21.0"
 pkgrel=2
 pkgdesc="collection of gtk+ engines"
 url="https://www.gtk.org/"

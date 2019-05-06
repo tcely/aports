@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=irclog2html
-pkgver=2.17.2
+pkgname="irclog2html"
+pkgver="2.17.2"
 pkgrel=0
 pkgdesc="Script to convert IRC logs to HTML and other formats"
 url="http://mg.pov.lt/irclog2html/"

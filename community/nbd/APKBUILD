@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=nbd
-pkgver=3.18
+pkgname="nbd"
+pkgver="3.18"
 pkgrel=0
 pkgdesc="Tools for network block devices"
 url="http://nbd.sourceforge.net"

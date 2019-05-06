@@ -1,7 +1,7 @@
 # Contributor: Ed Robinson <ed@reevoo.com>
 # Maintainer: Ed Robinson <ed@reevoo.com>
-pkgname=libspiro
-pkgver=0.5.20150702
+pkgname="libspiro"
+pkgver="0.5.20150702"
 pkgrel=0
 pkgdesc="Spiro is the creation of Raph Levien. It simplifies the drawing of beautiful curves."
 url="https://github.com/fontforge/libspiro"

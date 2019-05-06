@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=gvmd
-pkgver=8.0.0
+pkgname="gvmd"
+pkgver="8.0.0"
 pkgrel=2
 pkgdesc="Greenbone Vulnerability Manager"
 url="http://www.openvas.org/"

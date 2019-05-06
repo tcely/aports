@@ -1,7 +1,7 @@
 # Contributor: Daniel Sabogal <dsabogalcc@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=discount
-pkgver=2.2.4
+pkgname="discount"
+pkgver="2.2.4"
 pkgrel=0
 pkgdesc="A Markdown to HTML translator written in C"
 url="http://www.pell.portland.or.us/~orc/Code/discount/"

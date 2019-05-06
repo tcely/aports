@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=opencl-headers
-pkgver=2.1
+pkgname="opencl-headers"
+pkgver="2.1"
 _pkgreal=OpenCL-Headers
 pkgrel=0
 pkgdesc="OpenCL (Open Computing Language) header files"

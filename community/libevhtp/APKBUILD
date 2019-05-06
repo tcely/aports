@@ -1,7 +1,7 @@
 # Contributor: <xmingske@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libevhtp
-pkgver=1.2.16
+pkgname="libevhtp"
+pkgver="1.2.16"
 pkgrel=0
 pkgdesc="Flexible replacement for libevent's httpd API"
 url="https://github.com/criticalstack/libevhtp/"

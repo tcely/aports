@@ -5,9 +5,9 @@
 #   JSBackend and WebAssembly, these will be hopefully someday merged into
 #   upstream LLVM.
 # TODO: Remove unneeded binaries.
-pkgname=emscripten-fastcomp
+pkgname="emscripten-fastcomp"
 # Keep in sync with package emscripten!
-pkgver=1.37.10
+pkgver="1.37.10"
 pkgrel=2
 pkgdesc="The Clang + LLVM backend for Emscripten"
 url="https://kripken.github.io/emscripten-site/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-translationstring
+pkgname="py-translationstring"
 _pkgname=translationstring
-pkgver=1.1
+pkgver="1.1"
 pkgrel=0
 pkgdesc="A Python utility library for i18n"
 url="http://docs.pylonsproject.org/projects/translationstring/dev/"

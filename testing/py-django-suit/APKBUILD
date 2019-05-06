@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=py-django-suit
+pkgname="py-django-suit"
 _realname=${pkgname#*-}
-pkgver=0.3a1
+pkgver="0.3a1"
 pkgrel=0
 pkgdesc="Modern theme for Django admin interface"
 url="http://djangosuit.com/"

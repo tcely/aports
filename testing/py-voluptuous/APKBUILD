@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-voluptuous
+pkgname="py-voluptuous"
 _pkgname=voluptuous
-pkgver=0.11.5
+pkgver="0.11.5"
 pkgrel=1
 pkgdesc="A Python data validation library"
 url="https://github.com/alecthomas/voluptuous"

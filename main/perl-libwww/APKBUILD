@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-libwww
+pkgname="perl-libwww"
 _realname=libwww-perl
-pkgver=6.38
+pkgver="6.38"
 pkgrel=1
 pkgdesc="Perl module - World Wide Web library"
 url="http://search.cpan.org/~mschilli"

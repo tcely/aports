@@ -1,8 +1,8 @@
 # Contributor: Thomas Boerger <thomas@webhippie.de>
 # Maintainer: Thomas Boerger <thomas@webhippie.de>
-pkgname=py-prompt_toolkit
+pkgname="py-prompt_toolkit"
 _pkgname=prompt_toolkit
-pkgver=2.0.9
+pkgver="2.0.9"
 pkgrel=1
 pkgdesc="Library for building powerful interactive command lines in Python"
 url="https://pypi.python.org/pypi/prompt_toolkit"

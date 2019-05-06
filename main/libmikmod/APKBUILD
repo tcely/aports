@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libmikmod
-pkgver=3.3.11.1
+pkgname="libmikmod"
+pkgver="3.3.11.1"
 pkgrel=0
 pkgdesc="module playing library"
 url="http://mikmod.shlomifish.org"

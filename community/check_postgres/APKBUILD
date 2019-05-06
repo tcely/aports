@@ -2,8 +2,8 @@
 # Contributor: G.J.R. Timmer <gjr.timmer@gmail.com>
 # Maintainer: G.J.R. Timmer <gjr.timmer@gmail.com>
 # TODO: run tests!
-pkgname=check_postgres
-pkgver=2.24.0
+pkgname="check_postgres"
+pkgver="2.24.0"
 pkgrel=0
 pkgdesc="PostgreSQL monitoring script"
 url="https://bucardo.org/wiki/Check_postgres"

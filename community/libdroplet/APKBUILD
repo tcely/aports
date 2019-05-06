@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libdroplet
+pkgname="libdroplet"
 _pkgname=Droplet
-pkgver=2.0
+pkgver="2.0"
 pkgrel=7
 pkgdesc="Cloud storage client library"
 url="https://www.scality.com"

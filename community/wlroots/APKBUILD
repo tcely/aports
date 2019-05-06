@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=wlroots
-pkgver=0.5.0
+pkgname="wlroots"
+pkgver="0.5.0"
 pkgrel=0
 pkgdesc="A modular Wayland compositor library"
 url="https://github.com/swaywm/wlroots"

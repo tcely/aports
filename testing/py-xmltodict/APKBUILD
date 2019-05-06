@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=py-xmltodict
-pkgver=0.11.0
+pkgname="py-xmltodict"
+pkgver="0.11.0"
 pkgrel=1
 pkgdesc="an xmltodict implementation"
 url="https://pypi.python.org/pypi/xmltodict/"

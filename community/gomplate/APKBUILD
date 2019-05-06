@@ -1,7 +1,7 @@
 # Maintainer: Dave Henderson <dhenderson@gmail.com>
-pkgname=gomplate
+pkgname="gomplate"
 _goname="github.com/hairyhenderson/$pkgname"
-pkgver=3.4.0
+pkgver="3.4.0"
 pkgrel=0
 pkgdesc="A versatile Go template processor"
 url="https://github.com/hairyhenderson/gomplate"

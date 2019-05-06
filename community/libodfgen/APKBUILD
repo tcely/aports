@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libodfgen
-pkgver=0.1.7
+pkgname="libodfgen"
+pkgver="0.1.7"
 pkgrel=0
 pkgdesc="Import filter and tools for Open Document Format"
 url="https://sourceforge.net/projects/libwpd/"

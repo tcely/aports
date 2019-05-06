@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=gd
-pkgver=2.2.5
+pkgname="gd"
+pkgver="2.2.5"
 pkgrel=2
 _pkgreal=lib$pkgname
 pkgdesc="Library for the dynamic creation of images by programmers"

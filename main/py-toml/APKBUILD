@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinuxn.org>
-pkgname=py-toml
+pkgname="py-toml"
 _pyname=toml
-pkgver=0.10.0
+pkgver="0.10.0"
 pkgrel=0
 pkgdesc="Python library for TOML"
 url="https://github.com/uiri/toml"

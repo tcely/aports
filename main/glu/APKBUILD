@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=glu
-pkgver=9.0.0
+pkgname="glu"
+pkgver="9.0.0"
 pkgrel=4
 pkgdesc="Mesa OpenGL Utility library"
 url="https://cgit.freedesktop.org/mesa/glu/"

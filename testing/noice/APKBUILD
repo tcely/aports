@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: sin <sin@2f30.org>
 # Maintainer: sin <sin@2f30.org>
-pkgname=noice
-pkgver=0.6
+pkgname="noice"
+pkgver="0.6"
 pkgrel=0
 pkgdesc="A simple file browser"
 url="http://git.2f30.org/noice"

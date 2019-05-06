@@ -1,7 +1,7 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=font-siji
-pkgver=20190218_git
+pkgname="font-siji"
+pkgver="20190218_git"
 _pkgver="c691f200c1c66e76daa2afc9cbbd1aa39045c906"
 pkgrel=0
 pkgdesc="Iconic bitmap font based on Stlarch with additional glyphs."

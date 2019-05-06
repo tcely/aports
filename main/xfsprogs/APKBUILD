@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfsprogs
-pkgver=5.0.0
+pkgname="xfsprogs"
+pkgver="5.0.0"
 pkgrel=0
 pkgdesc="XFS filesystem utilities"
 url="http://xfs.org/index.php/Main_Page"

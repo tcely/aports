@@ -1,11 +1,11 @@
 # Contributor: Timo Teras <timo.teras@iki.fi>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Timo Teras <timo.teras@iki.fi>
-pkgname=openjdk8
+pkgname="openjdk8"
 _icedteaver=3.12.0
 # pkgver is <JDK version>.<JDK update>.<JDK build>
 # Check https://icedtea.classpath.org/wiki/Main_Page when updating!
-pkgver=8.212.04
+pkgver="8.212.04"
 pkgrel=0
 pkgdesc="OpenJDK 8 provided by IcedTea"
 url="https://icedtea.classpath.org/"

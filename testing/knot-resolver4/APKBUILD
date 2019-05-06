@@ -2,7 +2,7 @@
 # Maintainer: tcely <knot-resolver+aports@tcely.33mail.com>
 _pkgname="knot-resolver"
 pkgname="${_pkgname}4"
-pkgver=4.0.0
+pkgver="4.0.0"
 pkgrel=1
 pkgdesc="Minimalistic caching DNS resolver implementation"
 url="https://www.knot-resolver.cz/"

@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: 
-pkgname=mpdscribble
-pkgver=0.22
+pkgname="mpdscribble"
+pkgver="0.22"
 pkgrel=2
 pkgdesc="last.fm client for mpd"
 url="https://github.com/MusicPlayerDaemon/mpdscribble"

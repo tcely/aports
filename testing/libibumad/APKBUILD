@@ -1,7 +1,7 @@
 # Contributor: Jann - Ove Risvik <jann.ove@usaklig.com>
 # Maintainer:
-pkgname=libibumad
-pkgver=1.3.10.2
+pkgname="libibumad"
+pkgver="1.3.10.2"
 pkgrel=1
 pkgdesc="Interface to ib_umad module (user_mad) library. (InfiniBand)"
 url="https://www.openfabrics.org/index.php/openfabrics-software.html"

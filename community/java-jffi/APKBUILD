@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=java-jffi
+pkgname="java-jffi"
 _pkgname=${pkgname#java-}
-pkgver=1.2.17
+pkgver="1.2.17"
 _libver=${pkgver%.*}
 pkgrel=0
 pkgdesc="Java Foreign Function Interface"

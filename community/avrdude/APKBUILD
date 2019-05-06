@@ -1,7 +1,7 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=avrdude
-pkgver=6.3
+pkgname="avrdude"
+pkgver="6.3"
 pkgrel=2
 pkgdesc="Download/upload/manipulate the ROM and EEPROM contents of AVR microcontrollers"
 url="http://www.nongnu.org/avrdude/"

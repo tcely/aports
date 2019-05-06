@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=gcompat
-pkgver=0.3.0
+pkgname="gcompat"
+pkgver="0.3.0"
 pkgrel=0
 pkgdesc="The GNU C Library compatibility layer for musl"
 url="https://code.foxkit.us/adelie/gcompat"

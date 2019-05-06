@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xcb-util-renderutil
-pkgver=0.3.9
+pkgname="xcb-util-renderutil"
+pkgver="0.3.9"
 pkgrel=1
 pkgdesc="X C-language Binding - Convenience functions for XRender extension"
 url="https://xcb.freedesktop.org/"

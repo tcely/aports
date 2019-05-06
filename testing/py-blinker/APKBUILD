@@ -1,8 +1,8 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-blinker
+pkgname="py-blinker"
 _pkgname=blinker
-pkgver=1.4
+pkgver="1.4"
 pkgrel=3
 pkgdesc="Fast, simple object-to-object and broadcast signalling"
 url="http://pypi.python.org/pypi/blinker"

@@ -27,8 +27,8 @@
 #   The pid file path is set during the configuration step
 #   (shown below with the assignment of CLOUDI_PID_FILE).
 
-pkgname=cloudi
-pkgver=1.7.5
+pkgname="cloudi"
+pkgver="1.7.5"
 pkgrel=3
 pkgdesc="Cloud computing framework for efficient, scalable, and stable soft-realtime event processing."
 url="https://cloudi.org/"

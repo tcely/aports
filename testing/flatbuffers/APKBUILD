@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=flatbuffers
-pkgver=1.10.0
+pkgname="flatbuffers"
+pkgver="1.10.0"
 pkgrel=0
 pkgdesc="Memory Efficient Serialization Library"
 url="https://google.github.io/flatbuffers/"

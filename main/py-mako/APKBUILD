@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-mako
+pkgname="py-mako"
 _pkgname=Mako
-pkgver=1.0.7
+pkgver="1.0.7"
 pkgrel=1
 pkgdesc="A Python fast templating language"
 url="http://www.makotemplates.org/"

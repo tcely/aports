@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=openjpeg
-pkgver=2.3.1
+pkgname="openjpeg"
+pkgver="2.3.1"
 pkgrel=0
 pkgdesc="Open-source implementation of JPEG2000 image codec"
 url="http://www.openjpeg.org/"

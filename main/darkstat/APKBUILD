@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=darkstat
-pkgver=3.0.719
+pkgname="darkstat"
+pkgver="3.0.719"
 pkgrel=1
 pkgdesc="Captures network traffic, calculates statistics about usage, and serves reports over HTTP"
 url="https://unix4lyfe.org/darkstat/"

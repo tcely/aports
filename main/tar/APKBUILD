@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=tar
-pkgver=1.32
+pkgname="tar"
+pkgver="1.32"
 pkgrel=0
 pkgdesc="Utility used to store, backup, and transport files"
 url="https://www.gnu.org"

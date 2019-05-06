@@ -1,6 +1,6 @@
 # Maintainer: Daniel Isaksen <d@duniel.no>
-pkgname=tmate
-pkgver=2.2.1
+pkgname="tmate"
+pkgver="2.2.1"
 pkgrel=1
 pkgdesc="Instant Terminal Sharing"
 url="https://tmate.io/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-ticket-auth
+pkgname="py3-ticket-auth"
 _pkgname=ticket_auth
-pkgver=0.1.4
+pkgver="0.1.4"
 pkgrel=2
 pkgdesc="Ticket authentication system"
 url="https://github.com/gnarlychicken/ticket_auth"

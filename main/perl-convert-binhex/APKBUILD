@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-convert-binhex
+pkgname="perl-convert-binhex"
 _realname=Convert-BinHex
-pkgver=1.125
+pkgver="1.125"
 pkgrel=1
 pkgdesc="Extract data from Macintosh BinHex files"
 url="http://search.cpan.org/dist/Convert-BinHex/"

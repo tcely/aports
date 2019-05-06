@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-python-archive
+pkgname="py3-python-archive"
 _pkgname=python-archive
-pkgver=0.2
+pkgver="0.2"
 pkgrel=0
 pkgdesc="Library for extracting zip and tar archives"
 url="https://github.com/gdub/python-archive"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=db
-pkgver=5.3.28
+pkgname="db"
+pkgver="5.3.28"
 _ver=${pkgver}
 pkgrel=1
 pkgdesc="The Berkeley DB embedded database system"

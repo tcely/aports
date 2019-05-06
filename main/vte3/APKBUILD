@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=vte3
-pkgver=0.52.2
+pkgname="vte3"
+pkgver="0.52.2"
 pkgrel=0
 pkgdesc="Virtual Terminal Emulator library"
 url="https://developer.gnome.org/vte/"

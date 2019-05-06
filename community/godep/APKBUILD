@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=godep
-pkgver=80
+pkgname="godep"
+pkgver="80"
 pkgrel=1
 pkgdesc="Dependency tool for go"
 url="https://github.com/tools/godep"

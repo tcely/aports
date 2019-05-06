@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libmrss
-pkgver=0.19.2
+pkgname="libmrss"
+pkgver="0.19.2"
 pkgrel=0
 pkgdesc="mRSS is a C library for parsing, writing and creating RSS files or streams"
 url="https://github.com/bakulf/libmrss"

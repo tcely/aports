@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@me.com>
 # Maintainer: ScrumpyJack <scrumpyjack@me.com>
-pkgname=xeyes
-pkgver=1.1.2
+pkgname="xeyes"
+pkgver="1.1.2"
 pkgrel=0
 pkgdesc="A pair of eyes that follow your mouse in X11"
 url="http://www.x.org"

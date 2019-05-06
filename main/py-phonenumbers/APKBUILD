@@ -1,8 +1,8 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=py-phonenumbers
+pkgname="py-phonenumbers"
 _pkgname=phonenumbers
-pkgver=8.10.10
+pkgver="8.10.10"
 pkgrel=0
 pkgdesc="International phone number library for Python"
 url="https://github.com/daviddrysdale/python-phonenumbers"

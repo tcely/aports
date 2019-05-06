@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=emby
-pkgver=3.0.5911
+pkgname="emby"
+pkgver="3.0.5911"
 pkgrel=2
 pkgdesc="Bring together your videos, music, photos, and live television"
 url="http://emby.media"

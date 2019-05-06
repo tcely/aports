@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=geth
-pkgver=1.8.27
+pkgname="geth"
+pkgver="1.8.27"
 pkgrel=0
 pkgdesc="Official Go implementation of the Ethereum protocol"
 url="https://geth.ethereum.org/"

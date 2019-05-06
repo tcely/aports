@@ -1,8 +1,8 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer:  Michael Mason <ms13sp@gmail.com>
-pkgname=perl-net-rblclient
+pkgname="perl-net-rblclient"
 _realname=Net-RBLClient
-pkgver=0.5
+pkgver="0.5"
 pkgrel=3
 pkgdesc="Queries multiple Realtime Blackhole Lists in parallel"
 url="http://search.cpan.org/dist/Net-RBLClient/"

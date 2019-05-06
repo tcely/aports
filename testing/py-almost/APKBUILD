@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-almost
+pkgname="py-almost"
 _pkgname=almost
-pkgver=0.1.5
+pkgver="0.1.5"
 pkgrel=0
 pkgdesc="A Python helper to compare two numbers generously"
 url="https://pypi.python.org/pypi/almost"

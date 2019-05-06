@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-bottle-servefiles
+pkgname="py-bottle-servefiles"
 _pkgname=bottle-servefiles
-pkgver=0.1.2
+pkgver="0.1.2"
 pkgrel=0.dev
 pkgdesc="Bottle plugin for serving files"
 url="https://bitbucket.org/rudylattae/bottle-servefiles"

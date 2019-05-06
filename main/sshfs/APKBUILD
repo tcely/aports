@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sshfs
-pkgver=3.5.2
+pkgname="sshfs"
+pkgver="3.5.2"
 pkgrel=0
 pkgdesc="FUSE client based on the SSH File Transfer Protocol"
 url="https://github.com/libfuse/sshfs"

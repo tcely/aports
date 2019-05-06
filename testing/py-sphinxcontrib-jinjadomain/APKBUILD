@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-jinjadomain
+pkgname="py-sphinxcontrib-jinjadomain"
 _pkgname=sphinxcontrib-jinjadomain
-pkgver=0.5.1
+pkgver="0.5.1"
 pkgrel=0
 pkgdesc="Sphinx jinjadomain extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-jinjadomain"

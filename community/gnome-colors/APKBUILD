@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=gnome-colors
-pkgver=5.5.1
+pkgname="gnome-colors"
+pkgver="5.5.1"
 pkgrel=1
 pkgdesc="gnome-colors icon themes meta package (all themes)"
 url="https://code.google.com/p/gnome-colors/"

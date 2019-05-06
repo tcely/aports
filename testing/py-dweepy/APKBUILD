@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-dweepy
+pkgname="py-dweepy"
 _pkgname=dweepy
-pkgver=0.2.0
+pkgver="0.2.0"
 pkgrel=2
 pkgdesc="A Python client for Dweet.io"
 url="https://github.com/paddycarey/dweepy"

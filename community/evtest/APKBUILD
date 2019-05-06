@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=evtest
-pkgver=1.33
+pkgname="evtest"
+pkgver="1.33"
 pkgrel=0
 pkgdesc="monitor input layer events"
 url="https://cgit.freedesktop.org/evtest/"

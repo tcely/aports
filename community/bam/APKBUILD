@@ -1,7 +1,7 @@
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
-pkgname=bam
-pkgver=0.5.1
+pkgname="bam"
+pkgver="0.5.1"
 pkgrel=1
 pkgdesc="Fast and flexible build system using Lua"
 arch="all !s390x" #luajit unavail on excluded arches

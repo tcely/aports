@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-ecdsa
+pkgname="py-ecdsa"
 _pkgname=ecdsa
-pkgver=0.13
+pkgver="0.13"
 pkgrel=6
 pkgdesc="A Python cryptographic signature library"
 url="https://github.com/warner/python-ecdsa"

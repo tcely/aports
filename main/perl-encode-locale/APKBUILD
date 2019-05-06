@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-encode-locale
+pkgname="perl-encode-locale"
 _realname=Encode-Locale
-pkgver=1.05
+pkgver="1.05"
 pkgrel=1
 pkgdesc="Perl module - Determine the locale encoding"
 url="http://search.cpan.org/~gaas"

@@ -3,9 +3,9 @@
 # TODO: Add rest of the tools.
 # TODO: Fix some scripts/tools to not require bash.
 # TODO: Use system-provided gtest library for testing.
-pkgname=elektra
+pkgname="elektra"
 _pkgname=libelektra
-pkgver=0.8.21
+pkgver="0.8.21"
 pkgrel=6
 pkgdesc="A universal and secure framework to access configuration parameters"
 url="https://www.libelektra.org"

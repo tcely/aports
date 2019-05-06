@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=fetchmail
-pkgver=6.3.26
+pkgname="fetchmail"
+pkgver="6.3.26"
 pkgrel=14
 pkgdesc="A remote-mail retrieval and forwarding utility"
 url="http://www.fetchmail.info/"

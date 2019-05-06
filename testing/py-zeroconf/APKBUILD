@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-zeroconf
+pkgname="py-zeroconf"
 _pkgname=zeroconf
-pkgver=0.21.3
+pkgver="0.21.3"
 pkgrel=1
 pkgdesc="A Python implementation of multicast DNS service discovery"
 url="https://github.com/jstasiak/python-zeroconf"

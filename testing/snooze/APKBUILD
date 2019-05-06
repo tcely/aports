@@ -1,6 +1,6 @@
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=snooze
-pkgver=0.3
+pkgname="snooze"
+pkgver="0.3"
 pkgrel=0
 pkgdesc="Run a command at a particular time"
 url="https://github.com/leahneukirchen/snooze"

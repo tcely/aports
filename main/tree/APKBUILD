@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=tree
-pkgver=1.8.0
+pkgname="tree"
+pkgver="1.8.0"
 pkgrel=0
 pkgdesc="A recursive directory indented listing of files"
 url="http://mama.indstate.edu/users/ice/tree/"

@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-data-optlist
-pkgver=0.110
+pkgname="perl-data-optlist"
+pkgver="0.110"
 pkgrel=0
 pkgdesc="Data::OptList perl module"
 url="http://search.cpan.org/dist/Data-OptList/"

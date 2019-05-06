@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=libmowgli
-pkgver=2.1.3
+pkgname="libmowgli"
+pkgver="2.1.3"
 pkgrel=3
 pkgdesc="C library framework designed to reduce writing of boilerplate code"
 url="http://atheme.org/project/mowgli"

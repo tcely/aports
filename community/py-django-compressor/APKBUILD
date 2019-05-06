@@ -1,8 +1,8 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=py-django-compressor
+pkgname="py-django-compressor"
 _pkgname=django_compressor
-pkgver=2.2
+pkgver="2.2"
 pkgrel=1
 pkgdesc="JavaScript and CSS compressor for Django"
 url="https://github.com/django-compressor/django-compressor"

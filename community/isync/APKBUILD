@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=isync
-pkgver=1.3.0
+pkgname="isync"
+pkgver="1.3.0"
 pkgrel=4
 pkgdesc="IMAP and MailDir mailbox synchronizer"
 url="http://isync.sourceforge.net"

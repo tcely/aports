@@ -1,7 +1,7 @@
 # Contributor: k0r10n <k0r10n.dev@gmail.com>
 # Contributor: Ivan Tham <pickfire@riseup.net>
-pkgname=extra-cmake-modules
-pkgver=5.57.0
+pkgname="extra-cmake-modules"
+pkgver="5.57.0"
 pkgrel=0
 pkgdesc="Extra CMake modules"
 url="https://projects.kde.org/projects/kdesupport/extra-cmake-modules"

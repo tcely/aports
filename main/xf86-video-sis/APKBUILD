@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xf86-video-sis
-pkgver=0.10.9
+pkgname="xf86-video-sis"
+pkgver="0.10.9"
 pkgrel=3
 pkgdesc="X.org SiS video driver"
 url="https://xorg.freedesktop.org"

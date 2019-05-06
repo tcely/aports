@@ -9,8 +9,8 @@ _runc_repo='github.com/opencontainers/runc'
 _runc_ver=0.1.1
 _runc_src="runc-$_runc_ver"
 
-pkgname=gosu
-pkgver=$_gosu_ver
+pkgname="gosu"
+pkgver="$_gosu_ver"
 pkgrel=0
 pkgdesc="Simple Go-based setuid+setgid+setgroups+exec"
 url="https://github.com/tianon/gosu"

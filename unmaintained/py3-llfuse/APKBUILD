@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # TODO: Add check (needs pytest-checklog).
-pkgname=py3-llfuse
+pkgname="py3-llfuse"
 _pkgname=llfuse
-pkgver=1.3.2
+pkgver="1.3.2"
 pkgrel=0
 pkgdesc="Python bindings for the low-level FUSE API"
 url="https://bitbucket.org/nikratio/python-llfuse/"

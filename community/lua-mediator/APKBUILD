@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-mediator
+pkgname="lua-mediator"
 _pkgname=mediator_lua
-pkgver=1.1.2
+pkgver="1.1.2"
 _pkgver=$pkgver-0
 pkgrel=1
 pkgdesc="Mediator pattern implementation for pub-sub management"

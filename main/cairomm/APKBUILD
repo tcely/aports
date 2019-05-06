@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=cairomm
-pkgver=1.12.2
+pkgname="cairomm"
+pkgver="1.12.2"
 pkgrel=0
 pkgdesc="C++ bindings to Cairo vector graphics library"
 url="http://www.cairographics.org"

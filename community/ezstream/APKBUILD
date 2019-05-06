@@ -1,7 +1,7 @@
 # Contributor: Lionel Voirol <lionel@sinux.ch>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ezstream
-pkgver=0.6.0
+pkgname="ezstream"
+pkgver="0.6.0"
 pkgrel=0
 pkgdesc="Ezstream is a command line source client for Icecast media streaming servers."
 url="http://www.icecast.org/ezstream.php"

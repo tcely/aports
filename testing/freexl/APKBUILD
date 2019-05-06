@@ -1,7 +1,7 @@
 # Contributor: Bjoern Schilberg <bjoern@intevation.de>
 # Maintainer: Bjoern Schilberg <bjoern@intevation.de>
-pkgname=freexl
-pkgver=1.0.5
+pkgname="freexl"
+pkgver="1.0.5"
 pkgrel=0
 pkgdesc="Library to extract valid data from within an Excel (.xls) spreadsheet"
 url="https://www.gaia-gis.it/fossil/freexl/index"

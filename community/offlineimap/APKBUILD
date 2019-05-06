@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=offlineimap
-pkgver=7.2.3
+pkgname="offlineimap"
+pkgver="7.2.3"
 pkgrel=0
 pkgdesc="Synchronizes emails between two repositories"
 url="http://www.offlineimap.org"

@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=geany
-pkgver=1.35
+pkgname="geany"
+pkgver="1.35"
 pkgrel=0
 pkgdesc="A fast and lightweight IDE"
 url="https://www.geany.org"

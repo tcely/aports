@@ -1,7 +1,7 @@
 # Contributor: Aji Kisworo Mukti <aji.kisworo.mukti@gmail.com>
 # Maintainer: Aji Kisworo Mukti <aji.kisworo.mukti@gmail.com>
-pkgname=jpegoptim
-pkgver=1.4.6
+pkgname="jpegoptim"
+pkgver="1.4.6"
 pkgrel=0
 pkgdesc="JPEG optimization utility"
 url="https://github.com/tjko/jpegoptim"

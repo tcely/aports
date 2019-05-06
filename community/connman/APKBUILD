@@ -1,7 +1,7 @@
 # Maintainer: Clayton Craft <clayton@craftyguy.net>
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
-pkgname=connman
-pkgver=1.37
+pkgname="connman"
+pkgver="1.37"
 pkgrel=0
 pkgdesc="A daemon for managing internet connections"
 url="https://01.org/connman"

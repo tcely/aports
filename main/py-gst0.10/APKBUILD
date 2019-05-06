@@ -1,8 +1,8 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-gst0.10
+pkgname="py-gst0.10"
 _pkgname=gst-python
-pkgver=0.10.22
+pkgver="0.10.22"
 pkgrel=0
 pkgdesc="python bindings for gstreamer"
 url="https://gstreamer.freedesktop.org/"

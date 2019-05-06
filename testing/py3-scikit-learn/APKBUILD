@@ -1,8 +1,8 @@
 # Contributor: Carlos Giraldo <cgiraldo@gradiant.org>
 # Maintainer: Carlos Giraldo <cgiraldo@gradiant.org>
-pkgname=py3-scikit-learn
+pkgname="py3-scikit-learn"
 _pkgname=scikit-learn
-pkgver=0.20.3
+pkgver="0.20.3"
 pkgrel=0
 pkgdesc="a Python module for machine learning built on top of SciPy"
 url="http://scikit-learn.org/"

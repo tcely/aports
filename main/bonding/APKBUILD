@@ -3,8 +3,8 @@
 
 # those scripts are based on debians ifenslave-2.6 scripts
 
-pkgname=bonding
-pkgver=2.6
+pkgname="bonding"
+pkgver="2.6"
 pkgrel=3
 pkgdesc="Scripts for network interface bonding"
 url="http://wiki.alpinelinux.org/wiki/Bonding"

@@ -1,8 +1,8 @@
 # Contributor: Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=unison
+pkgname="unison"
 # Note: unison breaks compatibility between minor (major.minor) versions.
-pkgver=2.48.15_p4
+pkgver="2.48.15_p4"
 _pkgver=${pkgver/_p/v}
 _majorver=${_pkgver%.*}  # x.y
 pkgrel=0

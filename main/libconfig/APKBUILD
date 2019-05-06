@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libconfig
-pkgver=1.5
+pkgname="libconfig"
+pkgver="1.5"
 pkgrel=3
 pkgdesc="A simple library for manipulating structured configuration files"
 url="http://www.hyperrealm.com/libconfig/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce4-settings
-pkgver=4.13.5
+pkgname="xfce4-settings"
+pkgver="4.13.5"
 pkgrel=0
 pkgdesc="Settings manager for xfce"
 url="https://xfce.org/"

@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=usb-modeswitch
-pkgver=2.5.2
+pkgname="usb-modeswitch"
+pkgver="2.5.2"
 pkgrel=0
 _pkgdata=20170806
 pkgdesc="A mode switching tool for controlling flip flop (multiple device) USB gear"

@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=gwsocket
-pkgver=0.3
+pkgname="gwsocket"
+pkgver="0.3"
 pkgrel=0
 pkgdesc="A simple, standalone, language-agnostic, RFC6455 compliant WebSocket Server"
 url="http://gwsocket.io"

@@ -1,6 +1,6 @@
 # Maintainer: Tycho Andersen <tycho@docker.com>
-pkgname=checkpolicy
-pkgver=2.8
+pkgname="checkpolicy"
+pkgver="2.8"
 pkgrel=0
 pkgdesc="SELinux policy checker"
 url="https://selinuxproject.org/"

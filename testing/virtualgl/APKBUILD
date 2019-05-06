@@ -1,8 +1,8 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=virtualgl
+pkgname="virtualgl"
 _pkgname=VirtualGL
-pkgver=2.6
+pkgver="2.6"
 pkgrel=0
 pkgdesc="VirtualGL is a toolkit to run remote OpenGL applications with full 3D hardware acceleration."
 url="http://www.virtualgl.org"

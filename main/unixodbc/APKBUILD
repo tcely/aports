@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=unixodbc
-pkgver=2.3.7
+pkgname="unixodbc"
+pkgver="2.3.7"
 pkgrel=1
 pkgdesc="ODBC is an open specification to access Data Sources"
 url="http://www.unixodbc.org/"

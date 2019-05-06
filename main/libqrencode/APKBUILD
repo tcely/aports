@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=libqrencode
-pkgver=4.0.2
+pkgname="libqrencode"
+pkgver="4.0.2"
 pkgrel=0
 pkgdesc="Library for encoding QR codes"
 url="https://fukuchi.org/works/qrencode/index.html"

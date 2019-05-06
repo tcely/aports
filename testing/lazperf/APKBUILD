@@ -1,7 +1,7 @@
 # Contributor: Bradley J Chambers <brad.chambers@gmail.com>
 # Maintainer: Bradley J Chambers <brad.chambers@gmail.com>
-pkgname=laz-perf
-pkgver=1.2.0
+pkgname="laz-perf"
+pkgver="1.2.0"
 pkgrel=0
 pkgdesc="Alternative LAZ implementation for C++ and JavaScript"
 url="https://github.com/hobu/laz-perf"

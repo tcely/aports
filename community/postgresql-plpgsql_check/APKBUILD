@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=postgresql-plpgsql_check
+pkgname="postgresql-plpgsql_check"
 _pkgname=plpgsql_check
-pkgver=1.7.1
+pkgver="1.7.1"
 pkgrel=0
 pkgdesc="Additional tools for plpgsql functions validation"
 url="https://github.com/okbob/plpgsql_check"

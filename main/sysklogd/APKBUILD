@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sysklogd
-pkgver=1.5.1
+pkgname="sysklogd"
+pkgver="1.5.1"
 pkgrel=1
 pkgdesc="System and kernel log daemons"
 url="http://www.infodrom.org/projects/sysklogd/"

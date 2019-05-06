@@ -1,7 +1,7 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer: TBK <alpine@jjtc.eu>
-pkgname=debconf
-pkgver=1.5.71
+pkgname="debconf"
+pkgver="1.5.71"
 pkgrel=0
 pkgdesc="A configuration management system for Debian packages."
 url="https://packages.debian.org/debconf"

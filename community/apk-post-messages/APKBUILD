@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=apk-post-messages
-pkgver=0.10
+pkgname="apk-post-messages"
+pkgver="0.10"
 pkgrel=0
 pkgdesc="Print apk post-install messages"
 url="http://alpinelinux.org"

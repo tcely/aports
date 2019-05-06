@@ -1,7 +1,7 @@
 # Contributor:Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=blind
-pkgver=1.1
+pkgname="blind"
+pkgver="1.1"
 pkgrel=1
 pkgdesc="blind is a collection of command line video editing utilities"
 url="https://tools.suckless.org/blind/"

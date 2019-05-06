@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=perl-string-random
+pkgname="perl-string-random"
 _realname=String-Random
-pkgver=0.29
+pkgver="0.29"
 pkgrel=1
 pkgdesc="Perl extension to generate random strings"
 url="http://search.cpan.org/~shlomif/String-Random-0.29/"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libusbmuxd
-pkgver=1.0.10
+pkgname="libusbmuxd"
+pkgver="1.0.10"
 pkgrel=1
 pkgdesc="USB Multiplex Daemon"
 url="https://marcansoft.com/blog/iphonelinux/usbmuxd/"

@@ -1,8 +1,8 @@
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer: Matt Smith <mcs@darkregion.net>
-pkgname=py-pygments
+pkgname="py-pygments"
 _pkgname=Pygments
-pkgver=2.2.0
+pkgver="2.2.0"
 pkgrel=1
 pkgdesc="A syntax highlighting package written in Python."
 url="http://pygments.org/"

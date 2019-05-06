@@ -1,6 +1,6 @@
 # Maintainer: Bernhard J. M. Gruen <bernhard.gruen@googlemail.com>
-pkgname=burp
-pkgver=2.2.14
+pkgname="burp"
+pkgver="2.2.14"
 pkgrel=0
 pkgdesc="A network backup and restore program"
 url="http://burp.grke.org"

@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=bc
-pkgver=1.07.1
+pkgname="bc"
+pkgver="1.07.1"
 pkgrel=1
 pkgdesc="An arbitrary precision numeric processing language (calculator)"
 url="https://www.gnu.org/software/bc/bc.html"

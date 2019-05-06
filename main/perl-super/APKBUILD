@@ -1,7 +1,7 @@
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-super
+pkgname="perl-super"
 _pkgname=SUPER
-pkgver=1.20141117
+pkgver="1.20141117"
 pkgrel=0
 pkgdesc="Control superclass method dispatch"
 url="https://metacpan.org/pod/SUPER"

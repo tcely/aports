@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=imake
-pkgver=1.0.8
+pkgname="imake"
+pkgver="1.0.8"
 pkgrel=0
 pkgdesc="X Windows make utility"
 url="http://www.x.org"

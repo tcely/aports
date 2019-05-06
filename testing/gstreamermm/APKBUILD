@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=gstreamermm
-pkgver=1.10.0
+pkgname="gstreamermm"
+pkgver="1.10.0"
 pkgrel=1
 pkgdesc="C++ interface for GStreamer"
 url="https://gstreamer.freedesktop.org/bindings/cplusplus.html"

@@ -1,7 +1,7 @@
 # Contributor: Alexander Edland <alpine@ocv.me>
 # Maintainer: Alexander Edland <alpine@ocv.me>
-pkgname=mgba
-pkgver=0.6.3
+pkgname="mgba"
+pkgver="0.6.3"
 pkgrel=2
 pkgdesc="Game Boy Advance Emulator"
 url="https://github.com/mgba-emu/mgba"

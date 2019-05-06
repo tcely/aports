@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-i18n
+pkgname="ruby-i18n"
 _gemname=${pkgname#ruby-}
-pkgver=1.5.2
+pkgver="1.5.2"
 pkgrel=0
 pkgdesc="New wave Internationalization support for Ruby"
 url="https://github.com/svenfuchs/i18n"

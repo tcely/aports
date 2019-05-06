@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libquvi-scripts
-pkgver=0.9.20131130
+pkgname="libquvi-scripts"
+pkgver="0.9.20131130"
 pkgrel=0
 pkgdesc="scripts for libquvi - the library for parsing video download links"
 url="http://quvi.sourceforge.net/"

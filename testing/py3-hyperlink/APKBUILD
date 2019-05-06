@@ -1,8 +1,8 @@
 # Contributor: prspkt <prspkt@protonmail.com>
 # Maintainer: prspkt <prspkt@protonmail.com>
-pkgname=py3-hyperlink
+pkgname="py3-hyperlink"
 _pkgname=hyperlink
-pkgver=18.0.0
+pkgver="18.0.0"
 pkgrel=1
 pkgdesc="Python implementation of immutable URLs"
 url="https://github.com/python-hyper/hyperlink"

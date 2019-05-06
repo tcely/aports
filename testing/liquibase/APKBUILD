@@ -1,7 +1,7 @@
 # Contributor: Curt Tilmes <Curt.Tilmes@nasa.gov>
 # Maintainer: Curt Tilmes <Curt.Tilmes@nasa.gov>
-pkgname=liquibase
-pkgver=3.6.2
+pkgname="liquibase"
+pkgver="3.6.2"
 pkgrel=0
 pkgdesc="Source Control for your Database"
 url="http://www.liquibase.org/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-us
+pkgname="py3-us"
 _pkgname=us
-pkgver=1.0.0
+pkgver="1.0.0"
 pkgrel=1
 pkgdesc="US state meta information and other fun stuff"
 url="https://github.com/unitedstates/python-us"

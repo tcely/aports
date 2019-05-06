@@ -1,8 +1,8 @@
 # Contributor: Gavin D. Howard <yzena.tech@gmail.com>
 # Maintainer: Gavin D. Howard <yzena.tech@gmail.com>
-pkgname=howard-bc
+pkgname="howard-bc"
 _pkgname=bc
-pkgver=1.2.6
+pkgver="1.2.6"
 pkgrel=0
 pkgdesc="POSIX bc with GNU extensions"
 url="https://github.com/gavinhoward/bc"

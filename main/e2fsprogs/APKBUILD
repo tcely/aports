@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=e2fsprogs
-pkgver=1.44.5
+pkgname="e2fsprogs"
+pkgver="1.44.5"
 pkgrel=0
 pkgdesc="Standard Ext2/3/4 filesystem utilities"
 url="http://e2fsprogs.sourceforge.net"

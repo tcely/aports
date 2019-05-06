@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=grim
-pkgver=1.1
+pkgname="grim"
+pkgver="1.1"
 pkgrel=0
 pkgdesc="Grabs images from Wayland compositors"
 url="https://wayland.emersion.fr/grim/"

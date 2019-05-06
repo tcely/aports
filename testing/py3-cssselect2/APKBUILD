@@ -1,8 +1,8 @@
 # Contributor: Drew DeVault <sir@cmpwn.com>
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=py3-cssselect2
+pkgname="py3-cssselect2"
 _pyname=cssselect2
-pkgver=0.2.1
+pkgver="0.2.1"
 pkgrel=1
 pkgdesc="CSS selectors for Python ElementTree"
 url="https://pypi.org/projects/cssselect2/"

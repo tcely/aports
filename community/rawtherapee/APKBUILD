@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=rawtherapee
-pkgver=5.6
+pkgname="rawtherapee"
+pkgver="5.6"
 pkgrel=0
 pkgdesc="Powerful cross-platform raw image processing program"
 url="https://rawtherapee.com"

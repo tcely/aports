@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=litespeed
-pkgver=1.4.41
+pkgname="litespeed"
+pkgver="1.4.41"
 pkgrel=0
 _pkgreal=open$pkgname
 _pkghome=var/lib/$pkgname

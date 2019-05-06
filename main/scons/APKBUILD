@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=scons
-pkgver=3.0.5
+pkgname="scons"
+pkgver="3.0.5"
 pkgrel=0
 pkgdesc="Software construction system"
 url="http://www.scons.org"

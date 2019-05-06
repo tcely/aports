@@ -2,8 +2,8 @@
 # Contributor: Andrew Hills <ahills@ednos.net>
 # Contributor: Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=zathura
-pkgver=0.4.3
+pkgname="zathura"
+pkgver="0.4.3"
 pkgrel=0
 pkgdesc="zathura - highly customizable and functional document viewer"
 url="https://git.pwmt.org/pwmt/zathura"

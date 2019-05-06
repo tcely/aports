@@ -1,8 +1,8 @@
 # Contributor: Mika Havela <mika.havela@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 _luaver=5.2
-pkgname=prosody
-pkgver=0.11.2
+pkgname="prosody"
+pkgver="0.11.2"
 pkgrel=0
 pkgdesc="Lua based Jabber/XMPP server"
 url="http://prosody.im/"

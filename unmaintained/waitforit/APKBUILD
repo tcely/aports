@@ -1,7 +1,7 @@
 # Contributor: Max Claus Nunes <maxcnunes@gmail.com>
 # Maintainer: Max Claus Nunes <maxcnunes@gmail.com>
-pkgname=waitforit
-pkgver=1.3.2
+pkgname="waitforit"
+pkgver="1.3.2"
 pkgrel=0
 pkgdesc="Wait until an address become available"
 url="https://github.com/maxcnunes/waitforit"

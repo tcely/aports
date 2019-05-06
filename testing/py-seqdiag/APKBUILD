@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-seqdiag
+pkgname="py-seqdiag"
 _pkgname=seqdiag
-pkgver=0.9.5
+pkgver="0.9.5"
 pkgrel=3
 pkgdesc="seqdiag generate sequence-diagram image file"
 url="https://pypi.python.org/pypi/seqdiag"

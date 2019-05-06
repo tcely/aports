@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-par
+pkgname="perl-par"
 _pkgname=PAR
-pkgver=1.015
+pkgver="1.015"
 pkgrel=1
 pkgdesc="Perl Archive Toolkit"
 url="http://search.cpan.org/dist/$_pkgname/"

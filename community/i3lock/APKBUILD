@@ -1,7 +1,7 @@
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=i3lock
-pkgver=2.11.1
+pkgname="i3lock"
+pkgver="2.11.1"
 pkgrel=0
 pkgdesc="An improved screenlocker based upon XCB and PAM"
 url="https://i3wm.org/i3lock/"

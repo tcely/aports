@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=psad
-pkgver=2.4.6
+pkgname="psad"
+pkgver="2.4.6"
 pkgrel=1
 pkgdesc="3 lightweight system daemons that analyze iptables log messages to detect port scans and other suspicious traffic"
 url="http://cipherdyne.org/psad/"

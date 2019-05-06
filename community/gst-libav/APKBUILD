@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gst-libav
-pkgver=1.14.4
+pkgname="gst-libav"
+pkgver="1.14.4"
 pkgrel=0
 pkgdesc="Gstreamer libav Plugin"
 url="https://gstreamer.freedesktop.org"

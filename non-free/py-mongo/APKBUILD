@@ -1,8 +1,8 @@
 # Contributor: Danilo Falcão <danilo@falcao.org>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-mongo
+pkgname="py-mongo"
 _pkgname=pymongo
-pkgver=3.7.2
+pkgver="3.7.2"
 pkgrel=0
 pkgdesc="A Python driver for MongoDB"
 url="https://github.com/mongodb/mongo-python-driver"

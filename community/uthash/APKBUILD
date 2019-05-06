@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=uthash
-pkgver=2.0.2
+pkgname="uthash"
+pkgver="2.0.2"
 _sover=0  # based on Fedora package
 pkgrel=0
 pkgdesc="C macros for hash tables and more"

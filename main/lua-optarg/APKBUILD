@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua-optarg
+pkgname="lua-optarg"
 _rockname=optarg
-pkgver=0.2
+pkgver="0.2"
 pkgrel=1
 pkgdesc="Simple command line option parser for Lua"
 url="https://github.com/ncopa/lua-optarg"

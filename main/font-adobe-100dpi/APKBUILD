@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=font-adobe-100dpi
-pkgver=1.0.3
+pkgname="font-adobe-100dpi"
+pkgver="1.0.3"
 pkgrel=0
 pkgdesc="X.org adobe 100dpi font"
 url="http://xorg.freedesktop.org/"

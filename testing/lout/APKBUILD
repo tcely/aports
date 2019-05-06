@@ -1,5 +1,5 @@
-pkgname=lout
-pkgver=3.40
+pkgname="lout"
+pkgver="3.40"
 pkgrel=0
 pkgdesc="Lightweight typesetting and document formatting system"
 url="https://savannah.nongnu.org/projects/lout"

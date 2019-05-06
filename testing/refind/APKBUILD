@@ -1,6 +1,6 @@
 # Maintainer: Eric Molitor <eric@molitor.org>
-pkgname=refind
-pkgver=0.11.4
+pkgname="refind"
+pkgver="0.11.4"
 pkgrel=0
 pkgdesc="rEFInd EFI Boot Manager"
 url="http://www.rodsbooks.com/refind"

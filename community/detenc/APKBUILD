@@ -1,7 +1,7 @@
 # Contributor: Ed Robinson <ed+alpine@reevoo.com>
 # Maintainer: Ed Robinson <ed+alpine@reevoo.com>
-pkgname=detenc
-pkgver=2.0.0
+pkgname="detenc"
+pkgver="2.0.0"
 pkgrel=1
 pkgdesc="A lightweight, low-memory character encoding detector"
 url="https://github.com/reevoo/detenc"

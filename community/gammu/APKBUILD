@@ -1,8 +1,8 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Contributor: TBK <alpine@jjtc.eu>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=gammu
-pkgver=1.40.0
+pkgname="gammu"
+pkgver="1.40.0"
 pkgrel=0
 pkgdesc="Gammu provides an abstraction layer for cell phones access"
 url="https://wammu.eu/"

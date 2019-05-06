@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=imapsync
-pkgver=1.882
+pkgname="imapsync"
+pkgver="1.882"
 pkgrel=0
 pkgdesc="IMAP synchronisation, sync, copy or migration tool"
 url="http://imapsync.lamiral.info"

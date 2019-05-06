@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 
-pkgname=ssmtp
-pkgver=2.64
+pkgname="ssmtp"
+pkgver="2.64"
 pkgrel=14
 pkgdesc="Extremely simple MTA to get mail off the system to a mail hub"
 subpackages="$pkgname-doc"

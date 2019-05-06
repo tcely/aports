@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=alacritty
-pkgver=0.3.2
+pkgname="alacritty"
+pkgver="0.3.2"
 pkgrel=0
 pkgdesc="A cross-platform, GPU-accelerated terminal emulator"
 url="https://github.com/jwilm/alacritty"

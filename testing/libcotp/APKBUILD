@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=libcotp
-pkgver=1.2.2
+pkgname="libcotp"
+pkgver="1.2.2"
 pkgrel=0
 pkgdesc="Library for generating TOTP and HOTP"
 options="!check" # Requires unpackaged 'criterion'

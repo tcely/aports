@@ -1,8 +1,8 @@
 # Contributor: Michael Truog <mjtruog@gmail.com>
 # Maintainer: Michael Truog <mjtruog@gmail.com>
 
-pkgname=tsung
-pkgver=1.7.0
+pkgname="tsung"
+pkgver="1.7.0"
 pkgrel=2
 pkgdesc="Tsung is a high-performance benchmark framework for various protocols including HTTP,XMPP,LDAP,etc."
 url="https://www.process-one.net/en/tsung/"

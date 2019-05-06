@@ -1,7 +1,7 @@
 # Contributor: Breno Leitao <breno.leitao@gmail.com>
 # Maintainer: Breno Leitao <breno.leitao@gmail.com>
-pkgname=unifont
-pkgver=11.0.01
+pkgname="unifont"
+pkgver="11.0.01"
 pkgrel=1
 pkgdesc="GNU Unifont glyphs"
 url="http://unifoundry.com/unifont.html"

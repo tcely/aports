@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-storage
+pkgname="py-flask-storage"
 _pkgname=Flask-Storage
-pkgver=0.1.0
+pkgver="0.1.0"
 pkgrel=0
 pkgdesc="Flask upload and storage extensions"
 url="https://pypi.python.org/pypi/Flask-Storage"

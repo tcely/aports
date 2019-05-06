@@ -1,7 +1,7 @@
 # Contributor: Alexander Edland <alpine@ocv.me>
 # Maintainer: Alexander Edland <alpine@ocv.me>
-pkgname=zimg
-pkgver=2.8
+pkgname="zimg"
+pkgver="2.8"
 pkgrel=0
 pkgdesc="Scaling, colorspace conversion, and dithering library"
 url="https://github.com/sekrit-twc/zimg"

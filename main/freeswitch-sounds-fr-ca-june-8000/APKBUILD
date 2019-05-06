@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=freeswitch-sounds-fr-ca-june-8000
-pkgver=1.0.51
+pkgname="freeswitch-sounds-fr-ca-june-8000"
+pkgver="1.0.51"
 pkgrel=0
 pkgdesc="Sounds for freeswitch French"
 url="http://files.freeswitch.org/"

@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-inline
+pkgname="perl-inline"
 _pkgname=Inline
-pkgver=0.83
+pkgver="0.83"
 pkgrel=0
 pkgdesc="Write Perl subroutines in other programming languages"
 url="http://search.cpan.org/~ingy/Inline/"

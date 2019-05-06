@@ -1,5 +1,5 @@
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=xload
+pkgname="xload"
 pkgver="1.1.3"
 pkgrel=0
 pkgdesc="System load average display for X"

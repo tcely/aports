@@ -1,7 +1,7 @@
 # Maintainer:
-pkgname=py-redis
+pkgname="py-redis"
 _pkgname=${pkgname#py-}
-pkgver=2.10.6
+pkgver="2.10.6"
 pkgrel=1
 pkgdesc="Python client for Redis key-value store"
 url="https://github.com/andymccurdy/redis-py"

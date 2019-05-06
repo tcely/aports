@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-luassert
+pkgname="lua-luassert"
 _pkgname=luassert
-pkgver=1.7.10
+pkgver="1.7.10"
 pkgrel=1
 pkgdesc="Assertion library for Lua"
 url="https://github.com/Olivine-Labs/luassert"

@@ -1,7 +1,7 @@
 # Maintainer:
-pkgname=py2-singledispatch
+pkgname="py2-singledispatch"
 _pkgname=singledispatch
-pkgver=3.4.0.3
+pkgver="3.4.0.3"
 pkgrel=1
 pkgdesc="This library brings functools.singledispatch from Python 3.4 to Python 2.6-3.3."
 url="https://bitbucket.org/ambv/singledispatch"

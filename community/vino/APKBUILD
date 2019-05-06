@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=vino
-pkgver=3.22.0
+pkgname="vino"
+pkgver="3.22.0"
 pkgrel=0
 pkgdesc="The GNOME desktop sharing server"
 url="https://wiki.gnome.org/Projects/Vino"

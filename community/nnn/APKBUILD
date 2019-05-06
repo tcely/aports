@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=nnn
-pkgver=2.4
+pkgname="nnn"
+pkgver="2.4"
 pkgrel=0
 pkgdesc="The missing terminal file browser for X"
 url="https://github.com/jarun/nnn"

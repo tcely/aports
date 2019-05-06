@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=ifupdown
-pkgver=0.7.53.1
+pkgname="ifupdown"
+pkgver="0.7.53.1"
 pkgrel=1
 pkgdesc="high level tools to configure network interfaces"
 url="http://packages.debian.org/ifupdown"

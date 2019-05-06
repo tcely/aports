@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-peewee
+pkgname="py-flask-peewee"
 _pkgname=flask-peewee
-pkgver=3.0.0
+pkgver="3.0.0"
 pkgrel=2
 pkgdesc="Flask integration for peewee"
 url="http://pypi.python.org/pypi/flask-peewee"

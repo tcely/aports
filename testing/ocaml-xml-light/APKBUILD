@@ -1,7 +1,7 @@
 # Contributor: Fernando Casas Schossow <casasfernando@outlook.com>
 # Maintainer: Fernando Casas Schossow <casasfernando@outlook.com>
-pkgname=ocaml-xml-light
-pkgver=2.4
+pkgname="ocaml-xml-light"
+pkgver="2.4"
 pkgrel=1
 pkgdesc="Minimal XML parser and printer for OCaml"
 url="https://github.com/ncannasse/xml-light"

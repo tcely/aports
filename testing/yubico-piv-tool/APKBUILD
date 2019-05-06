@@ -1,7 +1,7 @@
 # Contributor: Christophe BERAUD-DUFOUR <christophe.berauddufour@gmail.com>
 # Maintainer: Christophe BERAUD-DUFOUR <christophe.berauddufour@gmail.com>
-pkgname=yubico-piv-tool
-pkgver=1.6.2
+pkgname="yubico-piv-tool"
+pkgver="1.6.2"
 pkgrel=0
 pkgdesc="PIV Tools for yubikey"
 url="https://developers.yubico.com/yubico-piv-tool"

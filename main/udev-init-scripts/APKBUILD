@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=udev-init-scripts
-pkgver=32
+pkgname="udev-init-scripts"
+pkgver="32"
 pkgrel=2
 pkgdesc="udev startup scripts for openrc"
 url="https://gitweb.gentoo.org/repo/gentoo.git/tree/sys-fs/udev-init-scripts"

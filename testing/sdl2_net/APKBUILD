@@ -1,6 +1,6 @@
 # Maintainer: Alex Raschi <raschi.alex@gmail.com>
-pkgname=sdl2_net
-pkgver=2.0.1
+pkgname="sdl2_net"
+pkgver="2.0.1"
 pkgrel=1
 _pkgname=SDL2_net
 pkgdesc="A small sample cross-platform networking library"

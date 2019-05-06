@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=gtkglext
-pkgver=1.2.0
+pkgname="gtkglext"
+pkgver="1.2.0"
 pkgrel=12
 pkgdesc="GTK+ OpenGL Extension"
 url="https://projects.gnome.org/gtkglext/"

@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=modemmanager
-pkgver=1.10.0
+pkgname="modemmanager"
+pkgver="1.10.0"
 pkgrel=0
 pkgdesc="ModemManager library"
 url="http://www.freedesktop.org/wiki/Software/ModemManager"

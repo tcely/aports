@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua-filesystem
+pkgname="lua-filesystem"
 _pkgname=luafilesystem
-pkgver=1.7.0.2
+pkgver="1.7.0.2"
 _pkgver=${pkgver//./_}
 _rockver=${pkgver%.*}-${pkgver##*.}
 pkgrel=0

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-recentpages
+pkgname="py-sphinxcontrib-recentpages"
 _pkgname=sphinxcontrib-recentpages
-pkgver=0.7.1
+pkgver="0.7.1"
 pkgrel=0
 pkgdesc="Sphinx recentpages extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-recentpages"

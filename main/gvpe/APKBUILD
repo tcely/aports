@@ -1,7 +1,7 @@
 # Contributor: <xmingske@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gvpe
-pkgver=3.1
+pkgname="gvpe"
+pkgver="3.1"
 pkgrel=0
 pkgdesc="GNU Virtual Private Ethernet"
 url="http://software.schmorp.de/pkg/gvpe.html"

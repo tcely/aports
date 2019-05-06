@@ -1,7 +1,7 @@
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=py2-backports_functools_lru_cache
+pkgname="py2-backports_functools_lru_cache"
 _pkgname=backports.functools_lru_cache
-pkgver=1.5
+pkgver="1.5"
 pkgrel=0
 pkgdesc="Backport of functools.lru_cache from Python 3.3 as published at ActiveState"
 url="https://pypi.org/project/backports.functools_lru_cache/"

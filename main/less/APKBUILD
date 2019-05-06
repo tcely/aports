@@ -1,7 +1,7 @@
 # Contributor: Cameron Banta <cbanta@gmail.com>
 # Maintainer: Cameron Banta <cbanta@gmail.com>
-pkgname=less
-pkgver=530
+pkgname="less"
+pkgver="530"
 pkgrel=0
 pkgdesc="File pager"
 url="http://www.greenwoodsoftware.com/less/"

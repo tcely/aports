@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=farstream0.1
-pkgver=0.1.2
+pkgname="farstream0.1"
+pkgver="0.1.2"
 pkgrel=2
 pkgdesc="Libraries for videoconferencing"
 url="http://www.freedesktop.org/wiki/Software/Farstream"

@@ -1,9 +1,9 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Eivind Uggedal <eivind@uggedal.com>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=go-bootstrap
+pkgname="go-bootstrap"
 _realname="${pkgname%-*}"
-pkgver=1.4.3
+pkgver="1.4.3"
 pkgrel=3
 pkgdesc="Go programming language compiler used for bootstraping"
 url="http://www.golang.org/"

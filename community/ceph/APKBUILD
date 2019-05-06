@@ -1,7 +1,7 @@
 # Contributor: John Coyle <dx9err@gmail.com>
 # Maintainer: John Coyle <dx9err@gmail.com>
-pkgname=ceph
-pkgver=14.2.0
+pkgname="ceph"
+pkgver="14.2.0"
 pkgrel=3
 pkgdesc="Ceph is a distributed object store and file system"
 pkgusers="ceph"

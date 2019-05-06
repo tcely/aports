@@ -1,8 +1,8 @@
 # Contributor: Dmitry Romanenko <dmitry@romanenko.in>
 # Maintainer: Dmitry Romanenko <dmitry@romanenko.in>
-pkgname=py-execnet
+pkgname="py-execnet"
 _pkgname=execnet
-pkgver=1.6.0
+pkgver="1.6.0"
 pkgrel=1
 pkgdesc="execnet: rapid multi-Python deployment"
 url="https://github.com/pytest-dev/execnet"

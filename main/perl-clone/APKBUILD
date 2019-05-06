@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-clone
+pkgname="perl-clone"
 _pkgname=Clone
-pkgver=0.41
+pkgver="0.41"
 pkgrel=1
 pkgdesc="Clone perl module"
 url="http://search.cpan.org/dist/Clone/"

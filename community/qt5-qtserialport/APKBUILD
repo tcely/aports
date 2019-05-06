@@ -1,8 +1,8 @@
 # Contributor: Denis Ryabyy <vv1r0x@gmail.com>
 # Maintainer: Denis Ryabyy <vv1r0x@gmail.com>
-pkgname=qt5-qtserialport
+pkgname="qt5-qtserialport"
 _pkgname=${pkgname/qt5-//}-everywhere-src
-pkgver=5.12.1
+pkgver="5.12.1"
 _ver=${pkgver/_p/-}
 _ver=${_ver/_/-}
 _ver=${_ver/beta0/beta}

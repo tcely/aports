@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-bottle-redis
+pkgname="py-bottle-redis"
 _pkgname=bottle-redis
-pkgver=0.2.1
+pkgver="0.2.1"
 pkgrel=0
 pkgdesc="Bottle redis plugin"
 url="https://github.com/bottlepy/bottle-redis"

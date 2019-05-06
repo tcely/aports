@@ -1,8 +1,8 @@
 # Contributor: Jon Ong <jonongjs@rottenmage.com>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Anil Madhavapeddy <anil@recoil.org>
-pkgname=ocamlbuild
-pkgver=0.13.1
+pkgname="ocamlbuild"
+pkgver="0.13.1"
 pkgrel=0
 pkgdesc="Generic build tool with built-in rules for building OCaml library and programs"
 url="https://github.com/ocaml/ocamlbuild"

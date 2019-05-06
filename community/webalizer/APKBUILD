@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=webalizer
-pkgver=2.23.08
+pkgname="webalizer"
+pkgver="2.23.08"
 _pkgver="2.23-08"
 pkgrel=4
 pkgdesc="A web server log file analysis program producing HTML reports"

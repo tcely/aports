@@ -4,8 +4,8 @@
 _gccver=6.4.0
 _gccpkgrel=9
 
-pkgname=java-gcj-compat
-pkgver=$_gccver
+pkgname="java-gcj-compat"
+pkgver="$_gccver"
 _mypkgrel=5
 pkgrel=$(( $_mypkgrel + $_gccpkgrel ))
 pkgdesc="JDK like environment using GCJ"

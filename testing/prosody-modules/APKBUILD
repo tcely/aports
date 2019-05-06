@@ -1,7 +1,7 @@
 # Contributor: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=prosody-modules
-pkgver=0.10_hg20181204
+pkgname="prosody-modules"
+pkgver="0.10_hg20181204"
 _commit=4fe7eee926ce
 pkgrel=0
 pkgdesc="modules for the prosody XMPP server"

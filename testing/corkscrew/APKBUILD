@@ -1,7 +1,7 @@
 # Contributor: Matt Dainty <matt+alpine@bodgit-n-scarper.com>
 # Maintainer:
-pkgname=corkscrew
-pkgver=2.0
+pkgname="corkscrew"
+pkgver="2.0"
 pkgrel=1
 _commit=a94f745b40077172b8fe7d77e2d583b9cf900281
 pkgdesc="Tool for tunneling SSH through HTTP proxies"

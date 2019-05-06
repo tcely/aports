@@ -2,9 +2,9 @@
 
 _luaversions="5.1 5.2 5.3"
 
-pkgname=lua-lzlib
+pkgname="lua-lzlib"
 _name=lzlib
-pkgver=0.4.3
+pkgver="0.4.3"
 pkgrel=0
 pkgdesc="Lua bindings to the ZLib compression library"
 url="https://github.com/LuaDist/lzlib"

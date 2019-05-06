@@ -1,8 +1,8 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Kozak Ivan <kozak-iv@yandex.ru>
 # Maintainer: Kozak Ivan <kozak-iv@yandex.ru>
-pkgname=nut
-pkgver=2.7.4
+pkgname="nut"
+pkgver="2.7.4"
 pkgrel=6
 pkgdesc="Network UPS tools"
 url="http://www.networkupstools.org"

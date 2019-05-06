@@ -1,8 +1,8 @@
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 # Maintainer:
-pkgname=lldb
+pkgname="lldb"
 # Note: Update together with llvm.
-pkgver=5.0.2
+pkgver="5.0.2"
 pkgrel=0
 _vermajor=${pkgver%%.*}
 pkgdesc="Next generation, high-performance debugger"

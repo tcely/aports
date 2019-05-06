@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=gnome-control-center
-pkgver=3.26.0
+pkgname="gnome-control-center"
+pkgver="3.26.0"
 pkgrel=3
 pkgdesc="GNOME control center"
 url="https://www.gnome.org/"

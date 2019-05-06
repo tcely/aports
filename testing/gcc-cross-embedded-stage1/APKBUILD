@@ -12,7 +12,7 @@ _targets="
 	msp430-elf
 	"
 pkgname="$_pkgbase-cross-embedded-stage1"
-pkgver=8.3.0
+pkgver="8.3.0"
 pkgrel=0
 pkgdesc="The GNU Compiler Collection for embedded targets"
 url="http://gcc.gnu.org"

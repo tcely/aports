@@ -1,8 +1,8 @@
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=py-pymaging
+pkgname="py-pymaging"
 _pkgname=pymaging
 _commit=596a08fce5664e58d6e8c96847393fbe987783f2
-pkgver=0.0.20130908
+pkgver="0.0.20130908"
 pkgrel=2
 pkgdesc="Pure Python imaging library"
 url="https://github.com/ojii/$_pkgname/"

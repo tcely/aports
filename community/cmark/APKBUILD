@@ -1,6 +1,6 @@
 # Maintainer: Marian Buschsieweke <m.buschsieweke@uni-muenster.de>
-pkgname=cmark
-pkgver=0.28.3
+pkgname="cmark"
+pkgver="0.28.3"
 pkgrel=3
 pkgdesc="C reference implementation of CommonMark, a rationalized Markdown spec"
 url="https://github.com/commonmark/cmark"

@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=transmission
-pkgver=2.94
+pkgname="transmission"
+pkgver="2.94"
 pkgrel=2
 pkgdesc="Lightweight GTK BitTorrent client"
 url="http://www.transmissionbt.com"

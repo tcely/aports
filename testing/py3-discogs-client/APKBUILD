@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=py3-discogs-client
+pkgname="py3-discogs-client"
 _pkgname=discogs-client
-pkgver=2.2.2
+pkgver="2.2.2"
 pkgrel=1
 pkgdesc="Official Python API client for Discogs"
 url="https://github.com/discogs/discogs_client"

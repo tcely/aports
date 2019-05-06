@@ -1,9 +1,9 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-opengl
+pkgname="py-opengl"
 _pkgname=PyOpenGL
-pkgver=3.1.3b2
+pkgver="3.1.3b2"
 pkgrel=1
 pkgdesc="Standard OpenGL bindings"
 url="http://pyopengl.sourceforge.net"

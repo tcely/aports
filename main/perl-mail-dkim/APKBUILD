@@ -1,7 +1,7 @@
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-mail-dkim
+pkgname="perl-mail-dkim"
 _realname=Mail-DKIM
-pkgver=0.55
+pkgver="0.55"
 pkgrel=0
 pkgdesc="Signs/verifies Internet mail with DKIM/DomainKey signatures"
 url="http://search.cpan.org/~jaslong/Mail-DKIM/"

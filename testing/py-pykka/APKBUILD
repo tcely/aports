@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=py-pykka
-pkgver=1.2.1
+pkgname="py-pykka"
+pkgver="1.2.1"
 pkgrel=4
 pkgdesc="Concurrency abstractions for Python using the actor model"
 url="https://pykka.readthedocs.org/"

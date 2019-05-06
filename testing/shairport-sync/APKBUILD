@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=shairport-sync
-pkgver=3.2.2
+pkgname="shairport-sync"
+pkgver="3.2.2"
 pkgrel=1
 pkgdesc="AirTunes emulator. Shairport Sync adds multi-room capability with Audio Synchronisation"
 url="https://github.com/mikebrady/shairport-sync"

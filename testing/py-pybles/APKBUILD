@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pybles
+pkgname="py-pybles"
 _pkgname=Pybles
-pkgver=1.0.13
+pkgver="1.0.13"
 pkgrel=0
 pkgdesc="A Python module to represent tables in the terminal"
 url="http://pypi.python.org/pypi/Pybles/"

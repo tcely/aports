@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer:
-pkgname=jitterentropy-rngd
-pkgver=1.0.8
+pkgname="jitterentropy-rngd"
+pkgver="1.0.8"
 pkgrel=0
 pkgdesc="CPU Jitter RNG Daemon"
 url="http://www.chronox.de/jent.html"

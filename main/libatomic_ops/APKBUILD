@@ -1,7 +1,7 @@
 # Maintainer: TBK <alpine@jjtc.eu>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
-pkgname=libatomic_ops
-pkgver=7.6.10
+pkgname="libatomic_ops"
+pkgver="7.6.10"
 pkgrel=0
 pkgdesc="Semi-portable access to hardware provided atomic memory operations"
 arch="all"

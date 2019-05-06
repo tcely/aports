@@ -1,8 +1,8 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 
-pkgname=python2
+pkgname="python2"
 # the python2-tkinter's pkgver needs to be synchronized with this.
-pkgver=2.7.16
+pkgver="2.7.16"
 _verbase=${pkgver%.*}
 pkgrel=0
 pkgdesc="A high-level scripting language"

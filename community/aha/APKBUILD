@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=aha
-pkgver=0.5
+pkgname="aha"
+pkgver="0.5"
 pkgrel=0
 pkgdesc="ANSI color to HTML converter"
 url="http://anonscm.debian.org/gitweb/?p=collab-maint/aha.git;a=summary"

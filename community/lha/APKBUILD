@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=lha
-pkgver=1.14i
+pkgname="lha"
+pkgver="1.14i"
 pkgrel=2
 pkgdesc="Compression and archive utility for LH-7 format archives"
 url="http://www.infor.kanazawa-it.ac.jp/~ishii/lhaunix/"

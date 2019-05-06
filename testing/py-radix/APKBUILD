@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer: Kristóf Jakab <jakab.kristof@balasys.hu>
-pkgname=py-radix
-pkgver=0.10.0
+pkgname="py-radix"
+pkgver="0.10.0"
 pkgrel=1
 pkgdesc="An implementation of a radix tree for Python"
 url="https://github.com/mjschultz/py-radix"

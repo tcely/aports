@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-sedlex
+pkgname="ocaml-sedlex"
 _pkgname=sedlex
-pkgver=1.99.4
+pkgver="1.99.4"
 pkgrel=0
 pkgdesc="An OCaml lexer generator for Unicode"
 url="https://github.com/alainfrisch/sedlex"

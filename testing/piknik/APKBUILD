@@ -1,7 +1,7 @@
 # Contributor: Kevin Daudt <ops@ikke.info>
 # Maintainer: Kevin Daudt <ops@ikke.info>
-pkgname=piknik
-pkgver=0.9.1
+pkgname="piknik"
+pkgver="0.9.1"
 pkgrel=0
 pkgdesc="Copy/paste anything over the network"
 url="https://github.com/jedisct1/piknik"

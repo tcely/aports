@@ -1,7 +1,7 @@
 # Contributor: Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=libkeyfinder
-pkgver=2.2.1
+pkgname="libkeyfinder"
+pkgver="2.2.1"
 pkgrel=3
 pkgdesc="Musical key detection for digital audio"
 url="http://www.ibrahimshaath.co.uk/keyfinder/"

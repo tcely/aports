@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=librelp
-pkgver=1.3.0
+pkgname="librelp"
+pkgver="1.3.0"
 pkgrel=0
 pkgdesc="The Reliable Event Logging Protocol library"
 url="https://www.rsyslog.com"

@@ -1,9 +1,9 @@
 # Contributor: Andy Postnikov <apostnikov@gmail.com>
 # Maintainer: Andy Postnikov <apostnikov@gmail.com>
 
-pkgname=php7-pecl-igbinary
+pkgname="php7-pecl-igbinary"
 _pkgreal=igbinary
-pkgver=3.0.1
+pkgver="3.0.1"
 pkgrel=0
 pkgdesc="Igbinary is a drop in replacement for the standard php serializer"
 url="https://pecl.php.net/package/igbinary"

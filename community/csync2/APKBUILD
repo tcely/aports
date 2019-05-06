@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=csync2
-pkgver=2.0
+pkgname="csync2"
+pkgver="2.0"
 pkgrel=2
 pkgdesc="Cluster synchronization tool"
 url="http://oss.linbit.com/csync2/"

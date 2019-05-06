@@ -1,7 +1,7 @@
 # Contributor: Jann - Ove Risvik <jann.ove@dev.usaklig.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=oath-toolkit
-pkgver=2.6.2
+pkgname="oath-toolkit"
+pkgver="2.6.2"
 pkgrel=0
 pkgdesc="OATH Toolkit One-time password components"
 url="http://www.nongnu.org/oath-toolkit/index.html"

@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer:	Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=gitolite
-pkgver=3.6.11
+pkgname="gitolite"
+pkgver="3.6.11"
 pkgrel=0
 pkgdesc="Centralized git server, with very fine-grained access control and many powerful features"
 url="https://github.com/sitaramc/gitolite"

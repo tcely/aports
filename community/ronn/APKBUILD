@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # Note: This project is basically dead, but it's still needed for some packages.
-pkgname=ronn
+pkgname="ronn"
 _gemname=$pkgname
-pkgver=0.7.3
+pkgver="0.7.3"
 pkgrel=1
 pkgdesc="Convert Markdown files to manpages"
 url="https://rtomayko.github.io/ronn/"

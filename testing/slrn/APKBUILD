@@ -1,6 +1,6 @@
 # Maintainer: Steffen Lange <steffen@stelas.de>
-pkgname=slrn
-pkgver=1.0.3
+pkgname="slrn"
+pkgver="1.0.3"
 pkgrel=4
 pkgdesc="An open source text-based news client"
 url="http://www.slrn.org/"

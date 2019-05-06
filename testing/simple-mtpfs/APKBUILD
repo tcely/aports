@@ -1,7 +1,7 @@
 # Contributor: Milan P. Stanić <mps@arvanta.net>
 # Maintainer: Milan P. Stanić <mps@arvanta.net>
-pkgname=simple-mtpfs
-pkgver=0.3.0
+pkgname="simple-mtpfs"
+pkgver="0.3.0"
 pkgrel=0
 pkgdesc="filesystem driver and CLI utility for MTP based devices"
 url="https://github.com/phatina/simple-mtpfs"

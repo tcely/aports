@@ -1,7 +1,7 @@
 # Contributor: Seung Soo Mun <hamletmun@gmail.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-provisioning-cyberdata
-pkgver=11.4.8
+pkgname="acf-provisioning-cyberdata"
+pkgver="11.4.8"
 pkgrel=0
 pkgdesc="Files for provisioning CyberData Outdoor Intercom"
 url="http://www.cyberdata.net/products/voip/digitalanalog/intercom_endpoints.html"

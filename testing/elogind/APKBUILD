@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=elogind
-pkgver=241.3
+pkgname="elogind"
+pkgver="241.3"
 pkgrel=0
 pkgdesc="Standalone fork of systemd's elogind"
 url="https://github.com/elogind/elogind"

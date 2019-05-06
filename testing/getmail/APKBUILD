@@ -1,8 +1,8 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=getmail
-pkgver=5.13
+pkgname="getmail"
+pkgver="5.13"
 pkgrel=0
 pkgdesc="POP3, IMAP4, and SDPS mail retriever with Maildir delivery"
 url="http://pyropus.ca/software/getmail/"

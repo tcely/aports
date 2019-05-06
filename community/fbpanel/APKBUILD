@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=fbpanel
-pkgver=7.0
+pkgname="fbpanel"
+pkgver="7.0"
 pkgrel=0
 pkgdesc="A lightweight, NETWM compliant desktop panel."
 url="http://aanatoly.github.io/fbpanel/"

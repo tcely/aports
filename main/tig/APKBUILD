@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=tig
-pkgver=2.4.1
+pkgname="tig"
+pkgver="2.4.1"
 pkgrel=0
 pkgdesc="Text-mode interface for the git revision control system"
 url="https://jonas.github.io/tig/"

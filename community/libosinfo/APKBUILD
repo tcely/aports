@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libosinfo
-pkgver=1.1.0
+pkgname="libosinfo"
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="A library for managing OS information for virtualization"
 url="http://libosinfo.org/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-restful
+pkgname="py-flask-restful"
 _pkgname=Flask-RESTful
-pkgver=0.3.5
+pkgver="0.3.5"
 pkgrel=0
 pkgdesc="Flask RESTful API extension"
 url="https://pypi.python.org/pypi/Flask-RESTful"

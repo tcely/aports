@@ -1,7 +1,7 @@
 # Contributor: Arch3y <arch3y@riseup.net>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=hexinject
-pkgver=1.6
+pkgname="hexinject"
+pkgver="1.6"
 pkgrel=0
 pkgdesc="A very versatile packet injector and sniffer"
 url="http://hexinject.sourceforge.net/"

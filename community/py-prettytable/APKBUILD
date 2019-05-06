@@ -1,8 +1,8 @@
 # Contributor: Matt Dainty <matt+alpine@bodgit-n-scarper.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=py-prettytable
+pkgname="py-prettytable"
 _pkgname=prettytable
-pkgver=0.7.2
+pkgver="0.7.2"
 pkgrel=2
 pkgdesc="A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
 url="http://code.google.com/p/prettytable/"

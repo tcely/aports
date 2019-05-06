@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-test-mock-guard
+pkgname="perl-test-mock-guard"
 _pkgname=Test-Mock-Guard
-pkgver=0.10
+pkgver="0.10"
 pkgrel=2
 pkgdesc="Simple mock test library using RAII"
 url="https://github.com/zigorou/p5-test-mock-guard"

@@ -1,8 +1,8 @@
 # Contributor: Pedro Filipe <xpecex@outlook.com>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=numix-themes
+pkgname="numix-themes"
 _pkgname=numix-gtk-theme
-pkgver=2.6.7
+pkgver="2.6.7"
 pkgrel=0
 pkgdesc="A modern flat theme with a combination of light and dark elements, GTK 2 and 3"
 url="https://numixproject.github.io/"

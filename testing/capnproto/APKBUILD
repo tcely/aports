@@ -1,7 +1,7 @@
 # Contributor: Nick Black <dankamongmen@gmail.com>
 # Maintainer:
-pkgname=capnproto
-pkgver=0.7.0
+pkgname="capnproto"
+pkgver="0.7.0"
 pkgrel=2
 pkgdesc="Tools for working with the Cap'n Proto format"
 url="https://capnproto.org/"

@@ -1,8 +1,8 @@
 # Contributor: mellotron <mellotron@tutanota.com>
 # Maintainer:
-pkgname=thermald
+pkgname="thermald"
 _pkgname=thermal_daemon
-pkgver=1.6
+pkgver="1.6"
 pkgrel=0
 pkgdesc="Thermal daemon for IA"
 url="https://github.com/01org/thermal_daemon"

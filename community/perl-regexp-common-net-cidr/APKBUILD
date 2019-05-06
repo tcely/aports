@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-regexp-common-net-cidr
-pkgver=0.03
+pkgname="perl-regexp-common-net-cidr"
+pkgver="0.03"
 pkgrel=0
 pkgdesc="Regexp::Common::net::CIDR perl module"
 url="http://search.cpan.org/dist/Regexp-Common-net-CIDR/"

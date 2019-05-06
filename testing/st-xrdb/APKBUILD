@@ -1,9 +1,9 @@
 # Base-Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Base-Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer:
-pkgname=st-xrdb
+pkgname="st-xrdb"
 pkgname_base=st
-pkgver=0.8.2
+pkgver="0.8.2"
 pkgrel=0
 pkgdesc="Simple terminal emulator for X, with X resource support"
 url="https://st.suckless.org"

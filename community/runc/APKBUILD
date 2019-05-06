@@ -1,12 +1,12 @@
 # Contributor: Jake Buchholz <tomalok@gmail.com>
 # Maintainer: Jake Buchholz <tomalok@gmail.com>
 
-pkgname=runc
+pkgname="runc"
 pkgdesc="CLI tool for spawning and running containers according to the OCI specification"
 url="https://www.opencontainers.org"
 
 _commit=029124da7af7360afa781a0234d1b083550f797c
-pkgver=1.0.0_rc7
+pkgver="1.0.0_rc7"
 pkgrel=1
 
 #_ver=v${pkgver/_rc/-rc}

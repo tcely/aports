@@ -1,7 +1,7 @@
 # Contributor: Ed Robinson <edward-robinson@cookpad.com>
 # Maintainer: Ed Robinson <edward-robinson@cookpad.com>
-pkgname=sbt
-pkgver=1.2.8
+pkgname="sbt"
+pkgver="1.2.8"
 pkgrel=0
 pkgdesc="The interactive build tool, sbt is a build tool for Scala, Java, and more."
 url="http://www.scala-sbt.org/"

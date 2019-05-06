@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=extundelete
-pkgver=0.2.4
+pkgname="extundelete"
+pkgver="0.2.4"
 pkgrel=0
 pkgdesc="Utility for recovering deleted files from ext2, ext3 or ext4 partitions by parsing the journal"
 url="http://extundelete.sourceforge.net"

@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=java-jansi-native
+pkgname="java-jansi-native"
 _pkgname=${pkgname#java-}
-pkgver=1.5
+pkgver="1.5"
 pkgrel=0
 pkgdesc="Native JNI libraries used by the Jansi project."
 url="https://github.com/fusesource/jansi-native"

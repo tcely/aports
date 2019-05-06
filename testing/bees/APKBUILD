@@ -1,6 +1,6 @@
 # Maintainer: Bradley Saulteaux <bradsoto@gmail.com>
-pkgname=bees
-pkgver=0.6.1
+pkgname="bees"
+pkgver="0.6.1"
 pkgrel=1
 pkgdesc="Best-Effort Extent-Same, a btrfs dedup agent"
 url="https://github.com/Zygo/bees"

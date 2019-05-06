@@ -2,7 +2,7 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 pkgname="pgpool"
 _opkgname="${pkgname}-II"
-pkgver=3.7.5
+pkgver="3.7.5"
 pkgrel=0
 pkgdesc="A connection pooling/replication server for PostgreSQL"
 url="http://www.pgpool.net"

@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-ppx_derivers
+pkgname="ocaml-ppx_derivers"
 _pkgname=ppx_derivers
-pkgver=1.2
+pkgver="1.2"
 pkgrel=1
 pkgdesc="Shared [@@deriving] plugins registry"
 url="https://github.com/ocaml-ppx/ppx_derivers"

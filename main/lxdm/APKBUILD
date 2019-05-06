@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=lxdm
-pkgver=0.5.3
+pkgname="lxdm"
+pkgver="0.5.3"
 pkgrel=1
 pkgdesc="LXDE desktop login manager"
 url="https://wiki.lxde.org/en/LXDM"

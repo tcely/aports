@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=freeswitch-sounds-ru-RU-elena-32000
-pkgver=1.0.12
+pkgname="freeswitch-sounds-ru-RU-elena-32000"
+pkgver="1.0.12"
 pkgrel=1
 pkgdesc="Sounds for freeswitch English"
 url="http://files.freeswitch.org/"

@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=libmaa
-pkgver=1.3.2
+pkgname="libmaa"
+pkgver="1.3.2"
 pkgrel=1
 pkgdesc="Provides many low-level data structures which are helpful for writing compilers"
 url="https://sourceforge.net/projects/dict/"

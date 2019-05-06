@@ -1,7 +1,7 @@
 # Maintainer: Mitch Tishmack <mitch.tishmack@gmail.com>
 # TODO: unbundle lzma-sdk
-pkgname=upx
-pkgver=3.95
+pkgname="upx"
+pkgver="3.95"
 pkgrel=1
 pkgdesc="The Ultimate Packer for eXecutables"
 url="https://upx.github.io"

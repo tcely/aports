@@ -1,7 +1,7 @@
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=silc-client
-pkgver=1.1.11
+pkgname="silc-client"
+pkgver="1.1.11"
 pkgrel=7
 pkgdesc="Secure Internet Live Conferencing - client"
 url="http://silcnet.org/"

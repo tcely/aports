@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=fvwm
-pkgver=2.6.8
+pkgname="fvwm"
+pkgver="2.6.8"
 pkgrel=0
 pkgdesc="FVWM is a powerful desktop window manager for the X  Window system"
 url="http://fvwm.org"

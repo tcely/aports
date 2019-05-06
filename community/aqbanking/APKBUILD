@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=aqbanking
-pkgver=5.7.8
+pkgname="aqbanking"
+pkgver="5.7.8"
 pkgrel=1
 pkgdesc="A library for online banking and financial applications"
 url="http://www.aquamaniac.de/aqbanking"

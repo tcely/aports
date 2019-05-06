@@ -1,9 +1,9 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Marvin Steadfast <marvin@xsteadfastx.org>
-pkgname=mopidy
+pkgname="mopidy"
 _pkgname=Mopidy
-pkgver=2.1.0
+pkgver="2.1.0"
 pkgrel=1
 pkgdesc="Mopidy is an extensible music server"
 url="http://www.mopidy.com/"

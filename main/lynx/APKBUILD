@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
 # Maintainer: Kiyoshi Aman <kiyoshi.aman@gmail.com>
-pkgname=lynx
-pkgver=2.8.8_p2
+pkgname="lynx"
+pkgver="2.8.8_p2"
 _relver=${pkgver/_p/rel.}
 _v=${_relver%rel.*}
 pkgrel=8

@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=portaudio
-pkgver=190600.20161030
+pkgname="portaudio"
+pkgver="190600.20161030"
 pkgrel=0
 pkgdesc="Cross platform, open-source, audio I/O library"
 url="http://www.portaudio.com/"

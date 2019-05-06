@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py3-livereload
+pkgname="py3-livereload"
 _pkgname=livereload
-pkgver=2.6.0
+pkgver="2.6.0"
 pkgrel=0
 pkgdesc="livereload server in python"
 url="https://github.com/lepture/python-livereload"

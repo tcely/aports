@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=wireless-tools
-pkgver=30_pre9
+pkgname="wireless-tools"
+pkgver="30_pre9"
 pkgrel=0
 pkgdesc="Open Source wireless tools"
 url="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html"

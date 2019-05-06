@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=vis
-pkgver=0.5
+pkgname="vis"
+pkgver="0.5"
 _testver=0.3
 pkgrel=0
 pkgdesc="Modern, legacy free, simple yet efficient vim-like editor"

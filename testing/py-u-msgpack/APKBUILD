@@ -1,8 +1,8 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=py-u-msgpack
+pkgname="py-u-msgpack"
 _pkgname=u-msgpack-python
-pkgver=2.5.1
+pkgver="2.5.1"
 pkgrel=1
 pkgdesc="A portable, lightweight MessagePack serializer and deserializer written in pure Python."
 url="https://github.com/vsergeev/u-msgpack-python"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libisofs
-pkgver=1.4.8
+pkgname="libisofs"
+pkgver="1.4.8"
 pkgrel=0
 pkgdesc="Library to pack up hard disk files and directories into a ISO 9660 disk image"
 url="http://libburnia-project.org/"

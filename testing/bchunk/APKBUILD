@@ -1,7 +1,7 @@
 # Contributor: Alexander Edland <alpine@ocv.me>
 # Maintainer: Alexander Edland <alpine@ocv.me>
-pkgname=bchunk
-pkgver=1.2.2
+pkgname="bchunk"
+pkgver="1.2.2"
 pkgrel=0
 pkgdesc="Convert bin+cue CD images to .iso and .cdr"
 url="https://github.com/hessu/bchunk"

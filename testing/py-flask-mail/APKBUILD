@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-flask-mail
-pkgver=0.9.1
+pkgname="py-flask-mail"
+pkgver="0.9.1"
 pkgrel=1
 pkgdesc="SMTP mail client for the Flask microframework"
 url="http://pypi.python.org/pypi/Flask-Mail"

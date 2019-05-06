@@ -1,7 +1,7 @@
 # Contributor: Martell Malone <martellmalone@gmail.com>
 # Maintainer: Isaac Dunham <ibid.ag@gmail.com>
-pkgname=py-scipy
-pkgver=1.2.1
+pkgname="py-scipy"
+pkgver="1.2.1"
 pkgrel=4
 pkgdesc="Python library for scientific computing"
 url="http://www.scipy.org"

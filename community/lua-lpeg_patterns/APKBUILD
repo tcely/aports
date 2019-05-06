@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-lpeg_patterns
+pkgname="lua-lpeg_patterns"
 _pkgname=lpeg_patterns
-pkgver=0.5
+pkgver="0.5"
 pkgrel=1
 pkgdesc="A collection of LPEG patterns"
 url="https://github.com/daurnimator/lpeg_patterns"

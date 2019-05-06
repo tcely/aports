@@ -1,8 +1,8 @@
 # Contributor: Seung Soo Mun <hamletmun@gmail.com>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-mini_portile2
+pkgname="ruby-mini_portile2"
 _gemname=${pkgname#ruby-}
-pkgver=2.4.0
+pkgver="2.4.0"
 pkgrel=0
 pkgdesc="Simplistic port-like solution for developers"
 url="https://github.com/flavorjones/mini_portile"

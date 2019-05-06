@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer:
-pkgname=boinc
-pkgver=7.14.2
+pkgname="boinc"
+pkgver="7.14.2"
 _pkgver=${pkgver%.*}
 pkgrel=0
 pkgdesc="Open-source software for volunteer computing and grid computing."

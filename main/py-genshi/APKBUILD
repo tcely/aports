@@ -1,8 +1,8 @@
 # Contributor: Mika Havela <mika.havela@gmail.com>
 # Maintainer: Mika Havela <mika.havela@gmail.com>
-pkgname=py-genshi
+pkgname="py-genshi"
 _realname=Genshi
-pkgver=0.7
+pkgver="0.7"
 pkgrel=0
 pkgdesc="Python toolkit for stream-based generation of output for the web."
 url="http://genshi.edgewall.org/"

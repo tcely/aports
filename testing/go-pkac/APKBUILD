@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=go-pkac
+pkgname="go-pkac"
 _pkgname=pkac
 _vendor="longsleep"
-pkgver=0.1.0
+pkgver="0.1.0"
 pkgrel=1
 pkgdesc="SPKAC/PKAC HTML keygen element data decoding for Go"
 url="https://github.com/$_vendor/$_pkgname"

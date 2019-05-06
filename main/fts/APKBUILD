@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=fts
-pkgver=1.2.7
+pkgname="fts"
+pkgver="1.2.7"
 pkgrel=1
 pkgdesc="Provides the fts(3) functions, which are missing in musl libc"
 url="https://github.com/pullmoll/musl-fts/"

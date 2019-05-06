@@ -1,7 +1,7 @@
 # Contributor: 7heo <7heo@mail.com>
 # Maintainer: 7heo <7heo@mail.com>
-pkgname=homebank
-pkgver=5.1.8
+pkgname="homebank"
+pkgver="5.1.8"
 pkgrel=0
 pkgdesc="Free personal finance software, money management"
 url="http://homebank.free.fr/"

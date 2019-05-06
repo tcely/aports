@@ -1,7 +1,7 @@
 # Contributor: Andrey Pustovetov <andrey.pustovetov@gmail.com>
 # Maintainer: Andrey Pustovetov <andrey.pustovetov@gmail.com>
-pkgname=jattach
-pkgver=1.5
+pkgname="jattach"
+pkgver="1.5"
 pkgrel=0
 pkgdesc="JVM dynamic attach utility"
 url="https://github.com/apangin/jattach"

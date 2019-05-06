@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=slibtool
-pkgver=0.5.26
+pkgname="slibtool"
+pkgver="0.5.26"
 pkgrel=0
 pkgdesc="Surrogate libtool implementation written in C"
 url="https://git.midipix.org/cgit.cgi/slibtool"

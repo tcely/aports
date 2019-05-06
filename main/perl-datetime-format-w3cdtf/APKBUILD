@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-datetime-format-w3cdtf
-pkgver=0.07
+pkgname="perl-datetime-format-w3cdtf"
+pkgver="0.07"
 pkgrel=0
 pkgdesc="DateTime::Format::W3CDTF perl module"
 url="http://search.cpan.org/dist/DateTime-Format-W3CDTF/"

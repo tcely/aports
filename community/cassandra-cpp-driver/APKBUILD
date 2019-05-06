@@ -1,8 +1,8 @@
 # Contributor: Gennady Feldman <gena01@gmail.com>
 # Maintainer: Gennady Feldman <gena01@gmail.com>
-pkgname=cassandra-cpp-driver
+pkgname="cassandra-cpp-driver"
 _pkgname=cpp-driver
-pkgver=2.10.0
+pkgver="2.10.0"
 pkgrel=0
 pkgdesc="Cassandra CPP Driver"
 url="https://datastax.github.io/cpp-driver/"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=popl
-pkgver=1.2.0
+pkgname="popl"
+pkgver="1.2.0"
 pkgrel=0
 pkgdesc="Header-only C++ program options parser library"
 url="https://github.com/badaix/popl"

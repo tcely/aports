@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-slowaes
+pkgname="py-slowaes"
 _pkgname=slowaes
-pkgver=0.1a1
+pkgver="0.1a1"
 pkgrel=0
 pkgdesc="Implementation of AES in Python"
 url="http://code.google.com/p/slowaes/"

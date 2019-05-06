@@ -1,7 +1,7 @@
 # Contributor: Ivan Tham <pickfire@riseup.net>
 # Maintainer: Ivan Tham <pickfire@riseup.net>
-pkgname=ttf-hack
-pkgver=3.003
+pkgname="ttf-hack"
+pkgver="3.003"
 pkgrel=0
 pkgdesc="A typeface designed for source code"
 url="http://sourcefoundry.org/hack/"

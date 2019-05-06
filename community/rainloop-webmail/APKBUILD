@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 _php=php7
-pkgname=rainloop-webmail
-pkgver=1.12.1
+pkgname="rainloop-webmail"
+pkgver="1.12.1"
 pkgrel=0
 pkgdesc="Simple, modern & fast web-based email client"
 url="http://www.rainloop.net"

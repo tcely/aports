@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=one-context
-pkgver=0.5.5
+pkgname="one-context"
+pkgver="0.5.5"
 pkgrel=0
 pkgdesc="Contextualization scripts for OpenNebula guests"
 url="https://github.com/jirutka/one-context/"

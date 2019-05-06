@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=lxc-templates-legacy
-pkgver=3.0.3
+pkgname="lxc-templates-legacy"
+pkgver="3.0.3"
 pkgrel=0
 pkgdesc="Legacy LXC container templates"
 url="https://linuxcontainers.org"

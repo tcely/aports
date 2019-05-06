@@ -1,7 +1,7 @@
 # Contributor: Duncan Guthrie <dguthrie@posteo.net>
 # Maintainer: Duncan Guthrie <dguthrie@posteo.net>
-pkgname=kexec-tools
-pkgver=2.0.16
+pkgname="kexec-tools"
+pkgver="2.0.16"
 pkgrel=1
 pkgdesc="Directly boot into a new kernel over a currently running one"
 url="https://kernel.org/pub/linux/utils/kernel/kexec/"

@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=php7-diseval
+pkgname="php7-diseval"
 _pkgreal=diseval
-pkgver=0.1
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Disable eval in php7 (suhosin is not stable yet for php7)"
 url="https://github.com/mk-j/PHP_diseval_extension"

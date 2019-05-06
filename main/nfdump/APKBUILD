@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=nfdump
-pkgver=1.6.17
+pkgname="nfdump"
+pkgver="1.6.17"
 pkgrel=0
 pkgdesc="Tools to collect and process netflow data"
 url="https://github.com/phaag/nfdump"

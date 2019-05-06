@@ -1,7 +1,7 @@
 # Contributor: Ivan Tham <pickfire@riseup.net>
 # Maintainer: Ivan Tham <pickfire@riseup.net>
-pkgname=libwacom
-pkgver=0.32
+pkgname="libwacom"
+pkgver="0.32"
 pkgrel=0
 pkgdesc="Library to help implement Wacom tablet settings"
 url="https://github.com/linuxwacom/libwacom/wiki"

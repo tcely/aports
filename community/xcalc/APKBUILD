@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=xcalc
-pkgver=1.0.7
+pkgname="xcalc"
+pkgver="1.0.7"
 pkgrel=0
 pkgdesc="Calculator for the X Window System"
 url="http://www.x.org"

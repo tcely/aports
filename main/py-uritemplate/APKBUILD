@@ -1,8 +1,8 @@
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-uritemplate
+pkgname="py-uritemplate"
 _pkgname=uritemplate.py
-pkgver=3.0.0
+pkgver="3.0.0"
 pkgrel=2
 pkgdesc="Python module to use URO templates"
 url="https://uritemplate.readthedocs.org"

@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=makedepend
-pkgver=1.0.5
+pkgname="makedepend"
+pkgver="1.0.5"
 pkgrel=2
 pkgdesc="utility for making makefile dependencies"
 url="http://www.freedesktop.org/"

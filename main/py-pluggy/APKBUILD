@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=py-pluggy
+pkgname="py-pluggy"
 _pkgname=${pkgname#py-*}
-pkgver=0.9.0
+pkgver="0.9.0"
 pkgrel=1
 pkgdesc="Plugin management and hook calling for Python"
 url="https://pluggy.readthedocs.io/en/latest/"

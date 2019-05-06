@@ -1,8 +1,8 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=w3m
+pkgname="w3m"
 _pkgver=0.5.3+git20180125
-pkgver=${_pkgver/+git/.}
+pkgver="${_pkgver/+git/.}"
 pkgrel=4
 pkgdesc='Text-based Web browser, as well as pager'
 url='https://github.com/tats/w3m'

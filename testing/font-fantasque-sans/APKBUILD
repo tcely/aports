@@ -1,9 +1,9 @@
 # Contributor: Orson Teodoro <orsonteodoro@hotmail.com>
 # Maintainer: Orson Teodoro <orsonteodoro@hotmail.com>
 
-pkgname=font-fantasque-sans
+pkgname="font-fantasque-sans"
 _pkgname=fantasque-sans
-pkgver=1.7.2
+pkgver="1.7.2"
 pkgrel=0
 pkgdesc="A font family with a great monospaced variant for programmers."
 url="https://github.com/belluzj/fantasque-sans"

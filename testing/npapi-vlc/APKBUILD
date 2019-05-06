@@ -1,7 +1,7 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=npapi-vlc
-pkgver=2.2.6
+pkgname="npapi-vlc"
+pkgver="2.2.6"
 _pkglibver="0_git20180718"
 pkgrel=1
 pkgdesc="NPAPI browser plugin based on libvlc"

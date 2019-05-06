@@ -1,7 +1,7 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=lightdm-gtk-greeter
-pkgver=2.0.5
+pkgname="lightdm-gtk-greeter"
+pkgver="2.0.5"
 pkgrel=1
 pkgdesc="Gtk based greeter for lightdm."
 url="https://launchpad.net/lightdm-gtk-greeter"

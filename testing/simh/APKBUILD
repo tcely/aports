@@ -1,7 +1,7 @@
 # Contributor: Sascha Paunovic <azarus@posteo.net>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=simh
-pkgver=3.9.0
+pkgname="simh"
+pkgver="3.9.0"
 _pkgver=39-0
 pkgrel=0
 pkgdesc="simulator for historical computers"

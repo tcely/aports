@@ -1,7 +1,7 @@
 # Contributor: Jean-Charles de Longueville <jch@hellea.eu>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=nx-libs
-pkgver=3.5.0.32
+pkgname="nx-libs"
+pkgver="3.5.0.32"
 pkgrel=1
 pkgdesc="NoMachine libraries (redistributed by x2go)"
 url="http://x2go.org"

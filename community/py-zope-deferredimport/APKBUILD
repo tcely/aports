@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=py-zope-deferredimport
+pkgname="py-zope-deferredimport"
 _pkgname=zope.deferredimport
-pkgver=4.3
+pkgver="4.3"
 pkgrel=1
 pkgdesc="Defer imports until used by code"
 url="https://github.com/zopefoundation/$_pkgname"

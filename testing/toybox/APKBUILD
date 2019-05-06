@@ -1,7 +1,7 @@
 # Maintainer: André Klitzing <aklitzing@gmail.com>
 # Contributor: André Klitzing <aklitzing@gmail.com>
-pkgname=toybox
-pkgver=0.7.7
+pkgname="toybox"
+pkgver="0.7.7"
 pkgrel=0
 pkgdesc="A BSD-licensed alternative to busybox"
 arch="all"

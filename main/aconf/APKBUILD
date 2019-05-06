@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=aconf
-pkgver=0.7.1
+pkgname="aconf"
+pkgver="0.7.1"
 pkgrel=0
 pkgdesc="Alpine Configurator"
 url="https://git.alpinelinux.org/cgit/user/kunkku/aconf/"

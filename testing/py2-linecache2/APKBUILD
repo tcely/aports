@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=py2-linecache2
+pkgname="py2-linecache2"
 _pkgname=${pkgname#py2-*}
-pkgver=1.0.0
+pkgver="1.0.0"
 pkgrel=0
 pkgdesc="Backport of the Python3 stdlib linecache module"
 url="https://github.com/testing-cabal/linecache2"

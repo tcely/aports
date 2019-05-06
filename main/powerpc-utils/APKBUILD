@@ -1,6 +1,6 @@
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=powerpc-utils
-pkgver=1.3.6
+pkgname="powerpc-utils"
+pkgver="1.3.6"
 pkgrel=0
 pkgdesc="Maintenance utilities for PowerPC platforms"
 url="https://github.com/nfont/powerpc-utils"

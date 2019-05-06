@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-redmine
+pkgname="py-redmine"
 _pkgname=python-redmine
-pkgver=2.0.2
+pkgver="2.0.2"
 pkgrel=1
 pkgdesc="A simple library for communicating with redmine"
 url="https://github.com/maxtepkeev/python-redmine"

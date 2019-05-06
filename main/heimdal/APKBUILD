@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=heimdal
-pkgver=7.5.0
+pkgname="heimdal"
+pkgver="7.5.0"
 _ver=${pkgver/_rc/rc}
 pkgrel=3
 pkgdesc="An implementation of Kerberos 5"

@@ -1,7 +1,7 @@
 # Maintainer: Steve HOLWEG <skytep@gmail.com>
 
-pkgname=kea-hook-runscript
-pkgver=1.1.0
+pkgname="kea-hook-runscript"
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="This a hook for the Kea DHCP server that allows to run an external script."
 arch="all"

@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-toml
-pkgver=2.0.0
+pkgname="lua-toml"
+pkgver="2.0.0"
 pkgrel=1
 pkgdesc="TOML decoder/encoder for Lua"
 url="https://github.com/jonstoler/lua-toml"

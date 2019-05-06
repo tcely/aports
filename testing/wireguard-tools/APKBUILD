@@ -2,8 +2,8 @@
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
 
 # NOTE: pkgrel must match _toolsrel in wireguard-vanilla
-pkgname=wireguard-tools
-pkgver=0.0.20190406
+pkgname="wireguard-tools"
+pkgver="0.0.20190406"
 pkgrel=0
 pkgdesc="Next generation secure network tunnel: userspace tools"
 arch='all'

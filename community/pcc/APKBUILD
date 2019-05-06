@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Cág <ca6c@bitmessage.ch>
-pkgname=pcc
-pkgver=20190422
+pkgname="pcc"
+pkgver="20190422"
 pkgrel=0
 pkgdesc="The portable C compiler."
 url="http://pcc.ludd.ltu.se/"

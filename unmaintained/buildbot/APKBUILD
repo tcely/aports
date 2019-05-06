@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=buildbot
-pkgver=1.6.0
+pkgname="buildbot"
+pkgver="1.6.0"
 pkgrel=0
 pkgdesc="Continuous integration testing framework"
 url="http://buildbot.net/"

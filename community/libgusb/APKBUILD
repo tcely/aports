@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libgusb
-pkgver=0.3.0
+pkgname="libgusb"
+pkgver="0.3.0"
 pkgrel=1
 pkgdesc="GLib wrapper around libusb"
 url="https://github.com/hughsie/libgusb"

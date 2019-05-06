@@ -1,6 +1,6 @@
 # Contributor: Paul Bredbury <brebs@sent.com>
-pkgname=cherrytree
-pkgver=0.38.8
+pkgname="cherrytree"
+pkgver="0.38.8"
 pkgrel=0
 pkgdesc="Hierarchical note-taking app featuring rich text"
 url="https://www.giuspen.com/cherrytree/"

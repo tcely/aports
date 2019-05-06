@@ -1,7 +1,7 @@
 # Contributor: Timo Teras <timo.teras@iki.fi>
 # Maintainer: Timo Teras <timo.teras@iki.fi>
-pkgname=dahdi-linux
-pkgver=3.0.0
+pkgname="dahdi-linux"
+pkgver="3.0.0"
 pkgrel=0
 pkgdesc="Firmware for Digium Asterisk Hardware Device Interface drivers"
 url="http://www.asterisk.org"

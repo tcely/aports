@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=nano
-pkgver=4.2
+pkgname="nano"
+pkgver="4.2"
 pkgrel=0
 pkgdesc="Enhanced clone of the Pico text editor"
 url="https://www.nano-editor.org"

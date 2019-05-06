@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=ktsuss
-pkgver=2.1
+pkgname="ktsuss"
+pkgver="2.1"
 pkgrel=0
 pkgdesc="Graphical version of su written in C and GTK+ (gksu alternative)"
 url="https://github.com/nomius/ktsuss"

@@ -1,7 +1,7 @@
 # Contributor: Francesco Colsita <francesco.colista@gmail.com>
 # Maintainer:  Natanael Copa <ncopa@alpinelinux.org>
-pkgname=freeradius-client
-pkgver=1.1.7
+pkgname="freeradius-client"
+pkgver="1.1.7"
 pkgrel=2
 pkgdesc="FreeRADIUS Client Software"
 url="https://freeradius.org/sub_projects/"

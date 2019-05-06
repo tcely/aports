@@ -1,7 +1,7 @@
 # Contributor: Emily Ingalls <emily@ingalls.rocks>
 # Maintainer: Emily Ingalls <emily@ingalls.rocks>
-pkgname=windowmaker
-pkgver=0.95.8
+pkgname="windowmaker"
+pkgver="0.95.8"
 pkgrel=1
 pkgdesc="Window manager for X emulating the NeXTSTEP user interface"
 url="https://www.windowmaker.org/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-flask-htauth
+pkgname="py-flask-htauth"
 _pkgname=Flask-HTAuth
-pkgver=0.1.2
+pkgver="0.1.2"
 pkgrel=0
 pkgdesc="Flask HTTP authentication"
 url="https://pypi.python.org/pypi/Flask-HTAuth"

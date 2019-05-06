@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-tinydns
-pkgver=0.11.0
+pkgname="acf-tinydns"
+pkgver="0.11.0"
 pkgrel=2
 pkgdesc="A web-based system administration interface for tinydns"
 url="https://git.alpinelinux.org/cgit/acf/acf-tinydns"

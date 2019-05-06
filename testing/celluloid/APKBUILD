@@ -1,7 +1,7 @@
 # Contributor: Rasmus Thomsen <oss@cogitri.dev>
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=celluloid
-pkgver=0.16
+pkgname="celluloid"
+pkgver="0.16"
 pkgrel=0
 pkgdesc="A simple GTK+ frontend for mpv"
 url="https://celluloid-player.github.io/"

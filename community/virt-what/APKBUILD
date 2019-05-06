@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Henrik Riomar <henrik.riomar@gmail.com>
-pkgname=virt-what
-pkgver=1.19
+pkgname="virt-what"
+pkgver="1.19"
 pkgrel=0
 pkgdesc="Detect if we are running in a virtual machine"
 url="https://people.redhat.com/~rjones/virt-what/"

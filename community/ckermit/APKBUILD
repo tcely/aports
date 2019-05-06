@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ckermit
-pkgver=9.0.302
+pkgname="ckermit"
+pkgver="9.0.302"
 pkgrel=0
 pkgdesc="Portable scriptable network and serial communication software"
 url="http://www.columbia.edu/kermit/ck90.html"

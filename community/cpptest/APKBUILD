@@ -1,7 +1,7 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=cpptest
-pkgver=2.0.0
+pkgname="cpptest"
+pkgver="2.0.0"
 pkgrel=1
 pkgdesc="Portable and powerful unit testing framework for handling automated tests in C++"
 url="https://github.com/cpptest/cpptest"

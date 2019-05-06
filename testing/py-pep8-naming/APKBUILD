@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pep8-naming
+pkgname="py-pep8-naming"
 _pkgname=pep8-naming
-pkgver=0.8.2
+pkgver="0.8.2"
 pkgrel=0
 pkgdesc="Check PEP-8 naming conventions plugin for flake8"
 url="https://github.com/flintwork/pep8-naming"

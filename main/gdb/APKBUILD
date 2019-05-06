@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gdb
-pkgver=8.2.1
+pkgname="gdb"
+pkgver="8.2.1"
 pkgrel=2
 pkgdesc="The GNU Debugger"
 url="https://www.sourceware.org/gdb/"

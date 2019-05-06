@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=open-zwave-control-panel
-pkgver=20170321
+pkgname="open-zwave-control-panel"
+pkgver="20170321"
 _sha=bbbd461c5763faab4949b12da12901f2d6f00f48
 pkgrel=0
 pkgdesc="The OpenZWave Control Panel"

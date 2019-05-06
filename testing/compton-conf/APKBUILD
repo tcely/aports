@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=compton-conf
-pkgver=0.3.0
+pkgname="compton-conf"
+pkgver="0.3.0"
 pkgrel=0
 pkgdesc="GUI configuration tool for compton X composite manager"
 url="https://github.com/lxde/compton-conf"

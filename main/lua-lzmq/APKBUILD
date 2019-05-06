@@ -1,9 +1,9 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # TODO: Split C and FFI bindings into subpackages...?
-pkgname=lua-lzmq
+pkgname="lua-lzmq"
 _pkgname=lzmq
-pkgver=0.4.4
+pkgver="0.4.4"
 pkgrel=0
 pkgdesc="Lua bindings to ZeroMQ"
 url="https://github.com/zeromq/lzmq"

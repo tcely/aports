@@ -1,8 +1,8 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=py-webencodings
+pkgname="py-webencodings"
 _pkgname=webencodings
-pkgver=0.5.1
+pkgver="0.5.1"
 pkgrel=1
 pkgdesc="Character encoding for the web"
 url="https://github.com/gsnedders/python-webencodings"

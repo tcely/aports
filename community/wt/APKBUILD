@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=wt
-pkgver=4.0.5
+pkgname="wt"
+pkgver="4.0.5"
 pkgrel=1
 pkgdesc="A C++ library and application server for developing and deploying web applications"
 url="https://www.webtoolkit.eu"

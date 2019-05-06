@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=xbps
-pkgver=0.53
+pkgname="xbps"
+pkgver="0.53"
 pkgrel=1
 pkgdesc="The X Binary Package System"
 arch="all"

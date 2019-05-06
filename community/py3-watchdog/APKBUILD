@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py3-watchdog
+pkgname="py3-watchdog"
 _pkgname=watchdog
-pkgver=0.9.0
+pkgver="0.9.0"
 pkgrel=0
 pkgdesc="Filesystem events monitoring"
 url="https://github.com/gorakhargosh/watchdog"

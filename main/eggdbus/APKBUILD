@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter
 # Maintainer:  Francesco Colista <fcolista@alpinelinux.org>
-pkgname=eggdbus
-pkgver=0.6
+pkgname="eggdbus"
+pkgver="0.6"
 pkgrel=5
 pkgdesc="Experimental D-Bus bindings for GObject"
 url="https://cgit.freedesktop.org/~david/eggdbus"

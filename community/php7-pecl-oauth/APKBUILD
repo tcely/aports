@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-oauth
+pkgname="php7-pecl-oauth"
 _pkgreal=oauth
-pkgver=2.0.3
+pkgver="2.0.3"
 pkgrel=1
 pkgdesc="OAuth is an authorization protocol built on top of HTTP."
 url="https://pecl.php.net/package/oauth"

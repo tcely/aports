@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=cluster-glue
-pkgver=1.0.12
+pkgname="cluster-glue"
+pkgver="1.0.12"
 pkgrel=1
 pkgdesc="A set of libraries, tools and utilities suitable for the Heartbeat/Pacemaker cluster stack."
 url="http://linux-ha.org/wiki/Cluster_Glue"

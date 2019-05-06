@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Fathi Boudra <fathi.boudra@linaro.org>
-pkgname=uboot-tools
-pkgver=2019.01
+pkgname="uboot-tools"
+pkgver="2019.01"
 pkgrel=0
 pkgdesc="U-Boot bootloader utility tools"
 url="https://www.denx.de/wiki/U-Boot/WebHome"

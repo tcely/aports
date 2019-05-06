@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=duply
-pkgver=2.2
+pkgname="duply"
+pkgver="2.2"
 pkgrel=0
 pkgdesc="Wrapper for duplicity"
 url="https://duply.net"

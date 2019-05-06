@@ -1,5 +1,5 @@
-pkgname=sound-theme-freedesktop
-pkgver=0.8
+pkgname="sound-theme-freedesktop"
+pkgver="0.8"
 pkgrel=0
 pkgdesc="Desktop sound theme from Freedesktop"
 url="https://www.freedesktop.org/wiki/Specifications/sound-theme-spec/"

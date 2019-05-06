@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=makepasswd
-pkgver=0.5.3
+pkgname="makepasswd"
+pkgver="0.5.3"
 pkgrel=5
 pkgdesc="Generates (pseudo-)random passwords of a desired length"
 url="http://people.defora.org/~khorben/projects/makepasswd/"

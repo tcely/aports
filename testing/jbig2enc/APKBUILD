@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=jbig2enc
-pkgver=0.29
+pkgname="jbig2enc"
+pkgver="0.29"
 pkgrel=0
 pkgdesc="JBIG2 Encoder"
 url="https://github.com/agl/jbig2enc"

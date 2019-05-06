@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocamlclean
-pkgver=2.1
+pkgname="ocamlclean"
+pkgver="2.1"
 pkgrel=0
 pkgdesc="OCaml Bytecode Cleaner"
 url="http://www.algo-prog.info/ocapic/web/index.php?id=OCAPIC:OCamlClean"

@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libbluray
-pkgver=1.1.1
+pkgname="libbluray"
+pkgver="1.1.1"
 pkgrel=0
 pkgdesc="Library for Blu-Ray disc playback"
 url="https://www.videolan.org/developers/libbluray.html"

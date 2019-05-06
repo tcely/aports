@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libindicator
-pkgver=12.10.1
+pkgname="libindicator"
+pkgver="12.10.1"
 pkgrel=0
 pkgdesc="Set of symbols and convenience functions for Ayatana indicators (GTK+ 3 library)"
 url="https://launchpad.net/libindicator"

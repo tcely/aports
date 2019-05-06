@@ -1,6 +1,6 @@
 # Contributor: Jonathan Neuschäfer <j.neuschaefer@gmx.net>
-pkgname=fzy
-pkgver=1.0
+pkgname="fzy"
+pkgver="1.0"
 pkgrel=0
 pkgdesc="A better fuzzy finder"
 url="https://github.com/jhawthorn/$pkgname"

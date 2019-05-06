@@ -1,7 +1,7 @@
 # Contributor: Camille Scholtz <onodera@openmailbox.org>
 # Maintainer: Camille Scholtz <onodera@openmailbox.org>
-pkgname=xtitle
-pkgver=0.4.4
+pkgname="xtitle"
+pkgver="0.4.4"
 pkgrel=0
 pkgdesc="Outputs X window titles"
 url="https://github.com/baskerville/xtitle"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=doxygen
-pkgver=1.8.15
+pkgname="doxygen"
+pkgver="1.8.15"
 pkgrel=0
 pkgdesc="A documentation system for C++, C, Java, IDL and PHP"
 url="http://www.doxygen.org/"

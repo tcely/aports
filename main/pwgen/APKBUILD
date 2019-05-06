@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=pwgen
-pkgver=2.08
+pkgname="pwgen"
+pkgver="2.08"
 pkgrel=0
 pkgdesc="A Password Generator"
 url="https://sourceforge.net/projects/pwgen/"

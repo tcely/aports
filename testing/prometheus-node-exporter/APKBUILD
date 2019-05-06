@@ -1,8 +1,8 @@
 # Contributor: Tiago Ilieve <tiago.myhro@gmail.com>
 # Maintainer: Tiago Ilieve <tiago.myhro@gmail.com>
-pkgname=prometheus-node-exporter
+pkgname="prometheus-node-exporter"
 _pkgname=node_exporter
-pkgver=0.17.0
+pkgver="0.17.0"
 pkgrel=0
 pkgdesc="Prometheus exporter for machine metrics"
 url="https://github.com/prometheus/node_exporter"

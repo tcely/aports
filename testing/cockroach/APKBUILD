@@ -1,7 +1,7 @@
 # Contributor: Joe Holden <jwh@zorins.us>
 # Maintainer: Joe Holden <jwh@zorins.us>
-pkgname=cockroach
-pkgver=2.1.6
+pkgname="cockroach"
+pkgver="2.1.6"
 pkgrel=0
 pkgdesc="The open source, cloud-native SQL database."
 url="https://cockroachlabs.com"

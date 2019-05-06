@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-lockfile
+pkgname="py-lockfile"
 _pkgname=lockfile
-pkgver=0.12.2
+pkgver="0.12.2"
 pkgrel=1
 pkgdesc="A Python file locking module"
 url="https://github.com/smontanaro/pylockfile"

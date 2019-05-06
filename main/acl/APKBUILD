@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=acl
-pkgver=2.2.52
+pkgname="acl"
+pkgver="2.2.52"
 pkgrel=5
 pkgdesc="Access control list utilities"
 url="https://savannah.nongnu.org/projects/acl"

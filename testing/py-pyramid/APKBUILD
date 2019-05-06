@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pyramid
+pkgname="py-pyramid"
 _pkgname=pyramid
-pkgver=1.7
+pkgver="1.7"
 pkgrel=0
 pkgdesc="The Pyramid Web Framework"
 url="http://www.pylonsproject.org/"

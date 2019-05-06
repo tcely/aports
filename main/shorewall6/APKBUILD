@@ -1,7 +1,7 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=shorewall6
-pkgver=5.2.2
+pkgname="shorewall6"
+pkgver="5.2.2"
 
 _ver=$pkgver
 case $pkgver in

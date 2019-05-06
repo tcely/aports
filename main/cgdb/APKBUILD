@@ -1,7 +1,7 @@
 # Contributor: Harry
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=cgdb
-pkgver=0.7.0
+pkgname="cgdb"
+pkgver="0.7.0"
 pkgrel=3
 pkgdesc="The Curses Debugger"
 arch="all"

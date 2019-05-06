@@ -1,7 +1,7 @@
 # Contributor: Stefan Stutz <stutz@pm.me>
 # Maintainer: Stefan Stutz <stutz@pm.me>
-pkgname=mpdecimal
-pkgver=2.4.2
+pkgname="mpdecimal"
+pkgver="2.4.2"
 pkgrel=0
 pkgdesc="A complete implementation of the General Decimal Arithmetic Specification"
 url="http://www.bytereef.org/mpdecimal/index.html"

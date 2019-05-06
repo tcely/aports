@@ -1,8 +1,8 @@
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=go-nuid
+pkgname="go-nuid"
 _pkgname=nuid
 _vendor="nats-io"
-pkgver=1.0.0
+pkgver="1.0.0"
 pkgrel=2
 pkgdesc="NATS Unique Identifiers"
 url="https://github.com/$_vendor/$_pkgname"

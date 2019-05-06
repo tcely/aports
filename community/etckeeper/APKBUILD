@@ -1,8 +1,8 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Henrik Riomar <henrik.riomar@gmail.com>
 
-pkgname=etckeeper
-pkgver=1.18.10
+pkgname="etckeeper"
+pkgver="1.18.10"
 pkgrel=0
 pkgdesc="Store /etc in git."
 url="http://etckeeper.branchable.com"

@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=asciinema
-pkgver=2.0.2
+pkgname="asciinema"
+pkgver="2.0.2"
 pkgrel=1
 pkgdesc="Command line recorder for the asciinema.org service"
 url="https://github.com/asciinema/asciinema"

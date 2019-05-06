@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=acccheck
-pkgver=0.2.1
+pkgname="acccheck"
+pkgver="0.2.1"
 pkgrel=1
 pkgdesc="A password dictionary attack tool"
 url="https://labs.portcullis.co.uk/tools/acccheck/"

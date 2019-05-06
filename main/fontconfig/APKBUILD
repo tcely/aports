@@ -1,7 +1,7 @@
 # Contributor: Mika Havela <mika.havela@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=fontconfig
-pkgver=2.13.1
+pkgname="fontconfig"
+pkgver="2.13.1"
 pkgrel=0
 pkgdesc="Library for configuring and customizing font access"
 url="http://fontconfig.org"

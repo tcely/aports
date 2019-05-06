@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=jreen
-pkgver=1.3.0
+pkgname="jreen"
+pkgver="1.3.0"
 pkgrel=0
 pkgdesc="Free and Opensource Jabber library, written in C++ using cross-platform framework Qt."
 url="http://qutim.org/jreen"

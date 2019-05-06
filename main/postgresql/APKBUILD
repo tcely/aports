@@ -1,8 +1,8 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # Contributor: G.J.R. Timmer <gjr.timmer@gmail.com>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=postgresql
-pkgver=11.2
+pkgname="postgresql"
+pkgver="11.2"
 pkgrel=1
 pkgdesc="A sophisticated object-relational DBMS"
 url="https://www.postgresql.org/"

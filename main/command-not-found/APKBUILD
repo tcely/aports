@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=command-not-found
-pkgver=0.3
+pkgname="command-not-found"
+pkgver="0.3"
 pkgrel=0
 pkgdesc="friendly command not found handling"
 url="https://github.com/kaniini/command-not-found"

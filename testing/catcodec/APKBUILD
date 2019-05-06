@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=catcodec
-pkgver=1.0.5
+pkgname="catcodec"
+pkgver="1.0.5"
 pkgrel=0
 pkgdesc="Decodes and encodes sample catalogues for OpenTTD"
 url="http://www.openttd.org/en/download-catcodec"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ttf-linux-libertine
-pkgver=5.3.0
+pkgname="ttf-linux-libertine"
+pkgver="5.3.0"
 _date="2012_07_02"
 pkgrel=0
 pkgdesc="Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage"

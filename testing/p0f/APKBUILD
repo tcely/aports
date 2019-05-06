@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Arch3y <arch3y@riseup.net>
-pkgname=p0f
-pkgver=3.09b
+pkgname="p0f"
+pkgver="3.09b"
 pkgrel=0
 pkgdesc="Passive traffic fingerprinting tool"
 url="http://lcamtuf.coredump.cx/p0f3/"

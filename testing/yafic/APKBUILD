@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=yafic
-pkgver=1.2.2
+pkgname="yafic"
+pkgver="1.2.2"
 pkgrel=4
 pkgdesc="Yet Another File Integrity Checker"
 url="https://www.saddi.com/software/yafic/"

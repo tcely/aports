@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-msgpack
+pkgname="py-msgpack"
 _pkgname=msgpack-python
-pkgver=0.6.1
+pkgver="0.6.1"
 pkgrel=2
 pkgdesc="A Python module for MessagePack serialization/deserialization"
 url="https://msgpack.org/"

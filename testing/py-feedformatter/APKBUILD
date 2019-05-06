@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-feedformatter
+pkgname="py-feedformatter"
 _pkgname=feedformatter
-pkgver=0.4
+pkgver="0.4"
 pkgrel=1
 pkgdesc="A Python library for generating news feeds in RSS and Atom formats"
 url="https://code.google.com/p/feedformatter/"

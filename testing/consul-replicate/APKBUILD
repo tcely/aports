@@ -1,7 +1,7 @@
 # Contributor: Gennady Feldman <gena01@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=consul-replicate
-pkgver=0.4.0
+pkgname="consul-replicate"
+pkgver="0.4.0"
 pkgrel=1
 pkgdesc="Consul cross-DC KV replication daemon"
 url="https://www.consul.io/"

@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=capstone
-pkgver=3.0.4
+pkgname="capstone"
+pkgver="3.0.4"
 pkgrel=4
 pkgdesc="The Ultimate Disassembler"
 url="http://www.capstone-engine.org"

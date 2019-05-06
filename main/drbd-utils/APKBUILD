@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=drbd-utils
-pkgver=9.7.1
+pkgname="drbd-utils"
+pkgver="9.7.1"
 pkgrel=0
 pkgdesc="Network-based RAID 1"
 url="http://www.drbd.org"

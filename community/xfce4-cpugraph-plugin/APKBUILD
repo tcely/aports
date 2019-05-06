@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce4-cpugraph-plugin
-pkgver=1.0.5
+pkgname="xfce4-cpugraph-plugin"
+pkgver="1.0.5"
 pkgrel=1
 pkgdesc="CPU monitor for the Xfce panel"
 url="http://goodies.xfce.org/projects/panel-plugins/xfce4-cpugraph-plugin"

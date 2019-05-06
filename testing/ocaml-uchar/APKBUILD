@@ -3,9 +3,9 @@
 #
 # NOTE: This is just a dummy module to satisfy dependencies, uchar is provided
 # directly by ocaml since 4.03.
-pkgname=ocaml-uchar
+pkgname="ocaml-uchar"
 _pkgname=uchar
-pkgver=0.0.2
+pkgver="0.0.2"
 pkgrel=0
 pkgdesc="Compatibility library for OCaml's Uchar module"
 url="https://github.com/ocaml/uchar"

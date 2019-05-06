@@ -1,8 +1,8 @@
 # Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-file-next
+pkgname="perl-file-next"
 _pkgreal=File-Next
-pkgver=1.16
+pkgver="1.16"
 pkgrel=0
 pkgdesc="Perl module for taint-safe file-finding"
 url="http://search.cpan.org/dist/File-Next/"

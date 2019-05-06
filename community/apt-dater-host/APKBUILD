@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer: Henrik Riomar <henrik.riomar@gmail.com>
-pkgname=apt-dater-host
-pkgver=1.0.1
+pkgname="apt-dater-host"
+pkgver="1.0.1"
 pkgrel=1
 pkgdesc="Host helper application for apt-dater"
 url="https://github.com/DE-IBH/apt-dater-host"

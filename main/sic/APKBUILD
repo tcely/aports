@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sic
-pkgver=1.2
+pkgname="sic"
+pkgver="1.2"
 pkgrel=1
 pkgdesc="an extremely simple IRC client"
 url="https://tools.suckless.org/sic"

@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-charlock_holmes
+pkgname="ruby-charlock_holmes"
 _gemname=charlock_holmes
-pkgver=0.7.6
+pkgver="0.7.6"
 pkgrel=3
 pkgdesc="Character encoding detection, brought to you by ICU"
 url="https://github.com/brianmario/charlock_holmes"

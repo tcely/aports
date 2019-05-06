@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=sent
-pkgver=1
+pkgname="sent"
+pkgver="1"
 pkgrel=2
 pkgdesc="Simple plaintext presentation tool"
 url="https://tools.suckless.org/sent/"

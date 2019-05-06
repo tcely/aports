@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=dnsenum
-pkgver=1.2.4.2
+pkgname="dnsenum"
+pkgver="1.2.4.2"
 pkgrel=0
 pkgdesc="A tool to enumerate DNS info about domains"
 url="https://github.com/fwaeytens/dnsenum"

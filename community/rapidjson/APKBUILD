@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # Note: This package contains only header files.
-pkgname=rapidjson
-pkgver=1.1.0
+pkgname="rapidjson"
+pkgver="1.1.0"
 pkgrel=3
 pkgdesc="A fast JSON parser/generator for C++ with both SAX/DOM style API"
 url="http://rapidjson.org/"

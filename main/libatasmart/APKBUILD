@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libatasmart
-pkgver=0.19
+pkgname="libatasmart"
+pkgver="0.19"
 pkgrel=1
 pkgdesc="ATA S.M.A.R.T. Reading and Parsing Library"
 url="http://0pointer.de/blog/projects/being-smart.html"

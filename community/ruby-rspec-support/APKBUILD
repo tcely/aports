@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-rspec-support
+pkgname="ruby-rspec-support"
 _gemname=${pkgname#ruby-}
-pkgver=3.8.0
+pkgver="3.8.0"
 pkgrel=0
 pkgdesc="Support utilities for RSpec gems"
 url="https://relishapp.com/rspec/rspec-support/"

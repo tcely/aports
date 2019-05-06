@@ -1,6 +1,6 @@
 # Contributor: TBK <tbk@jjtc.eu>
-pkgname=py3-unoconv
-pkgver=0.7
+pkgname="py3-unoconv"
+pkgver="0.7"
 pkgrel=1
 pkgdesc="Tool to convert between any document format supported by LibreOffice"
 url="http://dag.wieers.com/home-made/unoconv/"

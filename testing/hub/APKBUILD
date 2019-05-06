@@ -2,8 +2,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Eivind Uggedal <eivind@uggedal.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=hub
-pkgver=2.11.2
+pkgname="hub"
+pkgver="2.11.2"
 pkgrel=0
 pkgdesc="Extends git with extra features for GitHub"
 url="https://hub.github.com/"

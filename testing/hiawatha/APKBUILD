@@ -1,8 +1,8 @@
 # Maintainer: Kurt Marasco <celilo@lavabit.com>
 # Contributor: Pascal Ernster <aur at hardfalcon dot net>
 # Contributor: Stuart Cardall <developer at it-offshore dot co.uk>
-pkgname=hiawatha
-pkgver=10.9
+pkgname="hiawatha"
+pkgver="10.9"
 pkgrel=1
 pkgdesc='Secure and advanced webserver'
 url='https://www.hiawatha-webserver.org/'

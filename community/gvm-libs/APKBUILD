@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=gvm-libs
-pkgver=10.0.0
+pkgname="gvm-libs"
+pkgver="10.0.0"
 pkgrel=0
 pkgdesc="Greenbone Vulnerability Management Libraries"
 url="http://www.openvas.org/"

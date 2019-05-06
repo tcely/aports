@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=dynagen
-pkgver=0.11.0
+pkgname="dynagen"
+pkgver="0.11.0"
 pkgrel=0
 pkgdesc="Dynagen is a front-end for use with the Dynamips Cisco router emulator"
 url="http://www.dynagen.org/"

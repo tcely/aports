@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=sblim-sfcc
-pkgver=2.2.8
+pkgname="sblim-sfcc"
+pkgver="2.2.8"
 pkgrel=0
 pkgdesc="Small Footprint CIM Client Library"
 url="http://sourceforge.net/projects/sblim"

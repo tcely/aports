@@ -1,8 +1,8 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=py-gnome
+pkgname="py-gnome"
 _realname=gnome-python
-pkgver=2.28.1
+pkgver="2.28.1"
 _basever=2.28
 pkgrel=6
 pkgdesc="Python interface to GNOME libraries"

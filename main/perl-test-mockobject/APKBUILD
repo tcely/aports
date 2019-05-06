@@ -1,8 +1,8 @@
 # Contributor:  Jeff Bilyk <jbilyk@gmail.com>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-test-mockobject
+pkgname="perl-test-mockobject"
 _realname=Test-MockObject
-pkgver=1.20180705
+pkgver="1.20180705"
 pkgrel=0
 pkgdesc="Perl Mock part of an object or class"
 url="http://search.cpan.org/dist/Test-MockObject/"

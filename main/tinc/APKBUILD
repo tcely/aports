@@ -1,7 +1,7 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=tinc
-pkgver=1.0.35
+pkgname="tinc"
+pkgver="1.0.35"
 pkgrel=1
 pkgdesc="Virtual Private Network (VPN) daemon"
 url="https://www.tinc-vpn.org"

@@ -1,8 +1,8 @@
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 # Contributor: Pedro Filipe <xpecex@outlook.com>
-pkgname=zram-init
-pkgver=8.0
+pkgname="zram-init"
+pkgver="8.0"
 pkgrel=1
 pkgdesc="wrapper script for the zram kernel module"
 arch="noarch"

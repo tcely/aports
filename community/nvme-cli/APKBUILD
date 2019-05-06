@@ -1,7 +1,7 @@
 # Contributor: Florian Heigl <florian.heigl@gmail.com>
 # Maintainer: Florian Heigl <florian.heigl@gmail.com>
-pkgname=nvme-cli
-pkgver=1.4
+pkgname="nvme-cli"
+pkgver="1.4"
 pkgrel=0
 pkgdesc="NVM-Express user space tooling for Linux"
 arch="all"

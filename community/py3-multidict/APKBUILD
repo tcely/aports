@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py3-multidict
+pkgname="py3-multidict"
 _pkgname=multidict
-pkgver=4.5.2
+pkgver="4.5.2"
 pkgrel=1
 pkgdesc="A multidict implementation"
 url="https://github.com/aio-libs/multidict/"

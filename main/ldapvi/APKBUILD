@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=ldapvi
-pkgver=1.7
+pkgname="ldapvi"
+pkgver="1.7"
 pkgrel=11
 pkgdesc="ldapvi is an interactive LDAP client for Unix terminals"
 url="http://www.lichteblau.com/ldapvi/"

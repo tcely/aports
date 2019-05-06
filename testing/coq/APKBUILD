@@ -1,7 +1,7 @@
 # Contributor: alpine-mips-patches <info@mobile-stream.com>
 # Maintainer: alpine-mips-patches <info@mobile-stream.com>
-pkgname=coq
-pkgver=8.8.2
+pkgname="coq"
+pkgver="8.8.2"
 pkgrel=0
 pkgdesc="A formal proof management system"
 url="https://coq.inria.fr"

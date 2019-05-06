@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-clearquest
+pkgname="py-sphinxcontrib-clearquest"
 _pkgname=sphinxcontrib-clearquest
-pkgver=0.6
+pkgver="0.6"
 pkgrel=0
 pkgdesc="Sphinx clearquest extension"
 url="https://pypi.python.org/pypi/sphinxcontrib-clearquest"

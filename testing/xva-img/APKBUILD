@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=xva-img
-pkgver=1.4
+pkgname="xva-img"
+pkgver="1.4"
 pkgrel=3
 pkgdesc="tool for converting XVA images"
 url="https://github.com/eriklax/xva-img"

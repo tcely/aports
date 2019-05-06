@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx-theme-better
+pkgname="py-sphinx-theme-better"
 _pkgname=sphinx-better-theme
-pkgver=0.1.5
+pkgver="0.1.5"
 pkgrel=0
 pkgdesc="The Better Sphinx theme"
 url="http://github.com/irskep/sphinx-better-theme"

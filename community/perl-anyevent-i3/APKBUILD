@@ -1,8 +1,8 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=perl-anyevent-i3
+pkgname="perl-anyevent-i3"
 _pkgname=AnyEvent-I3
-pkgver=0.17
+pkgver="0.17"
 pkgrel=0
 pkgdesc="Communicate with the i3 window manager."
 url="https://metacpan.org/release/AnyEvent-I3"

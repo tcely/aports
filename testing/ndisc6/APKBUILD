@@ -1,7 +1,7 @@
 # Contributor: Tyler A <tylera@privatedemail.net>
 # Maintainer:
-pkgname=ndisc6
-pkgver=1.0.3
+pkgname="ndisc6"
+pkgver="1.0.3"
 pkgrel=0
 pkgdesc="ndisc6 gathers a few diagnostic tools for IPv6 networks including"
 url="https://www.remlab.net/ndisc6"

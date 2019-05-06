@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=gtkspell3
-pkgver=3.0.9
+pkgname="gtkspell3"
+pkgver="3.0.9"
 pkgrel=0
 pkgdesc="rovides word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget"
 url="http://gtkspell.sourceforge.net/"

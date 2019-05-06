@@ -1,7 +1,7 @@
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=py-axolotl
+pkgname="py-axolotl"
 _pkgname="python-${pkgname#py-}"
-pkgver=0.1.42
+pkgver="0.1.42"
 pkgrel=1
 pkgdesc="Python port of libsignal-protocol-java"
 url="https://github.com/tgalal/python-axolotl"

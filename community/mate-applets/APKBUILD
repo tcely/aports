@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=mate-applets
-pkgver=1.22.1
+pkgname="mate-applets"
+pkgver="1.22.1"
 pkgrel=0
 pkgdesc="Applets for use with the MATE panel"
 url="https://github.com/mate-desktop/mate-applets"

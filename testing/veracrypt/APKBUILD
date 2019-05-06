@@ -1,8 +1,8 @@
 # Contributor: Sascha Paunovic <azarus@posteo.net>
 # Maintainer: Sascha Paunovic <azarus@posteo.net>
-pkgname=veracrypt
+pkgname="veracrypt"
 _pkgname=VeraCrypt
-pkgver=1.22
+pkgver="1.22"
 pkgrel=3
 pkgdesc="disk encryption with strong security based on TrueCrypt"
 url="https://www.veracrypt.fr/"

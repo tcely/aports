@@ -1,7 +1,7 @@
 # Contributor: Michael Zuo <muh.muhten@gmail.com>
 # Maintainer: Anil Madhavapeddy <anil@recoil.org>
-pkgname=opam
-pkgver=2.0.3
+pkgname="opam"
+pkgver="2.0.3"
 pkgrel=0
 pkgdesc="OCaml Package Manager"
 url="https://opam.ocaml.org"

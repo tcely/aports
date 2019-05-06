@@ -1,6 +1,6 @@
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=hunspell-pt-br
-pkgver=20131017
+pkgname="hunspell-pt-br"
+pkgver="20131017"
 pkgrel=0
 pkgdesc="Portuguese (Brazil) hunspell dictionaries"
 url="http://pt-br.libreoffice.org/"

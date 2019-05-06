@@ -25,8 +25,8 @@
 #   2.4.3-r0:
 #     - CVE-2017-17405
 #
-pkgname=ruby
-pkgver=2.5.5
+pkgname="ruby"
+pkgver="2.5.5"
 _abiver="${pkgver%.*}.0"
 pkgrel=0
 pkgdesc="An object-oriented language for quick and easy programming"

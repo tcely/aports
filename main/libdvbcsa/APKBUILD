@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=libdvbcsa
-pkgver=1.1.0
+pkgname="libdvbcsa"
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="Free implementation of the DVB Common Scrambling Algorithm"
 url="http://www.videolan.org/developers/libdvbcsa.html"

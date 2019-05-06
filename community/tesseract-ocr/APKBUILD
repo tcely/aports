@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=tesseract-ocr
-pkgver=4.0.0
+pkgname="tesseract-ocr"
+pkgver="4.0.0"
 _tdver=4.0.0
 pkgrel=2
 pkgdesc="open source OCR engine"

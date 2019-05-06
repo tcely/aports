@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=yubico-c
-pkgver=1.13
+pkgname="yubico-c"
+pkgver="1.13"
 pkgrel=0
 pkgdesc="YubiKey C low-level library"
 url="https://developers.yubico.com/yubico-c/"

@@ -1,8 +1,8 @@
 # Contributor: Pedro Filipe <xpecex@outlook.com>
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=gcc-avr
-pkgver=8.3.0
+pkgname="gcc-avr"
+pkgver="8.3.0"
 pkgrel=0
 pkgdesc="The GNU Compiler Collection for AVR targets"
 url="https://gcc.gnu.org/"

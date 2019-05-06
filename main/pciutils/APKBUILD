@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=pciutils
-pkgver=3.6.2
+pkgname="pciutils"
+pkgver="3.6.2"
 pkgrel=0
 pkgdesc="PCI bus configuration space access library and tools"
 url="http://mj.ucw.cz/pciutils.html"

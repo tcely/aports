@@ -1,7 +1,7 @@
 # Contributor: Dennis Przytarski <dennis@przytarski.com>
 # Maintainer: ScrumpyJack <scrumypjack@st.ilet.to>
-pkgname=rng-tools
-pkgver=6.7
+pkgname="rng-tools"
+pkgver="6.7"
 pkgrel=0
 pkgdesc="A random number generator daemon"
 url="https://github.com/nhorman/rng-tools"

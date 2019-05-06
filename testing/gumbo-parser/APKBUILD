@@ -1,7 +1,7 @@
 # Contributor: Oleg Titov <oleg.titov@gmail.com>
 # Maintainer: Oleg Titov <oleg.titov@gmail.com>
-pkgname=gumbo-parser
-pkgver=0.10.1
+pkgname="gumbo-parser"
+pkgver="0.10.1"
 pkgrel=0
 pkgdesc="An HTML5 parsing library in pure C99"
 url="https://github.com/google/gumbo-parser"

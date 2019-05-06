@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xcb-util-keysyms
-pkgver=0.4.0
+pkgname="xcb-util-keysyms"
+pkgver="0.4.0"
 pkgrel=1
 pkgdesc="X C-language Binding - X constants and keycodes"
 url="https://xcb.freedesktop.org/"

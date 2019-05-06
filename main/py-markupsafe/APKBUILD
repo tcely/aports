@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-markupsafe
+pkgname="py-markupsafe"
 _pkgname=MarkupSafe
-pkgver=1.1.1
+pkgver="1.1.1"
 pkgrel=1
 pkgdesc="Implements a XML/HTML/XHTML Markup safe string"
 url="https://github.com/mitsuhiko/markupsafe"

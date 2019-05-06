@@ -1,8 +1,8 @@
 # Contributor: Tiago Ilieve <tiago.myhro@gmail.com>
 # Maintainer: Tiago Ilieve <tiago.myhro@gmail.com>
-pkgname=py-automat
+pkgname="py-automat"
 _pkgname=Automat
-pkgver=0.7.0
+pkgver="0.7.0"
 pkgrel=1
 pkgdesc="Self-service finite-state machines for the programmer on the go"
 url="https://automat.readthedocs.io/"

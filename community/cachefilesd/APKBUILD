@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=cachefilesd
-pkgver=0.10.10
+pkgname="cachefilesd"
+pkgver="0.10.10"
 pkgrel=0
 pkgdesc="Userspace daemon acting as a backend for FS-Cache"
 url="http://people.redhat.com/~dhowells/fscache/"

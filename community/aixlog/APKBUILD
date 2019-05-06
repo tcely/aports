@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Bart Ribbers <bribbers@disroot.org>
-pkgname=aixlog
-pkgver=1.2.1
+pkgname="aixlog"
+pkgver="1.2.1"
 pkgrel=0
 pkgdesc="Header-only C++ logging library"
 url="https://github.com/badaix/aixlog"

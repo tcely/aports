@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=lua-middleclass
-pkgver=4.0.0
+pkgname="lua-middleclass"
+pkgver="4.0.0"
 pkgrel=0
 _luaversions="5.1 5.2 5.3"
 pkgdesc="Object-orientation for Lua"

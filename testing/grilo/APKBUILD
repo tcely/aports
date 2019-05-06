@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=grilo
-pkgver=0.3.7
+pkgname="grilo"
+pkgver="0.3.7"
 pkgrel=0
 pkgdesc="GNOME media discovery framework"
 url="https://wiki.gnome.org/Projects/Grilo"

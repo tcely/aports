@@ -2,8 +2,8 @@
 # Contributor: Gabriele Santomaggio <g.santomaggio@gmail.com>
 # Contributor: Marlus Saraiva <marlus.saraiva@gmail.com>
 # Maintainer: 
-pkgname=erlang
-pkgver=21.2.6
+pkgname="erlang"
+pkgver="21.2.6"
 _srcver=$pkgver
 pkgrel=1
 pkgdesc="General-purpose programming language and runtime environment"

@@ -1,7 +1,7 @@
 # Contributor: Jeff Pohlmeyer <yetanothergeek@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gpm
-pkgver=1.20.7
+pkgname="gpm"
+pkgver="1.20.7"
 pkgrel=0
 pkgdesc="A mouse server for the console"
 url="http://www.nico.schottelius.org/software/gpm/"

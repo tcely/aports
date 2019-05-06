@@ -1,7 +1,7 @@
 # Contributor: Curt Tilmes <Curt.Tilmes@nasa.gov>
 # Maintainer: Curt Tilmes <Curt.Tilmes@nasa.gov>
-pkgname=rakudo
-pkgver=2019.03.1
+pkgname="rakudo"
+pkgver="2019.03.1"
 pkgrel=0
 pkgdesc="A compiler for the Perl 6 programming language"
 url="http://rakudo.org/"

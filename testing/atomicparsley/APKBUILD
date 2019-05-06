@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=atomicparsley
-pkgver=0.9.6
+pkgname="atomicparsley"
+pkgver="0.9.6"
 _gittag=da2f6e4fc120
 pkgrel=0
 pkgdesc="A command line program for reading, parsing and setting iTunes-style metadata in MPEG4 files"

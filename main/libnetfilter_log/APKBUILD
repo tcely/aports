@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=libnetfilter_log
-pkgver=1.0.1
+pkgname="libnetfilter_log"
+pkgver="1.0.1"
 pkgrel=2
 pkgdesc="interface to packets that have been logged by the kernel packet filter"
 url="http://www.netfilter.org/projects/libnetfilter_log/"

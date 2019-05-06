@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=mate-user-guide
-pkgver=1.22.0
+pkgname="mate-user-guide"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="Documents targeted for end-users of MATE"
 url="https://github.com/mate-desktop/mate-user-guide"

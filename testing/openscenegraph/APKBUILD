@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=openscenegraph
-pkgver=3.4.1
+pkgname="openscenegraph"
+pkgver="3.4.1"
 pkgrel=3
 pkgdesc="High performance 3D graphics toolkit"
 url="https://openscenegraph.org"

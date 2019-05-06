@@ -1,6 +1,6 @@
 # Contributor: Bart Ribbers <bribbers@disroot.org>
-pkgname=cldr-emoji-annotation
-pkgver=33.1.0_p0
+pkgname="cldr-emoji-annotation"
+pkgver="33.1.0_p0"
 _tag=${pkgver/_p/_}
 pkgrel=0
 pkgdesc="Emoji annotation files in CLDR"

@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libasr
-pkgver=1.0.2
+pkgname="libasr"
+pkgver="1.0.2"
 pkgrel=9
 pkgdesc="libasr is a free, simple and portable asynchronous resolver library"
 url="https://www.opensmtpd.org"

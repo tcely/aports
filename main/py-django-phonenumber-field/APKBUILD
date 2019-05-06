@@ -1,7 +1,7 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=py-django-phonenumber-field
-pkgver=2.0.0
+pkgname="py-django-phonenumber-field"
+pkgver="2.0.0"
 pkgrel=0
 pkgdesc="An international phone number field for django models"
 url=https://github.com/stefanfoulis/django-phonenumber-field

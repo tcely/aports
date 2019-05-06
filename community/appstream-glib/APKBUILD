@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=appstream-glib
-pkgver=0.6.3
+pkgname="appstream-glib"
+pkgver="0.6.3"
 pkgrel=0
 pkgdesc="Library for AppStream metadata"
 url="https://people.freedesktop.org/~hughsient/appstream-glib/"

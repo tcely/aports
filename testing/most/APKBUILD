@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer:
-pkgname=most
-pkgver=5.0.0a
+pkgname="most"
+pkgver="5.0.0a"
 pkgrel=1
 pkgdesc="A terminal pager similar to more and less"
 url="ftp://space.mit.edu/pub/davis/most"

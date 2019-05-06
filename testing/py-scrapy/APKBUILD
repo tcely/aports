@@ -1,9 +1,9 @@
 # Contributor: Orion <systmkor@gmail.com>
 # Maintainer: Orion <systmkor@gmail.com>
 # Used https://aur.archlinux.org/packages/sc/scrapy/PKGBUILD as template
-pkgname=py-scrapy
+pkgname="py-scrapy"
 _pkgname="Scrapy"
-pkgver=0.24.4
+pkgver="0.24.4"
 pkgrel=1
 pkgdesc="A fast high-level scraping and web crawling framework."
 url="http://scrapy.org/"

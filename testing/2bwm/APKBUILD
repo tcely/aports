@@ -1,7 +1,7 @@
 # Contributor: dai9ah <dai9ah@protonmail.com>
 # Maintainer: dai9ah <dai9ah@protonmail.com>
-pkgname=2bwm
-pkgver=0.2
+pkgname="2bwm"
+pkgver="0.2"
 pkgrel=0
 pkgdesc="Fast floating window manager"
 url="https://github.com/venam/2bwm"

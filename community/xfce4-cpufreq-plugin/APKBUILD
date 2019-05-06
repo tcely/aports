@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfce4-cpufreq-plugin
-pkgver=1.2.1
+pkgname="xfce4-cpufreq-plugin"
+pkgver="1.2.1"
 pkgrel=0
 pkgdesc="CPU frequency plugin for the Xfce4 panel"
 url="http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin"

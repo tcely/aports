@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=py-mopidy-beets
-pkgver=2.0.0
+pkgname="py-mopidy-beets"
+pkgver="2.0.0"
 pkgrel=0
 pkgdesc="Mopidy extension for playing music from a Beets collection"
 url="http://www.mopidy.com/"

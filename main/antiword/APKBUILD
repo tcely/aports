@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=antiword
-pkgver=0.37
+pkgname="antiword"
+pkgver="0.37"
 pkgrel=3
 pkgdesc="A free MS Word reader"
 url="http://www.winfield.demon.nl"

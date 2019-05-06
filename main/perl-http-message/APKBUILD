@@ -1,8 +1,8 @@
 # Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
 # Maintainer: Kiyoshi Aman <kiyoshi.aman@gmail.com>
-pkgname=perl-http-message
+pkgname="perl-http-message"
 _pkgreal=HTTP-Message
-pkgver=6.18
+pkgver="6.18"
 pkgrel=0
 pkgdesc="HTTP style messages"
 url="http://search.cpan.org/dist/HTTP-Message"

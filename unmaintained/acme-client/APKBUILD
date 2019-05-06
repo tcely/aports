@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=acme-client
-pkgver=0.1.16
+pkgname="acme-client"
+pkgver="0.1.16"
 _ver=${pkgver//./_}
 pkgrel=6
 pkgdesc="An ACME client for Let's Encrypt written in C"

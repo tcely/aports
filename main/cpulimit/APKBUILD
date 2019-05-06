@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=cpulimit
-pkgver=0.2
+pkgname="cpulimit"
+pkgver="0.2"
 pkgrel=0
 pkgdesc="CPU usage limiter for Linux"
 url="https://github.com/opsengine/cpulimit"

@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer:
-pkgname=libgnomekbd
-pkgver=3.26.1
+pkgname="libgnomekbd"
+pkgver="3.26.1"
 pkgrel=0
 pkgdesc="GNOME keyboard library"
 url="https://www.gnome.org/"

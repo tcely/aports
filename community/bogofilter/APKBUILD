@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: ScrumpyJack <scrumpyjack@st.ilet.to>
-pkgname=bogofilter
-pkgver=1.2.4
+pkgname="bogofilter"
+pkgver="1.2.4"
 pkgrel=0
 pkgdesc="A Bayesian mail filter that classifies mail by statistical analysis of the message's header and content."
 url="http://bogofilter.sourceforge.net/"

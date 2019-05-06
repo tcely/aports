@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=homer-ui
-pkgver=5.0.6
+pkgname="homer-ui"
+pkgver="5.0.6"
 pkgrel=4
 pkgdesc="HOMER User-Interface"
 url="https://github.com/sipcapture/homer-ui"

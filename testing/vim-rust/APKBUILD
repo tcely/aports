@@ -1,7 +1,7 @@
 # Contributor: Luka Vandervelden <lukc@upyum.com>
 # Maintainer: Luka Vandervelden <lukc@upyum.com>
-pkgname=vim-rust
-pkgver=305
+pkgname="vim-rust"
+pkgver="305"
 _commit=e651851c7455286f0ba42c46777e9677c68796ac
 pkgrel=0
 pkgdesc="Vim configuration for Rust."

@@ -1,7 +1,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=py-inotify
+pkgname="py-inotify"
 _pkgname=pyinotify
-pkgver=0.9.6
+pkgver="0.9.6"
 pkgrel=2
 pkgdesc="Linux filesystem events monitoring"
 url="http://pypi.python.org/pypi/pyinotify"

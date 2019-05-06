@@ -1,7 +1,7 @@
 # Contributor: Michael Pirogov <vbnet.ru@gmail.com>
 # Maintainer: Michael Pirogov <vbnet.ru@gmail.com>
-pkgname=unclutter-xfixes
-pkgver=1.2
+pkgname="unclutter-xfixes"
+pkgver="1.2"
 pkgrel=0
 url="https://github.com/Airblader/${pkgname}"
 arch="all"

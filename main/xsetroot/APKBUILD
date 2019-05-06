@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xsetroot
-pkgver=1.1.2
+pkgname="xsetroot"
+pkgver="1.1.2"
 pkgrel=0
 pkgdesc="X.Org xsetroot application"
 url="http://xorg.freedesktop.org"

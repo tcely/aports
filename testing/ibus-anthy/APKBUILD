@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=ibus-anthy
-pkgver=1.5.10
+pkgname="ibus-anthy"
+pkgver="1.5.10"
 pkgrel=0
 pkgdesc="Japanese input method Anthy IMEngine for IBus Framework"
 url="http://ibus.googlecode.com/"

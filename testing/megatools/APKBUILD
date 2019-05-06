@@ -1,7 +1,7 @@
 # Contributor: H <agathos5@gmail.com>
 # Maintainer:
-pkgname=megatools
-pkgver=1.10.2
+pkgname="megatools"
+pkgver="1.10.2"
 pkgrel=0
 pkgdesc="Megatools is a collection of programs for accessing Mega.nz service from a command line of your desktop or server."
 url="https://megatools.megous.com"

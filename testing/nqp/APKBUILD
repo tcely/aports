@@ -1,7 +1,7 @@
 # Contributor: Curt Tilmes <Curt.Tilmes@nasa.gov>
 # Maintainer: Curt Tilmes <Curt.Tilmes@nasa.gov>
-pkgname=nqp
-pkgver=2019.03
+pkgname="nqp"
+pkgver="2019.03"
 pkgrel=0
 pkgdesc="Not Quite Perl"
 url="https://github.com/perl6/nqp"

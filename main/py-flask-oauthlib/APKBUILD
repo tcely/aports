@@ -1,7 +1,7 @@
 # Maintainer:
-pkgname=py-flask-oauthlib
+pkgname="py-flask-oauthlib"
 _pkgname=Flask-OAuthlib
-pkgver=0.9.5
+pkgver="0.9.5"
 pkgrel=1
 pkgdesc="Flask OAuth extension using OAuthlib"
 url="https://github.com/lepture/flask-oauthlib"

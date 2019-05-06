@@ -1,7 +1,7 @@
 # Con#tributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=patchwork
-pkgver=2.0.1
+pkgname="patchwork"
+pkgver="2.0.1"
 pkgrel=0
 pkgdesc="Web-based patch tracking system"
 url="https://github.com/getpatchwork/patchwork"

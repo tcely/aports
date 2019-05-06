@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-markup
+pkgname="ocaml-markup"
 _pkgname=markup.ml
-pkgver=0.7.6
+pkgver="0.7.6"
 pkgrel=4
 pkgdesc="Error-recovering streaming HTML5 and XML parsers for OCaml"
 url="https://aantron.github.io/markup.ml"

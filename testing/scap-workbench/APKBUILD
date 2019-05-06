@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=scap-workbench
-pkgver=1.2.0
+pkgname="scap-workbench"
+pkgver="1.2.0"
 pkgrel=2
 pkgdesc="SCAP Scanner And Tailoring Graphical User Interface"
 url="https://www.open-scap.org/tools/scap-workbench/"

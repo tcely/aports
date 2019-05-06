@@ -3,8 +3,8 @@
 #
 # Note: git-secret is very badly designed, I'll replace this abuild once
 #   I find or write something better.
-pkgname=git-secret
-pkgver=0.2.5
+pkgname="git-secret"
+pkgver="0.2.5"
 pkgrel=0
 pkgdesc="A bash-tool to store your private data inside a git repository"
 url="http://git-secret.io/"

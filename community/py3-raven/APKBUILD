@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py3-raven
+pkgname="py3-raven"
 _pkgname=raven
-pkgver=6.10.0
+pkgver="6.10.0"
 pkgrel=1
 pkgdesc="Python client for Sentry"
 url="https://github.com/getsentry/raven-python"

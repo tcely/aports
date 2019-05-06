@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=fasd
-pkgver=1.0.1
+pkgname="fasd"
+pkgver="1.0.1"
 pkgrel=0
 pkgdesc="Command-line productivity booster, offers quick access to files and directories"
 url="https://github.com/clvv/fasd"

@@ -1,7 +1,7 @@
 # Contributor: Andrew Hills <ahills@ednos.net>
 # Maintainer: Andrew Hills <ahills@ednos.net>
-pkgname=fortune
-pkgver=0.1
+pkgname="fortune"
+pkgver="0.1"
 pkgrel=0
 pkgdesc="Fortune cookie program ported from OpenBSD"
 url="https://github.com/ahills/fortune"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=binutils
-pkgver=2.31.1
+pkgname="binutils"
+pkgver="2.31.1"
 pkgrel=2
 pkgdesc="Tools necessary to build programs"
 url="https://www.gnu.org/software/binutils/"

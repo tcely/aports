@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libxxf86vm
-pkgver=1.1.4
+pkgname="libxxf86vm"
+pkgver="1.1.4"
 pkgrel=2
 pkgdesc="X11 XFree86 video mode extension library"
 url="http://xorg.freedesktop.org/"

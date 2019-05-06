@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=tvheadend
-pkgver=4.2.7
+pkgname="tvheadend"
+pkgver="4.2.7"
 pkgrel=2
 pkgdesc="TV Streaming server for linux"
 url="http://tvheadend.org/"

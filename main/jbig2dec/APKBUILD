@@ -1,7 +1,7 @@
 # Contributor: Michael Zhou <zhoumichaely@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=jbig2dec
-pkgver=0.16
+pkgname="jbig2dec"
+pkgver="0.16"
 _gsver="gs927"
 pkgrel=0
 pkgdesc="JBIG2 image compression format decoder"

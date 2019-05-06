@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-nikola
+pkgname="py-nikola"
 _pkgname=Nikola
-pkgver=7.7.4
+pkgver="7.7.4"
 pkgrel=0
 pkgdesc="A modular, fast, simple, static python website generator"
 url="http://getnikola.com/"

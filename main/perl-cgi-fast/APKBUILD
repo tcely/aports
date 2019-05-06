@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=perl-cgi-fast
+pkgname="perl-cgi-fast"
 _pkgreal=CGI-Fast
-pkgver=2.13
+pkgver="2.13"
 pkgrel=0
 pkgdesc="CGI Interface for Fast CGI"
 url="http://search.cpan.org/dist/CGI-Fast"

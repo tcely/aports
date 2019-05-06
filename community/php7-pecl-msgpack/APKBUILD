@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-msgpack
+pkgname="php7-pecl-msgpack"
 _pkgreal=msgpack
-pkgver=2.0.3
+pkgver="2.0.3"
 pkgrel=1
 pkgdesc="PHP extension provides API for communicating with MessagePack serialization - PECL"
 url="https://pecl.php.net/package/msgpack"

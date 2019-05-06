@@ -1,8 +1,8 @@
 # Contributor: Eric Molitor <eric@molitor.org>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lld
-pkgver=7.0.1
+pkgname="lld"
+pkgver="7.0.1"
 pkgrel=0
 _llvmver=${pkgver%%.*}
 pkgdesc="The LLVM Linker"

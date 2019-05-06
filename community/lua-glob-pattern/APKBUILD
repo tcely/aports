@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-glob-pattern
-pkgver=0.2.1.20120406
+pkgname="lua-glob-pattern"
+pkgver="0.2.1.20120406"
 _gitrev=fc48cf953cfef57e7f2363f02e7b191819b477f6
 pkgrel=1
 pkgdesc="Converts file glob string to Lua pattern string"

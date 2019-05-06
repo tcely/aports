@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gst-ffmpeg0.10
-pkgver=0.10.13
+pkgname="gst-ffmpeg0.10"
+pkgver="0.10.13"
 pkgrel=2
 pkgdesc="Gstreamer FFMpeg Plugin"
 url="http://www.gstreamer.net"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-xml-simple
-pkgver=2.25
+pkgname="perl-xml-simple"
+pkgver="2.25"
 pkgrel=0
 pkgdesc="Simple XML parser for Perl"
 url="http://search.cpan.org/dist/XML-Simple"

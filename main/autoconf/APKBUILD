@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=autoconf
-pkgver=2.69
+pkgname="autoconf"
+pkgver="2.69"
 pkgrel=2
 pkgdesc="A GNU tool for automatically configuring source code"
 arch="noarch"

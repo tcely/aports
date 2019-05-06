@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=py3-configshell
+pkgname="py3-configshell"
 _pkgname=configshell
-pkgver=1.1_p25
+pkgver="1.1_p25"
 _ver=${pkgver/_rc/rc}
 _ver=${_ver/_p/.fb}
 pkgrel=1

@@ -1,6 +1,6 @@
 # Maintainer: Daniel Sabogal <dsabogalcc@gmail.com>
-pkgname=sfml
-pkgver=2.4.2
+pkgname="sfml"
+pkgver="2.4.2"
 pkgrel=0
 pkgdesc="Simple and Fast Multimedia Library"
 url="https://www.sfml-dev.org/"

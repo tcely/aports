@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@me.com>
 # Maintainer: ScrumpyJack <scrumpyjack@me.com>
-pkgname=xclock
-pkgver=1.0.8
+pkgname="xclock"
+pkgver="1.0.8"
 pkgrel=0
 pkgdesc="Clock for the X Window System"
 url="https://www.x.org/"

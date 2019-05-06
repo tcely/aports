@@ -1,7 +1,7 @@
 # Contributor: Jean-Louis Fuchs <ganwell@fangorn.ch>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=vice
-pkgver=3.3
+pkgname="vice"
+pkgver="3.3"
 pkgrel=1
 pkgdesc="emulates the C64/DTV, C128, VIC20, almost all PETs, PLUS4 and CBM-II"
 url="http://vice-emu.sourceforge.net/"

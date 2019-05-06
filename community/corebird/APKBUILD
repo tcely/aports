@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=corebird
-pkgver=1.7.4
+pkgname="corebird"
+pkgver="1.7.4"
 pkgrel=0
 pkgdesc="Corebird is a modern, easy and fun Twitter client"
 url="https://corebird.baedert.org/"

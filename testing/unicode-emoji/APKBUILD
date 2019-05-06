@@ -1,6 +1,6 @@
 # Contributor: Bart Ribbers <bribbers@disroot.org>
-pkgname=unicode-emoji
-pkgver=11.0
+pkgname="unicode-emoji"
+pkgver="11.0"
 pkgrel=0
 pkgdesc="Unicode Emoji Data Files"
 arch="noarch"

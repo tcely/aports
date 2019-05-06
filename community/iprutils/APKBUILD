@@ -1,6 +1,6 @@
 # Maintainer: Breno Leitao <breno.leitao@gmail.com>
-pkgname=iprutils
-pkgver=2.4.16
+pkgname="iprutils"
+pkgver="2.4.16"
 pkgrel=0
 pkgdesc="user space tools required by the ipr device driver."
 url="https://github.com/bjking1/iprutils"

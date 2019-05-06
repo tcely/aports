@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=firejail
-pkgver=0.9.58.2
+pkgname="firejail"
+pkgver="0.9.58.2"
 _extraver=
 pkgrel=0
 pkgdesc="Linux namespaces and seccomp-bpf sandbox"

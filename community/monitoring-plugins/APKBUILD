@@ -1,6 +1,6 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=monitoring-plugins
+pkgname="monitoring-plugins"
 pkgver="2.2"
 pkgrel=10
 pkgdesc="Plugins for Icinga, Naemon, Nagios, Shinken, Sensu and other monitoring applications"

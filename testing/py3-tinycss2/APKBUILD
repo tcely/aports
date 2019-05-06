@@ -1,8 +1,8 @@
 # Contributor: Drew DeVault <sir@cmpwn.com>
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=py3-tinycss2
+pkgname="py3-tinycss2"
 _pyname=tinycss2
-pkgver=1.0.2
+pkgver="1.0.2"
 pkgrel=1
 pkgdesc="Low-level CSS parser for Python"
 url="https://pypi.python.org/pypi/tinycss2"

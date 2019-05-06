@@ -1,8 +1,8 @@
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 # Maintainer:
 
-pkgname=lxappearance-obconf
-pkgver=0.2.0
+pkgname="lxappearance-obconf"
+pkgver="0.2.0"
 pkgrel=2
 pkgdesc='Plugin for LXAppearance to configure Openbox'
 arch='all'

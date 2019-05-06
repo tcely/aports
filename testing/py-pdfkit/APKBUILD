@@ -1,8 +1,8 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
 # Maintainer:
-pkgname=py-pdfkit
+pkgname="py-pdfkit"
 _pkgname=pdfkit
-pkgver=0.5.0
+pkgver="0.5.0"
 pkgrel=1
 pkgdesc="Python wrapper to convert HTML to PDF using the WebKit rendering engine"
 url="https://github.com/JazzCore/python-pdfkit"

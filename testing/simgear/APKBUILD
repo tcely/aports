@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=simgear
-pkgver=2018.3.2
+pkgname="simgear"
+pkgver="2018.3.2"
 pkgrel=0
 pkgdesc="Sim library for FlightGear"
 url="https://github.com/FlightGear/simgear"

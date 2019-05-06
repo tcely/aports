@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-blockdiag
+pkgname="py-blockdiag"
 _pkgname=blockdiag
-pkgver=1.5.3
+pkgver="1.5.3"
 pkgrel=3
 pkgdesc="A python tool to generate block-diagram"
 url="http://blockdiag.com"

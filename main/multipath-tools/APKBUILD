@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=multipath-tools
-pkgver=0.8.1
+pkgname="multipath-tools"
+pkgver="0.8.1"
 pkgrel=0
 pkgdesc="Device Mapper Multipathing Driver"
 url="http://christophe.varoqui.free.fr"

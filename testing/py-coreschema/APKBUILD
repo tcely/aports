@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=py-coreschema
+pkgname="py-coreschema"
 _pkgname=${pkgname/py/python}
-pkgver=0.0.4
+pkgver="0.0.4"
 pkgrel=1
 pkgdesc="No description or topics provided"
 url="https://github.com/core-api/python-coreschema"

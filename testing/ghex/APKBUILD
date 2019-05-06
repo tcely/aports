@@ -1,7 +1,7 @@
 # Contributor: August Klein <amatcoder@gmail.com>
 # Maintainer: August Klein <amatcoder@gmail.com>
-pkgname=ghex
-pkgver=3.18.3
+pkgname="ghex"
+pkgver="3.18.3"
 _pkgver=${pkgver%.*}
 pkgrel=1
 pkgdesc="A hex editor for GNOME"

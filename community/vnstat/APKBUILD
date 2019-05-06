@@ -1,7 +1,7 @@
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=vnstat
-pkgver=1.18
+pkgname="vnstat"
+pkgver="1.18"
 pkgrel=0
 pkgdesc="Console-based network traffic monitor"
 url="http://humdi.net/vnstat"

@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=eom
-pkgver=1.22.0
+pkgname="eom"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="A simple graphics viewer for the MATE"
 url="https://github.com/mate-desktop/eom"

@@ -1,7 +1,7 @@
 # Contributor: Justin Menga <justin.menga@gmail.com>
 # Maintainer: Justin Menga <justin.menga@gmail.com>
-pkgname=lbzip2
-pkgver=2.5
+pkgname="lbzip2"
+pkgver="2.5"
 pkgrel=1
 pkgdesc="A parallel bzip2 compression utility"
 url="http://lbzip2.org"

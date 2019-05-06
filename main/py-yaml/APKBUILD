@@ -1,9 +1,9 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-yaml
+pkgname="py-yaml"
 _pkgname=PyYAML
-pkgver=5.1
+pkgver="5.1"
 pkgrel=0
 pkgdesc="Python bindings for YAML"
 url="http://pyyaml.org"

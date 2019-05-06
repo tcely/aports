@@ -1,7 +1,7 @@
 # Contributor: Kiyoshi Aman <kiyoshi.aman@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ack
-pkgver=2.28
+pkgname="ack"
+pkgver="2.28"
 pkgrel=0
 pkgdesc="A Perl-powered replacement for grep"
 url="https://beyondgrep.com/"

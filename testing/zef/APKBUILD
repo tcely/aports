@@ -1,7 +1,7 @@
 # Contributor: Curt Tilmes <Curt.Tilmes@nasa.gov>
 # Maintainer: Curt Tilmes <Curt.Tilmes@nasa.gov>
-pkgname=zef
-pkgver=0.6.6
+pkgname="zef"
+pkgver="0.6.6"
 pkgrel=0
 pkgdesc="Perl6 Module Management"
 url="https://github.com/ugexe/zef"

@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=nettle
-pkgver=3.4.1
+pkgname="nettle"
+pkgver="3.4.1"
 pkgrel=1
 pkgdesc="A low-level cryptographic library"
 url="http://www.lysator.liu.se/~nisse/nettle/"

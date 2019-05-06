@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xf86-video-s3virge
-pkgver=1.11.0
+pkgname="xf86-video-s3virge"
+pkgver="1.11.0"
 pkgrel=0
 pkgdesc="S3 ViRGE video driver"
 url="https://xorg.freedesktop.org/"

@@ -1,7 +1,7 @@
 # Contributor: Oz Tiram <oz.tiram@gmail.com>
 # Maintainer: Oz Tiram <oz.tiram@gmail.com>
-pkgname=libmodbus
-pkgver=3.1.4
+pkgname="libmodbus"
+pkgver="3.1.4"
 pkgrel=0
 pkgdesc="Modbus library which supports RTU communication over a serial line or a TCP link"
 url="http://libmodbus.org/"

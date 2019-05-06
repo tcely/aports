@@ -1,7 +1,7 @@
 # Contributor: Jeff Bilyk <jbilyk@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=rtpproxy
-pkgver=2.0.0
+pkgname="rtpproxy"
+pkgver="2.0.0"
 pkgrel=4
 pkgdesc="RTP proxy"
 url="http://www.rtpproxy.org"

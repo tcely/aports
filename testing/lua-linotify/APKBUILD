@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=lua-linotify
-pkgver=0.4
+pkgname="lua-linotify"
+pkgver="0.4"
 pkgrel=0
 pkgdesc="Inotify bindings for Lua"
 url="https://github.com/hoelzro/linotify"

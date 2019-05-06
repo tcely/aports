@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx_rtd_theme
+pkgname="py-sphinx_rtd_theme"
 _pkgname=sphinx_rtd_theme
-pkgver=0.4.3
+pkgver="0.4.3"
 pkgrel=1
 pkgdesc="Sphinx theme for readthedocs.org"
 url="https://github.com/snide/sphinx_rtd_theme"

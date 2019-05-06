@@ -1,7 +1,7 @@
 # Contributor: Matt Smith <mcs@darkregion.net>
 # Maintainer: Matt Smith <mcs@darkregion.net>
-pkgname=speedometer
-pkgver=2.8
+pkgname="speedometer"
+pkgver="2.8"
 pkgrel=0
 pkgdesc="Measure and display the rate of data across a network connection or data being stored in a file"
 url="http://excess.org/speedometer/"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-repoze-lru
+pkgname="py-repoze-lru"
 _pkgname=repoze.lru
-pkgver=0.6
+pkgver="0.6"
 pkgrel=0
 pkgdesc="A tiny Python LRU cache implementation and decorator"
 url="https://pypi.python.org/pypi/repoze.lru"

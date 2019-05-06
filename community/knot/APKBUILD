@@ -3,8 +3,8 @@
 # Contributor: Francesco Zanini <francesco@zanini.me>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: tcely <knot+aports@tcely.33mail.com>
-pkgname=knot
-pkgver=2.8.1
+pkgname="knot"
+pkgver="2.8.1"
 pkgrel=0
 pkgdesc="An high-performance authoritative-only DNS server"
 url="https://www.knot-dns.cz"

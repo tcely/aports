@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: 
 # Maintainer: 
-pkgname=xonotic-data
-pkgver=0.8.2
+pkgname="xonotic-data"
+pkgver="0.8.2"
 pkgrel=0
 pkgdesc="Data files for Xonotic"
 url="https://www.xonotic.org/"

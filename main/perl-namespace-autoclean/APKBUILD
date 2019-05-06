@@ -1,9 +1,9 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-namespace-autoclean
+pkgname="perl-namespace-autoclean"
 _pkgreal=${pkgname#*-}
-pkgver=0.28
+pkgver="0.28"
 pkgrel=0
 pkgdesc="Keep imports out of your namespace"
 url="http://search.cpan.org/dist/namespace-autoclean/"

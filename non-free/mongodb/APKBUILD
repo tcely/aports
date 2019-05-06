@@ -1,7 +1,7 @@
 # Maintainer: Marc Vertes <mvertes@free.fr>
 # Contributor: Filipp Andronov <filipp.andronov@gmail.com>
-pkgname=mongodb
-pkgver=4.0.6
+pkgname="mongodb"
+pkgver="4.0.6"
 pkgrel=1
 pkgdesc="A high-performance, open source, schema-free document-oriented database"
 url="http://www.mongodb.org"

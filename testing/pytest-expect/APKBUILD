@@ -1,7 +1,7 @@
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=pytest-expect
-pkgver=1.1.0
+pkgname="pytest-expect"
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="py.test plugin that stores test expectations."
 url="https://github.com/gsnedders/pytest-expect"

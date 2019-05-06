@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ckbcomp
-pkgver=1.191
+pkgname="ckbcomp"
+pkgver="1.191"
 pkgrel=0
 pkgdesc="Compile a XKB keyboard description to a keymap"
 url="http://anonscm.debian.org/cgit/d-i/console-setup.git"

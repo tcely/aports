@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=mate-menus
-pkgver=1.22.0
+pkgname="mate-menus"
+pkgver="1.22.0"
 pkgrel=0
 pkgdesc="The libmate-menu library, the layout configuration files for the MATE menu, as well as a simple menu editor"
 url="https://github.com/mate-desktop/mate-menus"

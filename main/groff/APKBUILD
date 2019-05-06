@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=groff
-pkgver=1.22.3
+pkgname="groff"
+pkgver="1.22.3"
 pkgrel=2
 pkgdesc="GNU troff text-formatting system"
 url="https://www.gnu.org/software/groff/groff.html"

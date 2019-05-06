@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-stats
+pkgname="php7-pecl-stats"
 _pkgreal=stats
-pkgver=2.0.3
+pkgver="2.0.3"
 pkgrel=7
 pkgdesc="Extension that provides few dozens routines for statistical computation."
 url="https://pecl.php.net/package/$_pkgreal"

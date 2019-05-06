@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Contributor: August Klein <amatcoder@gmail.com>
 # Maintainer: August Klein <amatcoder@gmail.com>
-pkgname=keepassx
-pkgver=2.0.3
+pkgname="keepassx"
+pkgver="2.0.3"
 pkgrel=0
 pkgdesc="A password manager"
 url="http://www.keepassx.org"

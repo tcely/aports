@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-cpuinfo
+pkgname="py-cpuinfo"
 _pkgname=cpuinfo
-pkgver=5.0.0
+pkgver="5.0.0"
 pkgrel=1
 pkgdesc="A module for getting CPU info"
 url="https://github.com/workhorsy/py-cpuinfo"

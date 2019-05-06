@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=rssh
-pkgver=2.3.4
+pkgname="rssh"
+pkgver="2.3.4"
 pkgrel=0
 pkgdesc="Restricted shell for use with OpenSSH, allowing only scp, sftp, and/or rsync"
 url="http://www.pizzashack.org/rssh/"

@@ -1,7 +1,7 @@
 # Contributor: Olliver Schinagl <oliver@schinagl.nl>
 # Maintainer: Olliver Schinagl <oliver@schinagl.nl>
-pkgname=memtester
-pkgver=4.3.0
+pkgname="memtester"
+pkgver="4.3.0"
 pkgrel=0
 pkgdesc="A userspace utility for testing the memory subsystem for faults."
 url="http://pyropus.ca/software/memtester/"

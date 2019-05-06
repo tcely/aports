@@ -1,7 +1,7 @@
 # Maintainer: Paweł Tomak <pawel@tomak.eu>
-pkgname=pike
+pkgname="pike"
 _pkgname=Pike
-pkgver=8.0.610
+pkgver="8.0.610"
 pkgrel=1
 pkgdesc="Pike Programing language"
 url="https://pike.lysator.liu.se"

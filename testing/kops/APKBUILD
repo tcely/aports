@@ -1,6 +1,6 @@
 # Contributor: Kaarle Ritvanen <kaarle.ritvanen@datakunkku.fi>
-pkgname=kops
-pkgver=1.8.0
+pkgname="kops"
+pkgver="1.8.0"
 pkgrel=0
 pkgdesc="Kubernetes Operations"
 url="https://github.com/kubernetes/kops"

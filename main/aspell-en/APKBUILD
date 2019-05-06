@@ -1,7 +1,7 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=aspell-en
-pkgver=2018.04.16
+pkgname="aspell-en"
+pkgver="2018.04.16"
 pkgrel=0
 _lang=${pkgname##*-}
 _name=${pkgname%%-*}6-$_lang-$pkgver-0

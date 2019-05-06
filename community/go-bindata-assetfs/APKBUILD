@@ -1,7 +1,7 @@
 # Contributor: Matthias Neugebauer <mtneug@mailbox.org>
 # Maintainer: Matthias Neugebauer <mtneug@mailbox.org>
-pkgname=go-bindata-assetfs
-pkgver=1.0.0
+pkgname="go-bindata-assetfs"
+pkgver="1.0.0"
 pkgrel=0
 pkgdesc="A small utility which generates Go code to serve any file with net/http"
 url="https://github.com/elazarl/go-bindata-assetfs"

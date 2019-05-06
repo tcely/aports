@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=v8
-pkgver=3.30.33.16
+pkgname="v8"
+pkgver="3.30.33.16"
 pkgrel=0
 pkgdesc="V8 JavaScript/ECMAScript Engine"
 url="http://www.chromium.org/"

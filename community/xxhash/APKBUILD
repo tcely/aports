@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=xxhash
+pkgname="xxhash"
 _pkgname=xxHash
-pkgver=0.6.5
+pkgver="0.6.5"
 _pypkg=python-xxhash
 _pyver=0.6.1
 pkgrel=2

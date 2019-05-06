@@ -1,7 +1,7 @@
 # Contributor: Milan P. Stanić <mps@arvanta.net>
 # Maintainer: Milan P. Stanić <mps@arvanta.net>
-pkgname=iwd
-pkgver=0.17
+pkgname="iwd"
+pkgver="0.17"
 pkgrel=1
 pkgdesc="Internet Wireless Daemon"
 url="https://iwd.wiki.kernel.org/"

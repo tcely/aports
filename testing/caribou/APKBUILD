@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=caribou
-pkgver=0.4.21
+pkgname="caribou"
+pkgver="0.4.21"
 pkgrel=2
 pkgdesc="on screen keyboard implementation"
 url="https://wiki.gnome.org/Projects/Caribou"

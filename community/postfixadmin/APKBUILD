@@ -2,8 +2,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _php=php7
-pkgname=postfixadmin
-pkgver=3.1
+pkgname="postfixadmin"
+pkgver="3.1"
 pkgrel=0
 pkgdesc="Web Based Management tool for Postfix"
 url="http://postfixadmin.com/"

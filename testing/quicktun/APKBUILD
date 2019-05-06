@@ -1,7 +1,7 @@
 # Contributor: Johannes Matheis <jomat+alpinebuild@jmt.gr>
 # Maintainer: Johannes Matheis <jomat+alpinebuild@jmt.gr>
-pkgname=quicktun
-pkgver=2.2.4
+pkgname="quicktun"
+pkgver="2.2.4"
 pkgrel=5
 pkgdesc="Simple and secure VPN software using NaCl encryption"
 url="http://wiki.ucis.nl/QuickTun"

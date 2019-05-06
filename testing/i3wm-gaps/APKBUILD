@@ -1,6 +1,6 @@
 # Maintainer: prspkt <prspkt@protonmail.com>
-pkgname=i3wm-gaps
-pkgver=4.16.1
+pkgname="i3wm-gaps"
+pkgver="4.16.1"
 pkgrel=0
 pkgdesc="Improved dynamic tiling window manager with additional features"
 url="https://github.com/Airblader/i3"

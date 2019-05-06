@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-transitions
+pkgname="py-transitions"
 _pkgname=transitions
-pkgver=0.4.2
+pkgver="0.4.2"
 pkgrel=2
 pkgdesc="A lightweight, object-oriented Python state machine implementation"
 url="https://github.com/tyarkoni/transitions"

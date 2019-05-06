@@ -1,6 +1,6 @@
 # Maintainer: Alex Raschi <raschi.alex@gmail.com>
-pkgname=chocolate-doom
-pkgver=3.0.0
+pkgname="chocolate-doom"
+pkgver="3.0.0"
 pkgrel=0
 pkgdesc="Portable release of Doom, Heretic, Hexen, and Strife"
 url="https://www.chocolate-doom.org"

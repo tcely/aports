@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ppp
-pkgver=2.4.7
+pkgname="ppp"
+pkgver="2.4.7"
 pkgrel=6
 pkgdesc="A daemon which implements the PPP protocol for dial-up networking"
 url="http://www.samba.org/ppp/"

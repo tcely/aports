@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=lua-rapidjson
+pkgname="lua-rapidjson"
 _rockname=rapidjson
-pkgver=0.5.1
+pkgver="0.5.1"
 pkgrel=1
 pkgdesc="A JSON module for Lua based on the very fast RapidJSON library"
 url="https://github.com/xpol/lua-rapidjson"

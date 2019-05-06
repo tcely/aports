@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=clisp
-pkgver=2.49
+pkgname="clisp"
+pkgver="2.49"
 pkgrel=2
 pkgdesc="ANSI Common Lisp interpreter, compiler and debugger"
 url="http://clisp.cons.org/"

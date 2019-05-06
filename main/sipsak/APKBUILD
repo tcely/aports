@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=sipsak
-pkgver=0.9.6
+pkgname="sipsak"
+pkgver="0.9.6"
 pkgrel=11
 pkgdesc="SIP swiss army knife"
 url="http://sipsak.org/"

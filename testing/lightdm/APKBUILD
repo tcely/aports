@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lightdm
-pkgver=1.28.0
+pkgname="lightdm"
+pkgver="1.28.0"
 pkgrel=2
 pkgdesc="A cross-desktop display manager"
 url="https://www.freedesktop.org/wiki/Software/LightDM"

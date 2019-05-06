@@ -1,9 +1,9 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 
 _php=php7
-pkgname=mongo-${_php}-library
+pkgname="mongo-${_php}-library"
 _realname=mongo-php-library
-pkgver=1.4.2
+pkgver="1.4.2"
 pkgrel=0
 pkgdesc="High-level abstraction around the lower-level drivers for PHP"
 url="https://github.com/mongodb/mongo-php-library"

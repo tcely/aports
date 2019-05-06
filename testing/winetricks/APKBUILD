@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=winetricks
-pkgver=20170101
+pkgname="winetricks"
+pkgver="20170101"
 pkgrel=0
 pkgdesc="Winetricks is an easy way to work around problems in Wine"
 url="http://winetricks.org"

@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=neomutt
-pkgver=20171208
+pkgname="neomutt"
+pkgver="20171208"
 pkgrel=3
 pkgdesc="Mutt with miscellaneous fixes and feature patches"
 url="https://www.neomutt.org/"

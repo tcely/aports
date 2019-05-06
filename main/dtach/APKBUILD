@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=dtach
-pkgver=0.9
+pkgname="dtach"
+pkgver="0.9"
 pkgrel=1
 pkgdesc="A program that emulates the detach feature of screen"
 url="http://dtach.sourceforge.net"

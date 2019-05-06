@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer:
-pkgname=gpa
-pkgver=0.9.10
+pkgname="gpa"
+pkgver="0.9.10"
 pkgrel=1
 pkgdesc="A graphical user interface for the GnuPG"
 url="https://www.gnupg.org/related_software/gpa/"

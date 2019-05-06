@@ -1,7 +1,7 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=adwaita-icon-theme
-pkgver=3.31.1
+pkgname="adwaita-icon-theme"
+pkgver="3.31.1"
 pkgrel=0
 pkgdesc="Adwaita icon theme"
 url="http://www.gnome.org"

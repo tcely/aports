@@ -1,7 +1,7 @@
 # Contributor: V.Krishn <vkrishn4@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libwebsockets
-pkgver=3.1.0
+pkgname="libwebsockets"
+pkgver="3.1.0"
 pkgrel=0
 pkgdesc="C library for lightweight websocket clients and servers"
 url="http://libwebsockets.org"

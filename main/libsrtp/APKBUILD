@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=libsrtp
-pkgver=1.5.4
+pkgname="libsrtp"
+pkgver="1.5.4"
 pkgrel=1
 pkgdesc="An implementation of the Secure Real-time Transport Protocol (SRTP)"
 url="http://srtp.sourceforge.net"

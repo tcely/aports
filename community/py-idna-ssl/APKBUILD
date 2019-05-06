@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-idna-ssl
+pkgname="py-idna-ssl"
 _pkgname=${pkgname/py-/}
-pkgver=1.1.0
+pkgver="1.1.0"
 pkgrel=1
 pkgdesc="Patch ssl.match_hostname for Unicode(idna) domains support"
 url=" https://github.com/aio-libs/idna_ssl"

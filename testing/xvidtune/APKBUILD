@@ -1,5 +1,5 @@
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=xvidtune
+pkgname="xvidtune"
 pkgver="1.0.3"
 pkgrel=0
 pkgdesc="A client interface to the X server video mode extension."

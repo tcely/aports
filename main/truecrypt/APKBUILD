@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=truecrypt
-pkgver=7.1a
+pkgname="truecrypt"
+pkgver="7.1a"
 pkgrel=3
 pkgdesc="crypto"
 url="http://www.truecrypt.org/"

@@ -1,6 +1,6 @@
 # Maintainer: Alex Raschi <raschi.alex@gmail.com>
-pkgname=nomacs
-pkgver=3.12
+pkgname="nomacs"
+pkgver="3.12"
 pkgrel=1
 pkgdesc="Small and fast Qt image viewer"
 url="https://nomacs.org/"

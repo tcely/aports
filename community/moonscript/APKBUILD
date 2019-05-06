@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=moonscript
-pkgver=0.5.0
+pkgname="moonscript"
+pkgver="0.5.0"
 pkgrel=0
 pkgdesc="A language that compiles to Lua"
 url="http://moonscript.org"

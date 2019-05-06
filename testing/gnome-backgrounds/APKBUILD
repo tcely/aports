@@ -1,6 +1,6 @@
 # Maintainer: Rasmus Thomsen <oss@cogitri.dev>
-pkgname=gnome-backgrounds
-pkgver=3.32.0
+pkgname="gnome-backgrounds"
+pkgver="3.32.0"
 pkgrel=0
 pkgdesc="Default wallpaper set for GNOME"
 url="https://gitlab.gnome.org/GNOME/gnome-backgrounds"

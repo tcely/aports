@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: 
 # Maintainer: 
-pkgname=libguess
-pkgver=1.2
+pkgname="libguess"
+pkgver="1.2"
 pkgrel=0
 pkgdesc="extremely fast character set guessing library"
 url="http://atheme.org/project/libguess"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xf86-video-nv
-pkgver=2.1.21
+pkgname="xf86-video-nv"
+pkgver="2.1.21"
 pkgrel=3
 pkgdesc="Nvidia video driver"
 url="https://xorg.freedesktop.org"

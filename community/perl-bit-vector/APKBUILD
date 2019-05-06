@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-bit-vector
+pkgname="perl-bit-vector"
 _realname=Bit-Vector
-pkgver=7.4
+pkgver="7.4"
 pkgrel=3
 pkgdesc="Efficient bit vector, set of integers, and big int math library"
 url="http://search.cpan.org/dist/Bit-Vector/"

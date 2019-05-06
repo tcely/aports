@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=zenity
-pkgver=3.28.1
+pkgname="zenity"
+pkgver="3.28.1"
 pkgrel=0
 pkgdesc="A GTK+-based xdialog replacement"
 url="https://www.gnome.org/"

@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=otpclient
-pkgver=1.4.1
+pkgname="otpclient"
+pkgver="1.4.1"
 pkgrel=0
 pkgdesc="Easy to use GTK+ OTP client"
 options="!check" # No testsuite

@@ -1,7 +1,7 @@
 # Contributor: Shiz <hi@shiz.me>
 # Maintainer: Shiz <hi@shiz.me>
-pkgname=gpg-remailer
-pkgver=3.04.03
+pkgname="gpg-remailer"
+pkgver="3.04.03"
 pkgrel=0
 pkgdesc="Decrypt GPG messages and re-encrypt them to a well-defined group"
 url="https://fbb-git.github.io/gpg-remailer/"

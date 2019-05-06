@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=libbsd
-pkgver=0.9.1
+pkgname="libbsd"
+pkgver="0.9.1"
 pkgrel=0
 pkgdesc="commonly-used BSD functions not implemented by all libcs"
 url="https://libbsd.freedesktop.org/"

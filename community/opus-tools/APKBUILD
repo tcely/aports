@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=opus-tools
-pkgver=0.2
+pkgname="opus-tools"
+pkgver="0.2"
 pkgrel=0
 pkgdesc="Collection of tools for Opus audio codec"
 url="https://wiki.xiph.org/Opus-tools"

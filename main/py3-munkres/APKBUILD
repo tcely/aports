@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-munkres
+pkgname="py3-munkres"
 _pkgname=munkres
-pkgver=1.1.1
+pkgver="1.1.1"
 pkgrel=1
 pkgdesc="Munkres algorithm for the assignment problem"
 url="http://bmc.github.com/munkres/"

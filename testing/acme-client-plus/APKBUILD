@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=acme-client-plus
-pkgver=0.1.1
+pkgname="acme-client-plus"
+pkgver="0.1.1"
 pkgrel=0
 pkgdesc="Script for periodic renewal of certificates using BSD's acme-client"
 url="https://github.com/jirutka/acme-client-plus"

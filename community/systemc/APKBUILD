@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=systemc
-pkgver=2.3.2
+pkgname="systemc"
+pkgver="2.3.2"
 pkgrel=1
 pkgdesc="C++ library for modeling and describing complex hardware systems"
 url="http://www.accellera.org/downloads/standards/systemc"

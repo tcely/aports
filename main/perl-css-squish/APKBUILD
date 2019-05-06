@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-css-squish
-pkgver=0.10
+pkgname="perl-css-squish"
+pkgver="0.10"
 pkgrel=0
 pkgdesc="CSS::Squish perl module"
 url="http://search.cpan.org/dist/CSS-Squish/"

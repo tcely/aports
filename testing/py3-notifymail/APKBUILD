@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py3-notifymail
+pkgname="py3-notifymail"
 _pkgname=notifymail
-pkgver=1.1
+pkgver="1.1"
 pkgrel=1
 pkgdesc="A Python module to send emails"
 url="https://github.com/davidfstr/notifymail/"

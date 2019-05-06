@@ -1,7 +1,7 @@
 # Contributor: Bennett Goble <nivardus@gmail.com>
 # Maintainer: Bennett Goble <nivardus@gmail.com>
-pkgname=wslay
-pkgver=1.0.0
+pkgname="wslay"
+pkgver="1.0.0"
 pkgrel=1
 pkgdesc="The WebSocket library in C"
 url="https://tatsuhiro-t.github.io/wslay/"

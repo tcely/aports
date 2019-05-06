@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xf86-video-sunleo
-pkgver=1.2.2
+pkgname="xf86-video-sunleo"
+pkgver="1.2.2"
 pkgrel=3
 pkgdesc="Leo video driver"
 url="https://xorg.freedesktop.org"

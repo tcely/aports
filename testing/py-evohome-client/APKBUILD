@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=py-evohome-client
-pkgver=0.2.5
+pkgname="py-evohome-client"
+pkgver="0.2.5"
 pkgrel=0
 pkgdesc="Python client to access the Evohome web service"
 url="https://github.com/watchforstock/evohome-client"

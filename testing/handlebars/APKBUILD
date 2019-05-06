@@ -1,8 +1,8 @@
 # Contributor: John Boehr <jbboehr@gmail.com>
 # Maintainer: Rafael del Valle <rvalle@privaz.io>
-pkgname=handlebars
+pkgname="handlebars"
 _pkgname=handlebars.c
-pkgver=0.6.4
+pkgver="0.6.4"
 pkgrel=2
 _mustachespec_ver="1.1.3"
 _handlebarsspec_ver="4.0.5-p1"

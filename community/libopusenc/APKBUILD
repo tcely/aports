@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=libopusenc
-pkgver=0.2.1
+pkgname="libopusenc"
+pkgver="0.2.1"
 pkgrel=0
 pkgdesc="Library for encoding .opus audio files and live streams"
 url="https://opus-codec.org"

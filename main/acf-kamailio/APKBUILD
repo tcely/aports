@@ -1,7 +1,7 @@
 # Contributor: Ted Trask <ttrask01@yahoo.com>
 # Maintainer: Ted Trask <ttrask01@yahoo.com>
-pkgname=acf-kamailio
-pkgver=0.10.0
+pkgname="acf-kamailio"
+pkgver="0.10.0"
 pkgrel=2
 pkgdesc="A web-based system administration interface for kamailio"
 url="https://git.alpinelinux.org/cgit/acf/acf-kamailio"

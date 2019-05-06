@@ -3,7 +3,7 @@
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
 pkgname="py-cython"
 _pkgname=cython
-pkgver=0.29.6
+pkgver="0.29.6"
 pkgrel=0
 pkgdesc="Cython is an optimising static compiler for both the Python & the extended Cython programming languages."
 url="https://cython.org"

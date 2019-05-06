@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=liborcus
-pkgver=0.14.1
+pkgname="liborcus"
+pkgver="0.14.1"
 pkgrel=1
 pkgdesc="Library for processing spreadsheet documents"
 url="https://gitlab.com/orcus/orcus"

@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=xkcdpass
-pkgver=1.17.3
+pkgname="xkcdpass"
+pkgver="1.17.3"
 pkgrel=0
 pkgdesc="Generate secure multiword passwords/passphrases"
 url="https://github.com/redacted/XKCD-password-generator"

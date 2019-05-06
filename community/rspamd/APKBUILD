@@ -3,8 +3,8 @@
 # Contributor: Nathan Angelacos <nangel@alpinelinux.org>
 # Contributor: TBK <alpine@jjtc.eu>
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=rspamd
-pkgver=1.9.1
+pkgname="rspamd"
+pkgver="1.9.1"
 pkgrel=1
 pkgdesc="Fast, free and open-source spam filtering system"
 url="https://rspamd.com"

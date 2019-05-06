@@ -1,8 +1,8 @@
 # Contributor: Bennett Goble <nivardus@gmail.com>
 # Contributor: Mike Milner <milner@blissisland.ca>
 # Maintainer: Bennett Goble <nivardus@gmail.com>
-pkgname=librdkafka
-pkgver=1.0.0
+pkgname="librdkafka"
+pkgver="1.0.0"
 pkgrel=0
 pkgdesc="The Apache Kafka C/C++ library"
 url="https://github.com/edenhill/librdkafka"

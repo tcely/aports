@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=espeak
-pkgver=1.48.04
+pkgname="espeak"
+pkgver="1.48.04"
 pkgrel=1
 pkgdesc="Speech synthesizer for English and other languages"
 url="http://espeak.sourceforge.net/"

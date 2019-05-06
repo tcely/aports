@@ -2,9 +2,9 @@
 # Extensively modified from template to work with this perl module
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=perl-rt-extension-commandbymail
+pkgname="perl-rt-extension-commandbymail"
 _pkgreal=RT-Extension-CommandByMail
-pkgver=3.00
+pkgver="3.00"
 pkgrel=0
 pkgdesc="RT4 extension to change metadata of a ticket via email"
 url="http://search.cpan.org/dist/RT-Extension-CommandByMail/"

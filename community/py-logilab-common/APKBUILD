@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-logilab-common
+pkgname="py-logilab-common"
 _pkgname=logilab-common
-pkgver=1.4.1
+pkgver="1.4.1"
 pkgrel=1
 pkgdesc="A collection of Python packages and modules used by Logilab projects"
 url="https://www.logilab.org/project/logilab-common"

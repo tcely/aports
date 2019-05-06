@@ -1,7 +1,7 @@
 # Contributor: Mitch Tishmack <mitch.tishmack@gmail.com>
 # Maintainer: Mitch Tishmack <mitch.tishmack@gmail.com>
-pkgname=cabal
-pkgver=2.2.0.0
+pkgname="cabal"
+pkgver="2.2.0.0"
 pkgrel=0
 pkgdesc="The Haskell Cabal"
 url="http://haskell.org"

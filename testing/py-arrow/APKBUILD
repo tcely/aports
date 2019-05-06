@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-arrow
+pkgname="py-arrow"
 _pkgname=arrow
-pkgver=0.10.0
+pkgver="0.10.0"
 pkgrel=3
 pkgdesc="A Python library to create and manipulate dates, times, and timestamps"
 url="https://arrow.readthedocs.io/"

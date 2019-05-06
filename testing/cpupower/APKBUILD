@@ -1,10 +1,10 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Ben Allen <bensallen@me.com>
-pkgname=cpupower
+pkgname="cpupower"
 _kver=4.4.14
 _kpkgrel=2
 
-pkgver=$_kver
+pkgver="$_kver"
 pkgrel=$_kpkgrel
 pkgdesc="Linux kernel tool to examine and tune power saving related features of your processor"
 url="https://www.kernel.org/"

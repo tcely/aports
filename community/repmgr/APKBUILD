@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=repmgr
-pkgver=4.2.0
+pkgname="repmgr"
+pkgver="4.2.0"
 pkgrel=0
 pkgdesc="Replication Manager for PostgreSQL"
 url="http://www.repmgr.org/"

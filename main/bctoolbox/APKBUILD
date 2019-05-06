@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=bctoolbox
-pkgver=0.6.0
+pkgname="bctoolbox"
+pkgver="0.6.0"
 pkgrel=1
 pkgdesc="Utilities library used by Belledonne Communications softwares like belle-sip, mediastreamer2 and linphone"
 url="https://github.com/BelledonneCommunications/bctoolbox"

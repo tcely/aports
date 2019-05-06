@@ -1,13 +1,13 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 
-pkgname=roundcube-mobile
+pkgname="roundcube-mobile"
 # NOTE: These 3 plugins/skins forms one product, they are not used separately
 # anywhere, thus I put them together into single abuild.
 _pkgname_plugin=Roundcube-Plugin-Mobile
 _pkgname_skin=Roundcube-Skin-Melanie2-Larry-Mobile
 _pkgname_jquery=Roundcube-Plugin-JQuery-Mobile
-pkgver=0.4.8
+pkgver="0.4.8"
 pkgrel=0
 _pkgver_jquery=1.1
 pkgdesc="Mobile plugin and skin for Roundcube by Melanie2"

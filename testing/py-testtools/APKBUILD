@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=py-testtools
+pkgname="py-testtools"
 _pkgname="testtools"
-pkgver=2.3.0
+pkgver="2.3.0"
 pkgrel=1
 pkgdesc="Extensions to the Python standard library unit testing framework"
 url="https://pypi.python.org/pypi/testtools"

@@ -1,8 +1,8 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: 
-pkgname=evince
-pkgver=3.32.0
+pkgname="evince"
+pkgver="3.32.0"
 pkgrel=0
 pkgdesc="simple document viewer for GTK+"
 url="http://projects.gnome.org/evince/"

@@ -1,7 +1,7 @@
 # Contributor: Maciej Klak <klak.maciej@gmail.com>
 # Maintainer: Maciej Klak <klak.maciej@gmail.com>
-pkgname=libzookeeper
-pkgver=3.4.13
+pkgname="libzookeeper"
+pkgver="3.4.13"
 pkgrel=1
 pkgdesc="The Apache ZooKeeper system for distributed coordination is a high-performance service for building distributed applications."
 url="https://zookeeper.apache.org"

@@ -1,6 +1,6 @@
 # Maintainer: Marlus Saraiva <marlus.saraiva@gmail.com>
-pkgname=elixir
-pkgver=1.8.1
+pkgname="elixir"
+pkgver="1.8.1"
 pkgrel=0
 pkgdesc="Elixir is a dynamic, functional language designed for building scalable and maintainable applications"
 url="http://elixir-lang.org"

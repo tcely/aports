@@ -1,7 +1,7 @@
 # Contributor: André Klitzing <aklitzing@gmail.com>
 # Maintainer: André Klitzing <aklitzing@gmail.com>
-pkgname=monero
-pkgver=0.14.0.2
+pkgname="monero"
+pkgver="0.14.0.2"
 pkgrel=2
 pkgdesc="Secure, private, untraceable cryptocurrency"
 url="https://getmonero.org/"

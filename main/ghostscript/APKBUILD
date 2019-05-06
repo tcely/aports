@@ -1,7 +1,7 @@
 # Contributor: Cameron Banta <cbanta@gmail.com>
 # Maintainer: Cameron Banta <cbanta@gmail.com>
-pkgname=ghostscript
-pkgver=9.26
+pkgname="ghostscript"
+pkgver="9.26"
 pkgrel=2
 pkgdesc="An interpreter for the PostScript language and for PDF"
 url="https://ghostscript.com/"

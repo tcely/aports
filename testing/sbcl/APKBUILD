@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=sbcl
-pkgver=1.4.9
+pkgname="sbcl"
+pkgver="1.4.9"
 pkgrel=0
 pkgdesc="Steel Bank Common Lisp"
 url="http://www.sbcl.org/"

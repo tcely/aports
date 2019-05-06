@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=ucarp
-pkgver=1.5.2
+pkgname="ucarp"
+pkgver="1.5.2"
 pkgrel=7
 pkgdesc="Share common IP and do fail over"
 url="http://www.ucarp.org"

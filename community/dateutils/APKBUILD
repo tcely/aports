@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=dateutils
-pkgver=0.4.6
+pkgname="dateutils"
+pkgver="0.4.6"
 pkgrel=0
 pkgdesc="Utilities for fast date-time calculations and conversion"
 url="http://hroptatyr.github.com/dateutils/"

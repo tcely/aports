@@ -1,8 +1,8 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=trac
+pkgname="trac"
 _realname=Trac
-pkgver=1.2.3
+pkgver="1.2.3"
 pkgrel=0
 pkgusers="tracd"
 pkggroups="tracd"

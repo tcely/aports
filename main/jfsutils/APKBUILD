@@ -1,7 +1,7 @@
 # Contributor: Teran McKinney <sega01@go-beyond.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=jfsutils
-pkgver=1.1.15
+pkgname="jfsutils"
+pkgver="1.1.15"
 pkgrel=1
 pkgdesc="JFS filesystem utilities"
 url="http://jfs.sourceforge.net"

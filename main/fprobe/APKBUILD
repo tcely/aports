@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=fprobe
-pkgver=1.1
+pkgname="fprobe"
+pkgver="1.1"
 pkgrel=8
 pkgdesc="libpcap-based tool that collect network traffic"
 url="http://fprobe.sourceforge.net/"

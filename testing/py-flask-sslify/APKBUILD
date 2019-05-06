@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: 
-pkgname=py-flask-sslify
-pkgver=0.1.5
+pkgname="py-flask-sslify"
+pkgver="0.1.5"
 pkgrel=0
 pkgdesc="Flask plugin for forcing SSL on your web apps by default"
 url="http://pypi.python.org/pypi/Flask-SSLify"

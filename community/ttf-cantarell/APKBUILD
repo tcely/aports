@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=ttf-cantarell
-pkgver=0.101
+pkgname="ttf-cantarell"
+pkgver="0.101"
 pkgrel=0
 pkgdesc="GNOME default font"
 url="https://wiki.gnome.org/Projects/CantarellFonts"

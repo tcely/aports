@@ -1,7 +1,7 @@
 # Contributor: Jared Szechy <jared.szechy@gmail.com>
 # Maintainer: Jared Szechy <jared.szechy@gmail.com>
-pkgname=librtlsdr
-pkgver=0.5.4
+pkgname="librtlsdr"
+pkgver="0.5.4"
 pkgrel=0
 pkgdesc="Software defined radio receiver for Realtek RTL2832U"
 url="https://osmocom.org/projects/sdr/wiki/rtl-sdr"

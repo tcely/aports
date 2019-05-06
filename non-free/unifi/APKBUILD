@@ -2,9 +2,9 @@
 # Contributor: TBK <alpine@jjtc.eu>
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Contributor: AdamRushad <2429990+adamrushad@users.noreply.github.com>
-pkgname=unifi
+pkgname="unifi"
 _pkgname=UniFi
-pkgver=5.10.20
+pkgver="5.10.20"
 pkgrel=0
 pkgdesc="Ubiquiti UniFi Network Controller"
 url="http://wiki.ubnt.com/UniFi_FAQ"

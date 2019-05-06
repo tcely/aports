@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=upower
-pkgver=0.99.10
+pkgname="upower"
+pkgver="0.99.10"
 _distver="UPOWER_${pkgver//./_}"
 pkgrel=0
 pkgdesc="Power Management Services"

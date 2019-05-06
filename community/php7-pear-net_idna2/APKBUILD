@@ -1,8 +1,8 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 _php=php7
-pkgname=${_php}-pear-net_idna2
+pkgname="${_php}-pear-net_idna2"
 _realname=Net_IDNA2
-pkgver=0.2.0
+pkgver="0.2.0"
 pkgrel=1
 pkgdesc="Punycode encoding and decoding"
 url="http://pear.php.net/package/Net_IDNA2/"

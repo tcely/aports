@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-nokogiri
+pkgname="ruby-nokogiri"
 _gemname=${pkgname#ruby-}
-pkgver=1.10.2
+pkgver="1.10.2"
 pkgrel=0
 pkgdesc="An HTML, XML, SAX, and Reader parser"
 url="http://nokogiri.org/"

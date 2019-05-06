@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-readonly
+pkgname="perl-readonly"
 _pkgname=Readonly
-pkgver=2.05
+pkgver="2.05"
 pkgrel=1
 pkgdesc="Facility for creating read-only scalars, arrays, hashes"
 url="https://github.com/sanko/readonly"

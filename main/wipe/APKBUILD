@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=wipe
-pkgver=2.3.1
+pkgname="wipe"
+pkgver="2.3.1"
 pkgrel=0
 pkgdesc="Secure file wiping utility"
 url="http://wipe.sourceforge.net/"

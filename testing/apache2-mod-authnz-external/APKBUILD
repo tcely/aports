@@ -1,8 +1,8 @@
 # Contributor: Nathan Rennie-Waldock <nathan.renniewaldock@gmail.com>
 # Maintainer: Nathan Rennie-Waldock <nathan.renniewaldock@gmail.com>
-pkgname=apache2-mod-authnz-external
+pkgname="apache2-mod-authnz-external"
 _realname=mod_authnz_external
-pkgver=3.3.2
+pkgver="3.3.2"
 pkgrel=0
 pkgdesc="Apache module for external authentication"
 url="https://code.google.com/p/mod-auth-external/"

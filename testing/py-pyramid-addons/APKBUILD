@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-pyramid-addons
+pkgname="py-pyramid-addons"
 _pkgname=pyramid_addons
-pkgver=0.20
+pkgver="0.20"
 pkgrel=0
 pkgdesc="A pyramid plugin that provides extra functionality"
 url="https://github.com/bboe/pyramid_addons"

@@ -1,9 +1,9 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-lzf
+pkgname="php7-pecl-lzf"
 _pkgreal=LZF
 _pkgextname=lzf
-pkgver=1.6.7
+pkgver="1.6.7"
 pkgrel=0
 pkgdesc="PHP extension handles LZF de/compression - PECL"
 url="https://pecl.php.net/package/LZF"

@@ -1,7 +1,7 @@
 # Contributor: Shiz <hi@shiz.me>
 # Maintainer: Shiz <hi@shiz.me>
-pkgname=bobcat
-pkgver=4.08.01
+pkgname="bobcat"
+pkgver="4.08.01"
 pkgrel=0
 pkgdesc="Brokken's Own Base Classes And Templates"
 url="https://fbb-git.github.io/bobcat/"

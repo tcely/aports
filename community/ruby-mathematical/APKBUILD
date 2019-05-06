@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-mathematical
+pkgname="ruby-mathematical"
 _gemname=${pkgname#ruby-}
-pkgver=1.6.12
+pkgver="1.6.12"
 pkgrel=0
 pkgdesc="Convert mathematical equations to SVGs, PNGs, or MathML"
 url="https://www.gjtorikian.com/mathematical/"

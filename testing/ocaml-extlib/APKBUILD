@@ -1,7 +1,7 @@
 # Contributor: Fernando Casas Schossow <casasfernando@outlook.com>
 # Maintainer: Fernando Casas Schossow <casasfernando@outlook.com>
-pkgname=ocaml-extlib
-pkgver=1.7.6
+pkgname="ocaml-extlib"
+pkgver="1.7.6"
 pkgrel=0
 pkgdesc="OCaml ExtLib additions to the standard library"
 url="https://github.com/ygrek/ocaml-extlib"

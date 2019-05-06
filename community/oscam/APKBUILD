@@ -1,8 +1,8 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=oscam
+pkgname="oscam"
 verbase=1.20
-pkgver=1.20_svn20190430
+pkgver="1.20_svn20190430"
 pkgrel=0
 pkgdesc="An Open Source Conditional Access Module software"
 url="http://www.streamboard.tv/oscam/"

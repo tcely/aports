@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=sloci-image
-pkgver=0.1.0
+pkgname="sloci-image"
+pkgver="0.1.0"
 pkgrel=0
 pkgdesc="Simple script for creating single-layer OCI images"
 url="https://github.com/jirutka/sloci-image"

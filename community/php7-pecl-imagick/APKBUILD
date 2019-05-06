@@ -1,8 +1,8 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=php7-pecl-imagick
+pkgname="php7-pecl-imagick"
 _pkgreal=imagick
-pkgver=3.4.4
+pkgver="3.4.4"
 pkgrel=0
 pkgdesc="PHP extension provides a wrapper to the ImageMagick library - PECL"
 url="https://pecl.php.net/package/imagick"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinx-theme-simple
+pkgname="py-sphinx-theme-simple"
 _pkgname=sphinxtheme-simple
-pkgver=0.1
+pkgver="0.1"
 pkgrel=0
 pkgdesc="The Simple Sphinx theme"
 url="https://pypi.python.org/pypi/sphinxtheme-simple"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=kodi
-pkgver=17.6
+pkgname="kodi"
+pkgver="17.6"
 _realname=Krypton
 pkgrel=10
 pkgdesc="A software media player and entertainment hub for digital media"

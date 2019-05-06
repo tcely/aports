@@ -2,8 +2,8 @@
 # Contributor: Gennady Feldman <gena01@gmail.com>
 # Contributor: Sergii Sadovyi <serg.sadovoi@gmail.com>
 # Maintainer: Thomas Boerger <thomas@webhippie.de>
-pkgname=terraform
-pkgver=0.11.13
+pkgname="terraform"
+pkgver="0.11.13"
 pkgrel=0
 pkgdesc="Building, changing and combining infrastructure safely and efficiently"
 url="https://www.terraform.io/"

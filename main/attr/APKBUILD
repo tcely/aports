@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=attr
-pkgver=2.4.47
+pkgname="attr"
+pkgver="2.4.47"
 pkgrel=7
 pkgdesc="Utilities for managing filesystem extended attributes"
 url="https://savannah.nongnu.org/projects/attr"

@@ -3,8 +3,8 @@
 # Contributor: Sebastian Wicki <gandro@gmx.net>
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=mpd
-pkgver=0.21.8
+pkgname="mpd"
+pkgver="0.21.8"
 case $pkgver in
 *.*.*) _branch=${pkgver%.*};;
 *.*) _branch=$pkgver;;

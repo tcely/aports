@@ -1,7 +1,7 @@
 # Contributor: Mike Crute <mike@crute.us>
 # Maintainer: Mike Crute <mike@crute.us>
-pkgname=tiny-ec2-bootstrap
-pkgver=1.2.0
+pkgname="tiny-ec2-bootstrap"
+pkgver="1.2.0"
 pkgrel=0
 pkgdesc="A tiny EC2 instance bootstrapper that uses instance metadata"
 url="https://github.com/mcrute/tiny-ec2-bootstrap"

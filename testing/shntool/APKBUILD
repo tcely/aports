@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Jean-Louis Fuchs <ganwell@fangorn.ch>
-pkgname=shntool
-pkgver=3.0.10
+pkgname="shntool"
+pkgver="3.0.10"
 pkgrel=1
 pkgdesc="A multi-purpose WAVE data processing and reporting utility"
 url="http://www.etree.org/shnutils/shntool/"

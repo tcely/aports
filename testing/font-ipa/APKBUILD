@@ -1,6 +1,6 @@
 # Maintainer: Adrian Siekierka <kontakt@asie.pl>
-pkgname=font-ipa
-pkgver=003.03
+pkgname="font-ipa"
+pkgver="003.03"
 pkgrel=0
 pkgdesc="Japanese outline fonts by Information-technology Promotion Agency"
 url="http://ipafont.ipa.go.jp/"

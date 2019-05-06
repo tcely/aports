@@ -1,6 +1,6 @@
 # Maintainer: Breno Leitao <breno.leitao@gmail.com>
-pkgname=ndctl
-pkgver=61.2
+pkgname="ndctl"
+pkgver="61.2"
 pkgrel=0
 pkgdesc="Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel"
 url="https://github.com/pmem/ndctl"

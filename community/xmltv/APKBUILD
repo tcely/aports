@@ -1,7 +1,7 @@
 # Con://github.com/saltstack/salttributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=xmltv
-pkgver=0.6.1
+pkgname="xmltv"
+pkgver="0.6.1"
 pkgrel=0
 pkgdesc="Set of utilities to download tv listings and format them in xml"
 url="http://xmltv.org/wiki"

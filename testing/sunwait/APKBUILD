@@ -1,7 +1,7 @@
 # Contributor: Stefano Marinelli <stefano@dragas.it>
 # Maintainer: Stefano Marinelli <stefano@dragas.it>
-pkgname=sunwait
-pkgver=0.8
+pkgname="sunwait"
+pkgver="0.8"
 pkgrel=0
 pkgdesc="Sunwait calculates sunrise or sunset times with civil, nautical, astronomical and custom twilights."
 url="https://sourceforge.net/projects/sunwait4windows/"

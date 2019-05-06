@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=phonon
-pkgver=4.10.2
+pkgname="phonon"
+pkgver="4.10.2"
 pkgrel=0
 pkgdesc="KDE multimedia backend"
 url="https://phonon.kde.org/"

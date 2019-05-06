@@ -1,7 +1,7 @@
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-test-mockmodule
+pkgname="perl-test-mockmodule"
 _pkgname=Test-MockModule
-pkgver=0.15
+pkgver="0.15"
 pkgrel=0
 pkgdesc="Override subroutines in a module for unit testing"
 url="https://metacpan.org/release/Test-MockModule"

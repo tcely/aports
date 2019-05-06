@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=netcat-openbsd
-pkgver=1.130
+pkgname="netcat-openbsd"
+pkgver="1.130"
 pkgrel=1
 pkgdesc="The TCP/IP swiss army knife. OpenBSD variant."
 url="http://packages.debian.org/sid/netcat-openbsd"

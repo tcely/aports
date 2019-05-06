@@ -1,7 +1,7 @@
 # Contributor: Ivan Tham <pickfire@riseup.net>
 # Maintainer: Ivan Tham <pickfire@riseup.net>
-pkgname=xournal
-pkgver=0.4.8
+pkgname="xournal"
+pkgver="0.4.8"
 pkgrel=2
 pkgdesc="Notetaking, sketching, keeping a journal using a stylus"
 url="http://xournal.sourceforge.net/"

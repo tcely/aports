@@ -1,7 +1,7 @@
 # Contributor:
 # Maintainer:
-pkgname=sqm-scripts
-pkgver=1.0.7
+pkgname="sqm-scripts"
+pkgver="1.0.7"
 pkgrel=0
 pkgdesc="SQM scripts traffic shaper"
 url="https://github.com/tohojo/sqm-scripts"

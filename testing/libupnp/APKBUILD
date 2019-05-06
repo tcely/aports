@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libupnp
-pkgver=1.8.4
+pkgname="libupnp"
+pkgver="1.8.4"
 pkgrel=0
 pkgdesc="Portable Open Source UPnP Development Kit"
 url="http://pupnp.sourceforge.net"

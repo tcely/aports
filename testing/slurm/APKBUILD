@@ -1,7 +1,7 @@
 # Contributor: prspkt <prspkt@protonmail.com>
 # Maintainer: prspkt <prspkt@protonmail.com>
-pkgname=slurm
-pkgver=0.4.3
+pkgname="slurm"
+pkgver="0.4.3"
 pkgrel=0
 pkgdesc="Yet another network load monitor"
 url="https://github.com/mattthias/slurm"

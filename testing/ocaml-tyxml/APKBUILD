@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-tyxml
+pkgname="ocaml-tyxml"
 _pkgname=tyxml
-pkgver=4.2.0
+pkgver="4.2.0"
 pkgrel=1
 pkgdesc="OCaml library for building statically correct HTML and SVG documents"
 url="https://ocsigen.org/tyxml/"

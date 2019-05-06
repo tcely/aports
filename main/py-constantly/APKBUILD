@@ -1,8 +1,8 @@
 # Contributor: prspkt <prspkt@protonmail.com>
 # Maintainer: prspkt <prspkt@protonmail.com>
-pkgname=py-constantly
+pkgname="py-constantly"
 _pkgname=constantly
-pkgver=15.1.0
+pkgver="15.1.0"
 pkgrel=1
 pkgdesc="Library that provides symbolic constant support"
 url="https://github.com/twisted/constantly"

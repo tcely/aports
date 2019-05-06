@@ -1,10 +1,10 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=urlview
+pkgname="urlview"
 # ghbump to update http://sprunge.us/bQYI
 _project="sigpipe/urlview"
 _sha=08767aa863cd27d1755ba0aff65b8cc1a0c1446a
-pkgver=20131023
+pkgver="20131023"
 pkgrel=0
 pkgdesc="urlview is a program for extracting URLs from text files"
 url="https://github.com/sigpipe/urlview"

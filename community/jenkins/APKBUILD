@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=jenkins
-pkgver=2.175
+pkgname="jenkins"
+pkgver="2.175"
 pkgrel=0
 pkgdesc="Extendable continuous integration server (stable version)"
 url="https://jenkins.io"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=ttf2ufm
-pkgver=3.4.4
+pkgname="ttf2ufm"
+pkgver="3.4.4"
 pkgrel=0
 pkgdesc="A True Type to PostScript Type 1 Converter"
 url="https://acko.net/blog/ufpdf-unicode-utf-8-extension-for-fpdf/"

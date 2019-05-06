@@ -1,8 +1,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=perl-http-cookies
+pkgname="perl-http-cookies"
 _pkgreal=HTTP-Cookies
-pkgver=6.04
+pkgver="6.04"
 pkgrel=0
 pkgdesc="HTTP::Cookies perl module"
 url="http://search.cpan.org/dist/HTTP-Cookies/"

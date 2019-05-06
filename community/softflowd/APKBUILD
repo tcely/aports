@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Valery Kartel <valery.kartel@gmail.com>
-pkgname=softflowd
-pkgver=0.9.9
+pkgname="softflowd"
+pkgver="0.9.9"
 pkgrel=1
 pkgdesc="A software NetFlow probe"
 url="https://code.google.com/p/softflowd"

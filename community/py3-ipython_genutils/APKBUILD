@@ -1,7 +1,7 @@
 # Contributor: Kevin Daudt <kdaudt@alpinelinux.org>
 # Maintainer: Kevin Daudt <kdaudt@alpinelinux.org>
-pkgname=py3-ipython_genutils
-pkgver=0.2.0
+pkgname="py3-ipython_genutils"
+pkgver="0.2.0"
 pkgrel=1
 pkgdesc="Vestigial IPython utilities"
 url="https://github.com/ipython/ipython_genutils"

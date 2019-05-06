@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=the_silver_searcher
-pkgver=2.1.0
+pkgname="the_silver_searcher"
+pkgver="2.1.0"
 pkgrel=2
 pkgdesc="A code searching tool similar to ack, with a focus on speed."
 url="https://geoff.greer.fm/ag/"

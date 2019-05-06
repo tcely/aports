@@ -1,7 +1,7 @@
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=libexttextcat
-pkgver=3.4.5
+pkgname="libexttextcat"
+pkgver="3.4.5"
 pkgrel=1
 pkgdesc="An N-Gram-Based Text Categorization library"
 url="https://wiki.documentfoundation.org/Libexttextcat"

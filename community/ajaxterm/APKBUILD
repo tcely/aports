@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=ajaxterm
+pkgname="ajaxterm"
 _pkgname=Ajaxterm
-pkgver=0.11
+pkgver="0.11"
 pkgrel=0
 _commit="2eaa3e989782d8259a12c8cb7d6204433ae19264"
 pkgdesc="Simple AJAX Terminal"

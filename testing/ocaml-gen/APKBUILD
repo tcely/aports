@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-gen
+pkgname="ocaml-gen"
 _pkgname=gen
-pkgver=0.5.1
+pkgver="0.5.1"
 pkgrel=0
 pkgdesc="Simple, efficient iterators for OCaml"
 url="https://github.com/c-cube/gen/"

@@ -1,7 +1,7 @@
 # Contributor: Roger Pau Monne <roger.pau@entel.upc.edu>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=acpica
-pkgver=20181213
+pkgname="acpica"
+pkgver="20181213"
 pkgrel=0
 pkgdesc="ACPI Component Architecture utilities"
 url="https://www.acpica.org"

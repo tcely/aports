@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <francesco.colista@gmail.com>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-cherrypy
+pkgname="py-cherrypy"
 _pkgname=CherryPy
-pkgver=8.1.2
+pkgver="8.1.2"
 pkgrel=2
 pkgdesc="A pythonic, object-oriented web development framework"
 url="http://www.cherrypy.org"

@@ -1,7 +1,7 @@
 # Contributor: Alexander Georgievskiy <galeksandrp@gmail.com>
 # Maintainer:
-pkgname=polipo
-pkgver=1.1.1
+pkgname="polipo"
+pkgver="1.1.1"
 pkgrel=0
 pkgdesc="The Polipo caching HTTP proxy"
 url="https://github.com/jech/$pkgname"

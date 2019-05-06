@@ -7,7 +7,7 @@ _targets="
 	msp430-elf
 	"
 pkgname="$_pkgbase-embedded"
-pkgver=8.2.1
+pkgver="8.2.1"
 pkgrel=2
 pkgdesc="The GNU Debugger for embedded targets"
 url="https://www.sourceware.org/gdb/"

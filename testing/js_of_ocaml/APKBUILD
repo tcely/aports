@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 # TODO: Verify declared dependencies.
-pkgname=js_of_ocaml
-pkgver=3.1.0
+pkgname="js_of_ocaml"
+pkgver="3.1.0"
 pkgrel=3
 pkgdesc="Compiler from OCaml to Javascript"
 url="http://ocsigen.org/js_of_ocaml/"

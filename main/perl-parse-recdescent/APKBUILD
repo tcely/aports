@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-parse-recdescent
+pkgname="perl-parse-recdescent"
 _realname=Parse-RecDescent
-pkgver=1.967015
+pkgver="1.967015"
 pkgrel=1
 pkgdesc="Generate Recursive-Descent Parsers"
 url="http://search.cpan.org/~dconway/Parse-RecDescent-1.96.0/"

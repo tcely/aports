@@ -2,8 +2,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Contributor: Timo Teräs <timo.teras@iki.fi>
 # Maintainer: Timo Teräs <timo.teras@iki.fi>
-pkgname=youtube-dl
-pkgver=2019.04.30
+pkgname="youtube-dl"
+pkgver="2019.04.30"
 pkgrel=0
 pkgdesc="Command-line program to download videos from YouTube"
 url="https://youtube-dl.org"

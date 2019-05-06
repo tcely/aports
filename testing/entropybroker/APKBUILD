@@ -1,7 +1,7 @@
 # Contributor: Henrik Riomar <henrik.riomar@gmail.com>
 # Maintainer:
-pkgname=entropybroker
-pkgver=2.9
+pkgname="entropybroker"
+pkgver="2.9"
 pkgrel=0
 pkgdesc="infrastructure for distributing random numbers (entropy data)"
 url="https://www.vanheusden.com/entropybroker/"

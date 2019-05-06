@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=lua-xctrl
-pkgver=2015.04.10
+pkgname="lua-xctrl"
+pkgver="2015.04.10"
 _x=${pkgver%%.*}
 _y=${pkgver%.*}
 _y=${_y#*.}

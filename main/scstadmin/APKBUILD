@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter
 # Maintainer:
-pkgname=scstadmin
-pkgver=2.2.0
+pkgname="scstadmin"
+pkgver="2.2.0"
 pkgrel=2
 pkgdesc="SCST administration tool written in perl"
 url="http://scst.sourceforge.net"

@@ -1,7 +1,7 @@
 # Contributor: Eivind Uggedal <eivind@uggedal.com>
 # Maintainer: Sören Tempel <soeren+alpinelinux@soeren-tempel.net>
-pkgname=mksh
-pkgver=57
+pkgname="mksh"
+pkgver="57"
 _pkgver=R$pkgver
 pkgrel=0
 pkgdesc="MirBSD KSH Shell"

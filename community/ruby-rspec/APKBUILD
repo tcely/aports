@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-rspec
+pkgname="ruby-rspec"
 _gemname=${pkgname#ruby-}
-pkgver=3.8.0
+pkgver="3.8.0"
 pkgrel=0
 pkgdesc="Behaviour Driven Development for Ruby"
 url="http://rspec.info/"

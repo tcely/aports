@@ -1,6 +1,6 @@
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=email
-pkgver=3.1.4
+pkgname="email"
+pkgver="3.1.4"
 pkgrel=7
 pkgdesc="A command line SMTP client that's simple"
 url="http://www.cleancode.org/projects/email"

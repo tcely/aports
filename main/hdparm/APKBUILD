@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=hdparm
-pkgver=9.58
+pkgname="hdparm"
+pkgver="9.58"
 pkgrel=0
 pkgdesc="Utility for manipulating IDE device parameters"
 url="https://sourceforge.net/projects/hdparm"

@@ -2,8 +2,8 @@
 # Contributor: Matt Smith <mcs@darkregion.net>
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=nsd
-pkgver=4.1.26
+pkgname="nsd"
+pkgver="4.1.26"
 pkgrel=0
 pkgdesc="Authoritative only, high performance and simple DNS server"
 url="https://www.nlnetlabs.nl/projects/nsd"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-bottle-renderer
+pkgname="py-bottle-renderer"
 _pkgname=bottle-renderer
-pkgver=0.1.1
+pkgver="0.1.1"
 pkgrel=0
 pkgdesc="Bottle renderer plugin"
 url="https://pypi.python.org/pypi/bottle-renderer"

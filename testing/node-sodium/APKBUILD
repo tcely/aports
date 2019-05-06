@@ -1,8 +1,8 @@
 # Contributor: Corey Oliver <coreyjonoliver@gmail.com>
 # Maintainer: Corey Oliver <coreyjonoliver@gmail.com>
-pkgname=node-sodium
+pkgname="node-sodium"
 _pkgname=sodium
-pkgver=1.2.3
+pkgver="1.2.3"
 pkgrel=2
 pkgdesc="Port of the lib sodium encryption library to Node.js"
 url="https://github.com/paixaop/node-sodium"

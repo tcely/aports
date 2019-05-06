@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=osinfo-db
-pkgver=20190319
+pkgname="osinfo-db"
+pkgver="20190319"
 pkgrel=0
 pkgdesc="osinfo database files"
 url="http://libosinfo.org/"

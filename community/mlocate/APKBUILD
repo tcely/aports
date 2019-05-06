@@ -2,8 +2,8 @@
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Maintainer: Alex Laskin <alex@lask.in>
 
-pkgname=mlocate
-pkgver=0.26
+pkgname="mlocate"
+pkgver="0.26"
 pkgrel=7
 pkgdesc="A utility for finding files by name quickly"
 url="https://pagure.io/mlocate"

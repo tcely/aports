@@ -1,7 +1,7 @@
 # Contributor: Cág <ca6c@bitmessage.ch>
 # Maintainer: Cág <ca6c@bitmessage.ch>
-pkgname=btpd
-pkgver=0.16
+pkgname="btpd"
+pkgver="0.16"
 pkgrel=1
 pkgdesc="The BitTorrent Protocol Daemon"
 url="https://github.com/btpd/btpd"

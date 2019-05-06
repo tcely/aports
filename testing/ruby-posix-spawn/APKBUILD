@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ruby-posix-spawn
+pkgname="ruby-posix-spawn"
 _gemname=posix-spawn
-pkgver=0.3.13
+pkgver="0.3.13"
 pkgrel=0
 pkgdesc="Ruby process spawning library"
 url="https://github.com/rtomayko/posix-spawn"

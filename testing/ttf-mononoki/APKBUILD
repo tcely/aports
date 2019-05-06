@@ -1,7 +1,7 @@
 # Contributor: Ivan Tham <pickfire@riseup.net>
 # Maintainer: Ivan Tham <pickfire@riseup.net>
-pkgname=ttf-mononoki
-pkgver=1.2
+pkgname="ttf-mononoki"
+pkgver="1.2"
 pkgrel=1
 pkgdesc="Mononoki - font for programming and code review"
 url="https://madmalik.github.io/mononoki/"

@@ -4,8 +4,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Jesse Young <jlyo@jlyo.org>
 # Maintainer: Jesse Young <jlyo@jlyo.org>
-pkgname=exim
-pkgver=4.92
+pkgname="exim"
+pkgver="4.92"
 pkgrel=0
 pkgdesc="Message Transfer Agent"
 url="https://www.exim.org"

@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=rasqal
-pkgver=0.9.33
+pkgname="rasqal"
+pkgver="0.9.33"
 pkgrel=1
 pkgdesc="RDF query library"
 url="http://www.librdf.org/"

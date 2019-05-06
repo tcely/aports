@@ -13,8 +13,8 @@ _krel=0
 _kabi="$_kver-$_krel-$_flavor"
 _kpkgver="$_kver-r$_krel"
 
-pkgname=$_name-$_flavor
-pkgver=$_kver
+pkgname="$_name-$_flavor"
+pkgver="$_kver"
 pkgrel=$(( $_krel + $_rel ))
 
 pkgdesc="Network-based RAID 1 version 9"

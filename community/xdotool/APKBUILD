@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Contributor: Stefan Wagner <stw@bit-strickerei.de>
 # Maintainer: Stefan Wagner <stw@bit-strickerei.de>
-pkgname=xdotool
-pkgver=3.20160805.1
+pkgname="xdotool"
+pkgver="3.20160805.1"
 pkgrel=0
 pkgdesc="Simulate keyboard/mouse input"
 url="https://github.com/jordansissel/xdotool"

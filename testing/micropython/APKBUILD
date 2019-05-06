@@ -1,7 +1,7 @@
 # Contributor: Marian <marian.buschsieweke@ovgu.de>
 # Maintainer: Marian <marian.buschsieweke@ovgu.de>
-pkgname=micropython
-pkgver=1.9.4
+pkgname="micropython"
+pkgver="1.9.4"
 pkgrel=4
 pkgdesc="A lean and efficient Python implementation for MCUs and constrained systems"
 url="https://www.micropython.org/"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-io-gzip
-pkgver=0.20
+pkgname="perl-io-gzip"
+pkgver="0.20"
 pkgrel=1
 pkgdesc="Perl extension to provide a PerlIO layer to gzip/gunzip"
 url="http://search.cpan.org/dist/PerlIO-gzip/"

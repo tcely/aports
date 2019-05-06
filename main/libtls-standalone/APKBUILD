@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=libtls-standalone
-pkgver=2.9.1
+pkgname="libtls-standalone"
+pkgver="2.9.1"
 _namever=${pkgname}${pkgver%.*}
 pkgrel=0
 pkgdesc="libtls extricated from libressl sources"

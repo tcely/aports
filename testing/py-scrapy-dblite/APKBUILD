@@ -1,8 +1,8 @@
 # Contributor:
 # Maintainer:
-pkgname=py-scrapy-dblite
+pkgname="py-scrapy-dblite"
 _pkgname=scrapy-dblite
-pkgver=0.2.6
+pkgver="0.2.6"
 pkgrel=1
 pkgdesc="Simple library for storing Scrapy Items in sqlite." # quote from github
 url="https://github.com/ownport/scrapy-dblite"

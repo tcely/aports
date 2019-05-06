@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=postgresql-bdr
-pkgver=9.4.14_p1
+pkgname="postgresql-bdr"
+pkgver="9.4.14_p1"
 _pkgver=${pkgver/_p/_bdr}
 pkgrel=2
 pkgdesc="A sophisticated object-relational DBMS with bidirectional replication support (BDR)"

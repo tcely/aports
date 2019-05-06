@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=retawq
-pkgver=0.2.6c
+pkgname="retawq"
+pkgver="0.2.6c"
 pkgrel=5
 pkgdesc="retawq is an interactive, multi-threaded network client for text terminals"
 url="http://retawq.sourceforge.net/"

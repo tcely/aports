@@ -1,8 +1,8 @@
 # Contributor: Pedro Filipe <xpecex@outlook.com>
 # Contributor: 
 # Maintainer: 
-pkgname=vblade
-pkgver=24
+pkgname="vblade"
+pkgver="24"
 pkgrel=0
 pkgdesc="A virtual AoE blade server"
 url="https://github.com/OpenAoE/vblade"

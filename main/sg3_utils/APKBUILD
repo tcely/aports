@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sg3_utils
-pkgver=1.42
+pkgname="sg3_utils"
+pkgver="1.42"
 pkgrel=1
 pkgdesc="Generic SCSI utilities"
 url="http://sg.danny.cz/sg/sg3_utils.html"

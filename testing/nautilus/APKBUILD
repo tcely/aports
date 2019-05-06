@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=nautilus
-pkgver=3.24.1
+pkgname="nautilus"
+pkgver="3.24.1"
 pkgrel=0
 pkgdesc="GNOME file manager"
 url="https://wiki.gnome.org/Apps/Nautilus"

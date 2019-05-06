@@ -1,7 +1,7 @@
 # Contributor: 
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=attica
-pkgver=5.57.0
+pkgname="attica"
+pkgver="5.57.0"
 pkgrel=0
 pkgdesc="Freedesktop OCS binding for Qt"
 url="http://www.kde.org/"

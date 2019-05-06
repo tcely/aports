@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-amqp
+pkgname="php7-pecl-amqp"
 _pkgreal=amqp
-pkgver=1.9.4
+pkgver="1.9.4"
 pkgrel=0
 pkgdesc="PHP extension to communicate with any AMQP spec 0-9-1 compatible server - PECL"
 url="https://pecl.php.net/package/amqp"

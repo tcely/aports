@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=py-tox
+pkgname="py-tox"
 _pkgname=${pkgname#py-*}
-pkgver=3.7.0
+pkgver="3.7.0"
 pkgrel=0
 pkgdesc="virtualenv management and test command line tool"
 url="https://tox.readthedocs.org/"

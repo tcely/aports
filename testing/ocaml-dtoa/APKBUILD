@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=ocaml-dtoa
+pkgname="ocaml-dtoa"
 _pkgname=dtoa
-pkgver=0.3.1
+pkgver="0.3.1"
 pkgrel=1
 pkgdesc="double-to-ascii ocaml implementation"
 url="https://github.com/flowtype/ocaml-dtoa"

@@ -1,5 +1,5 @@
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=vdpauinfo
+pkgname="vdpauinfo"
 pkgver="1.0"
 pkgrel=0
 pkgdesc="Command line utility for querying the capabilities of a VDPAU device."

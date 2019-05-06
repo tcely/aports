@@ -1,6 +1,6 @@
 # Maintainer: Christian Kampka <christian@kampka.net>
-pkgname=torsocks
-pkgver=2.3.0
+pkgname="torsocks"
+pkgver="2.3.0"
 pkgrel=0
 pkgdesc="Wrapper to safely torify applications"
 url="https://gitweb.torproject.org/torsocks.git"

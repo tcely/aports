@@ -1,7 +1,7 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=httpry
-pkgver=0.1.8
+pkgname="httpry"
+pkgver="0.1.8"
 pkgrel=1
 pkgdesc="A packet sniffer designed for HTTP traffic"
 # Sources at https://github.com/jbittel/httpry/

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=perl-importer
-pkgver=0.025
+pkgname="perl-importer"
+pkgver="0.025"
 pkgrel=0
 pkgdesc="Alternative but compatible interface to modules that export symbols."
 url="https://metacpan.org/release/Importer"

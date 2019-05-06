@@ -1,8 +1,8 @@
 # Contributor: Taner Tas <taner76@gmail.com>
 # Maintainer: Taner Tas <taner76@gmail.com>
-pkgname=emulationstation
+pkgname="emulationstation"
 _pkgname="EmulationStation"
-pkgver=2.7.1
+pkgver="2.7.1"
 pkgrel=2
 pkgdesc="EmulationStation is a cross-platform graphical front-end for emulators with controller navigation."
 url="https://github.com/RetroPie/EmulationStation"

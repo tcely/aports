@@ -1,6 +1,6 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=unarj
-pkgver=2.63a
+pkgname="unarj"
+pkgver="2.63a"
 pkgrel=4
 pkgdesc="Extracting, testing and  viewing the contents of archives created with the ARJ archiver"
 url="http://www.arjsoftware.com"

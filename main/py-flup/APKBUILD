@@ -1,8 +1,8 @@
 # Contributor: <xmingske@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 _pkgname=flup
-pkgname=py-${_pkgname}
-pkgver=1.0.2
+pkgname="py-${_pkgname}"
+pkgver="1.0.2"
 pkgrel=0
 pkgdesc="WSGI modules for Python"
 url="https://www.saddi.com/software/flup/"

@@ -1,6 +1,6 @@
 # Maintainer: Christian Franke <nobody@nowhere.ws>
-pkgname=rtrlib
-pkgver=0.6.3
+pkgname="rtrlib"
+pkgver="0.6.3"
 pkgrel=0
 pkgdesc="An open-source C implementation of the RPKI/Router Protocol client"
 url="https://github.com/rtrlib/rtrlib"

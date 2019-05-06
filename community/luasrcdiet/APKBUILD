@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=luasrcdiet
-pkgver=1.0.0
+pkgname="luasrcdiet"
+pkgver="1.0.0"
 pkgrel=1
 pkgdesc="Compresses Lua source code by removing unnecessary characters"
 url="https://github.com/jirutka/luasrcdiet"

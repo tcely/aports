@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
 _php=php7
-pkgname=phpldapadmin
-pkgver=1.2.3
+pkgname="phpldapadmin"
+pkgver="1.2.3"
 pkgrel=5
 pkgdesc="Web front-end for managing OpenLDAP"
 url="http://phpldapadmin.sourceforge.net"

@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:  Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=perl-archive-zip
+pkgname="perl-archive-zip"
 _pkgname=Archive-Zip
-pkgver=1.64
+pkgver="1.64"
 pkgrel=0
 pkgdesc="Provide a perl interface to ZIP archive files."
 url="http://search.cpan.org/dist/Archive-Zip/"

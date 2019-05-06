@@ -1,8 +1,8 @@
 # Contributor: A. Wilcox <awilfox@adelielinux.org>
 # Maintainer: A. Wilcox <awilfox@adelielinux.org>
 
-pkgname=dejagnu
-pkgver=1.6.2
+pkgname="dejagnu"
+pkgver="1.6.2"
 pkgrel=0
 pkgdesc="A framework for testing other programs"
 url="https://www.gnu.org/software/dejagnu/"

@@ -1,7 +1,7 @@
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=py3-simpleparse
+pkgname="py3-simpleparse"
 _pkgname=SimpleParse
-pkgver=2.2.0
+pkgver="2.2.0"
 pkgrel=1
 pkgdesc="Python library providing simple and fast parser generator"
 url="https://launchpad.net/simpleparse"

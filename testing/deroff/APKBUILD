@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=deroff
-pkgver=2.0
+pkgname="deroff"
+pkgver="2.0"
 pkgrel=0
 pkgdesc="Deroff removes roff constructs from documents for the purpose of indexing"
 url="http://www.moria.de/~michael/deroff/"

@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=poppler
-pkgver=0.71.0
+pkgname="poppler"
+pkgver="0.71.0"
 pkgrel=0
 pkgdesc="PDF rendering library based on xpdf 3.0"
 url="https://poppler.freedesktop.org/"

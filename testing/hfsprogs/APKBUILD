@@ -1,8 +1,8 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=hfsprogs
+pkgname="hfsprogs"
 _pkgname=diskdev_cmds
-pkgver=540.1_p3
+pkgver="540.1_p3"
 _pkgver=${pkgver/_p/.linux}
 pkgrel=4
 pkgdesc="Tools to create/check Apple HFS+ filesystems"

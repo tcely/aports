@@ -1,7 +1,7 @@
 # Maintainer: Marian Buschsieweke <marian.buschsieweke@ovgu.de>
-pkgname=py-axolotl-curve25519
+pkgname="py-axolotl-curve25519"
 _pkgname="python-${pkgname#py-}"
-pkgver=0.4.1b
+pkgver="0.4.1b"
 _pkgver=0.4.1-2
 pkgrel=1
 pkgdesc="A python wrapper for curve25519 library with ed25519 signatures"

@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=perl-json-webtoken
+pkgname="perl-json-webtoken"
 _pkgname=JSON-WebToken
-pkgver=0.10
+pkgver="0.10"
 pkgrel=1
 pkgdesc="JSON Web Token (JWT) implementation for Perl"
 url="https://github.com/xaicron/p5-JSON-WebToken"

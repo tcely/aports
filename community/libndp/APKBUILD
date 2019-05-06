@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=libndp
-pkgver=1.7
+pkgname="libndp"
+pkgver="1.7"
 pkgrel=0
 pkgdesc="Library for IPv6 Neighbor Discovery Protocol"
 url="http://libndp.org"

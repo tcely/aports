@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-funcparserlib
+pkgname="py-funcparserlib"
 _pkgname=funcparserlib
-pkgver=0.3.6
+pkgver="0.3.6"
 pkgrel=3
 pkgdesc="Recursive descent parsing library based on functional combinators"
 url="https://github.com/vlasovskikh/funcparserlib"

@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: tcely <knot-resolver+aports@tcely.33mail.com>
-pkgname=knot-resolver
-pkgver=3.2.1
+pkgname="knot-resolver"
+pkgver="3.2.1"
 pkgrel=3
 pkgdesc="Minimalistic caching DNS resolver implementation"
 url="https://www.knot-resolver.cz/"

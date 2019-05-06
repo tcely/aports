@@ -1,8 +1,8 @@
 # Contributor: Sebastian Hugentobler <sebastian@vanwa.ch>
 # Maintainer: Sebastian Hugentobler <sebastian@vanwa.ch>
-pkgname=py-blist
+pkgname="py-blist"
 _pkgname=${pkgname/py-/}
-pkgver=1.3.6
+pkgver="1.3.6"
 pkgrel=1
 pkgdesc="A list-like type with better asymptotic performance and similar performance on small lists"
 url="https://github.com/DanielStutzbach/blist"

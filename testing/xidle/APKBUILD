@@ -1,7 +1,7 @@
 # Contributor: Leo <thinkabit.ukim@gmail.com>
 # Maintainer: Leo <thinkabit.ukim@gmail.com>
-pkgname=xidle
-pkgver=6.5
+pkgname="xidle"
+pkgver="6.5"
 pkgrel=0
 pkgdesc="Run a program on X inactivity"
 url="https://github.com/steinex/xidle-linux"

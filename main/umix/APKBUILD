@@ -1,7 +1,7 @@
 # Contributor: Michael Mason <ms13sp@gmail.com>
 # Maintainer: Michael Mason <ms13sp@gmail.com>
-pkgname=umix
-pkgver=1.0.2
+pkgname="umix"
+pkgver="1.0.2"
 pkgrel=7
 pkgdesc="Program for adjusting soundcard volumes"
 url="http://umix.sf.net"

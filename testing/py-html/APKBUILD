@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-html
+pkgname="py-html"
 _pkgname=html
-pkgver=1.16
+pkgver="1.16"
 pkgrel=0
 pkgdesc="A Python HTML, XHTML, and XML generation module"
 url="http://pypi.python.org/pypi/html"

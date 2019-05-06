@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=gnome-icon-theme-symbolic
-pkgver=3.12.0
+pkgname="gnome-icon-theme-symbolic"
+pkgver="3.12.0"
 pkgrel=0
 pkgdesc="Symbolic GNOME icons"
 url="https://git.gnome.org/browse/gnome-icon-theme-symbolic"

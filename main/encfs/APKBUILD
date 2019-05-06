@@ -1,7 +1,7 @@
 # Contributor: ScrumpyJack <scrumpyjack@st.ilet.to>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=encfs
-pkgver=1.9.5
+pkgname="encfs"
+pkgver="1.9.5"
 _ver=${pkgver/_/-}
 pkgrel=3
 pkgdesc="EncFS provides an encrypted filesystem in user-space"

@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
-pkgname=lua-lxc
-pkgver=3.0.2
+pkgname="lua-lxc"
+pkgver="3.0.2"
 pkgrel=0
 pkgdesc="Lua bindings for LXC"
 url="https://linuxcontainers.org"

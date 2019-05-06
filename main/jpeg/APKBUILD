@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter at gmail>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=jpeg
-pkgver=8
+pkgname="jpeg"
+pkgver="8"
 pkgrel=6
 pkgdesc="Wrapper for libjpeg-turbo"
 url="http://www.ijg.org/"

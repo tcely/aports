@@ -1,6 +1,6 @@
 # Maintainer: Drew DeVault <sir@cmpwn.com>
-pkgname=slurp
-pkgver=1.1.0
+pkgname="slurp"
+pkgver="1.1.0"
 pkgrel=0
 pkgdesc="Interaction screen selection on Wayland compositors"
 url="https://wayland.emersion.fr/slurp/"

@@ -1,7 +1,7 @@
 # Contributor: Alan Lacerda <alacerda@alpinelinux.org>
 # Maintainer: Alan Lacerda <alacerda@alpinelinux.org>
-pkgname=mate-media
-pkgver=1.22.0
+pkgname="mate-media"
+pkgver="1.22.0"
 pkgrel=1
 pkgdesc="Media tools for MATE"
 url="https://github.com/mate-desktop/mate-media"

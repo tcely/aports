@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=font-noto-emoji
-pkgver=20180102
+pkgname="font-noto-emoji"
+pkgver="20180102"
 _commit=153e1d4c026c124fbac6ee93e559b5df375f24f5
 pkgrel=1
 pkgdesc="Google Noto emoji fonts"

@@ -1,8 +1,8 @@
 # Contributor: Fabian Affolter <fabian@affolter-engineering.ch>
 # Maintainer: Fabian Affolter <fabian@affolter-engineering.ch>
-pkgname=py-sphinxcontrib-inheritance
+pkgname="py-sphinxcontrib-inheritance"
 _pkgname=sphinxcontrib-inheritance
-pkgver=0.6
+pkgver="0.6"
 pkgrel=0
 pkgdesc="Sphinx inheritance functionality"
 url="https://pypi.python.org/pypi/sphinxcontrib-inheritance"

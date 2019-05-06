@@ -2,8 +2,8 @@
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 
-pkgname=libtorrent
-pkgver=0.13.7
+pkgname="libtorrent"
+pkgver="0.13.7"
 pkgrel=1
 pkgdesc="BitTorrent library written in C++"
 url="http://rakshasa.github.io/rtorrent/"

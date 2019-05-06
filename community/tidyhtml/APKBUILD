@@ -2,9 +2,9 @@
 # Contributor: Valery Kartel <valery.kartel@gmail.com>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@alpinelinux.org>
 
-pkgname=tidyhtml
+pkgname="tidyhtml"
 _pkgreal=tidy-html5
-pkgver=5.6.0
+pkgver="5.6.0"
 pkgrel=0
 pkgdesc="Tool to tidy down your HTML code to a clean style"
 arch=all

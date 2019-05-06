@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=junit
-pkgver=4.12
+pkgname="junit"
+pkgver="4.12"
 pkgrel=0
 pkgdesc="A programmer-oriented testing framework for Java"
 url="http://junit.org/"

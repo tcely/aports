@@ -1,7 +1,7 @@
 # Contributor: Jakub Jirutka <jakub@jirutka.cz>
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
-pkgname=spring-boot-openrc
-pkgver=0.1.1
+pkgname="spring-boot-openrc"
+pkgver="0.1.1"
 pkgrel=0
 pkgdesc="OpenRC runscript for Java applications based on Spring Boot"
 url="https://github.com/jirutka/spring-boot-openrc"

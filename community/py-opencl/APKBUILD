@@ -1,8 +1,8 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=py-opencl
+pkgname="py-opencl"
 _pkgreal=${pkgname/-/}
-pkgver=2018.1.1
+pkgver="2018.1.1"
 pkgrel=2
 pkgdesc="Python wrapper for OpenCL"
 url="https://pypi.python.org/pypi/pyopencl"

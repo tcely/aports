@@ -1,7 +1,7 @@
 # Contributor: Steeve Chailloux <steeve.chailloux@orus.io>
 # Maintainer: Steeve Chailloux <steeve.chailloux@orus.io>
-pkgname=s3fs-fuse
-pkgver=1.84
+pkgname="s3fs-fuse"
+pkgver="1.84"
 pkgrel=0
 pkgdesc="FUSE-based file system backed by Amazon S3"
 url="https://github.com/s3fs-fuse/s3fs-fuse"

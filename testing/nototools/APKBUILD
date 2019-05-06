@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=nototools
-pkgver=20171030
+pkgname="nototools"
+pkgver="20171030"
 _commit=3627598b4e858c6eb43e9ee76400d7072570a3e8
 pkgrel=0
 pkgdesc="Noto fonts support tools and scripts"

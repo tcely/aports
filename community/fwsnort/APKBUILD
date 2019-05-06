@@ -1,7 +1,7 @@
 # Contributor: Stuart Cardall <developer@it-offshore.co.uk>
 # Maintainer: Stuart Cardall <developer@it-offshore.co.uk>
-pkgname=fwsnort
-pkgver=1.6.8
+pkgname="fwsnort"
+pkgver="1.6.8"
 pkgrel=2
 pkgdesc="Application layer IDS/IPS by translating snort rules into iptables"
 url="http://www.cipherdyne.org/fwsnort/"

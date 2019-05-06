@@ -1,8 +1,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=cvechecker
-pkgver=3.9
+pkgname="cvechecker"
+pkgver="3.9"
 pkgrel=1
 pkgdesc="A local CVE checker tool"
 url="https://github.com/sjvermeu/cvechecker/wiki"

@@ -1,8 +1,8 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=perl-test-notabs
+pkgname="perl-test-notabs"
 _pkgreal=Test-NoTabs
-pkgver=2.02
+pkgver="2.02"
 pkgrel=0
 pkgdesc="Check the presence of tabs in your project"
 url="http://search.cpan.org/dist/Test-NoTabs/"

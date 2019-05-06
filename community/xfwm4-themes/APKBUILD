@@ -1,6 +1,6 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=xfwm4-themes
-pkgver=4.10.0
+pkgname="xfwm4-themes"
+pkgver="4.10.0"
 pkgrel=0
 pkgdesc="A set of additionnal themes for the Xfce window manager"
 url="https://xfce.org/"

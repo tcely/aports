@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=spice
-pkgver=0.14.1
+pkgname="spice"
+pkgver="0.14.1"
 pkgrel=6
 pkgdesc="Implements the SPICE protocol"
 url="http://www.spice-space.org/"

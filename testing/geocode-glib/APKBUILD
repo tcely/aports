@@ -1,6 +1,6 @@
 # Maintainer: 
-pkgname=geocode-glib
-pkgver=3.23.90
+pkgname="geocode-glib"
+pkgver="3.23.90"
 pkgrel=0
 pkgdesc="geocoding library for glib"
 url="https://developer.gnome.org/geocode-glib/"

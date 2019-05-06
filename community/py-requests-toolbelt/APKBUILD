@@ -1,8 +1,8 @@
 # Contributor: Roberto Oliveira <robertoguimaraes8@gmail.com>
 # Maintainer: Roberto Oliveira <robertoguimaraes8@gmail.com>
-pkgname=py-requests-toolbelt
+pkgname="py-requests-toolbelt"
 _pkgname=toolbelt
-pkgver=0.8.0
+pkgver="0.8.0"
 pkgrel=1
 pkgdesc="Useful classes and functions to be used with python-requests"
 url="https://github.com/requests/toolbelt"

@@ -1,7 +1,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
-pkgname=sshguard
-pkgver=2.2.0
+pkgname="sshguard"
+pkgver="2.2.0"
 pkgrel=0
 pkgdesc="Log monitor that blocks with iptables on bad behaviour"
 url="https://www.sshguard.net"

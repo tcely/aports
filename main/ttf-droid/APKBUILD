@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer:
-pkgname=ttf-droid
-pkgver=20121017
+pkgname="ttf-droid"
+pkgver="20121017"
 pkgrel=0
 pkgdesc="General-purpose fonts released by Google as part of Android."
 url="http://code.google.com/android/"

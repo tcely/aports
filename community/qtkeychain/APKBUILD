@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=qtkeychain
-pkgver=0.8.0
+pkgname="qtkeychain"
+pkgver="0.8.0"
 pkgrel=1
 pkgdesc="Qt API to store passwords and other secret data"
 url="https://github.com/frankosterfeld/qtkeychain"

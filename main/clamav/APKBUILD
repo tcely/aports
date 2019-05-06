@@ -2,8 +2,8 @@
 # Contributor: Łukasz Jendrysik <scadu@yandex.com>
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Carlo Landmeter <clandmeter@gmail.com>
-pkgname=clamav
-pkgver=0.100.3
+pkgname="clamav"
+pkgver="0.100.3"
 pkgrel=0
 pkgusers="clamav"
 pkggroups="clamav"

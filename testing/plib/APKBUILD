@@ -1,7 +1,7 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer:
-pkgname=plib
-pkgver=1.8.5
+pkgname="plib"
+pkgver="1.8.5"
 pkgrel=0
 pkgdesc="Portable Game Library"
 url="http://plib.sourceforge.net"

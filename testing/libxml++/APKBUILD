@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=libxml++
-pkgver=3.0.1
+pkgname="libxml++"
+pkgver="3.0.1"
 pkgrel=2
 pkgdesc="libbxml++ is a C++ wrapper for the libxml XML parser library."
 url="http://libxmlplusplus.sourceforge.net/"

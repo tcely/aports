@@ -1,8 +1,8 @@
 # Contributor: Fabio Ribeiro <fabiorphp@gmail.com>
 # Maintainer: Fabio Ribeiro <fabiorphp@gmail.com>
-pkgname=php7-pecl-timezonedb
+pkgname="php7-pecl-timezonedb"
 _pkgreal=timezonedb
-pkgver=2019.1
+pkgver="2019.1"
 pkgrel=2
 pkgdesc="Timezone Database to be used with PHP's date and time functions."
 url="https://pecl.php.net/package/timezonedb"

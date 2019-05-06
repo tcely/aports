@@ -1,6 +1,6 @@
 # Maintainer: Christian Kampka <christian@kampka.net>
-pkgname=po4a
-pkgver=0.55
+pkgname="po4a"
+pkgver="0.55"
 pkgrel=0
 pkgdesc="Tools for helping translation of documentation"
 url="https://po4a.org"

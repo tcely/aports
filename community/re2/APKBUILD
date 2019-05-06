@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
-pkgname=re2
-pkgver=2019.04.01
+pkgname="re2"
+pkgver="2019.04.01"
 _pkgver=${pkgver//./-}
 pkgrel=0
 pkgdesc="Efficient, principled regular expression library"

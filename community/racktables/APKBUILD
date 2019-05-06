@@ -1,8 +1,8 @@
 # Contributor: Leonardo Arena <rnalrd@alpinelinux.org>
 # Maintainer: Leonardo Arena <rnalrd@alpinelinux.org>
-pkgname=racktables
+pkgname="racktables"
 _realname=RackTables
-pkgver=0.21.2
+pkgver="0.21.2"
 pkgrel=0
 pkgdesc="Server room asset management"
 url="http://racktables.org"

@@ -1,7 +1,7 @@
 # Contributor: A. Wilcox <awilfox@adelielinux.org>
 # Maintainer: A. Wilcox <awilfox@adelielinux.org>
-pkgname=man-db
-pkgver=2.8.2
+pkgname="man-db"
+pkgver="2.8.2"
 pkgrel=0
 pkgdesc="The man command and related utilities for examining on-line help files"
 url="http://www.nongnu.org/man-db/"

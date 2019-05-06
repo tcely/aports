@@ -1,8 +1,8 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer:
-pkgname=iverilog
+pkgname="iverilog"
 _pkgver=10_2
-pkgver=${_pkgver%%_*}.${_pkgver##*_}
+pkgver="${_pkgver%%_*}.${_pkgver##*_}"
 pkgrel=0
 pkgdesc="Icarus Verilog compiler and simulation tool"
 url="http://iverilog.icarus.com"

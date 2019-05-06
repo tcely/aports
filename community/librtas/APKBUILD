@@ -1,6 +1,6 @@
 # Maintainer: Breno Leitao <breno.leitao@gmail.com>
-pkgname=librtas
-pkgver=2.0.2
+pkgname="librtas"
+pkgver="2.0.2"
 pkgrel=0
 pkgdesc="Librtas provides a set of libraries that access Run-Time Abstraction Services (RTAS)"
 url="https://github.com/nfont/librtas"

@@ -1,7 +1,7 @@
 # Contributor: Katie Holly <holly@fuslvz.ws>
 # Maintainer: Katie Holly <holly@fuslvz.ws>
-pkgname=telegraf
-pkgver=1.7.4
+pkgname="telegraf"
+pkgver="1.7.4"
 pkgrel=1
 pkgdesc="A plugin-driven server agent for collecting & reporting metrics, part of the InfluxDB project"
 url="https://www.influxdata.com/time-series-platform/telegraf/"

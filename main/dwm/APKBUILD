@@ -1,7 +1,7 @@
 # Contributor: Gaber Ayoubi <gaber.ayoubi@gmail.com>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
-pkgname=dwm
-pkgver=6.2
+pkgname="dwm"
+pkgver="6.2"
 pkgrel=0
 pkgdesc="dwm - dynamic window manager"
 url="https://dwm.suckless.org"

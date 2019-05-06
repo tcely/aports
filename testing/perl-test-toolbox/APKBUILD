@@ -1,7 +1,7 @@
 # Contributor: TBK <tbk@jjtc.eu>
-pkgname=perl-test-toolbox
+pkgname="perl-test-toolbox"
 _pkgreal=Test-Toolbox
-pkgver=0.4
+pkgver="0.4"
 pkgrel=1
 pkgdesc="Tools for testing"
 url="http://search.cpan.org/dist/Test-Toolbox/"
