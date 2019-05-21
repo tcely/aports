@@ -15,7 +15,7 @@ pkgname=nginx
 # NOTE: Upgrade only to even-numbered versions (e.g. 1.14.z, 1.16.z)!
 # Odd-numbered versions are mainline (development) versions.
 pkgver=1.16.0
-pkgrel=2
+pkgrel=3
 # Revision of nginx-tests to use for check().
 _tests_hgrev=2be630357aa7
 _njs_ver=0.3.1
@@ -23,6 +23,8 @@ pkgdesc="HTTP and reverse proxy server (stable version)"
 url="https://www.nginx.org/"
 arch="all"
 license="BSD-2-Clause"
+_provide="cmd:nginx"
+provides="$_provide"
 depends=""
 makedepends="
 	gd-dev
@@ -302,7 +304,7 @@ _module() {
 	sonames="${sonames:-"ngx_${name}_module.so"}"
 
 	pkgdesc="$pkgdesc (module $name)"
-	depends="$pkgname $(eval "echo \$_${name}_depends")"
+	depends="$_provide $(eval "echo \$_${name}_depends")"
 	provides="$(eval "echo \$_${name}_provides")"
 
 	mkdir -p "$subpkgdir"/$_modules_dir
