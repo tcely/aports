@@ -2,8 +2,8 @@
 # Maintainer: tcely <openresty+aports@tcely.33mail.com>
 pkgname=openresty
 pkgver="1.15.8.1"
-_rc=1
-pkgrel=0
+_rc=2
+pkgrel=1
 pkgdesc="Scalable Web Platform by Extending NGINX with Lua"
 url="https://openresty.org/"
 arch="all !ppc64le !s390x" # LuaJIT build errors
@@ -32,11 +32,15 @@ _add_module() {
 }
 
 _add_module echo
+_add_module geoip
 _add_module headers-more headers_more_filter
+_add_module image-filter
 _add_module lua lua nginx-mod-devel-kit
 _add_module lua-upstream lua_upstream "${pkgname}-mod-http-lua"
+_add_module perl
 _add_module redis2
 _add_module set-misc set_misc nginx-mod-devel-kit
+_add_module xslt-filter
 
 prepare() {
 	default_prepare
@@ -126,7 +130,9 @@ _module() {
 
 	mkdir -p "${subpkgdir}${_modules_dir}"
 	cd "${subpkgdir}${_modules_dir}"
-	mv "$builddir"/built/nginx-*/objs/"$soname" .
+	if ! mv "${pkgdir}${_modules_dir}/${soname}" . 2>/dev/null; then
+		mv "$builddir"/built/nginx-*/objs/"$soname" .
+	fi
 
 	mkdir -p "${subpkgdir}/etc/nginx/modules"
 	cd "${subpkgdir}/etc/nginx/modules"
@@ -142,6 +148,8 @@ doc() {
 	mkdir -p "$subpkgdir$_prefix/luajit/share"
 	mkdir -p "$subpkgdir$_prefix/site"
 
+	mv "$pkgdir$_prefix/COPYRIGHT" "$subpkgdir$_prefix/"
+
 	mv "$pkgdir$_prefix/pod" "$subpkgdir$_prefix/"
 	mv "$pkgdir$_prefix/site/pod" "$subpkgdir$_prefix/site/"
 	mv "$pkgdir$_prefix/luajit/share/man" "$subpkgdir$_prefix/luajit/share/"
@@ -153,9 +161,13 @@ doc() {
 
 	mkdir -p "$subpkgdir/usr/lib/perl5/vendor_perl"
 	mv "$pkgdir/usr/lib/perl5/vendor_perl/man3" "$subpkgdir/usr/lib/perl5/vendor_perl/"
+
+	local _dir="$(cd "$pkgdir"/usr/lib/perl5/vendor_perl && echo *-thread-multi)"
+	mkdir -p "$subpkgdir/usr/lib/perl5/vendor_perl/$_dir"
+	mv "$pkgdir/usr/lib/perl5/vendor_perl/$_dir"/*.pod "$subpkgdir/usr/lib/perl5/vendor_perl/$_dir/"
 }
 
 gpg_signature_extensions="asc"
 gpgfingerprints="good:2545 1EB0 8846 0026 195B  D62C B550 E09E A0E9 8066"
 
-sha512sums="dee1051d45673e13bccad6957bac08cbd1bfd3e2f67fd9751303d8a29c46eca64214c00614eef21d608342fd095392c27615ca72feb3bf1492698cef238c92ff  openresty-1.15.8.1rc1.tar.gz"
+sha512sums="80ee0cff790d71e3603d3b398829a4166d8c096d362c8b7c02d1cbc0b8ba7c4cd24042744e708acd462f4cf6fc5bf43121945a702f078fa80ce7613817275700  openresty-1.15.8.1rc2.tar.gz"
