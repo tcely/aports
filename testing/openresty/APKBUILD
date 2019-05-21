@@ -2,8 +2,8 @@
 # Maintainer: tcely <openresty+aports@tcely.33mail.com>
 pkgname=openresty
 pkgver="1.15.8.1"
-_rc=2
-pkgrel=4
+_rc=
+pkgrel=5
 pkgdesc="Scalable Web Platform by Extending NGINX with LuaJIT"
 url="https://openresty.org/"
 arch="all !ppc64le" # LuaJIT build errors
@@ -205,5 +205,5 @@ luajit_dev() {
 gpg_signature_extensions="asc"
 gpgfingerprints="good:2545 1EB0 8846 0026 195B  D62C B550 E09E A0E9 8066"
 
-sha512sums="80ee0cff790d71e3603d3b398829a4166d8c096d362c8b7c02d1cbc0b8ba7c4cd24042744e708acd462f4cf6fc5bf43121945a702f078fa80ce7613817275700  openresty-1.15.8.1rc2.tar.gz
+sha512sums="3e1826aa7ddbe44c638128ca02da9978dba21957d5d7a1739feeff81dcaa3bde2a8c3d69a948b6d7183e8a8453c09baa39c52f0268a74062ed63dfb3e86b0921  openresty-1.15.8.1.tar.gz
 8d45596cec4876df60dc3a706422a0d5af3aabc00a09a721feb316c1ea46f8c931fcf4218a2d4c05a5dd1706f2ce7e9b7c77ffbde0eff93274cf132147727c0c  enable-s390x.patch.LuaJIT-2.1"
