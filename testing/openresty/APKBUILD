@@ -3,19 +3,19 @@
 pkgname=openresty
 pkgver="1.15.8.1"
 _rc=2
-pkgrel=2
-pkgdesc="Scalable Web Platform by Extending NGINX with Lua"
+pkgrel=3
+pkgdesc="Scalable Web Platform by Extending NGINX with LuaJIT"
 url="https://openresty.org/"
 arch="all !ppc64le" # LuaJIT build errors
 license="BSD-2-Clause"
 options="!check" # tests environment not available
 provides="cmd:nginx"
-depends="!nginx"
-depends_dev=""
+depends="!nginx $pkgname-luajit>=$pkgver-r$pkgrel"
+depends_luajit="!luajit"
 makedepends="linux-headers gd-dev geoip-dev openssl-dev libxml2-dev libxslt-dev
 	pcre-dev perl-dev pkgconf readline-dev zlib-dev"
 install=""
-subpackages="$pkgname-doc"
+subpackages="$pkgname-doc $pkgname-luajit"
 source="https://openresty.org/download/${pkgname}-${pkgver}${_rc:+rc${_rc}}.tar.gz
 	enable-s390x.patch.LuaJIT-2.1
 	"
@@ -179,6 +179,16 @@ doc() {
 	local _dir="$(cd "$pkgdir"/usr/lib/perl5/vendor_perl && echo *-thread-multi)"
 	mkdir -p "$subpkgdir/usr/lib/perl5/vendor_perl/$_dir"
 	mv "$pkgdir/usr/lib/perl5/vendor_perl/$_dir"/*.pod "$subpkgdir/usr/lib/perl5/vendor_perl/$_dir/"
+}
+
+luajit() {
+	depends="$depends_luajit"
+
+	local _prefix='/var/lib/nginx'
+
+	mkdir -p "$subpkgdir"
+	mv "$pkgdir$_prefix/luajit" "$subpkgdir/usr"
+	ln -s ../../../usr "$pkgdir$_prefix/luajit"
 }
 
 gpg_signature_extensions="asc"
