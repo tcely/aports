@@ -3,10 +3,10 @@
 pkgname=openresty
 pkgver="1.15.8.1"
 _rc=2
-pkgrel=1
+pkgrel=2
 pkgdesc="Scalable Web Platform by Extending NGINX with Lua"
 url="https://openresty.org/"
-arch="all !ppc64le !s390x" # LuaJIT build errors
+arch="all !ppc64le" # LuaJIT build errors
 license="BSD-2-Clause"
 options="!check" # tests environment not available
 provides="cmd:nginx"
@@ -16,7 +16,9 @@ makedepends="linux-headers gd-dev geoip-dev openssl-dev libxml2-dev libxslt-dev
 	pcre-dev perl-dev pkgconf readline-dev zlib-dev"
 install=""
 subpackages="$pkgname-doc"
-source="https://openresty.org/download/${pkgname}-${pkgver}${_rc:+rc${_rc}}.tar.gz"
+source="https://openresty.org/download/${pkgname}-${pkgver}${_rc:+rc${_rc}}.tar.gz
+	enable-s390x.patch.LuaJIT-2.1
+	"
 builddir="${srcdir}/${pkgname}-${pkgver}${_rc:+rc${_rc}}"
 
 _modules_dir="/usr/lib/nginx/modules"
@@ -47,6 +49,18 @@ prepare() {
 	cd "$builddir"
 
 	sed -i.orig -e '/--add-module=$dir/s/module/dynamic-&/' configure
+
+	local tag='LuaJIT-2.1'
+	cd "bundle/${tag}"-*
+	local p s; for s in $source; do
+		p="${s%::*}"
+		case "${p}" in
+			*.patch."${tag}")
+				msg "${p%.${tag}}"
+				patch ${patch_args:--p1} -i "$srcdir/${p}" || return 1
+			;;
+		esac
+	done
 }
 
 _configure() {
@@ -170,4 +184,5 @@ doc() {
 gpg_signature_extensions="asc"
 gpgfingerprints="good:2545 1EB0 8846 0026 195B  D62C B550 E09E A0E9 8066"
 
-sha512sums="80ee0cff790d71e3603d3b398829a4166d8c096d362c8b7c02d1cbc0b8ba7c4cd24042744e708acd462f4cf6fc5bf43121945a702f078fa80ce7613817275700  openresty-1.15.8.1rc2.tar.gz"
+sha512sums="80ee0cff790d71e3603d3b398829a4166d8c096d362c8b7c02d1cbc0b8ba7c4cd24042744e708acd462f4cf6fc5bf43121945a702f078fa80ce7613817275700  openresty-1.15.8.1rc2.tar.gz
+8d45596cec4876df60dc3a706422a0d5af3aabc00a09a721feb316c1ea46f8c931fcf4218a2d4c05a5dd1706f2ce7e9b7c77ffbde0eff93274cf132147727c0c  enable-s390x.patch.LuaJIT-2.1"
