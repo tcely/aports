@@ -3,7 +3,7 @@
 pkgname=openresty
 pkgver="1.15.8.1"
 _rc=2
-pkgrel=3
+pkgrel=4
 pkgdesc="Scalable Web Platform by Extending NGINX with LuaJIT"
 url="https://openresty.org/"
 arch="all !ppc64le" # LuaJIT build errors
@@ -15,7 +15,7 @@ depends_luajit="!luajit"
 makedepends="linux-headers gd-dev geoip-dev openssl-dev libxml2-dev libxslt-dev
 	pcre-dev perl-dev pkgconf readline-dev zlib-dev"
 install=""
-subpackages="$pkgname-doc $pkgname-luajit"
+subpackages="$pkgname-doc $pkgname-luajit-dev:luajit_dev $pkgname-luajit"
 source="https://openresty.org/download/${pkgname}-${pkgver}${_rc:+rc${_rc}}.tar.gz
 	enable-s390x.patch.LuaJIT-2.1
 	"
@@ -189,6 +189,17 @@ luajit() {
 	mkdir -p "$subpkgdir"
 	mv "$pkgdir$_prefix/luajit" "$subpkgdir/usr"
 	ln -s ../../../usr "$pkgdir$_prefix/luajit"
+}
+
+luajit_dev() {
+	mv "$pkgdir"/usr "$pkgdir"/usr.saved
+	mv "$pkgdir"/var/lib/nginx/luajit "$pkgdir"/usr
+
+	default_dev
+	depends="$depends_luajit_dev"
+
+	mv "$pkgdir"/usr "$pkgdir"/var/lib/nginx/luajit
+	mv "$pkgdir"/usr.saved "$pkgdir"/usr
 }
 
 gpg_signature_extensions="asc"
