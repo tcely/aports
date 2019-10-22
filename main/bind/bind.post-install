@@ -1,0 +1,8 @@
+#!/bin/sh
+
+rndc_key_path='/etc/bind/rndc.key'
+if [ ! -e "${rndc_key_path}" ]; then
+	rndc-confgen -a -c "${rndc_key_path}" -u named
+fi
+
+exit 0

@@ -39,6 +39,14 @@ checkzones() {
 	eend $?
 }
 
+reload() {
+	ebegin "Reloading named"
+	checkconfig || { eend 1; return 1; }
+	checkzones || { eend 2; return 2; }
+	/usr/sbin/rndc reload
+	eend $?
+}
+
 start() {
 	local piddir
 	ebegin "Starting named"
