@@ -1,7 +1,7 @@
 # Contributor: Carlo Landmeter <clandmeter@gmail.com>
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=sysstat
-pkgver=12.1.6
+pkgver=12.1.7
 pkgrel=0
 pkgdesc="iA Performance monitoring tools"
 url="http://pagesperso-orange.fr/sebastien.godard/"
@@ -9,7 +9,7 @@ arch="all"
 license="GPL-2.0-or-later"
 makedepends="linux-headers"
 subpackages="$pkgname-doc"
-source="http://pagesperso-orange.fr/sebastien.godard/sysstat-$pkgver.tar.xz
+source="$pkgname-$pkgver.tar.gz::https://github.com/sysstat/sysstat/archive/v$pkgver.tar.gz
 	musl-fix-includes.patch"
 
 build() {
@@ -31,5 +31,5 @@ package() {
 
 }
 
-sha512sums="3e7585eea0940ad57becb35765ad49501d3f775ca550acfc9f24c277ea24f7c898a789d53fa9a6c7efe55c29cc0699e746509b88c2d4878a52844e4b3362f89d  sysstat-12.1.6.tar.xz
+sha512sums="0ee3b246619ff6e904db1359b4dc05789fe1f55759d170f78de918b001a81137823801bdcb4c9d9137c3337d38259e79ccef9c76310d361e0a81bb2731b7a3d1  sysstat-12.1.7.tar.gz
 183ff89a3a0c3923b436991a2653a133942525b5f45d842ee6ed3546166211cf12828e07dc4ded2d4af8451f049ae75a87fc903a6297791034d6b304c6ef0faf  musl-fix-includes.patch"

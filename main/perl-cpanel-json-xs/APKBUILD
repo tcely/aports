@@ -2,7 +2,7 @@
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 pkgname=perl-cpanel-json-xs
 _pkgreal=Cpanel-JSON-XS
-pkgver=4.13
+pkgver=4.15
 pkgrel=0
 pkgdesc="JSON::XS for Cpanel, fast and correct serialising, also for 5.6.2"
 url="https://metacpan.org/release/Cpanel-JSON-XS"
@@ -38,4 +38,4 @@ package() {
 	find "$pkgdir" \( -name perllocal.pod -o -name .packlist \) -delete
 }
 
-sha512sums="02aeda7488fd4fc4309502a2df14f515c2f02be4e1de62c0a67af81c486d8a820a81d4f23f1d6060a3b0265556ea96ba4d43ba47c2c8dc99ca68d511123b7196  Cpanel-JSON-XS-4.13.tar.gz"
+sha512sums="410a5d30b95a13ad126dd171a23d53157f4687bd9f9a42f4bdb46a783e2660fd3ccd492b948002b766123565bb01b25d994d7763ec8d8da4b1fad88d327482b1  Cpanel-JSON-XS-4.15.tar.gz"
