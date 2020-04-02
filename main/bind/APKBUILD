@@ -4,7 +4,7 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: tcely <bind+aports@tcely.33mail.com>
 pkgname="bind"
-pkgver="9.14.9"
+pkgver="9.16.1"
 pkgrel=0
 _isc_ver="2.0"
 _isc_rel=0
@@ -64,7 +64,7 @@ subpackages="
 	$pkgname-tools
 	"
 source="
-	https://downloads.isc.org/isc/${pkgname}${_major}/${_ver}/${pkgname}-${_ver}.tar.gz
+	https://downloads.isc.org/isc/${pkgname}${_major}/${_ver}/${pkgname}-${_ver}.tar.xz
 	bind.plugindir.patch
 	bind.so_bsdcompat.patch
 	named.initd
@@ -301,7 +301,7 @@ gpgfingerprints="
 	BE0E 9748 B718 253A 28BB  89FF F1B1 1BF0 5CF0 2E57
 	"
 
-sha512sums="aa6b1273f06fc16c842b7012a4d09cb65325a44ee88fea8bea8264ffa907ef4a6f8d5e09384599b2d6f5cea66c0dc220765c245814f54b2f09a5b6e65f97964b  bind-9.14.9.tar.gz
+sha512sums="9a1e8987f312b09a16c2ee0fd1d1eb8e4951b8dbcf3c0d51a1a1fb179a261028239ab2bebc3e559592cc766de57a26ba37b27621a0c5e1711d36c2416f0a0c26  bind-9.16.1.tar.xz
 2b32d1e7f62cd1e01bb4fdd92d15460bc14761b933d5acc463a91f5ecd4773d7477c757c5dd2738e8e433693592cf3f623ffc142241861c91848f01aa84640d6  bind.plugindir.patch
 7167dccdb2833643dfdb92994373d2cc087e52ba23b51bd68bd322ff9aca6744f01fa9d8a4b9cd8c4ce471755a85c03ec956ec0d8a1d4fae02124ddbed6841f6  bind.so_bsdcompat.patch
 ff26426592c61dea71343541151cee77c61c0f24bf3875f72ca8a6f3935e3ffab80461da21feb7ffc9efc67f6ddd5b72db96219d0a939b422376ba9b737ed234  named.initd
