@@ -190,13 +190,6 @@ package() {
 	ln -s named.ca root.cache
 }
 
-dev() {
-	default_dev
-
-	mkdir -p "$subpkgdir"/usr/bin
-	mv "$pkgdir"/usr/bin/isc-config.sh "$subpkgdir"/usr/bin/
-}
-
 plugins() {
 	pkgdesc="The ISC DNS server plugins"
 	depends="$depends_plugins"
