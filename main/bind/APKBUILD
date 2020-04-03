@@ -41,6 +41,7 @@ makedepends="
 	krb5-dev
 	libcap-dev
 	libxml2-dev
+	libuv-dev>=1.0
 	linux-headers
 	openldap-dev
 	openssl-dev
