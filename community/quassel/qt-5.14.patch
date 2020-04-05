@@ -1,0 +1,1177 @@
+From 8a46d983fc99204711cdff1e4c542e272fef45b9 Mon Sep 17 00:00:00 2001
+From: Manuel Nickschas <sputnick@quassel-irc.org>
+Date: Tue, 7 Jan 2020 18:34:54 +0100
+Subject: [PATCH 1/6] common: Disable enum type stream operators for Qt >= 5.14
+
+Starting from version 5.14, Qt provides stream operators for enum
+types, which collide with the ones we ship in types.h. Disable
+Quassel's stream operators when compiling against Qt 5.14 or later.
+
+Add a unit test that ensures that enum serialization honors the width
+of the underlying type.
+---
+ src/common/types.h          |  2 +
+ tests/common/CMakeLists.txt |  2 +
+ tests/common/typestest.cpp  | 79 +++++++++++++++++++++++++++++++++++++
+ 3 files changed, 83 insertions(+)
+ create mode 100644 tests/common/typestest.cpp
+
+diff --git a/src/common/types.h b/src/common/types.h
+index d3742b788..e2a9aab5e 100644
+--- a/src/common/types.h
++++ b/src/common/types.h
+@@ -195,6 +195,7 @@ Q_DECLARE_METATYPE(QHostAddress)
+ using MsgIdList = QList<MsgId>;
+ using BufferIdList = QList<BufferId>;
+ 
++#if QT_VERSION < QT_VERSION_CHECK(5, 14, 0)
+ /**
+  * Catch-all stream serialization operator for enum types.
+  *
+@@ -224,6 +225,7 @@ QDataStream& operator>>(QDataStream& in, T& value)
+     value = static_cast<T>(v);
+     return in;
+ }
++#endif
+ 
+ // STL-compliant hash functor for Qt types
+ template<typename T>
+diff --git a/tests/common/CMakeLists.txt b/tests/common/CMakeLists.txt
+index f0319770a..3d63f0949 100644
+--- a/tests/common/CMakeLists.txt
++++ b/tests/common/CMakeLists.txt
+@@ -11,4 +11,6 @@ quassel_add_test(SignalProxyTest
+         Quassel::Test::Util
+ )
+ 
++quassel_add_test(TypesTest)
++
+ quassel_add_test(UtilTest)
+diff --git a/tests/common/typestest.cpp b/tests/common/typestest.cpp
+new file mode 100644
+index 000000000..04031c299
+--- /dev/null
++++ b/tests/common/typestest.cpp
+@@ -0,0 +1,79 @@
++/***************************************************************************
++ *   Copyright (C) 2005-2020 by the Quassel Project                        *
++ *   devel@quassel-irc.org                                                 *
++ *                                                                         *
++ *   This program is free software; you can redistribute it and/or modify  *
++ *   it under the terms of the GNU General Public License as published by  *
++ *   the Free Software Foundation; either version 2 of the License, or     *
++ *   (at your option) version 3.                                           *
++ *                                                                         *
++ *   This program is distributed in the hope that it will be useful,       *
++ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
++ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
++ *   GNU General Public License for more details.                          *
++ *                                                                         *
++ *   You should have received a copy of the GNU General Public License     *
++ *   along with this program; if not, write to the                         *
++ *   Free Software Foundation, Inc.,                                       *
++ *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.         *
++ ***************************************************************************/
++
++#include <cstdint>
++
++#include <QByteArray>
++#include <QDataStream>
++#include <QObject>
++
++#include "testglobal.h"
++#include "types.h"
++
++using namespace ::testing;
++
++class EnumHolder
++{
++    Q_GADGET
++
++public:
++    enum class Enum16 : uint16_t {};
++    enum class Enum32 : uint32_t {};
++
++    enum class EnumQt16 : uint16_t {};
++    Q_ENUM(EnumQt16)
++    enum class EnumQt32 : uint32_t {};
++    Q_ENUM(EnumQt32)
++};
++
++// Verify that enums are (de)serialized as their underlying type
++TEST(TypesTest, enumSerialization)
++{
++    QByteArray data;
++    QDataStream out(&data, QIODevice::WriteOnly);
++
++    // Serialize
++    out << EnumHolder::Enum16(0xabcd);
++    ASSERT_THAT(data.size(), Eq(2));
++    out << EnumHolder::Enum32(0x123456);
++    ASSERT_THAT(data.size(), Eq(6));
++    out << EnumHolder::EnumQt16(0x4321);
++    ASSERT_THAT(data.size(), Eq(8));
++    out << EnumHolder::Enum32(0xfedcba);
++    ASSERT_THAT(data.size(), Eq(12));
++    ASSERT_THAT(out.status(), Eq(QDataStream::Status::Ok));
++
++    // Deserialize
++    QDataStream in(data);
++    EnumHolder::Enum16 enum16;
++    EnumHolder::Enum32 enum32;
++    EnumHolder::EnumQt16 enumQt16;
++    EnumHolder::EnumQt32 enumQt32;
++    in >> enum16  >> enum32 >> enumQt16 >> enumQt32;
++    ASSERT_THAT(in.status(), Eq(QDataStream::Status::Ok));
++    EXPECT_TRUE(in.atEnd());
++
++    EXPECT_THAT((int)enum16, Eq(0xabcd));
++    EXPECT_THAT((int)enum32, Eq(0x123456));
++    EXPECT_THAT((int)enumQt16, Eq(0x4321));
++    EXPECT_THAT((int)enumQt32, Eq(0xfedcba));
++}
++
++#include "typestest.moc"
+
+From f1db58adeb8a1662d78c494106df7c9f702eb16a Mon Sep 17 00:00:00 2001
+From: Manuel Nickschas <sputnick@quassel-irc.org>
+Date: Tue, 7 Jan 2020 18:39:48 +0100
+Subject: [PATCH 2/6] common: Always let QVariant::fromValue() deduce the type
+
+In some places, we would explicitly give the type to
+QVariant::fromValue(), forgoing automatic type deduction. This is
+almost always redundant, and in the cases where it is not, the
+input type should be explicitly cast.
+
+Additionally, the implementation of QVariant::fromValue() subtly changed
+in Qt 5.14, leading to compile errors when giving a non-decayed type
+(as we did in SignalProxy::attachSignal()).
+---
+ src/client/coreaccountmodel.cpp                |  2 +-
+ src/client/messagefilter.cpp                   |  2 +-
+ src/client/messagemodel.cpp                    | 10 +++++-----
+ src/client/networkmodel.cpp                    | 18 +++++++++---------
+ src/common/buffersyncer.cpp                    |  8 ++++----
+ src/common/network.cpp                         |  4 ++--
+ src/common/serializers/serializers.cpp         |  2 +-
+ src/common/signalproxy.h                       |  2 +-
+ src/common/types.h                             | 10 +++++-----
+ src/common/util.h                              |  2 +-
+ src/core/core.cpp                              |  2 +-
+ src/qtui/chatitem.cpp                          |  2 +-
+ src/qtui/chatlinemodelitem.cpp                 | 16 ++++++++--------
+ src/qtui/chatviewsettings.cpp                  |  2 +-
+ src/qtui/mainwin.cpp                           |  2 +-
+ src/qtui/settingsdlg.cpp                       |  2 +-
+ .../settingspages/chatmonitorsettingspage.cpp  |  2 +-
+ .../settingspages/networkssettingspage.cpp     |  2 +-
+ src/qtui/settingspages/shortcutsmodel.cpp      |  2 +-
+ src/uisupport/networkmodelcontroller.cpp       |  2 +-
+ src/uisupport/toolbaractionprovider.cpp        |  2 +-
+ 21 files changed, 48 insertions(+), 48 deletions(-)
+
+diff --git a/src/client/coreaccountmodel.cpp b/src/client/coreaccountmodel.cpp
+index 91b697b41..21ebc0194 100644
+--- a/src/client/coreaccountmodel.cpp
++++ b/src/client/coreaccountmodel.cpp
+@@ -98,7 +98,7 @@ QVariant CoreAccountModel::data(const QModelIndex& index, int role) const
+     case Qt::DisplayRole:
+         return acc.accountName();
+     case AccountIdRole:
+-        return QVariant::fromValue<AccountId>(acc.accountId());
++        return QVariant::fromValue(acc.accountId());
+     case UuidRole:
+         return acc.uuid().toString();
+ 
+diff --git a/src/client/messagefilter.cpp b/src/client/messagefilter.cpp
+index 49676e324..97cf8929e 100644
+--- a/src/client/messagefilter.cpp
++++ b/src/client/messagefilter.cpp
+@@ -186,7 +186,7 @@ bool MessageFilter::filterAcceptsRow(int sourceRow, const QModelIndex& sourcePar
+             if (!redirectedTo.isValid()) {
+                 BufferId redirectedTo = Client::bufferModel()->currentIndex().data(NetworkModel::BufferIdRole).value<BufferId>();
+                 if (redirectedTo.isValid())
+-                    sourceModel()->setData(sourceIdx, QVariant::fromValue<BufferId>(redirectedTo), MessageModel::RedirectedToRole);
++                    sourceModel()->setData(sourceIdx, QVariant::fromValue(redirectedTo), MessageModel::RedirectedToRole);
+             }
+ 
+             if (_validBuffers.contains(redirectedTo))
+diff --git a/src/client/messagemodel.cpp b/src/client/messagemodel.cpp
+index 61c6bbdd2..1211af9ad 100644
+--- a/src/client/messagemodel.cpp
++++ b/src/client/messagemodel.cpp
+@@ -439,11 +439,11 @@ QVariant MessageModelItem::data(int column, int role) const
+ 
+     switch (role) {
+     case MessageModel::MessageRole:
+-        return QVariant::fromValue<Message>(message());
++        return QVariant::fromValue(message());
+     case MessageModel::MsgIdRole:
+-        return QVariant::fromValue<MsgId>(msgId());
++        return QVariant::fromValue(msgId());
+     case MessageModel::BufferIdRole:
+-        return QVariant::fromValue<BufferId>(bufferId());
++        return QVariant::fromValue(bufferId());
+     case MessageModel::TypeRole:
+         return msgType();
+     case MessageModel::FlagsRole:
+@@ -451,9 +451,9 @@ QVariant MessageModelItem::data(int column, int role) const
+     case MessageModel::TimestampRole:
+         return timestamp();
+     case MessageModel::RedirectedToRole:
+-        return qVariantFromValue<BufferId>(_redirectedTo);
++        return QVariant::fromValue(_redirectedTo);
+     default:
+-        return QVariant();
++        return {};
+     }
+ }
+ 
+diff --git a/src/client/networkmodel.cpp b/src/client/networkmodel.cpp
+index b3986135c..280ca18a7 100644
+--- a/src/client/networkmodel.cpp
++++ b/src/client/networkmodel.cpp
+@@ -70,7 +70,7 @@ QVariant NetworkItem::data(int column, int role) const
+         else
+             return QVariant();
+     case NetworkModel::NetworkIdRole:
+-        return qVariantFromValue(_networkId);
++        return QVariant::fromValue(_networkId);
+     case NetworkModel::ItemTypeRole:
+         return NetworkModel::NetworkItemType;
+     case NetworkModel::ItemActiveRole:
+@@ -377,11 +377,11 @@ QVariant BufferItem::data(int column, int role) const
+     case NetworkModel::ItemTypeRole:
+         return NetworkModel::BufferItemType;
+     case NetworkModel::BufferIdRole:
+-        return qVariantFromValue(bufferInfo().bufferId());
++        return QVariant::fromValue(bufferInfo().bufferId());
+     case NetworkModel::NetworkIdRole:
+-        return qVariantFromValue(bufferInfo().networkId());
++        return QVariant::fromValue(bufferInfo().networkId());
+     case NetworkModel::BufferInfoRole:
+-        return qVariantFromValue(bufferInfo());
++        return QVariant::fromValue(bufferInfo());
+     case NetworkModel::BufferTypeRole:
+         return int(bufferType());
+     case NetworkModel::ItemActiveRole:
+@@ -389,9 +389,9 @@ QVariant BufferItem::data(int column, int role) const
+     case NetworkModel::BufferActivityRole:
+         return (int)activityLevel();
+     case NetworkModel::BufferFirstUnreadMsgIdRole:
+-        return qVariantFromValue(firstUnreadMsgId());
++        return QVariant::fromValue(firstUnreadMsgId());
+     case NetworkModel::MarkerLineMsgIdRole:
+-        return qVariantFromValue(markerLineMsgId());
++        return QVariant::fromValue(markerLineMsgId());
+     default:
+         return PropertyMapItem::data(column, role);
+     }
+@@ -483,7 +483,7 @@ QVariant QueryBufferItem::data(int column, int role) const
+     case Qt::EditRole:
+         return BufferItem::data(column, Qt::DisplayRole);
+     case NetworkModel::IrcUserRole:
+-        return QVariant::fromValue<QObject*>(_ircUser);
++        return QVariant::fromValue(_ircUser);
+     case NetworkModel::UserAwayRole:
+         return (bool)_ircUser ? _ircUser->isAway() : false;
+     default:
+@@ -696,7 +696,7 @@ QVariant ChannelBufferItem::data(int column, int role) const
+ {
+     switch (role) {
+     case NetworkModel::IrcChannelRole:
+-        return QVariant::fromValue<QObject*>(_ircChannel);
++        return QVariant::fromValue(_ircChannel);
+     default:
+         return BufferItem::data(column, role);
+     }
+@@ -1063,7 +1063,7 @@ QVariant IrcUserItem::data(int column, int role) const
+     case NetworkModel::IrcChannelRole:
+         return parent()->data(column, role);
+     case NetworkModel::IrcUserRole:
+-        return QVariant::fromValue<QObject*>(_ircUser.data());
++        return QVariant::fromValue(_ircUser.data());
+     case NetworkModel::UserAwayRole:
+         return (bool)_ircUser ? _ircUser->isAway() : false;
+     default:
+diff --git a/src/common/buffersyncer.cpp b/src/common/buffersyncer.cpp
+index 1c432a487..b4c158871 100644
+--- a/src/common/buffersyncer.cpp
++++ b/src/common/buffersyncer.cpp
+@@ -82,7 +82,7 @@ QVariantList BufferSyncer::initLastSeenMsg() const
+     QVariantList list;
+     QHash<BufferId, MsgId>::const_iterator iter = _lastSeenMsg.constBegin();
+     while (iter != _lastSeenMsg.constEnd()) {
+-        list << QVariant::fromValue<BufferId>(iter.key()) << QVariant::fromValue<MsgId>(iter.value());
++        list << QVariant::fromValue(iter.key()) << QVariant::fromValue(iter.value());
+         ++iter;
+     }
+     return list;
+@@ -102,7 +102,7 @@ QVariantList BufferSyncer::initMarkerLines() const
+     QVariantList list;
+     QHash<BufferId, MsgId>::const_iterator iter = _markerLines.constBegin();
+     while (iter != _markerLines.constEnd()) {
+-        list << QVariant::fromValue<BufferId>(iter.key()) << QVariant::fromValue<MsgId>(iter.value());
++        list << QVariant::fromValue(iter.key()) << QVariant::fromValue(iter.value());
+         ++iter;
+     }
+     return list;
+@@ -122,7 +122,7 @@ QVariantList BufferSyncer::initActivities() const
+     QVariantList list;
+     auto iter = _bufferActivities.constBegin();
+     while (iter != _bufferActivities.constEnd()) {
+-        list << QVariant::fromValue<BufferId>(iter.key()) << QVariant::fromValue<int>((int)iter.value());
++        list << QVariant::fromValue(iter.key()) << QVariant::fromValue((int)iter.value());
+         ++iter;
+     }
+     return list;
+@@ -180,7 +180,7 @@ QVariantList BufferSyncer::initHighlightCounts() const
+     QVariantList list;
+     auto iter = _highlightCounts.constBegin();
+     while (iter != _highlightCounts.constEnd()) {
+-        list << QVariant::fromValue<BufferId>(iter.key()) << QVariant::fromValue<int>((int)iter.value());
++        list << QVariant::fromValue(iter.key()) << QVariant::fromValue((int)iter.value());
+         ++iter;
+     }
+     return list;
+diff --git a/src/common/network.cpp b/src/common/network.cpp
+index af5f00e96..bb9b6bf9b 100644
+--- a/src/common/network.cpp
++++ b/src/common/network.cpp
+@@ -1156,8 +1156,8 @@ QDataStream& operator<<(QDataStream& out, const NetworkInfo& info)
+     i["CodecForServer"]            = info.codecForServer;
+     i["CodecForEncoding"]          = info.codecForEncoding;
+     i["CodecForDecoding"]          = info.codecForDecoding;
+-    i["NetworkId"]                 = QVariant::fromValue<NetworkId>(info.networkId);
+-    i["Identity"]                  = QVariant::fromValue<IdentityId>(info.identity);
++    i["NetworkId"]                 = QVariant::fromValue(info.networkId);
++    i["Identity"]                  = QVariant::fromValue(info.identity);
+     i["MessageRateBurstSize"]      = info.messageRateBurstSize;
+     i["MessageRateDelay"]          = info.messageRateDelay;
+     i["AutoReconnectInterval"]     = info.autoReconnectInterval;
+diff --git a/src/common/serializers/serializers.cpp b/src/common/serializers/serializers.cpp
+index 809aef922..139b05324 100644
+--- a/src/common/serializers/serializers.cpp
++++ b/src/common/serializers/serializers.cpp
+@@ -29,7 +29,7 @@ bool toVariant(QDataStream& stream, Quassel::Features features, QVariant& data)
+     if (!Serializers::deserialize(stream, features, content)) {
+         return false;
+     }
+-    data = QVariant::fromValue<T>(content);
++    data = QVariant::fromValue(content);
+     return true;
+ }
+ 
+diff --git a/src/common/signalproxy.h b/src/common/signalproxy.h
+index e3bc1d50d..35c43564d 100644
+--- a/src/common/signalproxy.h
++++ b/src/common/signalproxy.h
+@@ -333,7 +333,7 @@ bool SignalProxy::attachSignal(const typename FunctionTraits<Signal>::ClassType*
+ 
+     // Upon signal emission, marshall the signal's arguments into a QVariantList and dispatch an RpcCall message
+     connect(sender, signal, this, [this, signalName = std::move(name)](auto&&... args) {
+-        this->dispatchSignal(std::move(signalName), {QVariant::fromValue<decltype(args)>(args)...});
++        this->dispatchSignal(std::move(signalName), {QVariant::fromValue(args)...});
+     });
+ 
+     return true;
+diff --git a/src/common/types.h b/src/common/types.h
+index e2a9aab5e..5cd002a6e 100644
+--- a/src/common/types.h
++++ b/src/common/types.h
+@@ -140,7 +140,7 @@ struct UserId : public SignedId
+     inline UserId(int _id = 0)
+         : SignedId(_id)
+     {}
+-    // inline operator QVariant() const { return QVariant::fromValue<UserId>(*this); }  // no automatic conversion!
++    // inline operator QVariant() const { return QVariant::fromValue(*this); }  // no automatic conversion!
+ };
+ 
+ struct MsgId : public SignedId64
+@@ -148,7 +148,7 @@ struct MsgId : public SignedId64
+     inline MsgId(qint64 _id = 0)
+         : SignedId64(_id)
+     {}
+-    // inline operator QVariant() const { return QVariant::fromValue<MsgId>(*this); }
++    // inline operator QVariant() const { return QVariant::fromValue(*this); }
+ };
+ 
+ struct BufferId : public SignedId
+@@ -156,7 +156,7 @@ struct BufferId : public SignedId
+     inline BufferId(int _id = 0)
+         : SignedId(_id)
+     {}
+-    // inline operator QVariant() const { return QVariant::fromValue<BufferId>(*this); }
++    // inline operator QVariant() const { return QVariant::fromValue(*this); }
+ };
+ 
+ struct NetworkId : public SignedId
+@@ -164,7 +164,7 @@ struct NetworkId : public SignedId
+     inline NetworkId(int _id = 0)
+         : SignedId(_id)
+     {}
+-    // inline operator QVariant() const { return QVariant::fromValue<NetworkId>(*this); }
++    // inline operator QVariant() const { return QVariant::fromValue(*this); }
+ };
+ 
+ struct IdentityId : public SignedId
+@@ -172,7 +172,7 @@ struct IdentityId : public SignedId
+     inline IdentityId(int _id = 0)
+         : SignedId(_id)
+     {}
+-    // inline operator QVariant() const { return QVariant::fromValue<IdentityId>(*this); }
++    // inline operator QVariant() const { return QVariant::fromValue(*this); }
+ };
+ 
+ struct AccountId : public SignedId
+diff --git a/src/common/util.h b/src/common/util.h
+index bbe89f512..19aeb4fe6 100644
+--- a/src/common/util.h
++++ b/src/common/util.h
+@@ -55,7 +55,7 @@ QVariantList toVariantList(const QList<T>& list)
+ {
+     QVariantList variants;
+     for (int i = 0; i < list.count(); i++) {
+-        variants << QVariant::fromValue<T>(list[i]);
++        variants << QVariant::fromValue(list[i]);
+     }
+     return variants;
+ }
+diff --git a/src/core/core.cpp b/src/core/core.cpp
+index b0c02c12c..cf01e5f54 100644
+--- a/src/core/core.cpp
++++ b/src/core/core.cpp
+@@ -302,7 +302,7 @@ void Core::saveState()
+     if (_storage) {
+         QVariantList activeSessions;
+         for (auto&& user : instance()->_sessions.keys())
+-            activeSessions << QVariant::fromValue<UserId>(user);
++            activeSessions << QVariant::fromValue(user);
+         _storage->setCoreState(activeSessions);
+     }
+ }
+diff --git a/src/qtui/chatitem.cpp b/src/qtui/chatitem.cpp
+index 913c81e72..fe2e3e707 100644
+--- a/src/qtui/chatitem.cpp
++++ b/src/qtui/chatitem.cpp
+@@ -824,7 +824,7 @@ void ContentsChatItem::addActionsToMenu(QMenu* menu, const QPointF& pos)
+         case Clickable::Url: {
+             privateData()->activeClickable = click;
+             auto action = new Action{icon::get("edit-copy"), tr("Copy Link Address"), menu, &_actionProxy, &ActionProxy::copyLinkToClipboard};
+-            action->setData(QVariant::fromValue<void*>(this));
++            action->setData(QVariant::fromValue(static_cast<void*>(this)));
+             menu->addAction(action);
+             break;
+         }
+diff --git a/src/qtui/chatlinemodelitem.cpp b/src/qtui/chatlinemodelitem.cpp
+index 9ebc12649..5c355821b 100644
+--- a/src/qtui/chatlinemodelitem.cpp
++++ b/src/qtui/chatlinemodelitem.cpp
+@@ -76,7 +76,7 @@ bool ChatLineModelItem::setData(int column, const QVariant& value, int role)
+ QVariant ChatLineModelItem::data(int column, int role) const
+ {
+     if (role == ChatLineModel::MsgLabelRole)
+-        return QVariant::fromValue<UiStyle::MessageLabel>(messageLabel());
++        return QVariant::fromValue(messageLabel());
+ 
+     QVariant variant;
+     auto col = (MessageModel::ColumnType)column;
+@@ -110,8 +110,8 @@ QVariant ChatLineModelItem::timestampData(int role) const
+     case ChatLineModel::SelectedBackgroundRole:
+         return backgroundBrush(UiStyle::FormatType::Timestamp, true);
+     case ChatLineModel::FormatRole:
+-        return QVariant::fromValue<UiStyle::FormatList>(
+-            {std::make_pair(quint16{0}, UiStyle::Format{UiStyle::formatType(_styledMsg.type()) | UiStyle::FormatType::Timestamp, {}, {}})});
++        return QVariant::fromValue(UiStyle::FormatList{
++            std::make_pair(quint16{0}, UiStyle::Format{UiStyle::formatType(_styledMsg.type()) | UiStyle::FormatType::Timestamp, {}, {}})});
+     }
+     return QVariant();
+ }
+@@ -128,8 +128,8 @@ QVariant ChatLineModelItem::senderData(int role) const
+     case ChatLineModel::SelectedBackgroundRole:
+         return backgroundBrush(UiStyle::FormatType::Sender, true);
+     case ChatLineModel::FormatRole:
+-        return QVariant::fromValue<UiStyle::FormatList>(
+-            {std::make_pair(quint16{0}, UiStyle::Format{UiStyle::formatType(_styledMsg.type()) | UiStyle::FormatType::Sender, {}, {}})});
++        return QVariant::fromValue(UiStyle::FormatList{
++            std::make_pair(quint16{0}, UiStyle::Format{UiStyle::formatType(_styledMsg.type()) | UiStyle::FormatType::Sender, {}, {}})});
+     }
+     return QVariant();
+ }
+@@ -145,11 +145,11 @@ QVariant ChatLineModelItem::contentsData(int role) const
+     case ChatLineModel::SelectedBackgroundRole:
+         return backgroundBrush(UiStyle::FormatType::Contents, true);
+     case ChatLineModel::FormatRole:
+-        return QVariant::fromValue<UiStyle::FormatList>(_styledMsg.contentsFormatList());
++        return QVariant::fromValue(_styledMsg.contentsFormatList());
+     case ChatLineModel::WrapListRole:
+         if (_wrapList.isEmpty())
+             computeWrapList();
+-        return QVariant::fromValue<ChatLineModel::WrapList>(_wrapList);
++        return QVariant::fromValue(_wrapList);
+     }
+     return QVariant();
+ }
+@@ -171,7 +171,7 @@ QVariant ChatLineModelItem::backgroundBrush(UiStyle::FormatType subelement, bool
+     QTextCharFormat fmt = QtUi::style()->format({UiStyle::formatType(_styledMsg.type()) | subelement, {}, {}},
+                                                 messageLabel() | (selected ? UiStyle::MessageLabel::Selected : UiStyle::MessageLabel::None));
+     if (fmt.hasProperty(QTextFormat::BackgroundBrush))
+-        return QVariant::fromValue<QBrush>(fmt.background());
++        return QVariant::fromValue(fmt.background());
+     return QVariant();
+ }
+ 
+diff --git a/src/qtui/chatviewsettings.cpp b/src/qtui/chatviewsettings.cpp
+index 107478b14..685e6ed06 100644
+--- a/src/qtui/chatviewsettings.cpp
++++ b/src/qtui/chatviewsettings.cpp
+@@ -70,7 +70,7 @@ void ChatViewSettings::setTimestampFormatString(const QString& format)
+ UiStyle::SenderPrefixMode ChatViewSettings::senderPrefixDisplay() const
+ {
+     return static_cast<UiStyle::SenderPrefixMode>(
+-        localValue("SenderPrefixMode", QVariant::fromValue<UiStyle::SenderPrefixMode>(UiStyle::SenderPrefixMode::HighestMode)).toInt());
++        localValue("SenderPrefixMode", QVariant::fromValue(UiStyle::SenderPrefixMode::HighestMode)).toInt());
+     // Cast the QVariant to an integer, then cast that to the enum class.
+     // .canConvert<UiStyle::SenderPrefixMode>() returned true, but
+     // .value<UiStyle::SenderPrefixMode>(); always gave the default value 0.
+diff --git a/src/qtui/mainwin.cpp b/src/qtui/mainwin.cpp
+index 5b0118a22..b126dd9c7 100644
+--- a/src/qtui/mainwin.cpp
++++ b/src/qtui/mainwin.cpp
+@@ -1725,7 +1725,7 @@ void MainWin::clientNetworkCreated(NetworkId id)
+     const Network* net = Client::network(id);
+     auto* act = new QAction(net->networkName(), this);
+     act->setObjectName(QString("NetworkAction-%1").arg(id.toInt()));
+-    act->setData(QVariant::fromValue<NetworkId>(id));
++    act->setData(QVariant::fromValue(id));
+     connect(net, &SyncableObject::updatedRemotely, this, &MainWin::clientNetworkUpdated);
+     connect(act, &QAction::triggered, this, &MainWin::connectOrDisconnectFromNet);
+ 
+diff --git a/src/qtui/settingsdlg.cpp b/src/qtui/settingsdlg.cpp
+index f943c9af5..13e6a33b4 100644
+--- a/src/qtui/settingsdlg.cpp
++++ b/src/qtui/settingsdlg.cpp
+@@ -91,7 +91,7 @@ void SettingsDlg::registerSettingsPage(SettingsPage* sp)
+     else
+         item = new QTreeWidgetItem(cat, QStringList(sp->title()));
+ 
+-    item->setData(0, SettingsPageRole, QVariant::fromValue<QObject*>(sp));
++    item->setData(0, SettingsPageRole, QVariant::fromValue(sp));
+     pageIsLoaded[sp] = false;
+     if (!ui.settingsTree->selectedItems().count())
+         ui.settingsTree->setCurrentItem(item);
+diff --git a/src/qtui/settingspages/chatmonitorsettingspage.cpp b/src/qtui/settingspages/chatmonitorsettingspage.cpp
+index 812a6e6c2..73d962b4c 100644
+--- a/src/qtui/settingspages/chatmonitorsettingspage.cpp
++++ b/src/qtui/settingspages/chatmonitorsettingspage.cpp
+@@ -156,7 +156,7 @@ void ChatMonitorSettingsPage::save()
+     // save list of active buffers
+     QVariantList saveableBufferIdList;
+     foreach (BufferId id, _configActive->bufferList()) {
+-        saveableBufferIdList << QVariant::fromValue<BufferId>(id);
++        saveableBufferIdList << QVariant::fromValue(id);
+     }
+ 
+     chatViewSettings.setValue("Buffers", saveableBufferIdList);
+diff --git a/src/qtui/settingspages/networkssettingspage.cpp b/src/qtui/settingspages/networkssettingspage.cpp
+index fa654a950..57f898f6d 100644
+--- a/src/qtui/settingspages/networkssettingspage.cpp
++++ b/src/qtui/settingspages/networkssettingspage.cpp
+@@ -556,7 +556,7 @@ QListWidgetItem* NetworksSettingsPage::insertNetwork(const NetworkInfo& info)
+         if (!item)
+             item = new QListWidgetItem(disconnectedIcon, info.networkName, ui.networkList);
+     }
+-    item->setData(Qt::UserRole, QVariant::fromValue<NetworkId>(info.networkId));
++    item->setData(Qt::UserRole, QVariant::fromValue(info.networkId));
+     setItemState(info.networkId, item);
+     widgetHasChanged();
+     return item;
+diff --git a/src/qtui/settingspages/shortcutsmodel.cpp b/src/qtui/settingspages/shortcutsmodel.cpp
+index bdf07be06..fe93e6103 100644
+--- a/src/qtui/settingspages/shortcutsmodel.cpp
++++ b/src/qtui/settingspages/shortcutsmodel.cpp
+@@ -149,7 +149,7 @@ QVariant ShortcutsModel::data(const QModelIndex& index, int role) const
+         return QVariant();
+ 
+     case ActionRole:
+-        return QVariant::fromValue<QObject*>(action);
++        return QVariant::fromValue(action);
+ 
+     case DefaultShortcutRole:
+         return action->shortcut(Action::DefaultShortcut);
+diff --git a/src/uisupport/networkmodelcontroller.cpp b/src/uisupport/networkmodelcontroller.cpp
+index 2ac353683..c7eab5cbb 100644
+--- a/src/uisupport/networkmodelcontroller.cpp
++++ b/src/uisupport/networkmodelcontroller.cpp
+@@ -564,7 +564,7 @@ NetworkModelController::JoinDlg::JoinDlg(const QModelIndex& index, QWidget* pare
+     foreach (NetworkId id, Client::networkIds()) {
+         const Network* net = Client::network(id);
+         if (net->isConnected()) {
+-            networks->addItem(net->networkName(), QVariant::fromValue<NetworkId>(id));
++            networks->addItem(net->networkName(), QVariant::fromValue(id));
+         }
+     }
+ 
+diff --git a/src/uisupport/toolbaractionprovider.cpp b/src/uisupport/toolbaractionprovider.cpp
+index c65a62dd2..36b76e7d4 100644
+--- a/src/uisupport/toolbaractionprovider.cpp
++++ b/src/uisupport/toolbaractionprovider.cpp
+@@ -150,7 +150,7 @@ void ToolBarActionProvider::networkCreated(NetworkId id)
+     Action* act = new Action(net->networkName(), this);
+     _networkActions[id] = act;
+     act->setObjectName(QString("NetworkAction-%1").arg(id.toInt()));
+-    act->setData(QVariant::fromValue<NetworkId>(id));
++    act->setData(QVariant::fromValue(id));
+     connect(net, &Network::updatedRemotely, this, [this]() { networkUpdated(); });
+     connect(act, &QAction::triggered, this, &ToolBarActionProvider::connectOrDisconnectNet);
+     networkUpdated(net);
+
+From 4b810ea753f5fa346e9072ed9f9093fab1ea6a23 Mon Sep 17 00:00:00 2001
+From: Manuel Nickschas <sputnick@quassel-irc.org>
+Date: Tue, 7 Jan 2020 19:25:38 +0100
+Subject: [PATCH 3/6] qa: Replace deprecated qVariantFromValue() by
+ QVariant::fromValue()
+
+Deprecated since Qt 5.14.
+---
+ src/client/clientsettings.cpp                     | 4 ++--
+ src/common/bufferviewconfig.cpp                   | 6 +++---
+ src/core/coreirclisthelper.cpp                    | 2 +-
+ src/core/coreusersettings.cpp                     | 2 +-
+ src/qtui/settingspages/bufferviewsettingspage.cpp | 6 +++---
+ 5 files changed, 10 insertions(+), 10 deletions(-)
+
+diff --git a/src/client/clientsettings.cpp b/src/client/clientsettings.cpp
+index 91e6d07c0..f525e3df8 100644
+--- a/src/client/clientsettings.cpp
++++ b/src/client/clientsettings.cpp
+@@ -161,7 +161,7 @@ void CoreAccountSettings::setJumpKeyMap(const QHash<int, BufferId>& keyMap)
+     QVariantMap variants;
+     QHash<int, BufferId>::const_iterator mapIter = keyMap.constBegin();
+     while (mapIter != keyMap.constEnd()) {
+-        variants[QString::number(mapIter.key())] = qVariantFromValue(mapIter.value());
++        variants[QString::number(mapIter.key())] = QVariant::fromValue(mapIter.value());
+         ++mapIter;
+     }
+     setAccountValue("JumpKeyMap", variants);
+@@ -183,7 +183,7 @@ void CoreAccountSettings::setBufferViewOverlay(const QSet<int>& viewIds)
+ {
+     QVariantList variants;
+     foreach (int viewId, viewIds) {
+-        variants << qVariantFromValue(viewId);
++        variants << QVariant::fromValue(viewId);
+     }
+     setAccountValue("BufferViewOverlay", variants);
+ }
+diff --git a/src/common/bufferviewconfig.cpp b/src/common/bufferviewconfig.cpp
+index b1a39d8c3..3bd71f79e 100644
+--- a/src/common/bufferviewconfig.cpp
++++ b/src/common/bufferviewconfig.cpp
+@@ -110,7 +110,7 @@ QVariantList BufferViewConfig::initBufferList() const
+     QVariantList buffers;
+ 
+     foreach (BufferId bufferId, _buffers) {
+-        buffers << qVariantFromValue(bufferId);
++        buffers << QVariant::fromValue(bufferId);
+     }
+ 
+     return buffers;
+@@ -132,7 +132,7 @@ QVariantList BufferViewConfig::initRemovedBuffers() const
+     QVariantList removedBuffers;
+ 
+     foreach (BufferId bufferId, _removedBuffers) {
+-        removedBuffers << qVariantFromValue(bufferId);
++        removedBuffers << QVariant::fromValue(bufferId);
+     }
+ 
+     return removedBuffers;
+@@ -152,7 +152,7 @@ QVariantList BufferViewConfig::initTemporarilyRemovedBuffers() const
+     QVariantList temporarilyRemovedBuffers;
+ 
+     foreach (BufferId bufferId, _temporarilyRemovedBuffers) {
+-        temporarilyRemovedBuffers << qVariantFromValue(bufferId);
++        temporarilyRemovedBuffers << QVariant::fromValue(bufferId);
+     }
+ 
+     return temporarilyRemovedBuffers;
+diff --git a/src/core/coreirclisthelper.cpp b/src/core/coreirclisthelper.cpp
+index 723e652c0..cadb5e3c3 100644
+--- a/src/core/coreirclisthelper.cpp
++++ b/src/core/coreirclisthelper.cpp
+@@ -87,7 +87,7 @@ bool CoreIrcListHelper::endOfChannelList(const NetworkId& netId)
+         foreach (ChannelDescription channel, _channelLists[netId]) {
+             QVariantList channelVariant;
+             channelVariant << channel.channelName << channel.userCount << channel.topic;
+-            channelList << qVariantFromValue<QVariant>(channelVariant);
++            channelList << QVariant::fromValue<QVariant>(channelVariant);
+         }
+         _finishedChannelLists[netId] = channelList;
+         _channelLists.remove(netId);
+diff --git a/src/core/coreusersettings.cpp b/src/core/coreusersettings.cpp
+index 4b9563943..d12eb96d7 100644
+--- a/src/core/coreusersettings.cpp
++++ b/src/core/coreusersettings.cpp
+@@ -45,7 +45,7 @@ QList<IdentityId> CoreUserSettings::identityIds() const
+ 
+ void CoreUserSettings::storeIdentity(const Identity& identity)
+ {
+-    setLocalValue(QString("Identities/%1").arg(identity.id().toInt()), qVariantFromValue(identity));
++    setLocalValue(QString("Identities/%1").arg(identity.id().toInt()), QVariant::fromValue(identity));
+ }
+ 
+ void CoreUserSettings::removeIdentity(IdentityId id)
+diff --git a/src/qtui/settingspages/bufferviewsettingspage.cpp b/src/qtui/settingspages/bufferviewsettingspage.cpp
+index 37214cd2e..233016b3a 100644
+--- a/src/qtui/settingspages/bufferviewsettingspage.cpp
++++ b/src/qtui/settingspages/bufferviewsettingspage.cpp
+@@ -126,12 +126,12 @@ void BufferViewSettingsPage::load()
+     // load network selector
+     ui.networkSelector->clear();
+     ui.networkSelector->addItem(tr("All"));
+-    ui.networkSelector->setItemData(0, qVariantFromValue<NetworkId>(NetworkId()));
++    ui.networkSelector->setItemData(0, QVariant::fromValue(NetworkId()));
+     const Network* net;
+     foreach (NetworkId netId, Client::networkIds()) {
+         net = Client::network(netId);
+         ui.networkSelector->addItem(net->networkName());
+-        ui.networkSelector->setItemData(ui.networkSelector->count() - 1, qVariantFromValue<NetworkId>(net->networkId()));
++        ui.networkSelector->setItemData(ui.networkSelector->count() - 1, QVariant::fromValue(net->networkId()));
+     }
+     _ignoreWidgetChanges = false;
+ 
+@@ -206,7 +206,7 @@ void BufferViewSettingsPage::coreConnectionStateChanged(bool state)
+ void BufferViewSettingsPage::addBufferView(BufferViewConfig* config)
+ {
+     auto* item = new QListWidgetItem(config->bufferViewName(), ui.bufferViewList);
+-    item->setData(Qt::UserRole, qVariantFromValue<QObject*>(qobject_cast<QObject*>(config)));
++    item->setData(Qt::UserRole, QVariant::fromValue(qobject_cast<QObject*>(config)));
+     connect(config, &SyncableObject::updatedRemotely, this, &BufferViewSettingsPage::updateBufferView);
+     connect(config, &QObject::destroyed, this, &BufferViewSettingsPage::bufferViewDeleted);
+     ui.deleteBufferView->setEnabled(ui.bufferViewList->count() > 1);
+
+From 1f3f2cf1a8017ab4315aceb411a7ca35a480fdc5 Mon Sep 17 00:00:00 2001
+From: Manuel Nickschas <sputnick@quassel-irc.org>
+Date: Tue, 7 Jan 2020 20:31:31 +0100
+Subject: [PATCH 4/6] qa: Avoid deprecation warnings for QList/QSet conversions
+
+Qt 5.14 deprecated the explicit functions for converting between
+QSet and QList, preferring instead the use of range-based ctors.
+Unfortunately, those ctors were only added in Qt 5.14, so we can't
+use them when compiling against older versions.
+
+Add a util function for QList->QSet to keep the version check in
+a single place. Replace the other direction by using QSet::values().
+In some cases, conversions could be avoided altogether, or an STL
+container be used easily, so do that.
+---
+ src/client/backlogrequester.cpp               | 22 +++++++------------
+ src/client/backlogrequester.h                 | 15 +++++--------
+ src/client/bufferviewoverlay.cpp              |  9 ++++----
+ src/client/clientbacklogmanager.cpp           |  3 ++-
+ src/client/messagefilter.cpp                  |  5 +++--
+ src/common/ircuser.cpp                        |  2 +-
+ src/common/util.h                             | 11 ++++++++++
+ src/core/corebuffersyncer.cpp                 |  3 ++-
+ src/qtui/chatview.cpp                         |  3 ++-
+ src/qtui/chatviewsearchcontroller.cpp         |  5 ++---
+ .../settingspages/chatmonitorsettingspage.cpp |  3 ++-
+ src/uisupport/bufferviewfilter.cpp            |  3 ++-
+ 12 files changed, 46 insertions(+), 38 deletions(-)
+
+diff --git a/src/client/backlogrequester.cpp b/src/client/backlogrequester.cpp
+index 48f161775..e3cdbc4b4 100644
+--- a/src/client/backlogrequester.cpp
++++ b/src/client/backlogrequester.cpp
+@@ -35,36 +35,30 @@ BacklogRequester::BacklogRequester(bool buffering, RequesterType requesterType,
+     Q_ASSERT(backlogManager);
+ }
+ 
+-void BacklogRequester::setWaitingBuffers(const QSet<BufferId>& buffers)
++void BacklogRequester::setWaitingBuffers(const BufferIdList& buffers)
+ {
+-    _buffersWaiting = buffers;
+-    _totalBuffers = _buffersWaiting.count();
+-}
+-
+-void BacklogRequester::addWaitingBuffer(BufferId buffer)
+-{
+-    _buffersWaiting << buffer;
+-    _totalBuffers++;
++    _buffersWaiting = {buffers.begin(), buffers.end()};
++    _totalBuffers = int(_buffersWaiting.size());
+ }
+ 
+ bool BacklogRequester::buffer(BufferId bufferId, const MessageList& messages)
+ {
+     _bufferedMessages << messages;
+-    _buffersWaiting.remove(bufferId);
+-    return !_buffersWaiting.isEmpty();
++    _buffersWaiting.erase(bufferId);
++    return !_buffersWaiting.empty();
+ }
+ 
+ BufferIdList BacklogRequester::allBufferIds() const
+ {
+     QSet<BufferId> bufferIds = Client::bufferViewOverlay()->bufferIds();
+     bufferIds += Client::bufferViewOverlay()->tempRemovedBufferIds();
+-    return bufferIds.toList();
++    return bufferIds.values();
+ }
+ 
+ void BacklogRequester::flushBuffer()
+ {
+-    if (!_buffersWaiting.isEmpty()) {
+-        qWarning() << Q_FUNC_INFO << "was called before all backlog was received:" << _buffersWaiting.count() << "buffers are waiting.";
++    if (!_buffersWaiting.empty()) {
++        qWarning() << Q_FUNC_INFO << "was called before all backlog was received:" << _buffersWaiting.size() << "buffers are waiting.";
+     }
+     _bufferedMessages.clear();
+     _totalBuffers = 0;
+diff --git a/src/client/backlogrequester.h b/src/client/backlogrequester.h
+index 2ecb09a43..c8a51e6af 100644
+--- a/src/client/backlogrequester.h
++++ b/src/client/backlogrequester.h
+@@ -18,8 +18,9 @@
+  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.         *
+  ***************************************************************************/
+ 
+-#ifndef BACKLOGREQUESTER_H
+-#define BACKLOGREQUESTER_H
++#pragma once
++
++#include <set>
+ 
+ #include <QList>
+ 
+@@ -48,7 +49,7 @@ class BacklogRequester
+     inline RequesterType type() { return _requesterType; }
+     inline const QList<Message>& bufferedMessages() { return _bufferedMessages; }
+ 
+-    inline int buffersWaiting() const { return _buffersWaiting.count(); }
++    inline int buffersWaiting() const { return int(_buffersWaiting.size()); }
+     inline int totalBuffers() const { return _totalBuffers; }
+ 
+     bool buffer(BufferId bufferId, const MessageList& messages);  //! returns false if it was the last missing backlogpart
+@@ -60,9 +61,7 @@ class BacklogRequester
+ 
+ protected:
+     BufferIdList allBufferIds() const;
+-    inline void setWaitingBuffers(const QList<BufferId>& buffers) { setWaitingBuffers(buffers.toSet()); }
+-    void setWaitingBuffers(const QSet<BufferId>& buffers);
+-    void addWaitingBuffer(BufferId buffer);
++    void setWaitingBuffers(const BufferIdList& buffers);
+ 
+     ClientBacklogManager* backlogManager;
+ 
+@@ -71,7 +70,7 @@ class BacklogRequester
+     RequesterType _requesterType;
+     MessageList _bufferedMessages;
+     int _totalBuffers;
+-    QSet<BufferId> _buffersWaiting;
++    std::set<BufferId> _buffersWaiting;
+ };
+ 
+ // ========================================
+@@ -115,5 +114,3 @@ class PerBufferUnreadBacklogRequester : public BacklogRequester
+     int _limit;
+     int _additional;
+ };
+-
+-#endif  // BACKLOGREQUESTER_H
+diff --git a/src/client/bufferviewoverlay.cpp b/src/client/bufferviewoverlay.cpp
+index fe0d97a55..455f27350 100644
+--- a/src/client/bufferviewoverlay.cpp
++++ b/src/client/bufferviewoverlay.cpp
+@@ -27,6 +27,7 @@
+ #include "clientbacklogmanager.h"
+ #include "clientbufferviewmanager.h"
+ #include "networkmodel.h"
++#include "util.h"
+ 
+ const int BufferViewOverlay::_updateEventId = QEvent::registerEventType();
+ 
+@@ -92,13 +93,13 @@ void BufferViewOverlay::addView(int viewId)
+                     if (Client::networkModel()->networkId(bufferId) == config->networkId())
+                         buffers << bufferId;
+                 }
+-                foreach (BufferId bufferId, config->temporarilyRemovedBuffers().toList()) {
++                for (BufferId bufferId : config->temporarilyRemovedBuffers()) {
+                     if (Client::networkModel()->networkId(bufferId) == config->networkId())
+                         buffers << bufferId;
+                 }
+             }
+             else {
+-                buffers = BufferIdList::fromSet(config->bufferList().toSet() + config->temporarilyRemovedBuffers());
++                buffers = (toQSet(config->bufferList()) + config->temporarilyRemovedBuffers()).values();
+             }
+             Client::backlogManager()->checkForBacklog(buffers);
+         }
+@@ -207,12 +208,12 @@ void BufferViewOverlay::updateHelper()
+ 
+             // we have to apply several filters before we can add a buffer to a category (visible, removed, ...)
+             buffers += filterBuffersByConfig(config->bufferList(), config);
+-            tempRemovedBuffers += filterBuffersByConfig(config->temporarilyRemovedBuffers().toList(), config);
++            tempRemovedBuffers += filterBuffersByConfig(config->temporarilyRemovedBuffers().values(), config);
+             removedBuffers += config->removedBuffers();
+         }
+ 
+         // prune the sets from overlap
+-        QSet<BufferId> availableBuffers = Client::networkModel()->allBufferIds().toSet();
++        QSet<BufferId> availableBuffers = toQSet(Client::networkModel()->allBufferIds());
+ 
+         buffers.intersect(availableBuffers);
+ 
+diff --git a/src/client/clientbacklogmanager.cpp b/src/client/clientbacklogmanager.cpp
+index b969251d4..35403c0ed 100644
+--- a/src/client/clientbacklogmanager.cpp
++++ b/src/client/clientbacklogmanager.cpp
+@@ -29,6 +29,7 @@
+ #include "backlogrequester.h"
+ #include "backlogsettings.h"
+ #include "client.h"
++#include "util.h"
+ 
+ ClientBacklogManager::ClientBacklogManager(QObject* parent)
+     : BacklogManager(parent)
+@@ -117,7 +118,7 @@ void ClientBacklogManager::requestInitialBacklog()
+ BufferIdList ClientBacklogManager::filterNewBufferIds(const BufferIdList& bufferIds)
+ {
+     BufferIdList newBuffers;
+-    QSet<BufferId> availableBuffers = Client::networkModel()->allBufferIds().toSet();
++    QSet<BufferId> availableBuffers = toQSet(Client::networkModel()->allBufferIds());
+     foreach (BufferId bufferId, bufferIds) {
+         if (_buffersRequested.contains(bufferId) || !availableBuffers.contains(bufferId))
+             continue;
+diff --git a/src/client/messagefilter.cpp b/src/client/messagefilter.cpp
+index 97cf8929e..6ff6378b1 100644
+--- a/src/client/messagefilter.cpp
++++ b/src/client/messagefilter.cpp
+@@ -28,6 +28,7 @@
+ #include "clientignorelistmanager.h"
+ #include "messagemodel.h"
+ #include "networkmodel.h"
++#include "util.h"
+ 
+ MessageFilter::MessageFilter(QAbstractItemModel* source, QObject* parent)
+     : QSortFilterProxyModel(parent)
+@@ -39,7 +40,7 @@ MessageFilter::MessageFilter(QAbstractItemModel* source, QObject* parent)
+ 
+ MessageFilter::MessageFilter(MessageModel* source, const QList<BufferId>& buffers, QObject* parent)
+     : QSortFilterProxyModel(parent)
+-    , _validBuffers(buffers.toSet())
++    , _validBuffers(toQSet(buffers))
+     , _messageTypeFilter(0)
+ {
+     init();
+@@ -114,7 +115,7 @@ QString MessageFilter::idString() const
+     if (_validBuffers.isEmpty())
+         return "*";
+ 
+-    QList<BufferId> bufferIds = _validBuffers.toList();
++    QList<BufferId> bufferIds = _validBuffers.values();
+     std::sort(bufferIds.begin(), bufferIds.end());
+ 
+     QStringList bufferIdStrings;
+diff --git a/src/common/ircuser.cpp b/src/common/ircuser.cpp
+index a23595c15..d7b65f09a 100644
+--- a/src/common/ircuser.cpp
++++ b/src/common/ircuser.cpp
+@@ -317,7 +317,7 @@ void IrcUser::partChannel(const QString& channelname)
+ 
+ void IrcUser::quit()
+ {
+-    QList<IrcChannel*> channels = _channels.toList();
++    QList<IrcChannel*> channels = _channels.values();
+     _channels.clear();
+     foreach (IrcChannel* channel, channels) {
+         disconnect(channel, nullptr, this, nullptr);
+diff --git a/src/common/util.h b/src/common/util.h
+index 19aeb4fe6..f638dfed5 100644
+--- a/src/common/util.h
++++ b/src/common/util.h
+@@ -23,6 +23,7 @@
+ #include "common-export.h"
+ 
+ #include <QList>
++#include <QSet>
+ #include <QString>
+ #include <QVariant>
+ 
+@@ -50,6 +51,16 @@ COMMON_EXPORT QString decodeString(const QByteArray& input, QTextCodec* codec =
+ 
+ COMMON_EXPORT uint editingDistance(const QString& s1, const QString& s2);
+ 
++template<typename T>
++QSet<T> toQSet(const QList<T>& list)
++{
++#if QT_VERSION < QT_VERSION_CHECK(5, 14, 0)
++    return list.toSet();
++#else
++    return {list.begin(), list.end()};
++#endif
++}
++
+ template<typename T>
+ QVariantList toVariantList(const QList<T>& list)
+ {
+diff --git a/src/core/corebuffersyncer.cpp b/src/core/corebuffersyncer.cpp
+index 266f344b7..d7b3b5c4c 100644
+--- a/src/core/corebuffersyncer.cpp
++++ b/src/core/corebuffersyncer.cpp
+@@ -28,6 +28,7 @@
+ #include "corenetwork.h"
+ #include "coresession.h"
+ #include "ircchannel.h"
++#include "util.h"
+ 
+ class PurgeEvent : public QEvent
+ {
+@@ -193,7 +194,7 @@ void CoreBufferSyncer::purgeBufferIds()
+     std::transform(bufferInfos.cbegin(), bufferInfos.cend(), std::inserter(actualBuffers, actualBuffers.end()),
+                    [](auto&& bufferInfo) { return bufferInfo.bufferId(); });
+ 
+-    QSet<BufferId> storedIds = lastSeenBufferIds().toSet() + markerLineBufferIds().toSet();
++    QSet<BufferId> storedIds = toQSet(lastSeenBufferIds()) + toQSet(markerLineBufferIds());
+     foreach (BufferId bufferId, storedIds) {
+         if (actualBuffers.find(bufferId) == actualBuffers.end()) {
+             BufferSyncer::removeBuffer(bufferId);
+diff --git a/src/qtui/chatview.cpp b/src/qtui/chatview.cpp
+index da331b689..132565e79 100644
+--- a/src/qtui/chatview.cpp
++++ b/src/qtui/chatview.cpp
+@@ -35,6 +35,7 @@
+ #include "messagefilter.h"
+ #include "qtui.h"
+ #include "qtuistyle.h"
++#include "util.h"
+ 
+ ChatView::ChatView(BufferId bufferId, QWidget* parent)
+     : QGraphicsView(parent)
+@@ -293,7 +294,7 @@ QSet<ChatLine*> ChatView::visibleChatLines(Qt::ItemSelectionMode mode) const
+ 
+ QList<ChatLine*> ChatView::visibleChatLinesSorted(Qt::ItemSelectionMode mode) const
+ {
+-    QList<ChatLine*> result = visibleChatLines(mode).toList();
++    QList<ChatLine*> result = visibleChatLines(mode).values();
+     std::sort(result.begin(), result.end(), chatLinePtrLessThan);
+     return result;
+ }
+diff --git a/src/qtui/chatviewsearchcontroller.cpp b/src/qtui/chatviewsearchcontroller.cpp
+index 57ca2c0d4..dd1ca08a5 100644
+--- a/src/qtui/chatviewsearchcontroller.cpp
++++ b/src/qtui/chatviewsearchcontroller.cpp
+@@ -118,7 +118,7 @@ void ChatViewSearchController::updateHighlights(bool reuse)
+             if (line)
+                 chatLines << line;
+         }
+-        foreach (ChatLine* line, QList<ChatLine*>(chatLines.toList())) {
++        foreach (ChatLine* line, chatLines) {
+             updateHighlights(line);
+         }
+     }
+@@ -302,8 +302,7 @@ void ChatViewSearchController::repositionHighlights()
+         if (line)
+             chatLines << line;
+     }
+-    QList<ChatLine*> chatLineList(chatLines.toList());
+-    foreach (ChatLine* line, chatLineList) {
++    foreach (ChatLine* line, chatLines) {
+         repositionHighlights(line);
+     }
+ }
+diff --git a/src/qtui/settingspages/chatmonitorsettingspage.cpp b/src/qtui/settingspages/chatmonitorsettingspage.cpp
+index 73d962b4c..8a8faf7ca 100644
+--- a/src/qtui/settingspages/chatmonitorsettingspage.cpp
++++ b/src/qtui/settingspages/chatmonitorsettingspage.cpp
+@@ -30,6 +30,7 @@
+ #include "client.h"
+ #include "icon.h"
+ #include "networkmodel.h"
++#include "util.h"
+ 
+ ChatMonitorSettingsPage::ChatMonitorSettingsPage(QWidget* parent)
+     : SettingsPage(tr("Interface"), tr("Chat Monitor"), parent)
+@@ -189,7 +190,7 @@ bool ChatMonitorSettingsPage::testHasChanged()
+     if (_configActive->bufferList().count() != settings["Buffers"].toList().count())
+         return true;
+ 
+-    QSet<BufferId> uiBufs = _configActive->bufferList().toSet();
++    QSet<BufferId> uiBufs = toQSet(_configActive->bufferList());
+     QSet<BufferId> settingsBufs;
+     foreach (QVariant v, settings["Buffers"].toList())
+         settingsBufs << v.value<BufferId>();
+diff --git a/src/uisupport/bufferviewfilter.cpp b/src/uisupport/bufferviewfilter.cpp
+index 9a531e286..780d0bf6e 100644
+--- a/src/uisupport/bufferviewfilter.cpp
++++ b/src/uisupport/bufferviewfilter.cpp
+@@ -32,6 +32,7 @@
+ #include "graphicalui.h"
+ #include "networkmodel.h"
+ #include "uistyle.h"
++#include "util.h"
+ 
+ /*****************************************
+  * The Filter for the Tree View
+@@ -141,7 +142,7 @@ void BufferViewFilter::enableEditMode(bool enable)
+         return;
+ 
+     if (enable == false) {
+-        addBuffers(QList<BufferId>::fromSet(_toAdd));
++        addBuffers(_toAdd.values());
+         QSet<BufferId>::const_iterator iter;
+         for (iter = _toTempRemove.constBegin(); iter != _toTempRemove.constEnd(); ++iter) {
+             if (config()->temporarilyRemovedBuffers().contains(*iter))
+
+From 22b55fdb2dd3dfe61e176b56492e46bb3c7c3b40 Mon Sep 17 00:00:00 2001
+From: Manuel Nickschas <sputnick@quassel-irc.org>
+Date: Tue, 7 Jan 2020 20:39:38 +0100
+Subject: [PATCH 5/6] qa: Replace deprecated QString::sprintf() by
+ QString::asprintf()
+
+---
+ src/uisupport/actioncollection.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/uisupport/actioncollection.cpp b/src/uisupport/actioncollection.cpp
+index 08141a850..765d7f89e 100644
+--- a/src/uisupport/actioncollection.cpp
++++ b/src/uisupport/actioncollection.cpp
+@@ -78,7 +78,7 @@ QAction* ActionCollection::addAction(const QString& name, QAction* action)
+     else
+         action->setObjectName(indexName);
+     if (indexName.isEmpty())
+-        indexName = indexName.sprintf("unnamed-%p", (void*)action);
++        indexName = indexName.asprintf("unnamed-%p", (void*)action);
+ 
+     // do we already have this action?
+     if (_actionByName.value(indexName, 0) == action)
+
+From 1dc5885324902c067c00927e3b9b9a9d981a639d Mon Sep 17 00:00:00 2001
+From: Manuel Nickschas <sputnick@quassel-irc.org>
+Date: Tue, 7 Jan 2020 20:40:01 +0100
+Subject: [PATCH 6/6] qa: Use QProcess::errorOccurred instead of
+ QProcess::error if possible
+
+To avoid an overloaded signal name, Qt 5.6 introduced the signal
+QProcess::errorOccurred() to replace QProcess::error(). The latter one
+is deprecated since Qt 5.14, so avoid using it if possible.
+---
+ src/client/execwrapper.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/client/execwrapper.cpp b/src/client/execwrapper.cpp
+index f87eb0c7e..b5853fe73 100644
+--- a/src/client/execwrapper.cpp
++++ b/src/client/execwrapper.cpp
+@@ -34,7 +34,11 @@ ExecWrapper::ExecWrapper(QObject* parent)
+     connect(&_process, &QProcess::readyReadStandardOutput, this, &ExecWrapper::processReadStdout);
+     connect(&_process, &QProcess::readyReadStandardError, this, &ExecWrapper::processReadStderr);
+     connect(&_process, selectOverload<int, QProcess::ExitStatus>(&QProcess::finished), this, &ExecWrapper::processFinished);
++#if QT_VERSION < QT_VERSION_CHECK(5, 6, 0)
+     connect(&_process, selectOverload<QProcess::ProcessError>(&QProcess::error), this, &ExecWrapper::processError);
++#else
++    connect(&_process, &QProcess::errorOccurred, this, &ExecWrapper::processError);
++#endif
+ 
+     connect(this, &ExecWrapper::output, this, &ExecWrapper::postStdout);
+     connect(this, &ExecWrapper::error, this, &ExecWrapper::postStderr);

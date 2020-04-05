@@ -1,8 +1,8 @@
-# Maintainer: Yves Schumann <yves@eisfair.org>
+# Maintainer: tcely <quassel+aports@tcely.33mail.com>
 
 pkgname=quassel
 pkgver=0.13.1
-pkgrel=3
+pkgrel=6
 url="https://www.quassel-irc.org/"
 pkgdesc="Distributed IRC client - metapackage"
 arch="all"
@@ -21,6 +21,7 @@ makedepends="cmake paxmark dbus-dev icu-dev openldap-dev openssl-dev
 	qca-dev qt5-qtbase-dev qt5-qtscript-dev zlib-dev
 	"
 source="https://www.quassel-irc.org/pub/$pkgname-$pkgver.tar.bz2
+	qt-5.14.patch
 	quasselcore.confd
 	quasselcore.initd
 	"
@@ -126,5 +127,6 @@ mono() {
 }
 
 sha512sums="4ed55e81b1638c8851ddae5d9c9d23a1c2cea92f307e19f426873c2600d8e183898d3ed7c290f2ea5d1b8c5e1be7f9ffcc3e8c3c0193d080fc879b10cc3a962c  quassel-0.13.1.tar.bz2
+c718034228a15b681dacf4b85ac7da92f6800284fd4b042e428ded90442f3eb06841315bff09fb6696bf281a9142a50f9b67def37ae490c2fb99f959d0eb54a7  qt-5.14.patch
 56d4b05fcb2702c103a611a170e444e237bd7c8626219063e5853c3efa5d91e21fa9b726b056393070e35b7d7efe0a145ac3ab61413bc8033642d7acb622b638  quasselcore.confd
 7a0dd5a04b28c3099b4c9e98a25e6dc2b72bdb1e450e7299f9556487f6b34748ae881a4ccb955396e2ac0eab5d3fce4dbea426d7fa498d069f5d185057efa4cf  quasselcore.initd"
