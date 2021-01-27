@@ -4,8 +4,8 @@
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
 # Maintainer: tcely <bind+aports@tcely.33mail.com>
 pkgname="bind"
-pkgver="9.16.3"
-pkgrel=0
+pkgver="9.16.11"
+pkgrel=100
 _isc_ver="2.0"
 _isc_rel=0
 _ver="${pkgver%_p*}"
@@ -112,13 +112,17 @@ prepare() {
 	cd "$builddir"
 
 	# Adjusting PATHs in manpages
-	for i in bin/named/named.8 bin/check/named-checkconf.8 bin/rndc/rndc.8; do
+	for _fprefix in bin/named/named bin/check/named-checkconf bin/rndc/rndc; do
+	  for _file in "${_fprefix}.8" "${_fprefix}.rst"; do
+	    if [ -f "./${_file}" ]; then
 		sed -i \
 			-e 's:/etc/named.conf:/etc/bind/named.conf:g' \
 			-e 's:/etc/rndc.conf:/etc/bind/rndc.conf:g' \
 			-e 's:/etc/rndc.key:/etc/bind/rndc.key:g' \
-			"${i}"
-	done
+			"./${_file}"
+	    fi
+	  done; unset -v _file
+	done; unset -v _fprefix
 }
 
 build() {
@@ -295,7 +299,7 @@ gpgfingerprints="
 	BE0E 9748 B718 253A 28BB  89FF F1B1 1BF0 5CF0 2E57
 	"
 
-sha512sums="aded208ab8b10cac275512eb4cb19f4eabd654ef3c14ab0c635f7d09194df4f6dfa84d0b5d69ce93854ceb26a93e21d7122b01ce4f3996da807249ca41d877df  bind-9.16.3.tar.xz
+sha512sums="5ed632df7c74f5e6693db9b378450ea3073b8002e9924df1d0465f8b8edb933df3a853d3965a290a0477a67ca2bfa79f679d7e344db08a65462860c58d04dc1b  bind-9.16.11.tar.xz
 2b32d1e7f62cd1e01bb4fdd92d15460bc14761b933d5acc463a91f5ecd4773d7477c757c5dd2738e8e433693592cf3f623ffc142241861c91848f01aa84640d6  bind.plugindir.patch
 7167dccdb2833643dfdb92994373d2cc087e52ba23b51bd68bd322ff9aca6744f01fa9d8a4b9cd8c4ce471755a85c03ec956ec0d8a1d4fae02124ddbed6841f6  bind.so_bsdcompat.patch
 ff26426592c61dea71343541151cee77c61c0f24bf3875f72ca8a6f3935e3ffab80461da21feb7ffc9efc67f6ddd5b72db96219d0a939b422376ba9b737ed234  named.initd
