@@ -1,7 +1,8 @@
 # Contributor: Sergei Lukin <sergej.lukin@gmail.com>
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
-# Contributor: Carlo Landmeter <clandmeter@gmail.com>
+# Contributor: Carlo Landmeter <clandmeter@alpinelinux.org>
 # Contributor: Natanael Copa <ncopa@alpinelinux.org>
+# Contributor: ungleich <alpinelinux@ungleich.ch>
 # Maintainer: tcely <bind+aports@tcely.33mail.com>
 pkgname="bind"
 pkgver="9.16.11"
@@ -17,7 +18,7 @@ if [ "${_p}" != "${pkgver}" ]; then
 	_isc_rel="$(( ${_isc_rel} + ${_p} ))"
 fi
 pkgdesc="The ISC DNS server"
-url="https://www.isc.org"
+url="https://www.isc.org/"
 arch="all"
 license="MPL-2.0"
 pkgusers="named"
@@ -78,6 +79,20 @@ source="
 builddir="${srcdir}/${pkgname}-${_ver}"
 
 # secfixes:
+#   9.16.6-r0:
+#     - CVE-2020-8620
+#     - CVE-2020-8621
+#     - CVE-2020-8622
+#     - CVE-2020-8623
+#     - CVE-2020-8624
+#   9.16.4-r0:
+#     - CVE-2020-8618
+#     - CVE-2020-8619
+#   9.14.12-r0:
+#     - CVE-2020-8616
+#     - CVE-2020-8617
+#   9.14.8-r0:
+#     - CVE-2019-6477
 #   9.14.7-r0:
 #     - CVE-2019-6475
 #     - CVE-2019-6476
@@ -128,7 +143,7 @@ prepare() {
 build() {
 	cd "$builddir"
 
-	### http://bugs.gentoo.org/show_bug.cgi?id=227333
+	### https://bugs.gentoo.org/show_bug.cgi?id=227333
 	export CFLAGS="$CFLAGS -D_GNU_SOURCE"
 
 	./configure \
