@@ -25,7 +25,7 @@ depends_openrc=""
 pkgusers="dhcp"
 pkggroups="dhcp"
 makedepends="krb5-dev linux-headers openldap-dev perl"
-install="$pkgname.pre-install"
+install="$pkgname.pre-install dhclient.pre-install dhcrelay.pre-install"
 subpackages="
 	$pkgname-doc
 	$pkgname-openrc
