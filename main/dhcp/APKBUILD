@@ -114,13 +114,6 @@ check() {
 package() {
 	cd "$builddir"
 
-	install -m755 -D "$srcdir"/dhcpd.initd "$pkgdir"/etc/init.d/dhcpd
-	install -m644 -D "$srcdir"/dhcpd.confd "$pkgdir"/etc/conf.d/dhcpd
-	mv "$pkgdir"/etc "$pkgdir/etc.$pkgname"
-	install -m755 -D "$srcdir"/dhcrelay.initd "$pkgdir"/etc/init.d/dhcrelay
-	install -m644 -D "$srcdir"/dhcrelay.confd "$pkgdir"/etc/conf.d/dhcrelay
-	mv "$pkgdir"/etc "$pkgdir"/etc.dhcrelay
-
 	make DESTDIR="$pkgdir" install
 
 	#install -m751 -D "$builddir"/client/scripts/linux "$pkgdir"/sbin/dhclient-script
@@ -136,20 +129,19 @@ dbg() {
 }
 
 openrc() {
-	local _name _etcdir _dir
+	local _name _srcname
 	depends="$depends_openrc"
 
 	_name="${subpkgname%-openrc}"
-	_etcdir="$pkgdir/etc.${_name}"
-	for _dir in conf.d init.d; do
-		if [ -d "$_etcdir/$_dir" ]; then
-			mkdir -p "$pkgdir"/etc
-			mv "$_etcdir/$_dir" "$pkgdir"/etc/
-		fi
-	done
-	rmdir "$_etcdir" || :
+	_srcname="${_name}"
+	[ "${_srcname}" = "$pkgname" ] && _srcname="${pkgname}d"
+
+	install -m755 -D "$srcdir"/"${_srcname}".initd "$pkgdir"/etc/init.d/"${_srcname}"
+	install -m644 -D "$srcdir"/"${_srcname}".confd "$pkgdir"/etc/conf.d/"${_srcname}"
 
 	default_openrc
+
+	# needed for Alpine Linux versions before 3.10
 	install_if="openrc ${_name}=$pkgver-r$pkgrel"
 }
 
