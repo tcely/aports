@@ -168,8 +168,8 @@ build() {
 		--enable-largefile \
 		--enable-linux-caps \
 		--enable-shared \
-		--enable-static \
-		--disable-isc-spnego
+		--enable-static
+
 	make
 }
 
@@ -296,12 +296,23 @@ root_keys() {
 	ln -s "../../${_dir}/${_file}" "$_link"
 }
 
-# TODO: remove when abuild is sufficiently upgraded
+# Handle -release flag changes from:
+# https://gitlab.isc.org/isc-projects/bind9/-/commit/0e25af628cd776f98c04fc4cc59048f5448f6c88
 libs() {
 	depends="$depends_libs"
 	default_libs
+	
+	local dir file
+	for dir in 'lib' 'usr/lib'; do
+		for file in "${pkgdir}/${dir}/"lib*-"${pkgver}.so"; do
+			[ -f "${file}" ] || continue
+			mkdir -p "${subpkgdir}/${dir}"
+			mv "${file}" "${subpkgdir}/${dir}/"
+		done
+	done
 }
 
+# TODO: remove when abuild is sufficiently upgraded
 static() {
 	depends="$depends_static"
 	default_static || mkdir -p "$subpkgdir"
