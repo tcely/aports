@@ -162,7 +162,7 @@ build() {
 		--with-dlz-ldap=yes \
 		--with-dlz-stub=yes \
 		--with-gssapi=/usr \
-		--with-libjson \
+		--with-json-c \
 		--with-libtool \
 		--with-libxml2 \
 		--with-openssl=/usr \
