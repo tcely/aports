@@ -41,6 +41,7 @@ build() {
 	cmake \
 		-DCMAKE_INSTALL_PREFIX=/usr/ \
 		-DCMAKE_BUILD_TYPE="Release" \
+		-DENABLE_SHARED=OFF \
 		-DUSE_QT4=OFF \
 		-DWANT_CORE=ON \
 		-DWANT_MONO=ON \
