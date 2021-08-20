@@ -6,7 +6,7 @@
 # Maintainer: tcely <bind+aports@tcely.33mail.com>
 pkgname="bind"
 pkgver="9.16.19"
-pkgrel=100
+pkgrel=101
 _isc_ver="2.0"
 _isc_rel=0
 _ver="${pkgver%_p*}"
@@ -53,6 +53,7 @@ makedepends="
 makedepends="${makedepends} ${depends_dev} ${depends_py3_isc} ${depends_root_keys} ${depends_server_tools}"
 install="$pkgname.pre-install $pkgname.post-install"
 subpackages="
+	$pkgname-dbg
 	$pkgname-doc
 	$pkgname-openrc
 	py3-${pkgname}-isc:py3_isc:noarch
