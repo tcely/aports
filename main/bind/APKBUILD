@@ -5,7 +5,7 @@
 # Contributor: ungleich <alpinelinux@ungleich.ch>
 # Maintainer: tcely <bind+aports@tcely.33mail.com>
 pkgname="bind"
-pkgver="9.16.20"
+pkgver="9.16.24"
 pkgrel=100
 _isc_ver="2.0"
 _isc_rel=0
