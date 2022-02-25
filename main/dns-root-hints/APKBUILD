@@ -1,7 +1,7 @@
 # Contributor: tcely <dns-root-hints+aports@tcely.33mail.com>
 # Maintainer: tcely <dns-root-hints+aports@tcely.33mail.com>
 pkgname="dns-root-hints"
-pkgver="2021121601"
+pkgver="2022021601"
 pkgrel=0
 pkgdesc="The DNS root hint(s)"
 url="https://www.internic.net/domain"
