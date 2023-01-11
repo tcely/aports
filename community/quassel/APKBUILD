@@ -68,12 +68,10 @@ common() {
 	mkdir -p "$subpkgdir"/usr/share
 	mv \
 		"$pkgdir"/usr/share/icons \
-		"$pkgdir"/usr/share/pixmaps \
 		"$pkgdir"/usr/share/$pkgname \
 		"$subpkgdir"/usr/share
 
 	rmdir 2>/dev/null "$pkgdir"/usr/share/icons || :
-	rmdir 2>/dev/null "$pkgdir"/usr/share/pixmaps || :
 	rmdir 2>/dev/null "$pkgdir"/usr/share/$pkgname || :
 	rmdir 2>/dev/null "$pkgdir"/usr/share || :
 	rmdir 2>/dev/null "$pkgdir"/usr || :
