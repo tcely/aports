@@ -1,7 +1,7 @@
 # Maintainer: tcely <quassel+aports@tcely.33mail.com>
 
 pkgname=quassel
-pkgver=0.14_rc1
+pkgver=0.14.0
 _upstream_version="${pkgver/_rc/-rc}"
 pkgrel=0
 url="https://www.quassel-irc.org/"
@@ -22,7 +22,7 @@ makedepends="boost-dev cmake dbus-dev icu-dev
 	openldap-dev openssl-dev qca-dev qt5-qtbase-dev
 	qt5-qtscript-dev zlib-dev
 	"
-source="https://www.quassel-irc.org/pub/${pkgname}-${_upstream_version}.tar.bz2
+source="https://www.quassel-irc.org/pub/${pkgname}-${_upstream_version}.tar.xz
 	quasselcore.confd
 	quasselcore.initd
 	"
@@ -124,6 +124,6 @@ mono() {
 	rmdir 2>/dev/null "$pkgdir"/usr || :
 }
 
-sha512sums="e40c915d62a6a93b0cb56dd434c060dc091ff0d428e1253b1e8b54b1be14647c292f6d558d1a6bc9130bd38c004376b7182fbe87c553ce3490422dcc9914e46c  quassel-0.14-rc1.tar.bz2
+sha512sums="a3f807813aca16fbb7eaae77b66fe19cbd596f685e9cd79433373debbe754dfef637d51dc33f73b5cd66839850147624b485872631d8680e2e41130292bd6f2b  quassel-0.14.0.tar.xz
 56d4b05fcb2702c103a611a170e444e237bd7c8626219063e5853c3efa5d91e21fa9b726b056393070e35b7d7efe0a145ac3ab61413bc8033642d7acb622b638  quasselcore.confd
 7a0dd5a04b28c3099b4c9e98a25e6dc2b72bdb1e450e7299f9556487f6b34748ae881a4ccb955396e2ac0eab5d3fce4dbea426d7fa498d069f5d185057efa4cf  quasselcore.initd"
