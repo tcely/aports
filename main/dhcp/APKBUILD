@@ -1,6 +1,6 @@
 # Maintainer: tcely <dhcp+aports@tcely.33mail.com>
 pkgname=dhcp
-pkgver="4.4.2_p1"
+pkgver="4.4.3_p1"
 _realver=${pkgver/_p/-P}
 pkgrel=100
 pkgdesc="ISC Dynamic Host Configuration Protocol (DHCP)"
@@ -59,6 +59,9 @@ builddir="$srcdir/$pkgname-$_realver"
 makedepends="${makedepends} ${depends_dhclient} ${depends_server_ldap} ${depends_server_vanilla}"
 
 # secfixes:
+#   4.4.3_p1-r100:
+#     - CVE-2022-2928
+#     - CVE-2022-2929
 #   4.4.2_p1-r100:
 #     - CVE-2021-25217
 #   4.4.1-r0:
