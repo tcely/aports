@@ -3,7 +3,7 @@
 pkgname=quassel
 pkgver=0.14.0
 _upstream_version="${pkgver/_rc/-rc}"
-pkgrel=0
+pkgrel=100
 url="https://www.quassel-irc.org/"
 pkgdesc="Distributed IRC client - metapackage"
 arch="all"
