@@ -67,7 +67,7 @@ subpackages="
 	$pkgname-tools
 	"
 gpgsource="
-	$pkgname-GPGKEYS::https://downloads.isc.org/isc/pgpkeys/codesign2021.txt
+	$pkgname-GPGKEYS::https://www.isc.org/docs/isc-keyblock.asc
 	https://downloads.isc.org/isc/${pkgname}${_major}/${_ver}/${pkgname}-${_ver}.tar.xz
 	"
 source="
@@ -323,7 +323,7 @@ static() {
 	depends="$depends_static"
 }
 
-gpg_signature_extensions="sha512.asc asc"
+gpg_signature_extensions="asc sha512.asc"
 gpgfingerprints="
 	good:AE3F AC79 6711 EC59 FC00  7AA4 74BB 6B9A 4CBB 3D38
 	BE0E 9748 B718 253A 28BB  89FF F1B1 1BF0 5CF0 2E57
