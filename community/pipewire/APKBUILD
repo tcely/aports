@@ -2,7 +2,7 @@
 maintainer="team/alpine-desktop <bribbers@disroot.org>"
 pkgname=pipewire
 pkgver=1.6.4
-pkgrel=0
+pkgrel=1
 _so_ver=0.3
 pkgdesc="Multimedia processing graphs"
 url="https://pipewire.org/"
@@ -29,6 +29,7 @@ makedepends="
 	libebur128-dev
 	libfreeaptx-dev
 	liblc3-dev
+	libmysofa-dev
 	libusb-dev
 	libx11-dev
 	lilv-dev
@@ -72,6 +73,7 @@ subpackages="
 	$pkgname-filter-graph-ebur128:filter_graph_plugin
 	$pkgname-filter-graph-ladspa:filter_graph_plugin
 	$pkgname-filter-graph-lv2:filter_graph_plugin
+	$pkgname-filter-graph-sofa:filter_graph_plugin
 	"
 install="$pkgname.post-upgrade $pkgname.post-install"
 source="https://gitlab.freedesktop.org/PipeWire/pipewire/-/archive/$pkgver/pipewire-$pkgver.tar.gz
