@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kdebugsettings
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 arch="all !armhf"
 url="https://kde.org/applications/utilities/"
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-593901105b0c4e90e10deb20beb855d3c3cdd88d8425fc19950596534f02118801223102968a5d730e62766cbdf79b5b05937e1c0e3893ac5283cc824acbeca3  kdebugsettings-25.12.3.tar.xz
+8a8cdf89f8158e23867ad953c4b4f9a6af5b9e9475fa38fb9761ac99bf4397354e2abea1d108aa2f3917fa7134adc166089bb2c05749ba6fd6f1f354334137c0  kdebugsettings-26.04.0.tar.xz
 "

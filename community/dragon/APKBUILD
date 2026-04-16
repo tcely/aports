@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=dragon
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="A multimedia player where the focus is on simplicity, instead of features"
 url="https://kde.org/applications/multimedia/org.kde.dragonplayer"
@@ -51,5 +51,5 @@ package() {
 }
 
 sha512sums="
-fc5b43dc63ebc7186001bc1555c9d5ff15111ad2602614f27387ebf61d19343bc08c259ea085fcc47bff965bba37e5d9e1bbaababe0ea07ecca2ac8d729cc78d  dragon-25.12.3.tar.xz
+f4f795bc6c5dcf2f442f5655dc2d9d68546c7ad296171d7171a5fbc731a39ce405b3cd7c96b319a13d4ff613b3315dea3d45656fca4ddd6f4296255317905ffa  dragon-26.04.0.tar.xz
 "

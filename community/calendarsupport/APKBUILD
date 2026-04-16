@@ -2,12 +2,12 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=calendarsupport
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Library providing calendar support"
 # armhf blocked by qt6-qtdeclarative
-# x86, s390x and riscv64 blocked by qt6-qtwebengine -> akonadi
-arch="all !armhf !x86 !s390x !riscv64"
+# x86, armv7, s390x and riscv64 blocked by qt6-qtwebengine -> akonadi
+arch="all !armhf !armv7 !x86 !s390x !riscv64"
 url="https://kontact.kde.org"
 license="GPL-2.0-or-later AND Qt-GPL-exception-1.0 AND LGPL-2.0-or-later"
 depends_dev="
@@ -52,5 +52,5 @@ package() {
 	DESTDIR="$pkgdir" cmake --install build
 }
 sha512sums="
-2e96c29d594f415ef2cc3bacaaa7ce25398a5a9f91e5261c0ae09535f85c99be9d13131d23fe248892e24d6e289d56b9e05c424f21ced57fff2ff5fefe50fc74  calendarsupport-25.12.3.tar.xz
+8702ccbcec2111a73bd73b9a6b320d52837a0bf447e847259e12cf792ec656f6b57f83aaef8cc711b27da9ec3ec74f978399efdebc672f47da2825ff3362c34e  calendarsupport-26.04.0.tar.xz
 "

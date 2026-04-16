@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kbounce
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="A single player arcade game with the elements of puzzle"
 url="https://kde.org/applications/games/kbounce/"
@@ -47,5 +47,5 @@ package() {
 }
 
 sha512sums="
-feb26f6b4242f318af06d1481a43ebbb62240efb45cf25974fa2f0aef9452b864c7d42b3f476a02e33196cce5edb3eaa74aee863fa199111a23b2866ba797835  kbounce-25.12.3.tar.xz
+bd31ce4892f460bf5c78e195ee50c1e2b384a520125efb00b92c08942fa4162d37c234ae24a287f312a024a4d3e88840440770c3a0569fbbffbfc1d02a12a5be  kbounce-26.04.0.tar.xz
 "

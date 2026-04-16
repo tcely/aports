@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=krdc
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative -> ki18n
 arch="all !armhf"
@@ -32,9 +32,13 @@ makedepends="
 	kxmlgui-dev
 	libssh-dev
 	libvncserver-dev
+	qtkeychain-dev
 	samurai
 	"
-subpackages="$pkgname-doc $pkgname-lang"
+subpackages="
+	$pkgname-doc
+	$pkgname-lang
+	"
 _repo_url="https://invent.kde.org/network/krdc.git"
 source="https://download.kde.org/stable/release-service/$pkgver/src/krdc-$pkgver.tar.xz"
 options="!check" # No tests
@@ -52,5 +56,5 @@ package() {
 }
 
 sha512sums="
-361bb4d4135a389c8497e7acd3b723348c228ea5ee4613a9b13c96463d8dd5062b512aaff84938ef9699146d1313f44fb7a21738980cc08fc0fff3bbcdfa0c03  krdc-25.12.3.tar.xz
+d29b895fce22e529e9325021cb043734893003412c3b714c27de9a6d6e25c0b7035dcc754ae9e5b69219fb08256837471ce83c04f991d7d2fc16d72289ccf319  krdc-26.04.0.tar.xz
 "

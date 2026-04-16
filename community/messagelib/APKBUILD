@@ -2,12 +2,12 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=messagelib
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="KDE PIM messaging library"
 # armhf blocked by qt6-qtdeclarative
-# x86, s390x, riscv64 blocked by qt6-qtwebengine
-arch="all !armhf !x86 !s390x !riscv64"
+# x86, armv7, s390x, riscv64 blocked by qt6-qtwebengine
+arch="all !armhf !x86 !armv7 !s390x !riscv64"
 url="https://kontact.kde.org/"
 license="LGPL-2.0-only OR LGPL-3.0-only AND GPL-2.0-or-later"
 depends_dev="
@@ -84,63 +84,75 @@ build() {
 }
 
 check() {
-	local skipped_tests="(mimetreeparser-bodypartformatterbasefactory"
+	local skipped_tests="(mimetreeparser-bodypartformatterbasefactorytest"
 	local tests="
-		akonadi-mysql-viewer
-		akonadi-sqlite-viewer
-		akonadi-sqlite-viewer-grantleethemesupport
-		messagecomposer-composerviewbase
-		messagecomposer-cryptocomposer
-		messagecomposer-messagefactoryng
-		messagecomposer-recipientseditor
-		messagecomposer-replystrategy
-		messagecore-autocryptrecipient
-		messageviewer-dkim-dkimchecksignaturejob
-		messageviewer-dkim-dkimmanagerulesdialog
-		messageviewer-dkimchecksignaturejob
-		messageviewer-messageparttheme-objecttreeparser
-		messageviewer-messageparttheme-render
-		messageviewer-messageparttheme-showonlymimepart
-		messageviewer-messageparttheme-unencryptedmessage
-		messageviewer-scamwebenginedetection-scamdetectionwebengine
-		messageviewer-webengine-webengineaccesskeyanchorfromhtml
-		mimetreeparser-basicobjecttreeparser
-		templateparser-templateextracthtmlelementfrommail
-		templateparser-templateextracttextfrommail
-		templateparser-templateparserjob
-		webengineview-createdatabasefilejob
-		webengineview-urlhashing
-		webengineviewer-findbar-findbarbase
+		akonadi-mysql-urlhandlermanagertest
+		akonadi-mysql-viewergrantleethemesupporttest
+		akonadi-mysql-viewertest
+		akonadi-sqlite-viewer-grantleethemesupporttest
+		akonadi-sqlite-viewertest
+		messagecomposer-composerviewbasetest
+		messagecomposer-cryptocomposertest
+		messagecomposer-messagefactoryngtest
+		messagecomposer-recipientseditortest
+		messagecomposer-replystrategytest
+		messagecore-autocryptrecipienttest
+		messageviewer-dkim-dkimchecksignaturejobtest
+		messageviewer-dkim-dkimmanagerulesdialogtest
+		messageviewer-dkimchecksignaturejobtest
+		messageviewer-messageparttheme-objecttreeparsertest
+		messageviewer-messageparttheme-rendertest
+		messageviewer-messageparttheme-showonlymimeparttest
+		messageviewer-messageparttheme-unencryptedmessagetest
+		messageviewer-messagepartthemes-default-showonlymimeparttest
+		messageviewer-messagepartthemes-objecttreeparsertest
+		messageviewer-messagepartthemes-rendertest-headeronly
+		messageviewer-messagepartthemes-rendertest-hidden
+		messageviewer-messagepartthemes-rendertest-iconic
+		messageviewer-messagepartthemes-rendertest-inlined
+		messageviewer-messagepartthemes-rendertest-smart
+		messageviewer-messagepartthemes-unencryptedmessagetest
+		messageviewer-scamdetection-scamdetectionwebenginetest
+		messageviewer-scamwebenginedetection-scamdetectionwebenginetest
+		messageviewer-webengine-webengineaccesskeyanchorfromhtmltest
+		mimetreeparser-basicobjecttreeparsertest
+		templateparser-templateextracthtmlelementfrommailtest
+		templateparser-templateextracttextfrommailtest
+		templateparser-templateparserjobtest
+		webengineview-createdatabasefilejobtest
+		webengineview-urlhashingtest
+		webengineviewer-findbar-findbarbasetest
+		webengineviewer-webengineaccesskey-webengineaccesskeyanchorfromhtmltest
 		"
 	case "$CARCH" in
-		x86) tests="$tests webengineviewer-webengineexportpdfpagejob" ;;
+		x86) tests="$tests webengineviewer-webengineexportpdfpagejobtest" ;;
 		loongarch64) tests="$tests akonadi-mysql-viewergrantleethemesupporttest" ;;
 		aarch64)
 			tests="$tests
-				messagecomposer-recipientseditor
-				webengineviewer-webengineexportpdfpagejob"
+				messagecomposer-recipientseditortest
+				webengineviewer-webengineexportpdfpagejobtest"
 			;;
 		armv7)
 			tests="$tests
-				akonadi-mysql-urlhandlermanager
-				akonadi-sqlite-urlhandlermanager
-				webengineviewer-webengineexportpdfpagejob
+				akonadi-mysql-urlhandlermanagertest
+				akonadi-sqlite-urlhandlermanagertest
+				webengineviewer-webengineexportpdfpagejobtest
 				"
 			;;
 		ppc64le)
 			tests="$tests
-				akonadi-mysql-urlhandlermanager
-				akonadi-mysql-viewergrantleethemesupport
-				akonadi-sqlite-urlhandlermanager
-				akonadi-sqlite-viewergrantleethemesupport
-				webengineviewer-webengineexportpdfpagejob
+				akonadi-mysql-urlhandlermanagertest
+				akonadi-mysql-viewergrantleethemesupporttest
+				akonadi-sqlite-urlhandlermanagertest
+				akonadi-sqlite-viewergrantleethemesupporttest
+				webengineviewer-webengineexportpdfpagejobtest
 				"
 			;;
 	esac
 	for test in $tests; do
 		skipped_tests="$skipped_tests|$test"
 	done
-	skipped_tests="$skipped_tests)test"
+	skipped_tests="$skipped_tests)"
 
 	dbus-run-session wlheadless-run -- ctest --test-dir build -E "$skipped_tests"
 }
@@ -150,5 +162,5 @@ package() {
 }
 
 sha512sums="
-b219dd62623a1ec020e6e4cc6cb0b8e215c539e9ad9991dee4a175937c85c14c95eb2df4b872ee8e1cccee11c66953155f26a98447d82fd173bd0e54c61beed3  messagelib-25.12.3.tar.xz
+e65ce45e98b5f519ae7f060e4b32d7c26ebe0e73989b370c0b1a20eae81e991b0951585cdcc06f57f2fd90013661f70b2e8ad71c4757b2fd9fe980ddd057ab48  messagelib-26.04.0.tar.xz
 "

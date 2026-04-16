@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=juk
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative -> ki18n
 arch="all !armhf"
@@ -56,5 +56,5 @@ package() {
 }
 
 sha512sums="
-20cf64820a6a023a15d9f2f5dfdecae411832c20386964c5dec166e9aa4af0b768801375c45f7786160af5b201890e7bf7bb9cb092b75417ed3f1714b3f1ced3  juk-25.12.3.tar.xz
+162909067d3079faca044c22cf8d8c321a2d15c5ebf55ea85463443a1590f3d792fb482acb057c743764e6145a81fd78a2a35dd2d3bca44bbfb65ee7bcf375be  juk-26.04.0.tar.xz
 "

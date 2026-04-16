@@ -1,13 +1,11 @@
-# Contributor: Bart Ribbers <bribbers@disroot.org>
-
 # The group tag is just to easily find this APKBUILD by some scripts for automation
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=grantleetheme
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="KDE PIM mail related libraries"
-# armhf blocked by extra-cmake-modules
+# armhf blocked by qt6-qtdeclarative -> ki18n
 arch="all !armhf"
 url="https://kontact.kde.org/"
 license="GPL-2.0-or-later AND LGPL-2.1-or-later"
@@ -22,29 +20,37 @@ makedepends="$depends_dev
 	doxygen
 	extra-cmake-modules
 	graphviz
+	kde-qdoc-common
 	samurai
 	"
-checkdepends="xvfb-run"
+checkdepends="xwayland-run"
 subpackages="$pkgname-dev $pkgname-doc $pkgname-lang"
 _repo_url="https://invent.kde.org/pim/grantleetheme.git"
 source="https://download.kde.org/stable/release-service/$pkgver/src/grantleetheme-$pkgver.tar.xz"
 
 build() {
+	export KDE_DOCS=/usr/share/kde/documentation
 	cmake -B build -G Ninja \
 		-DCMAKE_BUILD_TYPE=RelWithDebInfo \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DBUILD_QCH=ON
+		-DCMAKE_INSTALL_LIBDIR=lib
 	cmake --build build
+
+	cmake --build build --target prepare_docs
+	cmake --build build --target generate_docs
+	cmake --build build --target generate_qch
 }
 
 check() {
-	xvfb-run -a ctest --test-dir build -E "grantleetheme-grantleethemetest"
+	wlheadless-run -- ctest --test-dir build -E "grantleetheme-grantleethemetest"
 }
 
 package() {
 	DESTDIR="$pkgdir" cmake --install build
+
+	DESTDIR="$pkgdir" cmake --build build --target install_html_docs
+	DESTDIR="$pkgdir" cmake --build build --target install_qch_docs
 }
 sha512sums="
-e84b681427634d38723164a5676cb4ee2494fc1a06cf64d5e8a27c728dbee7965465ed2d95460f86aa31ca93379b364cb12e09c663c1e318a5c9d09da5390498  grantleetheme-25.12.3.tar.xz
+7e276d3b95cc4be00d7bcf70a734e63fa3226d84cf214633cc05acaf0e2f94d596e970f46a61fe87536ec67602f0371a1911329f77db94037d19d6c34390a70f  grantleetheme-26.04.0.tar.xz
 "

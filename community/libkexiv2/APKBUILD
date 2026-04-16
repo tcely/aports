@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=libkexiv2
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Library to manipulate picture metadata"
 url="https://www.kde.org/applications/graphics"
@@ -40,5 +40,5 @@ package() {
 }
 
 sha512sums="
-433bd2131fa9b474b5b8afb3d636701140556da17e81af5242e2d7f83e0e37de9f5f802aa2cb0c0c143d595730965438340a8341b3c35e2c7eb8f0f6d74563ca  libkexiv2-25.12.3.tar.xz
+9405a8519a3cecd7f9606fd6227fcccc09e82eb55360f2f4ae3cdd9d855e52c6d774e0f0adbcbf12e6da174f70cc302c171a7776dce5d0ab826dcbc25969c620  libkexiv2-26.04.0.tar.xz
 "

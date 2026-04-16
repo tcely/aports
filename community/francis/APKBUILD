@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=francis
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Track your time"
 url="https://invent.kde.org/utilities/francis"
@@ -46,5 +46,5 @@ package() {
 }
 
 sha512sums="
-00f045102194ecd5024022546a5387962fc9c4d004dd313cb5ca89a7506de56293bb2ed64effa003c3b16f52f3df9a16387b2c5985c8b0a3023372f1d6cd1830  francis-25.12.3.tar.xz
+294c99120c4bf39b24fa8b6529b0bd9c734fcf1535a9ac73ae9d6562f9a77c1d3e872b74e8513e9bea11649f3b31473be6abf370bb7631f6a42417b5632083ea  francis-26.04.0.tar.xz
 "

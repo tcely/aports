@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=sweeper
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-31225a2dc8a4f7e2ba8997db5d065f02cb8eb00f16dc8db6f3ec5657dddd8ea849b00265287b9e4a2c2dbb2606b6602ed2d2fec78e1e7d22a84b7f019e8ed160  sweeper-25.12.3.tar.xz
+c73042fc4e7bebe3eb2fe22b8df1ae9a69ef63a72be01620fca4db57bd45b9d069e96508e386dc44968b7fb494d1640040dfb069be9e0dce8d056d62ba0d7ae7  sweeper-26.04.0.tar.xz
 "

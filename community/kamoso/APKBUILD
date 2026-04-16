@@ -2,8 +2,8 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kamoso
-pkgver=25.12.3
-pkgrel=1
+pkgver=26.04.0
+pkgrel=0
 # armhf blocked by qt6-qtdeclarative -> kirigami
 arch="all !armhf"
 url="https://kde.org/applications/multimedia/org.kde.kamoso"
@@ -55,5 +55,5 @@ package() {
 }
 
 sha512sums="
-af5d6df290ffebb4cfbfd596326d901f6152f8eba50d339d0927bbf0ab821f89c095b0e1a303c76cb006b3712ec3cadef3fd24e27cbffbce3f34e48e7aac1cc9  kamoso-25.12.3.tar.xz
+47525f7479ccd53d279cee9b0e2acbe79aba918dcc6c4f94d1ac905b171e83e4aaa8109dff16ccdc08407bcba35e9b32f10a0cacdfc0582967bdeae2c6776927  kamoso-26.04.0.tar.xz
 "

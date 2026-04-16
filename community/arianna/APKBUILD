@@ -2,13 +2,13 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=arianna
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="EPub Reader for mobile devices"
 url="https://invent.kde.org/graphics/arianna/"
 # armhf blocked by qt6-qtdeclarative
-# s390x, riscv64 and x86 blocked by qt6-qtwebengine
-arch="all !armhf !s390x !riscv64 !x86"
+# x86, armv7, s390x and riscv64 blocked by qt6-qtwebengine
+arch="all !armhf !x86 !armv7 !s390x !riscv64"
 license="(BSD-2-Clause OR BSD-3-Clause) AND (GPL-2.0-only OR GPL-3.0-only) AND (LGPL-2.0-or-later OR LGPL-2.1-or-later OR LGPL-3.0-or-later)"
 depends="
 	kirigami-addons
@@ -55,5 +55,5 @@ package() {
 }
 
 sha512sums="
-ec3fec99b04c1b337cb89c54543dcc185ab554ebf3844ff632b3cb24cefa7fe008406109643e5bb4683b27f469023727cb00179bd1f1143aba96737ac2b9827f  arianna-25.12.3.tar.xz
+bc36d3c8fdc1789d3ed7a940e0bd20b0b3d0cbf4f4814ce336287c0b44a78936ef4aa5a8b174625cb4650458bc5d1a1462259fbef2af037a1578444819e3af35  arianna-26.04.0.tar.xz
 "

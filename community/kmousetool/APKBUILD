@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kmousetool
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -44,5 +44,5 @@ package() {
 }
 
 sha512sums="
-96f23aae571cad9ddc1885b741916251ddf188c45f7f868386ba8c946e3c96b20108908553295c7ba813cb3f41c98bf4ebeb4d07619eece5a793b36688b785cf  kmousetool-25.12.3.tar.xz
+d420acedcc3da85a3a8e67d67011d4ac8067631bc177cf95e20aa1da8b56b12a1c98695ee21f2c55168c9c5fc1787541461bb703ceed81f765010afe29a4df6f  kmousetool-26.04.0.tar.xz
 "

@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kdepim-addons
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative
 # !x86, armv7, s390x and riscv64 blocked by qt6-qtwebengine
@@ -86,5 +86,5 @@ package() {
 }
 
 sha512sums="
-5a6377ceaa4a6d9f8ec263500210edcde6e050348997bd220f1de2cc1e3e62b5f9a25e24ec44660ae150f1d4f9781248e871860ef3ecdb1951b903ebb2059fe2  kdepim-addons-25.12.3.tar.xz
+7eee7eda458f7ed63510e490101607b400d553ef00557a68b207482802a9611db0d7e6a6c2befe5bc29d27e71432a6607f4dd12686ac773e133d6e88c6168ab4  kdepim-addons-26.04.0.tar.xz
 "

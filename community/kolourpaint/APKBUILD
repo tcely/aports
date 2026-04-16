@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kolourpaint
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative -> ki18n
 arch="all !armhf"
@@ -42,5 +42,5 @@ package() {
 }
 
 sha512sums="
-ef7f35ef7ccec005607ac33504bce120ce4c73d4b98b8e336279a4fce913f07df2d6edfb561561abc8d69c032a036eb0877afc0510151c3e664f09296c011f1d  kolourpaint-25.12.3.tar.xz
+4036bf19c08dc620d90b2205056cbb5c62a550905392a3c2590b9f9d2986123dd1901f5401f514617637c857174a5acde0a4c1364fd3c52bd3ecdaa572f58ac6  kolourpaint-26.04.0.tar.xz
 "

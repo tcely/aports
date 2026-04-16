@@ -2,10 +2,10 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kdevelop
-pkgver=25.12.3
-pkgrel=1
-# armhf, x86, s390x and riscv64 blocked by qt6-qtwebengine
-arch="all !armhf !x86 !riscv64 !s390x"
+pkgver=26.04.0
+pkgrel=0
+# armhf, x86, armv7, s390x and riscv64 blocked by qt6-qtwebengine
+arch="all !armhf !x86 !armv7 !riscv64 !s390x"
 url="https://www.kdevelop.org/"
 pkgdesc="A featureful, plugin-extensible IDE for C/C++ and other programming languages"
 license="GPL-2.0-or-later AND LGPL-2.0-or-later AND GFDL-1.2-only"
@@ -82,5 +82,5 @@ _gdb() {
 }
 
 sha512sums="
-ee0735cc74036f55bae21f30cbcab923ef8954192dfe894d9c43adf7b72333a699a608d052a91a4b46c23b8193e906def598567e9b6fdd404eda209c0d3b422c  kdevelop-25.12.3.tar.xz
+b138c35370730d647e4fbe72636ca1491235b5d5219ffa175e8cc674fc53bc624c5c44565ead7219228d9a50b70f1a48c57485e97ec5d10b115f63f4a4b41a02  kdevelop-26.04.0.tar.xz
 "

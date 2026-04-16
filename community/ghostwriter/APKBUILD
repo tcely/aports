@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=ghostwriter
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Distraction-free markdown editor"
 url="https://invent.kde.org/office/ghostwriter/"
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-9a3249d267e2d15ef6c471ceb9a8e0bd57e83a50382847b510bae8bbc9c92937bec9f809fa20198828851d09208d234ab97acb2793567f62295fee9ffde58bb6  ghostwriter-25.12.3.tar.xz
+9b0945b053ee6b7db85af52ec9fa121a725b80f697e8bcd53fd4389c840f9b51eeece7e59f3b9b5057b13658e0d014813e94a5ff3ca67fe2359d8a6cf9c7f258  ghostwriter-26.04.0.tar.xz
 "

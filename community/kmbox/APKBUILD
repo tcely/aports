@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kmbox
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Library for accessing mail storages in MBox format"
 # armhf blocked by extra-cmake-modules
@@ -37,5 +37,5 @@ package() {
 }
 
 sha512sums="
-33d6140aab65ed9f7517cc80699964d49e3196d1e6b7a112aae68e812a9a2e9627e71d3c592ef8304b4fb1760346a6d876eda5363a5aa7522365d7e39d0994cf  kmbox-25.12.3.tar.xz
+98efc3fe73dd93c30d3f4b651e0173ee0fb6161a737c8b5294db0cb2ea4a8f72cf130317b2b35a905be46646e9340edd9d19433569bf53a16360bd0f5fa3d05c  kmbox-26.04.0.tar.xz
 "

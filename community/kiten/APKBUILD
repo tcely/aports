@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kiten
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-c377c841a658f4f83c2304bad1faa0af685a1b99218c3aaece1846a46a488dee653b410bf837c3acb3bbf845519c4ec654dd88704cf9c3b91695118531780c39  kiten-25.12.3.tar.xz
+8dbbc48d38dc36e6e009bff392c99baf48e4a31c539689ad76a1874842415247c3344ea5344d09b2fc34b53e7307cfbde191e75d00aaacf5acee4975cf09e29a  kiten-26.04.0.tar.xz
 "

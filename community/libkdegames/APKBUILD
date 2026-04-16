@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=libkdegames
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative
 arch="all !armhf"
@@ -72,5 +72,5 @@ carddecks() {
 }
 
 sha512sums="
-35757419583524f52c4af96a89a6422905e58b086daaa3a3aa3160499b133c1eed510f69a1253470e92596aaf704d2c50c6bb0569ea5a116c732342c0d101799  libkdegames-25.12.3.tar.xz
+dedc62ee204bbdd484e3322615b168400cb98c8a966eb2fbdd33fb2e4013f459fdd7ed1710e7d368700c16d0b297b8aa6c4ed393cc7b03d68689c54b32bc10de  libkdegames-26.04.0.tar.xz
 "

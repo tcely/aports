@@ -2,10 +2,10 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=ktorrent
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
-# armhf, x86, s390x and riscv64 blocked by qt6-qtwebengine
-arch="all !armhf !x86 !s390x !riscv64"
+# armhf, x86, armv7, s390x and riscv64 blocked by qt6-qtwebengine
+arch="all !armhf !x86 !armv7 !s390x !riscv64"
 url="https://kde.org/applications/internet/org.kde.ktorrent"
 pkgdesc="A powerful BitTorrent client for KDE"
 license="GPL-2.0-or-later"
@@ -70,5 +70,5 @@ package() {
 }
 
 sha512sums="
-aeeb556ce5778942bae58fedede826aaa5e4c195cae908e9f36ce3ead7c02acc10d829fdbbd7f33b798a11b2be8d20cffcbc4a4ad140595c624f9778ee36cc11  ktorrent-25.12.3.tar.xz
+2f18a164280897cfd7094fe85e0ecdf30ee5c876e6635a6719b7a263032784663d77929f84bed79de05f021ef579d6ee44ac24376784abffbf14b1842b2bce5d  ktorrent-26.04.0.tar.xz
 "

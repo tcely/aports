@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=libkomparediff2
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -42,5 +42,5 @@ package() {
 }
 
 sha512sums="
-3cd70600cfcddad5da3c8400c4afa0cddc022d1cace7c97af04d9ee303c3db0b94599eaf49e82a921eea6a43efd0e209982496786d00de38e88dd635838e70d4  libkomparediff2-25.12.3.tar.xz
+42662b1239c4f41fd17c49d07256a742029411138337b35c442f21ad7ede90bc0189fb36436e87b4cdeb3f781509e6bb8712684fcce5a22e7bd8afd4c2d26c18  libkomparediff2-26.04.0.tar.xz
 "

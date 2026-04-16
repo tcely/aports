@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kldap
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="LDAP access API for KDE"
 # armhf blocked by extra-cmake-modules
@@ -46,5 +46,5 @@ package() {
 }
 
 sha512sums="
-6917770167eb499299eb6ee19cbb8feb594ee655b5a1620b7a4ca32e8565790eb2de032a2d57515d0c0053c9f391d53822db76bdb5bd7194b67412edb35e13a8  kldap-25.12.3.tar.xz
+003acf2bd004bf0e06399472d41b981cf27113395378ce2efcc4f614ef793583c54fbaa3e1bbd98e1e5571cd1ddf776e93ea06caef5522fc98915828a1fa71cd  kldap-26.04.0.tar.xz
 "

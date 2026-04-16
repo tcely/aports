@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kdenetwork-filesharing
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -44,5 +44,5 @@ package() {
 }
 
 sha512sums="
-808abd0532f7e019b4c6c4be772adf973a682765a8a1d2b313a726eb64f1795a3d62cea0c72e8b90883db389a43153fc7aa1b9ddfdbf187a062623c831229fbe  kdenetwork-filesharing-25.12.3.tar.xz
+6560c533282cbb64c9ef7ff8a1d3f76f7fd092332d0f725054f31b329650f26752f2a24de82787e610c4bea1322114ab2474c975280036b18ff42a88cb063e99  kdenetwork-filesharing-26.04.0.tar.xz
 "

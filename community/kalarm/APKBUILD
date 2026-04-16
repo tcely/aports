@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kalarm
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Personal alarm scheduler"
 url="https://kontact.kde.org/"
@@ -75,5 +75,5 @@ package() {
 }
 
 sha512sums="
-902951606652d9e35c9399fa2a357d36bdd41158e57b1a98a93e7afdaab713b182f538e38791bf7850b02466ba2af3d63d7b1e0b77cbdb54c4128c98a66aab4c  kalarm-25.12.3.tar.xz
+7b45a21091f2426eb410e57fff1cfdc4f85b3db10114df9eb94fb9397172338e4afb7472f9acf84d9beab2808531413770678af03563d68cca2e90d2e9f87f79  kalarm-26.04.0.tar.xz
 "

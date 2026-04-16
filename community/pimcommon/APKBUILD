@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=pimcommon
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Common lib for KDEPim"
 # armhf, s390x and riscv64 blocked by qt6-qtwebengine -> akonadi
@@ -68,5 +68,5 @@ package() {
 	DESTDIR="$pkgdir" cmake --install build
 }
 sha512sums="
-24e17930180150dc62c69a3dd8f7b8d922be55b0bbd84a1225c3b038d783231315777dd9f03b6b674b17b4521baef775c342e2f6d0880029e4269cba6765ab3e  pimcommon-25.12.3.tar.xz
+2381c803d807871e60dd3cd7e7b0599977e073be6b083ebf5a662bf811e802d1e482ed1e24bfb4883cc3fa6e117a10d3fe568d465d75d6d886067ccb81429e35  pimcommon-26.04.0.tar.xz
 "

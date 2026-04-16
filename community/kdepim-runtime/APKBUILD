@@ -2,13 +2,13 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kdepim-runtime
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Extends the functionality of kdepim"
 url="https://kontact.kde.org/"
 # armhf blocked by qt6-qtdeclarative
-# x86, s390x and riscv64 blocked by qt6-qtwebengine -> akonadi
-arch="all !armhf !x86 !s390x !riscv64"
+# x86, armv7, s390x and riscv64 blocked by qt6-qtwebengine -> akonadi
+arch="all !armhf !x86 !armv7 !s390x !riscv64"
 license="LGPL-2.0-or-later"
 makedepends="
 	akonadi-calendar-dev
@@ -96,5 +96,5 @@ package() {
 }
 
 sha512sums="
-9e3052124522c098a20806252c540c495199063428b7addf6130842f0ee2831fb1a51c2cb63685003646d7ec1bc6ed7644080edbad6c621ba7fa90e50446a0dd  kdepim-runtime-25.12.3.tar.xz
+589b16032408e64bdb5293fe06cb77b2e83017248d7c7100b29254bb3409bc74df0b4b35db594bbb52e0963990e19a0520ed57381a34fa1451d2f166965fcc4c  kdepim-runtime-26.04.0.tar.xz
 "

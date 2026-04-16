@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kdf
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-307752ec2efaa615f1287be133f96ef4906bbece10628984b8e1174c399c1074554ff16d433e27450dcf5e4e20f39e9193578c37cb8c9a25bcb2df763f97e6cf  kdf-25.12.3.tar.xz
+37cbb50238460fa77d455d34d1a8f7e09d6dc427634386f871a83845697e32307e66d673561f1b4fb805698e264acc328858ee6d1da06d0ff16da9b7cc717264  kdf-26.04.0.tar.xz
 "

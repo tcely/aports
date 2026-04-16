@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kturtle
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -42,5 +42,5 @@ package() {
 }
 
 sha512sums="
-253bd1a84c59c72dbfd36a11f3c4c8f90046d6d5897927107db8e990447514e41454b6175e90e4d4880ed6bf48ae6b490d1506e8e52a300eee9093920922c681  kturtle-25.12.3.tar.xz
+7072b0b32c90997075881aaf934ef2ddf3166bfece29451f1b60d812f21390022a095a6d3ba89f6684b4305295b8a9e7db259961553af951d7e6dc30d7dbab1a  kturtle-26.04.0.tar.xz
 "

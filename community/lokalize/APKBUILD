@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=lokalize
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Computer-Aided Translation System"
 url="https://apps.kde.org/lokalize/"
@@ -50,5 +50,5 @@ package() {
 }
 
 sha512sums="
-8e05933e977d4138a5532803dfcfb9a841851d17a8e46c3f1e175fb64ada0a293add7f405f5cd97ab4197c4ffb75d2739996b7a44dc2dd6c4a9d05015e4d6aa4  lokalize-25.12.3.tar.xz
+ade2532dd8a3386b39730172c9c39644930880342529a0a9257f35f07b3a0facc83471736f8480a2952dd45a5e187171a8a3ca62c182d257cb1bbc23c9f1da2d  lokalize-26.04.0.tar.xz
 "

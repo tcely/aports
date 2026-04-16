@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kio-zeroconf
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -39,5 +39,5 @@ package() {
 }
 
 sha512sums="
-8ccdb8d6a21f07d1b22b0c1c008314d2695f7a438e99174e73467ecc1146887e3b49769704487d0168cf80fbe3593d37d0f79fc83d565e68325747887425659c  kio-zeroconf-25.12.3.tar.xz
+c9b423efb6f0f787c08e75eb4c3c730347682f6bb633a6ef3f68a8bdaadb6474a3684c1dfede29a641adac98e5bfc548fd9501424860798d321f1ca554ddbf59  kio-zeroconf-26.04.0.tar.xz
 "

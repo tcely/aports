@@ -2,13 +2,14 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=minuet
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Minuet Music Education"
 # armhf blocked by qt6-qtdeclarative
 arch="all !armhf"
 url="https://minuet.kde.org/"
 license="GPL-2.0-or-later AND GFDL-1.2-only"
+depends="kirigami"
 makedepends="
 	extra-cmake-modules
 	fluidsynth-dev
@@ -16,12 +17,17 @@ makedepends="
 	kcrash-dev
 	kdoctools-dev
 	ki18n-dev
+	kirigami-dev
 	qt6-qtbase-dev
 	qt6-qtdeclarative-dev
 	qt6-qtsvg-dev
 	samurai
 	"
-subpackages="$pkgname-doc $pkgname-lang $pkgname-dev"
+subpackages="
+	$pkgname-doc
+	$pkgname-lang
+	$pkgname-dev
+	"
 _repo_url="https://invent.kde.org/education/minuet.git"
 source="https://download.kde.org/stable/release-service/$pkgver/src/minuet-$pkgver.tar.xz"
 options="!check" # No tests
@@ -39,5 +45,5 @@ package() {
 }
 
 sha512sums="
-8053542d78f19b8d1f53b104dc22c063470ad080ec9175608832d11fe1e9b28d29d905591de744d6e15256e83de2024b783675c857968e2b52b5806e881182ab  minuet-25.12.3.tar.xz
+eb01f20c590eebe801f7a3c580fcb5dd4124055bb0c3491beb898495547d8f2d4e2ddea7c716b80ac3136b12d5d68400254939fbadfe959bbbf57a4fc3a06af5  minuet-26.04.0.tar.xz
 "

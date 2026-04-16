@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kdegraphics-thumbnailers
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative -> kio
 arch="all !armhf"
@@ -38,5 +38,5 @@ package() {
 }
 
 sha512sums="
-20dc8d44df8c0a8ed582501dfe5a23f3cb859beef29f6fcdbfba5d2cf5dc1917c53a7505e30886408a03cdcbf11a7cfb69fe18a4495ad95b8ea7b5504106d29c  kdegraphics-thumbnailers-25.12.3.tar.xz
+9b707dd5f4849f2bdf9916fcf7424b6fb1b87e4d5a331ee9aaf4f4d2dad56715ac255fa72066f09768a4a2d4dcc49aadee3c6c13888944567ddad4fc1e705e1b  kdegraphics-thumbnailers-26.04.0.tar.xz
 "

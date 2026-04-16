@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=ksystemlog
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -50,5 +50,5 @@ package() {
 }
 
 sha512sums="
-cd037b350216e5dc38e753253afc526f71ef14de2c1fae2c6ba5e338eba591e61feb1a80c852b15fe260f57106842d2d764ee5ddbd0802e37c050cdf18843166  ksystemlog-25.12.3.tar.xz
+846bfa9c39f5b1715d83944651ebdc1d196cbd2639c62d21d7b76e29605c3af017eb645c2ec3c499ffadf06cfefe640532b2627a5daae169f38b3597c9a0d9ad  ksystemlog-26.04.0.tar.xz
 "

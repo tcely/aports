@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kgraphviewer
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="GraphViz dot graph viewer"
 # armhf blocked by qt6-qtdeclarative -> ki18n
@@ -42,5 +42,5 @@ package() {
 }
 
 sha512sums="
-9c1422568c31dc1316224b76be53695c22f2702b800c65592ff4b32941a9b31ab7ecfaad13b53e5836dcb158a5a33b75e76dcd1d7353d6e93ac56f7f740e2dbe  kgraphviewer-25.12.3.tar.xz
+38718e38d26d5ecb49d864dea35d4306ace20e06d2c279c80e0eb3ea14bc4e6d7b8a5628c12826693e9e4bc704612e9ade2a92e95031e9543793938733f1fe9a  kgraphviewer-26.04.0.tar.xz
 "

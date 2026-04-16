@@ -1,9 +1,9 @@
 # The group tag is just to easily find this APKBUILD by some scripts for automation
-# group=kde-mobile
+# group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=plasma-settings
-pkgver=26.02.0
-pkgrel=2
+pkgver=26.04.0
+pkgrel=0
 pkgdesc="Settings application for Plasma Mobile"
 # armhf blocked by qt6-qtdeclarative
 arch="all !armhf"
@@ -38,7 +38,7 @@ makedepends="
 	"
 subpackages="$pkgname-lang"
 _repo_url="https://invent.kde.org/plasma-mobile/plasma-settings.git"
-source="https://download.kde.org/stable/plasma-settings/plasma-settings-$pkgver.tar.xz"
+source="https://download.kde.org/stable/release-service/$pkgver/src/plasma-settings-$pkgver.tar.xz"
 options="!check" # No tests
 
 build() {
@@ -54,5 +54,5 @@ package() {
 }
 
 sha512sums="
-a70906301c54db8267049777a3020e4e3020caeff3b675fd2ce86c07db16f696ead9f12bc4f9aaa7ce53585f7c706e3dbd80e3178a51af1caca954178d853ee8  plasma-settings-26.02.0.tar.xz
+cf403e756ddf80edac5a7b1352983d6e2b76d687bd8fa941e7f03ff9e551565c36a92ce4a88ed5b84e3e2cf85407b2b446f866b2d2d10f07d0c5e4b8d1ce6eaf  plasma-settings-26.04.0.tar.xz
 "

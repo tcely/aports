@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=akonadi-calendar-tools
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # x86, s390x, riscv64 and armv7 blocked by akonadi-calendar -> qt6-qtwebengine
 arch="all !x86 !armhf !s390x !riscv64 !armv7"
@@ -39,5 +39,5 @@ package() {
 }
 
 sha512sums="
-6dcc410273f1d761e21b5e3477a6ef5b1f12a4c127bf72f476652fe4ec14b676390af33b12f11d5f156142de926c9d505fdbc76886e9a82d855015beee04aad0  akonadi-calendar-tools-25.12.3.tar.xz
+114f115db2f274f8ed0fb5bdea3198313691c3e0803c3ab502d8acf59634799d465639ea56ba535107bae98b63f7c3b2b6bee1c045dab30431d8a49f91fef217  akonadi-calendar-tools-26.04.0.tar.xz
 "

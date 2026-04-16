@@ -1,13 +1,11 @@
-# Contributor: Bart Ribbers <bribbers@disroot.org>
-
 # The group tag is just to easily find this APKBUILD by some scripts for automation
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=ksmtp
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Job-based library to send email through an SMTP server"
-# armhf blocked by extra-cmake-modules
+# armhf blocked by qt6-qtdeclarative -> ki18n
 arch="all !armhf"
 url="https://kontact.kde.org"
 license="LGPL-2.1-or-later"
@@ -22,6 +20,7 @@ makedepends="$depends_dev
 	doxygen
 	extra-cmake-modules
 	graphviz
+	kde-qdoc-common
 	samurai
 	"
 subpackages="$pkgname-dev $pkgname-doc $pkgname-lang"
@@ -31,12 +30,17 @@ source="https://download.kde.org/stable/release-service/$pkgver/src/ksmtp-$pkgve
 options="!check"
 
 build() {
+	export KDE_DOCS=/usr/share/kde/documentation
 	cmake -B build -G Ninja \
 		-DCMAKE_BUILD_TYPE=RelWithDebInfo \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DBUILD_QCH=ON
 	cmake --build build
+
+	cmake --build build --target prepare_docs
+	cmake --build build --target generate_docs
+	cmake --build build --target generate_qch
 }
 
 check() {
@@ -45,8 +49,11 @@ check() {
 
 package() {
 	DESTDIR="$pkgdir" cmake --install build
+
+	DESTDIR="$pkgdir" cmake --build build --target install_html_docs
+	DESTDIR="$pkgdir" cmake --build build --target install_qch_docs
 }
 
 sha512sums="
-edf799209a1e1cb4ae003d5d3a6863e6ecc32b00d553582e0e2d64112c43807f0178cf9a71d7f1fbad5bab27397b164a245f44878edefd4e2f4c6b2d6ecfa9ef  ksmtp-25.12.3.tar.xz
+87744cdbd469b7b45e4bea7f5384ec612e4a21a54ff7e8e569f347bf72ece722a959c40a069e438c144b27dfa5203fac152eb4446311f5baa820777219cd16c7  ksmtp-26.04.0.tar.xz
 "

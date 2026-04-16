@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kfourinline
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="A four-in-a-row game"
 # armhf blocked by extra-cmake-modules
@@ -46,5 +46,5 @@ package() {
 }
 
 sha512sums="
-4bf0205629f9a0d7cb89ecf4157af9253a8f37ca78836fca4e20a00a5f7c3c3f064de055d481e5661a686fff050feda6d61e9e242041f2e046d5e82f26b5b7e2  kfourinline-25.12.3.tar.xz
+b43bd93b1c51dbd86c8811427ca8a32add64e8ffc0f5ab84014e630efbc1a11a7485a0eb98c68e20355e2012c2ffe526b0a089d2f4c255eb5cb43f9c343cad3d  kfourinline-26.04.0.tar.xz
 "

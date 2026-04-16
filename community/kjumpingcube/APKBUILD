@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kjumpingcube
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="A simple dice driven tactical game"
 # armhf blocked by extra-cmake-modules
@@ -47,5 +47,5 @@ package() {
 }
 
 sha512sums="
-9001239db3d20e7f29e8245cfa1517f16325fdb1d7497e4ba742fec39f40fc8fe9fa52cb8676212c11f587beb59c0eccdd9e55b957d02426ecf70c7f818dfa86  kjumpingcube-25.12.3.tar.xz
+535419c3feb48149776adae2b7ee335f9156d2dab3d904d914ec05ddf2a71acf6202b55fe50484a58fb899d9d8a754b9f8a3db86e59f92a892cdd745edf03afe  kjumpingcube-26.04.0.tar.xz
 "

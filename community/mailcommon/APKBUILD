@@ -2,12 +2,12 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=mailcommon
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="KDE PIM library providing support for mail applications"
 # riscv64 disabled due to missing rust in recursive dependency
-# armhf, x86, s390x and riscv64 blocked by messagelib -> qt6-qtwebengine
-arch="all !armhf !x86 !s390x !riscv64"
+# armhf, x86, armv7, s390x and riscv64 blocked by messagelib -> qt6-qtwebengine
+arch="all !armhf !x86 !armv7 !s390x !riscv64"
 url="https://kontact.kde.org/"
 license="GPL-2.0-or-later"
 # TODO: Consider replacing gnupg with specific gnupg subpackages that mailcommon really needs.
@@ -84,5 +84,5 @@ package() {
 }
 
 sha512sums="
-83040a260d3f52af0998821886875695519051c676c7aa272f9aa7046e2637e744df8f3f7db9c69c9bd23f72a6611493bc856b39907de09d11396fe3ff2120dd  mailcommon-25.12.3.tar.xz
+ac11762e3fcc2ddd885dc9d1d5e270d51f65b4d505bc2661f6c52ccaaf231b833f430aa1eb7467dd0e91deb71b109875ce9769424073f5eb118b069355e21827  mailcommon-26.04.0.tar.xz
 "

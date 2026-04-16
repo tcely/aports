@@ -2,11 +2,11 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kio-gdrive
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative -> ki18n
-# x86, s390x, riscv64 and armv7 blocked by qt6-qtwebengine -> libkgapi
-arch="all !armhf !x86 !s390x !riscv64 !armv7"
+# x86, armv7, s390x and riscv64 blocked by qt6-qtwebengine -> libkgapi
+arch="all !armhf !x86 !armv7 !s390x !riscv64"
 url="https://community.kde.org/KIO_GDrive"
 pkgdesc="KIO Slave to access Google Drive"
 license="GPL-2.0-or-later"
@@ -48,5 +48,5 @@ package() {
 }
 
 sha512sums="
-d2e89c928d3017ec898446b1c703f8f9dbc13d3e1497019dad32fb7f65f0ae35e8350e39558244fc5bc65faca125a2914e957aec4e3f03e997279c9dca911a4c  kio-gdrive-25.12.3.tar.xz
+e135627c08cc87977fb67c1890bb4fed9eafdb82d6e0f41f00afc730737ca2c7b050adcc7d7e93c80b21a31f2e60f21eb4e1a338b0943d0fead231369030c8c2  kio-gdrive-26.04.0.tar.xz
 "

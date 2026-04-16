@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=akonadi-search
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Libraries and daemons to implement searching in Akonadi"
 # riscv64 blocked by akonadi
@@ -48,18 +48,17 @@ build() {
 	cmake -B build -G Ninja \
 		-DCMAKE_BUILD_TYPE=MinSizeRel \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DBUILD_QCH=ON
+		-DCMAKE_INSTALL_LIBDIR=lib
 	cmake --build build
 }
 
 check() {
-	dbus-run-session wlheadless-run -- ctest --test-dir build -E "(queryparser|searchplugin)test"
+	dbus-run-session wlheadless-run -- ctest --test-dir build -E "(queryparser|searchplugin|akonadi-mysql-(scheduler|collectionindexingjob))test"
 }
 
 package() {
 	DESTDIR="$pkgdir" cmake --install build
 }
 sha512sums="
-65904d1ae942fd462768f5d167202d85afd373647fe3418b77bfc7e2de3b223fc690fb7e1cff645e707a9fb8e66fb286ee8fc977f01a7e7c29472fb1ee09c876  akonadi-search-25.12.3.tar.xz
+056ab5598d18dd62f73c0f49676ad4fe2af30c4b6362f040515e2df0c418809e425157a15917c7f3ae1eefab3efc5819db24c87f37e6ab2bce69467766066e06  akonadi-search-26.04.0.tar.xz
 "

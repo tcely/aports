@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=khangman
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative
 arch="all !armhf"
@@ -48,5 +48,5 @@ package() {
 }
 
 sha512sums="
-6c40bfe422b61340424d0f2c66e3e9ec406892681254585bc01d1bc9c806ddf333bd75f5caedac718c731419e8e296920e54686d1fe2c69b11594f86464079af  khangman-25.12.3.tar.xz
+7e6ee552e5792205a70d57fd02ba9cfe8110093e74b7d4bfeb3acd7f32dbc1a16ac5bfda6aa1d14042b9b7254bc443f946a7cf5f8e7478f343ba6d36893a9ab4  khangman-26.04.0.tar.xz
 "

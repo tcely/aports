@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kclock
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Clock app for Plasma Mobile"
 url="https://invent.kde.org/utilities/kclock"
@@ -49,5 +49,5 @@ package() {
 }
 
 sha512sums="
-5fb21c519fd8abcb693fc6630f90033e14a2ad21effb192617e6dcc91105327906df1e09ee5c91a8ca97796145e72c634947f20b26079bfca5daadadaf1db509  kclock-25.12.3.tar.xz
+e7add3bdce01679a0050ddc7394ede99c991317b157a517454690aa8548edd9785958a45ca0c3b42e0902fb241590b7536ab5b72c49b42cf2f91c10ef42d6991  kclock-26.04.0.tar.xz
 "

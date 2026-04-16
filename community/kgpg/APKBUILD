@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kgpg
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 # s390x and riscv64 blocked by qt6-qtwebengine -> akonadi-contacts
@@ -60,5 +60,5 @@ package() {
 }
 
 sha512sums="
-089ee83ca72060f40fadc2c245a845a08d308446b65ff32f7ddd285f0138406c8d36483e79fbc5d4d04d7658aa49d6cd0688b5251656e55820be3fb60902383d  kgpg-25.12.3.tar.xz
+51ec4590a2b301be311db2d5a2dabb1bc28dba70b21f4a91feb60b89a4f9e7f7f9eaa0b5e55d0318f4925e0633902f216280730f393bbb821a7ca3d685427ec2  kgpg-26.04.0.tar.xz
 "

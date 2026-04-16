@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=gwenview
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 # s390x, and riscv64 blocked by qt6-qtwebengine -> purpose
@@ -64,5 +64,5 @@ package() {
 }
 
 sha512sums="
-da9dc42cdd825de93ec0ad8a6e093002337c3ce9c187a5a3b4385b700ddbb351ec9e3a612c457c8d8868059e1034e5779cc0b7ef132d5847fbadc42da74159b5  gwenview-25.12.3.tar.xz
+c396c1770a088751c478b73e3bc4ac110a29c2c4ef9797fd653ec8241f720e213449ce9a3403435c78d18d5b8c5eae7bbb4378c6dcbca2d01523db0b60dd1a2e  gwenview-26.04.0.tar.xz
 "

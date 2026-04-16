@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=klines
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-d582522326d622c126e12764f09b4d38fa67afb548071f2a027742915a38f232910de1d31339dcd46d8ee0b974d71660ea4ae0ba56b0bde3ed88a425c8cee396  klines-25.12.3.tar.xz
+1106bb2d54de32a3a5cf99ffe0ffee588e57edad2a68027d74fc3ee2e40791f1abdbf3550414d75e871be8fbab31476c9bf62b544b3a79566f521c79aa909aed  klines-26.04.0.tar.xz
 "

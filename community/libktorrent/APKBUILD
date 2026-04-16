@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=libktorrent
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -52,5 +52,5 @@ package() {
 }
 
 sha512sums="
-adb67fe343c427e5243f325c961fc0c4924956d9aefe3b467b94336ccb786de44e521775e94e1abdf6ae2c18fd0303fd988fb0c18af9c4e42a2b51690fadb07a  libktorrent-25.12.3.tar.xz
+f890e7a4ed59d106e198f5778b0ae1889a91a855679f49e3c718c8ce1510e84aa5dcdaf23fa5e11d69aaad001009479b27b7b9ef44d2266857fd2da155e1ba78  libktorrent-26.04.0.tar.xz
 "

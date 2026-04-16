@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=konsole
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative
 arch="all !armhf"
@@ -69,5 +69,5 @@ package() {
 }
 
 sha512sums="
-9de40ade8a792988d2657bf839fd79e4ba9e4e661c788233e54b1f7d55f6e17df900f6ede27c7c87e1a00abdad93ecb680ef93b29e48485abd1aebd563b85757  konsole-25.12.3.tar.xz
+7c069c71e1e5ec5e8cfcb57e17d007b40ddc6f46e650bed4c451e46096de8b6748d7673a34eea9c98d4b30db8d2ea34d962343579f5a253e2540ef962c0a048f  konsole-26.04.0.tar.xz
 "

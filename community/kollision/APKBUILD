@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kollision
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="A simple ball dodging game"
 # armhf blocked by extra-cmake-modules
@@ -44,5 +44,5 @@ package() {
 }
 
 sha512sums="
-7e7c7c0429f2a03819b8b9a22451c95187ed03b0fef56253447a7dafaae6112ac06dad7dc5c38d269d556c89b510b90ce8b7d3ad570b162440ce843aee3166ca  kollision-25.12.3.tar.xz
+c6c39cdce1d927be09ee09037a299e13485a4424f5a475fa26df74afc7b7bb49e7a3e8c7e30b6658ec773c91f9ad444bd8527a33c67f64cf3f13b355e210f6fb  kollision-26.04.0.tar.xz
 "

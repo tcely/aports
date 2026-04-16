@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kiriki
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="An addictive and fun dice game"
 # armhf blocked by extra-cmake-modules
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-d46d53c6b09397c8e4e7098869fe1dbc945f00fac06818d01245c2aba7fc0d0eb062903fe851621528a381ca2603e2cf0685cf36e751a058fd6efbfe900642e5  kiriki-25.12.3.tar.xz
+d5323a0fe5780884df5b57c80bef0d0d1ba3cfb16d851012c877147563296ef63e40c703bdfc5163bb1abcb320825a6631f44a489d29e67f1e835913ea642a25  kiriki-26.04.0.tar.xz
 "

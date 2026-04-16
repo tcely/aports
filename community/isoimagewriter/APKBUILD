@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="Bart Ribbers <bribbers@disroot.org>"
 pkgname=isoimagewriter
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -43,5 +43,5 @@ package() {
 }
 
 sha512sums="
-2ed8484340a8dacc3dd348b6cfc9d1a86c8c25b18651246c62b0286e4ce8f54e18076f30d85238a35af794b9fb86e386585b48becf651471a1ccc31be4953f4d  isoimagewriter-25.12.3.tar.xz
+3706b5e7ce63e028bf4798aca69b3b87298bde35996684dbca14eee6b742fa04957401e5338f82ee8f81078b86cec60649d61cf3c01c66aafe61c67fd88cea18  isoimagewriter-26.04.0.tar.xz
 "

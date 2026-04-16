@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kongress
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Companion application for conferences"
 # armhf blocked by qt6-qtdeclarative
@@ -53,5 +53,5 @@ package() {
 }
 
 sha512sums="
-3edc7f1de47844845b0c8a40e131412be813bb73c4c108a797df8299dc739b92177e68bd2c94901e502c83faced1c04076077f258bc51d559b508492a6bd0f10  kongress-25.12.3.tar.xz
+0008918145b35e2e16bfc840c41a433dba64637f95c618cdfb25d98ba2a147d8db64c0f0a2a36f12e0a28c8a82b3693106ef19937a78273e0deed38180a05cf2  kongress-26.04.0.tar.xz
 "

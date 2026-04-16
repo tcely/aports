@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=yakuake
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 arch="all !armhf"
 url="https://kde.org/applications/system/org.kde.yakuake"
@@ -52,5 +52,5 @@ package() {
 }
 
 sha512sums="
-04e9a8ec452227531decac60ae337b201120bf926672eda4bf9f5c9bec261bd338f58e15cabf324fbd04ee3c3d5fa639f528ea2b21218c329ab4f864543ede49  yakuake-25.12.3.tar.xz
+ccb831a27057c3d7fcab538a8c56533cec55b289806163490e4b8e4eb5b825a8b1353fbda99775745f732d40961a9ccdb90dc6ec7148661561b8753a5fe1f6fd  yakuake-26.04.0.tar.xz
 "

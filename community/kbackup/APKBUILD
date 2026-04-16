@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kbackup
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-44649cf0a814fef2a5f7668378999f7f5da3427ba5afedb0344cba5a6bcaec575f4ddef707453a98df736b7fda1ebff6cd4123e93aec30daec013359d38589ef  kbackup-25.12.3.tar.xz
+352e923272f36a0f41a216e3c8cca612bcf45ac09365803501791a86d1b95f112a48c97e91933444ed25e8be0828066d1af0ef860af1b6952dc28e45f7e06c54  kbackup-26.04.0.tar.xz
 "

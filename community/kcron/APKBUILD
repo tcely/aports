@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kcron
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by qt6-qtdeclarative
 arch="all !armhf"
@@ -41,5 +41,5 @@ package() {
 }
 
 sha512sums="
-4542aec8e0f02edf94bca531ec8a68be929c763b66b20fd65d3de643b6907f783f442f0b686e6c6cc315754c04d2af9620fa330c493512711723285caa314ef5  kcron-25.12.3.tar.xz
+623ae7cc64465ac55ce9654e561dbfe56f6d42ac2ae16f3585b65d7158fe3bd6976066b3b00878ec87a4385dede7cfa500834f5775fc7da23505c52f9aa808c0  kcron-26.04.0.tar.xz
 "

@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=libksieve
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="KDE PIM library for managing sieves"
 # armhf blocked by qt6-qtdeclarative -> ki18n
@@ -33,20 +33,29 @@ makedepends="$depends_dev
 	doxygen
 	extra-cmake-modules
 	graphviz
+	kde-qdoc-common
 	samurai
 	"
 checkdepends="xwayland-run"
-subpackages="$pkgname-dev $pkgname-doc $pkgname-lang"
+subpackages="
+	$pkgname-dev
+	$pkgname-lang
+	"
 _repo_url="https://invent.kde.org/pim/libksieve.git"
 source="https://download.kde.org/stable/release-service/$pkgver/src/libksieve-$pkgver.tar.xz"
 
 build() {
+	export KDE_DOCS=/usr/share/kde/documentation
 	cmake -B build -G Ninja \
 		-DCMAKE_BUILD_TYPE=RelWithDebInfo \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DBUILD_QCH=ON
 	cmake --build build
+
+	#cmake --build build --target prepare_docs
+	#cmake --build build --target generate_docs
+	#cmake --build build --target generate_qch
 }
 
 check() {
@@ -56,8 +65,11 @@ check() {
 
 package() {
 	DESTDIR="$pkgdir" cmake --install build
+
+	#DESTDIR="$pkgdir" cmake --build build --target install_html_docs
+	#DESTDIR="$pkgdir" cmake --build build --target install_qch_docs
 }
 
 sha512sums="
-e8e8bd411e0027c191fcff8fd6e6155724a5d82bc2b0c3e0b78c745cdb472d0c106d2d029ecdedc6cccacb7c575f01d91883427fc8e01f354c9e71f3eadae8b0  libksieve-25.12.3.tar.xz
+0252b847f1c52670bdf01176492e9ea48fa0789da855d80a0f347408898ac40bce320d15534e187ba7a1f2d7d207561a2e252175997a591f59250d964cbcb33a  libksieve-26.04.0.tar.xz
 "

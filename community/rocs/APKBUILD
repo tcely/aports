@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=rocs
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="An educational Graph Theory IDE"
 # armhf blocked by qt6-qtdeclarative
@@ -51,5 +51,5 @@ package() {
 }
 
 sha512sums="
-193b20a0ff8b0961761b32c5d03879f9e47e8332b9aa76aa58acdfb4580b3b9e0b074b4170919b1974481e704b207b3f4a04109c3f6be3a25dc69999a1c85900  rocs-25.12.3.tar.xz
+48d084de0071fe296dd0ff806a1f7db5b169d3dc7e966dbea82d589047c23a2a898ee4314f48b19cdbab12457800ac64d12012e81948e20ce2a7e086860f99ae  rocs-26.04.0.tar.xz
 "

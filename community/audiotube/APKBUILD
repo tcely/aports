@@ -2,8 +2,8 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=audiotube
-pkgver=25.12.3
-pkgrel=1
+pkgver=26.04.0
+pkgrel=0
 pkgdesc="Client for YouTube Music"
 url="https://invent.kde.org/plasma-mobile/audiotube"
 # armhf blocked by qt6-qtdeclarative
@@ -57,5 +57,5 @@ package() {
 }
 
 sha512sums="
-21c31dfd77f1605dc32485b3eddbec96cfd0dd8ef8bd457780063741e885d8074b479d871909f79f7984aecad9613359ebb353bb8e9c813eecb602a299893b25  audiotube-25.12.3.tar.xz
+9ca29b58561556ec1a29709ba5cc0e3ff59b4ea8d7d0195891e44343b8f9c60883d3572dea2ba3e02de1d13c7b14ca56b04772fca51226c7385ea5c2a32cea0c  audiotube-26.04.0.tar.xz
 "

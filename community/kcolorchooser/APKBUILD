@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kcolorchooser
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -36,5 +36,5 @@ package() {
 }
 
 sha512sums="
-e77a22d38d8f03c03136108f475b0442cf90eefd009831dffdbf15c1163b8c9118a08c279ac1392ce8fa3d8feb701e5259df5c7399d866b6a809a0b4d6403e06  kcolorchooser-25.12.3.tar.xz
+380e47af97a887063e50298b1d63387a05b5e2ad5d86709731bcc5ae982700ea776baa11854572f2c9a56de23ea89f6ece7596b0b611c27ac57a64f226d65dbe  kcolorchooser-26.04.0.tar.xz
 "

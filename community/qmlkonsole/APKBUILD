@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=qmlkonsole
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Terminal app for Plasma Mobile"
 # armhf blocked by extra-cmake-modules
@@ -46,5 +46,5 @@ package() {
 }
 
 sha512sums="
-1b89ade9b4423dba1d87a429f5a9b0d3b55ee587ecb949c769675210331d810c8ffd03ee6cc855837661fc7dfa06dd4cb841ac29fdee91e39266c97ddf17e6b6  qmlkonsole-25.12.3.tar.xz
+2d0e44a42577950fdcec045735ee0915b7f490ccd4a96f1508a2e47ee9ea784589d4a9f0da7b87289309aa2f88606c5e885c8ec364fb8f119c43a015bafbd7df  qmlkonsole-26.04.0.tar.xz
 "

@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kpimtextedit
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Advanced text editor which provide advanced html feature"
 # armhf blocked by qt6-qtdeclarative -> ki18n
@@ -71,5 +71,5 @@ package() {
 	DESTDIR="$pkgdir" cmake --install build
 }
 sha512sums="
-29821a8d2652601233e46b9e27372a9495f50e7464f11f477bbb1835478f898a64ffc40dbfb173b1f5b8d79bdbcee20d1ef31492c4aa8aa4dd1f8922a21f9270  kpimtextedit-25.12.3.tar.xz
+b42b6b653535c755b71969d3b7befee73e90f62a90a1e6885ae7e2aab79e9f83b0f0d11ecf57d939941e7133e79435e79694f212fba5d10453f319b816157a7e  kpimtextedit-26.04.0.tar.xz
 "

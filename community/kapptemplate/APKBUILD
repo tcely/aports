@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kapptemplate
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 arch="all !armhf"
@@ -45,5 +45,5 @@ package() {
 }
 
 sha512sums="
-67185d017e0423bd24d038bbc3306a4e2a52848ee1101becd2bce6d5226054f65d439bcf57228a66a66aac791f2a752ae80fa714c78a3e853598783ae160e578  kapptemplate-25.12.3.tar.xz
+a2c2ce8dfdf21d18e8d59a8f6d774108560a4d2e8677da62d63fb250780337efdaca41a56471a09d74710f3d559361eb94f9ff82772234f5313f2ba3bea9b3dc  kapptemplate-26.04.0.tar.xz
 "

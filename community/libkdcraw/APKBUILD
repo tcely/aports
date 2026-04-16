@@ -2,8 +2,8 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=libkdcraw
-pkgver=25.12.3
-pkgrel=1
+pkgver=26.04.0
+pkgrel=0
 arch="all"
 url="https://kde.org"
 pkgdesc="RAW image file format support for KDE"
@@ -39,5 +39,5 @@ package() {
 }
 
 sha512sums="
-c4de92736cf200ca1ec6e56536c330e58c83fe9f3d0a05fff9249547c6f22e5fe57f3d3382fdb56794eb2562cd0732f8ca4466f4067a79b9126b25ccfd6b37cc  libkdcraw-25.12.3.tar.xz
+2ea3070f261423c81e5c9b0f6a3d70692449da56594906d660e9c06ff1b97a27007f2b9406bdc621a7ebbfa7c33856938b3ef91048b6b902e0eb015668726816  libkdcraw-26.04.0.tar.xz
 "

@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=calindori
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Calendar for Plasma Mobile"
 # armhf blocked by qt6-qtdeclarative
@@ -42,5 +42,5 @@ package() {
 }
 
 sha512sums="
-f24090245b6e0c2a6fddd7f82aabf9dd508cc4c3d4a5ae4853b8ee7a386f3af8869fabcbeab1f0739dbd9aeaee9bfa16fa77b4dc18d258223949d00a4b7fd40f  calindori-25.12.3.tar.xz
+59cd171fb6afa0f6df3b8680b93cd80d8e26ee574de77c9e8a7cb1ff6c57eeb8e6b8700d233f75d2ef0880b3ee70dbe2a3f6ac200696840db14394dca1612f5a  calindori-26.04.0.tar.xz
 "

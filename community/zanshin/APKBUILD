@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=zanshin
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="A Getting Things Done application which aims at getting your mind like water"
 # armhf blocked by qt6-qtdeclarative
@@ -56,5 +56,5 @@ package() {
 }
 
 sha512sums="
-d9ace96518f365ab7b9e922db5d5baaff07ac9943e17da5c5439a0414fe014a1de5cc9c7e5e550901c3cedd770f488d09576937bf7b9f4657a7ff09c489e4533  zanshin-25.12.3.tar.xz
+dae68eb6a8469e5c8d6abca9709ec063aad70f42479eb5be477d6e5a35580074ea7a62950b59ca34b35fa75317cb2abf1a99f950c90791c830d8fd28b013b958  zanshin-26.04.0.tar.xz
 "

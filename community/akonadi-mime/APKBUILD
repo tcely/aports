@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=akonadi-mime
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="Libraries and daemons to implement basic email handling"
 # armhf blocked by qt6-qtdeclarative
@@ -54,5 +54,5 @@ package() {
 	DESTDIR="$pkgdir" cmake --install build
 }
 sha512sums="
-eb9090b07899d085e3b7d15bcde5acff9708ebc1b25a0ce721673a217aaf15084cf7dac2a8b1bb22ab26471467ba08ee8b9ad160e090d8b5e7c5d1da8cdaeb7c  akonadi-mime-25.12.3.tar.xz
+9fbcc4726c0e3178057b915fc222a6c09e7afdee4cd75930d69f477f3c89b3cebd3734a9eeb8ed8487c97b67e7c5e4e04ea9602a5f290372b99daf4389ac672a  akonadi-mime-26.04.0.tar.xz
 "

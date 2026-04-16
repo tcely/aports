@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=ktnef
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 pkgdesc="API for handling TNEF data"
 # armhf blocked by extra-cmake-modules
@@ -42,5 +42,5 @@ package() {
 	DESTDIR="$pkgdir" cmake --install build
 }
 sha512sums="
-16349b7ae34e3aae10cfbb17df0327f842bbc43b733feca8de068b1d7e6390a9fc75e5d0047225cacf9f4776747871263ba1e2f8f15d97f9904130942fb23f40  ktnef-25.12.3.tar.xz
+04af12f37abe5ec66112978eec98e4c19dea472dbe539464aa9e3464aa522a7d54e6e1b6612912a849b8b6dcb453f380214e364f173e4d8e0d0e5fe26b1c4155  ktnef-26.04.0.tar.xz
 "

@@ -2,7 +2,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kmail-account-wizard
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 # armhf blocked by extra-cmake-modules
 # x86, s390x, riscv64 and armv7 blocked by qt6-qtwebengine -> kmailtransport
@@ -64,5 +64,5 @@ package() {
 }
 
 sha512sums="
-c2c34657804cf0c0cb6cbefd7ccfd6f90774811f7ff6e80cf212b018d378199a517b49ba4be91d36379cd1d04dda5f779702d342a1f6737a784af1476a402d57  kmail-account-wizard-25.12.3.tar.xz
+cd186cd73764dc00cf454fb6bef471309088224142076f5ff99455e1c7cd424bfe4605c8c7798d196972e6a3005260f7d7e0f37fff9064135076216a14911e0d  kmail-account-wizard-26.04.0.tar.xz
 "

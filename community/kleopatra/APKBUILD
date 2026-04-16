@@ -4,7 +4,7 @@
 # group=kde-applications
 maintainer="team/kde <bribbers@disroot.org>"
 pkgname=kleopatra
-pkgver=25.12.3
+pkgver=26.04.0
 pkgrel=0
 arch="all !armhf !s390x"
 url="https://www.kde.org/applications/utilities/kleopatra/"
@@ -69,5 +69,5 @@ package() {
 }
 
 sha512sums="
-2a234412838e3f19facff82d5d6ef53d68a1ccd6337e1bd7e4b4fcc02d6ae24dfaab9cb7dd5ab4c83520f3dd5f039280ee7bc28cabd0deacde2972082d129abc  kleopatra-25.12.3.tar.xz
+e89036282287282103f21346855dfc5da87b54049cf9506adfd56ca0e53ff825c59c65cab4ae0166e1de2d7fb7bf5c998d969c0ee8f632602ae8dd53ffeff4f3  kleopatra-26.04.0.tar.xz
 "
