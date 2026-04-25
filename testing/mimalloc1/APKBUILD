@@ -3,7 +3,7 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 pkgname=mimalloc1
 _projname=mimalloc
-pkgver=1.9.4
+pkgver=1.9.9
 pkgrel=0
 _pkgdesc="A compact general purpose allocator with excellent performance"
 pkgdesc="$_pkgdesc (in secure mode)"
@@ -102,6 +102,6 @@ debug() {
 }
 
 sha512sums="
-fb5aa8c2e6c15e5d22746ee40ed196f2fb7eafec9abfcbf94e7e70854734e99dd09886e1d68374fb995fe597e158100aa89260579e34cf5d9fb75d501b186d6a  mimalloc-1.9.4.tar.gz
-8b0542f0b5992cdc1423345ba980ead00ba89784b6608716bbc67587560a5782325af871d4084abf2b8f38abe3ac008ae733dbde0f5d84344689739cb49a1aff  cmake-add-insecure-suffix.patch
+0db158743edc09793a33aab12ccbeb3bd16cb8cb1c4c11f9fd45a04b3719e54a6fa2cebbe5a846cdf450e311c9a54ea36291e9378cc12250ca64288e924f7f2e  mimalloc-1.9.9.tar.gz
+5e866157f31603000f512a22d25dad1e266685a352f95f51df1b360d8b68f1351abd0cba57dd678ec3d5022d7aaa1ac57f34d2de6fba2124963f1052a280b836  cmake-add-insecure-suffix.patch
 "
