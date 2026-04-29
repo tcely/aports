@@ -134,13 +134,13 @@ libs() {
 }
 
 cpu() {
-	install_if="$pkgname=$pkgver-r$pkgrel"
+	install_if="$pkgname-libs=$pkgver-r$pkgrel"
 	depends=""
 	amove usr/lib/llama.cpp/libggml-cpu-*.so
 }
 
 vulkan() {
-	install_if="$pkgname=$pkgver-r$pkgrel vulkan-loader"
+	install_if="$pkgname-libs=$pkgver-r$pkgrel vulkan-loader"
 	depends=""
 	amove usr/lib/llama.cpp/libggml-vulkan.so
 }
