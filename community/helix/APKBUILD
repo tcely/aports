@@ -2,7 +2,7 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 pkgname=helix
 pkgver=25.07.1
-pkgrel=2
+pkgrel=3
 pkgdesc="A post-modern modal text editor"
 url="https://helix-editor.com/"
 arch="all"
@@ -10,7 +10,10 @@ license="MPL-2.0"
 makedepends="cargo cargo-auditable"
 options="net"
 install="$pkgname.post-install $pkgname.post-upgrade"
-source="https://github.com/helix-editor/helix/archive/$pkgver/helix-$pkgver.tar.gz"
+source="
+	https://github.com/helix-editor/helix/archive/$pkgver/helix-$pkgver.tar.gz
+	fix-gotmpl-grammar-source.patch
+	"
 subpackages="
 	$pkgname-bash-completion
 	$pkgname-fish-completion
@@ -79,4 +82,5 @@ _system() {
 
 sha512sums="
 a8f64782273d88cd43b1aeadf45d1fa6a913c9c0b77c1da716ffdc64ec02e89db1bfb2dde4333509c3ddb5733b8f5a450b44ca54d35f113c3c0f411c01f4ce8c  helix-25.07.1.tar.gz
+70162691aa32edb0e712a94e3ea7c5a84a43a385171c314a97b9b95fe0d026afcb8ceb02291412ca361a12e94d59e9c33d5d080012ee5e7d2da6c48c41fce9ec  fix-gotmpl-grammar-source.patch
 "
