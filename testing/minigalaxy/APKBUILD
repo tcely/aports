@@ -8,8 +8,9 @@ url="https://sharkwouter.github.io/minigalaxy/"
 arch="noarch"
 license="GPL-3.0-only"
 subpackages="$pkgname-pyc"
+depends="py3-requests webkit2gtk-4.1"
 makedepends="bash gettext py3-gpep517 py3-setuptools"
-checkdepends="py3-pytest py3-requests py3-simplejson"
+checkdepends="py3-pytest py3-simplejson"
 source="$pkgname-$pkgver.tar.gz::https://github.com/sharkwouter/minigalaxy/archive/refs/tags/$pkgver.tar.gz"
 
 build() {
