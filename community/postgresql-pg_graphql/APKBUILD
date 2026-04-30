@@ -2,27 +2,28 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 pkgname=postgresql-pg_graphql
 _projname=pg_graphql
-pkgver=1.5.11_git20251022
+pkgver=1.5.12
 pkgrel=0
-# See https://github.com/supabase/pg_graphql/issues/609
-_gitrev=9cf4882b3b73e5f15cdcad8f0535ccb7c41db86b
 pkgdesc="GraphQL support for PostgreSQL"
 url="https://supabase.github.io/pg_graphql/"
 # riscv64,s390x: fails to build due to ring crate (https://github.com/pgcentralfoundation/pgrx/pull/1442)
 arch="all !riscv64 !s390x"
 license="Apache-2.0"
+# Build against PostgreSQL 17: pgrx 0.16.x does not ship working pg18 FFI bindings (opaque structs).
+# Revisit when pg_graphql bumps to pgrx ≥0.18 (proper Postgres 18 support).
+_pgsql_ver=17
 makedepends="
 	cargo
 	chrpath
-	clang-dev
+	clang16-libclang
 	jq
 	openssl-dev
-	postgresql
-	postgresql-dev
+	postgresql$_pgsql_ver
+	postgresql$_pgsql_ver-dev
 	rustfmt
 	"
-source="https://github.com/supabase/pg_graphql/archive/$_gitrev/$_projname-$_gitrev.tar.gz"
-builddir="$srcdir/$_projname-$_gitrev"
+source="$pkgname-$pkgver.tar.gz::https://github.com/supabase/pg_graphql/archive/refs/tags/v$pkgver.tar.gz"
+builddir="$srcdir/$_projname-$pkgver"
 # check: tests tries to write to /usr/lib/...
 # net: fetches crates in build phase
 options="!check net"
@@ -36,6 +37,7 @@ prepare() {
 }
 
 build() {
+	export PATH="/usr/libexec/postgresql$_pgsql_ver:$PATH"
 	local pgver="$(pg_config --major-version)"
 
 	# We must install it this way because cargo-pgrx and pgrx dependency
@@ -47,8 +49,14 @@ build() {
 
 	export PATH="$PWD/target/tools/bin:$PATH"
 
-	cargo pgrx init --pg$pgver="$(which pg_config)"
+	cargo pgrx init --pg$pgver="$(command -v pg_config)"
 
+	# TODO: Remove after https://github.com/pgcentralfoundation/pgrx/issues/1455 is resolved.
+	if [ -n "$RUSTFLAGS" ]; then
+		export RUSTFLAGS="$RUSTFLAGS"
+	else
+		unset RUSTFLAGS
+	fi
 	cargo pgrx package --verbose --out-dir="target/release/dist"
 
 	# Remove RPATH.
@@ -57,12 +65,12 @@ build() {
 }
 
 package() {
-	depends="postgresql$(pg_config --major-version)"
+	depends="postgresql$_pgsql_ver"
 
 	mkdir -p "$pkgdir"
 	cp -r target/release/dist/* "$pkgdir"/
 }
 
 sha512sums="
-6d8205acf9f4816d3d0613f903481739ae038ecc091949734792978208249545573157a3b7216ba1a11e8ff39779e63e356b7988c1f90f5fef256a292e75401f  pg_graphql-9cf4882b3b73e5f15cdcad8f0535ccb7c41db86b.tar.gz
+55ab33822bdf4a46c2c23ca437d24777259a89a4d5a649fa290c7187ee34a640ad6998a595dc87c0591daf0f7ede1da774be59a890bd336b3cebb19b27e15436  postgresql-pg_graphql-1.5.12.tar.gz
 "
