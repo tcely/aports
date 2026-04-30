@@ -1,7 +1,7 @@
 # Contributor: Patrycja Rosa <alpine@ptrcnull.me>
 # Maintainer: Patrycja Rosa <alpine@ptrcnull.me>
 pkgname=rofi-calc
-pkgver=2.5.0
+pkgver=2.5.1
 pkgrel=0
 pkgdesc="Rofi plugin that uses qalc to parse natural language input and provide results"
 url="https://github.com/svenstaro/rofi-calc"
@@ -26,5 +26,5 @@ package() {
 }
 
 sha512sums="
-13dccf67e6704b9f67f2964805bb4ff7ce4224c838ff19d5d4c7ff270b7a86d71098900dc7db7308337a93f4c25a5a8a32f8e73620376b97d1b7a240398aef5a  rofi-calc-2.5.0.tar.gz
+da5c5d5db06f2918bba40f405f23c575c09d9c3414a6ebaf643749d48e4ee7731c2fb8065ade9c5217a4e0cfea7eed6b9cad328cd95f04b03211e925b0b72f99  rofi-calc-2.5.1.tar.gz
 "
