@@ -7,48 +7,51 @@ pkgdesc="Baresip is a modular SIP User-Agent with audio and video support"
 url="https://github.com/baresip/baresip"
 arch="all"
 license="BSD-3-Clause"
-makedepends="cmake ninja libre-dev
-alsa-lib-dev
-aom-dev
-directfb-dev
-fdk-aac-dev
-ffmpeg-dev
-glib-dev
-gsm-dev
-gst-plugins-bad-dev
-gst-plugins-base-dev
-gst-plugins-good
-gst-plugins-rs
-gst-plugins-ugly
-gtk+3.0-dev
-jack-dev
-lame-dev
-libfreeaptx-dev
-libpng-dev
-libre-dev
-libsndfile-dev
-libvpx-dev
-mosquitto-dev
-mpg123-dev
-opencore-amr-dev
-openssl-dev
-opus-dev
-pipewire-dev
-portaudio-dev
-pulseaudio-dev
-python3-dev
-sdl12-compat-dev
-sdl2-dev
-spandsp3-dev
-speexdsp-dev
-v4l-utils-dev
-"
+makedepends="
+	alsa-lib-dev
+	aom-dev
+	cmake
+	directfb-dev
+	fdk-aac-dev
+	ffmpeg-dev
+	glib-dev
+	gsm-dev
+	gst-plugins-bad-dev
+	gst-plugins-base-dev
+	gst-plugins-good
+	gst-plugins-rs
+	gst-plugins-ugly
+	gtk+3.0-dev
+	jack-dev
+	lame-dev
+	libfreeaptx-dev
+	libpng-dev
+	libre-dev
+	libre-dev
+	libsndfile-dev
+	libvpx-dev
+	mosquitto-dev
+	mpg123-dev
+	ninja
+	opencore-amr-dev
+	openssl-dev
+	opus-dev
+	pipewire-dev
+	portaudio-dev
+	pulseaudio-dev
+	python3-dev
+	sdl12-compat-dev
+	sdl2-dev
+	spandsp3-dev
+	speexdsp-dev
+	v4l-utils-dev
+	"
 subpackages="$pkgname-dev"
 source="$pkgname-$pkgver.tar.gz::https://github.com/baresip/baresip/archive/refs/tags/v$pkgver.tar.gz"
 
 build() {
 	cmake -B . -G Ninja \
-		-DCMAKE_BUILD_TYPE='Release' \
+		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-Wno-dev
 	cmake --build .
