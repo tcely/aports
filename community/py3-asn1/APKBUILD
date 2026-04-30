@@ -1,8 +1,8 @@
 # Contributor: Peter Bui <pnutzh4x0r@gmail.com>
 # Maintainer: Patrycja Rosa <alpine@ptrcnull.me>
 pkgname=py3-asn1
-pkgver=0.6.1
-pkgrel=1
+pkgver=0.6.3
+pkgrel=0
 pkgdesc="Python3 ASN1 library"
 url="https://github.com/pyasn1/pyasn1"
 arch="noarch"
@@ -32,5 +32,5 @@ package() {
 }
 
 sha512sums="
-a85036aeafc899b72a0dbd6adfe43d6b4d6ac8e79e2c8a043534ff9298c3a1942aeac42241fcc8a57bf89a9be845fecb01d3814bf812260ec7f370fa2f56e774  pyasn1-0.6.1.tar.gz
+c58962b3f11f486da3e73c09dbe2aff7500879b29c4a7be4295878e4edbcaaa2680d608720ad5af86a2457de7da50471ab7a9e925f717db5c467553fc552e6d6  pyasn1-0.6.3.tar.gz
 "
