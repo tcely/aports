@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 pkgname=acme.sh
-pkgver=3.1.2
+pkgver=3.1.3
 pkgrel=0
 pkgdesc="ACME Shell script, an acme client alternative to certbot"
 options="!check" # No testsuite
@@ -26,5 +26,5 @@ package() {
 }
 
 sha512sums="
-b7ea3ef8dd68f47f9770e2cebbacd9ab12a1b8a2ccc3bf85ff28141b7ac54c8b2ec68d6fbc245ef117bc41e00c6a5e3d8128bf401e07d12d7e0cf6e36f70966f  acme.sh-3.1.2.tar.gz
+7e82ee43ea7c45badc5df1e288fba5c5d4f02e4b52550288f7e0a6ee54f7a72032a3dd0bdd5351ce684bb023f1a7be47a189ef71466faa65eb1818b3f3ce6de0  acme.sh-3.1.3.tar.gz
 "
