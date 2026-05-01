@@ -2,7 +2,7 @@
 # Maintainer: knuxify <knuxify@gmail.com>
 pkgname=font-manager
 pkgver=0.9.4
-pkgrel=0
+pkgrel=1
 pkgdesc="Simple font management application for GTK Desktop Environments"
 url="https://fontmanager.github.io/"
 arch="all"
@@ -29,7 +29,9 @@ subpackages="$pkgname-doc
 	$pkgname-thunar:ext_thunar
 	$pkgname-nemo:ext_nemo"
 
-source="https://github.com/FontManager/font-manager/releases/download/$pkgver/font-manager-$pkgver.tar.xz"
+source="https://github.com/FontManager/font-manager/releases/download/$pkgver/font-manager-$pkgver.tar.xz
+	vala-0.56.19.patch
+	"
 options="!check" # no test suite, see https://github.com/FontManager/font-manager/issues/238
 
 build() {
@@ -92,4 +94,5 @@ ext_thunar() {
 
 sha512sums="
 3a3c322dda5a0db8d6515a04b9631f8c4b40425ddc8cd5e630f42fb188996ce839605471cf0fa52cf2837732c5694ffcd8a3e7c9539ff60b0f4ec64808c9031f  font-manager-0.9.4.tar.xz
+d13033aa94232e83d91513a8b2afa2f60862b33273e7abe8ba77d1e15536bb977a5e874b642cc84edd7efd5831f26727682e80ed6bc3d1cf043aa33dd3b6dea7  vala-0.56.19.patch
 "
