@@ -2,7 +2,7 @@
 # Maintainer: Jakub Jirutka <jakub@jirutka.cz>
 pkgname=pgloader
 pkgver=3.6.9
-pkgrel=3
+pkgrel=4
 pkgdesc="Migrate to PostgreSQL in a single command"
 url="https://pgloader.io/"
 # armhf,armv7: fails to build (Heap exhausted during garbage collection)
@@ -40,6 +40,14 @@ prepare() {
 
 	rm -f software/cl+ssl-2022022-git
 	mv "$srcdir"/cl-plus-ssl-$_clssl_gitrev software/cl+ssl-2022022-git
+
+	# named-readtables: SBCL >=2.5.11 may use 0 for empty reader slots (was NIL);
+	# without this, quickload fails with "Bug in readtable iterators or concurrent access?".
+	local nr_path; for nr_path in software/named-readtables-*/src/cruft.lisp; do
+		[ -f "$nr_path" ] || continue
+		sed -i 's/(if reader-fn/(if (and reader-fn (not (eql reader-fn 0)))/' "$nr_path"
+		break
+	done
 }
 
 build() {
