@@ -3,7 +3,7 @@
 maintainer="Hoang Nguyen <folliekazetani@protonmail.com>"
 pkgname=nix
 pkgver=2.31.3
-pkgrel=1
+pkgrel=2
 pkgdesc="The purely functional package manager"
 url="https://nixos.org/nix/"
 arch="all"
@@ -66,6 +66,7 @@ source="https://github.com/NixOS/nix/archive/$pkgver/nix-$pkgver.tar.gz
 	nix-remote.sh
 	nix-daemon.initd
 	lowdown3_norellink.patch
+	meson-build-root.patch
 	"
 
 # secfixes:
@@ -162,4 +163,5 @@ f6a8d67003a6f0cd54dc4dc26051e9f3d18d9c1c1d66c99324e3db017891a6fdd88d7be53de05ab2
 ad02313f026fe3286c7c2271f26bf074ba2966c12777d7109275555f1a616bf0f99c8f5e45a57161f383091867f1dfd4d84cfae7a6d8a075312608456975dc81  nix-remote.sh
 9e4568db987fbae5097f7bb086e8ad51742c2d229703104fb7e6f240ffb0ca72e57dc305fb238bcee4ec8002d780007af60f241b1f32b6aa413dd579d9c59e75  nix-daemon.initd
 dc7cbb0b511fe788ce39360e4d62141e6122236e432bc2bf7a3dfa5e3e40f9847d1b481079cf4c54eaa42e03dd4ac753cf3619216a5c2fa35242fc327a48b02e  lowdown3_norellink.patch
+9b54cb09174f163d78b2602b3e00e9aad0c8ac24a14b38268e0456e18aab0209f063342e47b729a30376874182a869d0babe499bbcb150b9cd492263e85f9c19  meson-build-root.patch
 "
