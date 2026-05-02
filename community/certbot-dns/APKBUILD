@@ -2,7 +2,7 @@
 # Maintainer: lauren n. liberda <lauren@selfisekai.rocks>
 pkgname=certbot-dns
 pkgver=5.5.0
-pkgrel=0
+pkgrel=1
 pkgdesc="Official DNS provider integrations for certbot"
 url="https://github.com/certbot/certbot"
 arch="noarch"
@@ -26,7 +26,7 @@ checkdepends="
 	py3-pytest
 	py3-pytest-xdist
 	"
-subpackages="
+_subpackages="
 	$pkgname-cloudflare
 	$pkgname-digitalocean
 	$pkgname-dnsimple
@@ -41,11 +41,14 @@ subpackages="
 	$pkgname-route53
 	$pkgname-sakuracloud
 	"
+for _subpkg in $_subpackages; do
+	subpackages="$subpackages $_subpkg-pyc:_pyc $_subpkg"
+done
 source="https://github.com/certbot/certbot/archive/refs/tags/v$pkgver/certbot-$pkgver.tar.gz"
 builddir="$srcdir/certbot-$pkgver"
 
 build() {
-	for provider in $subpackages; do
+	for provider in $_subpackages; do
 		(
 			cd "$provider"
 			gpep517 build-wheel \
@@ -57,16 +60,16 @@ build() {
 
 check() {
 	python3 -m venv --clear --without-pip --system-site-packages .testenv
-	for provider in $subpackages; do
+	for provider in $_subpackages; do
 		.testenv/bin/python3 -m installer $provider/.dist/*.whl
 	done
 	.testenv/bin/python3 -m pytest -n 4 -p no:warnings certbot-dns-*
 }
 
 package() {
-	depends="$subpackages"
+	depends="$_subpackages"
 
-	for provider in $subpackages; do
+	for provider in $_subpackages; do
 		python3 -m installer -d "$pkgdir" \
 			$provider/.dist/*.whl
 	done
@@ -148,6 +151,15 @@ sakuracloud() {
 	depends="py3-dns-lexicon"
 
 	amove usr/lib/python*/site-packages/certbot_dns_sakuracloud*
+}
+
+_pyc() {
+	cd "$pkgdir"
+	local IFS=$'\n'
+	_provider="${subpkgname%-pyc}"
+	_provider="${_provider//-/_}"
+	# shellcheck disable=2046
+	amove $(find usr/lib/python*/site-packages/"$_provider" -type d -name __pycache__)
 }
 
 sha512sums="
