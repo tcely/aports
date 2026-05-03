@@ -1,18 +1,27 @@
 # Contributor: Justin Berthault <justin.berthault@zaclys.net>
 # Maintainer:
 pkgname=epson-inkjet-printer-escpr
-pkgver=1.8.5
+pkgver=1.8.8
 pkgrel=0
 pkgdesc="Epson Inkjet Printer Driver (ESC/P-R) for Linux"
 url="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
 arch="all"
 license="GPL-2.0-or-later"
 depends="cups-filters"
-makedepends="cups-dev"
-source="$pkgname-$pkgver.tar.gz::https://download3.ebz.epson.net/dsc/f/03/00/15/68/89/fbff579f15226ffcc4a16895bd6bce6842277802/epson-inkjet-printer-escpr-1.8.5-1.tar.gz
+# cpio, rpm2cpio: for archive extraction
+makedepends="cpio cups-dev rpm2cpio"
+source="https://dev.alpinelinux.org/archive/epson-inkjet-printer-escpr/epson-inkjet-printer-escpr-$pkgver-1.src.rpm
 	gcc14-implicit-function-declaration.patch
 	"
 options="!check" # no test suite provided
+
+unpack() {
+	cd "$srcdir"
+	rpm2cpio $pkgname-$pkgver-1.src.rpm | cpio -idmv
+	tar -xf $pkgname-$pkgver-1.tar.gz
+
+	default_unpack
+}
 
 prepare() {
 	default_prepare
@@ -34,6 +43,6 @@ package() {
 }
 
 sha512sums="
-4117b1efe903e4f506bbc67c45079f1d467ff6527691308734e55d32feeda3ec44b2dd85361e0243114f924eef04a91b0a5e86b5008f0a32ef323989b3d2896f  epson-inkjet-printer-escpr-1.8.5.tar.gz
-19408e0951455ff287c4d7ed9b97b105abe6191ac91a99d9dd6d2f3306478c24354ebe3692822967bb177dbb0f2ae7d06f1d8c2278f384c5863769ebe50ec531  gcc14-implicit-function-declaration.patch
+85bcaff840fe4dfb256b42e5625e221ad273881b7bbeefafc53cff96ab4ddb91e0045fdfcdcf9e53a469385ec524077bfc40051429fba205b659c95741168a51  epson-inkjet-printer-escpr-1.8.8-1.src.rpm
+7830b8a26e3b318d1cb58c56db79453e269cc7be6f7b396987305b49a331e0098b7f737c2f70ee8e3f481aa45f14dee9fc3d76d274d22ca526bcbf1a828209f7  gcc14-implicit-function-declaration.patch
 "
