@@ -1,7 +1,7 @@
 # Contributor: Andy Hawkins <andy@gently.org.uk>
 # Maintainer: Andy Hawkins <andy@gently.org.uk>
 pkgname=py3-parametrize-from-file
-pkgver=0.20.0
+pkgver=0.21.0
 pkgrel=2
 pkgdesc="Parametrize From File"
 url="https://parametrize-from-file.readthedocs.io/en/latest/"
@@ -46,5 +46,5 @@ package() {
 }
 
 sha512sums="
-b6911d2f2429b97f5a6a2ae81695a900aa27b9287ea07e0cfb9b791c2d36c42d44f01ee65f0a7c4517ac749d7ad2b0ad8c51b065be68d0d9bc570104bde9d205  parametrize_from_file-v0.20.0.tar.gz
+50df46861780d289fabfa483c4338b1028f33a4a31c9d28a4f77abf88e89c1d73ede832b980172efc029307c84c2b46d8d520149d5e489d6a0ec0c219a92b2ea  parametrize_from_file-v0.21.0.tar.gz
 "
