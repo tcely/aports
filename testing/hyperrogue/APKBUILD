@@ -1,7 +1,7 @@
 # Contributor: Joshua Murphy <joshuamurphy@posteo.net>
 maintainer="Joshua Murphy <joshuamurphy@posteo.net>"
 pkgname=hyperrogue
-pkgver=13.1i
+pkgver=13.1l
 pkgrel=0
 pkgdesc="SDL roguelike in a non-euclidean world"
 url="https://roguetemple.com/z/hyper/"
@@ -46,5 +46,5 @@ package() {
 }
 
 sha512sums="
-b5bcce5801fe1dbd2b26f8022c7797974f79c21af7d24ccb66dfa610ca7c11ea47246a8aef2b06e50738424b628056407492cde05455d01841ffd8cbd8ec575d  hyperrogue-13.1i.tar.gz
+eabdab32b89331928d8b32a5f3a11d392ad40e292f096f26d5f20dc8eb20e3dae1fad936b31100d40b87087318195e3461fef1052f05a8c766669878fa1797e8  hyperrogue-13.1l.tar.gz
 "
