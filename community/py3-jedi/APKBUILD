@@ -1,27 +1,40 @@
-# Contributor: Bart Ribbers <bribbers@disroot.org>
-# Maintainer: Bart Ribbers <bribbers@disroot.org>
+maintainer="Bart Ribbers <bribbers@disroot.org>"
 pkgname=py3-jedi
-pkgver=0.19.2
-pkgrel=1
+pkgver=0.20.0
+pkgrel=0
 pkgdesc="Awesome autocompletion and static analysis library for Python"
 url="https://jedi.readthedocs.io"
 arch="noarch"
 license="MIT"
-depends="python3 py3-parso"
-makedepends="py3-setuptools"
+depends="py3-parso"
+makedepends="
+	py3-build
+	py3-gpep517
+	py3-setuptools
+	py3-wheel
+	"
+checkdepends="py3-pytest"
 subpackages="$pkgname-pyc"
 source="https://pypi.python.org/packages/source/j/jedi/jedi-$pkgver.tar.gz"
-options="!check" # Broken
 builddir="$srcdir/jedi-$pkgver"
 
 build() {
-	python3 setup.py build
+	gpep517 build-wheel \
+		--wheel-dir .dist \
+		--output-fd 3 3>&1 >&2
+}
+
+check() {
+	python3 -m venv --clear --without-pip --system-site-packages .testenv
+	.testenv/bin/python3 -m installer .dist/*.whl
+	.testenv/bin/python3 -m pytest -k 'not pep0695_type_parameter_syntax'
 }
 
 package() {
-	python3 setup.py install --skip-build --root="$pkgdir"
+	python3 -m installer -d "$pkgdir" \
+		.dist/*.whl
 }
 
 sha512sums="
-670bfcbde6b5a0fdcf761679e40ce23c5640bb9cc185df6e500c379281de78a8430d74d7e4cc85dd26d5c233a6e3f016f058312beddbb99c6767bb7b8c6b95a9  jedi-0.19.2.tar.gz
+17775ab845b661dd3b93963b12055013a54314680d717087d49f64cb03332a5b5716dbfeb59e821aba34e2962c8bd01b86e8de881fb64dd31b374ef58b50ff00  jedi-0.20.0.tar.gz
 "
