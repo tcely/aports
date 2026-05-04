@@ -1,6 +1,6 @@
 # Maintainer: Willow Barraco <contact@willowbarraco.fr>
 pkgname=hare-wayland
-pkgver=0.26.0.1
+pkgver=0.26.0.2
 pkgrel=0
 pkgdesc="Native Hare Wayland bindings"
 url="https://sr.ht/~sircmpwn/hare-wayland"
@@ -23,5 +23,5 @@ package() {
 	make DESTDIR="$pkgdir" PREFIX=/usr install
 }
 sha512sums="
-ba93593fe939defeced4baf36f0bbd10ef7b9908a2dfebe85ea157610b215279544f2dc0a440922014f7f347ecb2b50ee79b6eba3d34eee5d50d0e4b6223e2b0  hare-wayland-0.26.0.1.tar.gz
+9f3b9f706540477fcc8a6c4e862b7c5e53d051448fc2fe6b1d29940fd562a72431424bedf089e779e09e6e9bce49bb0d0acdf62a44660e11c6b220e5bef3e6ef  hare-wayland-0.26.0.2.tar.gz
 "
