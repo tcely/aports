@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 pkgname=py3-sentry-sdk
-pkgver=2.47.0
-pkgrel=1
+pkgver=2.58.0
+pkgrel=0
 pkgdesc="The new Python SDK for Sentry.io"
 url="https://sentry.io/for/python/"
 arch="noarch"
@@ -56,5 +56,5 @@ package() {
 }
 
 sha512sums="
-d235f786b8754c499df057f6edfe734941daebb59426477f7c494e3ed7ec969d09f3a44a577515025416b7180b2fee204a470f8c29b07bde78fc921e0f1ebbeb  py3-sentry-sdk-2.47.0.tar.gz
+cc3f0d5ed813970fdf16358dc5ce30627efac4860814159f66e451012ab9db91820de69596e497ab2082da01e487c8542d915ce6ed346bba1f270b33e36feac3  py3-sentry-sdk-2.58.0.tar.gz
 "
