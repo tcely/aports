@@ -1,12 +1,12 @@
 diff --git a/Makefile b/Makefile
-index 47f9ee9..7091128 100644
+index f760427..7091128 100644
 --- a/Makefile
 +++ b/Makefile
 @@ -10,13 +10,7 @@
  # To manually invoke the locally installed Go, use ./go
  
  # Go installation config.
--GO_VER=1.11.5
+-GO_VER=1.22.3
 -SYSTEM_NAME:=$(shell uname -s | tr '[:upper:]' '[:lower:]')
 -SYSTEM_ARCH:=$(shell uname -m)
 -GO_ARCH:=$(if $(filter x86_64, $(SYSTEM_ARCH)),amd64,386)

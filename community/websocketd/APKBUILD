@@ -1,8 +1,8 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 pkgname=websocketd
-pkgver=0.4.1
-pkgrel=39
+pkgver=0.4.2
+pkgrel=0
 pkgdesc="Like inetd, but for WebSockets. Turn any application that uses STDIO/STDOUT into a WebSocket server."
 url="https://github.com/joewalnes/websocketd"
 license="BSD-2-Clause"
@@ -10,10 +10,9 @@ arch="all"
 # no test suite
 # net required to download go dependencies
 options="!check net"
-makedepends="go"
-source="$pkgname-$pkgver.tar.gz::https://github.com/joewalnes/websocketd/archive/v$pkgver.tar.gz
-	make.patch
-	"
+makedepends="go curl"
+source="$pkgname-$pkgver.tar.gz::https://github.com/barakplasma/websocketd/archive/refs/tags/$pkgver.tar.gz
+	make.patch"
 
 export GOCACHE="${GOCACHE:-"$srcdir/go-cache"}"
 export GOTMPDIR="${GOTMPDIR:-"$srcdir"}"
@@ -27,5 +26,7 @@ package() {
 	install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
 
-sha512sums="8535637bdf8fecbc4340606b6096672420126c32ed9e68944593f577e6307c810caf654e76f7077bf119d6273c6eec4c4c21eb21bfd805d0b8f5549c626460e4  websocketd-0.4.1.tar.gz
-4bae15403384322e38b4b47c3a7074a0b6618ccf4383ddd66a2bb2dd7c26572f33ffc0e34ac547980112391dffe4811f0b8963b702cd5072cc7d40e68f024656  make.patch"
+sha512sums="
+fe46126da96ea2fa301e04f4e2b60f012af403a47b77974a820e4d720fd956a8b3b71fcb9bcd8f9c129bda791f7cda629a49a13f2e4861fc72593e0607e7d529  websocketd-0.4.2.tar.gz
+8f80bbbfcbaf4fbbb885f7daaec2733a3e0d0e27022e61f64eb7bcf81a9252c8df01d381b3cd8f47d3baf24bfaeb342c6654bf70e1a86f29a8eb3ecdf8499c8c  make.patch
+"
