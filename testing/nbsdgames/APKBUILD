@@ -1,7 +1,7 @@
 # Contributor: Francesco Colista <fcolista@alpinelinux.org>
 # Maintainer: Francesco Colista <fcolista@alpinelinux.org>
 pkgname=nbsdgames
-pkgver=5
+pkgver=6.0.1
 pkgrel=0
 pkgdesc="A package of 18 text-based modern games"
 url="https://github.com/abakh/nbsdgames"
@@ -11,9 +11,7 @@ options="!check"
 
 makedepends="ncurses-dev"
 subpackages="$pkgname-doc"
-source="$pkgname-$pkgver.tar.gz::https://github.com/abakh/nbsdgames/archive/refs/tags/v$pkgver.tar.gz
-	fix-makefile-path.patch
-	"
+source="$pkgname-$pkgver.tar.gz::https://github.com/abakh/nbsdgames/archive/refs/tags/v$pkgver.tar.gz"
 
 build() {
 	make all
@@ -31,6 +29,5 @@ package() {
 }
 
 sha512sums="
-04fcc7628b7310bcbebf8ae7e1462605b2a4aa3bc7c50758e8fc54836d18c3d320a1ba5c766d388912d8f9a7a49bf78ba654f1430fdda730daa80ff189f49ffc  nbsdgames-5.tar.gz
-2a76cbdba6b150ef445637b3daf7b51a325f5bd88d5e8feb773d725c22c272c4100cae5da84843aafbb71c440d5b2cab1f006f82abd41c31f37a1ad9cd287015  fix-makefile-path.patch
+b32388608bb0b42a7674ec3b0c917db6f462cdfe5fb6edf625a28456a765314e43c11cf8ae94e5e9245a3c28e283bb2daa5163b19a32eda7401c40e8439f7313  nbsdgames-6.0.1.tar.gz
 "
