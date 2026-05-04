@@ -1,7 +1,7 @@
 # Contributor: Sören Tempel <soeren+alpine@soeren-tempel.net>
 # Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
 pkgname=zk
-pkgver=0.15.3
+pkgver=0.15.4
 pkgrel=0
 pkgdesc="Plain text note-taking application with CLI interface"
 url="https://github.com/zk-org/zk"
@@ -33,5 +33,5 @@ package() {
 }
 
 sha512sums="
-70ba20b70d34adbbf6924598f2726d3752f34abde14481abc5381d1ce2c322e125c0780c65eb9539de11a8f65a436f96defcb113bb15ba665bad6b6303746fa6  zk-0.15.3.tar.gz
+34063d13da0473ff28292e705ef3061db35590a46b159e0e0ba86d7ceafdbb84311ad0692631d55182b2f75ea9be12f710e05e42fc802af96444ef06b47ab363  zk-0.15.4.tar.gz
 "
