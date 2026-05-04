@@ -1,7 +1,7 @@
 # Contributor: Coco Liliace <coco@liliace.dev>
 # Maintainer: Coco Liliace <coco@liliace.dev>
 pkgname=xremap-wlr
-pkgver=0.15.3
+pkgver=0.15.5
 pkgrel=0
 pkgdesc="Key remapper for Wayland"
 url="https://github.com/k0kubun/xremap"
@@ -34,5 +34,5 @@ package() {
 }
 
 sha512sums="
-a52002cf45cd7cb5e2c53a644c5dbaafa2506afdb4611bda6ace9aa7c0db173b30ac29136cebaea2f9a1ac69c2f5fe0ba837bea0921577f3b2d6e32e864d02d1  xremap-wlr-0.15.3.tar.gz
+09b0d9224f189347301b74e73c892ad651098b6f04bf5fccc87cfd4731bc5c25e25b1ca336833b1bf1075e969415a0fc298ef0dc2e90c4983e5b8c3aa014ac2a  xremap-wlr-0.15.5.tar.gz
 "
